@@ -7,6 +7,16 @@ const CACHE_PATH = path.join(__dirname, '..', 'data', 'ai-cache.json');
 const RATE_LIMIT_DELAY_MS = 500;
 let lastCallTime = 0;
 
+/** Text tasks (normalize, promo). Override with OPENAI_MODEL. */
+function getTextModel(): string {
+  return process.env.OPENAI_MODEL || 'gpt-5.5';
+}
+
+/** Vision tasks (receipt OCR). Override with OPENAI_VISION_MODEL. */
+function getVisionModel(): string {
+  return process.env.OPENAI_VISION_MODEL || process.env.OPENAI_MODEL || 'gpt-5.5';
+}
+
 function ensureCacheFile(): void {
   const dir = path.dirname(CACHE_PATH);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
@@ -84,7 +94,7 @@ export async function normalizeProductWithAI(rawProductName: string): Promise<No
   try {
     const openai = new OpenAI({ apiKey });
     const completion = await openai.chat.completions.create({
-      model: 'gpt-4o-mini',
+      model: getTextModel(),
       messages: [
         {
           role: 'system',
@@ -133,7 +143,7 @@ export async function interpretPromoWithAI(promoText: string): Promise<{ type: s
   try {
     const openai = new OpenAI({ apiKey });
     const completion = await openai.chat.completions.create({
-      model: 'gpt-4o-mini',
+      model: getTextModel(),
       messages: [
         {
           role: 'system',
@@ -198,7 +208,7 @@ export async function parseReceiptImageWithAI(
   try {
     const openai = new OpenAI({ apiKey });
     const completion = await openai.chat.completions.create({
-      model: 'gpt-4o-mini',
+      model: getVisionModel(),
       messages: [
         { role: 'system', content: RECEIPT_PARSE_PROMPT },
         {

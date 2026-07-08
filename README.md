@@ -71,7 +71,9 @@ Product JSON is baked into the image at `dist/data/` during `npm run build`.
 |----------|----------|--------|
 | `ALLOWED_ORIGINS` | Yes | `https://compears.shop,https://www.compears.shop` |
 | `SCRAPE_API_KEY` | Yes | Long random string; send as `x-api-key` on scrape routes |
-| `OPENAI_API_KEY` | No | AI normalization / promo interpretation |
+| `OPENAI_API_KEY` | No | AI normalization, promo interpretation, receipt OCR |
+| `OPENAI_MODEL` | No | Text AI model (default `gpt-5.5`) |
+| `OPENAI_VISION_MODEL` | No | Receipt image model (default `gpt-5.5`) |
 
 **Note:** Playwright scrapers (`POST /scrape/:store`) are not suitable on Render’s free tier (no browser, ephemeral disk). Use the data-wrangling pipeline + `npm run seed` locally or via CI, then commit updated `src/data/*.json`.
 
