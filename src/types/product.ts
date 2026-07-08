@@ -2,8 +2,10 @@
  * Promotion types for effective price calculation.
  */
 export type PromoType =
-  | 'BOGO'           // Buy one get one (free) → price / 2
+  | 'BOGO'           // 1+1 gratis → price / 2
   | 'SECOND_FREE'    // Second free → price / 2
+  | 'SECOND_HALF'    // 2e halve prijs → ~75% of shelf price per item (pair)
+  | 'BUNDLE_FREE'    // e.g. 2+1 gratis → pay promoValue of promoQuantity items
   | 'PERCENTAGE'     // e.g. 25% off → price * (1 - promoValue)
   | 'MULTI_BUY'      // e.g. 3 for €5 → per-unit from promoValue
   | null;

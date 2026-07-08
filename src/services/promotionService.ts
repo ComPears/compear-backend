@@ -17,6 +17,13 @@ export function computeEffectivePrice(
     case 'BOGO':
     case 'SECOND_FREE':
       return price / 2;
+    case 'SECOND_HALF':
+      return price * (promoValue ?? 0.75);
+    case 'BUNDLE_FREE':
+      if (promoValue != null && promoQuantity != null && promoQuantity > 0) {
+        return price * (promoValue / promoQuantity);
+      }
+      return price;
     case 'PERCENTAGE':
       if (promoValue == null) return price;
       return price * (1 - promoValue);

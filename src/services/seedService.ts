@@ -1,3 +1,4 @@
+import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
 import { PromoType, Product, ScrapedProduct } from '../types';
@@ -58,18 +59,46 @@ function parseWeightFromSize(s: string): number | null {
   return null;
 }
 
+function normalizePromoText(o: string): string {
+  return o
+    .toLowerCase()
+    .replace(/\u200b/g, '')
+    .replace(/vandaag|vanaf\s+\w+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function parsePromoText(o?: string): {
   promoType: PromoType;
   promoValue: number | null;
   promoQuantity: number | null;
 } {
+  const empty = { promoType: null, promoValue: null, promoQuantity: null };
   if (!o?.trim()) {
-    return { promoType: null, promoValue: null, promoQuantity: null };
+    return empty;
   }
 
-  const text = o.toLowerCase();
+  const text = normalizePromoText(o);
 
-  if (/1\s*\+\s*1|2e\s*gratis|tweede\s*gratis|2\s*e\s*product\s*gratis/.test(text)) {
+  const bundleFree = text.match(/(\d+)\s*\+\s*(\d+)\s*gratis/);
+  if (bundleFree) {
+    const pay = parseInt(bundleFree[1], 10);
+    const free = parseInt(bundleFree[2], 10);
+    const total = pay + free;
+    if (pay > 0 && total > pay) {
+      return { promoType: 'BUNDLE_FREE', promoValue: pay, promoQuantity: total };
+    }
+  }
+
+  if (/1\s*\+\s*1|1\+1/.test(text) && /gratis/.test(text)) {
+    return { promoType: 'BOGO', promoValue: null, promoQuantity: null };
+  }
+
+  if (/2e\s*halve\s*prijs|2e\s*50\s*%\s*korting|2\s*\+\s*1\s*50/.test(text)) {
+    return { promoType: 'SECOND_HALF', promoValue: 0.75, promoQuantity: 2 };
+  }
+
+  if (/2e\s*gratis|tweede\s*gratis|2\s*e\s*product\s*gratis/.test(text)) {
     return { promoType: 'BOGO', promoValue: null, promoQuantity: null };
   }
 
@@ -91,7 +120,16 @@ function parsePromoText(o?: string): {
     };
   }
 
-  return { promoType: null, promoValue: null, promoQuantity: null };
+  return empty;
+}
+
+function stableProductId(storeSlug: StoreSlug, productName: string, size: string): string {
+  const hash = crypto
+    .createHash('sha1')
+    .update(`${storeSlug}|${productName}|${size}`)
+    .digest('hex')
+    .slice(0, 12);
+  return `${storeSlug}-${hash}`;
 }
 
 function resolveProductUrl(legacy: LegacyProduct): string | null {
@@ -174,7 +212,7 @@ export function seedStoreFromWrangling(
     if (!scraped.productUrl) report.missingUrl += 1;
     if (scraped.promoType) report.withPromo += 1;
 
-    const id = `${storeSlug}-${Date.now()}-${i}`;
+    const id = stableProductId(storeSlug, scraped.productName, scraped.packageSize);
     const canonicalName = simpleCanonicalName(scraped.productName);
     products.push(toProduct(scraped, id, canonicalName));
   }
