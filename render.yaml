@@ -1,0 +1,25 @@
+# Render Blueprint — deploy from the Render dashboard or CLI:
+#   render blueprint apply
+#
+# If backend lives in a monorepo, set rootDir to the backend folder in the
+# Render dashboard (e.g. backend) instead of using this file as-is.
+
+services:
+  - type: web
+    name: compears-api
+    runtime: node
+    region: frankfurt
+    plan: free
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: SCRAPE_API_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false
