@@ -8,6 +8,7 @@ import { storesRouter } from './routes/stores';
 import { dealsRouter } from './routes/deals';
 import { scrapeRouter } from './routes/scrape';
 import { compareRouter } from './routes/compare';
+import { receiptsRouter } from './routes/receipts';
 import { notFoundHandler, errorHandler } from './middleware/errorHandler';
 
 const app = express();
@@ -50,6 +51,7 @@ app.use('/products', productsRouter);
 app.use('/deals', dealsRouter);
 app.use('/scrape', scrapeRouter);
 app.use('/compare', compareRouter);
+app.use('/receipts', receiptsRouter);
 
 app.get('/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });

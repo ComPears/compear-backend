@@ -48,6 +48,21 @@ export interface NormalizedProduct {
   keywords: string[];
 }
 
+export interface ParsedReceiptLine {
+  rawName: string;
+  quantity: number;
+  unitPrice: number | null;
+  lineTotal: number;
+}
+
+export interface ParsedReceiptData {
+  store: string | null;
+  purchaseDate: string | null;
+  currency: string;
+  items: ParsedReceiptLine[];
+  receiptTotal: number | null;
+}
+
 /**
  * Call OpenAI to normalize a raw product string. Cached by input key.
  */
@@ -139,6 +154,96 @@ export async function interpretPromoWithAI(promoText: string): Promise<{ type: s
     return parsed;
   } catch (e) {
     logger.error('AI promo interpret failed', promoText, e);
+    return null;
+  }
+}
+
+const RECEIPT_PARSE_PROMPT = `You extract structured data from Dutch supermarket receipt photos.
+Return JSON only with:
+- store: supermarket name if visible (AH, Albert Heijn, Jumbo, Lidl, Aldi, Dirk, Plus, Coop) or null
+- purchaseDate: ISO date YYYY-MM-DD if visible, else null
+- currency: always "EUR"
+- receiptTotal: total amount paid if visible, else null
+- items: array of { rawName, quantity, unitPrice, lineTotal }
+  - rawName: product name as printed
+  - quantity: number (default 1)
+  - unitPrice: price per unit if shown, else null
+  - lineTotal: line total price as number
+
+Ignore payment info, loyalty points, and subtotals that are not product lines.`;
+
+/**
+ * Parse a receipt image with OpenAI vision. Cached by image hash.
+ */
+export async function parseReceiptImageWithAI(
+  imageBase64: string,
+  mimeType: string
+): Promise<ParsedReceiptData | null> {
+  const crypto = await import('crypto');
+  const imageHash = crypto.createHash('sha256').update(imageBase64).digest('hex').slice(0, 16);
+  const cacheKey = `receipt:${imageHash}`;
+  const cache = loadCache();
+  if (cache[cacheKey] != null) {
+    return cache[cacheKey] as ParsedReceiptData;
+  }
+
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    logger.warn('OPENAI_API_KEY not set; cannot parse receipt');
+    return null;
+  }
+
+  await rateLimit();
+
+  try {
+    const openai = new OpenAI({ apiKey });
+    const completion = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
+      messages: [
+        { role: 'system', content: RECEIPT_PARSE_PROMPT },
+        {
+          role: 'user',
+          content: [
+            {
+              type: 'text',
+              text: 'Extract all product line items from this Dutch supermarket receipt.',
+            },
+            {
+              type: 'image_url',
+              image_url: {
+                url: `data:${mimeType};base64,${imageBase64}`,
+              },
+            },
+          ],
+        },
+      ],
+      response_format: { type: 'json_object' },
+      temperature: 0.1,
+      max_tokens: 4000,
+    });
+
+    const content = completion.choices[0]?.message?.content;
+    if (!content) return null;
+
+    const parsed = JSON.parse(content) as ParsedReceiptData;
+    if (!Array.isArray(parsed.items) || parsed.items.length === 0) return null;
+
+    parsed.currency = parsed.currency || 'EUR';
+    parsed.items = parsed.items
+      .filter((item) => item?.rawName?.trim())
+      .map((item) => ({
+        rawName: String(item.rawName).trim(),
+        quantity: Math.max(1, Number(item.quantity) || 1),
+        unitPrice: item.unitPrice != null ? Number(item.unitPrice) : null,
+        lineTotal: Number(item.lineTotal) || 0,
+      }))
+      .filter((item) => item.lineTotal > 0 || item.unitPrice != null);
+
+    cache[cacheKey] = parsed;
+    saveCache(cache);
+    return parsed;
+  } catch (e) {
+    logger.error('AI receipt parse failed', e);
     return null;
   }
 }
