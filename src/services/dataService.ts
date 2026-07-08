@@ -1,10 +1,30 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { Product } from '../types';
+import { Product, ProductCategory } from '../types';
 import { STORE_SLUGS, StoreSlug, getDataFileName } from '../config/stores';
 import { logger } from '../utils/logger';
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+
+const VALID_CATEGORIES = new Set<ProductCategory>([
+  'Fruits & Vegetables',
+  'Dairy & Eggs',
+  'Meat & Seafood',
+  'Beverages',
+  'Bakery',
+  'Snacks',
+  'Frozen Foods',
+  'Pantry',
+  'Personal Care',
+  'Household',
+  'Other',
+]);
+
+function normalizeProduct(raw: Product): Product {
+  const category =
+    raw.category && VALID_CATEGORIES.has(raw.category) ? raw.category : 'Other';
+  return { ...raw, category };
+}
 
 function ensureDataDir(): void {
   if (!fs.existsSync(DATA_DIR)) {
@@ -29,7 +49,8 @@ export function loadStoreProducts(storeSlug: StoreSlug): Product[] {
   try {
     const raw = fs.readFileSync(filePath, 'utf-8');
     const data = JSON.parse(raw);
-    return Array.isArray(data) ? data : [];
+    if (!Array.isArray(data)) return [];
+    return data.map((item) => normalizeProduct(item as Product));
   } catch (e) {
     logger.error('Failed to load store products', storeSlug, e);
     return [];

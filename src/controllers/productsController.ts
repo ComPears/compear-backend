@@ -3,13 +3,28 @@ import { loadAllProducts, loadStoreProducts, getProductById } from '../services/
 import { STORE_SLUGS, StoreSlug } from '../config/stores';
 import { buildSearchCacheKey, getCached, setCached } from '../utils/searchCache';
 import { searchProducts } from '../ai/semanticSearch';
-import { Product } from '../types';
+import { Product, ProductCategory } from '../types';
+
+const VALID_CATEGORIES = new Set<ProductCategory>([
+  'Fruits & Vegetables',
+  'Dairy & Eggs',
+  'Meat & Seafood',
+  'Beverages',
+  'Bakery',
+  'Snacks',
+  'Frozen Foods',
+  'Pantry',
+  'Personal Care',
+  'Household',
+  'Other',
+]);
 
 export function listProducts(req: Request, res: Response): void {
   try {
     const search = (req.query.search as string)?.trim();
     const store = req.query.store as string | undefined;
-    const cacheKey = buildSearchCacheKey(search, store);
+    const category = req.query.category as string | undefined;
+    const cacheKey = buildSearchCacheKey(search, store, category);
     const cached = getCached<Product[]>(cacheKey);
     if (cached) {
       res.json(cached);
@@ -23,6 +38,10 @@ export function listProducts(req: Request, res: Response): void {
       products = searchProducts(search, 100, source);
     } else {
       products = store ? loadStoreProducts(store as StoreSlug) : loadAllProducts();
+    }
+
+    if (category && VALID_CATEGORIES.has(category as ProductCategory)) {
+      products = products.filter((p) => p.category === category);
     }
 
     setCached(cacheKey, products);

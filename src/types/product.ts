@@ -10,6 +10,19 @@ export type PromoType =
   | 'MULTI_BUY'      // e.g. 3 for €5 → per-unit from promoValue
   | null;
 
+export type ProductCategory =
+  | 'Fruits & Vegetables'
+  | 'Dairy & Eggs'
+  | 'Meat & Seafood'
+  | 'Beverages'
+  | 'Bakery'
+  | 'Snacks'
+  | 'Frozen Foods'
+  | 'Pantry'
+  | 'Personal Care'
+  | 'Household'
+  | 'Other';
+
 export interface Product {
   id: string;
   canonicalName: string;
@@ -29,6 +42,7 @@ export interface Product {
   promoValidUntil: string | null;
   productUrl: string | null;
   scrapedAt: string;
+  category: ProductCategory;
 }
 
 export interface ProductWithStore extends Product {
@@ -52,6 +66,7 @@ export interface ScrapedProduct {
   store: string;
   productUrl?: string | null;
   scrapedAt: string;
+  category?: ProductCategory | null;
 }
 
 export interface StoreInfo {

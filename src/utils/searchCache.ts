@@ -35,6 +35,10 @@ export function setCached<T>(key: string, value: T): void {
   prune();
 }
 
-export function buildSearchCacheKey(search: string | undefined, store: string | undefined): string {
-  return `products:${(store ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}`;
+export function buildSearchCacheKey(
+  search: string | undefined,
+  store: string | undefined,
+  category?: string
+): string {
+  return `products:${(store ?? 'all').toLowerCase()}:${(category ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}`;
 }

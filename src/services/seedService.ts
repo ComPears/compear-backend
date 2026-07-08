@@ -1,7 +1,7 @@
 import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
-import { PromoType, Product, ScrapedProduct } from '../types';
+import { PromoType, Product, ProductCategory, ScrapedProduct } from '../types';
 import { toProduct } from './promotionService';
 import { simpleCanonicalName } from '../utils/canonicalName';
 import { saveStoreProducts } from './dataService';
@@ -15,6 +15,28 @@ interface LegacyProduct {
   s?: string;
   l?: string;
   i?: string;
+  c?: string;
+}
+
+const VALID_CATEGORIES = new Set<ProductCategory>([
+  'Fruits & Vegetables',
+  'Dairy & Eggs',
+  'Meat & Seafood',
+  'Beverages',
+  'Bakery',
+  'Snacks',
+  'Frozen Foods',
+  'Pantry',
+  'Personal Care',
+  'Household',
+  'Other',
+]);
+
+function parseCategory(value?: string): ProductCategory {
+  if (value && VALID_CATEGORIES.has(value as ProductCategory)) {
+    return value as ProductCategory;
+  }
+  return 'Other';
 }
 
 export interface SeedReport {
@@ -161,6 +183,7 @@ function legacyToScraped(legacy: LegacyProduct, store: string): ScrapedProduct |
     store,
     productUrl: resolveProductUrl(legacy),
     scrapedAt,
+    category: parseCategory(legacy.c),
   };
 }
 

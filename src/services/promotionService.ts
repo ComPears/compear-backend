@@ -91,5 +91,6 @@ export function toProduct(scraped: ScrapedProduct, id: string, canonicalName: st
     promoValidUntil: scraped.promoValidUntil ?? null,
     productUrl: scraped.productUrl ?? null,
     scrapedAt: scraped.scrapedAt,
+    category: scraped.category ?? 'Other',
   };
 }
