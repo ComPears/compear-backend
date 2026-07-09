@@ -92,5 +92,6 @@ export function toProduct(scraped: ScrapedProduct, id: string, canonicalName: st
     productUrl: scraped.productUrl ?? null,
     scrapedAt: scraped.scrapedAt,
     category: scraped.category ?? 'Other',
+    barcode: scraped.barcode ?? null,
   };
 }

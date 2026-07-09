@@ -1,8 +1,10 @@
 import { Request, Response } from 'express';
 import { loadAllProducts, loadStoreProducts, getProductById } from '../services/dataService';
-import { STORE_SLUGS, StoreSlug } from '../config/stores';
+import { StoreSlug, getStoreDisplayName } from '../config/stores';
 import { buildSearchCacheKey, getCached, setCached } from '../utils/searchCache';
 import { searchProducts } from '../ai/semanticSearch';
+import { getProductsByBarcode } from '../services/barcodeService';
+import { normalizeBarcode } from '../utils/barcode';
 import { Product, ProductCategory } from '../types';
 
 const VALID_CATEGORIES = new Set<ProductCategory>([
@@ -24,7 +26,10 @@ export function listProducts(req: Request, res: Response): void {
     const search = (req.query.search as string)?.trim();
     const store = req.query.store as string | undefined;
     const category = req.query.category as string | undefined;
-    const cacheKey = buildSearchCacheKey(search, store, category);
+    const barcodeRaw = (req.query.barcode as string)?.trim();
+    const barcode = barcodeRaw ? normalizeBarcode(barcodeRaw) : null;
+
+    const cacheKey = buildSearchCacheKey(search, store, category, barcode ?? undefined);
     const cached = getCached<Product[]>(cacheKey);
     if (cached) {
       res.json(cached);
@@ -33,7 +38,15 @@ export function listProducts(req: Request, res: Response): void {
 
     let products: Product[];
 
-    if (search) {
+    if (barcode) {
+      products = getProductsByBarcode(barcode);
+      if (store) {
+        const storeName = getStoreDisplayName(store as StoreSlug);
+        if (storeName) {
+          products = products.filter((p) => p.store === storeName);
+        }
+      }
+    } else if (search) {
       const source = store ? loadStoreProducts(store as StoreSlug) : undefined;
       products = searchProducts(search, 100, source);
     } else {

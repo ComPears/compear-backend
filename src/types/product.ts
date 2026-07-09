@@ -43,6 +43,7 @@ export interface Product {
   productUrl: string | null;
   scrapedAt: string;
   category: ProductCategory;
+  barcode: string | null;
 }
 
 export interface ProductWithStore extends Product {
@@ -67,6 +68,7 @@ export interface ScrapedProduct {
   productUrl?: string | null;
   scrapedAt: string;
   category?: ProductCategory | null;
+  barcode?: string | null;
 }
 
 export interface StoreInfo {

@@ -3,6 +3,8 @@ import * as path from 'path';
 import { Product, ProductCategory } from '../types';
 import { STORE_SLUGS, StoreSlug, getDataFileName } from '../config/stores';
 import { logger } from '../utils/logger';
+import { invalidateBarcodeIndex } from './barcodeService';
+import { normalizeBarcode } from '../utils/barcode';
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
@@ -23,7 +25,8 @@ const VALID_CATEGORIES = new Set<ProductCategory>([
 function normalizeProduct(raw: Product): Product {
   const category =
     raw.category && VALID_CATEGORIES.has(raw.category) ? raw.category : 'Other';
-  return { ...raw, category };
+  const barcode = raw.barcode ? normalizeBarcode(raw.barcode) : null;
+  return { ...raw, category, barcode: barcode ?? null };
 }
 
 function ensureDataDir(): void {
@@ -64,6 +67,7 @@ export function saveStoreProducts(storeSlug: StoreSlug, products: Product[]): vo
   ensureDataDir();
   const filePath = getFilePath(storeSlug);
   fs.writeFileSync(filePath, JSON.stringify(products, null, 2), 'utf-8');
+  invalidateBarcodeIndex();
   logger.info('Saved', products.length, 'products to', filePath);
 }
 

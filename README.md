@@ -35,7 +35,7 @@ All seven data-wrangling stores are supported: **Albert Heijn**, **Jumbo**, **AL
 
 - `GET /health` – Health check
 - `GET /stores` – List stores and product counts
-- `GET /products` – List products (query: `?search=...`, `?store=albert-heijn`)
+- `GET /products` – List products (query: `?search=...`, `?store=albert-heijn`, `?barcode=8710...`)
 - `GET /products/:id` – Get product by id
 - `GET /compare/:canonicalName` – Compare prices across stores for a canonical product name
 - `GET /deals` – Products with active promotions

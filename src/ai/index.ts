@@ -1,4 +1,4 @@
-export { normalizeProductWithAI, interpretPromoWithAI, type NormalizedProduct } from './aiService';
+export { normalizeProductWithAI, type NormalizedProduct } from './aiService';
 export { normalizeProduct } from './productNormalizer';
 export { interpretPromo } from './promoInterpreter';
 export { clusterByCanonicalName, getAllClusters } from './productClusterer';

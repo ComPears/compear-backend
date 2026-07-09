@@ -61,6 +61,10 @@ export function getStoreBySlug(slug: string): StoreInfo | undefined {
   return STORES[slug as StoreSlug];
 }
 
+export function getStoreDisplayName(slug: StoreSlug): string | null {
+  return STORES[slug]?.name ?? null;
+}
+
 export function getDataFileName(slug: StoreSlug): string {
   return `${slug}.json`;
 }

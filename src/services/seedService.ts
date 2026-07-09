@@ -4,6 +4,7 @@ import * as path from 'path';
 import { PromoType, Product, ProductCategory, ScrapedProduct } from '../types';
 import { toProduct } from './promotionService';
 import { simpleCanonicalName } from '../utils/canonicalName';
+import { extractBarcodeFromText, normalizeBarcode } from '../utils/barcode';
 import { saveStoreProducts } from './dataService';
 import { STORE_SLUGS, StoreSlug } from '../config/stores';
 import { logger } from '../utils/logger';
@@ -16,6 +17,7 @@ interface LegacyProduct {
   l?: string;
   i?: string;
   c?: string;
+  b?: string;
 }
 
 const VALID_CATEGORIES = new Set<ProductCategory>([
@@ -160,6 +162,17 @@ function resolveProductUrl(legacy: LegacyProduct): string | null {
   return candidate;
 }
 
+function resolveBarcode(legacy: LegacyProduct): string | null {
+  if (legacy.b) {
+    return normalizeBarcode(legacy.b);
+  }
+  for (const field of [legacy.l, legacy.i]) {
+    const fromField = extractBarcodeFromText(field);
+    if (fromField) return fromField;
+  }
+  return null;
+}
+
 function legacyToScraped(legacy: LegacyProduct, store: string): ScrapedProduct | null {
   const price = parseLegacyPrice(legacy.p);
   if (price == null) return null;
@@ -184,6 +197,7 @@ function legacyToScraped(legacy: LegacyProduct, store: string): ScrapedProduct |
     productUrl: resolveProductUrl(legacy),
     scrapedAt,
     category: parseCategory(legacy.c),
+    barcode: resolveBarcode(legacy),
   };
 }
 
