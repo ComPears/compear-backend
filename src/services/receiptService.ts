@@ -1,9 +1,8 @@
 import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
-import { ParsedReceiptData } from '../ai/aiService';
+import { ParsedReceiptData, normalizeProductWithAI, AiRateLimitContext } from '../ai/aiService';
 import { searchProducts } from '../ai/semanticSearch';
-import { normalizeProductWithAI } from '../ai/aiService';
 import { getProductsByCanonicalName } from './productMatcher';
 import { optimizeShoppingPlan } from '../utils/shoppingOptimizer';
 import { Product } from '../types';
@@ -65,13 +64,16 @@ function linePaidTotals(line: { quantity: number; unitPrice: number | null; line
   return { paidLineTotal, paidUnitPrice };
 }
 
-async function findProductMatches(rawName: string): Promise<{
+async function findProductMatches(
+  rawName: string,
+  aiContext?: AiRateLimitContext
+): Promise<{
   best: Product | null;
   alternatives: Product[];
 }> {
   let results = searchProducts(rawName, 8);
   if (results.length === 0) {
-    const normalized = await normalizeProductWithAI(rawName);
+    const normalized = await normalizeProductWithAI(rawName, aiContext);
     if (normalized?.canonicalName) {
       results = searchProducts(normalized.canonicalName, 8);
       if (results.length === 0) {
@@ -91,7 +93,10 @@ async function findProductMatches(rawName: string): Promise<{
   return { best, alternatives: pool };
 }
 
-export async function analyzeParsedReceipt(parsed: ParsedReceiptData): Promise<ReceiptAnalysis> {
+export async function analyzeParsedReceipt(
+  parsed: ParsedReceiptData,
+  aiContext?: AiRateLimitContext
+): Promise<ReceiptAnalysis> {
   const lines: ReceiptLineMatch[] = [];
   const optimizerItems: Array<{
     name: string;
@@ -100,7 +105,7 @@ export async function analyzeParsedReceipt(parsed: ParsedReceiptData): Promise<R
 
   for (const item of parsed.items) {
     const { paidLineTotal, paidUnitPrice } = linePaidTotals(item);
-    const { best, alternatives } = await findProductMatches(item.rawName);
+    const { best, alternatives } = await findProductMatches(item.rawName, aiContext);
     const cheapestAlternative =
       alternatives.length > 0
         ? [...alternatives].sort((a, b) => a.effectivePrice - b.effectivePrice)[0]

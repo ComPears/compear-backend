@@ -74,6 +74,10 @@ Product JSON is baked into the image at `dist/data/` during `npm run build`.
 | `OPENAI_API_KEY` | No | AI normalization, promo interpretation, receipt OCR |
 | `OPENAI_MODEL` | No | Text AI model (default `gpt-5.5`) |
 | `OPENAI_VISION_MODEL` | No | Receipt image model (default `gpt-5.5`) |
+| `AI_MAX_VISION_PER_USER_HOUR` | No | Receipt uploads per user per hour (default `5`) |
+| `AI_MAX_VISION_PER_USER_DAY` | No | Vision calls per user per day (default `20`) |
+| `AI_MAX_TEXT_PER_RECEIPT` | No | Name-normalization AI calls per receipt (default `15`) |
+| `AI_MAX_GLOBAL_DAY` | No | Total OpenAI calls per day (default `600`) |
 
 **Note:** Playwright scrapers (`POST /scrape/:store`) are not suitable on Render’s free tier (no browser, ephemeral disk). Use the data-wrangling pipeline + `npm run seed` locally or via CI, then commit updated `src/data/*.json`.
 

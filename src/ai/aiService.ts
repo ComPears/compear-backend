@@ -2,10 +2,14 @@ import OpenAI from 'openai';
 import * as fs from 'fs';
 import * as path from 'path';
 import { logger } from '../utils/logger';
+import {
+  acquireAiSlot,
+  AiRateLimitContext,
+  AiRateLimitError,
+  isAiRateLimitError,
+} from './aiRateLimiter';
 
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'ai-cache.json');
-const RATE_LIMIT_DELAY_MS = 500;
-let lastCallTime = 0;
 
 /** Text tasks (normalize, promo). Override with OPENAI_MODEL. */
 function getTextModel(): string {
@@ -40,15 +44,8 @@ function saveCache(cache: Record<string, unknown>): void {
   fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2), 'utf-8');
 }
 
-function rateLimit(): Promise<void> {
-  const now = Date.now();
-  const elapsed = now - lastCallTime;
-  if (elapsed < RATE_LIMIT_DELAY_MS) {
-    return new Promise((r) => setTimeout(r, RATE_LIMIT_DELAY_MS - elapsed));
-  }
-  lastCallTime = Date.now();
-  return Promise.resolve();
-}
+export type { AiRateLimitContext } from './aiRateLimiter';
+export { AiRateLimitError, isAiRateLimitError } from './aiRateLimiter';
 
 export interface NormalizedProduct {
   canonicalName: string;
@@ -76,7 +73,10 @@ export interface ParsedReceiptData {
 /**
  * Call OpenAI to normalize a raw product string. Cached by input key.
  */
-export async function normalizeProductWithAI(rawProductName: string): Promise<NormalizedProduct | null> {
+export async function normalizeProductWithAI(
+  rawProductName: string,
+  context?: AiRateLimitContext
+): Promise<NormalizedProduct | null> {
   const cacheKey = `normalize:${rawProductName.toLowerCase().trim()}`;
   const cache = loadCache();
   if (cache[cacheKey] != null) {
@@ -89,7 +89,15 @@ export async function normalizeProductWithAI(rawProductName: string): Promise<No
     return null;
   }
 
-  await rateLimit();
+  try {
+    await acquireAiSlot('text', context);
+  } catch (error) {
+    if (isAiRateLimitError(error)) {
+      logger.warn('AI normalize rate limited', rawProductName);
+      return null;
+    }
+    throw error;
+  }
 
   try {
     const openai = new OpenAI({ apiKey });
@@ -127,7 +135,10 @@ export async function normalizeProductWithAI(rawProductName: string): Promise<No
 /**
  * Interpret promo text into type and value. Cached.
  */
-export async function interpretPromoWithAI(promoText: string): Promise<{ type: string; value?: number; quantity?: number } | null> {
+export async function interpretPromoWithAI(
+  promoText: string,
+  context?: AiRateLimitContext
+): Promise<{ type: string; value?: number; quantity?: number } | null> {
   if (!promoText || !promoText.trim()) return null;
   const cacheKey = `promo:${promoText.toLowerCase().trim()}`;
   const cache = loadCache();
@@ -138,7 +149,15 @@ export async function interpretPromoWithAI(promoText: string): Promise<{ type: s
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) return null;
 
-  await rateLimit();
+  try {
+    await acquireAiSlot('text', context);
+  } catch (error) {
+    if (isAiRateLimitError(error)) {
+      logger.warn('AI promo interpret rate limited', promoText);
+      return null;
+    }
+    throw error;
+  }
 
   try {
     const openai = new OpenAI({ apiKey });
@@ -187,7 +206,8 @@ Ignore payment info, loyalty points, and subtotals that are not product lines.`;
  */
 export async function parseReceiptImageWithAI(
   imageBase64: string,
-  mimeType: string
+  mimeType: string,
+  context?: AiRateLimitContext
 ): Promise<ParsedReceiptData | null> {
   const crypto = await import('crypto');
   const imageHash = crypto.createHash('sha256').update(imageBase64).digest('hex').slice(0, 16);
@@ -203,7 +223,7 @@ export async function parseReceiptImageWithAI(
     return null;
   }
 
-  await rateLimit();
+  await acquireAiSlot('vision', context);
 
   try {
     const openai = new OpenAI({ apiKey });
@@ -253,6 +273,7 @@ export async function parseReceiptImageWithAI(
     saveCache(cache);
     return parsed;
   } catch (e) {
+    if (isAiRateLimitError(e)) throw e;
     logger.error('AI receipt parse failed', e);
     return null;
   }

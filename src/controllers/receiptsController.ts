@@ -1,5 +1,10 @@
 import { Request, Response } from 'express';
-import { parseReceiptImageWithAI } from '../ai/aiService';
+import * as crypto from 'crypto';
+import {
+  parseReceiptImageWithAI,
+  AiRateLimitContext,
+  isAiRateLimitError,
+} from '../ai/aiService';
 import {
   analyzeParsedReceipt,
   deleteReceipt,
@@ -7,19 +12,11 @@ import {
   listReceipts,
   saveReceipt,
 } from '../services/receiptService';
-
-const USER_ID_PATTERN = /^[a-zA-Z0-9_-]{8,64}$/;
-
-function getUserId(req: Request): string | null {
-  const header = req.header('x-compear-user-id');
-  const body = typeof req.body?.userId === 'string' ? req.body.userId : null;
-  const candidate = (header || body || '').trim();
-  return USER_ID_PATTERN.test(candidate) ? candidate : null;
-}
+import { getUserIdFromRequest } from '../utils/userId';
 
 export async function parseReceipt(req: Request, res: Response): Promise<void> {
   try {
-    const userId = getUserId(req);
+    const userId = getUserIdFromRequest(req);
     if (!userId) {
       res.status(400).json({ error: 'Valid x-compear-user-id header required' });
       return;
@@ -37,8 +34,15 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
       return;
     }
 
+    const receiptSessionId = crypto.randomUUID();
+    const aiContext: AiRateLimitContext = {
+      userId,
+      ip: req.ip,
+      receiptSessionId,
+    };
+
     const imageBase64 = file.buffer.toString('base64');
-    const parsed = await parseReceiptImageWithAI(imageBase64, file.mimetype);
+    const parsed = await parseReceiptImageWithAI(imageBase64, file.mimetype, aiContext);
     if (!parsed) {
       res.status(422).json({
         error: 'Could not read receipt. Check image quality or OPENAI_API_KEY on the server.',
@@ -46,17 +50,23 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
       return;
     }
 
-    const analysis = await analyzeParsedReceipt(parsed);
+    const analysis = await analyzeParsedReceipt(parsed, aiContext);
     const saved = saveReceipt(userId, analysis, file.mimetype);
     res.status(201).json(saved);
   } catch (e) {
+    if (isAiRateLimitError(e)) {
+      const retryAfterSec = Math.ceil(e.retryAfterMs / 1000);
+      res.setHeader('Retry-After', String(retryAfterSec));
+      res.status(429).json({ error: e.message });
+      return;
+    }
     res.status(500).json({ error: 'Internal server error' });
   }
 }
 
 export function getReceipts(req: Request, res: Response): void {
   try {
-    const userId = getUserId(req);
+    const userId = getUserIdFromRequest(req);
     if (!userId) {
       res.status(400).json({ error: 'Valid x-compear-user-id header required' });
       return;
@@ -69,7 +79,7 @@ export function getReceipts(req: Request, res: Response): void {
 
 export function getAnalytics(req: Request, res: Response): void {
   try {
-    const userId = getUserId(req);
+    const userId = getUserIdFromRequest(req);
     if (!userId) {
       res.status(400).json({ error: 'Valid x-compear-user-id header required' });
       return;
@@ -82,7 +92,7 @@ export function getAnalytics(req: Request, res: Response): void {
 
 export function removeReceipt(req: Request, res: Response): void {
   try {
-    const userId = getUserId(req);
+    const userId = getUserIdFromRequest(req);
     if (!userId) {
       res.status(400).json({ error: 'Valid x-compear-user-id header required' });
       return;
