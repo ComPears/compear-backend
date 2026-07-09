@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { PromoType, Product, ProductCategory, ScrapedProduct } from '../types';
 import { toProduct } from './promotionService';
-import { simpleCanonicalName } from '../utils/canonicalName';
+import { sanitizeProductFields, shouldRejectProductName } from '../utils/productSanitize';
 import { extractBarcodeFromText, normalizeBarcode } from '../utils/barcode';
 import { saveStoreProducts } from './dataService';
 import { STORE_SLUGS, StoreSlug } from '../config/stores';
@@ -18,6 +18,10 @@ interface LegacyProduct {
   i?: string;
   c?: string;
   b?: string;
+  cn?: string;
+  ik?: string;
+  bn?: string;
+  wg?: number;
 }
 
 const VALID_CATEGORIES = new Set<ProductCategory>([
@@ -47,6 +51,7 @@ export interface SeedReport {
   totalRows: number;
   seeded: number;
   skippedInvalidPrice: number;
+  skippedRejected: number;
   missingUrl: number;
   withPromo: number;
 }
@@ -67,20 +72,6 @@ function parseLegacyPrice(p: string): number | null {
   const n = parseFloat(normalized);
   if (Number.isNaN(n) || n <= 0) return null;
   return n;
-}
-
-function parseWeightFromSize(s: string): number | null {
-  if (!s) return null;
-  const lower = s.toLowerCase();
-  const gMatch = lower.match(/(\d+(?:[.,]\d+)?)\s*g(?:ram)?/);
-  if (gMatch) return Math.round(parseFloat(gMatch[1].replace(',', '.')));
-  const kgMatch = lower.match(/(\d+(?:[.,]\d+)?)\s*kg/);
-  if (kgMatch) return Math.round(parseFloat(kgMatch[1].replace(',', '.')) * 1000);
-  const mlMatch = lower.match(/(\d+(?:[.,]\d+)?)\s*ml/);
-  if (mlMatch) return Math.round(parseFloat(mlMatch[1].replace(',', '.')));
-  const lMatch = lower.match(/(\d+(?:[.,]\d+)?)\s*l(?:iter)?(?!\w)/);
-  if (lMatch) return Math.round(parseFloat(lMatch[1].replace(',', '.')) * 1000);
-  return null;
 }
 
 function normalizePromoText(o: string): string {
@@ -177,15 +168,29 @@ function legacyToScraped(legacy: LegacyProduct, store: string): ScrapedProduct |
   const price = parseLegacyPrice(legacy.p);
   if (price == null) return null;
 
+  const rawName = legacy.n?.trim() ?? '';
+  if (shouldRejectProductName(rawName)) return null;
+
+  const barcode = resolveBarcode(legacy);
   const size = legacy.s || 'stuk';
-  const weightInGrams = parseWeightFromSize(size);
+  const sanitized = sanitizeProductFields(rawName, size, barcode, {
+    canonicalName: legacy.cn,
+    identityKey: legacy.ik,
+    brand: legacy.bn ?? null,
+    weightInGrams: legacy.wg ?? null,
+    packageSize: size,
+    productName: rawName,
+  });
+  if (!sanitized) return null;
+
   const promo = parsePromoText(legacy.o);
   const scrapedAt = new Date().toISOString();
+  const weightInGrams = sanitized.weightInGrams;
 
   return {
-    productName: legacy.n,
-    brand: null,
-    packageSize: size,
+    productName: sanitized.productName,
+    brand: sanitized.brand,
+    packageSize: sanitized.packageSize,
     weightInGrams,
     price,
     unitPrice: weightInGrams ? price / (weightInGrams / 1000) : price,
@@ -197,7 +202,9 @@ function legacyToScraped(legacy: LegacyProduct, store: string): ScrapedProduct |
     productUrl: resolveProductUrl(legacy),
     scrapedAt,
     category: parseCategory(legacy.c),
-    barcode: resolveBarcode(legacy),
+    barcode,
+    identityKey: sanitized.identityKey,
+    canonicalName: sanitized.canonicalName,
   };
 }
 
@@ -218,6 +225,7 @@ export function seedStoreFromWrangling(
     totalRows: 0,
     seeded: 0,
     skippedInvalidPrice: 0,
+    skippedRejected: 0,
     missingUrl: 0,
     withPromo: 0,
   };
@@ -242,7 +250,11 @@ export function seedStoreFromWrangling(
     const item = arr[i];
     const scraped = legacyToScraped(item, storeName);
     if (!scraped) {
-      report.skippedInvalidPrice += 1;
+      if (item.n && shouldRejectProductName(item.n)) {
+        report.skippedRejected += 1;
+      } else {
+        report.skippedInvalidPrice += 1;
+      }
       continue;
     }
 
@@ -250,14 +262,24 @@ export function seedStoreFromWrangling(
     if (scraped.promoType) report.withPromo += 1;
 
     const id = stableProductId(storeSlug, scraped.productName, scraped.packageSize);
-    const canonicalName = simpleCanonicalName(scraped.productName);
-    products.push(toProduct(scraped, id, canonicalName));
+    products.push(
+      toProduct(
+        scraped,
+        id,
+        scraped.canonicalName ?? sanitizedFallbackName(scraped.productName),
+        scraped.identityKey ?? id
+      )
+    );
   }
 
   saveStoreProducts(storeSlug, products);
   report.seeded = products.length;
   logger.info('Seeded', products.length, 'products for', storeSlug);
   return report;
+}
+
+function sanitizedFallbackName(name: string): string {
+  return name.toLowerCase().replace(/\s+/g, ' ').trim();
 }
 
 export function seedAllStoresFromWrangling(wranglingPath = getWranglingPath()): SeedReport[] {

@@ -58,7 +58,12 @@ export function computeEffectiveUnitPrice(
 /**
  * Turn a scraped product into a full Product with id, canonicalName, effectivePrice, effectiveUnitPrice.
  */
-export function toProduct(scraped: ScrapedProduct, id: string, canonicalName: string): Product {
+export function toProduct(
+  scraped: ScrapedProduct,
+  id: string,
+  canonicalName: string,
+  identityKey: string
+): Product {
   const price = scraped.price;
   const unitPrice = scraped.unitPrice ?? price;
   const promoType = scraped.promoType ?? null;
@@ -93,5 +98,6 @@ export function toProduct(scraped: ScrapedProduct, id: string, canonicalName: st
     scrapedAt: scraped.scrapedAt,
     category: scraped.category ?? 'Other',
     barcode: scraped.barcode ?? null,
+    identityKey,
   };
 }

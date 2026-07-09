@@ -65,7 +65,7 @@ Product JSON is baked into the image at `dist/data/` during `npm run build`.
    - **Start command:** `npm start`
    - **Health check path:** `/health`
 3. Set environment variables (see `.env.example`). Render sets `PORT` automatically.
-4. After deploy, set on Netlify: `REACT_APP_API_URL=https://<your-render-service>.onrender.com`
+4. After deploy, set on Netlify: `VITE_API_URL=https://<your-render-service>.onrender.com`
 
 | Variable | Required | Notes |
 |----------|----------|--------|

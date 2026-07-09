@@ -26,7 +26,10 @@ function normalizeProduct(raw: Product): Product {
   const category =
     raw.category && VALID_CATEGORIES.has(raw.category) ? raw.category : 'Other';
   const barcode = raw.barcode ? normalizeBarcode(raw.barcode) : null;
-  return { ...raw, category, barcode: barcode ?? null };
+  const identityKey =
+    raw.identityKey ||
+    (barcode ? `ean:${barcode}` : `tok:unknown|${raw.canonicalName}|na`);
+  return { ...raw, category, barcode: barcode ?? null, identityKey };
 }
 
 function ensureDataDir(): void {

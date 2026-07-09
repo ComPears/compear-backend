@@ -2,7 +2,7 @@ import { chromium, Browser, Page } from 'playwright';
 import * as path from 'path';
 import { ScrapedProduct } from '../types';
 import { toProduct } from '../services/promotionService';
-import { simpleCanonicalName } from '../utils/canonicalName';
+import { simpleCanonicalName, sanitizeProductFields } from '../utils/canonicalName';
 import { saveStoreProducts } from '../services/dataService';
 import { logger } from '../utils/logger';
 import { Product } from '../types';
@@ -155,8 +155,14 @@ export async function runAlbertHeijnScraper(): Promise<number> {
 
   const products: Product[] = allScraped.map((s, i) => {
     const id = `ah-${Date.now()}-${i}`;
-    const canonicalName = simpleCanonicalName(s.productName);
-    return toProduct(s, id, canonicalName);
+    const fields = sanitizeProductFields(
+      s.productName,
+      s.packageSize ?? 'stuk',
+      s.barcode ?? null
+    );
+    const canonicalName = fields?.canonicalName ?? simpleCanonicalName(s.productName);
+    const identityKey = fields?.identityKey ?? canonicalName;
+    return toProduct(s, id, canonicalName, identityKey);
   });
 
   saveStoreProducts('albert-heijn', products);

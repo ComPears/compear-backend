@@ -44,6 +44,8 @@ export interface Product {
   scrapedAt: string;
   category: ProductCategory;
   barcode: string | null;
+  /** Stable cross-store product key (EAN or token-sorted name + size) */
+  identityKey: string;
 }
 
 export interface ProductWithStore extends Product {
@@ -69,6 +71,8 @@ export interface ScrapedProduct {
   scrapedAt: string;
   category?: ProductCategory | null;
   barcode?: string | null;
+  canonicalName?: string | null;
+  identityKey?: string | null;
 }
 
 export interface StoreInfo {
