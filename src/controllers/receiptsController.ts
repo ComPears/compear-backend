@@ -13,6 +13,10 @@ import {
   saveReceipt,
 } from '../services/receiptService';
 import { getUserIdFromRequest } from '../utils/userId';
+import {
+  prepareReceiptImageForVision,
+  ReceiptImageError,
+} from '../utils/receiptImage';
 
 export async function parseReceipt(req: Request, res: Response): Promise<void> {
   try {
@@ -41,17 +45,35 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
       receiptSessionId,
     };
 
-    const imageBase64 = file.buffer.toString('base64');
-    const parsed = await parseReceiptImageWithAI(imageBase64, file.mimetype, aiContext);
+    let visionImage;
+    try {
+      visionImage = await prepareReceiptImageForVision(file.buffer, file.mimetype);
+    } catch (error) {
+      if (error instanceof ReceiptImageError) {
+        res.status(422).json({ error: error.message });
+        return;
+      }
+      throw error;
+    }
+
+    const imageBase64 = visionImage.buffer.toString('base64');
+    const parsed = await parseReceiptImageWithAI(
+      imageBase64,
+      visionImage.mimeType,
+      aiContext
+    );
     if (!parsed) {
+      const missingKey = !process.env.OPENAI_API_KEY;
       res.status(422).json({
-        error: 'Could not read receipt. Check image quality or OPENAI_API_KEY on the server.',
+        error: missingKey
+          ? 'Receipt OCR is not configured on the server (OPENAI_API_KEY missing).'
+          : 'Could not read this receipt. Try a clearer, well-lit photo with the full bon visible.',
       });
       return;
     }
 
     const analysis = await analyzeParsedReceipt(parsed, aiContext);
-    const saved = saveReceipt(userId, analysis, file.mimetype);
+    const saved = saveReceipt(userId, analysis, visionImage.mimeType);
     res.status(201).json(saved);
   } catch (e) {
     if (isAiRateLimitError(e)) {
