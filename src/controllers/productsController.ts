@@ -35,6 +35,11 @@ export function listProducts(req: Request, res: Response): void {
     const labelsRaw = req.query.labels as string | undefined;
     const labels = parseLabelsParam(labelsRaw);
 
+    if (barcodeRaw && !barcode) {
+      res.json([]);
+      return;
+    }
+
     const cacheKey = buildSearchCacheKey(search, store, category, barcode ?? undefined, labelsRaw, country);
     const cached = getCached<Product[]>(cacheKey);
     if (cached) {

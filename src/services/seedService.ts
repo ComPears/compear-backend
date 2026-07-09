@@ -57,6 +57,8 @@ export interface SeedReport {
   sourceFile: string;
   totalRows: number;
   seeded: number;
+  withBarcodeInSource: number;
+  seededWithBarcode: number;
   skippedInvalidPrice: number;
   skippedRejected: number;
   missingUrl: number;
@@ -81,7 +83,9 @@ export function seedAllStoresFromWrangling(
   }
 
   const total = reports.reduce((sum, r) => sum + r.seeded, 0);
+  const totalBarcodes = reports.reduce((sum, r) => sum + r.seededWithBarcode, 0);
   logger.info(`Total products seeded for ${country}:`, total);
+  logger.info(`Total with barcode for ${country}:`, totalBarcodes);
   return reports;
 }
 
@@ -244,6 +248,8 @@ export function seedStoreFromWrangling(
     sourceFile: filePath,
     totalRows: 0,
     seeded: 0,
+    withBarcodeInSource: 0,
+    seededWithBarcode: 0,
     skippedInvalidPrice: 0,
     skippedRejected: 0,
     missingUrl: 0,
@@ -263,6 +269,10 @@ export function seedStoreFromWrangling(
   }
 
   report.totalRows = arr.length;
+  for (const item of arr) {
+    if (resolveBarcode(item)) report.withBarcodeInSource += 1;
+  }
+
   const limit = maxProducts && maxProducts > 0 ? maxProducts : arr.length;
   const products: Product[] = [];
 
@@ -282,19 +292,27 @@ export function seedStoreFromWrangling(
     if (scraped.promoType) report.withPromo += 1;
 
     const id = stableProductId(storeSlug, scraped.productName, scraped.packageSize);
-    products.push(
-      toProduct(
-        scraped,
-        id,
-        scraped.canonicalName ?? sanitizedFallbackName(scraped.productName),
-        scraped.identityKey ?? id
-      )
+    const product = toProduct(
+      scraped,
+      id,
+      scraped.canonicalName ?? sanitizedFallbackName(scraped.productName),
+      scraped.identityKey ?? id
     );
+    if (product.barcode) report.seededWithBarcode += 1;
+    products.push(product);
   }
 
   saveStoreProducts(storeSlug, products, country);
   report.seeded = products.length;
-  logger.info('Seeded', products.length, 'products for', storeSlug);
+  const barcodePct =
+    report.seeded > 0 ? Math.round((100 * report.seededWithBarcode) / report.seeded) : 0;
+  logger.info(
+    'Seeded',
+    products.length,
+    'products for',
+    storeSlug,
+    `(${report.seededWithBarcode} with barcode, ${barcodePct}%)`
+  );
   return report;
 }
 
