@@ -43,6 +43,9 @@ jobs:
           WRANGLING_PATH: ${{ github.workspace }}/compears-data-wrangling
         run: npm run seed
 
+      - name: Import store locations from OpenStreetMap
+        run: npm run import-stores
+
       - name: Upload seeded data artifact
         uses: actions/upload-artifact@v4
         with:
@@ -59,7 +62,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No product data changes to commit"
           else
-            git commit -m "chore: weekly seed from data-wrangling $(date -u +%Y-%m-%d)"
+            git commit -m "chore: weekly seed from data-wrangling and OSM store import $(date -u +%Y-%m-%d)"
             git push
           fi
 

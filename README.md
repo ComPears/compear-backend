@@ -15,11 +15,14 @@ Node.js + Express + TypeScript API for the ComPears grocery price comparison pla
    ```
    Edit `.env` and set `PORT` (default 4000). Optionally set `OPENAI_API_KEY` for AI normalization.
 
-3. Seed data from the data-wrangling repo (optional; run from project root so `compears-data-wrangling` is a sibling of `backend`):
+3. Seed product data and store locations (optional; run from project root so `compears-data-wrangling` is a sibling of `backend`):
    ```bash
    npm run seed
+   npm run import-stores
    ```
    Or set `WRANGLING_PATH` to the path of `compears-data-wrangling` if it lives elsewhere.
+
+   Store locations are imported from **OpenStreetMap** (not hand-maintained). Re-run `npm run import-stores` to refresh; CI updates weekly with product seed.
 
 4. Start the server:
    ```bash

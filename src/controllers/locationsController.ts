@@ -1,26 +1,31 @@
+import * as fs from 'fs';
 import * as path from 'path';
 import { Request, Response } from 'express';
 import { StoreSlug, STORE_SLUGS } from '../config/stores';
+import {
+  readStoreLocationDataset,
+  StoreLocation,
+} from '../services/storeLocationImport';
 
-export interface StoreLocation {
-  id: string;
-  chain: StoreSlug;
-  name: string;
-  address: string;
-  city: string;
-  lat: number;
-  lng: number;
-  distanceKm?: number;
-}
+export type { StoreLocation };
 
 const locationsPath = path.join(__dirname, '../data/store-locations.json');
 
 let cached: StoreLocation[] | null = null;
+let cachedMeta: { importedAt: string; count: number } | null = null;
 
 function loadLocations(): StoreLocation[] {
   if (cached) return cached;
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  cached = require(locationsPath) as StoreLocation[];
+
+  if (!fs.existsSync(locationsPath)) {
+    throw new Error(
+      'Store locations not found. Run: npm run import-stores'
+    );
+  }
+
+  const dataset = readStoreLocationDataset(locationsPath);
+  cached = dataset.locations;
+  cachedMeta = { importedAt: dataset.importedAt, count: dataset.count };
   return cached;
 }
 
@@ -59,8 +64,13 @@ export function listStoreLocations(req: Request, res: Response): void {
         .sort((a, b) => (a.distanceKm ?? 0) - (b.distanceKm ?? 0));
     }
 
+    if (cachedMeta?.importedAt) {
+      res.setHeader('X-Store-Locations-Imported-At', cachedMeta.importedAt);
+    }
+
     res.json(locations.slice(0, limit));
-  } catch {
-    res.status(500).json({ error: 'Internal server error' });
+  } catch (e) {
+    const message = e instanceof Error ? e.message : 'Internal server error';
+    res.status(message.includes('not found') ? 503 : 500).json({ error: message });
   }
 }

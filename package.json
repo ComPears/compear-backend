@@ -8,7 +8,8 @@
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn src/index.ts",
     "scrape:ah": "ts-node src/scrapers/run-albert-heijn.ts",
-    "seed": "ts-node src/scripts/seedFromWrangling.ts"
+    "seed": "ts-node src/scripts/seedFromWrangling.ts",
+    "import-stores": "ts-node src/scripts/importStoreLocationsFromOsm.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
