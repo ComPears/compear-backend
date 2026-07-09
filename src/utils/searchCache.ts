@@ -39,10 +39,11 @@ export function buildSearchCacheKey(
   search: string | undefined,
   store: string | undefined,
   category?: string,
-  barcode?: string
+  barcode?: string,
+  labels?: string
 ): string {
   if (barcode) {
-    return `products:barcode:${barcode}`;
+    return `products:barcode:${barcode}:${(labels ?? '').toLowerCase()}`;
   }
-  return `products:${(store ?? 'all').toLowerCase()}:${(category ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}`;
+  return `products:${(store ?? 'all').toLowerCase()}:${(category ?? 'all').toLowerCase()}:${(labels ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}`;
 }

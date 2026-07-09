@@ -9,6 +9,8 @@ import { dealsRouter } from './routes/deals';
 import { scrapeRouter } from './routes/scrape';
 import { compareRouter } from './routes/compare';
 import { receiptsRouter } from './routes/receipts';
+import { listsRouter } from './routes/lists';
+import { publicApiRouter } from './routes/publicApi';
 import { notFoundHandler, errorHandler } from './middleware/errorHandler';
 
 const app = express();
@@ -52,6 +54,9 @@ app.use('/deals', dealsRouter);
 app.use('/scrape', scrapeRouter);
 app.use('/compare', compareRouter);
 app.use('/receipts', receiptsRouter);
+
+app.use('/lists', listsRouter);
+app.use('/api/v1', publicApiRouter);
 
 app.get('/health', (_req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });

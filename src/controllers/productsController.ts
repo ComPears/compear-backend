@@ -5,6 +5,7 @@ import { buildSearchCacheKey, getCached, setCached } from '../utils/searchCache'
 import { searchProducts } from '../ai/semanticSearch';
 import { getProductsByBarcode } from '../services/barcodeService';
 import { normalizeBarcode } from '../utils/barcode';
+import { productMatchesLabels, parseLabelsParam } from '../utils/dietaryLabels';
 import { Product, ProductCategory } from '../types';
 
 const VALID_CATEGORIES = new Set<ProductCategory>([
@@ -29,7 +30,10 @@ export function listProducts(req: Request, res: Response): void {
     const barcodeRaw = (req.query.barcode as string)?.trim();
     const barcode = barcodeRaw ? normalizeBarcode(barcodeRaw) : null;
 
-    const cacheKey = buildSearchCacheKey(search, store, category, barcode ?? undefined);
+    const labelsRaw = req.query.labels as string | undefined;
+    const labels = parseLabelsParam(labelsRaw);
+
+    const cacheKey = buildSearchCacheKey(search, store, category, barcode ?? undefined, labelsRaw);
     const cached = getCached<Product[]>(cacheKey);
     if (cached) {
       res.json(cached);
@@ -55,6 +59,12 @@ export function listProducts(req: Request, res: Response): void {
 
     if (category && VALID_CATEGORIES.has(category as ProductCategory)) {
       products = products.filter((p) => p.category === category);
+    }
+
+    if (labels.length > 0) {
+      products = products.filter((p) =>
+        productMatchesLabels(p.productName, p.canonicalName, labels)
+      );
     }
 
     setCached(cacheKey, products);

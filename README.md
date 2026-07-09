@@ -35,11 +35,18 @@ All seven data-wrangling stores are supported: **Albert Heijn**, **Jumbo**, **AL
 
 - `GET /health` – Health check
 - `GET /stores` – List stores and product counts
-- `GET /products` – List products (query: `?search=...`, `?store=albert-heijn`, `?barcode=8710...`)
+- `GET /products` – List products (query: `?search=...`, `?store=albert-heijn`, `?barcode=8710...`, `?labels=vegan,gluten-free`)
 - `GET /products/:id` – Get product by id
+- `GET /stores/locations` – Store locator (query: `?chain=jumbo`, `?lat=52.37&lng=4.89&radius=25`)
 - `GET /compare/:canonicalName` – Compare prices across stores for a canonical product name
 - `GET /deals` – Products with active promotions
-- `POST /scrape/:store` – Trigger scraper for a store (e.g. `albert-heijn`)
+- `GET /deals/digest` – Weekly deals summary
+- `POST /lists` – Create a shareable shopping list (JSON body: `{ name, items[] }`)
+- `GET /lists/:id` – Fetch shared list by id
+- `PATCH /lists/:id` – Update shared list
+- `GET /api/v1/docs` – Public API documentation (read-only mirror of product/store/deals endpoints)
+- `GET /api/v1/*` – Public API v1 (optional `PUBLIC_API_KEY` via `x-api-key`)
+- `POST /scrape/:store` – Trigger scraper or seed for a store (e.g. `albert-heijn`, `seed-all`)
 - `GET /scrape/status` – Last scrape run status
 
 ## Scraper

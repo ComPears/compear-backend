@@ -1,0 +1,78 @@
+name: Seed backend product data
+
+# Weekly re-seed of backend JSON from compears-data-wrangling (Mondays 06:00 UTC).
+# Daily scrapers run in ComPears/compears-data-wrangling (.github/workflows/update_stores.yaml).
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  seed-backend:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout backend
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout data-wrangling
+        uses: actions/checkout@v4
+        with:
+          repository: ComPears/compears-data-wrangling
+          path: compears-data-wrangling
+          # For a private wrangling repo, add secret WRANGLING_REPO_TOKEN (PAT with repo read)
+          token: ${{ secrets.WRANGLING_REPO_TOKEN || github.token }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install backend dependencies
+        run: npm ci
+
+      - name: Seed all stores from data-wrangling
+        env:
+          WRANGLING_PATH: ${{ github.workspace }}/compears-data-wrangling
+        run: npm run seed
+
+      - name: Upload seeded data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: backend-product-data
+          path: src/data/*.json
+          retention-days: 14
+
+      - name: Commit seeded product data
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/*.json
+          if git diff --cached --quiet; then
+            echo "No product data changes to commit"
+          else
+            git commit -m "chore: weekly seed from data-wrangling $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Trigger live backend seed (optional)
+        continue-on-error: true
+        env:
+          BACKEND_URL: ${{ vars.BACKEND_URL }}
+          SCRAPE_API_KEY: ${{ secrets.SCRAPE_API_KEY }}
+        run: |
+          if [ -z "$BACKEND_URL" ] || [ -z "$SCRAPE_API_KEY" ]; then
+            echo "Skipping remote seed (set repo variable BACKEND_URL and secret SCRAPE_API_KEY to enable)"
+            exit 0
+          fi
+          curl -sf -X POST "${BACKEND_URL%/}/scrape/seed-all" \
+            -H "x-api-key: $SCRAPE_API_KEY" \
+            -H "Content-Type: application/json"
