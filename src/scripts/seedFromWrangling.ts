@@ -2,7 +2,15 @@
  * Seed backend product JSON from compears-data-wrangling structured files.
  * Run from backend dir: npm run seed
  */
-import { seedAllStoresFromWrangling, SeedReport } from '../services/seedService';
+import {
+  DEFAULT_COUNTRY,
+  loadWranglingConfig,
+} from '../config/countries';
+import {
+  getWranglingPath,
+  seedAllStoresFromWrangling,
+  SeedReport,
+} from '../services/seedService';
 
 function pct(n: number, total: number): string {
   if (total === 0) return '0%';
@@ -46,6 +54,29 @@ function main(): void {
   console.log(
     `\nWrangling source barcodes: ${totalSourceBarcodes}/${totalSourceRows} rows (${pct(totalSourceBarcodes, totalSourceRows)})`
   );
+
+  const wranglingPath = getWranglingPath();
+  const config = loadWranglingConfig(wranglingPath);
+  const failures: string[] = [];
+
+  for (const report of reports) {
+    const minimum =
+      config.countries[DEFAULT_COUNTRY].stores[report.store]?.minimum_products ?? 0;
+    if (minimum > 0 && report.seeded < minimum) {
+      failures.push(
+        `${report.store}: ${report.seeded} seeded < minimum ${minimum}` +
+          (report.totalRows === 0 ? ' (source catalog missing or empty)' : '')
+      );
+    }
+  }
+
+  if (failures.length > 0) {
+    console.error('\nSeed validation failed:');
+    for (const msg of failures) {
+      console.error(`  - ${msg}`);
+    }
+    process.exit(1);
+  }
 }
 
 main();
