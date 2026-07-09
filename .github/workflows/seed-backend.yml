@@ -50,7 +50,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: backend-product-data
-          path: src/data/*.json
+          path: src/data/nl/*.json
           retention-days: 14
 
       - name: Commit seeded product data
@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/*.json
+          git add src/data/nl/*.json
           if git diff --cached --quiet; then
             echo "No product data changes to commit"
           else

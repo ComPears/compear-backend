@@ -40,10 +40,11 @@ export function buildSearchCacheKey(
   store: string | undefined,
   category?: string,
   barcode?: string,
-  labels?: string
+  labels?: string,
+  country = 'nl'
 ): string {
   if (barcode) {
-    return `products:barcode:${barcode}:${(labels ?? '').toLowerCase()}`;
+    return `products:${country}:barcode:${barcode}:${(labels ?? '').toLowerCase()}`;
   }
-  return `products:${(store ?? 'all').toLowerCase()}:${(category ?? 'all').toLowerCase()}:${(labels ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}`;
+  return `products:${country}:${(store ?? 'all').toLowerCase()}:${(category ?? 'all').toLowerCase()}:${(labels ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}`;
 }

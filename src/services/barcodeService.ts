@@ -1,12 +1,13 @@
 import { Product } from '../types';
+import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
 import { loadAllProducts } from './dataService';
 import { normalizeBarcode } from '../utils/barcode';
 
-let barcodeIndex: Map<string, Product[]> | null = null;
+const barcodeIndexByCountry = new Map<CountryCode, Map<string, Product[]>>();
 
-function buildBarcodeIndex(): Map<string, Product[]> {
+function buildBarcodeIndex(country: CountryCode): Map<string, Product[]> {
   const map = new Map<string, Product[]>();
-  for (const product of loadAllProducts()) {
+  for (const product of loadAllProducts(country)) {
     if (!product.barcode) continue;
     const list = map.get(product.barcode) ?? [];
     list.push(product);
@@ -16,17 +17,20 @@ function buildBarcodeIndex(): Map<string, Product[]> {
 }
 
 export function invalidateBarcodeIndex(): void {
-  barcodeIndex = null;
+  barcodeIndexByCountry.clear();
 }
 
-export function getProductsByBarcode(rawBarcode: string): Product[] {
+export function getProductsByBarcode(
+  rawBarcode: string,
+  country: CountryCode = DEFAULT_COUNTRY
+): Product[] {
   const barcode = normalizeBarcode(rawBarcode);
   if (!barcode) return [];
 
-  if (!barcodeIndex) {
-    barcodeIndex = buildBarcodeIndex();
+  if (!barcodeIndexByCountry.has(country)) {
+    barcodeIndexByCountry.set(country, buildBarcodeIndex(country));
   }
 
-  const matches = barcodeIndex.get(barcode) ?? [];
+  const matches = barcodeIndexByCountry.get(country)!.get(barcode) ?? [];
   return [...matches].sort((a, b) => a.effectivePrice - b.effectivePrice);
 }

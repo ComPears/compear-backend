@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { loadAllProducts } from '../services/dataService';
+import { countryFromQuery } from '../config/countries';
 import { productSavings } from '../utils/shoppingOptimizer';
 
 export interface DealsDigest {
@@ -35,9 +36,10 @@ function getIsoWeekLabel(date = new Date()): string {
   return `${tmp.getUTCFullYear()}-W${String(weekNo).padStart(2, '0')}`;
 }
 
-export function listDeals(_req: Request, res: Response): void {
+export function listDeals(req: Request, res: Response): void {
   try {
-    const all = loadAllProducts();
+    const country = countryFromQuery(req);
+    const all = loadAllProducts(country);
     const deals = all.filter((p) => p.promoType != null && p.effectivePrice < p.originalPrice);
     res.json(deals);
   } catch (e) {
@@ -45,9 +47,10 @@ export function listDeals(_req: Request, res: Response): void {
   }
 }
 
-export function getDealsDigest(_req: Request, res: Response): void {
+export function getDealsDigest(req: Request, res: Response): void {
   try {
-    const all = loadAllProducts();
+    const country = countryFromQuery(req);
+    const all = loadAllProducts(country);
     const deals = all.filter((p) => p.promoType != null && p.effectivePrice < p.originalPrice);
 
     const byStore: Record<string, number> = {};

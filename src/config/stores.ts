@@ -1,4 +1,5 @@
 import { StoreInfo } from '../types';
+import { CountryCode } from './countries';
 
 /** All supported store slugs (NL data from data-wrangling; DE/UK can be added later). */
 export const STORE_SLUGS = [
@@ -67,4 +68,10 @@ export function getStoreDisplayName(slug: StoreSlug): string | null {
 
 export function getDataFileName(slug: StoreSlug): string {
   return `${slug}.json`;
+}
+
+/** Store slugs available for a country (NL today; DE/UK when pipelines exist). */
+export function getStoreSlugsForCountry(country: CountryCode): StoreSlug[] {
+  if (country === 'nl') return [...STORE_SLUGS];
+  return [];
 }

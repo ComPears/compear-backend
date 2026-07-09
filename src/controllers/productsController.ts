@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { loadAllProducts, loadStoreProducts, getProductById } from '../services/dataService';
 import { StoreSlug, getStoreDisplayName } from '../config/stores';
+import { countryFromQuery } from '../config/countries';
 import { buildSearchCacheKey, getCached, setCached } from '../utils/searchCache';
 import { searchProducts } from '../ai/semanticSearch';
 import { getProductsByBarcode } from '../services/barcodeService';
@@ -24,6 +25,7 @@ const VALID_CATEGORIES = new Set<ProductCategory>([
 
 export function listProducts(req: Request, res: Response): void {
   try {
+    const country = countryFromQuery(req);
     const search = (req.query.search as string)?.trim();
     const store = req.query.store as string | undefined;
     const category = req.query.category as string | undefined;
@@ -33,7 +35,7 @@ export function listProducts(req: Request, res: Response): void {
     const labelsRaw = req.query.labels as string | undefined;
     const labels = parseLabelsParam(labelsRaw);
 
-    const cacheKey = buildSearchCacheKey(search, store, category, barcode ?? undefined, labelsRaw);
+    const cacheKey = buildSearchCacheKey(search, store, category, barcode ?? undefined, labelsRaw, country);
     const cached = getCached<Product[]>(cacheKey);
     if (cached) {
       res.json(cached);
@@ -43,7 +45,7 @@ export function listProducts(req: Request, res: Response): void {
     let products: Product[];
 
     if (barcode) {
-      products = getProductsByBarcode(barcode);
+      products = getProductsByBarcode(barcode, country);
       if (store) {
         const storeName = getStoreDisplayName(store as StoreSlug);
         if (storeName) {
@@ -51,10 +53,10 @@ export function listProducts(req: Request, res: Response): void {
         }
       }
     } else if (search) {
-      const source = store ? loadStoreProducts(store as StoreSlug) : undefined;
+      const source = store ? loadStoreProducts(store as StoreSlug, country) : undefined;
       products = searchProducts(search, 100, source);
     } else {
-      products = store ? loadStoreProducts(store as StoreSlug) : loadAllProducts();
+      products = store ? loadStoreProducts(store as StoreSlug, country) : loadAllProducts(country);
     }
 
     if (category && VALID_CATEGORIES.has(category as ProductCategory)) {
@@ -76,8 +78,9 @@ export function listProducts(req: Request, res: Response): void {
 
 export function getProduct(req: Request, res: Response): void {
   try {
+    const country = countryFromQuery(req);
     const id = req.params.id;
-    const product = getProductById(id);
+    const product = getProductById(id, country);
     if (!product) {
       res.status(404).json({ error: 'Product not found' });
       return;

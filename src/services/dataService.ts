@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { Product, ProductCategory } from '../types';
+import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
 import { STORE_SLUGS, StoreSlug, getDataFileName } from '../config/stores';
 import { logger } from '../utils/logger';
 import { invalidateBarcodeIndex } from './barcodeService';
@@ -32,23 +33,30 @@ function normalizeProduct(raw: Product): Product {
   return { ...raw, category, barcode: barcode ?? null, identityKey };
 }
 
-function ensureDataDir(): void {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-    logger.info('Created data directory:', DATA_DIR);
+function ensureDataDir(country: CountryCode = DEFAULT_COUNTRY): void {
+  const dir = path.join(DATA_DIR, country);
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+    logger.info('Created data directory:', dir);
   }
 }
 
-function getFilePath(storeSlug: StoreSlug): string {
-  return path.join(DATA_DIR, getDataFileName(storeSlug));
+function getFilePath(country: CountryCode, storeSlug: StoreSlug): string {
+  const countryPath = path.join(DATA_DIR, country, getDataFileName(storeSlug));
+  const legacyPath = path.join(DATA_DIR, getDataFileName(storeSlug));
+  if (fs.existsSync(countryPath)) return countryPath;
+  return legacyPath;
 }
 
 /**
  * Load all products for a store from JSON file.
  */
-export function loadStoreProducts(storeSlug: StoreSlug): Product[] {
-  ensureDataDir();
-  const filePath = getFilePath(storeSlug);
+export function loadStoreProducts(
+  storeSlug: StoreSlug,
+  country: CountryCode = DEFAULT_COUNTRY
+): Product[] {
+  ensureDataDir(country);
+  const filePath = getFilePath(country, storeSlug);
   if (!fs.existsSync(filePath)) {
     return [];
   }
@@ -66,21 +74,25 @@ export function loadStoreProducts(storeSlug: StoreSlug): Product[] {
 /**
  * Save products for a store to JSON file.
  */
-export function saveStoreProducts(storeSlug: StoreSlug, products: Product[]): void {
-  ensureDataDir();
-  const filePath = getFilePath(storeSlug);
+export function saveStoreProducts(
+  storeSlug: StoreSlug,
+  products: Product[],
+  country: CountryCode = DEFAULT_COUNTRY
+): void {
+  ensureDataDir(country);
+  const filePath = path.join(DATA_DIR, country, getDataFileName(storeSlug));
   fs.writeFileSync(filePath, JSON.stringify(products, null, 2), 'utf-8');
   invalidateBarcodeIndex();
   logger.info('Saved', products.length, 'products to', filePath);
 }
 
 /**
- * Load all products from all known store files.
+ * Load all products from all known store files for a country.
  */
-export function loadAllProducts(): Product[] {
+export function loadAllProducts(country: CountryCode = DEFAULT_COUNTRY): Product[] {
   let all: Product[] = [];
   for (const slug of STORE_SLUGS) {
-    const products = loadStoreProducts(slug as StoreSlug);
+    const products = loadStoreProducts(slug as StoreSlug, country);
     all = all.concat(products);
   }
   return all;
@@ -89,7 +101,10 @@ export function loadAllProducts(): Product[] {
 /**
  * Get product by id (format "storeSlug-index" or "ah-12345" style).
  */
-export function getProductById(id: string): Product | null {
-  const all = loadAllProducts();
+export function getProductById(
+  id: string,
+  country: CountryCode = DEFAULT_COUNTRY
+): Product | null {
+  const all = loadAllProducts(country);
   return all.find((p) => p.id === id) ?? null;
 }

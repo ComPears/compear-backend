@@ -1,4 +1,5 @@
 import { Product } from '../types';
+import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
 import { loadAllProducts } from './dataService';
 
 function normalizeName(name: string): string {
@@ -11,19 +12,25 @@ function normalizeName(name: string): string {
 /**
  * Get all products matching an identity key (EAN or token-sorted name + size).
  */
-export function getProductsByIdentityKey(identityKey: string): Product[] {
+export function getProductsByIdentityKey(
+  identityKey: string,
+  country: CountryCode = DEFAULT_COUNTRY
+): Product[] {
   const key = identityKey.trim();
   if (!key) return [];
-  const all = loadAllProducts();
+  const all = loadAllProducts(country);
   return all.filter((p) => p.identityKey === key);
 }
 
 /**
  * Get all products that match the given canonical name (exact or normalized match).
  */
-export function getProductsByCanonicalName(canonicalName: string): Product[] {
+export function getProductsByCanonicalName(
+  canonicalName: string,
+  country: CountryCode = DEFAULT_COUNTRY
+): Product[] {
   const normalized = normalizeName(canonicalName);
-  const all = loadAllProducts();
+  const all = loadAllProducts(country);
   const byIdentity = new Map<string, Product[]>();
 
   for (const p of all) {
@@ -34,7 +41,6 @@ export function getProductsByCanonicalName(canonicalName: string): Product[] {
     byIdentity.set(p.identityKey, list);
   }
 
-  // Prefer identity-key grouping: return all stores for matching identities
   const matches: Product[] = [];
   for (const group of byIdentity.values()) {
     const byStore = new Map<string, Product>();
@@ -52,12 +58,16 @@ export function getProductsByCanonicalName(canonicalName: string): Product[] {
 /**
  * Resolve comparable products: identity key first, then canonical name.
  */
-export function getComparableProducts(canonicalName: string, identityKey?: string | null): Product[] {
+export function getComparableProducts(
+  canonicalName: string,
+  identityKey?: string | null,
+  country: CountryCode = DEFAULT_COUNTRY
+): Product[] {
   if (identityKey) {
-    const byKey = getProductsByIdentityKey(identityKey);
+    const byKey = getProductsByIdentityKey(identityKey, country);
     if (byKey.length > 0) return byKey;
   }
-  return getProductsByCanonicalName(canonicalName);
+  return getProductsByCanonicalName(canonicalName, country);
 }
 
 /**

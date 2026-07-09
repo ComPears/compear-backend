@@ -1,12 +1,14 @@
 import { Request, Response } from 'express';
 import { loadStoreProducts } from '../services/dataService';
-import { STORE_SLUGS, STORES } from '../config/stores';
+import { STORES, getStoreSlugsForCountry } from '../config/stores';
+import { countryFromQuery } from '../config/countries';
 
-export function listStores(_req: Request, res: Response): void {
+export function listStores(req: Request, res: Response): void {
   try {
-    const stores = STORE_SLUGS.map((slug) => {
+    const country = countryFromQuery(req);
+    const stores = getStoreSlugsForCountry(country).map((slug) => {
       const info = STORES[slug];
-      const productCount = loadStoreProducts(slug).length;
+      const productCount = loadStoreProducts(slug, country).length;
       return { ...info, productCount };
     });
     res.json(stores);

@@ -7,6 +7,13 @@ import { sanitizeProductFields, shouldRejectProductName } from '../utils/product
 import { extractBarcodeFromText, normalizeBarcode } from '../utils/barcode';
 import { saveStoreProducts } from './dataService';
 import { STORE_SLUGS, StoreSlug } from '../config/stores';
+import {
+  CountryCode,
+  DEFAULT_COUNTRY,
+  catalogRelPath,
+  loadWranglingConfig,
+  listStoreSlugsForCountry,
+} from '../config/countries';
 import { logger } from '../utils/logger';
 
 interface LegacyProduct {
@@ -56,15 +63,27 @@ export interface SeedReport {
   withPromo: number;
 }
 
-const STORE_CONFIG: Array<{ slug: StoreSlug; displayName: string; relPath: string }> = [
-  { slug: 'albert-heijn', displayName: 'Albert Heijn', relPath: 'AH/structured_all_merged.json' },
-  { slug: 'jumbo', displayName: 'Jumbo', relPath: 'JUMBO/jumbo_structured.json' },
-  { slug: 'aldi', displayName: 'ALDI', relPath: 'ALDI/structured_aldi.json' },
-  { slug: 'dirk', displayName: 'Dirk', relPath: 'DIRK/dirk_all.json' },
-  { slug: 'lidl', displayName: 'Lidl', relPath: 'LIDL/lidl_structured.json' },
-  { slug: 'coop', displayName: 'Coop', relPath: 'COOP/coop_structured.json' },
-  { slug: 'plus', displayName: 'PLUS', relPath: 'PLUS/structured_plus.json' },
-];
+export function seedAllStoresFromWrangling(
+  wranglingPath = getWranglingPath(),
+  country: CountryCode = DEFAULT_COUNTRY
+): SeedReport[] {
+  const config = loadWranglingConfig(wranglingPath);
+  const reports: SeedReport[] = [];
+  const slugs = listStoreSlugsForCountry(config, country);
+
+  for (const slug of slugs) {
+    if (!STORE_SLUGS.includes(slug as StoreSlug)) continue;
+    const storeSlug = slug as StoreSlug;
+    const displayName = config.countries[country].stores[slug].display_name;
+    const relPath = catalogRelPath(config, country, slug);
+    const filePath = path.join(wranglingPath, relPath);
+    reports.push(seedStoreFromWrangling(storeSlug, displayName, filePath, country));
+  }
+
+  const total = reports.reduce((sum, r) => sum + r.seeded, 0);
+  logger.info(`Total products seeded for ${country}:`, total);
+  return reports;
+}
 
 function parseLegacyPrice(p: string): number | null {
   const normalized = String(p).trim().replace(',', '.');
@@ -217,6 +236,7 @@ export function seedStoreFromWrangling(
   storeSlug: StoreSlug,
   storeName: string,
   filePath: string,
+  country: CountryCode = DEFAULT_COUNTRY,
   maxProducts = Number(process.env.SEED_MAX_PRODUCTS ?? 0) || undefined
 ): SeedReport {
   const report: SeedReport = {
@@ -272,7 +292,7 @@ export function seedStoreFromWrangling(
     );
   }
 
-  saveStoreProducts(storeSlug, products);
+  saveStoreProducts(storeSlug, products, country);
   report.seeded = products.length;
   logger.info('Seeded', products.length, 'products for', storeSlug);
   return report;
@@ -280,19 +300,6 @@ export function seedStoreFromWrangling(
 
 function sanitizedFallbackName(name: string): string {
   return name.toLowerCase().replace(/\s+/g, ' ').trim();
-}
-
-export function seedAllStoresFromWrangling(wranglingPath = getWranglingPath()): SeedReport[] {
-  const reports: SeedReport[] = [];
-
-  for (const { slug, displayName, relPath } of STORE_CONFIG) {
-    const filePath = path.join(wranglingPath, relPath);
-    reports.push(seedStoreFromWrangling(slug, displayName, filePath));
-  }
-
-  const total = reports.reduce((sum, r) => sum + r.seeded, 0);
-  logger.info('Total products seeded:', total);
-  return reports;
 }
 
 export function getAvailableStoreSlugs(): StoreSlug[] {
