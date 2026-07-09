@@ -16,7 +16,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/239883_M/2707b1a2e808f69cf97cc631e7168c8c/239883.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.659Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:heineken|bier-blik-pilsener-premium|1980"
@@ -38,7 +38,7 @@
     "promoQuantity": 4,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/270741_M/daf012059ece3050f6d7bfd0a79ccbeb/270741.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.659Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|barbecue-smokey-speklapjes|300"
@@ -60,7 +60,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/639094_M/085ba8bc64b4c9b50dd5c62d1d557919/639094.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.659Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:amstel|bier-fles-pils|1800"
@@ -82,7 +82,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/499047_M/6fd6637d56fbe2bc4928234a462c5eb0/499047.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.659Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:peroni|azzuro-bier-fles-nastro|1980"
@@ -104,7 +104,7 @@
     "promoQuantity": 4,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/753141_M/6697279eb620818c13dc08ad6df5ad34/753141.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.659Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bbq-zalmspiesen|200"
@@ -126,7 +126,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/381721_M/855e4a07582dc7d655b58b2f2302ff3c/381721.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.659Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|hamburgerbroodjes|6"
@@ -148,7 +148,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/964117_M/c1d279adb2c9b9bc65b66ab3c4856229/964117.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpina|bbq-brush-grill|na"
@@ -170,7 +170,7 @@
     "promoQuantity": 4,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/358092_M/1ad0adfd79a53df16132abbc34cc7d0b/358092.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|hamburger-rund-varken|320"
@@ -192,7 +192,7 @@
     "promoQuantity": 4,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/126101_M/9960cc3c510162ff3fe50b18a530ef4c/126101.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bbq-boerentrots-italiaans-worst|325"
@@ -214,7 +214,7 @@
     "promoQuantity": 4,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/653369_M/61d24981dae39cf114a89a5b960bffb5/653369.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|boerentrots-kipshaslick|230"
@@ -236,7 +236,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/242520_M/092c4aaf1a739fb8ba339759f6d5d149/242520.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|caesar-salade|275"
@@ -258,7 +258,7 @@
     "promoQuantity": 4,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/439284_M/de93ac6145bb166c9b67348bc1bd202d/439284.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bbq-boerentrots-chicken-smokey-worst|325"
@@ -280,7 +280,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/649683_M/47a7145887c3202e44e35c0c17abd48f/649683.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:plus|aspergetips-groen|100"
@@ -302,7 +302,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/218882_M/c8508c8b52587b8be81cd0d51bf02725/218882.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:iglo|creme-la-spinazie|500"
@@ -324,7 +324,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/113651_M/63db0eabf5dd487f2694a258006af620/113651.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:plus|bananen-fairtrade|1000"
@@ -346,7 +346,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/277165_M/5ac62d38bce1d10398a1df72052b8ee6/277165.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:looye|honingtomaten|180"
@@ -368,7 +368,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:neutraal|bananen|5"
@@ -390,7 +390,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/888655_M/6306840dbef7ae53ce60bf684a302c91/888655.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:iglo|boursin-spinazie|450"
@@ -412,7 +412,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/619131_M/2c0ad58682eda22f12059617c7b380ff/619131.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:plus|bananen-biologisch-fairtrade|1"
@@ -434,7 +434,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:plus|handappels-jonagold|1000"
@@ -456,7 +456,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/113834_M/672970432fdfd90af889660e265f4c07/113834.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:plus|conference-los-peren|1000"
@@ -478,32 +478,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/113798_M/6c16412d86966f11ebf301aa721694f7/113798.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:plus|elstar-handappels|1000"
-  },
-  {
-    "id": "plus-c26036935585",
-    "canonicalName": "plus elstar handappels",
-    "productName": "Plus Handappels Elstar",
-    "brand": "plus",
-    "store": "PLUS",
-    "packageSize": "2 l",
-    "weightInGrams": 2000,
-    "originalPrice": 2.99,
-    "effectivePrice": 2.99,
-    "unitPrice": 1.495,
-    "effectiveUnitPrice": 1.495,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
-    "category": "Fruits & Vegetables",
-    "barcode": null,
-    "identityKey": "tok:plus|elstar-handappels|2000"
   },
   {
     "id": "plus-e696a6c80290",
@@ -522,7 +500,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:plus|conference-handperen|1000"
@@ -544,7 +522,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/157446_M/abace3c3eef508959bbc8a5000f44c3a/157446.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|naturel-tagliatelle|500"
@@ -566,7 +544,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/177566_M/5345bb64065d8a89c2657198a19e8ef3/177566.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|naturel-spaghetti|500"
@@ -588,7 +566,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/466528_M/f1c938854e98c959147821ff699fa58f/466528.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|tagliatelle-volkoren|250"
@@ -610,7 +588,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/363864_M/27babf555ecdb8d4e0a06413bc74a45b/363864.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:grand|ei-italia-pasta-penne|500"
@@ -632,7 +610,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/754295_M/950875056e719d9986e6d8aabb6e66b2/754295.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bami-goreng|260"
@@ -654,7 +632,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/753201_M/7e13aee4533285225639e4b7f81d4e9e/753201.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|goreng-nasi|260"
@@ -676,7 +654,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/209865_M/78813e1f57b3c8b360d87d2445f4696c/209865.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:qizini|panini-prosciutto|160"
@@ -698,7 +676,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|naturel-pannenkoeken|8"
@@ -720,7 +698,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/845183_M/672fa6b5f65c8b44fcad58d0ae7ddcd6/845183.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|aardappelpuree-hachee-kool-rode|500"
@@ -742,7 +720,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/754303_M/ba6c543a8641059a0a415fdc6ca91c59/754303.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|babi-pangang|260"
@@ -764,7 +742,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:flemmings|cheeseburger-duo|2"
@@ -786,7 +764,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/926778_M/786ec0ae49b8a8d8d2420bae4e63ef0c/926778.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:jan|flammkuchendeeg|260"
@@ -808,7 +786,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/609600_M/31cbb95243a1a81081c02f6d5212ac27/609600.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bloemkool-broccoli-gehaktbal-partjes|500"
@@ -830,7 +808,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/609596_M/82f872e7e0fb479b3bb8560771a798e2/609596.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|andijvie-gehaktb-jus-stamppot|500"
@@ -852,7 +830,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/691464_M/63898864d418f688e7302cac4ae9243e/691464.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|erwt-kipfilet-peperroomsaus-wortel|500"
@@ -874,7 +852,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/691462_M/befbd37000bade7909a01a3179e7d49d/691462.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bleu-cordon-puree-spinazie|500"
@@ -896,7 +874,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/432370_M/f85dfdef15d277d1f4492e2f431f898b/432370.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:qizini|bbq-chicken-panini-pulled|170"
@@ -918,7 +896,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.748Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|pizzadeeg-saus|600"
@@ -940,7 +918,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|poffertjes|415"
@@ -962,7 +940,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/754299_M/4c00f033e17eeb79beca0381c34aae76/754299.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|ajam-sat|260"
@@ -984,7 +962,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/754297_M/75c60bfc78d056a775ac7f243e5ac87e/754297.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|goreng-mihoen|260"
@@ -1006,7 +984,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/689734_M/648645f94ead72ccbab17e60dc94182d/689734.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|babi-bami-goreng-pangang|450"
@@ -1028,7 +1006,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:flemmings|duo-hotdog|2"
@@ -1050,7 +1028,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:plus|boerentrots-kipfilet|2"
@@ -1072,7 +1050,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/965391_M/26cd84c7594ebfeb388ddbe0c575b12e/965391.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:iglo|lekkerbekjes-naturel-viskraam|240"
@@ -1094,7 +1072,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:plus|boerentrots-kipfilet|800"
@@ -1116,7 +1094,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/517877_M/754cd7105b4ae219e8faa7fe1e15f545/517877.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:iglo|vissticks|15"
@@ -1138,7 +1116,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/542025_M/05c538f653e97257234318cfaba6546d/542025.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:iglo|bierbeslag-lekkerbekjes-viskraam|240"
@@ -1160,7 +1138,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:plus|rundergehakt|750"
@@ -1182,7 +1160,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:plus|gehakt-gemengd|500"
@@ -1204,7 +1182,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:plus|gehakt-gemengd-vdv|750"
@@ -1226,7 +1204,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:zuivelmeester|48-goudse-jong-plakken|400"
@@ -1248,7 +1226,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/140299_M/a86eb6ca34ce150bb890e872ffb3f4ab/140299.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|48-belegen-goudse-jong-plakken|400"
@@ -1270,7 +1248,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:zuivelmeester|48-belegen-goudse-jong-plakken|400"
@@ -1292,7 +1270,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/320005_M/bb05be46c59081eba97007204f530f09/320005.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:galbani|mozzarella|225"
@@ -1314,7 +1292,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/899323_M/f866f748fccdd69b6d4cd70532d83781/899323.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:galbani|maxi-mozzarella|385"
@@ -1336,7 +1314,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/796822_M/108eebd4c21d41a6129552704b24cb7d/796822.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:galbani|burrata|100"
@@ -1358,7 +1336,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/517754_M/2e72ee71d41fcacb1828f5d4b9c2c260/517754.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:galbani|buffel-mini-mozzarella|245"
@@ -1380,7 +1358,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:luiten|americain-filet-naturel|150"
@@ -1402,7 +1380,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/370195_M/527eef8ee4cdbedeaa10c58a860ede6c/370195.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|30-belegen-goudse-jong-plakken|200"
@@ -1424,7 +1402,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/137165_M/668b94a46d251d8fddc058e63c57bb50/137165.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|americain-filet|150"
@@ -1446,7 +1424,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/160754_M/f60712cfef5cd3c058e901e5e1e2e23a/160754.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:milner|35-jong-plakken|150"
@@ -1468,7 +1446,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/462739_M/74d7b6f3c74cdd788c982a31b2c8f70a/462739.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|48-belegen-goudse-jong|485"
@@ -1490,7 +1468,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|belegen-goudse-jong-komijn-plakken|190"
@@ -1512,7 +1490,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/160756_M/bb1e6fd56c7ad90d0b4daf6879564042/160756.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.660Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:milner|35-belegen-jong-plakken|150"
@@ -1534,7 +1512,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/492822_M/0160bcb8e9c91d7f66cbdd396f318995/492822.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:milner|30-oud-plakken|150"
@@ -1556,7 +1534,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/140297_M/701781252d39602826a01ceba6b77388/140297.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|48-goudse-jong-plakken|400"
@@ -1578,7 +1556,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:zuivelmeester|halfvolle-melk|1000"
@@ -1600,7 +1578,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/796334_M/73ef2a7cb433c57963035d0b6196b3ef/796334.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:optimel|aardbei-bosbes-vezels-yoghurt|450"
@@ -1622,7 +1600,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/958022_M/489fb84bbd58ea10908e390b58cd7a2f/958022.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:almhof|banaan-edition-kwark-special-volle|500"
@@ -1644,7 +1622,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/160700_M/c76f2db1dc6cd18c5ad80811cf7f9dca/160700.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:almhof|kwark-vanille-volle|500"
@@ -1666,7 +1644,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/640047_M/3d6c9b64c746e661fad310daa5ae1e38/640047.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:almhof|citroen-kwark-volle|500"
@@ -1688,7 +1666,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/640909_M/020f1d50e510a00c829ee002cefcb00d/640909.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:almhof|aardbei-kwark-volle|500"
@@ -1710,7 +1688,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/796328_M/a15ed9efb54ad7b6b9b4548f050877bc/796328.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:campina|extra-halfvolle-proteine-yoghurt|1000"
@@ -1732,7 +1710,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:zuivelmeester|karnemelk|1000"
@@ -1754,7 +1732,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/206906_M/dd1ecd7b68b60106e1dfccad19031362/206906.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:arla|cultura-kefir-naturel|1000"
@@ -1776,7 +1754,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:zuivelmeester|melk-volle|1000"
@@ -1798,7 +1776,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/185967_M/fd2f4368a730a54b0ae309a65f511dac/185967.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|biologisch-karnemelk|1000"
@@ -1820,7 +1798,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/155064_M/9aa26aab8f5e4e0ba75a7f01c598a822/155064.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:campina|halfvolle-melk|1500"
@@ -1842,7 +1820,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/185969_M/9d1145e73f6f36cd62a0c8cc6b7bd1cf/185969.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|biologisch-halfvolle-melk|1000"
@@ -1864,7 +1842,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/203724_M/3def4f5c09401272de177e38cccc95d7/203724.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:plus|halfvolle-melk|1000"
@@ -1886,7 +1864,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/585579_M/d431668f0512e6239238ada9c0059bbd/585579.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|fijn-heel-rond-volkoren|1"
@@ -1908,7 +1886,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|heel-tijger-volkoren|1"
@@ -1930,7 +1908,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/269871_M/12f32b21de041a87d069a3ed67695a41/269871.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|heel-korenlanders-rond-volkoren|1"
@@ -1952,7 +1930,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/630317_M/15bd5f2550d3f3d1af75f04c407dc6e0/630317.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|bruin-desem-korenlanders-pompoen|1"
@@ -1974,7 +1952,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/630319_M/059e175927e00b21fcaa1ccfc0d2ab3e/630319.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|boekweit-desem-korenlanders-meergranen|1"
@@ -1996,7 +1974,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/630311_M/4fbd0c6b10325841598a2f544cbcab1b/630311.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|desem-korenlanders-wit|1"
@@ -2018,7 +1996,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/630305_M/db89d8bd3108f4bd294364511cf898dc/630305.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|bruin-desembrood-kleintje-korenlanders-meergranen|1"
@@ -2040,7 +2018,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/129623_M/72783049ed4d8af7a42de7cbfef30b9c/129623.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|donker-extra-heel-korenlanders-vloer-volkoren|1"
@@ -2062,7 +2040,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/170773_M/d2dd6a96666b25cc98921acbf8212ee0/170773.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|heel-korenlanders-rond-waldkorn|1"
@@ -2084,7 +2062,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/585581_M/d78bab5b19617f387866d217369ba868/585581.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|fijn-half-rond-volkoren|1"
@@ -2106,7 +2084,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/680034_M/d12fbb03bc9976107f42c1322b40f53a/680034.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|boeren-bruin-heel|1"
@@ -2128,7 +2106,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/575375_M/a11b614dfadf586672c2944d262f7189/575375.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|bruin-heel-rond|1"
@@ -2150,7 +2128,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/269869_M/ba92e49e19d914ebef5677fd4c2e8459/269869.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|boeren-heel-korenlanders-tijger-volkoren|1"
@@ -2172,7 +2150,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/269862_M/7f7d811a6afa8d57f37d6a866df6fad5/269862.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|bruin-heel-korenlanders-rond|1"
@@ -2194,7 +2172,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/940604_M/fecf4013e46837537a7c5ee60625bca0/940604.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|donker-half-korenlanders-vloerbrood|400"
@@ -2216,7 +2194,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/296831_M/189e90ebbef015a4edeae560360a0754/296831.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|boeren-heel-korenlanders-tijger-wit|1"
@@ -2238,7 +2216,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|crackers-luchtige-vezelrijk|250"
@@ -2260,7 +2238,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/639191_M/b884e0f42bcaff4530085dc0ed397771/639191.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:bolletje|bezig-goed-ne-prote|200"
@@ -2282,7 +2260,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|aardbeienjam-extra|450"
@@ -2304,7 +2282,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/926782_M/7a9fa6a21b5ece233754627fdbc42055/926782.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:bolletje|carb-crackers-low-protein|190"
@@ -2326,7 +2304,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/191311_M/9d5225d9d26f6c043860b301803f5e8c/191311.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:calv|calv-pindakaas-regular|350"
@@ -2348,7 +2326,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/187160_M/5e21bd7419a5180c8d56a8c672698675/187160.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:peijnenburg|gts-koekrepen-pack|160"
@@ -2370,7 +2348,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|beschuit-volkoren|125"
@@ -2392,7 +2370,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|naturel-rijstwafels|130"
@@ -2414,7 +2392,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|beschuit-naturel|125"
@@ -2436,7 +2414,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/375296_M/e4be595d907f383496a6f38c83e3217a/375296.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:kips|pat-vega|125"
@@ -2458,7 +2436,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|gesneden-naturel-ontbijtkoek|485"
@@ -2480,7 +2458,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|appelstroop-rinse|450"
@@ -2502,7 +2480,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|maiswafels-paprika|104"
@@ -2524,7 +2502,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/894250_M/5613cb115383b9b24aa0de0a36337f9b/894250.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:brinta|graanontbijt-volkoren|500"
@@ -2546,7 +2524,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|chocoladehagel-fairtrade-melk|600"
@@ -2568,7 +2546,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|naturel-pindakaas|600"
@@ -2590,7 +2568,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/469727_M/fe4ad05a29dd8f5b9518aa5dedc90df7/469727.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:bio|maiswafels-zeezout|130"
@@ -2612,7 +2590,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|knackebrod-volkoren|375"
@@ -2634,7 +2612,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/767215_M/89bc30043bbc83fd9146222e8f35bcb1/767215.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|chocopasta-fairtrade-melk|400"
@@ -2656,7 +2634,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/191435_M/de3ff959d7c015ee61e267691950ff8c/191435.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:calv|calv-pinda-pindakaas-stukjes|350"
@@ -2678,7 +2656,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/969857_M/1587d3ab00b6a12ac06c3f8e6ecb6026/969857.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:bolletje|beschuit-echte|125"
@@ -2700,7 +2678,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.749Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|chocoladehagel-fairtrade-puur|600"
@@ -2722,7 +2700,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|vruchtenhagel|400"
@@ -2744,7 +2722,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:plus|havermout|500"
@@ -2766,7 +2744,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:dalphin|koolzuur-mineraalwater-zonder|4500"
@@ -2788,7 +2766,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:plus|koolzuur-mineraalwater-zonder|1500"
@@ -2810,7 +2788,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/159159_M/422ad8f276c9f7681e74fd4b8faf4e69/159159.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:douwe egberts|aroma-filterkoffie-rood|500"
@@ -2832,7 +2810,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:slimpie|framboos-limonadesiroop|650"
@@ -2854,7 +2832,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:slimpie|limonadesiroop-mango-passievrucht|650"
@@ -2876,7 +2854,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:slimpie|ice-limonadesiroop-perzik-tea|650"
@@ -2898,7 +2876,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/5kPIHVS56XiLdI99yhEzPt/cb109b60d0c80b619cf18dcdfa66224b/PLUS_Mepal-2026_APP_1-Zegel_Retina.png?h=50",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:slimpie|lemon-limonadesiroop|650"
@@ -2920,7 +2898,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:plus|koolzuur-mineraalwater|1500"
@@ -2942,7 +2920,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:plus|bruisend-licht-mineraalwater|1500"
@@ -2964,7 +2942,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:dalphin|koolzuur-mineraalwater|4500"
@@ -2986,7 +2964,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/729157_M/e9a006bfe8881e7d538321938bae07f3/729157.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:plus|fairtrade-filterkoffie-roodmerk|500"
@@ -3008,7 +2986,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:paco|filterkoffie-rood|500"
@@ -3030,7 +3008,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:neutraal|suiker|1500"
@@ -3052,7 +3030,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/186100_M/7af6ce00eb3c1b0d2ad0a7589816fa57/186100.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:plus|fairtrade-koffiepads-regular|36"
@@ -3074,7 +3052,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/293380_M/bc505eda7d8ceebb460df832280c79d7/293380.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:spa|koolzuurvrij-mineraalwater-reine|3000"
@@ -3096,7 +3074,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/80019_M/8ec7876d8a24c058b8d8d2872b7afa86/80019.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:hertog|jan-pilsener|7200"
@@ -3118,7 +3096,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/568938_M/fb3ac3c3416b1990210e460e88a5175a/568938.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.661Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:heineken|bier-fles-pilsener-premium|7200"
@@ -3140,7 +3118,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/691863_M/60ef2dd68cd30fc04c70f3799aa0b095/691863.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:grolsch|bier-fles-pilsner-premium|7200"
@@ -3162,7 +3140,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/146690_M/75e5987ad3fa5f1c3bc447d39e9d4a64/08712000034160_H1N1.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:amstel|bier-citroen-fles-radler|1800"
@@ -3184,7 +3162,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/709991_M/82ca02a4e2303f357257991ce7d44fff/709991.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:amstel|bier-blik-pilsener|12000"
@@ -3206,7 +3184,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/567303_M/c709ef7b095c82c06857118aed34ab56/567303.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:amstel|bier-fles-pilsener|7200"
@@ -3228,7 +3206,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/399408_M/59800947f6804315e20ca862c7288be0/399408.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:grolsch|citroen-radler|1800"
@@ -3250,7 +3228,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/712367_M/478f68a2b151a613a5a8f9170a0adbf1/712367.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:klok|bier|500"
@@ -3272,7 +3250,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/750521_M/9e4e77b51b6e328598136b07a7a0be72/750521.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:texels|bier-fles-skuumkoppe|1800"
@@ -3294,7 +3272,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/392131_M/e726015d8c0117edbd3cf56cf0e83e1f/392131.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:texels|bier-blik-skuumkoppe|2000"
@@ -3316,7 +3294,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/275535_M/aeb0c1daf2454ac6a3f92c099f920c31/275535.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:amstel|bier-blik-citroen-radler|1980"
@@ -3338,7 +3316,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:holger|pils|7200"
@@ -3360,7 +3338,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/809558_M/be750f46b339df9123c5c87746d5fbbb/809558.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:villa|grigio-pinot-puccini|750"
@@ -3382,7 +3360,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|spaghetti|500"
@@ -3404,7 +3382,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|rijst-witte|1000"
@@ -3426,7 +3404,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|penne-rigate|500"
@@ -3448,7 +3426,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|fusilli|500"
@@ -3470,7 +3448,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|spaghetti-volkoren|500"
@@ -3492,7 +3470,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|farfalle|500"
@@ -3514,7 +3492,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/234886_M/937723329676d85c7392af1d8d1c0bab/234886.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:grand|italia-pasta-penne|500"
@@ -3536,7 +3514,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/157433_M/84b4569eb3e6e4266fa4cc423478b88e/157433.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:honig|spaghettini|550"
@@ -3558,7 +3536,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/260805_M/04225c12a1d04ff77cf6d2c33f421ade/260805.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:bio|fusilli-volkoren|500"
@@ -3580,7 +3558,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|ei-tagliatelle|500"
@@ -3602,7 +3580,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/274034_M/11325d3ab2b98e60e52167123ded105d/274034.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:lassie|rijst-snelkook-tover-witte|400"
@@ -3624,7 +3602,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plus|knakworsten|400"
@@ -3646,7 +3624,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/407138_M/e6b1aa773e00fbe11b92f87199619916/407138.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:princes|haring-in-msc-tomatensaus|170"
@@ -3668,7 +3646,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:green|appelmoes|710"
@@ -3690,7 +3668,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/920166_M/b1f4639211fdd88cb5e2c30d3b5b15a3/920166.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:princes|in-msc-olijfolie-tonijnstukken|145"
@@ -3712,7 +3690,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/733518_M/4c818787001362e8edd99e868ec5c6a2/733518.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:diamant|frituurvet-liter-original|3000"
@@ -3734,7 +3712,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/236324_M/79482312d8af12c551c513cee72f4c63/236324.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:princes|ansjovis-in-msc-olijfolie|46"
@@ -3756,7 +3734,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/185972_M/1331d677d4935e648bb8bc809fce36ed/185972.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:diamant|extra-friet-frituurvet-krokante|3000"
@@ -3778,7 +3756,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/165738_M/ee5d2cb1aba52ee4a10a8cbac6d17bb9/165738.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unox|knaks|400"
@@ -3800,7 +3778,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plus|mayonaise-snacksaus|750"
@@ -3822,7 +3800,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plus|augurken-zoetzuur|670"
@@ -3844,7 +3822,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plus|natuurazijn-wit|1500"
@@ -3866,7 +3844,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plus|naturel-soepstengels|125"
@@ -3888,7 +3866,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/241461_M/0f67a03c66825fe453faac52eaf13578/241461.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:milka|alpenmelk-chocoladereep|90"
@@ -3910,7 +3888,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/423869_M/9bb8d3e2644556a8f6f987163274dbae/423869.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:redband|schatkistjes|228"
@@ -3932,7 +3910,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:plus|choco-fairtrade-pinda|250"
@@ -3954,7 +3932,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/381078_M/50105d6af9c12294dbcfdd334d91f65c/381078.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:sportlife|mints-smashmint-suikervrij|50"
@@ -3976,7 +3954,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/663121_M/e5534f15185e815eb858c3d1dd650c66/663121.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:sportlife|deepmint-frozn-kauwgom-suikervrij|4"
@@ -3998,7 +3976,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/664998_M/90325b594bc539d749a4dd56b1652c6c/664998.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:sportlife|kauwgom-smashmint-suikervrij|102"
@@ -4020,7 +3998,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/477334_M/9b5b6919f5f4ff43ee64a551a5f3276b/477334.png?w=96&h=96&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:sportlife|cola-sour|60"
@@ -4042,7 +4020,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/477328_M/cd4698d0095cf0b1b7882d95bd5e074c/477328.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:redband|groovy|215"
@@ -4064,7 +4042,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/839638_M/4d28da12e44f8dac0073df076440bdba/839638.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:milka|chocoladereep-karamel|100"
@@ -4086,7 +4064,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/198519_M/ffa34f86046e26e364b4d91f29132de0/198519.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:redband|aardbei-bites-juicy|145"
@@ -4108,7 +4086,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/427115_M/9c2efd95909e4f2fe4e01a33f807d3e9/427115.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mars|chocolade-melk-minimix-repen|400"
@@ -4130,7 +4108,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/241463_M/5ced5c8f7face20f2812354ca9a15412/241463.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:milka|alpenmelk-bubbly-chocoladereep|90"
@@ -4152,7 +4130,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:plus|choco-chocolade-fairtrade-mini-mix|450"
@@ -4174,7 +4152,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/240981_M/0d9460bda50571678eefea7045546ea8/240981.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:milka|chocoladereep-gebroken-hazelnoten|90"
@@ -4196,7 +4174,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/601897_M/856fc984f12c4a97c008c360fd82618e/601897.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:milka|chocoladereep-confetti|90"
@@ -4218,7 +4196,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:plus|chocolade-puur-reep|100"
@@ -4240,7 +4218,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:candyman|vrieslollies|500"
@@ -4262,7 +4240,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/192310_M/c2162b3699d3121931799197721ac4e0/192310.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:iglo|cheese-chicken-fingers-nacho-shop|220"
@@ -4284,7 +4262,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/386398_M/cc9c2190493403a2bfaa0e1874e69049/386398.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:ola|raket|12"
@@ -4306,7 +4284,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/725741_M/576a1026d7f0c4177956bd376c9c4bf0/725741.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:iglo|pasta-roerbaksensatie-spinazie|450"
@@ -4328,7 +4306,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.750Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|ijsjes-peren|12"
@@ -4350,7 +4328,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/574862_M/ff969a21fd51d6baea8e61ba0c98bec2/574862.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:iglo|bloemkool-cr-la-me|400"
@@ -4372,7 +4350,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|regenboogijsjes|8"
@@ -4394,7 +4372,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|shuttles|10"
@@ -4416,7 +4394,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|cornets|6"
@@ -4438,7 +4416,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|hamburgers|12"
@@ -4460,7 +4438,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:plus|bosvruchten-ijsjes|12"
@@ -4482,7 +4460,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/834253_M/d7bfe92dfa3e3254a89cf40a2be68d25/834253.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:oetker|baguette-bistro-dr-pizzabroodje-salami|250"
@@ -4504,7 +4482,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/194907_M/a0c64912b914d74bdaad3b55d7a105c4/194907.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:htp|500mg-paracetamol|20"
@@ -4526,7 +4504,7 @@
     "promoQuantity": 3,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/698688_M/c82019b5ec1b43bc7c536ce23c8512cc/698688.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:libresse|maandverband-normal-ultra|16"
@@ -4548,7 +4526,7 @@
     "promoQuantity": 3,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/703761_M/b43df0e34ecaa2ac245f8aea4c09f006/703761.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:libresse|goodnight-maandverband-maxi-wing|10"
@@ -4570,7 +4548,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:derlon|handzeep-hygi-ne-vloeibare-zacht|500"
@@ -4592,7 +4570,7 @@
     "promoQuantity": 3,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/867373_M/9b2b22ec81cb5929575aed9630f25daf/867373.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.662Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:libresse|extra-inlegkruisje-long|22"
@@ -4614,7 +4592,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/755519_M/d2673be008f2d52846335468c337037a/755519.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:prodent|freshgel-tandpasta|75"
@@ -4636,7 +4614,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:derlon|handzeep-milde-pomp-verzorging|500"
@@ -4658,7 +4636,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:bonbebe|boeners-toeten|40"
@@ -4680,7 +4658,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:derlon|handzeep-milde-navulling-verzorging|1000"
@@ -4702,7 +4680,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/177739_M/cb19af510689d280fe7703b4ea0da290/177739.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:aquafresh|fresh-minty-tandpasta|75"
@@ -4724,7 +4702,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:bonbebe|billendoekjes-sensitive|80"
@@ -4746,7 +4724,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:derlon|papieren-wattenstaafjes|300"
@@ -4768,7 +4746,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/294865_M/62c1e011175a911ba18ef46972441739/294865.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:sanicur|handzeep-sensitive|300"
@@ -4790,7 +4768,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/722849_M/e8e54a2865897b6da5661b35a117addf/722849.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:sore|baby-maisfingers-naturel|35"
@@ -4812,7 +4790,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/694084_M/409c0b323cc20fffa2d480bcaacd3010/694084.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:always|dailies-inlegkruisjes-long|22"
@@ -4834,7 +4812,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/407807_M/03d54deabce11459574bf1e150848609/407807.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:vogue|deodorant-extravagant-parfum|150"
@@ -4856,7 +4834,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/917635_M/950b5349e397346c0c6f1062c2057af9/917635.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:always|discreet-long-maandverband|8"
@@ -4878,7 +4856,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/882507_M/afb739bd3130866e61050dd44e6a2cbf/882507.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:roosvicee|siroop-vruchtenmix|500"
@@ -4900,7 +4878,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:bonbebe|billendoekjes-parfum|60"
@@ -4922,7 +4900,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/407819_M/cd8dbc9d0eb3f298dd6bb8bc072a8c7d/407819.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:vogue|deodorant-enjoy-parfum|150"
@@ -4944,7 +4922,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/381124_M/76ada24398c3bd766e8410bd014684c8/381124.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:always|incontinentie-inlegkruisjes-long|24"
@@ -4966,7 +4944,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/368538_M/ac4849cd429436004ef8190f318129b1/368538.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unicura|balance-handzeep-pomp|250"
@@ -4988,7 +4966,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/407821_M/52dbe08ac1602032b40faf474348b55d/407821.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:vogue|deodorant-exotique-parfum-reve|150"
@@ -5010,7 +4988,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/534427_M/91eccef17d9d66bf635d84e9a7fd03b0/534427.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:grand|fusilli-glutenvrije-italia-pasta|400"
@@ -5032,7 +5010,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/173430_M/da043177a7bfd6889b492b859f6d30f0/173430.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:sam|chickp-fusilli-gv-mills-pea-protein-yel|250"
@@ -5054,7 +5032,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/173428_M/d99988edff0510bfbd1a8b00fb052ea5/173428.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:red|gv-lent-mills-pea-penne-protein-sam-yel|250"
@@ -5076,7 +5054,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/185995_M/fbd48a0d8780a36a6ec1b568edd1a85e/185995.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:liga|ne-pinda-prote-reep|160"
@@ -5098,7 +5076,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/688293_M/7e6fc67b5f6cea0b5daf37b163f73283/688293.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:liga|appel-haverkick-haverreep|200"
@@ -5120,7 +5098,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/474134_M/545503bb6268ea3f30c519b564f22902/474134.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bruin-glutenvrij|1"
@@ -5142,7 +5120,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/216725_M/56f5e099e1a3c86e258c0840d03ac4e6/216725.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|crackers-glutenvrije-luchtige|150"
@@ -5164,7 +5142,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/185997_M/837c15d8b41dcef32c8f903f1ec483c6/185997.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:liga|cranberry-ne-prote-repen|160"
@@ -5186,7 +5164,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/788337_M/9c317af0017e216a4ea9c138571cdafd/788337.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:zonnatura|bio-notenmix-reep|75"
@@ -5208,7 +5186,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/803226_M/db996df75c0798ea0b3578ae6ad6d8ff/803226.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:wasa|ckebr-glutenvrije-kn-lactosevrije|240"
@@ -5230,7 +5208,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/474132_M/790aeb2baf8d6b16df193870d4f104c7/474132.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|glutenvrij-meerzaden|1"
@@ -5252,7 +5230,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/196551_M/2c9017448ad97c8f876db09db199a730/196551.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|glutenvrije-pistolet-wit|2"
@@ -5274,7 +5252,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/216721_M/782af56fdef508ce2d0b99b1cdcd9f89/216721.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|fusilli-glutenvrije|500"
@@ -5296,7 +5274,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/652634_M/15a45f453ab2a255fa0960bd3b4f40b5/652634.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cereal|koekjes-kokos-suikers-zonder|132"
@@ -5318,7 +5296,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/903601_M/6f04fd5b781ab7e961010d849c52fdef/903601.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:btween|gezouten-pinda-proteinreep-tween-zero|100"
@@ -5340,7 +5318,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/797415_M/753567a5bd93eedc773bd0ce2a2d7279/797415.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:zonnatura|appel-bio-kaneel-noten-reep|3"
@@ -5362,7 +5340,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/262551_M/3982c4b77006b0a0449ee1163d90284b/262551.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:kleine|bio-keuken-mango-pompoen-spread|170"
@@ -5384,7 +5362,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/196553_M/f0f66df673d3d48940723ea42685c4cf/196553.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|glutenvrije-meerzaden-pistolets|2"
@@ -5406,7 +5384,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/216729_M/f0c22e8a29307a8c794ad6b75b37253c/216729.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|chip-choco-cookies-glutenvrije|160"
@@ -5428,7 +5406,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/196543_M/b6be2d1f512233fc9d3b9d00b36f308c/196543.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|glutenvrije-wraps|3"
@@ -5450,7 +5428,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/730225_M/06afab03bc2a79dab3def7c08c1bcdd1/730225.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|glutenvrij-wit|1"
@@ -5472,7 +5450,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/196545_M/0279cfc5a18309a240b6d08a414bca99/196545.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|berry-glutenvrije-mix-mueslirepen|5"
@@ -5494,7 +5472,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/216808_M/8be3f77fd2d6a9e834994e48e5232540/216808.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|glutenvrije-stroopwafels|240"
@@ -5516,7 +5494,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:bio|100-pindakaas|350"
@@ -5538,7 +5516,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|laags-toiletpapier|12"
@@ -5560,7 +5538,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/229581_M/8a8627448b40182e2a77186eecad1c6f/229581.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:nalys|keukenpapier-vochtvangers|6"
@@ -5582,7 +5560,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/850195_M/400d58791b60d2c2d05089000cbb7295/850195.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": "05089000",
     "identityKey": "ean:05089000"
@@ -5604,7 +5582,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/406948_M/1733782374dc4bbb0af646e627701dfc/406948.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:nalys|keukenpapier-power-xtra|2"
@@ -5626,7 +5604,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|16-laags-rollen-toiletpapier|16"
@@ -5648,7 +5626,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/298316_M/b8c24ce56e3ae7e48afe6b8f0e29c1d1/298316.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:nalys|dubbele-keukenpapier-rol-vochtvangers|2"
@@ -5670,7 +5648,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|keukenpapier-laags-ultra|3"
@@ -5692,7 +5670,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:paper|keukenpapier-maxi-rol|2"
@@ -5714,7 +5692,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|laags-rollen-toiletpapier|8"
@@ -5736,7 +5714,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/910830_M/93846f2a395d9080647bced5c349acfa/910830.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:vintastic|original-schoonmaakazijn|1000"
@@ -5758,7 +5736,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|pedaalemmerzakken|25000"
@@ -5780,7 +5758,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|afwasmiddel-ultra|500"
@@ -5802,7 +5780,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|30m-aluminiumfolie|1"
@@ -5824,7 +5802,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|dikbleek-original|750"
@@ -5846,7 +5824,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|laags-tissues|120"
@@ -5868,7 +5846,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/299624_M/f7fc83f0232949f011941592919128fa/299624.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:glorix|bleek-eucalyptus-reiniger|750"
@@ -5890,7 +5868,7 @@
     "promoQuantity": 2,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|decor-keukenpapier-laags|2"
@@ -5912,7 +5890,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|allesreinigerdoekjes-lemon-plasticvrij|80"
@@ -5934,7 +5912,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|laags-toiletpapier|24"
@@ -5956,7 +5934,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|laags-lotion-tissues|1"
@@ -5978,7 +5956,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|oceaan-toiletreiniger|1000"
@@ -6000,7 +5978,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.751Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|fresh-toiletpapier-vochtig|80"
@@ -6022,7 +6000,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|afwasmiddel-citroen|500"
@@ -6044,7 +6022,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:plus|22sc-kleur-vloeibaar-wasmiddel|1100"
@@ -6066,7 +6044,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cuby|ijsblokjes|1000"
@@ -6088,7 +6066,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:finess|33-cm-servetten-wit|100"
@@ -6110,7 +6088,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|beker-fsc-karton-wit|180"
@@ -6132,7 +6110,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.663Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|laags-servetten-wit|50"
@@ -6154,7 +6132,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|23cm-bord-fsc-karton|20"
@@ -6176,7 +6154,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/129723_M/bcf774e0a10dc1f12a692acd4a887c7b/129723.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:atomic|aansteker-bbq-kaarsen-navulbaar|1"
@@ -6198,7 +6176,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/422558_M/d6ef0337d13f7e52bd8436d30a20f06c/422558.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:eddy|2as-4x15cm-toys-watergun|1"
@@ -6220,7 +6198,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/973674_M/0db0c82c8a911c7267a4a734f7df8374/973674.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|aanstekers|2"
@@ -6242,7 +6220,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/475758_M/950d531b2c25a328b1943721db635547/475758.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|aa-duracell|6"
@@ -6264,7 +6242,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bierglas|250"
@@ -6286,7 +6264,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|18cm-bord-fsc-karton|20"
@@ -6308,7 +6286,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|140mm-fsc-hout-roerstaafje|100"
@@ -6330,7 +6308,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/475760_M/e3affa5af7decfd736f13508253933cb/475760.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|aaa-duracell|6"
@@ -6352,7 +6330,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|250m-bamboe-fsc-prikkers-sat|100"
@@ -6374,7 +6352,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|160mm-fsc-hout-vork|39"
@@ -6396,7 +6374,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:house|briketten-charcoal-of|4000"
@@ -6418,7 +6396,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/229697_M/72082753388a7d71777b6c6325bbb84a/229697.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:neutraal|beker-kartonnen-oranje|50"
@@ -6440,7 +6418,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/842250_M/7f1110f96aabb6a21d021a67afe7737b/842250.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:merkloos|tuinaarde|25000"
@@ -6462,7 +6440,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/301906_M/7790b0164907d658ae4fb9a992968eb4/301906.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|19-5cm-herbruikbaar-mes|10"
@@ -6484,7 +6462,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/632127_M/19856f7e481638f8b23bcfb02c8ca180/632127.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:powerking|aa-alkaline-batterijen|8"
@@ -6506,7 +6484,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|fsc-hout-mes|20"
@@ -6528,7 +6506,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/582518_M/4884b725a4df8b79c44d02415873e342/582518.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:merkloos|100-bio-potgrond|16000"
@@ -6550,7 +6528,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:powerking|aaa-alkaline-batterijen|8"
@@ -6572,7 +6550,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/452705_M/59b58d5647850ea2d22c56a8169d6255/452705.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|bamboe-beker-fsc-gekleurd-papier|180"
@@ -6594,7 +6572,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|katten-pat-rund|100"
@@ -6616,7 +6594,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/342361_M/88d85c7ba7c2513b4484f5850e488425/342361.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:agriselect|absorbent-kattenbakvulling-liter|1"
@@ -6638,7 +6616,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|katten-msc-pat-zalm|100"
@@ -6660,7 +6638,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|katten-kip-pat|400"
@@ -6682,7 +6660,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|honden-kip-lam-pat|150"
@@ -6704,7 +6682,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:reno|blik-brok-hondenvoer-in-rund-saus|1240"
@@ -6726,7 +6704,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|brokjes-gelei-in-kip|415"
@@ -6748,7 +6726,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|honden-pat-rund|300"
@@ -6770,7 +6748,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|gevogelte-honden-pat-rund|150"
@@ -6792,7 +6770,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|brokjes-in-rund-saus|415"
@@ -6814,7 +6792,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|kattenmelk-lactosearm-omega|250"
@@ -6836,7 +6814,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/810063_M/657c40fe0e6a3f7eec9cce541804a1ff/810063.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:sheba|filets-in-kipfilet-saus-stukjes|60"
@@ -6858,7 +6836,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|kattenbakvulling-klontvormend-ultra|6000"
@@ -6880,7 +6858,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|honden-kalkoen-kip-pat|150"
@@ -6902,7 +6880,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|honden-lever-pat-rund|150"
@@ -6924,7 +6902,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|hondenvoer-pat-runderpens|400"
@@ -6946,7 +6924,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|honden-kip-pat|300"
@@ -6968,7 +6946,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|groente-lamsvlees-pasta-stoofpotje|415"
@@ -6990,7 +6968,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|kip-pat|400"
@@ -7012,7 +6990,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|katten-pat-zalm|400"
@@ -7034,7 +7012,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/810053_M/c3ba27eb3eae71314f35e677d84f77db/810053.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:sheba|filets-in-kip-saus-tonijn|60"
@@ -7056,7 +7034,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|brokjes-gevogelte-in-kip-saus|415"
@@ -7078,7 +7056,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/L_QUxHX0xBQUdCTElKVkVS_M/7cb565a0915afed22256044f7eab44b4/laagblijvers.webp",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|krokantjes-vis-vlees|2000"
@@ -7100,7 +7078,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://images.ctfassets.net/s0lodsnpsezb/431179_M/f6c433085c261c61800327edaf8044de/431179.png?w=120&h=120&fit=pad&fm=webp&q=85",
-    "scrapedAt": "2026-07-09T03:19:16.664Z",
+    "scrapedAt": "2026-07-09T03:55:33.752Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:whiskas|kattenmelk|200"
