@@ -82,3 +82,29 @@ jobs:
           fi
           curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
           echo "Render deploy hook triggered"
+
+      - name: Verify deployed backend readiness
+        env:
+          BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL }}
+        run: |
+          if [ -z "$BACKEND_BASE_URL" ]; then
+            echo "::warning::BACKEND_BASE_URL repository variable is not set; skipping deployed readiness verification."
+            exit 0
+          fi
+
+          health_url="${BACKEND_BASE_URL%/}/health/ready"
+          for attempt in $(seq 1 18); do
+            if payload=$(curl -fsS --max-time 15 "$health_url"); then
+              echo "$payload" | tee readiness.json
+              echo "### Backend readiness" >> "$GITHUB_STEP_SUMMARY"
+              echo '```json' >> "$GITHUB_STEP_SUMMARY"
+              echo "$payload" >> "$GITHUB_STEP_SUMMARY"
+              echo '```' >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            echo "Readiness attempt $attempt/18 failed; waiting for deployment..."
+            sleep 10
+          done
+
+          echo "::error::Backend did not become ready at $health_url after 3 minutes. Check Render deploy logs, catalog freshness, and memory checks."
+          exit 1

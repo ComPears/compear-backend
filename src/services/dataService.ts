@@ -1,13 +1,23 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { Product, ProductCategory } from '../types';
-import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
-import { STORE_SLUGS, StoreSlug, getDataFileName } from '../config/stores';
+import { CountryCode, COUNTRY_CODES, DEFAULT_COUNTRY } from '../config/countries';
+import { StoreSlug, getDataFileName, getStoreSlugsForCountry } from '../config/stores';
 import { logger } from '../utils/logger';
 import { invalidateBarcodeIndex } from './barcodeService';
 import { normalizeBarcode } from '../utils/barcode';
+import { clearSearchCache } from '../utils/searchCache';
+import { precomputeProductDietaryLabels } from '../utils/dietaryLabels';
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+
+interface ProductCatalog {
+  all: Product[];
+  byStore: Map<StoreSlug, Product[]>;
+  byId: Map<string, Product>;
+}
+
+const catalogByCountry = new Map<CountryCode, ProductCatalog>();
 
 const VALID_CATEGORIES = new Set<ProductCategory>([
   'Fruits & Vegetables',
@@ -48,10 +58,7 @@ function getFilePath(country: CountryCode, storeSlug: StoreSlug): string {
   return legacyPath;
 }
 
-/**
- * Load all products for a store from JSON file.
- */
-export function loadStoreProducts(
+function readStoreProductsFromDisk(
   storeSlug: StoreSlug,
   country: CountryCode = DEFAULT_COUNTRY
 ): Product[] {
@@ -71,6 +78,68 @@ export function loadStoreProducts(
   }
 }
 
+function buildCatalog(country: CountryCode): ProductCatalog {
+  const startedAt = performance.now();
+  const byStore = new Map<StoreSlug, Product[]>();
+  const byId = new Map<string, Product>();
+  const all: Product[] = [];
+
+  for (const slug of getStoreSlugsForCountry(country)) {
+    const products = readStoreProductsFromDisk(slug, country);
+    byStore.set(slug, products);
+    for (const product of products) {
+      all.push(product);
+      byId.set(product.id, product);
+    }
+  }
+
+  precomputeProductDietaryLabels(all);
+
+  logger.info('Product catalog loaded', {
+    country,
+    products: all.length,
+    stores: byStore.size,
+    durationMs: Math.round((performance.now() - startedAt) * 10) / 10,
+  });
+
+  return { all, byStore, byId };
+}
+
+function getCatalog(country: CountryCode): ProductCatalog {
+  let catalog = catalogByCountry.get(country);
+  if (!catalog) {
+    catalog = buildCatalog(country);
+    catalogByCountry.set(country, catalog);
+  }
+  return catalog;
+}
+
+export function preloadProductCatalogs(): void {
+  for (const country of COUNTRY_CODES) {
+    getCatalog(country);
+  }
+}
+
+export function invalidateProductCatalog(country?: CountryCode): void {
+  if (country) {
+    catalogByCountry.delete(country);
+  } else {
+    catalogByCountry.clear();
+  }
+  invalidateBarcodeIndex();
+  clearSearchCache();
+}
+
+/**
+ * Return normalized products for a store from the in-memory catalog.
+ */
+export function loadStoreProducts(
+  storeSlug: StoreSlug,
+  country: CountryCode = DEFAULT_COUNTRY
+): Product[] {
+  return getCatalog(country).byStore.get(storeSlug) ?? [];
+}
+
 /**
  * Save products for a store to JSON file.
  */
@@ -82,7 +151,7 @@ export function saveStoreProducts(
   ensureDataDir(country);
   const filePath = path.join(DATA_DIR, country, getDataFileName(storeSlug));
   fs.writeFileSync(filePath, JSON.stringify(products, null, 2), 'utf-8');
-  invalidateBarcodeIndex();
+  invalidateProductCatalog(country);
   logger.info('Saved', products.length, 'products to', filePath);
 }
 
@@ -90,12 +159,14 @@ export function saveStoreProducts(
  * Load all products from all known store files for a country.
  */
 export function loadAllProducts(country: CountryCode = DEFAULT_COUNTRY): Product[] {
-  let all: Product[] = [];
-  for (const slug of STORE_SLUGS) {
-    const products = loadStoreProducts(slug as StoreSlug, country);
-    all = all.concat(products);
-  }
-  return all;
+  return getCatalog(country).all;
+}
+
+export function getStoreProductCount(
+  storeSlug: StoreSlug,
+  country: CountryCode = DEFAULT_COUNTRY
+): number {
+  return getCatalog(country).byStore.get(storeSlug)?.length ?? 0;
 }
 
 /**
@@ -105,6 +176,5 @@ export function getProductById(
   id: string,
   country: CountryCode = DEFAULT_COUNTRY
 ): Product | null {
-  const all = loadAllProducts(country);
-  return all.find((p) => p.id === id) ?? null;
+  return getCatalog(country).byId.get(id) ?? null;
 }

@@ -1,4 +1,6 @@
 /** Dietary / product labels inferred from product names (NL, EN, DE keywords). */
+import { Product } from '../types';
+
 export type DietaryLabel =
   | 'vegan'
   | 'vegetarian'
@@ -31,6 +33,8 @@ const LABEL_PATTERNS: Record<DietaryLabel, RegExp[]> = {
   halal: [/\bhalal/i],
 };
 
+const labelsByProduct = new WeakMap<Product, ReadonlySet<DietaryLabel>>();
+
 export function extractDietaryLabels(productName: string, canonicalName?: string): DietaryLabel[] {
   const text = `${productName} ${canonicalName ?? ''}`.toLowerCase();
   const found: DietaryLabel[] = [];
@@ -53,6 +57,28 @@ export function productMatchesLabels(
   if (required.length === 0) return true;
   const labels = new Set(extractDietaryLabels(productName, canonicalName));
   return required.every((l) => labels.has(l));
+}
+
+export function getProductDietaryLabels(product: Product): ReadonlySet<DietaryLabel> {
+  let labels = labelsByProduct.get(product);
+  if (!labels) {
+    labels = new Set(extractDietaryLabels(product.productName, product.canonicalName));
+    labelsByProduct.set(product, labels);
+  }
+  return labels;
+}
+
+export function precomputeProductDietaryLabels(products: Product[]): void {
+  for (const product of products) getProductDietaryLabels(product);
+}
+
+export function productHasDietaryLabels(
+  product: Product,
+  required: DietaryLabel[]
+): boolean {
+  if (required.length === 0) return true;
+  const labels = getProductDietaryLabels(product);
+  return required.every((label) => labels.has(label));
 }
 
 export function parseLabelsParam(raw: string | undefined): DietaryLabel[] {

@@ -1,5 +1,5 @@
 import { Product } from '../types';
-import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
+import { CountryCode, COUNTRY_CODES, DEFAULT_COUNTRY } from '../config/countries';
 import { loadAllProducts } from './dataService';
 import { normalizeBarcode } from '../utils/barcode';
 
@@ -18,6 +18,15 @@ function buildBarcodeIndex(country: CountryCode): Map<string, Product[]> {
 
 export function invalidateBarcodeIndex(): void {
   barcodeIndexByCountry.clear();
+}
+
+export function preloadBarcodeIndexes(): void {
+  for (const country of COUNTRY_CODES) {
+    const products = loadAllProducts(country);
+    if (products.length > 0) {
+      barcodeIndexByCountry.set(country, buildBarcodeIndex(country));
+    }
+  }
 }
 
 export function getProductsByBarcode(

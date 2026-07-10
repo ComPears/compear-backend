@@ -1,0 +1,54 @@
+name: Monitor production backend
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-backend-monitor
+  cancel-in-progress: true
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check liveness and readiness
+        env:
+          BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL }}
+        run: |
+          if [ -z "$BACKEND_BASE_URL" ]; then
+            echo "::warning::Set the BACKEND_BASE_URL repository variable to enable production monitoring."
+            exit 0
+          fi
+
+          base_url="${BACKEND_BASE_URL%/}"
+          if ! curl -fsS --retry 2 --retry-delay 5 --max-time 20 "$base_url/health/live" -o live.json; then
+            echo "::error::Backend liveness failed at $base_url/health/live. Check the Render service and application logs."
+            exit 1
+          fi
+          if ! curl -fsS --retry 2 --retry-delay 5 --max-time 20 "$base_url/health/ready" -o ready.json; then
+            echo "::error::Backend readiness failed at $base_url/health/ready. Check catalog load/freshness and RSS details in the response or Render logs."
+            curl -sS --max-time 20 "$base_url/health/ready" || true
+            exit 1
+          fi
+          curl -fsS --max-time 20 "$base_url/health/metrics" -o metrics.json
+
+          {
+            echo "## Production backend health"
+            echo
+            echo "Readiness:"
+            echo '```json'
+            cat ready.json
+            echo
+            echo '```'
+            echo
+            echo "Runtime metrics (startup, memory, requests, searches):"
+            echo '```json'
+            cat metrics.json
+            echo
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

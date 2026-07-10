@@ -49,6 +49,10 @@ All seven data-wrangling stores are supported: **Albert Heijn**, **Jumbo**, **AL
 - `PATCH /lists/:id` – Update shared list
 - `GET /api/v1/docs` – Public API documentation (read-only mirror of product/store/deals endpoints)
 - `GET /api/v1/*` – Public API v1 (optional `PUBLIC_API_KEY` via `x-api-key`)
+- `POST /receipts/parse` – Parse, safely match, and persist a receipt
+- `GET /receipts` – List the caller's receipts (`x-compear-user-id`)
+- `PATCH /receipts/:id/lines/:lineIndex` – Re-match a line (`{ action: "rematch", correctedName }`) or mark it unmatched (`{ action: "unmatched" }`)
+- `DELETE /receipts/:id` / `DELETE /receipts` – Delete one or all receipts
 - `POST /scrape/:store` – Trigger scraper or seed for a store (e.g. `albert-heijn`, `seed-all`)
 - `GET /scrape/status` – Last scrape run status
 
@@ -88,6 +92,7 @@ Product JSON is baked into the image at `dist/data/` during `npm run build`.
 | `AI_MAX_VISION_PER_USER_DAY` | No | Vision calls per user per day (default `20`) |
 | `AI_MAX_TEXT_PER_RECEIPT` | No | Name-normalization AI calls per receipt (default `15`) |
 | `AI_MAX_GLOBAL_DAY` | No | Total OpenAI calls per day (default `600`) |
+| `RECEIPT_RETENTION_DAYS` | No | Parsed receipt retention in days (default `365`; enforced when receipt data is accessed) |
 
 **Note:** Playwright scrapers (`POST /scrape/:store`) are not suitable on Render’s free tier (no browser, ephemeral disk). Use the data-wrangling pipeline + `npm run seed` locally or via CI, then commit updated `src/data/*.json`.
 
@@ -95,3 +100,16 @@ Product JSON is baked into the image at `dist/data/` during `npm run build`.
 
 - JSON files in `src/data/` (e.g. `albert-heijn.json`, `jumbo.json`)
 - AI cache: `src/data/ai-cache.json` (created when using OpenAI)
+
+## Receipt privacy and retention
+
+Receipt images are held in memory only while they are prepared and sent to the configured AI
+provider; ComPear does not persist the image itself. Parsed line items, totals, match decisions,
+upload time, and image MIME type are persisted per pseudonymous `x-compear-user-id`, with at most
+200 receipts per user and a default retention of 365 days. Deployments should review the AI
+provider's own data-handling terms separately.
+
+Deleting a receipt, clearing receipt history, expiry, or eviction from the 200-receipt limit also
+removes AI-cache entries tracked while processing that receipt. Older receipts created before cache
+tracking do not contain enough information to identify those cache entries safely, so unrelated
+shared cache entries are deliberately left intact.

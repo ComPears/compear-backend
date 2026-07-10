@@ -35,16 +35,23 @@ export function setCached<T>(key: string, value: T): void {
   prune();
 }
 
+export function clearSearchCache(): void {
+  cache.clear();
+}
+
 export function buildSearchCacheKey(
   search: string | undefined,
   store: string | undefined,
   category?: string,
   barcode?: string,
   labels?: string,
-  country = 'nl'
+  country = 'nl',
+  limit?: number,
+  offset?: number
 ): string {
+  const page = `${offset ?? 0}:${limit ?? 100}`;
   if (barcode) {
-    return `products:${country}:barcode:${barcode}:${(labels ?? '').toLowerCase()}`;
+    return `products:${country}:barcode:${barcode}:${(labels ?? '').toLowerCase()}:${page}`;
   }
-  return `products:${country}:${(store ?? 'all').toLowerCase()}:${(category ?? 'all').toLowerCase()}:${(labels ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}`;
+  return `products:${country}:${(store ?? 'all').toLowerCase()}:${(category ?? 'all').toLowerCase()}:${(labels ?? 'all').toLowerCase()}:${(search ?? '').toLowerCase().trim()}:${page}`;
 }

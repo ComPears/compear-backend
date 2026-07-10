@@ -4,7 +4,8 @@
   "private": true,
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc && cp -r src/data dist/data && mkdir -p dist/data/receipts dist/data/lists",
+    "build": "rm -rf dist && tsc && cp -r src/data dist/data && mkdir -p dist/data/receipts dist/data/lists",
+    "test": "node --test -r ts-node/register tests/*.test.ts && TS_NODE_TRANSPILE_ONLY=1 node --test -r ts-node/register test/*.test.js",
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn src/index.ts",
     "scrape:ah": "ts-node src/scrapers/run-albert-heijn.ts",

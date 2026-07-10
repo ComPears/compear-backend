@@ -13,7 +13,7 @@ services:
     branch: main
     buildCommand: npm ci && npm run build
     startCommand: npm start
-    healthCheckPath: /health
+    healthCheckPath: /health/ready
     envVars:
       - key: NODE_ENV
         value: production
@@ -27,3 +27,9 @@ services:
         value: gpt-5.5
       - key: OPENAI_VISION_MODEL
         value: gpt-4o
+      # Weekly backend seeds should keep this below eight days old.
+      - key: CATALOG_MAX_AGE_HOURS
+        value: "192"
+      # Set to the service plan's safe RSS ceiling to make readiness fail before OOM.
+      - key: READINESS_MAX_RSS_MB
+        value: "480"

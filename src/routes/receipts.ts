@@ -2,6 +2,7 @@ import { Router } from 'express';
 import multer from 'multer';
 import rateLimit, { ipKeyGenerator } from 'express-rate-limit';
 import {
+  correctLine,
   getAnalytics,
   getReceipts,
   parseReceipt,
@@ -42,5 +43,6 @@ export const receiptsRouter = Router();
 receiptsRouter.post('/parse', receiptParseLimiter, upload.single('receipt'), parseReceipt);
 receiptsRouter.get('/', getReceipts);
 receiptsRouter.get('/analytics', getAnalytics);
+receiptsRouter.patch('/:id/lines/:lineIndex', correctLine);
 receiptsRouter.delete('/', removeAllReceipts);
 receiptsRouter.delete('/:id', removeReceipt);

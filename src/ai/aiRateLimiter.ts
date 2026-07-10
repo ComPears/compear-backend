@@ -17,6 +17,8 @@ export interface AiRateLimitContext {
   ip?: string;
   /** Groups text AI calls for one receipt analysis session. */
   receiptSessionId?: string;
+  /** Cache keys created or reused while processing a persisted receipt. */
+  aiCacheKeys?: string[];
 }
 
 interface WindowBucket {

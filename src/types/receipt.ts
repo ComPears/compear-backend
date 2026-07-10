@@ -1,5 +1,6 @@
 import { Product } from './product';
 import { ShoppingPlan } from '../utils/shoppingOptimizer';
+import { ReceiptMatchMethod, ReceiptMatchStatus } from '../services/receiptMatching';
 
 export interface ParsedReceiptLine {
   rawName: string;
@@ -18,6 +19,7 @@ export interface ParsedReceiptData {
 
 export interface ReceiptLineMatch {
   rawName: string;
+  correctedName?: string | null;
   quantity: number;
   paidUnitPrice: number;
   paidLineTotal: number;
@@ -25,6 +27,9 @@ export interface ReceiptLineMatch {
   alternatives: Product[];
   cheapestAlternative: Product | null;
   lineSavings: number;
+  matchConfidence: number;
+  matchStatus: ReceiptMatchStatus;
+  matchMethod: ReceiptMatchMethod;
 }
 
 export interface ReceiptAnalysis {
@@ -45,7 +50,13 @@ export interface SavedReceipt {
   uploadedAt: string;
   imageMimeType: string | null;
   analysis: ReceiptAnalysis;
+  /** Internal references used to erase receipt-associated AI cache records. */
+  aiCacheKeys?: string[];
 }
+
+export type ReceiptLineCorrection =
+  | { action: 'rematch'; correctedName: string }
+  | { action: 'unmatched' };
 
 export interface ReceiptStoreStats {
   store: string;

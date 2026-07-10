@@ -77,6 +77,27 @@ function saveCache(cache: Record<string, unknown>): void {
   fs.writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2), 'utf-8');
 }
 
+function trackCacheKey(context: AiRateLimitContext | undefined, cacheKey: string): void {
+  if (context?.aiCacheKeys && !context.aiCacheKeys.includes(cacheKey)) {
+    context.aiCacheKeys.push(cacheKey);
+  }
+}
+
+/** Remove only cache entries known to belong to deleted receipts. */
+export function removeAiCacheEntries(cacheKeys: string[]): number {
+  if (cacheKeys.length === 0) return 0;
+  const cache = loadCache();
+  let removed = 0;
+  for (const key of new Set(cacheKeys)) {
+    if (Object.prototype.hasOwnProperty.call(cache, key)) {
+      delete cache[key];
+      removed += 1;
+    }
+  }
+  if (removed > 0) saveCache(cache);
+  return removed;
+}
+
 export type { AiRateLimitContext } from './aiRateLimiter';
 export { AiRateLimitError, isAiRateLimitError } from './aiRateLimiter';
 
@@ -113,6 +134,7 @@ export async function normalizeProductWithAI(
   const cacheKey = `normalize:${rawProductName.toLowerCase().trim()}`;
   const cache = loadCache();
   if (cache[cacheKey] != null) {
+    trackCacheKey(context, cacheKey);
     return cache[cacheKey] as NormalizedProduct;
   }
 
@@ -162,6 +184,7 @@ export async function normalizeProductWithAI(
 
     cache[cacheKey] = parsed;
     saveCache(cache);
+    trackCacheKey(context, cacheKey);
     return parsed;
   } catch (e) {
     logger.error('AI normalize failed', rawProductName, e);
@@ -199,6 +222,7 @@ export async function parseReceiptImageWithAI(
   const cacheKey = `receipt:${imageHash}`;
   const cache = loadCache();
   if (cache[cacheKey] != null) {
+    trackCacheKey(context, cacheKey);
     return cache[cacheKey] as ParsedReceiptData;
   }
 
@@ -275,6 +299,7 @@ export async function parseReceiptImageWithAI(
 
     cache[cacheKey] = parsed;
     saveCache(cache);
+    trackCacheKey(context, cacheKey);
     return parsed;
   } catch (e) {
     if (isAiRateLimitError(e)) throw e;

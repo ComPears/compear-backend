@@ -1,7 +1,12 @@
 import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as path from 'path';
-import { ParsedReceiptData, normalizeProductWithAI, AiRateLimitContext } from '../ai/aiService';
+import {
+  ParsedReceiptData,
+  normalizeProductWithAI,
+  AiRateLimitContext,
+  removeAiCacheEntries,
+} from '../ai/aiService';
 import { searchProducts } from '../ai/semanticSearch';
 import { getProductsByCanonicalName } from './productMatcher';
 import { optimizeShoppingPlan } from '../utils/shoppingOptimizer';
@@ -13,11 +18,18 @@ import {
   ReceiptLineMatch,
   ReceiptMonthStats,
   ReceiptStoreStats,
+  ReceiptLineCorrection,
   SavedReceipt,
 } from '../types/receipt';
 import { logger } from '../utils/logger';
+import {
+  calculateReceiptMatchConfidence,
+  ReceiptMatchMethod,
+  statusForConfidence,
+} from './receiptMatching';
 
 const RECEIPTS_DIR = path.join(__dirname, '..', 'data', 'receipts');
+const DEFAULT_RETENTION_DAYS = 365;
 
 function ensureReceiptsDir(): void {
   if (!fs.existsSync(RECEIPTS_DIR)) {
@@ -30,6 +42,16 @@ function userReceiptsPath(userId: string): string {
   return path.join(RECEIPTS_DIR, `${safeId}.json`);
 }
 
+function hydrateLegacyReceipt(receipt: SavedReceipt): SavedReceipt {
+  for (const line of receipt.analysis?.lines ?? []) {
+    if (line.matchStatus) continue;
+    line.matchStatus = line.matchedProduct ? 'matched' : 'unmatched';
+    line.matchConfidence = line.matchedProduct ? 1 : 0;
+    line.matchMethod = 'catalog';
+  }
+  return receipt;
+}
+
 function loadUserReceipts(userId: string): SavedReceipt[] {
   ensureReceiptsDir();
   const filePath = userReceiptsPath(userId);
@@ -37,7 +59,26 @@ function loadUserReceipts(userId: string): SavedReceipt[] {
   try {
     const raw = fs.readFileSync(filePath, 'utf-8');
     const data = JSON.parse(raw);
-    return Array.isArray(data) ? (data as SavedReceipt[]) : [];
+    if (!Array.isArray(data)) return [];
+    const receipts = (data as SavedReceipt[]).map(hydrateLegacyReceipt);
+    const configuredDays = Number(process.env.RECEIPT_RETENTION_DAYS);
+    const retentionDays =
+      Number.isFinite(configuredDays) && configuredDays > 0
+        ? configuredDays
+        : DEFAULT_RETENTION_DAYS;
+    const cutoff = Date.now() - retentionDays * 24 * 60 * 60 * 1000;
+    const retained = receipts.filter((receipt) => {
+      const uploadedAt = new Date(receipt.uploadedAt).getTime();
+      return !Number.isFinite(uploadedAt) || uploadedAt >= cutoff;
+    });
+    if (retained.length !== receipts.length) {
+      const expiredKeys = receipts
+        .filter((receipt) => !retained.includes(receipt))
+        .flatMap((receipt) => receipt.aiCacheKeys ?? []);
+      removeAiCacheEntries(expiredKeys);
+      fs.writeFileSync(filePath, JSON.stringify(retained, null, 2), 'utf-8');
+    }
+    return retained;
   } catch {
     return [];
   }
@@ -66,31 +107,47 @@ function linePaidTotals(line: { quantity: number; unitPrice: number | null; line
 
 async function findProductMatches(
   rawName: string,
-  aiContext?: AiRateLimitContext
+  aiContext?: AiRateLimitContext,
+  method: ReceiptMatchMethod = 'catalog'
 ): Promise<{
   best: Product | null;
   alternatives: Product[];
+  confidence: number;
+  method: ReceiptMatchMethod;
 }> {
   let results = searchProducts(rawName, 8);
-  if (results.length === 0) {
+  let searchName = rawName;
+  let matchMethod = method;
+  const initialConfidence =
+    results.length > 0 ? calculateReceiptMatchConfidence(rawName, results[0]) : 0;
+  if (results.length === 0 || initialConfidence < 0.72) {
     const normalized = await normalizeProductWithAI(rawName, aiContext);
     if (normalized?.canonicalName) {
-      results = searchProducts(normalized.canonicalName, 8);
-      if (results.length === 0) {
-        results = getProductsByCanonicalName(normalized.canonicalName);
+      const normalizedResults = searchProducts(normalized.canonicalName, 8);
+      const exactResults = getProductsByCanonicalName(normalized.canonicalName);
+      const candidateResults = exactResults.length > 0 ? exactResults : normalizedResults;
+      const normalizedConfidence =
+        candidateResults.length > 0
+          ? calculateReceiptMatchConfidence(normalized.canonicalName, candidateResults[0])
+          : 0;
+      if (normalizedConfidence > initialConfidence) {
+        results = candidateResults;
+        searchName = normalized.canonicalName;
+        matchMethod = method === 'user_corrected' ? method : 'ai_normalized';
       }
     }
   }
 
   if (results.length === 0) {
-    return { best: null, alternatives: [] };
+    return { best: null, alternatives: [], confidence: 0, method: matchMethod };
   }
 
+  const confidence = calculateReceiptMatchConfidence(searchName, results[0]);
   const canonical = results[0].canonicalName || results[0].productName;
   const alternatives = getProductsByCanonicalName(canonical);
   const pool = alternatives.length > 0 ? alternatives : results;
   const best = [...pool].sort((a, b) => a.effectivePrice - b.effectivePrice)[0];
-  return { best, alternatives: pool };
+  return { best, alternatives: pool, confidence, method: matchMethod };
 }
 
 export async function analyzeParsedReceipt(
@@ -105,11 +162,16 @@ export async function analyzeParsedReceipt(
 
   for (const item of parsed.items) {
     const { paidLineTotal, paidUnitPrice } = linePaidTotals(item);
-    const { best, alternatives } = await findProductMatches(item.rawName, aiContext);
+    const { best, alternatives, confidence, method } = await findProductMatches(
+      item.rawName,
+      aiContext
+    );
+    const matchStatus = statusForConfidence(confidence);
+    const confirmedBest = matchStatus === 'matched' ? best : null;
     const cheapestAlternative =
-      alternatives.length > 0
+      matchStatus === 'matched' && alternatives.length > 0
         ? [...alternatives].sort((a, b) => a.effectivePrice - b.effectivePrice)[0]
-        : best;
+        : confirmedBest;
 
     const cheapestUnit = cheapestAlternative?.effectivePrice ?? paidUnitPrice;
     const lineSavings =
@@ -122,13 +184,16 @@ export async function analyzeParsedReceipt(
       quantity: item.quantity,
       paidUnitPrice,
       paidLineTotal,
-      matchedProduct: best,
+      matchedProduct: confirmedBest,
       alternatives,
       cheapestAlternative,
       lineSavings: Math.round(lineSavings * 100) / 100,
+      matchConfidence: confidence,
+      matchStatus,
+      matchMethod: method,
     });
 
-    if (alternatives.length > 0) {
+    if (matchStatus === 'matched' && alternatives.length > 0) {
       optimizerItems.push({
         name: item.rawName,
         options: alternatives.map((p) => ({
@@ -175,7 +240,8 @@ export function listReceipts(userId: string): SavedReceipt[] {
 export function saveReceipt(
   userId: string,
   analysis: ReceiptAnalysis,
-  imageMimeType: string | null
+  imageMimeType: string | null,
+  aiCacheKeys: string[] = []
 ): SavedReceipt {
   const receipts = loadUserReceipts(userId);
   const saved: SavedReceipt = {
@@ -184,25 +250,127 @@ export function saveReceipt(
     uploadedAt: new Date().toISOString(),
     imageMimeType,
     analysis,
+    aiCacheKeys,
   };
   receipts.unshift(saved);
-  saveUserReceipts(userId, receipts.slice(0, 200));
+  const retained = receipts.slice(0, 200);
+  removeAiCacheEntries(
+    receipts.slice(200).flatMap((receipt) => receipt.aiCacheKeys ?? [])
+  );
+  saveUserReceipts(userId, retained);
   logger.info('Saved receipt', saved.id, 'for user', userId);
   return saved;
 }
 
 export function deleteReceipt(userId: string, receiptId: string): boolean {
   const receipts = loadUserReceipts(userId);
+  const removed = receipts.find((receipt) => receipt.id === receiptId);
   const next = receipts.filter((r) => r.id !== receiptId);
   if (next.length === receipts.length) return false;
   saveUserReceipts(userId, next);
+  removeAiCacheEntries(removed?.aiCacheKeys ?? []);
   return true;
 }
 
 export function clearReceipts(userId: string): number {
   const receipts = loadUserReceipts(userId);
   saveUserReceipts(userId, []);
+  removeAiCacheEntries(receipts.flatMap((receipt) => receipt.aiCacheKeys ?? []));
   return receipts.length;
+}
+
+function recalculateFromLines(receipt: SavedReceipt): void {
+  const lines = receipt.analysis.lines;
+  const optimizerItems = lines
+    .filter((line) => line.matchStatus === 'matched' && line.alternatives.length > 0)
+    .map((line) => ({
+      name: line.correctedName || line.rawName,
+      options: line.alternatives.map((product) => ({
+        store: product.store,
+        price: product.effectivePrice,
+        onSale: product.promoType != null,
+        regularPrice: product.promoType ? product.originalPrice : undefined,
+      })),
+    }));
+  receipt.analysis.actualTotal = Math.round(
+    lines.reduce((sum, line) => sum + line.paidLineTotal, 0) * 100
+  ) / 100;
+  receipt.analysis.cheapestPossibleTotal = Math.round(
+    lines.reduce(
+      (sum, line) =>
+        sum +
+        (line.cheapestAlternative
+          ? line.cheapestAlternative.effectivePrice * line.quantity
+          : line.paidLineTotal),
+      0
+    ) * 100
+  ) / 100;
+  receipt.analysis.potentialSavings = Math.round(
+    Math.max(0, receipt.analysis.actualTotal - receipt.analysis.cheapestPossibleTotal) * 100
+  ) / 100;
+  receipt.analysis.shoppingPlan =
+    optimizerItems.length > 0 ? optimizeShoppingPlan(optimizerItems) : null;
+  receipt.analysis.unmatchedCount = lines.filter(
+    (line) => line.matchStatus !== 'matched'
+  ).length;
+}
+
+export async function correctReceiptLine(
+  userId: string,
+  receiptId: string,
+  lineIndex: number,
+  correction: ReceiptLineCorrection,
+  aiContext?: AiRateLimitContext
+): Promise<SavedReceipt | null> {
+  const receipts = loadUserReceipts(userId);
+  const receipt = receipts.find((candidate) => candidate.id === receiptId);
+  const line = receipt?.analysis.lines[lineIndex];
+  if (!receipt || !line) return null;
+
+  if (correction.action === 'unmatched') {
+    Object.assign(line, {
+      correctedName: null,
+      matchedProduct: null,
+      cheapestAlternative: null,
+      alternatives: [],
+      lineSavings: 0,
+      matchConfidence: 0,
+      matchStatus: 'unmatched' as const,
+      matchMethod: 'user_unmatched' as const,
+    });
+  } else {
+    const correctedName = correction.correctedName.trim();
+    if (!correctedName) throw new Error('Corrected product name required');
+    const result = await findProductMatches(correctedName, aiContext, 'user_corrected');
+    const matchStatus = statusForConfidence(result.confidence);
+    const cheapestAlternative =
+      matchStatus === 'matched' && result.alternatives.length > 0
+        ? [...result.alternatives].sort((a, b) => a.effectivePrice - b.effectivePrice)[0]
+        : null;
+    const lineSavings =
+      cheapestAlternative && line.paidUnitPrice > cheapestAlternative.effectivePrice
+        ? (line.paidUnitPrice - cheapestAlternative.effectivePrice) * line.quantity
+        : 0;
+    Object.assign(line, {
+      correctedName,
+      matchedProduct: matchStatus === 'matched' ? result.best : null,
+      alternatives: result.alternatives,
+      cheapestAlternative,
+      lineSavings: Math.round(lineSavings * 100) / 100,
+      matchConfidence: result.confidence,
+      matchStatus,
+      matchMethod: result.method,
+    });
+  }
+
+  if (aiContext?.aiCacheKeys) {
+    receipt.aiCacheKeys = Array.from(
+      new Set([...(receipt.aiCacheKeys ?? []), ...aiContext.aiCacheKeys])
+    );
+  }
+  recalculateFromLines(receipt);
+  saveUserReceipts(userId, receipts);
+  return receipt;
 }
 
 function monthKey(isoDate: string): string {
