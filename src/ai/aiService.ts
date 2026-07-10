@@ -18,7 +18,40 @@ function getTextModel(): string {
 
 /** Vision tasks (receipt OCR). Override with OPENAI_VISION_MODEL. */
 function getVisionModel(): string {
-  return process.env.OPENAI_VISION_MODEL || process.env.OPENAI_MODEL || 'gpt-5.5';
+  return process.env.OPENAI_VISION_MODEL || 'gpt-4o';
+}
+
+function parseReceiptNumber(value: unknown): number | null {
+  if (value == null || value === '') return null;
+  if (typeof value === 'number' && Number.isFinite(value)) return value;
+  const normalized = String(value)
+    .trim()
+    .replace(/€/g, '')
+    .replace(/\s/g, '')
+    .replace(',', '.');
+  const parsed = Number(normalized);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function normalizeReceiptLine(item: ParsedReceiptLine): ParsedReceiptLine | null {
+  const rawName = String(item.rawName ?? '').trim();
+  if (!rawName) return null;
+
+  const quantity = Math.max(1, Number(item.quantity) || 1);
+  const unitPrice = parseReceiptNumber(item.unitPrice);
+  let lineTotal = parseReceiptNumber(item.lineTotal) ?? 0;
+
+  if (lineTotal <= 0 && unitPrice != null) {
+    lineTotal = unitPrice * quantity;
+  }
+  if (lineTotal <= 0 && unitPrice == null) return null;
+
+  return {
+    rawName,
+    quantity,
+    unitPrice,
+    lineTotal,
+  };
 }
 
 function ensureCacheFile(): void {
@@ -100,7 +133,11 @@ export async function normalizeProductWithAI(
   }
 
   try {
-    const openai = new OpenAI({ apiKey });
+    const openai = new OpenAI({
+      apiKey,
+      maxRetries: 3,
+      timeout: 60_000,
+    });
     const completion = await openai.chat.completions.create({
       model: getTextModel(),
       messages: [
@@ -132,19 +169,22 @@ export async function normalizeProductWithAI(
   }
 }
 
-const RECEIPT_PARSE_PROMPT = `You extract structured data from Dutch supermarket receipt photos.
+const RECEIPT_PARSE_PROMPT = `You extract structured data from Dutch supermarket receipt photos (kassabon).
+Supported chains include Albert Heijn, Jumbo, Lidl, Aldi, Dirk, Plus, Coop, Hoogvliet, and similar Dutch supermarkets.
+
 Return JSON only with:
-- store: supermarket name if visible (AH, Albert Heijn, Jumbo, Lidl, Aldi, Dirk, Plus, Coop) or null
+- store: supermarket name if visible, else null
 - purchaseDate: ISO date YYYY-MM-DD if visible, else null
 - currency: always "EUR"
-- receiptTotal: total amount paid if visible, else null
+- receiptTotal: total amount paid (Totaal) if visible, else null
 - items: array of { rawName, quantity, unitPrice, lineTotal }
-  - rawName: product name as printed
-  - quantity: number (default 1)
+  - rawName: product name as printed (without leading quantity prefix when possible)
+  - quantity: number (default 1; Dutch receipts often prefix lines with "1 ")
   - unitPrice: price per unit if shown, else null
-  - lineTotal: line total price as number
+  - lineTotal: line total price as a number using dot decimals (e.g. 4.69 not 4,69)
 
-Ignore payment info, loyalty points, and subtotals that are not product lines.`;
+Dutch receipts often show quantity and product on one line and the price on the next line.
+Include every purchased product line. Ignore BTW/tax lines, payment terminals, loyalty points, and subtotals.`;
 
 /**
  * Parse a receipt image with OpenAI vision. Cached by image hash.
@@ -171,7 +211,13 @@ export async function parseReceiptImageWithAI(
   await acquireAiSlot('vision', context);
 
   try {
-    const openai = new OpenAI({ apiKey });
+    const openai = new OpenAI({
+      apiKey,
+      maxRetries: 3,
+      timeout: 60_000,
+      // Avoid intermittent truncated gzip responses seen with node-fetch.
+      defaultHeaders: { 'Accept-Encoding': 'identity' },
+    });
     const completion = await openai.chat.completions.create({
       model: getVisionModel(),
       messages: [
@@ -187,6 +233,7 @@ export async function parseReceiptImageWithAI(
               type: 'image_url',
               image_url: {
                 url: `data:${mimeType};base64,${imageBase64}`,
+                detail: 'high',
               },
             },
           ],
@@ -198,21 +245,34 @@ export async function parseReceiptImageWithAI(
     });
 
     const content = completion.choices[0]?.message?.content;
-    if (!content) return null;
+    if (!content) {
+      logger.warn('AI receipt parse returned empty content', { model: getVisionModel() });
+      return null;
+    }
 
     const parsed = JSON.parse(content) as ParsedReceiptData;
-    if (!Array.isArray(parsed.items) || parsed.items.length === 0) return null;
+    if (!Array.isArray(parsed.items) || parsed.items.length === 0) {
+      logger.warn('AI receipt parse returned no items', { model: getVisionModel(), content });
+      return null;
+    }
 
     parsed.currency = parsed.currency || 'EUR';
+    parsed.receiptTotal = parseReceiptNumber(parsed.receiptTotal);
     parsed.items = parsed.items
-      .filter((item) => item?.rawName?.trim())
-      .map((item) => ({
-        rawName: String(item.rawName).trim(),
-        quantity: Math.max(1, Number(item.quantity) || 1),
-        unitPrice: item.unitPrice != null ? Number(item.unitPrice) : null,
-        lineTotal: Number(item.lineTotal) || 0,
-      }))
-      .filter((item) => item.lineTotal > 0 || item.unitPrice != null);
+      .map((item) =>
+        normalizeReceiptLine({
+          rawName: String(item.rawName),
+          quantity: Number(item.quantity) || 1,
+          unitPrice: item.unitPrice,
+          lineTotal: Number(item.lineTotal) || 0,
+        })
+      )
+      .filter((item): item is ParsedReceiptLine => item != null);
+
+    if (parsed.items.length === 0) {
+      logger.warn('AI receipt parse filtered all items', { model: getVisionModel() });
+      return null;
+    }
 
     cache[cacheKey] = parsed;
     saveCache(cache);

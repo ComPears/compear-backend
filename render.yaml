@@ -26,4 +26,4 @@ services:
       - key: OPENAI_MODEL
         value: gpt-5.5
       - key: OPENAI_VISION_MODEL
-        value: gpt-5.5
+        value: gpt-4o

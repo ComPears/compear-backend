@@ -13,6 +13,12 @@ import { listsRouter } from './routes/lists';
 import { publicApiRouter } from './routes/publicApi';
 import { notFoundHandler, errorHandler } from './middleware/errorHandler';
 
+// Node 20.12+ loads local development variables without another dependency.
+// Render injects production variables directly.
+if (process.env.NODE_ENV !== 'production' && typeof process.loadEnvFile === 'function') {
+  process.loadEnvFile();
+}
+
 const app = express();
 const PORT = process.env.PORT || 4000;
 
@@ -23,14 +29,6 @@ const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? 'http://localhost:3000,ht
 
 app.use(helmet());
 app.use(
-  rateLimit({
-    windowMs: 15 * 60 * 1000,
-    max: 300,
-    standardHeaders: true,
-    legacyHeaders: false,
-  })
-);
-app.use(
   cors({
     origin(origin, callback) {
       if (!origin || allowedOrigins.includes(origin)) {
@@ -39,6 +37,14 @@ app.use(
       }
       callback(new Error('Not allowed by CORS'));
     },
+  })
+);
+app.use(
+  rateLimit({
+    windowMs: 15 * 60 * 1000,
+    max: 300,
+    standardHeaders: true,
+    legacyHeaders: false,
   })
 );
 app.use(express.json({ limit: '1mb' }));

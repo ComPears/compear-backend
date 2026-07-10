@@ -1,10 +1,11 @@
 import { Router } from 'express';
 import multer from 'multer';
-import rateLimit from 'express-rate-limit';
+import rateLimit, { ipKeyGenerator } from 'express-rate-limit';
 import {
   getAnalytics,
   getReceipts,
   parseReceipt,
+  removeAllReceipts,
   removeReceipt,
 } from '../controllers/receiptsController';
 import { getUserIdFromRequest } from '../utils/userId';
@@ -29,7 +30,7 @@ const receiptParseLimiter = rateLimit({
   keyGenerator: (req) => {
     const userId = getUserIdFromRequest(req);
     if (userId) return `receipt:user:${userId}`;
-    return `receipt:ip:${req.ip}`;
+    return `receipt:ip:${ipKeyGenerator(req.ip ?? '')}`;
   },
   message: {
     error: 'Te veel bon-uploads. Je kunt een paar bonnen per uur uploaden — probeer het later opnieuw.',
@@ -41,4 +42,5 @@ export const receiptsRouter = Router();
 receiptsRouter.post('/parse', receiptParseLimiter, upload.single('receipt'), parseReceipt);
 receiptsRouter.get('/', getReceipts);
 receiptsRouter.get('/analytics', getAnalytics);
+receiptsRouter.delete('/', removeAllReceipts);
 receiptsRouter.delete('/:id', removeReceipt);

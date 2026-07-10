@@ -7,6 +7,7 @@ import {
 } from '../ai/aiService';
 import {
   analyzeParsedReceipt,
+  clearReceipts,
   deleteReceipt,
   getReceiptAnalytics,
   listReceipts,
@@ -125,6 +126,20 @@ export function removeReceipt(req: Request, res: Response): void {
       return;
     }
     res.status(204).send();
+  } catch (e) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
+}
+
+export function removeAllReceipts(req: Request, res: Response): void {
+  try {
+    const userId = getUserIdFromRequest(req);
+    if (!userId) {
+      res.status(400).json({ error: 'Valid x-compear-user-id header required' });
+      return;
+    }
+    const deletedCount = clearReceipts(userId);
+    res.json({ deletedCount });
   } catch (e) {
     res.status(500).json({ error: 'Internal server error' });
   }

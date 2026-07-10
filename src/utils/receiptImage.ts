@@ -1,5 +1,13 @@
-import convert from 'heic-convert';
 import { logger } from './logger';
+
+type HeicConvert = (options: {
+  buffer: Buffer;
+  format: 'JPEG' | 'PNG';
+  quality?: number;
+}) => Promise<ArrayBuffer>;
+
+// CommonJS package; typed require avoids ts-node ambient .d.ts discovery issues.
+const convert = require('heic-convert') as HeicConvert;
 
 const VISION_MIMES = new Set(['image/jpeg', 'image/png', 'image/webp']);
 const HEIC_MIMES = new Set(['image/heic', 'image/heif']);

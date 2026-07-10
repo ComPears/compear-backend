@@ -199,6 +199,12 @@ export function deleteReceipt(userId: string, receiptId: string): boolean {
   return true;
 }
 
+export function clearReceipts(userId: string): number {
+  const receipts = loadUserReceipts(userId);
+  saveUserReceipts(userId, []);
+  return receipts.length;
+}
+
 function monthKey(isoDate: string): string {
   const d = new Date(isoDate);
   if (Number.isNaN(d.getTime())) return 'unknown';
