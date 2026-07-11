@@ -18,11 +18,11 @@ jobs:
     steps:
       - name: Check liveness and readiness
         env:
-          BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL }}
+          BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL || vars.BACKEND_URL }}
         run: |
           if [ -z "$BACKEND_BASE_URL" ]; then
-            echo "::warning::Set the BACKEND_BASE_URL repository variable to enable production monitoring."
-            exit 0
+            echo "::error::Set BACKEND_BASE_URL (or BACKEND_URL) repository variable to enable production monitoring."
+            exit 1
           fi
 
           base_url="${BACKEND_BASE_URL%/}"
