@@ -47,6 +47,7 @@ jobs:
       - name: Seed all stores from data-wrangling
         env:
           WRANGLING_PATH: ${{ github.workspace }}/compears-data-wrangling
+          COUNTRY: nl,uk
         run: npm run seed
 
       # Best-effort: Overpass is flaky (504s). Product seed must still commit/deploy.
@@ -61,6 +62,7 @@ jobs:
           name: backend-product-data
           path: |
             src/data/nl/*.json
+            src/data/uk/*.json
             src/data/store-locations.json
           retention-days: 14
 
@@ -69,7 +71,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/nl/*.json
+          git add src/data/nl/*.json src/data/uk/*.json
           if [ -f src/data/store-locations.json ]; then
             git add src/data/store-locations.json
           fi

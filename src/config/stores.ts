@@ -1,7 +1,7 @@
 import { StoreInfo } from '../types';
 import { CountryCode } from './countries';
 
-/** All supported store slugs (NL data from data-wrangling; DE/UK can be added later). */
+/** All supported store slugs across countries. */
 export const STORE_SLUGS = [
   'albert-heijn',
   'jumbo',
@@ -10,8 +10,33 @@ export const STORE_SLUGS = [
   'lidl',
   'coop',
   'plus',
+  'tesco',
+  'sainsburys',
+  'asda',
+  'morrisons',
+  'aldi-uk',
+  'lidl-uk',
 ] as const;
 export type StoreSlug = (typeof STORE_SLUGS)[number];
+
+const NL_STORE_SLUGS: StoreSlug[] = [
+  'albert-heijn',
+  'jumbo',
+  'aldi',
+  'dirk',
+  'lidl',
+  'coop',
+  'plus',
+];
+
+const UK_STORE_SLUGS: StoreSlug[] = [
+  'tesco',
+  'sainsburys',
+  'asda',
+  'morrisons',
+  'aldi-uk',
+  'lidl-uk',
+];
 
 export const STORES: Record<StoreSlug, StoreInfo> = {
   'albert-heijn': {
@@ -56,6 +81,42 @@ export const STORES: Record<StoreSlug, StoreInfo> = {
     slug: 'plus',
     logo: 'https://www.plus.nl/favicon.ico',
   },
+  tesco: {
+    id: 'tesco',
+    name: 'Tesco',
+    slug: 'tesco',
+    logo: 'https://www.tesco.com/favicon.ico',
+  },
+  sainsburys: {
+    id: 'sainsburys',
+    name: "Sainsbury's",
+    slug: 'sainsburys',
+    logo: 'https://www.sainsburys.co.uk/favicon.ico',
+  },
+  asda: {
+    id: 'asda',
+    name: 'Asda',
+    slug: 'asda',
+    logo: 'https://www.asda.com/favicon.ico',
+  },
+  morrisons: {
+    id: 'morrisons',
+    name: 'Morrisons',
+    slug: 'morrisons',
+    logo: 'https://groceries.morrisons.com/favicon.ico',
+  },
+  'aldi-uk': {
+    id: 'aldi-uk',
+    name: 'Aldi',
+    slug: 'aldi-uk',
+    logo: 'https://www.aldi.co.uk/favicon.ico',
+  },
+  'lidl-uk': {
+    id: 'lidl-uk',
+    name: 'Lidl',
+    slug: 'lidl-uk',
+    logo: 'https://www.lidl.co.uk/favicon.ico',
+  },
 };
 
 export function getStoreBySlug(slug: string): StoreInfo | undefined {
@@ -70,8 +131,9 @@ export function getDataFileName(slug: StoreSlug): string {
   return `${slug}.json`;
 }
 
-/** Store slugs available for a country (NL today; DE/UK when pipelines exist). */
+/** Store slugs available for a country. */
 export function getStoreSlugsForCountry(country: CountryCode): StoreSlug[] {
-  if (country === 'nl') return [...STORE_SLUGS];
+  if (country === 'nl') return [...NL_STORE_SLUGS];
+  if (country === 'uk') return [...UK_STORE_SLUGS];
   return [];
 }

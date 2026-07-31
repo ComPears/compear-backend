@@ -1,10 +1,9 @@
-/**
- * Seed backend product JSON from compears-data-wrangling structured files.
- * Run from backend dir: npm run seed
- */
+
 import {
+  CountryCode,
   DEFAULT_COUNTRY,
   loadWranglingConfig,
+  parseCountryCode,
 } from '../config/countries';
 import {
   getWranglingPath,
@@ -28,47 +27,60 @@ function formatStoreLine(report: SeedReport): string {
   );
 }
 
+function countriesToSeed(): CountryCode[] {
+  const raw = process.env.COUNTRY?.trim();
+  if (!raw) return [DEFAULT_COUNTRY, 'uk'];
+  return raw
+    .split(',')
+    .map((part) => parseCountryCode(part.trim()))
+    .filter((code, index, all) => all.indexOf(code) === index);
+}
+
 function main(): void {
-  const reports = seedAllStoresFromWrangling();
-
-  const totalSeeded = reports.reduce((sum, r) => sum + r.seeded, 0);
-  const totalBarcodes = reports.reduce((sum, r) => sum + r.seededWithBarcode, 0);
-  const totalSourceBarcodes = reports.reduce((sum, r) => sum + r.withBarcodeInSource, 0);
-  const totalSourceRows = reports.reduce((sum, r) => sum + r.totalRows, 0);
-
-  console.log('\nSeed report:');
-  for (const report of reports) {
-    console.log(formatStoreLine(report));
-  }
-
-  console.log('\nBarcode summary (seeded products):');
-  for (const report of reports) {
-    if (report.seeded === 0) continue;
-    console.log(
-      `  ${report.store.padEnd(14)} ${String(report.seededWithBarcode).padStart(6)} / ${String(report.seeded).padStart(6)}  (${pct(report.seededWithBarcode, report.seeded).padStart(4)})`
-    );
-  }
-  console.log(
-    `  ${'TOTAL'.padEnd(14)} ${String(totalBarcodes).padStart(6)} / ${String(totalSeeded).padStart(6)}  (${pct(totalBarcodes, totalSeeded).padStart(4)})`
-  );
-  console.log(
-    `\nWrangling source barcodes: ${totalSourceBarcodes}/${totalSourceRows} rows (${pct(totalSourceBarcodes, totalSourceRows)})`
-  );
-
+  const countries = countriesToSeed();
   const wranglingPath = getWranglingPath();
   const config = loadWranglingConfig(wranglingPath);
   const failures: string[] = [];
+  let totalSeeded = 0;
+  let totalBarcodes = 0;
+  let totalSourceBarcodes = 0;
+  let totalSourceRows = 0;
 
-  for (const report of reports) {
-    const minimum =
-      config.countries[DEFAULT_COUNTRY].stores[report.store]?.minimum_products ?? 0;
-    if (minimum > 0 && report.seeded < minimum) {
-      failures.push(
-        `${report.store}: ${report.seeded} seeded < minimum ${minimum}` +
-          (report.totalRows === 0 ? ' (source catalog missing or empty)' : '')
-      );
+  for (const country of countries) {
+    console.log(`\n=== Seeding ${country} ===`);
+    const reports = seedAllStoresFromWrangling(wranglingPath, country);
+
+    console.log(`\nSeed report (${country}):`);
+    for (const report of reports) {
+      console.log(formatStoreLine(report));
+    }
+
+    totalSeeded += reports.reduce((sum, r) => sum + r.seeded, 0);
+    totalBarcodes += reports.reduce((sum, r) => sum + r.seededWithBarcode, 0);
+    totalSourceBarcodes += reports.reduce((sum, r) => sum + r.withBarcodeInSource, 0);
+    totalSourceRows += reports.reduce((sum, r) => sum + r.totalRows, 0);
+
+    for (const report of reports) {
+      const storeCfg = config.countries[country]?.stores?.[report.store] as
+        | { minimum_products?: number; optional?: boolean }
+        | undefined;
+      const minimum = storeCfg?.minimum_products ?? 0;
+      const optional = Boolean(storeCfg?.optional);
+      if (!optional && minimum > 0 && report.seeded < minimum) {
+        failures.push(
+          `${country}/${report.store}: ${report.seeded} seeded < minimum ${minimum}` +
+            (report.totalRows === 0 ? ' (source catalog missing or empty)' : '')
+        );
+      }
     }
   }
+
+  console.log(
+    `\nAll countries TOTAL barcodes: ${totalBarcodes}/${totalSeeded} seeded (${pct(totalBarcodes, totalSeeded)})`
+  );
+  console.log(
+    `Wrangling source barcodes: ${totalSourceBarcodes}/${totalSourceRows} rows (${pct(totalSourceBarcodes, totalSourceRows)})`
+  );
 
   if (failures.length > 0) {
     console.error('\nSeed validation failed:');

@@ -13,6 +13,7 @@ export interface WranglingStoreEntry {
   dir: string;
   catalog: string;
   minimum_products?: number;
+  optional?: boolean;
 }
 
 export interface WranglingCountryConfig {
