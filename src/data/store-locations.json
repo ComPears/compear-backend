@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-07-09T03:56:10.998Z",
+  "importedAt": "2026-07-31T03:48:17.040Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 3232,
+  "count": 3229,
   "locations": [
     {
       "id": "albert-heijn-node-4851758886",
@@ -228,15 +228,6 @@
       "city": "",
       "lat": 53.016897,
       "lng": 6.561043
-    },
-    {
-      "id": "albert-heijn-way-273528804",
-      "chain": "albert-heijn",
-      "name": "Albert Heijn v.d.Linden",
-      "address": "Albert Heijn v.d.Linden",
-      "city": "",
-      "lat": 52.30725,
-      "lng": 4.846005
     },
     {
       "id": "albert-heijn-node-7189155666",
@@ -856,8 +847,8 @@
       "name": "Albert Heijn",
       "address": "Lavendelplantsoen 60, 1313GA Almere",
       "city": "Almere",
-      "lat": 52.382269,
-      "lng": 5.198743
+      "lat": 52.382267,
+      "lng": 5.198589
     },
     {
       "id": "albert-heijn-node-34045788",
@@ -865,8 +856,8 @@
       "name": "Albert Heijn",
       "address": "Rimsky-Korssakovweg 9, 1323LP Almere",
       "city": "Almere",
-      "lat": 52.366901,
-      "lng": 5.190668
+      "lat": 52.366804,
+      "lng": 5.190654
     },
     {
       "id": "albert-heijn-node-560115871",
@@ -883,8 +874,8 @@
       "name": "Albert Heijn",
       "address": "'s-Hertogenboschplein 15, 1324WB Almere",
       "city": "Almere",
-      "lat": 52.359956,
-      "lng": 5.20538
+      "lat": 52.359919,
+      "lng": 5.205415
     },
     {
       "id": "albert-heijn-node-2842513345",
@@ -1137,6 +1128,15 @@
       "city": "Amstelveen",
       "lat": 52.281599,
       "lng": 4.825707
+    },
+    {
+      "id": "albert-heijn-node-4869096274",
+      "chain": "albert-heijn",
+      "name": "Albert Heijn Van der Linden",
+      "address": "Amsterdamseweg 73, 1182GP Amstelveen",
+      "city": "Amstelveen",
+      "lat": 52.30709,
+      "lng": 4.846357
     },
     {
       "id": "albert-heijn-node-34044519",
@@ -7214,6 +7214,15 @@
       "lng": 4.489615
     },
     {
+      "id": "albert-heijn-node-14030900342",
+      "chain": "albert-heijn",
+      "name": "Albert Heijn",
+      "address": "Westblaak 232, 3012KP Rotterdam",
+      "city": "Rotterdam",
+      "lat": 51.916161,
+      "lng": 4.474535
+    },
+    {
       "id": "albert-heijn-node-2821674851",
       "chain": "albert-heijn",
       "name": "Albert Heijn XL",
@@ -8362,8 +8371,8 @@
       "name": "Albert Heijn",
       "address": "Zeestraat 21-1, 1131ZD Volendam",
       "city": "Volendam",
-      "lat": 52.493792,
-      "lng": 5.072431
+      "lat": 52.493858,
+      "lng": 5.072177
     },
     {
       "id": "albert-heijn-node-2844625882",
@@ -9212,6 +9221,15 @@
       "lng": 6.056283
     },
     {
+      "id": "aldi-node-14056698819",
+      "chain": "aldi",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.385288,
+      "lng": 5.217396
+    },
+    {
       "id": "aldi-node-31071749",
       "chain": "aldi",
       "name": "ALDI",
@@ -9435,15 +9453,6 @@
       "city": "",
       "lat": 52.435891,
       "lng": 6.236925
-    },
-    {
-      "id": "aldi-node-497947321",
-      "chain": "aldi",
-      "name": "ALDI",
-      "address": "ALDI",
-      "city": "",
-      "lat": 51.418669,
-      "lng": 5.439238
     },
     {
       "id": "aldi-node-663312557",
@@ -9707,6 +9716,15 @@
       "lng": 4.402215
     },
     {
+      "id": "aldi-node-2733914684",
+      "chain": "aldi",
+      "name": "ALDI",
+      "address": "Loosduinse Hoofdstraat 280, 2552AN 's-Gravenhage",
+      "city": "'s-Gravenhage",
+      "lat": 52.053338,
+      "lng": 4.235607
+    },
+    {
       "id": "aldi-node-2906013901",
       "chain": "aldi",
       "name": "ALDI",
@@ -9750,15 +9768,6 @@
       "city": "'s-Gravenhage",
       "lat": 52.100545,
       "lng": 4.273628
-    },
-    {
-      "id": "aldi-node-2733914684",
-      "chain": "aldi",
-      "name": "ALDI 's-Gravenhage",
-      "address": "Loosduinse Hoofdstraat 280, 2552AN 's-Gravenhage",
-      "city": "'s-Gravenhage",
-      "lat": 52.053338,
-      "lng": 4.235607
     },
     {
       "id": "aldi-node-4252065660",
@@ -10740,6 +10749,15 @@
       "city": "Ede",
       "lat": 52.050711,
       "lng": 5.643078
+    },
+    {
+      "id": "aldi-node-497947321",
+      "chain": "aldi",
+      "name": "ALDI",
+      "address": "Kastelenplein 60, 5653LP Eindhoven",
+      "city": "Eindhoven",
+      "lat": 51.418669,
+      "lng": 5.439238
     },
     {
       "id": "aldi-node-2735185900",
@@ -13289,13 +13307,13 @@
       "lng": 4.883273
     },
     {
-      "id": "aldi-node-2736380590",
+      "id": "aldi-node-2736210420",
       "chain": "aldi",
       "name": "ALDI",
-      "address": "van der Sandeplein 2, 8471RX Wolvega",
+      "address": "Spoorlaan 1, 8471JP Wolvega",
       "city": "Wolvega",
-      "lat": 52.874487,
-      "lng": 5.997904
+      "lat": 52.877328,
+      "lng": 6.007462
     },
     {
       "id": "aldi-node-2966539659",
@@ -13692,6 +13710,15 @@
       "city": "Ysselsteyn",
       "lat": 51.490512,
       "lng": 5.895441
+    },
+    {
+      "id": "coop-node-2816987675",
+      "chain": "coop",
+      "name": "Gewoon Coop",
+      "address": "Gerrit Varwijkplein 34, 7038BX Zeddam",
+      "city": "Zeddam",
+      "lat": 51.903262,
+      "lng": 6.259157
     },
     {
       "id": "dirk-node-34045950",
@@ -15197,15 +15224,6 @@
       "lng": 4.330139
     },
     {
-      "id": "jumbo-node-7036733525",
-      "chain": "jumbo",
-      "name": "Jumbo City",
-      "address": "Grote Marktstraat 24, 2511BJ 's-Gravenhage",
-      "city": "'s-Gravenhage",
-      "lat": 52.076128,
-      "lng": 4.310709
-    },
-    {
       "id": "jumbo-node-34046254",
       "chain": "jumbo",
       "name": "Jumbo Koornneef",
@@ -15294,15 +15312,6 @@
       "city": "'s-Hertogenbosch",
       "lat": 51.67979,
       "lng": 5.316601
-    },
-    {
-      "id": "jumbo-node-4373784910",
-      "chain": "jumbo",
-      "name": "Jumbo City",
-      "address": "Visstraat 54, 5211DN 's-Hertogenbosch",
-      "city": "'s-Hertogenbosch",
-      "lat": 51.690252,
-      "lng": 5.299439
     },
     {
       "id": "jumbo-node-2767115311",
@@ -15645,15 +15654,6 @@
       "city": "Amsterdam",
       "lat": 52.346624,
       "lng": 4.920034
-    },
-    {
-      "id": "jumbo-node-7905360244",
-      "chain": "jumbo",
-      "name": "Jumbo City",
-      "address": "Markelerbergpad 1, 1105AW Amsterdam",
-      "city": "Amsterdam",
-      "lat": 52.29746,
-      "lng": 4.95716
     },
     {
       "id": "jumbo-node-2848744281",
@@ -17024,15 +17024,6 @@
       "lng": 6.878616
     },
     {
-      "id": "jumbo-node-34045841",
-      "chain": "jumbo",
-      "name": "Jumbo",
-      "address": "Burgemeester Van Veenlaan 100, 7543AB Enschede",
-      "city": "Enschede",
-      "lat": 52.206212,
-      "lng": 6.87913
-    },
-    {
       "id": "jumbo-node-1249685612",
       "chain": "jumbo",
       "name": "Jumbo",
@@ -17094,6 +17085,15 @@
       "city": "Enschede",
       "lat": 52.211245,
       "lng": 6.863178
+    },
+    {
+      "id": "jumbo-node-34045841",
+      "chain": "jumbo",
+      "name": "Jumbo Boswinkel",
+      "address": "Burgemeester Van Veenlaan 100, 7543AB Enschede",
+      "city": "Enschede",
+      "lat": 52.206212,
+      "lng": 6.87913
     },
     {
       "id": "jumbo-node-2853563531",
@@ -18561,15 +18561,6 @@
       "city": "Meerssen",
       "lat": 50.875489,
       "lng": 5.738531
-    },
-    {
-      "id": "jumbo-node-2842209671",
-      "chain": "jumbo",
-      "name": "Jumbo",
-      "address": "Beekstraat 2, 6231LG Meerssen",
-      "city": "Meerssen",
-      "lat": 50.884919,
-      "lng": 5.755746
     },
     {
       "id": "jumbo-node-9097664301",
@@ -20237,15 +20228,6 @@
       "lng": 5.114174
     },
     {
-      "id": "jumbo-node-859109009",
-      "chain": "jumbo",
-      "name": "Jumbo City",
-      "address": "Twijnstraat 48, 3511ZL Utrecht",
-      "city": "Utrecht",
-      "lat": 52.082338,
-      "lng": 5.123684
-    },
-    {
       "id": "jumbo-node-5347240257",
       "chain": "jumbo",
       "name": "Jumbo Foodmarkt",
@@ -20980,8 +20962,8 @@
       "name": "Jumbo",
       "address": "Molenplein 1, 2382BT Zoeterwoude",
       "city": "Zoeterwoude",
-      "lat": 52.144282,
-      "lng": 4.516216
+      "lat": 52.144005,
+      "lng": 4.516106
     },
     {
       "id": "jumbo-node-2494104715",
@@ -24184,8 +24166,8 @@
       "name": "Lidl",
       "address": "Laan van Nieuw Blankenburg 234, 3181AL Rozenburg",
       "city": "Rozenburg",
-      "lat": 51.900541,
-      "lng": 4.25519
+      "lat": 51.900587,
+      "lng": 4.255396
     },
     {
       "id": "lidl-node-4642648792",
@@ -25070,6 +25052,15 @@
       "lng": 6.113642
     },
     {
+      "id": "plus-node-14041617683",
+      "chain": "plus",
+      "name": "ABC Supermarket",
+      "address": "ABC Supermarket",
+      "city": "",
+      "lat": 51.679287,
+      "lng": 5.398932
+    },
+    {
       "id": "plus-node-12873238755",
       "chain": "plus",
       "name": "Food plus",
@@ -25507,8 +25498,8 @@
       "name": "PLUS",
       "address": "Wim Kanplein 2, 1311LH Almere",
       "city": "Almere",
-      "lat": 52.370782,
-      "lng": 5.179675
+      "lat": 52.370774,
+      "lng": 5.179641
     },
     {
       "id": "plus-node-6430430737",
@@ -27716,15 +27707,6 @@
       "lng": 5.878045
     },
     {
-      "id": "plus-node-2097414087",
-      "chain": "plus",
-      "name": "PLUS",
-      "address": "Passage Molenpoort 2, 6511HV Nijmegen",
-      "city": "Nijmegen",
-      "lat": 51.8439,
-      "lng": 5.863684
-    },
-    {
       "id": "plus-node-2313144035",
       "chain": "plus",
       "name": "PLUS",
@@ -28211,6 +28193,15 @@
       "lng": 4.428481
     },
     {
+      "id": "plus-node-2819291211",
+      "chain": "plus",
+      "name": "PLUS",
+      "address": "Ganzerikplein 329, 3053EA Rotterdam",
+      "city": "Rotterdam",
+      "lat": 51.959024,
+      "lng": 4.472169
+    },
+    {
       "id": "plus-node-4792121400",
       "chain": "plus",
       "name": "PLUS",
@@ -28227,15 +28218,6 @@
       "city": "Rotterdam",
       "lat": 51.960092,
       "lng": 4.503767
-    },
-    {
-      "id": "plus-node-2819291211",
-      "chain": "plus",
-      "name": "PLUS Tom Vlig",
-      "address": "Ganzerikplein 329, 3053EA Rotterdam",
-      "city": "Rotterdam",
-      "lat": 51.959008,
-      "lng": 4.472135
     },
     {
       "id": "plus-node-267327072",
@@ -29010,15 +28992,6 @@
       "city": "Winterswijk",
       "lat": 51.979795,
       "lng": 6.71747
-    },
-    {
-      "id": "plus-node-2816987675",
-      "chain": "plus",
-      "name": "PLUS",
-      "address": "Gerrit Varwijkplein 34, 7038BX Zeddam",
-      "city": "Zeddam",
-      "lat": 51.903262,
-      "lng": 6.259157
     },
     {
       "id": "plus-node-2848512476",
