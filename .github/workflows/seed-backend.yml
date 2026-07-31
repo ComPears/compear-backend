@@ -49,14 +49,19 @@ jobs:
           WRANGLING_PATH: ${{ github.workspace }}/compears-data-wrangling
         run: npm run seed
 
+      # Best-effort: Overpass is flaky (504s). Product seed must still commit/deploy.
       - name: Import store locations from OpenStreetMap
+        id: osm_import
+        continue-on-error: true
         run: npm run import-stores
 
       - name: Upload seeded data artifact
         uses: actions/upload-artifact@v4
         with:
           name: backend-product-data
-          path: src/data/nl/*.json
+          path: |
+            src/data/nl/*.json
+            src/data/store-locations.json
           retention-days: 14
 
       - name: Commit seeded product data
@@ -65,11 +70,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/nl/*.json
+          if [ -f src/data/store-locations.json ]; then
+            git add src/data/store-locations.json
+          fi
           if git diff --cached --quiet; then
             echo "No product data changes to commit"
           else
             git commit -m "chore: weekly seed from data-wrangling and OSM store import $(date -u +%Y-%m-%d)"
             git push
+          fi
+          if [ "${{ steps.osm_import.outcome }}" != "success" ]; then
+            echo "::warning::OSM store import failed; kept previous store-locations.json and continued product seed deploy."
           fi
 
       - name: Trigger Render backend redeploy

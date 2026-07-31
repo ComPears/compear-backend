@@ -35,8 +35,17 @@ interface ChainMatcher {
   test: (text: string, tags: Record<string, string>) => boolean;
 }
 
-const OVERPASS_URL = 'https://overpass-api.de/api/interpreter';
+/** Primary + public Overpass mirrors (rotated on 429/5xx/network errors). */
+export const OVERPASS_ENDPOINTS = [
+  'https://overpass-api.de/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter',
+  'https://maps.mail.ru/osm/tools/overpass/api/interpreter',
+];
+
 const USER_AGENT = 'ComPear/1.0 (https://compears.shop; store-locator import)';
+const FETCH_TIMEOUT_MS = 210_000;
+const MAX_ATTEMPTS = 5;
+const RETRYABLE_STATUS = new Set([429, 502, 503, 504]);
 
 const CHAIN_MATCHERS: ChainMatcher[] = [
   {
@@ -158,23 +167,91 @@ function toStoreLocation(el: OsmElement): StoreLocation | null {
   };
 }
 
-async function fetchOsmElements(): Promise<OsmElement[]> {
-  const response = await fetch(OVERPASS_URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': USER_AGENT,
-    },
-    body: `data=${encodeURIComponent(OVERPASS_QUERY)}`,
-  });
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error(`Overpass API error ${response.status}: ${body.slice(0, 200)}`);
+export function overpassBackoffMs(attempt: number): number {
+  // 2s, 4s, 8s, 16s… capped
+  return Math.min(30_000, 2_000 * 2 ** Math.max(0, attempt - 1));
+}
+
+async function postOverpass(
+  endpoint: string,
+  fetchImpl: typeof fetch = fetch
+): Promise<OsmElement[]> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const response = await fetchImpl(endpoint, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'User-Agent': USER_AGENT,
+      },
+      body: `data=${encodeURIComponent(OVERPASS_QUERY)}`,
+      signal: controller.signal,
+    });
+
+    if (!response.ok) {
+      const body = await response.text();
+      const error = new Error(
+        `Overpass API error ${response.status} from ${endpoint}: ${body.slice(0, 200)}`
+      ) as Error & { status?: number; retryable?: boolean };
+      error.status = response.status;
+      error.retryable = RETRYABLE_STATUS.has(response.status);
+      throw error;
+    }
+
+    const data = (await response.json()) as { elements?: OsmElement[] };
+    return data.elements || [];
+  } finally {
+    clearTimeout(timer);
   }
+}
 
-  const data = (await response.json()) as { elements?: OsmElement[] };
-  return data.elements || [];
+/** Exported for tests; production callers use importStoreLocationsFromOsm. */
+export async function fetchOsmElements(
+  options: {
+    endpoints?: string[];
+    fetchImpl?: typeof fetch;
+    maxAttempts?: number;
+    sleepImpl?: (ms: number) => Promise<void>;
+  } = {}
+): Promise<OsmElement[]> {
+  const endpoints = options.endpoints?.length ? options.endpoints : OVERPASS_ENDPOINTS;
+  const fetchImpl = options.fetchImpl ?? fetch;
+  const maxAttempts = options.maxAttempts ?? MAX_ATTEMPTS;
+  const sleepImpl = options.sleepImpl ?? sleep;
+
+  let lastError: unknown;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    const endpoint = endpoints[(attempt - 1) % endpoints.length];
+    try {
+      console.info(`Overpass attempt ${attempt}/${maxAttempts} via ${endpoint}`);
+      return await postOverpass(endpoint, fetchImpl);
+    } catch (error) {
+      lastError = error;
+      const retryable =
+        error instanceof Error &&
+        ((error as Error & { retryable?: boolean }).retryable === true ||
+          error.name === 'AbortError' ||
+          /fetch failed|network|ECONNRESET|ETIMEDOUT|ENOTFOUND/i.test(error.message));
+      if (!retryable || attempt === maxAttempts) {
+        throw error instanceof Error
+          ? error
+          : new Error(`Overpass request failed: ${String(error)}`);
+      }
+      const delay = overpassBackoffMs(attempt);
+      console.warn(
+        `Overpass attempt ${attempt} failed (${error instanceof Error ? error.message : error}); retrying in ${delay}ms…`
+      );
+      await sleepImpl(delay);
+    }
+  }
+  throw lastError instanceof Error
+    ? lastError
+    : new Error(`Overpass request failed after ${maxAttempts} attempts`);
 }
 
 export async function importStoreLocationsFromOsm(): Promise<StoreLocationDataset> {
