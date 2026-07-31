@@ -27,6 +27,11 @@ if (process.env.NODE_ENV !== 'production' && typeof process.loadEnvFile === 'fun
 const app = express();
 const PORT = process.env.PORT || 4000;
 
+// Render (and most PaaS) terminate TLS at a single reverse proxy that sets
+// X-Forwarded-For. Trust exactly that first hop so req.ip is the real client
+// IP for rate limiting, without trusting spoofable client-supplied hops.
+app.set('trust proxy', 1);
+
 app.use(requestMonitoring);
 
 const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? 'http://localhost:3000,http://localhost:8888')

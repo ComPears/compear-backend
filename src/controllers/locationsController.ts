@@ -1,7 +1,8 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { Request, Response } from 'express';
-import { StoreSlug, STORE_SLUGS } from '../config/stores';
+import { StoreSlug, STORE_SLUGS, getStoreSlugsForCountry } from '../config/stores';
+import { countryFromQuery, CountryCode } from '../config/countries';
 import {
   readStoreLocationDataset,
   StoreLocation,
@@ -41,6 +42,7 @@ function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number): nu
 
 export function listStoreLocations(req: Request, res: Response): void {
   try {
+    const country: CountryCode = countryFromQuery(req);
     const chain = (req.query.chain as string | undefined)?.toLowerCase();
     const city = (req.query.city as string | undefined)?.toLowerCase();
     const lat = parseFloat(req.query.lat as string);
@@ -48,7 +50,13 @@ export function listStoreLocations(req: Request, res: Response): void {
     const radiusKm = Math.min(50, Math.max(1, parseFloat(req.query.radius as string) || 25));
     const limit = Math.min(50, Math.max(1, parseInt(req.query.limit as string, 10) || 20));
 
-    let locations = loadLocations();
+    let locations = loadLocations().filter((l) => l.country === country);
+
+    // If no explicit country on legacy rows, fall back to chain registry.
+    if (locations.length === 0) {
+      const allowed = new Set(getStoreSlugsForCountry(country));
+      locations = loadLocations().filter((l) => allowed.has(l.chain));
+    }
 
     if (chain && STORE_SLUGS.includes(chain as StoreSlug)) {
       locations = locations.filter((l) => l.chain === chain);

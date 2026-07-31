@@ -100,16 +100,16 @@ describe('receipt upload API boundary', () => {
       observed.input = { buffer: buffer.toString(), mimeType };
       return { buffer: Buffer.from('prepared'), mimeType: 'image/jpeg' };
     };
-    aiService.parseReceiptImageWithAI = async (base64, mimeType, context) => {
-      observed.vision = { base64, mimeType, context };
+    aiService.parseReceiptImageWithAI = async (base64, mimeType, context, country) => {
+      observed.vision = { base64, mimeType, context, country };
       return parsed;
     };
-    receiptService.analyzeParsedReceipt = async (value, context) => {
-      observed.analysis = { value, context };
+    receiptService.analyzeParsedReceipt = async (value, context, country) => {
+      observed.analysis = { value, context, country };
       return analysis;
     };
-    receiptService.saveReceipt = (identity, value, mimeType) => {
-      observed.save = { identity, value, mimeType };
+    receiptService.saveReceipt = (identity, value, mimeType, aiCacheKeys, country) => {
+      observed.save = { identity, value, mimeType, country };
       return savedReceipt;
     };
 
@@ -129,11 +129,14 @@ describe('receipt upload API boundary', () => {
     assert.equal(observed.vision.base64, Buffer.from('prepared').toString('base64'));
     assert.equal(observed.vision.context.userId, userId);
     assert.equal(observed.vision.context.ip, '192.0.2.4');
+    assert.equal(observed.vision.country, 'nl');
     assert.equal(observed.analysis.value, parsed);
+    assert.equal(observed.analysis.country, 'nl');
     assert.deepEqual(observed.save, {
       identity: userId,
       value: analysis,
       mimeType: 'image/jpeg',
+      country: 'nl',
     });
   });
 });
@@ -141,15 +144,18 @@ describe('receipt upload API boundary', () => {
 describe('receipt history and delete API boundary', () => {
   it('scopes history to the validated user', () => {
     let observedUser;
-    receiptService.listReceipts = (identity) => {
+    let observedCountry;
+    receiptService.listReceipts = (identity, country) => {
       observedUser = identity;
+      observedCountry = country;
       return [savedReceipt];
     };
     const res = response();
 
-    getReceipts(request({ headers: { 'x-compear-user-id': userId } }), res);
+    getReceipts(request({ headers: { 'x-compear-user-id': userId }, query: { country: 'uk' } }), res);
 
     assert.equal(observedUser, userId);
+    assert.equal(observedCountry, 'uk');
     assert.deepEqual(res.body, [savedReceipt]);
   });
 

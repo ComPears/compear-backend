@@ -47,6 +47,8 @@ export interface ReceiptAnalysis {
 export interface SavedReceipt {
   id: string;
   userId: string;
+  /** Country catalog used for matching (nl / uk). Legacy receipts default to nl. */
+  country?: 'nl' | 'de' | 'uk';
   uploadedAt: string;
   imageMimeType: string | null;
   analysis: ReceiptAnalysis;

@@ -27,6 +27,8 @@ import {
   ReceiptMatchMethod,
   statusForConfidence,
 } from './receiptMatching';
+import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
+import { loadAllProducts } from './dataService';
 
 const RECEIPTS_DIR = path.join(__dirname, '..', 'data', 'receipts');
 const DEFAULT_RETENTION_DAYS = 365;
@@ -43,6 +45,7 @@ function userReceiptsPath(userId: string): string {
 }
 
 function hydrateLegacyReceipt(receipt: SavedReceipt): SavedReceipt {
+  if (!receipt.country) receipt.country = DEFAULT_COUNTRY;
   for (const line of receipt.analysis?.lines ?? []) {
     if (line.matchStatus) continue;
     line.matchStatus = line.matchedProduct ? 'matched' : 'unmatched';
@@ -108,23 +111,25 @@ function linePaidTotals(line: { quantity: number; unitPrice: number | null; line
 async function findProductMatches(
   rawName: string,
   aiContext?: AiRateLimitContext,
-  method: ReceiptMatchMethod = 'catalog'
+  method: ReceiptMatchMethod = 'catalog',
+  country: CountryCode = DEFAULT_COUNTRY
 ): Promise<{
   best: Product | null;
   alternatives: Product[];
   confidence: number;
   method: ReceiptMatchMethod;
 }> {
-  let results = searchProducts(rawName, 8);
+  const catalog = loadAllProducts(country);
+  let results = searchProducts(rawName, 8, catalog);
   let searchName = rawName;
   let matchMethod = method;
   const initialConfidence =
     results.length > 0 ? calculateReceiptMatchConfidence(rawName, results[0]) : 0;
   if (results.length === 0 || initialConfidence < 0.72) {
-    const normalized = await normalizeProductWithAI(rawName, aiContext);
+    const normalized = await normalizeProductWithAI(rawName, aiContext, country);
     if (normalized?.canonicalName) {
-      const normalizedResults = searchProducts(normalized.canonicalName, 8);
-      const exactResults = getProductsByCanonicalName(normalized.canonicalName);
+      const normalizedResults = searchProducts(normalized.canonicalName, 8, catalog);
+      const exactResults = getProductsByCanonicalName(normalized.canonicalName, country);
       const candidateResults = exactResults.length > 0 ? exactResults : normalizedResults;
       const normalizedConfidence =
         candidateResults.length > 0
@@ -144,7 +149,7 @@ async function findProductMatches(
 
   const confidence = calculateReceiptMatchConfidence(searchName, results[0]);
   const canonical = results[0].canonicalName || results[0].productName;
-  const alternatives = getProductsByCanonicalName(canonical);
+  const alternatives = getProductsByCanonicalName(canonical, country);
   const pool = alternatives.length > 0 ? alternatives : results;
   const best = [...pool].sort((a, b) => a.effectivePrice - b.effectivePrice)[0];
   return { best, alternatives: pool, confidence, method: matchMethod };
@@ -152,7 +157,8 @@ async function findProductMatches(
 
 export async function analyzeParsedReceipt(
   parsed: ParsedReceiptData,
-  aiContext?: AiRateLimitContext
+  aiContext?: AiRateLimitContext,
+  country: CountryCode = DEFAULT_COUNTRY
 ): Promise<ReceiptAnalysis> {
   const lines: ReceiptLineMatch[] = [];
   const optimizerItems: Array<{
@@ -164,7 +170,9 @@ export async function analyzeParsedReceipt(
     const { paidLineTotal, paidUnitPrice } = linePaidTotals(item);
     const { best, alternatives, confidence, method } = await findProductMatches(
       item.rawName,
-      aiContext
+      aiContext,
+      'catalog',
+      country
     );
     const matchStatus = statusForConfidence(confidence);
     const confirmedBest = matchStatus === 'matched' ? best : null;
@@ -231,22 +239,29 @@ export async function analyzeParsedReceipt(
   };
 }
 
-export function listReceipts(userId: string): SavedReceipt[] {
-  return loadUserReceipts(userId).sort(
-    (a, b) => new Date(b.uploadedAt).getTime() - new Date(a.uploadedAt).getTime()
-  );
+export function listReceipts(
+  userId: string,
+  country?: CountryCode
+): SavedReceipt[] {
+  return loadUserReceipts(userId)
+    .filter((receipt) => !country || (receipt.country ?? DEFAULT_COUNTRY) === country)
+    .sort(
+      (a, b) => new Date(b.uploadedAt).getTime() - new Date(a.uploadedAt).getTime()
+    );
 }
 
 export function saveReceipt(
   userId: string,
   analysis: ReceiptAnalysis,
   imageMimeType: string | null,
-  aiCacheKeys: string[] = []
+  aiCacheKeys: string[] = [],
+  country: CountryCode = DEFAULT_COUNTRY
 ): SavedReceipt {
   const receipts = loadUserReceipts(userId);
   const saved: SavedReceipt = {
     id: crypto.randomUUID(),
     userId,
+    country,
     uploadedAt: new Date().toISOString(),
     imageMimeType,
     analysis,
@@ -258,7 +273,7 @@ export function saveReceipt(
     receipts.slice(200).flatMap((receipt) => receipt.aiCacheKeys ?? [])
   );
   saveUserReceipts(userId, retained);
-  logger.info('Saved receipt', saved.id, 'for user', userId);
+  logger.info('Saved receipt', saved.id, 'for user', userId, 'country', country);
   return saved;
 }
 
@@ -341,7 +356,12 @@ export async function correctReceiptLine(
   } else {
     const correctedName = correction.correctedName.trim();
     if (!correctedName) throw new Error('Corrected product name required');
-    const result = await findProductMatches(correctedName, aiContext, 'user_corrected');
+    const result = await findProductMatches(
+      correctedName,
+      aiContext,
+      'user_corrected',
+      (receipt.country as CountryCode) || DEFAULT_COUNTRY
+    );
     const matchStatus = statusForConfidence(result.confidence);
     const cheapestAlternative =
       matchStatus === 'matched' && result.alternatives.length > 0
@@ -379,8 +399,11 @@ function monthKey(isoDate: string): string {
   return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}`;
 }
 
-export function getReceiptAnalytics(userId: string): ReceiptAnalytics {
-  const receipts = loadUserReceipts(userId);
+export function getReceiptAnalytics(
+  userId: string,
+  country?: CountryCode
+): ReceiptAnalytics {
+  const receipts = listReceipts(userId, country);
   const totalSpent = receipts.reduce((sum, r) => sum + r.analysis.actualTotal, 0);
   const totalCouldHaveSaved = receipts.reduce((sum, r) => sum + r.analysis.potentialSavings, 0);
 

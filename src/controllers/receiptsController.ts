@@ -20,6 +20,7 @@ import {
   prepareReceiptImageForVision,
   ReceiptImageError,
 } from '../utils/receiptImage';
+import { countryFromQuery } from '../config/countries';
 
 function publicReceipt(receipt: SavedReceipt): Omit<SavedReceipt, 'aiCacheKeys'> {
   const { aiCacheKeys: _internalCacheKeys, ...result } = receipt;
@@ -34,6 +35,7 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
       return;
     }
 
+    const country = countryFromQuery(req);
     const file = req.file;
     if (!file) {
       res.status(400).json({ error: 'Receipt image file required (field: receipt)' });
@@ -69,20 +71,29 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
     const parsed = await parseReceiptImageWithAI(
       imageBase64,
       visionImage.mimeType,
-      aiContext
+      aiContext,
+      country
     );
     if (!parsed) {
       const missingKey = !process.env.OPENAI_API_KEY;
       res.status(422).json({
         error: missingKey
           ? 'Receipt OCR is not configured on the server (OPENAI_API_KEY missing).'
-          : 'Could not read this receipt. Try a clearer, well-lit photo with the full bon visible.',
+          : country === 'uk'
+            ? 'Could not read this receipt. Try a clearer, well-lit photo with the full receipt visible.'
+            : 'Could not read this receipt. Try a clearer, well-lit photo with the full bon visible.',
       });
       return;
     }
 
-    const analysis = await analyzeParsedReceipt(parsed, aiContext);
-    const saved = saveReceipt(userId, analysis, visionImage.mimeType, aiContext.aiCacheKeys);
+    const analysis = await analyzeParsedReceipt(parsed, aiContext, country);
+    const saved = saveReceipt(
+      userId,
+      analysis,
+      visionImage.mimeType,
+      aiContext.aiCacheKeys,
+      country
+    );
     res.status(201).json(publicReceipt(saved));
   } catch (e) {
     if (isAiRateLimitError(e)) {
@@ -102,7 +113,8 @@ export function getReceipts(req: Request, res: Response): void {
       res.status(400).json({ error: 'Valid x-compear-user-id header required' });
       return;
     }
-    res.json(listReceipts(userId).map(publicReceipt));
+    const country = countryFromQuery(req);
+    res.json(listReceipts(userId, country).map(publicReceipt));
   } catch (e) {
     res.status(500).json({ error: 'Internal server error' });
   }
@@ -115,7 +127,8 @@ export function getAnalytics(req: Request, res: Response): void {
       res.status(400).json({ error: 'Valid x-compear-user-id header required' });
       return;
     }
-    res.json(getReceiptAnalytics(userId));
+    const country = countryFromQuery(req);
+    res.json(getReceiptAnalytics(userId, country));
   } catch (e) {
     res.status(500).json({ error: 'Internal server error' });
   }

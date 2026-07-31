@@ -8,6 +8,7 @@ import {
   AiRateLimitError,
   isAiRateLimitError,
 } from './aiRateLimiter';
+import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
 
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'ai-cache.json');
 
@@ -26,7 +27,7 @@ function parseReceiptNumber(value: unknown): number | null {
   if (typeof value === 'number' && Number.isFinite(value)) return value;
   const normalized = String(value)
     .trim()
-    .replace(/€/g, '')
+    .replace(/[€£]/g, '')
     .replace(/\s/g, '')
     .replace(',', '.');
   const parsed = Number(normalized);
@@ -129,9 +130,10 @@ export interface ParsedReceiptData {
  */
 export async function normalizeProductWithAI(
   rawProductName: string,
-  context?: AiRateLimitContext
+  context?: AiRateLimitContext,
+  country: CountryCode = DEFAULT_COUNTRY
 ): Promise<NormalizedProduct | null> {
-  const cacheKey = `normalize:${rawProductName.toLowerCase().trim()}`;
+  const cacheKey = `normalize:${country}:${rawProductName.toLowerCase().trim()}`;
   const cache = loadCache();
   if (cache[cacheKey] != null) {
     trackCacheKey(context, cacheKey);
@@ -154,6 +156,11 @@ export async function normalizeProductWithAI(
     throw error;
   }
 
+  const systemPrompt =
+    country === 'uk'
+      ? `You are a UK grocery product normalizer. Extract structured data from product names as printed on supermarket receipts (Tesco, Sainsbury's, Asda, Morrisons, Aldi, Lidl). Return only valid JSON with: canonicalName (short lowercase English, e.g. "semi skimmed milk 2 pints"), category (e.g. "milk"), weightInGrams (number or null), brand (string or null), keywords (string array).`
+      : `You are a Dutch grocery product normalizer. Extract structured data from product names. Return only valid JSON with: canonicalName (short lowercase, e.g. "eieren 6 stuks"), category (e.g. "eieren"), weightInGrams (number or null), brand (string or null), keywords (string array).`;
+
   try {
     const openai = new OpenAI({
       apiKey,
@@ -165,7 +172,7 @@ export async function normalizeProductWithAI(
       messages: [
         {
           role: 'system',
-          content: `You are a Dutch grocery product normalizer. Extract structured data from product names. Return only valid JSON with: canonicalName (short lowercase, e.g. "eieren 6 stuks"), category (e.g. "eieren"), weightInGrams (number or null), brand (string or null), keywords (string array).`,
+          content: systemPrompt,
         },
         {
           role: 'user',
@@ -192,7 +199,8 @@ export async function normalizeProductWithAI(
   }
 }
 
-const RECEIPT_PARSE_PROMPT = `You extract structured data from Dutch supermarket receipt photos (kassabon).
+const RECEIPT_PARSE_PROMPTS: Record<'nl' | 'uk', string> = {
+  nl: `You extract structured data from Dutch supermarket receipt photos (kassabon).
 Supported chains include Albert Heijn, Jumbo, Lidl, Aldi, Dirk, Plus, Coop, Hoogvliet, and similar Dutch supermarkets.
 
 Return JSON only with:
@@ -207,19 +215,41 @@ Return JSON only with:
   - lineTotal: line total price as a number using dot decimals (e.g. 4.69 not 4,69)
 
 Dutch receipts often show quantity and product on one line and the price on the next line.
-Include every purchased product line. Ignore BTW/tax lines, payment terminals, loyalty points, and subtotals.`;
+Include every purchased product line. Ignore BTW/tax lines, payment terminals, loyalty points, and subtotals.`,
+  uk: `You extract structured data from United Kingdom supermarket receipt photos.
+Supported chains include Tesco, Sainsbury's, Asda, Morrisons, Aldi, Lidl, and similar UK grocers.
+
+Return JSON only with:
+- store: supermarket name if visible, else null
+- purchaseDate: ISO date YYYY-MM-DD if visible, else null
+- currency: always "GBP"
+- receiptTotal: total amount paid (TOTAL / Amount Due / Balance to pay) if visible, else null
+- items: array of { rawName, quantity, unitPrice, lineTotal }
+  - rawName: product name as printed (without leading quantity prefix when possible)
+  - quantity: number (default 1)
+  - unitPrice: price per unit if shown, else null
+  - lineTotal: line total price as a number using dot decimals (e.g. 1.65 not £1.65)
+
+UK receipts may show quantity multipliers (e.g. "2 @ 1.25") or multi-buy offers — use the amount charged for the line.
+Include every purchased product line. Ignore VAT summary lines, payment terminals, Clubcard/Nectar points, and subtotals.`,
+};
+
+function receiptParsePrompt(country: CountryCode): string {
+  return country === 'uk' ? RECEIPT_PARSE_PROMPTS.uk : RECEIPT_PARSE_PROMPTS.nl;
+}
 
 /**
- * Parse a receipt image with OpenAI vision. Cached by image hash.
+ * Parse a receipt image with OpenAI vision. Cached by image hash + country.
  */
 export async function parseReceiptImageWithAI(
   imageBase64: string,
   mimeType: string,
-  context?: AiRateLimitContext
+  context?: AiRateLimitContext,
+  country: CountryCode = DEFAULT_COUNTRY
 ): Promise<ParsedReceiptData | null> {
   const crypto = await import('crypto');
   const imageHash = crypto.createHash('sha256').update(imageBase64).digest('hex').slice(0, 16);
-  const cacheKey = `receipt:${imageHash}`;
+  const cacheKey = `receipt:${country}:${imageHash}`;
   const cache = loadCache();
   if (cache[cacheKey] != null) {
     trackCacheKey(context, cacheKey);
@@ -234,6 +264,9 @@ export async function parseReceiptImageWithAI(
 
   await acquireAiSlot('vision', context);
 
+  const defaultCurrency = country === 'uk' ? 'GBP' : 'EUR';
+  const regionLabel = country === 'uk' ? 'UK' : 'Dutch';
+
   try {
     const openai = new OpenAI({
       apiKey,
@@ -245,13 +278,13 @@ export async function parseReceiptImageWithAI(
     const completion = await openai.chat.completions.create({
       model: getVisionModel(),
       messages: [
-        { role: 'system', content: RECEIPT_PARSE_PROMPT },
+        { role: 'system', content: receiptParsePrompt(country) },
         {
           role: 'user',
           content: [
             {
               type: 'text',
-              text: 'Extract all product line items from this Dutch supermarket receipt.',
+              text: `Extract all product line items from this ${regionLabel} supermarket receipt.`,
             },
             {
               type: 'image_url',
@@ -279,7 +312,7 @@ export async function parseReceiptImageWithAI(
       return null;
     }
 
-    parsed.currency = parsed.currency || 'EUR';
+    parsed.currency = parsed.currency || defaultCurrency;
     parsed.receiptTotal = parseReceiptNumber(parsed.receiptTotal);
     parsed.items = parsed.items
       .map((item) =>
