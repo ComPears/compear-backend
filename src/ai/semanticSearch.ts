@@ -8,6 +8,9 @@ interface SearchDocument {
   haystack: string;
   productName: string;
   canonicalName: string;
+  productTokens: Set<string>;
+  canonicalTokens: Set<string>;
+  brandTokens: Set<string>;
 }
 
 interface SearchIndex {
@@ -16,6 +19,38 @@ interface SearchIndex {
 }
 
 const indexBySource = new WeakMap<Product[], SearchIndex>();
+
+const CATEGORY_INTENT_TERMS: Partial<Record<Product['category'], Set<string>>> = {
+  'Dairy & Eggs': new Set([
+    'milk', 'melk', 'milch', 'yogurt', 'yoghurt', 'joghurt', 'egg', 'eggs',
+    'ei', 'eieren', 'eier', 'cheese', 'kaas', 'käse', 'butter',
+  ]),
+  Bakery: new Set(['bread', 'brood', 'brot', 'croissant', 'bagel']),
+  Beverages: new Set([
+    'coffee', 'koffie', 'kaffee', 'tea', 'thee', 'tee', 'juice', 'sap',
+    'saft', 'water',
+  ]),
+  'Fruits & Vegetables': new Set([
+    'apple', 'apples', 'appel', 'appels', 'apfel', 'banana', 'bananas',
+    'banaan', 'bananen', 'banane', 'tomato', 'tomatoes', 'tomaat', 'tomaten',
+    'tomate',
+  ]),
+  'Meat & Seafood': new Set([
+    'chicken', 'kip', 'huhn', 'beef', 'rund', 'fish', 'vis', 'fisch',
+  ]),
+  Pantry: new Set([
+    'pasta', 'rice', 'rijst', 'reis', 'flour', 'meel', 'mehl',
+  ]),
+};
+
+function categoryIntentScore(product: Product, queryTokens: string[]): number {
+  const intentTerms = CATEGORY_INTENT_TERMS[product.category];
+  if (!intentTerms) return 0;
+  return queryTokens.reduce(
+    (score, token) => score + (intentTerms.has(token) ? 90 / queryTokens.length : 0),
+    0
+  );
+}
 
 function tokenize(text: string): string[] {
   return text
@@ -45,6 +80,9 @@ function buildSearchIndex(products: Product[]): SearchIndex {
       haystack,
       productName: product.productName.toLowerCase(),
       canonicalName: product.canonicalName?.toLowerCase() ?? '',
+      productTokens: new Set(tokenize(product.productName)),
+      canonicalTokens: new Set(tokenize(product.canonicalName ?? '')),
+      brandTokens: new Set(tokenize(product.brand ?? '')),
     });
 
     for (const token of new Set(tokenize(haystack))) {
@@ -79,19 +117,40 @@ export function preloadProductSearchIndexes(): void {
 }
 
 function scoreDocument(document: SearchDocument, queryTokens: string[], fullQuery: string): number {
-  const { product, haystack, productName, canonicalName } = document;
+  const {
+    haystack,
+    productName,
+    canonicalName,
+    productTokens,
+    canonicalTokens,
+    brandTokens,
+  } = document;
 
-  if (haystack.includes(fullQuery)) {
-    return 100 + (haystack.startsWith(fullQuery) ? 10 : 0);
-  }
+  // Search intent is strongest when the full name or complete words match.
+  // This prevents a query such as "melk" from ranking the brand "Melkan"
+  // above products whose name actually contains the word "melk".
+  if (productName === fullQuery || canonicalName === fullQuery) return 500;
 
   let score = 0;
+  if (productName.includes(fullQuery)) score += 120;
+  if (canonicalName.includes(fullQuery)) score += 100;
+  if (productName.startsWith(fullQuery)) score += 35;
+  if (canonicalName.startsWith(fullQuery)) score += 25;
+
   for (const token of queryTokens) {
-    if (haystack.includes(token)) {
-      score += token.length >= 4 ? 3 : 2;
-      if (productName.startsWith(token)) score += 2;
-      if (canonicalName.startsWith(token)) score += 1;
-    }
+    if (productTokens.has(token)) score += 75;
+    else if (canonicalTokens.has(token)) score += 65;
+    else if (brandTokens.has(token)) score += 20;
+    else if (haystack.includes(token)) score += token.length >= 4 ? 4 : 2;
+  }
+
+  // Generic grocery queries should favor the aisle they name. For example,
+  // "milk" should surface dairy before milk chocolate or milk-bottle sweets.
+  score += categoryIntentScore(document.product, queryTokens);
+
+  const matchedProductTokens = queryTokens.filter((token) => productTokens.has(token)).length;
+  if (matchedProductTokens === queryTokens.length) {
+    score += Math.max(8, 40 - Math.max(0, productTokens.size - queryTokens.length) * 4);
   }
 
   return score;
@@ -119,20 +178,19 @@ function legacyScoreProduct(product: Product, queryTokens: string[], fullQuery: 
     .join(' ')
     .toLowerCase();
 
-  if (haystack.includes(fullQuery)) {
-    return 100 + (haystack.startsWith(fullQuery) ? 10 : 0);
-  }
-
-  let score = 0;
-  for (const token of queryTokens) {
-    if (haystack.includes(token)) {
-      score += token.length >= 4 ? 3 : 2;
-      if (product.productName.toLowerCase().startsWith(token)) score += 2;
-      if (product.canonicalName?.startsWith(token)) score += 1;
-    }
-  }
-
-  return score;
+  return scoreDocument(
+    {
+      product,
+      haystack,
+      productName: product.productName.toLowerCase(),
+      canonicalName: product.canonicalName?.toLowerCase() ?? '',
+      productTokens: new Set(tokenize(product.productName)),
+      canonicalTokens: new Set(tokenize(product.canonicalName ?? '')),
+      brandTokens: new Set(tokenize(product.brand ?? '')),
+    },
+    queryTokens,
+    fullQuery
+  );
 }
 
 /**

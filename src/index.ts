@@ -34,7 +34,10 @@ app.set('trust proxy', 1);
 
 app.use(requestMonitoring);
 
-const allowedOrigins = (process.env.ALLOWED_ORIGINS ?? 'http://localhost:3000,http://localhost:8888')
+const allowedOrigins = (
+  process.env.ALLOWED_ORIGINS ??
+  'http://localhost:3000,http://127.0.0.1:3000,http://localhost:8888,http://127.0.0.1:8888'
+)
   .split(',')
   .map((origin) => origin.trim())
   .filter(Boolean);

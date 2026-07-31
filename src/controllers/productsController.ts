@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { loadAllProducts, loadStoreProducts, getProductById } from '../services/dataService';
+import { loadAllProducts, loadStoreProducts, getProductById, getProductsBySlug, getSeoProductGroups } from '../services/dataService';
 import { StoreSlug, getStoreDisplayName } from '../config/stores';
 import { countryFromQuery } from '../config/countries';
 import { buildSearchCacheKey, getCached, setCached } from '../utils/searchCache';
@@ -151,4 +151,24 @@ export function getProduct(req: Request, res: Response): void {
   } catch (e) {
     res.status(500).json({ error: 'Internal server error' });
   }
+}
+
+export function getProductBySlug(req: Request, res: Response): void {
+  try {
+    const country = countryFromQuery(req);
+    const products = getProductsBySlug(req.params.slug, country);
+    if (products.length === 0) {
+      res.status(404).json({ error: 'Product not found' });
+      return;
+    }
+    res.json({ product: products[0], offers: products });
+  } catch (e) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
+}
+
+export function getSeoIndex(req: Request, res: Response): void {
+  const country = countryFromQuery(req);
+  res.setHeader('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400');
+  res.json(getSeoProductGroups(country));
 }

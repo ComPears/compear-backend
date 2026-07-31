@@ -30,7 +30,7 @@ describe('indexed product search', () => {
     const source = [
       product({ id: 'expensive', productName: 'Halfvolle melk', effectivePrice: 2.2 }),
       product({ id: 'cheap', productName: 'Halfvolle melk', effectivePrice: 1.1 }),
-      product({ id: 'brand', productName: 'Yoghurt', brand: 'Halfvolle Melk', effectivePrice: 0.8 }),
+      product({ id: 'brand', canonicalName: 'yoghurt', productName: 'Yoghurt', brand: 'Halfvolle Melk', effectivePrice: 0.8 }),
       product({ id: 'other-store', productName: 'Halfvolle melk', store: 'Jumbo', effectivePrice: 0.9 }),
     ];
 
@@ -42,8 +42,36 @@ describe('indexed product search', () => {
       searchProducts('melk', 10, source, (item) => item.store === 'Albert Heijn').map(
         (item) => item.id
       ),
-      ['brand', 'cheap', 'expensive']
+      ['cheap', 'expensive', 'brand']
     );
+  });
+
+  it('ranks whole-word product matches above substring-only brand matches', () => {
+    const source = [
+      product({ id: 'brand-prefix', canonicalName: 'melkan yoghurt', productName: 'Melkan yoghurt', brand: 'Melkan', effectivePrice: 0.45 }),
+      product({ id: 'actual-milk', canonicalName: 'verse melk halfvol', productName: 'Verse melk halfvol', brand: 'Huismerk', effectivePrice: 1.2 }),
+      product({ id: 'milkshake', canonicalName: 'melkunie milkshake', productName: 'Melkunie milkshake', brand: 'Melkunie', effectivePrice: 0.8 }),
+    ];
+
+    assert.deepEqual(searchProducts('melk', 10, source).map((item) => item.id), [
+      'actual-milk',
+      'brand-prefix',
+      'milkshake',
+    ]);
+  });
+
+  it('ranks a generic UK grocery above products that only use the term as a flavour', () => {
+    const source = [
+      product({ id: 'sweets', canonicalName: 'milk bottles sweets', productName: 'Milk Bottles Sweets', category: 'Snacks', effectivePrice: 0.49 }),
+      product({ id: 'chocolate', canonicalName: 'milk chocolate', productName: 'Milk Chocolate', category: 'Snacks', effectivePrice: 0.59 }),
+      product({ id: 'dairy', canonicalName: 'milk semi skimmed uht', productName: 'Semi Skimmed UHT Milk', category: 'Dairy & Eggs', effectivePrice: 0.65 }),
+    ];
+
+    assert.deepEqual(searchProducts('milk', 10, source).map((item) => item.id), [
+      'dairy',
+      'chocolate',
+      'sweets',
+    ]);
   });
 
   it('reuses the index while returning a caller-limited result page', () => {

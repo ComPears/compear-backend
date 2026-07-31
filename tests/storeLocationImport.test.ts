@@ -23,7 +23,7 @@ describe('fetchOsmElements', () => {
     ];
     const sleepCalls: number[] = [];
 
-    const fetchImpl = (async (input: RequestInfo | URL) => {
+    const fetchImpl = (async (input: Parameters<typeof fetch>[0]) => {
       const url = String(input);
       calls.push(url);
       if (calls.length < 3) {

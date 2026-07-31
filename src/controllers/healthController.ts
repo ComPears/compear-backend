@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { runtimeMonitor } from '../monitoring/runtimeMonitor';
+import { logger } from '../utils/logger';
 
 function envNumber(name: string, fallback: number): number {
   const parsed = Number(process.env[name]);
@@ -25,4 +26,19 @@ export function readiness(_req: Request, res: Response): void {
 export function metrics(_req: Request, res: Response): void {
   res.setHeader('Cache-Control', 'no-store');
   res.json(runtimeMonitor.getMetrics());
+}
+
+const WEB_VITALS = new Set(['CLS', 'FID', 'FCP', 'INP', 'LCP', 'TTFB']);
+
+export function recordWebVital(req: Request, res: Response): void {
+  const name = String(req.body?.name ?? '').toUpperCase();
+  const value = Number(req.body?.value);
+  const rating = String(req.body?.rating ?? '').slice(0, 32);
+  const path = String(req.body?.path ?? '').slice(0, 240);
+  if (!WEB_VITALS.has(name) || !Number.isFinite(value) || value < 0) {
+    res.status(400).json({ error: 'Invalid web vital' });
+    return;
+  }
+  logger.info('web_vital', { name, value: Math.round(value * 1000) / 1000, rating, path });
+  res.status(204).send();
 }
