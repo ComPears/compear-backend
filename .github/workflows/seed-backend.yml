@@ -13,7 +13,8 @@ permissions:
 
 jobs:
   seed-backend:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
 
     steps:
       - name: Checkout backend
@@ -67,6 +68,7 @@ jobs:
           retention-days: 14
 
       - name: Commit seeded product data
+        id: backend_commit
         if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
@@ -84,6 +86,7 @@ jobs:
           if [ "${{ steps.osm_import.outcome }}" != "success" ]; then
             echo "::warning::OSM store import failed; kept previous store-locations.json and continued product seed deploy."
           fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Trigger Render backend redeploy
         env:
@@ -93,12 +96,14 @@ jobs:
             echo "RENDER_DEPLOY_HOOK_URL not set; skipping Render redeploy"
             exit 0
           fi
-          curl -fsS -X POST "$RENDER_DEPLOY_HOOK_URL"
+          curl --fail --silent --show-error --retry 3 --retry-all-errors \
+            --request POST "$RENDER_DEPLOY_HOOK_URL"
           echo "Render deploy hook triggered"
 
-      - name: Verify deployed backend readiness
+      - name: Verify expected backend revision readiness
         env:
           BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL || vars.BACKEND_URL }}
+          EXPECTED_COMMIT: ${{ steps.backend_commit.outputs.sha }}
         run: |
           if [ -z "$BACKEND_BASE_URL" ]; then
             echo "::error::Set BACKEND_BASE_URL (or BACKEND_URL) repository variable to verify deployed readiness."
@@ -106,18 +111,23 @@ jobs:
           fi
 
           health_url="${BACKEND_BASE_URL%/}/health/ready"
-          for attempt in $(seq 1 18); do
+          for attempt in $(seq 1 60); do
             if payload=$(curl -fsS --max-time 15 "$health_url"); then
-              echo "$payload" | tee readiness.json
-              echo "### Backend readiness" >> "$GITHUB_STEP_SUMMARY"
-              echo '```json' >> "$GITHUB_STEP_SUMMARY"
-              echo "$payload" >> "$GITHUB_STEP_SUMMARY"
-              echo '```' >> "$GITHUB_STEP_SUMMARY"
-              exit 0
+              deployed_commit=$(echo "$payload" | jq -r '.deployment.commit // empty')
+              if [ "$deployed_commit" = "$EXPECTED_COMMIT" ]; then
+                echo "$payload" | tee readiness.json
+                echo "### Backend readiness" >> "$GITHUB_STEP_SUMMARY"
+                echo '```json' >> "$GITHUB_STEP_SUMMARY"
+                echo "$payload" >> "$GITHUB_STEP_SUMMARY"
+                echo '```' >> "$GITHUB_STEP_SUMMARY"
+                exit 0
+              fi
+              echo "Readiness attempt $attempt/60 reached ${deployed_commit:-unknown}; waiting for $EXPECTED_COMMIT"
+            else
+              echo "Readiness attempt $attempt/60 failed; waiting for deployment..."
             fi
-            echo "Readiness attempt $attempt/18 failed; waiting for deployment..."
             sleep 10
           done
 
-          echo "::error::Backend did not become ready at $health_url after 3 minutes. Check Render deploy logs, catalog freshness, and memory checks."
+          echo "::error::Backend revision $EXPECTED_COMMIT did not become ready at $health_url within 10 minutes."
           exit 1

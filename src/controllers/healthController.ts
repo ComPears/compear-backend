@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { runtimeMonitor } from '../monitoring/runtimeMonitor';
+import { getDeploymentMetadata } from '../monitoring/deploymentMetadata';
 import { logger } from '../utils/logger';
 
 function envNumber(name: string, fallback: number): number {
@@ -11,6 +12,7 @@ export function liveness(_req: Request, res: Response): void {
   res.json({
     status: 'ok',
     uptimeSeconds: Math.round(process.uptime() * 10) / 10,
+    deployment: getDeploymentMetadata(),
     timestamp: new Date().toISOString(),
   });
 }
@@ -20,12 +22,18 @@ export function readiness(_req: Request, res: Response): void {
     maxCatalogAgeHours: envNumber('CATALOG_MAX_AGE_HOURS', 192),
     maxRssMb: envNumber('READINESS_MAX_RSS_MB', 0),
   });
-  res.status(result.status === 'ready' ? 200 : 503).json(result);
+  res.status(result.status === 'ready' ? 200 : 503).json({
+    ...result,
+    deployment: getDeploymentMetadata(),
+  });
 }
 
 export function metrics(_req: Request, res: Response): void {
   res.setHeader('Cache-Control', 'no-store');
-  res.json(runtimeMonitor.getMetrics());
+  res.json({
+    ...runtimeMonitor.getMetrics(),
+    deployment: getDeploymentMetadata(),
+  });
 }
 
 const WEB_VITALS = new Set(['CLS', 'FID', 'FCP', 'INP', 'LCP', 'TTFB']);
