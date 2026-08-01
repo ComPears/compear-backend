@@ -18,12 +18,12 @@ jobs:
 
     steps:
       - name: Checkout backend
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Checkout data-wrangling
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ComPears/compears-data-wrangling
           ref: main
@@ -37,7 +37,7 @@ jobs:
         run: git pull --rebase origin main
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -58,7 +58,7 @@ jobs:
         run: npm run import-stores
 
       - name: Upload seeded data artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: backend-product-data
           path: |
