@@ -1,5 +1,12 @@
 import { Request, Response } from 'express';
-import { createSharedList, getSharedList, updateSharedList, SharedListItem } from '../services/listService';
+import {
+  createSharedList,
+  getSharedList,
+  updateSharedList,
+  toPublicSharedList,
+  verifyListEditToken,
+  SharedListItem,
+} from '../services/listService';
 
 function parseItems(body: unknown): SharedListItem[] | null {
   if (!Array.isArray(body)) return null;
@@ -27,6 +34,15 @@ function parseItems(body: unknown): SharedListItem[] | null {
   return items.slice(0, 100);
 }
 
+function readEditToken(req: Request): string {
+  const header = (req.header('x-list-edit-token') || '').trim();
+  if (header) return header;
+  if (typeof req.body?.editToken === 'string') {
+    return req.body.editToken.trim();
+  }
+  return '';
+}
+
 export function createList(req: Request, res: Response): void {
   const name = typeof req.body?.name === 'string' ? req.body.name : 'Shared shopping list';
   const items = parseItems(req.body?.items);
@@ -39,6 +55,7 @@ export function createList(req: Request, res: Response): void {
     return;
   }
   const list = createSharedList(name, items);
+  // Create (and successful patch) return editToken so the creator can edit later.
   res.status(201).json(list);
 }
 
@@ -53,13 +70,27 @@ export function getList(req: Request, res: Response): void {
     res.status(404).json({ error: 'List not found or expired' });
     return;
   }
-  res.json(list);
+  res.json(toPublicSharedList(list));
 }
 
 export function patchList(req: Request, res: Response): void {
   const id = (req.params.id || '').trim();
   if (!/^[A-Za-z0-9_-]{6,12}$/.test(id)) {
     res.status(400).json({ error: 'Invalid list id' });
+    return;
+  }
+  const existing = getSharedList(id);
+  if (!existing) {
+    res.status(404).json({ error: 'List not found or expired' });
+    return;
+  }
+  const editToken = readEditToken(req);
+  if (!verifyListEditToken(existing, editToken)) {
+    res.status(403).json({
+      error: 'Valid edit token required',
+      hint:
+        'Provide x-list-edit-token header or body.editToken from list creation. Legacy lists without a token can be claimed on first PATCH.',
+    });
     return;
   }
   const name = typeof req.body?.name === 'string' ? req.body.name : undefined;

@@ -19,28 +19,35 @@ const publicApiLimit = rateLimit({
 export const publicApiRouter = Router();
 
 publicApiRouter.use(publicApiLimit);
-publicApiRouter.use(publicApiAuth);
 
+// Unauthenticated discovery endpoints (still rate-limited).
 publicApiRouter.get('/health', (_req, res) => {
   res.json({ status: 'ok', version: '1', timestamp: new Date().toISOString() });
 });
 
 publicApiRouter.get('/docs', (_req, res) => {
+  const keyRequired =
+    process.env.NODE_ENV === 'production' || Boolean((process.env.PUBLIC_API_KEY || '').trim());
   res.json({
     version: '1',
     description: 'ComPear public read-only API for product prices and store data',
-    authentication: process.env.PUBLIC_API_KEY
-      ? 'Required: x-api-key header or Authorization: Bearer <key>'
-      : 'Optional: set PUBLIC_API_KEY on server to require authentication',
+    authentication: keyRequired
+      ? 'Required for data endpoints: x-api-key header or Authorization: Bearer <key>. /health and /docs are open.'
+      : 'Optional in development: set PUBLIC_API_KEY to require authentication on data endpoints (required in production). /health and /docs stay open.',
+    surfaces: {
+      partnerApi: '/api/v1/* — keyed in production for third-party clients',
+      consumerApi:
+        '/products, /stores, /deals, /compare — intentionally unauthenticated for the ComPear SPA; protected by CORS allowlist + rate limits',
+    },
     rateLimit: process.env.PUBLIC_API_KEY ? '600 requests / 15 min' : '120 requests / 15 min',
     endpoints: [
-      { method: 'GET', path: '/api/v1/health', description: 'Health check' },
-      { method: 'GET', path: '/api/v1/docs', description: 'This document' },
+      { method: 'GET', path: '/api/v1/health', description: 'Health check (no API key)' },
+      { method: 'GET', path: '/api/v1/docs', description: 'This document (no API key)' },
       { method: 'GET', path: '/api/v1/products', query: 'search, store, category, barcode, labels (comma-separated)' },
       { method: 'GET', path: '/api/v1/products/:id', description: 'Single product' },
       { method: 'GET', path: '/api/v1/stores', description: 'List stores with product counts' },
       { method: 'GET', path: '/api/v1/stores/locations', query: 'chain, city, lat, lng, radius (km), limit' },
-      { method: 'GET', path: '/api/v1/deals', description: 'Products with active promotions' },
+      { method: 'GET', path: '/api/v1/deals', description: 'Paginated deals (?limit,&offset)' },
       { method: 'GET', path: '/api/v1/deals/digest', description: 'Weekly deals summary' },
       { method: 'GET', path: '/api/v1/compare/:canonicalName', query: 'identityKey (optional)' },
     ],
@@ -48,6 +55,9 @@ publicApiRouter.get('/docs', (_req, res) => {
     exampleLabels: 'labels=vegan,gluten-free',
   });
 });
+
+// Data endpoints require PUBLIC_API_KEY when configured / in production.
+publicApiRouter.use(publicApiAuth);
 
 publicApiRouter.get('/products', listProducts);
 publicApiRouter.get('/products/:id', getProduct);
