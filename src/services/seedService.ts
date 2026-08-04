@@ -4,7 +4,7 @@ import * as path from 'path';
 import { PromoType, Product, ProductCategory, ScrapedProduct } from '../types';
 import { toProduct } from './promotionService';
 import { sanitizeProductFields, shouldRejectProductName } from '../utils/productSanitize';
-import { extractBarcodeFromText, normalizeBarcode } from '../utils/barcode';
+import { extractBarcodeFromJumboUrl, normalizeBarcode } from '../utils/barcode';
 import { saveStoreProducts } from './dataService';
 import { STORE_SLUGS, StoreSlug } from '../config/stores';
 import {
@@ -176,25 +176,35 @@ function resolveProductUrl(legacy: LegacyProduct): string | null {
   return candidate;
 }
 
-function resolveBarcode(legacy: LegacyProduct): string | null {
+/**
+ * Prefer explicit catalog `b`. Jumbo DAM URLs embed real EANs; AH/PLUS/Dirk
+ * image/CDN paths do not — never mine those (false-positive checksum hits).
+ */
+function resolveBarcode(legacy: LegacyProduct, storeSlug?: StoreSlug): string | null {
   if (legacy.b) {
     return normalizeBarcode(legacy.b);
   }
-  for (const field of [legacy.l, legacy.i]) {
-    const fromField = extractBarcodeFromText(field);
-    if (fromField) return fromField;
+  if (storeSlug === 'jumbo') {
+    for (const field of [legacy.l, legacy.i]) {
+      const fromUrl = extractBarcodeFromJumboUrl(field);
+      if (fromUrl) return fromUrl;
+    }
   }
   return null;
 }
 
-function legacyToScraped(legacy: LegacyProduct, store: string): ScrapedProduct | null {
+function legacyToScraped(
+  legacy: LegacyProduct,
+  store: string,
+  storeSlug?: StoreSlug
+): ScrapedProduct | null {
   const price = parseLegacyPrice(legacy.p);
   if (price == null) return null;
 
   const rawName = legacy.n?.trim() ?? '';
   if (shouldRejectProductName(rawName)) return null;
 
-  const barcode = resolveBarcode(legacy);
+  const barcode = resolveBarcode(legacy, storeSlug);
   const size = legacy.s || 'stuk';
   const sanitized = sanitizeProductFields(rawName, size, barcode, {
     canonicalName: legacy.cn,
@@ -270,7 +280,7 @@ export function seedStoreFromWrangling(
 
   report.totalRows = arr.length;
   for (const item of arr) {
-    if (resolveBarcode(item)) report.withBarcodeInSource += 1;
+    if (resolveBarcode(item, storeSlug)) report.withBarcodeInSource += 1;
   }
 
   const limit = maxProducts && maxProducts > 0 ? maxProducts : arr.length;
@@ -278,7 +288,7 @@ export function seedStoreFromWrangling(
 
   for (let i = 0; i < Math.min(arr.length, limit); i++) {
     const item = arr[i];
-    const scraped = legacyToScraped(item, storeName);
+    const scraped = legacyToScraped(item, storeName, storeSlug);
     if (!scraped) {
       if (item.n && shouldRejectProductName(item.n)) {
         report.skippedRejected += 1;

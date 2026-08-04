@@ -4,6 +4,7 @@ const { beforeEach, describe, it } = require('node:test');
 const aiService = require('../src/ai/aiService');
 const receiptImage = require('../src/utils/receiptImage');
 const receiptService = require('../src/services/receiptService');
+const { issueReceiptCredentials } = require('../src/utils/receiptAuth');
 const { request, response } = require('./helpers/http');
 
 const originals = {
@@ -23,7 +24,24 @@ const {
   removeReceipt,
 } = require('../src/controllers/receiptsController');
 
-const userId = 'test-user-123';
+const credentials = issueReceiptCredentials();
+const userId = credentials.userId;
+const userToken = credentials.token;
+
+function authHeaders(extra = {}) {
+  return {
+    'x-compear-user-id': userId,
+    'x-compear-user-token': userToken,
+    ...extra,
+  };
+}
+
+/** Minimal valid PNG magic bytes (content after header is irrelevant for detection). */
+const pngBuffer = Buffer.from([
+  0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a,
+  0x00, 0x00, 0x00, 0x0d, 0x49, 0x48, 0x44, 0x52,
+]);
+
 const parsed = {
   store: 'Test Store',
   purchaseDate: '2026-07-01',
@@ -75,17 +93,17 @@ describe('receipt upload API boundary', () => {
 
     const missingIdentity = response();
     await parseReceipt(
-      request({ file: { buffer: Buffer.from('image'), mimetype: 'image/jpeg' } }),
+      request({ file: { buffer: pngBuffer, mimetype: 'image/png' } }),
       missingIdentity
     );
-    assert.equal(missingIdentity.statusCode, 400);
-    assert.match(missingIdentity.body.error, /user-id/i);
+    assert.equal(missingIdentity.statusCode, 401);
+    assert.match(missingIdentity.body.error, /credentials/i);
 
     const unsupported = response();
     await parseReceipt(
       request({
-        headers: { 'x-compear-user-id': userId },
-        file: { buffer: Buffer.from('pdf'), mimetype: 'application/pdf' },
+        headers: authHeaders(),
+        file: { buffer: Buffer.from('%PDF-1.4 not-an-image!!'), mimetype: 'image/jpeg' },
       }),
       unsupported
     );
@@ -97,7 +115,7 @@ describe('receipt upload API boundary', () => {
   it('returns a saved receipt using deterministic vision and analysis doubles', async () => {
     const observed = {};
     receiptImage.prepareReceiptImageForVision = async (buffer, mimeType) => {
-      observed.input = { buffer: buffer.toString(), mimeType };
+      observed.input = { buffer: Buffer.from(buffer).toString('hex').slice(0, 16), mimeType };
       return { buffer: Buffer.from('prepared'), mimeType: 'image/jpeg' };
     };
     aiService.parseReceiptImageWithAI = async (base64, mimeType, context, country) => {
@@ -116,8 +134,8 @@ describe('receipt upload API boundary', () => {
     const res = response();
     await parseReceipt(
       request({
-        headers: { 'x-compear-user-id': userId },
-        file: { buffer: Buffer.from('raw-image'), mimetype: 'image/png' },
+        headers: authHeaders(),
+        file: { buffer: pngBuffer, mimetype: 'image/png' },
         ip: '192.0.2.4',
       }),
       res
@@ -125,7 +143,7 @@ describe('receipt upload API boundary', () => {
 
     assert.equal(res.statusCode, 201);
     assert.deepEqual(res.body, savedReceipt);
-    assert.deepEqual(observed.input, { buffer: 'raw-image', mimeType: 'image/png' });
+    assert.equal(observed.input.mimeType, 'image/png');
     assert.equal(observed.vision.base64, Buffer.from('prepared').toString('base64'));
     assert.equal(observed.vision.context.userId, userId);
     assert.equal(observed.vision.context.ip, '192.0.2.4');
@@ -152,7 +170,10 @@ describe('receipt history and delete API boundary', () => {
     };
     const res = response();
 
-    getReceipts(request({ headers: { 'x-compear-user-id': userId }, query: { country: 'uk' } }), res);
+    getReceipts(
+      request({ headers: authHeaders(), query: { country: 'uk' } }),
+      res
+    );
 
     assert.equal(observedUser, userId);
     assert.equal(observedCountry, 'uk');
@@ -169,7 +190,7 @@ describe('receipt history and delete API boundary', () => {
     const deleted = response();
     removeReceipt(
       request({
-        headers: { 'x-compear-user-id': userId },
+        headers: authHeaders(),
         params: { id: 'receipt-1' },
       }),
       deleted
@@ -179,7 +200,7 @@ describe('receipt history and delete API boundary', () => {
     const missing = response();
     removeReceipt(
       request({
-        headers: { 'x-compear-user-id': userId },
+        headers: authHeaders(),
         params: { id: 'missing' },
       }),
       missing

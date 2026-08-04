@@ -8,6 +8,7 @@ import {
   AiRateLimitError,
   isAiRateLimitError,
 } from './aiRateLimiter';
+import { assertAiBudgetAvailable, recordAiUsage } from './aiCostTracker';
 import { CountryCode, DEFAULT_COUNTRY } from '../config/countries';
 
 const CACHE_PATH = path.join(__dirname, '..', 'data', 'ai-cache.json');
@@ -147,6 +148,7 @@ export async function normalizeProductWithAI(
   }
 
   try {
+    assertAiBudgetAvailable();
     await acquireAiSlot('text', context);
   } catch (error) {
     if (isAiRateLimitError(error)) {
@@ -159,8 +161,11 @@ export async function normalizeProductWithAI(
   const systemPrompt =
     country === 'uk'
       ? `You are a UK grocery product normalizer. Extract structured data from product names as printed on supermarket receipts (Tesco, Sainsbury's, Asda, Morrisons, Aldi, Lidl). Return only valid JSON with: canonicalName (short lowercase English, e.g. "semi skimmed milk 2 pints"), category (e.g. "milk"), weightInGrams (number or null), brand (string or null), keywords (string array).`
-      : `You are a Dutch grocery product normalizer. Extract structured data from product names. Return only valid JSON with: canonicalName (short lowercase, e.g. "eieren 6 stuks"), category (e.g. "eieren"), weightInGrams (number or null), brand (string or null), keywords (string array).`;
+      : country === 'de'
+        ? `You are a German grocery product normalizer. Extract structured data from product names as printed on supermarket receipts (Edeka, Rewe, Lidl, Aldi Süd, Penny). Return only valid JSON with: canonicalName (short lowercase German, e.g. "vollmilch 1l"), category (e.g. "milch"), weightInGrams (number or null), brand (string or null), keywords (string array).`
+        : `You are a Dutch grocery product normalizer. Extract structured data from product names. Return only valid JSON with: canonicalName (short lowercase, e.g. "eieren 6 stuks"), category (e.g. "eieren"), weightInGrams (number or null), brand (string or null), keywords (string array).`;
 
+  const model = getTextModel();
   try {
     const openai = new OpenAI({
       apiKey,
@@ -168,7 +173,7 @@ export async function normalizeProductWithAI(
       timeout: 60_000,
     });
     const completion = await openai.chat.completions.create({
-      model: getTextModel(),
+      model,
       messages: [
         {
           role: 'system',
@@ -182,6 +187,14 @@ export async function normalizeProductWithAI(
       response_format: { type: 'json_object' },
       temperature: 0.2,
     });
+
+    if (completion.usage) {
+      recordAiUsage({
+        model,
+        promptTokens: completion.usage.prompt_tokens ?? 0,
+        completionTokens: completion.usage.completion_tokens ?? 0,
+      });
+    }
 
     const content = completion.choices[0]?.message?.content;
     if (!content) return null;
@@ -199,7 +212,7 @@ export async function normalizeProductWithAI(
   }
 }
 
-const RECEIPT_PARSE_PROMPTS: Record<'nl' | 'uk', string> = {
+const RECEIPT_PARSE_PROMPTS: Record<'nl' | 'uk' | 'de', string> = {
   nl: `You extract structured data from Dutch supermarket receipt photos (kassabon).
 Supported chains include Albert Heijn, Jumbo, Lidl, Aldi, Dirk, Plus, Coop, Hoogvliet, and similar Dutch supermarkets.
 
@@ -232,10 +245,26 @@ Return JSON only with:
 
 UK receipts may show quantity multipliers (e.g. "2 @ 1.25") or multi-buy offers — use the amount charged for the line.
 Include every purchased product line. Ignore VAT summary lines, payment terminals, Clubcard/Nectar points, and subtotals.`,
+  de: `You extract structured data from German supermarket receipt photos (Kassenbon).
+Supported chains include Edeka, Rewe, Lidl, Aldi Süd, Penny, and similar German grocers.
+
+Return JSON only with:
+- store: supermarket name if visible, else null
+- purchaseDate: ISO date YYYY-MM-DD if visible, else null
+- currency: always "EUR"
+- receiptTotal: total amount paid (Summe / Gesamtbetrag / Zu zahlen) if visible, else null
+- items: array of { rawName, quantity, unitPrice, lineTotal }
+  - rawName: product name as printed (without leading quantity prefix when possible)
+  - quantity: number (default 1)
+  - unitPrice: price per unit if shown, else null
+  - lineTotal: line total price as a number using dot decimals (e.g. 1.19 not 1,19)
+
+German receipts may use comma decimals on the paper — convert to dot decimals in JSON.
+Include every purchased product line. Ignore MwSt/VAT summary lines, Pfand deposits when separate from products if unclear, payment terminals, and loyalty points.`,
 };
 
 function receiptParsePrompt(country: CountryCode): string {
-  return country === 'uk' ? RECEIPT_PARSE_PROMPTS.uk : RECEIPT_PARSE_PROMPTS.nl;
+  return RECEIPT_PARSE_PROMPTS[country] ?? RECEIPT_PARSE_PROMPTS.nl;
 }
 
 /**
@@ -262,10 +291,12 @@ export async function parseReceiptImageWithAI(
     return null;
   }
 
+  assertAiBudgetAvailable();
   await acquireAiSlot('vision', context);
 
   const defaultCurrency = country === 'uk' ? 'GBP' : 'EUR';
-  const regionLabel = country === 'uk' ? 'UK' : 'Dutch';
+  const regionLabel = country === 'uk' ? 'UK' : country === 'de' ? 'German' : 'Dutch';
+  const model = getVisionModel();
 
   try {
     const openai = new OpenAI({
@@ -276,7 +307,7 @@ export async function parseReceiptImageWithAI(
       defaultHeaders: { 'Accept-Encoding': 'identity' },
     });
     const completion = await openai.chat.completions.create({
-      model: getVisionModel(),
+      model,
       messages: [
         { role: 'system', content: receiptParsePrompt(country) },
         {
@@ -300,15 +331,23 @@ export async function parseReceiptImageWithAI(
       max_completion_tokens: 4000,
     });
 
+    if (completion.usage) {
+      recordAiUsage({
+        model,
+        promptTokens: completion.usage.prompt_tokens ?? 0,
+        completionTokens: completion.usage.completion_tokens ?? 0,
+      });
+    }
+
     const content = completion.choices[0]?.message?.content;
     if (!content) {
-      logger.warn('AI receipt parse returned empty content', { model: getVisionModel() });
+      logger.warn('AI receipt parse returned empty content', { model });
       return null;
     }
 
     const parsed = JSON.parse(content) as ParsedReceiptData;
     if (!Array.isArray(parsed.items) || parsed.items.length === 0) {
-      logger.warn('AI receipt parse returned no items', { model: getVisionModel(), content });
+      logger.warn('AI receipt parse returned no items', { model, content });
       return null;
     }
 
@@ -326,7 +365,7 @@ export async function parseReceiptImageWithAI(
       .filter((item): item is ParsedReceiptLine => item != null);
 
     if (parsed.items.length === 0) {
-      logger.warn('AI receipt parse filtered all items', { model: getVisionModel() });
+      logger.warn('AI receipt parse filtered all items', { model });
       return null;
     }
 

@@ -6,7 +6,7 @@ import { CountryCode } from '../config/countries';
 export interface StoreLocation {
   id: string;
   chain: StoreSlug;
-  /** Country this location belongs to (nl / uk). */
+  /** Country this location belongs to (nl / uk / de). */
   country: CountryCode;
   name: string;
   address: string;
@@ -38,7 +38,7 @@ interface ChainMatcher {
   test: (text: string, tags: Record<string, string>) => boolean;
 }
 
-export type OsmRegion = 'nl' | 'uk';
+export type OsmRegion = 'nl' | 'uk' | 'de';
 
 /** Primary + public Overpass mirrors (rotated on 429/5xx/network errors). */
 export const OVERPASS_ENDPOINTS = [
@@ -143,12 +143,56 @@ const UK_CHAIN_MATCHERS: ChainMatcher[] = [
   },
 ];
 
+/** German chain matchers (sample catalogs live; OSM import optional via region=de). */
+const DE_CHAIN_MATCHERS: ChainMatcher[] = [
+  {
+    slug: 'edeka',
+    test: (text, tags) => {
+      const brand = (tags.brand || '').toLowerCase();
+      return brand.includes('edeka') || /\bedeka\b/i.test(text);
+    },
+  },
+  {
+    slug: 'rewe',
+    test: (text, tags) => {
+      const brand = (tags.brand || '').toLowerCase();
+      return brand === 'rewe' || /\brewe\b/i.test(text);
+    },
+  },
+  {
+    slug: 'lidl-de',
+    test: (text, tags) => {
+      const brand = (tags.brand || '').toLowerCase();
+      return brand === 'lidl' || /\blidl\b/i.test(text);
+    },
+  },
+  {
+    slug: 'aldi-sud',
+    test: (text, tags) => {
+      const brand = (tags.brand || '').toLowerCase();
+      return (
+        brand.includes('aldi') ||
+        /aldi\s*(süd|sued|sud)?/i.test(text) ||
+        /\baldi\b/i.test(text)
+      );
+    },
+  },
+  {
+    slug: 'penny',
+    test: (text, tags) => {
+      const brand = (tags.brand || '').toLowerCase();
+      return brand === 'penny' || /\bpenny\b/i.test(text);
+    },
+  },
+];
+
 const REGION_CONFIG: Record<
   OsmRegion,
   { iso: string; country: CountryCode; matchers: ChainMatcher[] }
 > = {
   nl: { iso: 'NL', country: 'nl', matchers: NL_CHAIN_MATCHERS },
   uk: { iso: 'GB', country: 'uk', matchers: UK_CHAIN_MATCHERS },
+  de: { iso: 'DE', country: 'de', matchers: DE_CHAIN_MATCHERS },
 };
 
 function overpassQueryForRegion(iso: string): string {
@@ -487,5 +531,6 @@ export function readStoreLocationDataset(filePath: string): StoreLocationDataset
 
 function inferCountryFromChain(chain: StoreSlug): CountryCode {
   if (getStoreSlugsForCountry('uk').includes(chain)) return 'uk';
+  if (getStoreSlugsForCountry('de').includes(chain)) return 'de';
   return 'nl';
 }

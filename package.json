@@ -10,7 +10,8 @@
     "dev": "ts-node-dev --respawn src/index.ts",
     "scrape:ah": "ts-node src/scrapers/run-albert-heijn.ts",
     "seed": "ts-node src/scripts/seedFromWrangling.ts",
-    "import-stores": "ts-node src/scripts/importStoreLocationsFromOsm.ts"
+    "import-stores": "ts-node src/scripts/importStoreLocationsFromOsm.ts",
+    "eval:receipt-matching": "ts-node src/scripts/evalReceiptMatching.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",

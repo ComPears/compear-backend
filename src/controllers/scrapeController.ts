@@ -83,7 +83,7 @@ export async function triggerScrape(req: Request, res: Response): Promise<void> 
     lastScrapeStatus = {
       store: slug,
       count: 0,
-      error: e instanceof Error ? e.message : 'Unknown error',
+      error: 'Scrape failed',
       at: new Date().toISOString(),
     };
     res.status(500).json({ success: false, error: 'Scrape/seed failed' });
@@ -93,5 +93,7 @@ export async function triggerScrape(req: Request, res: Response): Promise<void> 
 }
 
 export function getScrapeStatus(_req: Request, res: Response): void {
-  res.json(lastScrapeStatus ?? { store: null, count: 0, at: null });
+  const status = lastScrapeStatus ?? { store: null, count: 0, at: null };
+  // Never expose raw exception messages publicly.
+  res.json(status);
 }

@@ -78,7 +78,8 @@ export function listStoreLocations(req: Request, res: Response): void {
 
     res.json(locations.slice(0, limit));
   } catch (e) {
-    const message = e instanceof Error ? e.message : 'Internal server error';
-    res.status(message.includes('not found') ? 503 : 500).json({ error: message });
+    const missing =
+      e instanceof Error && /not found/i.test(e.message);
+    res.status(missing ? 503 : 500).json({ error: 'Failed to load store locations' });
   }
 }

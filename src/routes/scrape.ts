@@ -11,5 +11,5 @@ const scrapeRateLimit = rateLimit({
 });
 
 export const scrapeRouter = Router();
-scrapeRouter.get('/status', getScrapeStatus);
+scrapeRouter.get('/status', apiKeyAuth, getScrapeStatus);
 scrapeRouter.post('/:store', scrapeRateLimit, apiKeyAuth, triggerScrape);

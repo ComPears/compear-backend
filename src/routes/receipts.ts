@@ -3,6 +3,7 @@ import multer from 'multer';
 import rateLimit, { ipKeyGenerator } from 'express-rate-limit';
 import {
   correctLine,
+  createReceiptSession,
   getAnalytics,
   getReceipts,
   parseReceipt,
@@ -38,8 +39,20 @@ const receiptParseLimiter = rateLimit({
   },
 });
 
+const receiptSessionLimiter = rateLimit({
+  windowMs: 60 * 60 * 1000,
+  max: 30,
+  standardHeaders: true,
+  legacyHeaders: false,
+  keyGenerator: (req) => `receipt-session:ip:${ipKeyGenerator(req.ip ?? '')}`,
+  message: {
+    error: 'Too many receipt session requests. Try again later.',
+  },
+});
+
 export const receiptsRouter = Router();
 
+receiptsRouter.post('/session', receiptSessionLimiter, createReceiptSession);
 receiptsRouter.post('/parse', receiptParseLimiter, upload.single('receipt'), parseReceipt);
 receiptsRouter.get('/', getReceipts);
 receiptsRouter.get('/analytics', getAnalytics);

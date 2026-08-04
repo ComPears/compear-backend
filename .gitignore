@@ -5,3 +5,5 @@ dist/
 .DS_Store
 src/data/receipts/*.json
 src/data/ai-cache.json
+src/data/ai-spend.json
+src/data/lists/*.json

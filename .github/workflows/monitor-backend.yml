@@ -20,6 +20,8 @@ jobs:
       - name: Check liveness and readiness
         env:
           BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL || vars.BACKEND_URL }}
+          # Metrics require ADMIN_API_KEY or SCRAPE_API_KEY (x-api-key)
+          METRICS_API_KEY: ${{ secrets.ADMIN_API_KEY || secrets.SCRAPE_API_KEY }}
         run: |
           if [ -z "$BACKEND_BASE_URL" ]; then
             echo "::error::Set BACKEND_BASE_URL (or BACKEND_URL) repository variable to enable production monitoring."
@@ -36,7 +38,12 @@ jobs:
             curl -sS --max-time 20 "$base_url/health/ready" || true
             exit 1
           fi
-          curl -fsS --max-time 20 "$base_url/health/metrics" -o metrics.json
+          if [ -z "$METRICS_API_KEY" ]; then
+            echo "::warning::ADMIN_API_KEY/SCRAPE_API_KEY secret not set — skipping authenticated /health/metrics."
+            echo '{"skipped":true,"reason":"missing metrics API key"}' > metrics.json
+          else
+            curl -fsS --max-time 20 -H "x-api-key: $METRICS_API_KEY" "$base_url/health/metrics" -o metrics.json
+          fi
 
           {
             echo "## Production backend health"

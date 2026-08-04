@@ -29,7 +29,7 @@ function formatStoreLine(report: SeedReport): string {
 
 function countriesToSeed(): CountryCode[] {
   const raw = process.env.COUNTRY?.trim();
-  if (!raw) return [DEFAULT_COUNTRY, 'uk'];
+  if (!raw) return [DEFAULT_COUNTRY, 'uk', 'de'];
   return raw
     .split(',')
     .map((part) => parseCountryCode(part.trim()))

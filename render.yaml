@@ -21,6 +21,12 @@ services:
         sync: false
       - key: SCRAPE_API_KEY
         generateValue: true
+      - key: PUBLIC_API_KEY
+        generateValue: true
+      - key: RECEIPT_AUTH_SECRET
+        generateValue: true
+      - key: AI_MONTHLY_BUDGET_USD
+        value: "10"
       - key: OPENAI_API_KEY
         sync: false
       - key: OPENAI_MODEL

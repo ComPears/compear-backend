@@ -16,6 +16,11 @@ export const STORE_SLUGS = [
   'morrisons',
   'aldi-uk',
   'lidl-uk',
+  'edeka',
+  'rewe',
+  'lidl-de',
+  'aldi-sud',
+  'penny',
 ] as const;
 export type StoreSlug = (typeof STORE_SLUGS)[number];
 
@@ -36,6 +41,14 @@ const UK_STORE_SLUGS: StoreSlug[] = [
   'morrisons',
   'aldi-uk',
   'lidl-uk',
+];
+
+const DE_STORE_SLUGS: StoreSlug[] = [
+  'edeka',
+  'rewe',
+  'lidl-de',
+  'aldi-sud',
+  'penny',
 ];
 
 export const STORES: Record<StoreSlug, StoreInfo> = {
@@ -117,6 +130,36 @@ export const STORES: Record<StoreSlug, StoreInfo> = {
     slug: 'lidl-uk',
     logo: 'https://www.lidl.co.uk/favicon.ico',
   },
+  edeka: {
+    id: 'edeka',
+    name: 'Edeka',
+    slug: 'edeka',
+    logo: 'https://www.edeka.de/favicon.ico',
+  },
+  rewe: {
+    id: 'rewe',
+    name: 'Rewe',
+    slug: 'rewe',
+    logo: 'https://www.rewe.de/favicon.ico',
+  },
+  'lidl-de': {
+    id: 'lidl-de',
+    name: 'Lidl',
+    slug: 'lidl-de',
+    logo: 'https://www.lidl.de/favicon.ico',
+  },
+  'aldi-sud': {
+    id: 'aldi-sud',
+    name: 'Aldi Süd',
+    slug: 'aldi-sud',
+    logo: 'https://www.aldi-sued.de/favicon.ico',
+  },
+  penny: {
+    id: 'penny',
+    name: 'Penny',
+    slug: 'penny',
+    logo: 'https://www.penny.de/favicon.ico',
+  },
 };
 
 export function getStoreBySlug(slug: string): StoreInfo | undefined {
@@ -135,5 +178,6 @@ export function getDataFileName(slug: StoreSlug): string {
 export function getStoreSlugsForCountry(country: CountryCode): StoreSlug[] {
   if (country === 'nl') return [...NL_STORE_SLUGS];
   if (country === 'uk') return [...UK_STORE_SLUGS];
+  if (country === 'de') return [...DE_STORE_SLUGS];
   return [];
 }

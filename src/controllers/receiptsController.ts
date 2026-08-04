@@ -17,6 +17,12 @@ import {
 import { ReceiptLineCorrection, SavedReceipt } from '../types/receipt';
 import { getUserIdFromRequest } from '../utils/userId';
 import {
+  getReceiptAuthFromRequest,
+  issueReceiptCredentials,
+  verifyReceiptToken,
+} from '../utils/receiptAuth';
+import {
+  detectImageMime,
   prepareReceiptImageForVision,
   ReceiptImageError,
 } from '../utils/receiptImage';
@@ -27,13 +33,49 @@ function publicReceipt(receipt: SavedReceipt): Omit<SavedReceipt, 'aiCacheKeys'>
   return result;
 }
 
+/**
+ * Require a verified receipt token. Rejects body.userId spoofing when it
+ * disagrees with the authenticated identity.
+ */
+function requireVerifiedReceiptUser(req: Request, res: Response): string | null {
+  const auth = getReceiptAuthFromRequest(req);
+  const userId = auth?.userId ?? getUserIdFromRequest(req);
+  const token = auth?.token ?? (req.header('x-compear-user-token') || '').trim();
+
+  if (!userId || !token || !verifyReceiptToken(userId, token)) {
+    res.status(401).json({
+      error: 'Valid receipt credentials required',
+      hint: 'Call POST /receipts/session, then send x-compear-user-id and x-compear-user-token',
+    });
+    return null;
+  }
+
+  if (typeof req.body?.userId === 'string') {
+    const bodyUserId = req.body.userId.trim();
+    if (bodyUserId && bodyUserId !== userId) {
+      res.status(403).json({ error: 'body.userId does not match authenticated identity' });
+      return null;
+    }
+  }
+
+  return userId;
+}
+
+export function createReceiptSession(_req: Request, res: Response): void {
+  try {
+    const credentials = issueReceiptCredentials();
+    res.status(201).json(credentials);
+  } catch (e) {
+    res.status(503).json({
+      error: e instanceof Error ? e.message : 'Receipt auth not configured',
+    });
+  }
+}
+
 export async function parseReceipt(req: Request, res: Response): Promise<void> {
   try {
-    const userId = getUserIdFromRequest(req);
-    if (!userId) {
-      res.status(400).json({ error: 'Valid x-compear-user-id header required' });
-      return;
-    }
+    const userId = requireVerifiedReceiptUser(req, res);
+    if (!userId) return;
 
     const country = countryFromQuery(req);
     const file = req.file;
@@ -42,8 +84,8 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
       return;
     }
 
-    const allowed = new Set(['image/jpeg', 'image/png', 'image/webp', 'image/heic', 'image/heif']);
-    if (!allowed.has(file.mimetype)) {
+    const detectedMime = detectImageMime(file.buffer);
+    if (!detectedMime) {
       res.status(400).json({ error: 'Unsupported image type. Use JPEG, PNG, or WebP.' });
       return;
     }
@@ -58,7 +100,7 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
 
     let visionImage;
     try {
-      visionImage = await prepareReceiptImageForVision(file.buffer, file.mimetype);
+      visionImage = await prepareReceiptImageForVision(file.buffer, detectedMime);
     } catch (error) {
       if (error instanceof ReceiptImageError) {
         res.status(422).json({ error: error.message });
@@ -81,7 +123,9 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
           ? 'Receipt OCR is not configured on the server (OPENAI_API_KEY missing).'
           : country === 'uk'
             ? 'Could not read this receipt. Try a clearer, well-lit photo with the full receipt visible.'
-            : 'Could not read this receipt. Try a clearer, well-lit photo with the full bon visible.',
+            : country === 'de'
+              ? 'Could not read this receipt. Try a clearer, well-lit photo with the full Kassenbon visible.'
+              : 'Could not read this receipt. Try a clearer, well-lit photo with the full bon visible.',
       });
       return;
     }
@@ -108,11 +152,8 @@ export async function parseReceipt(req: Request, res: Response): Promise<void> {
 
 export function getReceipts(req: Request, res: Response): void {
   try {
-    const userId = getUserIdFromRequest(req);
-    if (!userId) {
-      res.status(400).json({ error: 'Valid x-compear-user-id header required' });
-      return;
-    }
+    const userId = requireVerifiedReceiptUser(req, res);
+    if (!userId) return;
     const country = countryFromQuery(req);
     res.json(listReceipts(userId, country).map(publicReceipt));
   } catch (e) {
@@ -122,11 +163,8 @@ export function getReceipts(req: Request, res: Response): void {
 
 export function getAnalytics(req: Request, res: Response): void {
   try {
-    const userId = getUserIdFromRequest(req);
-    if (!userId) {
-      res.status(400).json({ error: 'Valid x-compear-user-id header required' });
-      return;
-    }
+    const userId = requireVerifiedReceiptUser(req, res);
+    if (!userId) return;
     const country = countryFromQuery(req);
     res.json(getReceiptAnalytics(userId, country));
   } catch (e) {
@@ -136,11 +174,8 @@ export function getAnalytics(req: Request, res: Response): void {
 
 export function removeReceipt(req: Request, res: Response): void {
   try {
-    const userId = getUserIdFromRequest(req);
-    if (!userId) {
-      res.status(400).json({ error: 'Valid x-compear-user-id header required' });
-      return;
-    }
+    const userId = requireVerifiedReceiptUser(req, res);
+    if (!userId) return;
     const removed = deleteReceipt(userId, req.params.id);
     if (!removed) {
       res.status(404).json({ error: 'Receipt not found' });
@@ -154,11 +189,8 @@ export function removeReceipt(req: Request, res: Response): void {
 
 export function removeAllReceipts(req: Request, res: Response): void {
   try {
-    const userId = getUserIdFromRequest(req);
-    if (!userId) {
-      res.status(400).json({ error: 'Valid x-compear-user-id header required' });
-      return;
-    }
+    const userId = requireVerifiedReceiptUser(req, res);
+    if (!userId) return;
     const deletedCount = clearReceipts(userId);
     res.json({ deletedCount });
   } catch (e) {
@@ -168,11 +200,8 @@ export function removeAllReceipts(req: Request, res: Response): void {
 
 export async function correctLine(req: Request, res: Response): Promise<void> {
   try {
-    const userId = getUserIdFromRequest(req);
-    if (!userId) {
-      res.status(400).json({ error: 'Valid x-compear-user-id header required' });
-      return;
-    }
+    const userId = requireVerifiedReceiptUser(req, res);
+    if (!userId) return;
     const lineIndex = Number(req.params.lineIndex);
     if (!Number.isInteger(lineIndex) || lineIndex < 0) {
       res.status(400).json({ error: 'Valid receipt line index required' });

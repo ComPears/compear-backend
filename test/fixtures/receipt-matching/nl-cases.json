@@ -1,0 +1,328 @@
+[
+  {
+    "id": "strong-halfvolle-melk",
+    "rawName": "halfvolle melk",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "halfvolle melk",
+    "expectedStoreContains": "Lidl",
+    "notes": "Strong multi-token dairy match; cheapest store wins"
+  },
+  {
+    "id": "strong-ah-halfvolle-melk",
+    "rawName": "AH Halfvolle melk",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "halfvolle melk",
+    "notes": "Brand + product on receipt"
+  },
+  {
+    "id": "strong-campina-halfvolle",
+    "rawName": "Campina Halfvolle melk",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "campina halfvolle melk",
+    "expectedStoreContains": "Albert Heijn",
+    "notes": "Distinct branded SKU"
+  },
+  {
+    "id": "strong-magere-yoghurt",
+    "rawName": "magere yoghurt",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "magere yoghurt",
+    "expectedStoreContains": "Jumbo"
+  },
+  {
+    "id": "strong-griekse-yoghurt",
+    "rawName": "griekse yoghurt",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "griekse yoghurt"
+  },
+  {
+    "id": "strong-jong-belegen",
+    "rawName": "JONG BELEGEN KAAS",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "jong belegen kaas",
+    "expectedStoreContains": "Jumbo",
+    "notes": "Uppercase receipt print"
+  },
+  {
+    "id": "strong-kipfilet",
+    "rawName": "kipfilet",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "kipfilet",
+    "expectedStoreContains": "Jumbo"
+  },
+  {
+    "id": "strong-ah-kipfilet",
+    "rawName": "AH Kipfilet",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "kipfilet"
+  },
+  {
+    "id": "strong-rundergehakt",
+    "rawName": "rundergehakt",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "rundergehakt",
+    "expectedStoreContains": "ALDI"
+  },
+  {
+    "id": "strong-zalmfilet",
+    "rawName": "zalmfilet",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "zalmfilet"
+  },
+  {
+    "id": "strong-coca-cola",
+    "rawName": "Coca Cola",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "coca cola",
+    "expectedStoreContains": "Dirk"
+  },
+  {
+    "id": "strong-spa-blauw",
+    "rawName": "SPA BLAUW",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "spa blauw",
+    "expectedStoreContains": "Jumbo"
+  },
+  {
+    "id": "strong-calve-pindakaas",
+    "rawName": "CALVE PINDAKAAS",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "calve pindakaas",
+    "expectedStoreContains": "Jumbo"
+  },
+  {
+    "id": "strong-de-ruijter",
+    "rawName": "De Ruijter hagelslag",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "hagelslag",
+    "expectedStoreContains": "Coop"
+  },
+  {
+    "id": "strong-robijn",
+    "rawName": "Robijn wasmiddel",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "robijn wasmiddel",
+    "expectedStoreContains": "Jumbo"
+  },
+  {
+    "id": "strong-robijn-abbrev",
+    "rawName": "ROBIJN COLOR",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "robijn wasmiddel color",
+    "notes": "Truncated receipt-style brand line"
+  },
+  {
+    "id": "strong-unox-rookworst",
+    "rawName": "UNOX GELDERSE ROOKWORST",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "unox gelderse rookworst",
+    "expectedStoreContains": "Jumbo"
+  },
+  {
+    "id": "strong-dr-oetker-pizza",
+    "rawName": "Dr Oetker pizza salami",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "dr oetker pizza salami"
+  },
+  {
+    "id": "strong-lays-chips",
+    "rawName": "Lay s chips naturel",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "lay s chips naturel",
+    "expectedStoreContains": "ALDI"
+  },
+  {
+    "id": "strong-bananen",
+    "rawName": "bananen",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "bananen",
+    "expectedStoreContains": "Jumbo",
+    "notes": "Exact single-token canonical equality"
+  },
+  {
+    "id": "strong-penne",
+    "rawName": "penne",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "penne",
+    "expectedStoreContains": "Lidl"
+  },
+  {
+    "id": "strong-witbrood",
+    "rawName": "witbrood",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "witbrood",
+    "expectedStoreContains": "Dirk"
+  },
+  {
+    "id": "strong-sinaasappelsap",
+    "rawName": "sinaasappelsap",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "sinaasappelsap",
+    "expectedStoreContains": "Lidl"
+  },
+  {
+    "id": "strong-basmati",
+    "rawName": "basmati rijst",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "basmati rijst",
+    "expectedStoreContains": "PLUS"
+  },
+  {
+    "id": "strong-kwark",
+    "rawName": "magere kwark naturel",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "magere kwark"
+  },
+  {
+    "id": "strong-scharreleieren",
+    "rawName": "scharreleieren",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "scharreleieren",
+    "notes": "Receipt omits size suffix M"
+  },
+  {
+    "id": "strong-havermout",
+    "rawName": "havermout",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "havermout",
+    "expectedStoreContains": "Jumbo"
+  },
+  {
+    "id": "strong-truncated-hagelslag",
+    "rawName": "DE RUIJTER PUUR HAGEL",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "hagelslag",
+    "notes": "Truncated product word still strong enough"
+  },
+  {
+    "id": "strong-sensodyne-repair",
+    "rawName": "SENSODYNE REPAIR",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "sensodyne tandpasta",
+    "expectedStoreContains": "PLUS"
+  },
+  {
+    "id": "review-generic-melk",
+    "rawName": "melk",
+    "expectedStatus": "needs_review",
+    "notes": "Single generic dairy token must not auto-match"
+  },
+  {
+    "id": "review-generic-yoghurt",
+    "rawName": "yoghurt",
+    "expectedStatus": "needs_review"
+  },
+  {
+    "id": "review-generic-kaas",
+    "rawName": "kaas",
+    "expectedStatus": "needs_review"
+  },
+  {
+    "id": "review-generic-chips",
+    "rawName": "chips",
+    "expectedStatus": "needs_review"
+  },
+  {
+    "id": "review-generic-wasmiddel",
+    "rawName": "wasmiddel",
+    "expectedStatus": "needs_review"
+  },
+  {
+    "id": "review-generic-pizza",
+    "rawName": "pizza",
+    "expectedStatus": "needs_review"
+  },
+  {
+    "id": "review-brand-only-sensodyne",
+    "rawName": "Sensodyne",
+    "expectedStatus": "needs_review",
+    "notes": "Brand-only single token stays in review"
+  },
+  {
+    "id": "review-abbrev-hv-melk",
+    "rawName": "AH HV MELK",
+    "expectedStatus": "needs_review",
+    "notes": "Receipt abbreviation without AI normalization"
+  },
+  {
+    "id": "review-abbrev-lays",
+    "rawName": "LAYS CHIPS NAT",
+    "expectedStatus": "needs_review",
+    "notes": "Heavy truncation loses apostrophe/tokens"
+  },
+  {
+    "id": "review-cola-with-size",
+    "rawName": "COCA-COLA 1,5L",
+    "expectedStatus": "needs_review",
+    "notes": "Size noise lowers confidence below auto threshold"
+  },
+  {
+    "id": "review-eieren",
+    "rawName": "eieren",
+    "expectedStatus": "needs_review",
+    "notes": "Weak substring overlap with scharreleieren"
+  },
+  {
+    "id": "ai-rescue-hv-melk",
+    "rawName": "AH HV MELK",
+    "aiNormalizedName": "halfvolle melk",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "halfvolle melk",
+    "expectedStoreContains": "Lidl",
+    "notes": "Same abbrev as review case, rescued by simulated AI normalize"
+  },
+  {
+    "id": "ai-rescue-lays",
+    "rawName": "LAYS CHIPS NAT",
+    "aiNormalizedName": "lay s chips naturel",
+    "expectedStatus": "matched",
+    "expectedCanonicalContains": "lay s chips naturel",
+    "expectedStoreContains": "ALDI"
+  },
+  {
+    "id": "unmatched-junk",
+    "rawName": "xxxxzzz",
+    "expectedStatus": "unmatched"
+  },
+  {
+    "id": "unmatched-bonus",
+    "rawName": "BONUS",
+    "expectedStatus": "unmatched",
+    "notes": "Promo / receipt noise line"
+  },
+  {
+    "id": "unmatched-subtotaal",
+    "rawName": "SUBTOTAAL",
+    "expectedStatus": "unmatched",
+    "notes": "Totals line noise"
+  },
+  {
+    "id": "unmatched-statiegeld",
+    "rawName": "STATIEGELD",
+    "expectedStatus": "unmatched",
+    "notes": "Deposit line"
+  },
+  {
+    "id": "unmatched-statiegeld-fles",
+    "rawName": "STATIEGELD FLES",
+    "expectedStatus": "unmatched"
+  },
+  {
+    "id": "unmatched-korting",
+    "rawName": "KORTING",
+    "expectedStatus": "unmatched",
+    "notes": "Discount noise"
+  },
+  {
+    "id": "unmatched-promo-1plus1",
+    "rawName": "1+1 GRATIS",
+    "expectedStatus": "unmatched",
+    "notes": "Promo banner text, not a product"
+  },
+  {
+    "id": "unmatched-koffie-generic",
+    "rawName": "koffie",
+    "expectedStatus": "unmatched",
+    "notes": "No coffee SKU in mini-catalog; should not invent a match"
+  }
+]

@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { runtimeMonitor } from '../monitoring/runtimeMonitor';
 import { getDeploymentMetadata } from '../monitoring/deploymentMetadata';
+import { getAiSpendStatus } from '../ai/aiCostTracker';
 import { logger } from '../utils/logger';
 
 function envNumber(name: string, fallback: number): number {
@@ -30,9 +31,16 @@ export function readiness(_req: Request, res: Response): void {
 
 export function metrics(_req: Request, res: Response): void {
   res.setHeader('Cache-Control', 'no-store');
+  const aiSpend = getAiSpendStatus();
   res.json({
     ...runtimeMonitor.getMetrics(),
     deployment: getDeploymentMetadata(),
+    aiSpend: {
+      month: aiSpend.month,
+      spendUsd: aiSpend.spendUsd,
+      budgetUsd: aiSpend.budgetUsd,
+      remainingUsd: aiSpend.remainingUsd,
+    },
   });
 }
 

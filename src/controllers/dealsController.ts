@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { loadAllProducts } from '../services/dataService';
 import { countryFromQuery } from '../config/countries';
 import { productSavings } from '../utils/shoppingOptimizer';
+import { Product } from '../types/product';
 
 export interface DealsDigest {
   weekLabel: string;
@@ -27,6 +28,19 @@ export interface DealsDigest {
   }>;
 }
 
+export interface SlimDeal {
+  id: string;
+  productName: string;
+  store: string;
+  originalPrice: number;
+  effectivePrice: number;
+  promoType: string | null;
+  promoValue: number | null;
+  promoValidUntil: string | null;
+  category: string;
+  savings: number;
+}
+
 function getIsoWeekLabel(date = new Date()): string {
   const tmp = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
   const dayNum = tmp.getUTCDay() || 7;
@@ -36,12 +50,38 @@ function getIsoWeekLabel(date = new Date()): string {
   return `${tmp.getUTCFullYear()}-W${String(weekNo).padStart(2, '0')}`;
 }
 
+function toSlimDeal(p: Product): SlimDeal {
+  return {
+    id: p.id,
+    productName: p.productName,
+    store: p.store,
+    originalPrice: p.originalPrice,
+    effectivePrice: p.effectivePrice,
+    promoType: p.promoType,
+    promoValue: p.promoValue,
+    promoValidUntil: p.promoValidUntil,
+    category: p.category,
+    savings: Math.round(productSavings(p) * 100) / 100,
+  };
+}
+
+function parsePagination(req: Request): { limit: number; offset: number } {
+  const rawLimit = parseInt(String(req.query.limit ?? '50'), 10);
+  const rawOffset = parseInt(String(req.query.offset ?? '0'), 10);
+  const limit = Number.isFinite(rawLimit) ? Math.min(100, Math.max(1, rawLimit)) : 50;
+  const offset = Number.isFinite(rawOffset) ? Math.max(0, rawOffset) : 0;
+  return { limit, offset };
+}
+
 export function listDeals(req: Request, res: Response): void {
   try {
     const country = countryFromQuery(req);
+    const { limit, offset } = parsePagination(req);
     const all = loadAllProducts(country);
     const deals = all.filter((p) => p.promoType != null && p.effectivePrice < p.originalPrice);
-    res.json(deals);
+    const total = deals.length;
+    const items = deals.slice(offset, offset + limit).map(toSlimDeal);
+    res.json({ items, total, limit, offset });
   } catch (e) {
     res.status(500).json({ error: 'Internal server error' });
   }
