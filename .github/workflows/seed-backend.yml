@@ -1,11 +1,12 @@
 name: Seed backend product data
 
-# Weekly re-seed of backend JSON from compears-data-wrangling (Mondays 06:00 UTC).
-# Daily scrapers run in ComPears/compears-data-wrangling (.github/workflows/update_stores.yaml).
+# Pull published catalogs from compears-data-wrangling into backend src/data.
+# Primary sync path (uses this repo's GITHUB_TOKEN — no cross-repo PAT required).
+# Daily scrapers publish at 00:00 UTC; seed runs shortly after.
 
 on:
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '15 2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,13 +29,9 @@ jobs:
           repository: ComPears/compears-data-wrangling
           ref: main
           path: compears-data-wrangling
-          fetch-depth: 0
-          # For a private wrangling repo, add secret WRANGLING_REPO_TOKEN (PAT with repo read)
+          fetch-depth: 1
+          # Public wrangling repo is readable with github.token; optional PAT for private forks.
           token: ${{ secrets.WRANGLING_REPO_TOKEN || github.token }}
-
-      - name: Sync data-wrangling to latest main
-        working-directory: compears-data-wrangling
-        run: git pull --rebase origin main
 
       - name: Setup Node.js
         uses: actions/setup-node@v7
