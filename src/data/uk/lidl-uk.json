@@ -16,32 +16,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/gYYjwVFGJ7AYRnatq8tRARhrh3l_ORkadMcgKA_n8oo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82MjdFODkzRUU4MjVDMjc3NDhBNjkyRUE/3RDAwNUJDQjU1OUNBOTY1NzY3QTFEMTZDRUQxNDZFNEI1RDU0QzAwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|14-99-for-frother-gbp-milk|1"
-  },
-  {
-    "id": "lidl-uk-b395a71e5640",
-    "canonicalName": "black 14 99 for frother gbp milk",
-    "productName": "Black Milk Frother For Gbp 14.99",
-    "brand": "black",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 14.99,
-    "effectivePrice": 14.99,
-    "unitPrice": 14990,
-    "effectiveUnitPrice": 14990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/ttukgSfA8A4E0L39gam2HfXBUw6OfpYNJ47xA-zpZoQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNEE2QUY5NDE0M0JFQ0RGODk4OTE2RDJ/FNDY2NzM0QjM2MkU4RDYzRkM5MTg1NTJFQjlGMjI2QTRBNzQ1Q0JDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:black|14-99-for-frother-gbp-milk|1"
   },
   {
     "id": "lidl-uk-4b152c84475d",
@@ -60,10 +38,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/kO7pLuyI8WJg3KQMaQYpZVmpISxJG3CEAe3R4W0CRtY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CN0U3OEFDQkFCNTM0RkRBNjFFOTI5RjU/1QkFBNjEwNzA0RkVDRTAxQzMxNkFFMTcxNURCNEUxNDA3N0U1NEM3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|14-99-for-frother-gbp-milk|1"
+  },
+  {
+    "id": "lidl-uk-b395a71e5640",
+    "canonicalName": "black 14 99 for frother gbp milk",
+    "productName": "Black Milk Frother For Gbp 14.99",
+    "brand": "black",
+    "store": "Lidl",
+    "packageSize": "1 stuk",
+    "weightInGrams": 1,
+    "originalPrice": 14.99,
+    "effectivePrice": 14.99,
+    "unitPrice": 14990,
+    "effectiveUnitPrice": 14990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/ttukgSfA8A4E0L39gam2HfXBUw6OfpYNJ47xA-zpZoQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNEE2QUY5NDE0M0JFQ0RGODk4OTE2RDJ/FNDY2NzM0QjM2MkU4RDYzRkM5MTg1NTJFQjlGMjI2QTRBNzQ1Q0JDLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:black|14-99-for-frother-gbp-milk|1"
   },
   {
     "id": "lidl-uk-124bacce3a8c",
@@ -82,7 +82,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/HEkjIN4UKcGzALx-qScyjHKNmodATAm4V0SAMDZp8Zk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xQzkzRjlGQkQwMDBBN0Y5MDM5NTc1NzY/xRDcyMEY1OTBCQTNGQjE1NTM1RURGQzA3NEE5MjM4N0MxQTdGNUUwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|29-assorted-drink-for-gbp-high-protein|1"
@@ -104,7 +104,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MvFgYoP-iFIIME07VLMBrSe3i9qRURkhmiYwUrCOE6k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yMjJDMTREOEIwM0Q2RENBMTVEODhDQkQ/3NUFCNzM5MzVCNDhCRTIyMUMyMzM0OUE5MEQwRDQ5MDkyNDNERTU4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|75-assorted-coffee-drink-for-gbp|1"
@@ -126,7 +126,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/TleGoTKKSz0xQb0NjaE9psV58i_dVzQjhdcJ6Fx0z-g/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FMUM0NThENzA0RjJEMDQwRUQ3NEZGMUN/GRUZDRUZEODY3NjAwRDhEQ0Q0N0VEQjNFMEQyRjMxNTk3RUMxMUVDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mini|15-for-gbp-lollies-milk-pack|na"
@@ -148,7 +148,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/x4VpaXdFXsWIwEkTy5KnX4l8skBHY4d0eMmhYWrupJU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85NzMxRTQ2NUNEQkZFNTVFMzM5RTdERTV/DNkRBNDFFNTc4RTFGN0M3QkI2NzZGRjc1QzU3NzIwMTZFNzQ2QTE3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:double|49-and-blackcurrent-cherry-chocolate-cream-for-gbp-ice-lollies-milk-pack-paradise-raspberry-sour-with|na"
@@ -170,7 +170,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/86XBSOyTstyHg_RxZWey6msskIvmBFOXyzACOdhOTVY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zNUUwOEI2Q0RCMUIwOTFGQTdDOEZGQjl/GMjBGMjQyRUVBRkM1MzlDNkU3RTM3NjBBMEQ0REYxRjJBMEVDRUMzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:xxl|29-bons-chocolate-for|1"
@@ -192,7 +192,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/WQzFHQY3CvVDsCK2QwT8gHsj75ckKc-V3C00aLhtIJA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yMzNFODQ0NzYxNzlEMEQwMUZEOTI5QUM/wRTZBM0ZEQzRDMTQ5QUUwQ0I5RTQyQ0REOTQwQzM3Q0RFMzRCNDUyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:black|49-99-espresso-for-machine|1"
@@ -214,7 +214,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/CjUhxSCCH7s0t0heNobe6Swkk3WqwIZq6AynR-5HNts/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CMkI2QjE4MUJBNTg5QjgzNzZBMEJDNDl/BNTNDOUZERDU1RkY4QzJFQkM5N0NGQ0U3MDQ1NUZFQzM2RjU3Q0MzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|49-99-espresso-for-machine|1"
@@ -236,7 +236,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/s8epBNZ9ioeReQ-Hx40AqQwrj9EkE28k3fXLTYKCsJM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EQzg4NUQyMjA4Qzk4RjhDM0M2QzZENzk/0OTU0NTc1OTg1Qzk5NzE2NjhENEFCRTMzMjkwRTdBNThBRjk1QTg0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|49-99-espresso-for-machine|1"
@@ -258,7 +258,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MNSCJgsuBchXdOv85AwA3GBcecmDhyc2SrtNoTkDNPk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80N0NFOTk2OUIyMzZGM0Q2NjA5MjJFMkY/zM0I5MEE0Nzg2NjJFRjZEOTZBMzFGOTc2RUI5QzhBQUQ4NjZCN0RDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:quark|59-assorted-bars-for-gbp|1"
@@ -280,7 +280,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/HILLmcDc1QC-Ug4MkiQmsy73jifq8HTG7hv4b4cBi9M/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81RTI2MUE3NjMxN0U3RDM4MjZCRDY4NzM/4NTQ5RUUzNTZENzE2QTU1MjMxNDEzMzUzNTNBQzEzOTYxRTU0QzdBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:semihard|49-assorted-cheese-for-gbp-hard-semi-string|1"
@@ -302,7 +302,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Az4wpXRjAiJ7HWH6UqTtp7MWpEOeGR10pR6RLlBAwjw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CRjM0QjRDMTRDNThDRTA4NkY5RjhCNjE/2QjkwRDM0Mjk3RDE1NEUyMUZFQTNGQkJBRUJCQjI0MUE5NURCNDNCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cream|25-assorted-cheese-for-gbp|1"
@@ -324,7 +324,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/-JD8iPDHFdnXddO98YOX7IextJ3lLW2Y9cWatzPV5Es/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRDlGN0I0NkNFMTc5M0UzMTk5ODJERTc/4NDA5MTExNkZBQjUzRTg1QzExQjJFRUNBRTY2RDAxNTI4QTA4REI1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:halloumi|99-for-gbp|1"
@@ -346,7 +346,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/15hBSQk4TuCvTqgfA_vlaGAMkN4Vdb8RsVLCJJV8lP4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EMzMzQThCNTRBMEUzMzZCMUJGQTFCODU/5Qjk4QjZCMTQyMjFDMkNBMzBDOUE1RERGRDhCRjBGN0REODExMTEzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:white|49-for-grapes|1"
@@ -368,7 +368,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/4yI55CygOMVRL4kyhq2q-hnNm98jXNbHoIKTJ8oFXzk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84Nzc2NUQ1QTQzNjhEOUIzQkUwMzc3MUF/DRUJCMkE2RTY5N0ZBNTUwRjM5QzcyMzdBNTQ4RTcwNUY5MUU5NTYwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:chenin|99-blanc-for-gbp-wine|1"
@@ -390,7 +390,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/NRe3yD-zAYOmSutyUdnBNgzmTAjuf9I0s35lO9TZGPw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80RjhGNkRDNjhBODAwNThFNDc0MDM4QzA/0MDlBQzNDOTQ2QUJGOTE5NEU5NDU3MDM2Njg2OUY4NURBRDEyODhDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:south|99-africa-blanc-for-gbp-sauvignon-wine|1"
@@ -412,7 +412,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/goe13sISAXWixeqaGz4X3XrFVsa5wKffCRYckAydoiw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85REI1NUZBQjVGMTU3Qjg1RUQ1MzRBMkN/CMTJGQjlFNDAxQTM4ODE1NDQxMTdFRkM4NzkwRUNDMzFFRURCQkZCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:white|99-blender-for-gbp-hand|1"
@@ -434,7 +434,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/1EoqNG5B1a0vuWGCGMZjq4DJTKX47b_k7Vl5_Icfta0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84M0YyODc0NUQyOEU5RTIzNDgyQ0U5OTV/CQUE0NzE3MzY5Mzc1RTU1M0E3RjcyMkEwQUE5QUUxRjEzNEFGNjNCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:vinho|69-for-gbp-verde-wine|1"
@@ -456,7 +456,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/pl8ssZldzqdAdpJTDvXPaPIfjsiC44371HpQrM79e_w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DMUE4OEFDREExNjdDREI5NTcxOTU5OTJ/FOUY0Q0QwQzNDRThGMUE4MTlGMUFFRUU4M0JFMzZENkY3QkMzODgxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|12-99-for-gbp-slice-toaster|1"
@@ -478,7 +478,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/taxEJ_QPlT0XRXjW9xv8F1NdHscA7uBr81RH8YKnmP8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80ODBCRjNBM0UzQkYyRjg2NDZFMTJEOTd/EOENGQjU2MTA2QUMyMDM0RDU5MEQ5QjQzQkY3RjAzMUJBM0NBRDUyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|12-99-for-gbp-slice-toaster|1"
@@ -500,7 +500,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/gBPGxIkJJRUJaWW7lunGnmyVSWLm6j0cFVafljQvyEM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wRTBCRDFBOEE0NTA0QTA2RkIxRTJDQjg/1MUQ2RkYyQzg0RThBNTA2NjkzOUZGRjEwREI4QUJBODkwNjZEMDk3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:black|12-99-for-gbp-slice-toaster|1"
@@ -522,7 +522,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/T1eXL2kKgBQjD60spPD1DMNmwn_i3KAny5xmLvjoPqA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84MzUyN0I3OTI5RTgwMTIzRTE5OTA2MUY/2MEZDMUI4RkUyRURCRTM5MUIxQjQyOTZBMjVFQjIxNEFCMTNBQTgwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:brown|99-bed-for-gbp-pet|1"
@@ -544,7 +544,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/lGhLSVQkqB8NoRFZ-Bez5jTjhYZ_-Oq6K6vJKP3qJXY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82Q0Q5NDk2OTdBRkQzMUMzQzcwNTkxNEM/4NUZGQzhBNDk5OUI1NTVBNjI2RTY1NTU2RkEwQ0FBMzQyNDJBRDc2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:breadsticks|19-and-cheese-for-salt-with|1"
@@ -566,32 +566,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/j7BCkB_TXlyE1Ku2gH-4SyEyygAM40ecKbDhdj81g5w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRkIyOTI2RkM2RjgyNkEzRTA1RDRBRkE/5RTA4NkRCRDQ0QTBCNkYwOUI3ODQ5MUJFMkU1MUVCMzBFOUVBQzI5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:wafer|49-assorted-for-gbp-rolls|1"
   },
   {
-    "id": "lidl-uk-3a06e32fce5e",
-    "canonicalName": "xxl 99 browns for gbp hash",
-    "productName": "Xxl Hash Browns For Gbp 2.99",
-    "brand": "xxl",
+    "id": "lidl-uk-cffde8d2f196",
+    "canonicalName": "instore and bakery cheese croissant for ham in store",
+    "productName": "In-store Bakery Ham And Cheese Croissant For 1",
+    "brand": "instore",
     "store": "Lidl",
     "packageSize": "1 stuk",
     "weightInGrams": 1,
-    "originalPrice": 2.99,
-    "effectivePrice": 2.99,
-    "unitPrice": 2990,
-    "effectiveUnitPrice": 2990,
+    "originalPrice": 1,
+    "effectivePrice": 1,
+    "unitPrice": 1000,
+    "effectiveUnitPrice": 1000,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/D8VFT6POHvB0wbpEsC-gvy1i4YhNFFM4XxSjBqXOPew/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80NkIwMDFCNDU5ODZCQTAzQkU5NUY5MkM/xRjYyOTg5OTNFMzQzREY5QkY1MDE4NjlERjhFN0Y2Mjk0NDVFQjA4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
-    "category": "Other",
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/6Rtsf9YKCcoJ1904bePJzQlANjrkvmatpnxC0GQbY0A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QTE0RTUxRjk2MEY2MkMxRjVDRDNGMzh/BQzVFNDYyREEzQzYzREJENjIyM0YzNjJCQzkwMDlDMjNBNDc0NTk0LmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.431Z",
+    "category": "Bakery",
     "barcode": null,
-    "identityKey": "tok:xxl|99-browns-for-gbp-hash|1"
+    "identityKey": "tok:instore|and-bakery-cheese-croissant-for-ham-in-store|1"
   },
   {
     "id": "lidl-uk-85a9629002ca",
@@ -610,7 +610,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/BLdLu49WJYeECNrp-HLg0Achj6LJnkVv30wdxaFQpSM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zOEE1QzcyNUVBMTU3OTJENzBCRTc3NzA/5MDkyRjYzNTFCNjlFMDRFNTg2QURFOTY3MTdGRjIwMjVFMUQ5MDhBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.795Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:whisk|99-for-gbp|1"
@@ -632,7 +632,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/-1zJTT_9-1eqN0qkEMo3g_z7T1R4VnfIbj_Ip21uchI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82M0Y4ODQwNDk3QjY0MkZEQjdCREYzNzM/2QTE5ODg1OTlENDBCMDU2RkRDM0UxMzEzMEVBMTM1RDlCODUxNzY1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:square|39-egg-for-gbp-noodles-shaped|1"
@@ -654,7 +654,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/CCHQspAIuFYuMSl0KGbOeXBuR75DhvzsH-PUnNl97WU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82OTJEQkVENjAxMDU1RjYyOEE4NEJCNzF/CQ0FEMUZFRjUxNUYwRjMxNjQyRUI3NjJBMTc2NzM0QjRGQ0M1QUQyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:greek|69-cheese-feta-for-gbp|1"
@@ -676,7 +676,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/fsir5FX_boFYBmknNn3O_KEDEI8nnpHKTFf0ri1Zs1w/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xMjQyNTVGMjlGOUFFRjMzQUQ0MUUxODU/wMDVGMEE5NjAxMDcwNUJGQzVFMzhDMUMyODE3RkFFNkQxNTA1ODRGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:original|95-for-gbp-italian-mozzarella|1"
@@ -698,7 +698,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/yVuc9UPST7U1q55cJRShjCUEOtXQFlLPRptoo9cCQFM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zQkY5MDRCQzk2RDkyQTI1OUY1RTk4MjE/zQzI3OEExMkZDODk4OEYyQTA1RUYwMTI2QzVFODlDNTA3MUM1OUJFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:brie|65-for-gbp|1"
@@ -720,7 +720,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ZiU0jq4ZJ2Kx5r9tk74WN8Tomji7Lz7m9-obAuZjy-Y/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81M0NBNTNCNEVBMjI2MUZGMUNGRUQ4Q0M/xMEJGQTI1MDE4RkNFRjVCQ0I1NjgzNDRENUJBNjQ5RjFDMTZCM0Q4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:xxl|79-assorted-drink-for-gbp-yoghurt|1"
@@ -742,32 +742,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/YN8DXTlkPfmTodm59gHKZLo2CvbM8n220OVhN94V1ng/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85OEU4QUJDM0YzQ0Y5REQyQkI5MjI4RjJ/GQUZCNkMzNDY5NjkyMzJFODBCQzFEOUQ4MEUwRDYwMDc2QjRCNDg2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:nectarines|79-for-gbp|1"
-  },
-  {
-    "id": "lidl-uk-047841c64737",
-    "canonicalName": "chorizo 99 for gbp slices",
-    "productName": "Chorizo Slices For Gbp 1.99",
-    "brand": "chorizo",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 1.99,
-    "effectivePrice": 1.99,
-    "unitPrice": 1990,
-    "effectiveUnitPrice": 1990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/8PrlRwJJBC9RF2cIltXDlqtq2s2BeKotcaRS6DMx_RI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRDJCMkQyQjdDNTk0RDc2QjM5Rjg5Mjc/wQkRBRjc0OUMzNUYwMDUxQUY4Mzc5NzQyMEUxNTAzRTlBMDg2NTgwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:chorizo|99-for-gbp-slices|1"
   },
   {
     "id": "lidl-uk-4dac721b8707",
@@ -786,10 +764,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/WN_xItx512VtiF1YyFN0q0v4XdoaoXed45_r4H3jlks/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xNjA4MDBGMzkyOTBGNzgwNDU5QTNFMkM/0NkNGNTM5Q0Y5RUJGMTJCOEFBQTJFRDlCNkE1M0FFREU4MkFFQ0M2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:chicken|99-and-chorizo-for-gbp-kebabs-smoky|1"
+  },
+  {
+    "id": "lidl-uk-047841c64737",
+    "canonicalName": "chorizo 99 for gbp slices",
+    "productName": "Chorizo Slices For Gbp 1.99",
+    "brand": "chorizo",
+    "store": "Lidl",
+    "packageSize": "1 stuk",
+    "weightInGrams": 1,
+    "originalPrice": 1.99,
+    "effectivePrice": 1.99,
+    "unitPrice": 1990,
+    "effectiveUnitPrice": 1990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/8PrlRwJJBC9RF2cIltXDlqtq2s2BeKotcaRS6DMx_RI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRDJCMkQyQjdDNTk0RDc2QjM5Rjg5Mjc/wQkRBRjc0OUMzNUYwMDUxQUY4Mzc5NzQyMEUxNTAzRTlBMDg2NTgwLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:chorizo|99-for-gbp-slices|1"
   },
   {
     "id": "lidl-uk-d6fe10f69050",
@@ -808,7 +808,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/vt52HurYTQLOFlOUHuAbOG0srERGqghy2ufY8ZGHzfE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81NjBDMTVFMDczMjI3RjlGQjg2OEVGNzd/GNTMzQzUxOTM3MUU0RTk5RkFGRDJGMDVCMzcyMjFFOEYwQTQ1MjQ3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:fruits|79-assorted-chocolate-for-in|1"
@@ -830,7 +830,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/DOsCp4PhCZddKkNb5nidbPAkAoMaLcGhK-wBR4e0zV0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84MTg5QkI4MTM2ODIyMjNCNUY2NTk0NjU/5MDM2RjJEQzQxMzhFRTc3MzJCODY4RTNDRjk4NDFFOTJCNDlEQTkyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:hero|39-chase-dino-for-patrol-paw-pup-rescue|1"
@@ -852,7 +852,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Ib1ngA60qupEusLaurXusqRKV4tOle5fvNLeQSdJgIk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CMjcyOUFENDgyNkVFRDlGNzIwMEIxMzY/0NjlFN0YyOEUwMkU0RjA1OTQwM0E2NkU2OUExNEYxMzAyNjk5RTZFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:hero|39-dino-for-patrol-paw-pup-rescue-skye|1"
@@ -874,7 +874,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/pxaKizbp7g-oTWIfaV5RDZ4XDokK-tH6640-0TWMAeY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xRTYyOThEMDBEQTI2MERFRjBGNEE1NzY/4RTVBNUMwOUEwQjhENEUyNjgzMUE5MUZEQ0FDRDE3RTVBMTlBNzc5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:hero|39-dino-for-marshall-patrol-paw-pup-rescue|1"
@@ -896,7 +896,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/co6IxJi68w1gSOlBtKwIsYcYxcWjFdCeLrqLPhIzo9w/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNTUwOUQ1RUM0QkE4MTA3NTAzODYyNkZ/FN0FENkVGREI2Qzg4QzhDMkVEN0NGQ0Y3RjQyMTcyRTcwMEQ3MzQ2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:hero|39-dino-for-patrol-paw-pup-rescue-rubble|1"
@@ -918,7 +918,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Nr8HY91PMcC29WffAsGyouQpcW7Bv1bAT8FPAHLNUIY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81OTU3ODI5QUMzQzZGODQ5QTE1MzIwN0U/zNUFCNDU1RTM3RUQyMjMxOTQ4Qjc4MTU5QzhBOTRGRUVDMDZFREE1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plant|99-for-free-gbp-meat-sausages|1"
@@ -940,7 +940,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MrpJgbGm2XibSjfORhA3VR9y4HkOjwaeFAHG_A7LiD4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DQkZBRjVGMEIwMzA2NEE2Qjk4RjZDMjA/wNzlFNkFGQjJBMTZFNThBRTQwM0I3N0U1NzFCOTFCOTdEOEQ3NkQ1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plant|99-burgers-for-free-gbp-meat|1"
@@ -962,7 +962,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/pw5sFI_xzpoq8SomWcbCkOY2i8FrG2UVMVjxC-v_YNw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81MkY1MkJDQkY0RTAwMUQxQUIzNURBNzB/BREY5NENGMjM3QzJFRDBBNkQ2NTdBQjFDQzlCM0FFQ0QzRjRGODJFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:fat|99-dressing-for-free-gbp-vinaigrette|1"
@@ -984,7 +984,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/P1YAKapkfsRqwta_TUXJ3-owvmyXY1XZPV5uGBN0UCI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CMTBCMUFCRjc4MTFDRDA2QTg2NTEwN0Z/BMzNENTlEOEFENzZCNkIxMkExOEM4NjQ5MDgxQTNDOTg3NUQzNjdELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:jumbo|19-for-gbp-king-prawns-raw|1"
@@ -1006,7 +1006,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/n8-3RP8XYaw8SahgAs1yIrvX2XkXf849gBsoMnAb58k/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83NzYwQzU3MEE2QTE3RERBNURBNjYwMTh/FQUY4RThEMkVGRDQ0QTkxQ0ZGMUY1QTlEMkNDQkRDM0Q5QzJENzRELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plaited|29-and-bread-butter-for-honey-with|1"
@@ -1028,7 +1028,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/pL5CGX2sNjBttsfAq7AAMHmpxEYjWqnntX_USgLLPUw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85OEM4NDlBNTA0MUFDM0FGMDE4NDRGMzM/3QzZGOTI4NUM5MERCNzFBNzlDNDI1QzQ1RTc1NjgyRjY5ODZBRUE4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:buckwheat|29-for|1"
@@ -1050,7 +1050,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Baj0pFKrX1qsXZgBtHJd-qXaRkZGffqfv2p4KKDy2Z0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82NkUzQTY2RTlFRkQ2M0E4NkE2MzEyRjU/3OTZCMjUxMTI2NTNFMEVDRTJDNTI0RjJBNDVEOUE1MkUwNUY3RTk0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:nutella|19-for-gbp|1"
@@ -1072,7 +1072,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/5WMq-2wIHbnj939SVj4bYldGbYZzMqkjQA0GtsndAbM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GQkNGMDkxRkE1MkI4Q0MxQjA1MDJCMUU/yMzFGNTgwMTlDODFCMkM5RDM3RTg5QzdBRjYyRUFFNzhCNjBCNUE5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:lighter|95-for-gbp-light-mayonnaise-than|1"
@@ -1094,7 +1094,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ZLByTFPVkMpYtjh1wiPog4JUvDvSKg4sLRarxrR7S3o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83Mzg0ODRGNkQyNTEzNjRDRTI3MzM5REN/FRTlGNDc2OEFDMTM5MDQ5QTFFNEI5NDRDRjZDNTNDNzM3NDY5M0Q4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|89-assorted-for-gbp-in-mussels-sauce-scottish|1"
@@ -1116,7 +1116,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/wbIVNcI_snM0DWdfjahjXF3kDSrMOvSNQFmE2zKvUew/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yNTk5NDhCMzNCNjEyM0E2Qzg3QTg1NDh/ENkU0ODZGNDQxMTVENDdDNkI0MTM5NDQ1ODE4QkRCNzAwREQ5RTY1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plum|29-for-gbp-spread|1"
@@ -1138,7 +1138,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/YPWpQiB2DCiKI51MRox_4RxJN3cIQQzd4SgYfNz2DgI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85MUNCNzE1NzMzMEUxNDg4OEYzNTU0QTU/3NDg4NzkwREU0RTAzQkVENUY4OTY1NTdGOTJEOTdGNEU3RDQ5MTRBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:xxl|59-chocolate-for-gbp-hazelnut-spread|1"
@@ -1160,7 +1160,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/V_njyhbxSB7EyD1F5-w4pB2OcMyztCrv-Kn1ilBn7KQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yQjkyQzFENzlFRDBFQ0YxOUI5RThFNTc/5M0ZDMTFBRTRBREEwQTU5N0U5QTgyRjYyMjI3QzJFRkM0REU3RTQ0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:squeezy|49-for-gbp-honey-runny-xxl|1"
@@ -1182,7 +1182,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/M8p0s1Kggp56JY8O2lm8I2Szj-VwHDpi4zVOlD1fjLQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81N0E0QjFBMEU1OEUxRUIyOTkyRDUyNzR/FMkU1REY3OEZBQzhBN0M0QTBGMTRFRTlFNDZDM0Y1NUQ4NUFCMzAwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:otiepok|99-assorted-cheese-for-gbp-tiepok|1"
@@ -1204,7 +1204,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/FdsrCmOWuBbAtiSoIrepp9Zsmx9aceUi9N6UHnCygsg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80MzY1QTVCQzJFNUQyOTVFQTdERDZENkZ/CNjdERTJDMDlFQUM5QjY0MDQ5OUMyRTI3QjgyQkFERTFCNjQwRjMzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|29-for-gbp-grated-mozzarella|1"
@@ -1226,7 +1226,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/643kekBRU-0Rj4sgrFHaeEChEjllKSlRxVHUlc7tCgY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84MDM2ODMwMTI5NTY1RkYwODBDQTU4QTR/CNUMyRTg0MkIxNUUyNDE3RjM3Mjc4MkYyQzkzMDZGRjMyQTZGOUM2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:jadel|99-assorted-cheese-for-gbp|1"
@@ -1248,7 +1248,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/yhUpZSqXjt1bjoiFvrpGMQpS6Tse6efmttusQ0CtR-8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNjlBM0JCMEY3QkNCQjM3NURBMzY4MkY/zQzFDN0NDMkUwMDIyOUZBODU5OTdBMzAyQTc5OTkwM0Q2NjVFRDc3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:carrot|49-and-apple-banana-for-gbp-nectar|1"
@@ -1270,7 +1270,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/0Ywj2ygylTHigJoSTaw9Z15LbWIcjrKGOP9NF6kbAoA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84MUU5OTQ2RTBCMTc0MzUzODFGOTdCMzJ/BQUI4RUUwODI1RjcwMkY4RUVFRjQzM0RBQ0M1RUJCMTMyRUExRkY2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:jerky|69-for-gbp|1"
@@ -1292,7 +1292,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/yNbMrh-BP8FTUQ_dGgtpFgWczmsXYxtxSLcrCW9WaZ0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GMjczMDBEQzA1NTgyMzU3OTVFQTBFMUQ/5Nzc3NkRBRUUyNjlDMUM0NDA4QUZGMEY2MzMyQzJBMTU5NzgwQTlELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:blue|99-bento-cube-for-gbp|1250"
@@ -1314,7 +1314,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/d_AP_WcO8tTO8L6_BoowP23qA6o_Ba_Q-KVidXYxjgI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84RDY5OEEyQTNDRDBDQzU3QzFBMzY3NzN/GQ0MyMzJENjlCQjU0N0M1RUVDMEMwRjA4QjQwMEU1NTNGQ0Q5RkRGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|99-bento-cube-for-gbp|1250"
@@ -1336,32 +1336,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/9HAvaoKBZPAX7QBKL_0ivDc2b6QIB4PlzwAzjtBC1Tg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zMUJENTlFMjk5RTJFQzc3MzY3Q0QxQ0E/yN0E0ODU1REEyRUVENEZDNDBENTI3MzA5Q0RFNzU4NEE2QzRFMDM1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:sorbet|99-assorted-for-fruit-gbp-in|1"
   },
   {
-    "id": "lidl-uk-064d973cd33b",
-    "canonicalName": "gherkins 65 brine for gbp in",
-    "productName": "Gherkins In Brine For Gbp 1.65",
-    "brand": "gherkins",
+    "id": "lidl-uk-d76b6bfefc36",
+    "canonicalName": "pierogi 49 and for gbp potato quark with",
+    "productName": "Pierogi With Quark And Potato For Gbp 1.49",
+    "brand": "pierogi",
     "store": "Lidl",
     "packageSize": "1 stuk",
     "weightInGrams": 1,
-    "originalPrice": 1.65,
-    "effectivePrice": 1.65,
-    "unitPrice": 1649.9999999999998,
-    "effectiveUnitPrice": 1649.9999999999998,
+    "originalPrice": 1.49,
+    "effectivePrice": 1.49,
+    "unitPrice": 1490,
+    "effectiveUnitPrice": 1490,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/y5LqkSinumJKYS-7pu9IHOp8OfBWruzRGR5Ypm1XZ78/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CRTA5OUUyRjg4NkM4QUNEQ0Y3ODlBNTY/1NDk3N0MyMEVBQjE1RjhCOEQwMEIwQzVBQ0Y5MjJGOTA4RkY2MERBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/cLFPcnZWirXuE5lLZtyUwUd2frOYifG7p5k8X7QNhRk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNUE0MUI2RDE0QzNCODAxOTRDNkEzODA/4MTFBNTgzN0RFQkNDRTM1RTJEQzQ5RDVDRDI1QTBCRjJBOUE1MEYzLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
-    "identityKey": "tok:gherkins|65-brine-for-gbp-in|1"
+    "identityKey": "tok:pierogi|49-and-for-gbp-potato-quark-with|1"
   },
   {
     "id": "lidl-uk-346c0d9bcefe",
@@ -1380,7 +1380,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/aeQ9MsQdMSY2LotMyVnF_jqbNvU70MkO6zJM1utFH5o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QjNEMDZGMEIzNDM2MEVGN0VFREFDQjB/FRDJCQzdGODE0NTU0RUQ3QzQ4MUUzNkNCODMzNzlGOTVFREFEOEIyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:salads|99-assorted-for-gbp|1"
@@ -1402,7 +1402,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/7ZmvbdPMczaPT_w2u01HID52QlYBjDnOd3k6i0ZmUH4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80RjZDNERBQzEzNkQ0Q0IwQkI3RDU2QTI/xMTVBM0ExRTlCOUM3NzgzNjlGNzg4OUEwMDBBOTc3OUI1QThGNEYzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.432Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:flat|79-for-peaches|1"
@@ -1424,7 +1424,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Wtxy0O8vjVbeHbG6R4a0X6gFf1POJxiCeJ2Uukc8Rrs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNDAyNUUyNzRCODI3ODc3N0YyMzg2RTR/BN0M2NEE1NkZGMTZCQkJFRkI3NEY3OEUzMjBCMDVFRTc1QUEyOTUzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|99-apples-for-lady|1"
@@ -1446,7 +1446,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/CjS7GCbsIIF7Kqz9wAXYePCHGJW5sbnKtJbKvmW_g4k/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GRkVDNzUxQjQ5MjcwQjUyNTA1NDMxMTE/1MUVBRkI5NTBFMzk5NTI5Mzg0MkIwREY4N0U1QjZDQzUwOTlGNTJDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:apple|99-cherry-drink-for-gbp|1"
@@ -1468,7 +1468,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/1ytGlf3PdlBedG27Td24tbD7WTRqWMMRXilmnzfTh8I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yRTlDMzlDM0FBNzA0QjVBNTU3QjAwRUY/wMDExNzI0MjA0OTNDQ0RBQkYzRUJDNEUyM0U0RjREMkE4NDg0REVBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:british|99-for-gbp-new-potatoes-seasonal|1"
@@ -1490,32 +1490,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/vN-n3oAHcYBtkLove7bw9PBPfvAjaJjTkZYqy0N30oM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zOEVFOUY5NDYwMTVCQjhERkU5NzNEMUE/yRjM2N0ZERTJBNzVBMjU3RTRFODg0REY3QjI0QTg0RTRDNUQ5NzVFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:sweet|99-for-fries-gbp-potato|1"
   },
   {
-    "id": "lidl-uk-8109573725e3",
-    "canonicalName": "light 69 for gbp mayonnaise",
-    "productName": "Light Mayonnaise For Gbp 2.69",
+    "id": "lidl-uk-1ef6179263b6",
+    "canonicalName": "light 95 for gbp mayonnaise",
+    "productName": "Light Mayonnaise For Gbp 0.95",
     "brand": "light",
     "store": "Lidl",
     "packageSize": "1 stuk",
     "weightInGrams": 1,
-    "originalPrice": 2.69,
-    "effectivePrice": 2.69,
-    "unitPrice": 2690,
-    "effectiveUnitPrice": 2690,
+    "originalPrice": 0.95,
+    "effectivePrice": 0.95,
+    "unitPrice": 949.9999999999999,
+    "effectiveUnitPrice": 949.9999999999999,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/DViOkz7ynR6E4w0O_vt38Trq81ZPJa6fbraCt40ob4Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85OEQwODU2RDJCNTY4QzQ4NkUzODhDMTd/EMEI1MkJGNjhFM0VFRDU0OEU5RjBDNTE0QTE4NzczNzA2RTIxMjIzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/wijePIgy8PtHSqC33cdQes0isvLNUxIUHdpIPSWYdPw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNUNCNDFERTVEMzhGNjMxNDkzRUNBQzM/wMDkxMTNBQ0FCRTQ4M0M4OTBCMDhGNzdCMjM1RjdEN0Y3NzQyNUJGLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
-    "identityKey": "tok:light|69-for-gbp-mayonnaise|1"
+    "identityKey": "tok:light|95-for-gbp-mayonnaise|1"
   },
   {
     "id": "lidl-uk-0fad3341165e",
@@ -1534,7 +1534,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/n1XFHqLCfdyifFnECv1IhNyZpLVtheixIL5XYWx5SDs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82M0E3NjZFMDU4N0I2N0EzNjBERTEyQkV/CMDA1OEI0OEI3RkI3MTU2QURENjlFOEE4ODU3OTYzMTBGNUMxRUQ4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|39-99-for-microwave|1"
@@ -1556,32 +1556,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/6phfOsyXc5CaIJRaJLQHJtMYqbwLgZ74XNnfsz8Rc-A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84MzE2OUQxQTg1Q0QyQTYyOUU5RTk4OTA/zNkY3QjBCQ0MwRTE4NUJBRTI1NDI1MTU0OTJFQzg0Mzg2MEU2OTVDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.796Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|39-99-for-microwave|1"
-  },
-  {
-    "id": "lidl-uk-d76b6bfefc36",
-    "canonicalName": "pierogi 49 and for gbp potato quark with",
-    "productName": "Pierogi With Quark And Potato For Gbp 1.49",
-    "brand": "pierogi",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 1.49,
-    "effectivePrice": 1.49,
-    "unitPrice": 1490,
-    "effectiveUnitPrice": 1490,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/C57Wwd2jCz8S10SK4D4CdWBqBt2j2VT_fxrmGjodmDA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNUE0MUI2RDE0QzNCODAxOTRDNkEzODA/4MTFBNTgzN0RFQkNDRTM1RTJEQzQ5RDVDRDI1QTBCRjJBOUE1MEYzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:pierogi|49-and-for-gbp-potato-quark-with|1"
   },
   {
     "id": "lidl-uk-5dc6462f77da",
@@ -1600,7 +1578,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/lM5R2EWfSMlmrZenLY3Hlt4SstpsQ3GCCMD5tWQu4kQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FRUI5RjY4RUIxN0M2OTA4MDg4OEE2MTh/FMDdDNkExOUU0QkRBRDE0MUMwRThFN0Q5N0Q2MUMyQjIzMTg2NTFCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:emperor|15-british-for-tomatoes-vine|1"
@@ -1622,7 +1600,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/XQHSsm7bbUe3sN5vu9PXD5KKVH-1zX5We2qWGMNbfo0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ENkNGMjE4N0YyOTlDMEIyQTNCMzlERDN/FNTJBODNBRUMxNUQ2NTdBRkNBQjlGNjE1MTZBMEJCREMyMkY1MEZFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:tomato|89-for-gbp-ketchup|1"
@@ -1644,7 +1622,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/IMJU4MaAbeZPTkxwMr2f1LpPHOjfojuf5hA8HY16arY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80Q0E5NkM1RkY1QUY5MUREQzg0NzU3OUZ/FNjYxNzJEQjAwRDdDMzQwQkFBOEZGNTY3RTcwQ0FGQ0ZCMTlCQjA5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:tomato|15-for-gbp-ketchup|1"
@@ -1666,7 +1644,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/tIrVK-RU2bgRs7fuOH2kNhQKi45Og5JWwZx_ZOfje8E/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81MEY5Q0Q0NjQ1MkIyRTZDQkY1RDYxQUQ/0ODFDNkUwQjg5QTdGOTQwNERDMjUxM0Q5MzBDOTY4OUY0NTI5RUUwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:tomato|15-for-gbp-ketchup-reduced-sugar|1"
@@ -1688,7 +1666,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/jKZaDiuvpGUD49xmZs0TmBHI7In8OEHsOir9vGTFHHc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zRTk5OTdEMzc2MEUxNDhGMTcwQUREQ0V/GODVFRjBDREEwNkRCMzUzNTMzRTY5QjAzRDExN0YxRTk4NUJBRkRFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cooked|99-beans-for-gbp-in-pork-sauce-tomato-with|1"
@@ -1710,7 +1688,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/YV9ZQDtzYO4PGqgMC8asJLQP6HQedqaFVXI6Xu_duY4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81RTJEMUM3N0Q4RjNFRUZBNTA3OTY5RTF/BMDVDMzIwQThGNDk4MzE2NURCREVBNjg1MEY5RDZCMUVBOUVFQ0MzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|49-assorted-for-gbp-tortelloni|1"
@@ -1732,7 +1710,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/lUr-thLIT99m-7Gk47dQkmErp1wiGNZa0azf5vicew8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EREY0NzA3RTI4OThCNjk2RUE5Q0U3NUI/4ODg4NjMwRUQ0REZCQzA1ODlDMERFRUMzRkQwNThDNUJCNjgxMDZGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:crispy|49-for-fried-gbp-onions|1"
@@ -1754,7 +1732,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/_Nv_ONi7DYGSiDzUVy70u1bOXhE3aaIyHy5XU4bFBdU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81Qzg1MTRBQjE5NzY2NDNGOEJEMTA5Nzg/4RjhDMzc0MzlCQzc3MTMxMzkwRTlDQTJGMzlFOEQ4MjhCMTJEMTk1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|29-and-for-gbp-gherkins-onions-silverskin|1"
@@ -1776,7 +1754,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/hDqofLMyQBS63WfZ6jgxSiKYcroKHo14P1aZ53zuexI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82NjlGMEYxQzM3NzIyMTIxM0M3RjUxMEM/yQjc3QkQ4QTA5MzFFQzY5NTMzNUFDNjYyMUE1MzEyQzlERjlENUMyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|89-crispy-for-fried-gbp-onions|1"
@@ -1798,7 +1776,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/OqQGCZKlqFqjdQ9PfWAsior9vb0yWdVcg5CBGkYJX38/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80Q0Y1RkUwMDExODE2NEFBQjVBMzk1Qjc/3M0VFQUFGRUVFMDU2RjNBRjQyOUI0MjJGQzVDNUIxMDYwNDgzMjk4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:spiced|29-for-gbp-ketchup|1"
@@ -1820,7 +1798,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/lJJTY6GSfkLiOuri8qLD1GZ3-DhHQne_y2L7Ncj7NFg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EMzcwMjE2MURBOThCODdEQzQyNEUwMDE/2RTAxMkU3Mjc2MUREMkU0RDdBQTJENzBDN0E5Mzc2NTAzNENGMTlELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:herring|25-assorted-for-gbp|1"
@@ -1842,7 +1820,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/PzsBmTi6544hVTm069PQmSc2-VTPp8RVVnntDX6OM_I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QTU5ODhCNTgxRjY0OTRBQjk0MjE0RUM/5RUY1QUYwQzcyOEIzMTM1ODEwNjBGRjQ5RDBCNTcyQTc1NDhBRjc2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:chorizo|89-crisps-for-gbp|1"
@@ -1864,7 +1842,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/n4XQ06W-kpwLYiw6EQ7g-Qn0okUoZnP_JX-TtUcsn58/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CREY0ODQ0MEQwMTEzN0U5NTcxNEM0NzE/0MEM2N0QzNDE5MTdDMEJBNEMyQ0FBNzk4Q0VCMEE2MzRFMTAwQjkyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:vegetable|49-cabbage-for-gbp-salad-white-with|1"
@@ -1886,7 +1864,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/QA2MMflvIX90NNC0-Jq73Qg7lvprU9KYLFC2S1ckUOM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FMTZEMUNEMjMxMzUyNzlDQUNBNkZEQUJ/CNzQ3RDQyODI2RUQ2Q0I4NURGMjY2MzJFN0U4Mzc4MTg0OEEyQzBDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:beetroot|69-for-gbp-salad|1"
@@ -1908,7 +1886,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/GcdqCqcpOfp3TLpeVD3X3xfmEWw9ctnPbGUg2EyDVzk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CMEE3NENBRDQ0NkNFQzEyQzdBQ0FGOTN/CNDUwQjVBRDQ3RUU4Mjk2QjMwODA1RUEwQjIwRkFDRjg1MDY1M0EzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:sauerkraut|49-for-gbp|1"
@@ -1929,8 +1907,8 @@
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/my6i_e8rDZZlVsbEcH33he5qGbV8c-ULTAmRhKYzWQg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85QTMxN0RGMUM0RTkxRDIzRDE5NkVENkN/CM0ZCQzJCQUQwNjMyMkUyQjMzQ0U3QTgzRDJDRUJBMTc1QzVFNkZBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/aIFhemPWIDFNnCI_g-DvjpJiWJUKVuVJd6TrcbrXkQ8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQ0JCNzYyOTgzQ0JDRTNBQjM3RDExQUF/CNDAwQ0NCNjc4NDIyNzUxNThBNEYyMTJDMzczM0REOTY0OTBBMTNFLnBuZw.png",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:vegetable|27-crisps-for|1"
@@ -1952,7 +1930,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/A6N_T8nmS6D1m19uiiVyMtSnPlC9vDMB-pJT2pSvIUs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81NTU5QTU3RjA3MzAzMkUzNDU1Rjk5OUR/GRDM2QjA5NUI3NDMwRjI4RjIzQzEzOTE0M0E3NzVBRDRGNThCRDM3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:ripe|69-and-avocado-for-large-ready|1"
@@ -1974,7 +1952,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/dn3ueq-bNk5KsYW9ckJgQg1TCT4wjiAh5Y0SJjhfNcw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRTQ4QzAzRjU0RENBNjFDNUJFMjRFRjN/GMTVFNEIwQkRGMThBMkQ2QTIyQkQ0QUFBNzEzMzU2MjgwMkREQ0MzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:churros|69-for|1"
@@ -1996,7 +1974,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/fBpIRCK2oc56aC5zkBhdgne63kRDUbV_j8u1XE_xoPA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yMDcyMjBENzRDNDAyMDVCMjYzMUYyOER/ENkZGM0FBMDIwNjZGMDM2MzRCMTUwMDYyNDREQ0I3RjkxOUNDMDJELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:lemon|49-for-gbp-sorbet-tub|1"
@@ -2018,7 +1996,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/q1JMSAZDGN2iGoMxBNIhSDDU3JdrYSvIpGwxnF-M_MA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85Nzk0QzZFQjYyRDE3OUQzNjNCOEE4QUQ/4OThGM0YzM0RERjcwQURCRUVCQUQ4RUQ1RDZEQjNEMUQ1M0E2Qjk3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mixed|49-for-gbp-grapes|1"
@@ -2040,7 +2018,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/-vGMv7HeOnNtFsIFU4xvxvVRHMJ7Z2kRMvo8L9Qj1rA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GRTEwOUQ5NjY4MkQ5QjBEOTlDMkVFQTd/GMUI2RTE4QzBFODM4MEQwNjA4QkJENTY3NjhFODEzQzJCRDAyQUE4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:syrup|75-assorted-for-gbp|1"
@@ -2062,7 +2040,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/L0WkQ5L--bd8PK6zcAsRGQAaeaOXR0IEqKmaRg-NJrg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zMkE0MUM5QUYzNUI2QTcwNTY4MDkwNDd/GMEMwODhGQjdCNzM2MTNDNzJGRkE4Mjk2QzdDQzg1RUY2N0JENkNDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cajun|95-chicken-for-gbp-sizzle-steaks-style|1"
@@ -2084,7 +2062,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/NVO04sUhwAfkganCpvQfBFqnz2gp-y5Q-vvzKyttoVA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83N0UxRUY1OUExRkQwNjExN0VBRDlGNDJ/EQzc3NUNDNjA5NzQ2OUYwMENEMUU4MTk4MjM0NEZFM0M5NDQ2MDNCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:chicken|99-for-gbp-kabanossi-pork-with|1"
@@ -2106,7 +2084,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/UNi7pPiFuf0k_t4nzMMLN9f2GXnHWB46vsxEnma5RZc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wREM5RjJBMkYyQTg3NzNCMjFEOUYzNDQ/3NUU2OTFBNTg3MTJEMDFDNjFCMkY4QkYzMTdDRTRBRUI0NzQ2NjdCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|79-buffalo-chicken-for-gbp-pulled-sauce-with|1"
@@ -2128,7 +2106,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/7-ZDtG8Y_LmpOozC59qFXPd2vFzHBp4XYTGp91cC25o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82QzczNEJERDEwQTczNTY0OTRBNkFGNkM/yMDVDNDBGRUMwRDcwNTMxODlDOUUzNDhBRDdFNkYxN0U1M0M5RkU3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:slow|49-chicken-chorizo-cooked-for-gbp-pulled|1"
@@ -2150,7 +2128,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/8-7yl55b1nx48hA77CSCJFk8kctgfj5xg0DZh6JkqqE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81OENBNjhEMTVDOEJFMTY0OTBBOUEwMjc/zRjNBQkFDNDcwNzRGMzE5NzkyNzQzQUQ5MkU3QkNCODE4RkNBMjc1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:gressingham|49-duck-for-gbp-legs|1"
@@ -2172,32 +2150,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/goqJ_PBAMeLh39v5tvXKGFr6dDEe8bERCM0PIN2RXIw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82REQwRTE1N0UyRjg3MjVBNkY3MkFBMjJ/CMjRDRTE4NkU4QjExMEM1NjQ4RjFCREU1NTBCRjI5NDhFOEE2MzM0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:lick|99-for-gbp-mat|1"
-  },
-  {
-    "id": "lidl-uk-421573f5d517",
-    "canonicalName": "mini 99 chorizo for gbp",
-    "productName": "Mini Chorizo For Gbp 1.99",
-    "brand": "mini",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 1.99,
-    "effectivePrice": 1.99,
-    "unitPrice": 1990,
-    "effectiveUnitPrice": 1990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/jEVcvROQQTbbPvNKPOsc4UGawP0iffKDRFneR6omyyw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xRTQ1RTlDQ0Y0QTk4OUU5QkU4NUU5RTg/yRkRCNzlBOEI0NDk5M0VFN0RFRTYzRUUxNURDREY4QjI2QjJBNTBGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:mini|99-chorizo-for-gbp|1"
   },
   {
     "id": "lidl-uk-2a5267e3e9db",
@@ -2216,7 +2172,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/78WVieYiIIHsb-UwiCo-ZKvsjLZvFirzgfbAosAflg0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84QjM3NzE1OTQ3RTM2MTk2MTlBODIyOTF/FRTUwNUFBRjNCNTU1MzJGQkJCM0E2MERCN0FCN0YyNDEyMTBCNzQyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|99-cake-for-gbp-springform-tin|1"
@@ -2238,10 +2194,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/s3G0InNIebvdmZ0rnN0QANge4O9T7wUo8nM4iHUJDg8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EOTI2MDFCNzhCOTYzRjU1MzNFNURFMkQ/4MjgyRkQxNzVEMUM5RDQ2Mzk2ODgzMTcyMEVCMUU1MjdCNjUyMDg1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|17-99-chopper-for-gbp-mini|1"
+  },
+  {
+    "id": "lidl-uk-421573f5d517",
+    "canonicalName": "mini 99 chorizo for gbp",
+    "productName": "Mini Chorizo For Gbp 1.99",
+    "brand": "mini",
+    "store": "Lidl",
+    "packageSize": "1 stuk",
+    "weightInGrams": 1,
+    "originalPrice": 1.99,
+    "effectivePrice": 1.99,
+    "unitPrice": 1990,
+    "effectiveUnitPrice": 1990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/jEVcvROQQTbbPvNKPOsc4UGawP0iffKDRFneR6omyyw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xRTQ1RTlDQ0Y0QTk4OUU5QkU4NUU5RTg/yRkRCNzlBOEI0NDk5M0VFN0RFRTYzRUUxNURDREY4QjI2QjJBNTBGLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:mini|99-chorizo-for-gbp|1"
   },
   {
     "id": "lidl-uk-650816191b46",
@@ -2260,7 +2238,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/_ROEYTHTgJDprHScM3ObPt65RQfLOWHlA8ivSp9uCwY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zM0IxM0FGNTI5OEFGRUMyOEFCREJGN0U/5MzM2QjQ0RkQwMzI0QThGRjZDQkI5NTdCRDMxMzZBOUE5MkVDRjQwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mini|99-for-fuet-gbp|1"
@@ -2282,7 +2260,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/qxfCB65jEF7aDg8sDDcCLvK7jO7J7ftxZouLbVX1DpQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82OTEzMDA0NENCRjYwOEYyRDc3Q0E4Rjh/FNjkyMzQ1NUZEQzM3NEI1NjdFMjI5MDNBQkE3NTRGMTBFN0M0Q0Y0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:maple|65-belly-for-gbp-pork-slices|1"
@@ -2304,7 +2282,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/xC6xVu7sfOv1BmC6rZKWd87TztoymnmmXIvvb4zULTo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84RENBNUExRjZDQjdBOTVDMUJDQUQ1NTg/yQjAzREE0NkU5Q0U0RUEwRTgyQkQxOTZGRDIwQzM2QUFDNDUxODAyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|17-99-for-gbp-sirloin-steaks|1"
@@ -2326,7 +2304,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MF1qS83jn7gGQgENtigu5noOQqaFH1sNGrq6g5IwiXA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BM0M4MEVDNUVCQkFEOUIyRUMzRjU5NjM/wOTcwMzk0QjZGQjE0NkFGRjVDNEFBQ0REQTE3NUJENDEwNUNDODgwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-and-bacon-cheese-cones-flavour-for|1"
@@ -2348,7 +2326,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/s8FM2pPLJw4xi2uEsgFdyM08oROUrUBeZAWhnvrPg5g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83RjU3QTRGODgwQ0NEMzQxNERDRTlGNEY/zQTFBRTVDNzk2MDMyNTFCOUE0RERFQTMwMUMwRUY2NDMwRDVCRjFGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:smoked|49-for-gbp-ham|1"
@@ -2370,7 +2348,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/zJ2PFWWAsCvTsXDGEs6d8sXDgFEpXL7np3g7GmhFSNI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80NDRDMDVCN0UwMUMxQzE2QkIwNjMwQ0Z/BM0E5RjVENzU4REUyMDRDODY4MTYwQTA5NjkwNDc0N0YyRDU4MTY2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.433Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:gammon|49-for-gbp-ham|1"
@@ -2392,7 +2370,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/xDsP_WEBoqsNli45N1MBPbaEy-en0eCVyaWGPqiAvvU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xMEQ3QjhGNzcwMTEzRjExQkEwNERDNjQ/wRjA0QkU0OUQ2MzFDODg4NjZFQkIyREMzMkM3MzE5N0E5NUVCRTVDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:boerewors|49-for-gbp|1"
@@ -2414,7 +2392,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Q2DdBGWXQL69Y1iNueov0ooe1rhAK5AGMJ1Dd57zF7o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xQkE0RUQwNTdFMDAzQUQxODY1MjUyQTZ/FQTQ0QUI5NUUyM0EzNzFEOThGNjlCMENDQTU2N0E1QjYzMDM0RTI0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cooked|25-and-cured-for-gbp-ham-hock|1"
@@ -2436,7 +2414,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/6MpvwzbJYXh4vyD-LRaa6g6z_FP53M5t5wfLf8mWSH8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GNUY2MDYwREQzNTFFODRDOTNGRTRDQTE/2NEVGN0IzQjVDMjIyRDJDOTI4Rjk4NDRDQkU1NTNERjQwMjc4M0IzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pierogi|49-and-bacon-for-gbp-sauerkraut-with|1"
@@ -2458,7 +2436,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/S2JmHhaBR3ggIkKr5xMTxU_x16a2vX0w9tQKvA9oHyE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82RDEyRDM2Qzg0RUYxREM3Rjg1MTYzQjE/2RjZBQzdEQTdFQ0M1MDI3Qzc0QzY4RURDMjIyOTI1RjFEMEVBQzc2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:frankfurters|99-for-gbp|1"
@@ -2480,7 +2458,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/p4mtU2NAjuMZjyGqR3bV1IHe4o2hjcxDnDKJJyPkxrU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wNjlGOEMwQTY0Q0VGRUQ3RDVERDY5NjF/EMEI0OTE0Mjk0QUM5RTNGQTA1NDBDQTQzMjUyRDNFNjMzNDYyNEIxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:meat|99-assorted-for-gbp-loaf|1"
@@ -2502,7 +2480,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/eZ56KKY8cB1OrrE-UBwHcdp-pDW2u59ZXfqicUdjG6c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80NjkxNzJEQzVFMTkxMDU1OERENTZCOTd/DNzg2Qzc1MThFODRDNzlFQzcyNkREMkVGMkUxMEY5QTIwOTZEQ0M0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.797Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pancetta|89-crisps-for-gbp|1"
@@ -2524,7 +2502,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/X0mOIVqRrfqfpESd7q0Sf4Ey46Lt9MVCtFRR1qzfgTA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85QjE3RjY3MDFCNjg5QTQ4Njg1QzQ5RDk/0MzgxOTBCQ0E3N0ZBMzFCRTAwMkE3MjBFQTRGRUE5MDQyQzA0NUNBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:linconshire|79-british-for-gbp-pack-sausages|na"
@@ -2546,7 +2524,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/dJH3akoP-R6I3jwMan7nuf4AWtxQGkNftWO_ITNOvmg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CRjdDMzUzQjY5MzdFNDVCNjRDNDI3OUM/wQTgyMjVFQzU1QTNCNDJFRTFCMjdFNTJEMzZGRjE5NkFDMzU4OTNBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:british|49-for-gbp-pork-sausages|1"
@@ -2568,7 +2546,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/NSzglG6XCl_s-HQU6d9H3NzdafMMnJ49xW3hAHktobI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80NzY4NjM1MzZERjRENDNDMTU4MDAwN0F/FODAwNEY5RjhEOUZEMTY5NEY5RTdFNkQ1QzdBM0UwRkU3NDBDMDQwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:british|49-chorizo-for-gbp-pork-sausages-style|1"
@@ -2590,7 +2568,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/XG94-QutR328xZjZyuXAKvjY3RY016CFbbZCZTOXAQY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QTg0RDUyRThDOTNEMTk2MUI5NDg0Mjk/3MTkxRjMwMTRDNEZCRUY5RUQzODIzQzgyRUQ2QzIzNTY2NjdDNzlDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:scottish|49-black-for-gbp-pepper-pork-sausages|1"
@@ -2612,7 +2590,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/CZsIgZmcZp_2YZJtLDnze5H-5ZYmXBYWpkZdozDIBb8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DMEY5MTU0NUVGMEU4NENCNkYxRDkyMDM/1OTYyNjIzOTVENTI4RkM0REFCQTQ1ODdFRjQ3QUNGOTZCRkZFNzFGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plant|99-for-gbp-sausages-veggie|1"
@@ -2634,7 +2612,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/0yWu_auU7vYD9bLMu0GeAEpC8PcG_vINS5FYbI9llHg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FODI2OUFENDc2N0FGRDAzM0VFMUM3RDF/ENDQyNTc5ODFFMzIzODMzQjc4MjIxRjM5RTQ3NkNCRERBMjk5RDZBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:plant|99-cumberland-for-gbp-sausages|1"
@@ -2656,7 +2634,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/daQwHJjdkgLGEOMFvfYGF_74akYJtQU2HPMoiz77ytU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FQTZCOUREOTc0NDhDRjIzRDNGMUZGMTI/3RjhEOTQ0NjRCN0U2MTVDRDUwMzhEODYzMjcxM0EzOUQzRDVEODU3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:cooked|99-assorted-for-gbp-sausage-xxl|1"
@@ -2678,7 +2656,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MPfe94wTrfCsg5chsooUqqVv7J07suPX8OlKhwn02N8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zMzdEMjYwN0I2MzFCNTlFRTVBRTRFRDV/ERjRERTRERjgyODBEOEZBRkQ2RDUxRUJGODNBRTBGQTU0MDJBMzE5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:krakowstyle|99-assorted-for-gbp-krakow-sausage-slices-smoked-style|1"
@@ -2700,7 +2678,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Cec6a_w0PV3q-IAICISnnj13iWOsQI_ObrADdru0gFo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FMENERjc4NDlGRjQ2QUUyRkNDQUMxQkN/FRjQ5MTFDNEQ3OTIxNjNGRkRDQzZBNUE1M0FDMDYzODFDNzZFNDBGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:coarse|99-for-gbp-sausage-silesian|1"
@@ -2722,7 +2700,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/_Dhe8d0dypl3aIiJ0f2TNDcVfNOn0ISRJ2GRQ99DkSw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84QTFBRTc0NkQwMzVDOUM5Qjg2QTI4MEE/yN0M0NDJGRUIwMkQ2MjdGNjU4ODRENUQ1Q0E4ODc2NjA2MDczNDA1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:moravian|49-assorted-for-gbp-sausage|1"
@@ -2744,7 +2722,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/1TtRIGKz8ugI_ha8yewqA7C57BJuL7_s2bLg2jqmlEo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xREM4OEQyOURGQTdENDAwMDk3M0EzQzh/ENDBEMDlFN0U3QTdBMjQ1M0I3MjFBMTFCNDY1NDAxRkE2QTk3QURDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:saucisson|99-for-gbp-sec|1"
@@ -2766,7 +2744,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ctjJAnu2ZIRK3xgEkvl7I-Ctp3TX8QoLQst_DVCSPPU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82NUZGRDgyN0NGNEQ4NTBGNzRBNEQzNDg/2MDZENDRFRDI3ODAxOTYzRUFCRjU2Qjg0OTU1MDc3ODk4QjJGMUMxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:salami|99-for-gbp-snacking-sticks|1"
@@ -2788,7 +2766,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/owc8futrxWp4eu0gCITS37J6DluoReVE7qULc1gRwKc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNTFENzc1QTQxMkE3ODkzNTBENjU4OEZ/CNkNDMUY2ODZCRjU3MjJDM0Y5OEE1M0QwMDVDMUQ1MDUyN0ZCQjhCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:spicy|99-for-gbp-salami-snacking-sticks|1"
@@ -2810,7 +2788,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/UHG6Qu2Z4cx6PhqMzqO9y_JHrkhuaG_5DcWiFTnOLx8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FNEZGQTE0Q0ZGM0JFNjgxMDg4MzI3QjA/4RDk4OEMzNDMyQjA1MTUxNUNCRDgwM0MxNUE2RjNCRDlCNkU0QkU1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:salami|79-bites-for-gbp|1"
@@ -2832,7 +2810,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/CF9NJnM8Y6u4SHW4pBBsCUhnLsJqPPZ28DvIcSjZZlw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNDAyMEYzQUY3NzJCNUQ2RDZCMTMyNTE/zNzkyQjFGRkVDNzZDMTE3RjQ5OTJBN0ZCOTQ3RTVBMjU1OEFGRUQxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:serrano|99-for-gbp-ham-slices|1"
@@ -2854,7 +2832,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/dCUTwiuubc0NXDCa_TuideciyMmG8qOOMg7q_Kt2iBI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRUMzN0NGN0Y1OTMwNkRDQ0Y1RkM5ODA/1QUUzNDNBQjFCQTkzRDA4QjRGQUE4MzVGOTBCNzBENDQ0RTg0NThDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:iberico|99-chorizo-for-gbp-slices|1"
@@ -2876,7 +2854,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ntHIhokJacroXXcslff6-ZjyDz79DCcny28fIJYojAg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QkYxQTAzMUVCQjY2QTJFNDRBRTc0RUQ/0MEJDODk0OEJBQzZBRTM4MzU2NjQ0NTEyRjhEMDFDMDdDNjZCRTdCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:serrano|89-crisps-for-gbp-ham|1"
@@ -2898,7 +2876,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Cnj9GTmSBRmS7ls1qR3Nf9BuRzba4dZxSmEEsHbxSVA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yMjIwQ0M4NzlEQzUxNjM3NzdBRUIyNUM/3NkYyMTVDNTJEMkJDRDQ5RTMxNjEzMzkzNTVFMjAyMDg3REU0NzQ3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:paprika|49-for-gbp-salami-smoked|1"
@@ -2920,7 +2898,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/EY9OND66fNrDxAI54yUoxvUoWp-VgZBoBR8OvkqYdYk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82QkYyMkRFMTUwNTdGNjAwRTMxQURDMzF/FNkU5RUZFNzM4RkI1NDUwN0ZEQzdDRUMxQTdCRDk4N0ZGNUVBMUQ3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-assorted-for-gbp-meatballs|1"
@@ -2942,7 +2920,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/2LWtfx2C4ZnbvpipH7vu4WWGS5jWbsR4FrPCT7Un624/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ENzg4NDEzMUM0REREOUM2MDEzOTcyRjI/0NEVCQzQ0QzYxODM3MTQ4RTY2NUMxQThDNDU3Qzg4RjRGQTUxNUFDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|49-black-for-forest-gbp-ham|1"
@@ -2964,7 +2942,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/48SSdcSogMyLL9IsIEjvNTOqPpbOLwyWHJVNz-TbnhA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84MkM3NTQwQjg3MTFEOTkzODVDMTg5MUI/yNzUwQjFBMTU2QTY3NEY5NTg0RjRCMUVBNTBGMjU3RkZGNEUyODgyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-bolgona-for-gbp-igp-mortadella|1"
@@ -2986,7 +2964,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/mzPLBYJEXWfUgKAMGLy3C5nngeMJesK7kjMIUmjnIfQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80Q0EzNTcxODFFM0Y3QkY5NUIzQTZFMjZ/CN0EyNzUzNzNGNDQ5OEIwRDQxQUFFRERGMzgwRDM5Q0RENEMyOEQ5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-cotto-for-gbp-prosciutto|1"
@@ -3008,7 +2986,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/FSbA32TXuWRKheZUpRqwTbu2s9A3RodAk2SDZ9ffTpY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GNzNEM0Q3RTlERTVBRjM5QjUyNjY3NEM/wNTZGODZENTM4QzU5MjQxQzY1NDYxNTJCRUEwQzEwMjk3MUNDOTA3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:select|99-and-chicken-for-gbp-go-satay-skewers-xxl|1"
@@ -3030,7 +3008,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/tsQ7bG8Bj9L2Q-qSFeBL0J-XHTZcCSQKjj_vTwEJMuw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80MzM2MDI3MEIyMTUyOUYxRDJEQUZCQjA/zQTBGMDlBMkM5MUI3MDgwOTVFQzQ3NjYxNzJCMzA4NEQ3NDU5NjZDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:slow|99-bbq-bourbon-cooked-for-gbp-pork-rack-rib|1"
@@ -3052,7 +3030,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/M_1tyQ1H1eFZopNRwp1fYUBxdhO4kpFaYmpSgCfhRMU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNzdBNUU3RTI3NURGNzAzMDJENEFCMkM/0MzUxRkQ5RDZGQ0M0NjRBOTM1Rjg3RDgwQUQ2OTZCODNGRTFCQzkyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:spicy|79-bites-for-gbp-salami|1"
@@ -3074,7 +3052,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/_VpvtWe025V2Jo9IB-7PMrx2OGOJ2dLVPkENad-6P7E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FRENBMTAxNTE5MTFCODlCQkM3MzkyOTJ/FNTREQUEwMkJCQzkwQzQ0MjREREM4Rjk0NDhGQjQzQUY1QTc1RjNCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:msc|99-brine-fillets-for-gbp-herring-in|1"
@@ -3096,32 +3074,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Z9c925tcaeh-qGo1bXdnRJ8J2Bf9xAhfxVwyJwTBva8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GNEJBMzlCNjAwQ0IzRDU0N0U2Q0I2MUN/BOEM5MEUyQTNFQTNEOUUyOTc3MzU1NkZBRjRBQ0NBQTMwOEY3M0I5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:jumbo|29-cooked-for-gbp-king-peeled-prawns|1"
-  },
-  {
-    "id": "lidl-uk-cffde8d2f196",
-    "canonicalName": "instore and bakery cheese croissant for ham in store",
-    "productName": "In-store Bakery Ham And Cheese Croissant For 1",
-    "brand": "instore",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 1,
-    "effectivePrice": 1,
-    "unitPrice": 1000,
-    "effectiveUnitPrice": 1000,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/6Rtsf9YKCcoJ1904bePJzQlANjrkvmatpnxC0GQbY0A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QTE0RTUxRjk2MEY2MkMxRjVDRDNGMzh/BQzVFNDYyREEzQzYzREJENjIyM0YzNjJCQzkwMDlDMjNBNDc0NTk0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
-    "category": "Bakery",
-    "barcode": null,
-    "identityKey": "tok:instore|and-bakery-cheese-croissant-for-ham-in-store|1"
   },
   {
     "id": "lidl-uk-5e7c05516c17",
@@ -3140,7 +3096,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/39fr7E4Vyn1NCpgeNuXbWiBaNgIqaxAJ9E_qhroNjHE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wNDhCRUIyRDhFODI1MzBGQTI1MEYwMUZ/DQjE2N0ZGRTYyQTU1MDY4N0NEMzU0MzBDQ0UwOTU3N0RBQTRCNjEwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:serrano|49-for-gran-ham-reserva|1"
@@ -3162,7 +3118,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/W96K7uLs8KGFeUKRQoupb3225k08rCDqIC1C5YP46Po/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84MDdCQThCRTgxNzQ2QkJGMUY4OTAyMTQ/0MkRGQTc0M0E4MUVDMURGODE0Q0VDQjEzQkIyQUVENEE3NDY2MjFFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:premium|for-macaroni|1"
@@ -3184,7 +3140,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/fmbj6KKPQTe-ffBs30ACqq2p4ZrNDs6q24v8XWbU6UE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85RjNDQTM1MUVFNzEzMzVBQUZDODZGRkJ/GM0NCQ0ZBMUQ2MENCN0Q2ODk2OUZCMEU3RUMzRkVBN0RBRTZBNUE0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:microwave|99-cooker-for-gbp-pasta|1"
@@ -3206,7 +3162,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/YtmWpN0upSV-rVe7T6IPeMSAUdmszqQqYDnWVGySFRQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DMUE3NUZBMTYzRjc4OUE0RTY1MERDMEY/wQzVFQzg1RjUxM0IyNjJEOTdEOTQwMDdCRTc2NjlBODc3M0MxMzQxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:falafels|19-assorted-for|1"
@@ -3228,7 +3184,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/0kjxpFVp4gJ0viUxMPNbNlO_oVEu5dTT3C5Y6vxvCbo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wM0IzQjkyNjhBNkZDNUQxNTY3QThDQ0M/xQjA2MTJBRThBN0NBMzMwOTdDQzU4QUJCMTA3ODAxMzBDNEIwOTMxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|49-for-gbp-gnocchi|1"
@@ -3250,7 +3206,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/X8zh3eGyPnxUORHJl571di8cwbFDUWGldrqxpKSn7d8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FRTNFQTQ2QkRERkY1M0UyMjc4MzA5NUM/zNkZBQzA2M0ZDMTgzMzFGMTIwNDE3MTBFM0Q0RkEyMTBFOTRCREQ5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.434Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:spaghetti|99-for-gbp-spoon|1"
@@ -3272,7 +3228,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/bxQRzStpHju7oR7xqb-aK7fv8x83585udPUFlyYkC8E/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83QTZBNTFBOEIxMDA3QTJBNDM0MzJDQTl/CMDc4MkUwNzc5MEU0RDFBNTA2MzJERjRDOTYwNjBEOEYxNDY2RjQxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:allini|39-for-gbp-mini-prosecco-spumante|1"
@@ -3294,7 +3250,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/HWCEogis6NB3y3zm5awCAMs5TMRfteV-wqKjT95mnog/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQkQzOUJFQUE0RTREMDdCQUE4QTUwRjc/3MzU5RTFDNzEyMjdFQURCNkY1NjgyOTk0MzVGN0ZCN0E0Qzg3NDZDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:microwave|99-cooker-for-gbp-rice|1"
@@ -3316,7 +3272,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/i9EQ3kkgRXCjY3V4zADdSdsYaKy0IiGrUBE7K8BY5q0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DM0EwNjAzODMwRjVGQzY2ODVBNzk5RUV/FOTA3RURGNERBQkJBMEU0OEREMEUyNzYwMjI4RDQ0MEE1RThCQ0QwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|59-chilli-crackers-for-gbp-rice-sweet|1"
@@ -3338,7 +3294,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/mu3nmR0nyV0rAh15uuxrwqGnYbNhRlBCQf5mQYrea5s/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85MTFBNjBEQjRGNTc4NDNDRUE2OUUzQTJ/GN0I5NjVCNTEzMUZEMzU1N0M2QUUxNUQ1NTkxMDY2QjNFQTY3OTNGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:jammy|99-for-gbp-rose-wine|1"
@@ -3360,7 +3316,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/QgrW5pWH5sxRqRVNYT_JBuip_PLh9boECb_Zx7OvwlQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DODREMjM0N0VCQkIzMzRDREQyQzVENDU/4MUY1QUE5M0M3QzVGN0M3QjI3QTkwQzcyMzhFOEM5NjQ4QjhGNTI3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:allini|99-for-gbp-organic-prosecco-ros|1"
@@ -3382,7 +3338,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/hy-i6s7GbWlB9hhb5h3mbhBhZdPw-ZFzFLhK6Mz_zbQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ERTFBMUIzQjdDMjI4QjczMzkxNEQ0RTN/BRTU3M0M4RkRENzIyRTA2MjY4QjUxODBEQ0E0MUU2QjFCQ0I0QjE1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|99-coffee-electric-for-gbp-grinder|1"
@@ -3404,7 +3360,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MpcxqjrdSoWq9sdUcJ7XBrHKgTVwmDXr8N6TOeAxWBE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FRTYzREZGNDk1ODYwNDcxNzdFMTRFMkE/5RkFBRTI2MUJFNEE4ODg2M0EyMEY1ODRCODI0MjRBOTcwMDQwOTUwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|99-coffee-electric-for-gbp-grinder|1"
@@ -3426,7 +3382,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/uaTco0YnRxhmWlRicbbRikeXjJiFjnEzZvCqy4yCBZA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GOEI0MTg4M0ZGQzBDMUUwODU5RkQxMEE/xQ0Y4RDkzNDQxQzBDNDJBQUNGM0E4MjhGNjdDODNFREFBNTU0OEIyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:black|99-coffee-electric-for-gbp-grinder|1"
@@ -3448,7 +3404,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/82mDm8elnGSUxusE3ZR1fXtwEkbOCmqVKEZiANbgZ90/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ERTU2ODIwQjk2MTE0NUE1QjM4QTM2ODA/yNUJBN0IxRTA2MkNDMDEyMUQ2QkE5M0EwRjY4RjBDQTVBRjExNTFDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.798Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:honey|79-for-gbp-nuggets|1"
@@ -3470,7 +3426,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/5bG14I1NZx2J29jQXrn5PS0y3y0GBB9hgnaA_BQG7PE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84RUI5QjM2RUJCQ0ZFRDNCMkY5NTQ1NUU/5QzhGMEM5MzhBNkJCQjhGREZDOEY4NDA3NkQzQjRGMTRDQzQ0NkVELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:honey|79-cocoa-for-gbp-nuggets-with|1"
@@ -3492,7 +3448,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/zbzwpJmXVFVz0GwxeILRufIXri0XCQuqlxbJnTozOws/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNENBNTFCOUY5REVCMUEwRjQyMjk0OTA/0NDU2NjUxQkE5NzU2RTgzMEJDNEE4OTIwRjExM0NEOTcxRTE0OUJELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:candied|19-for-peanuts|1"
@@ -3514,7 +3470,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/3k82BvdHZnuTuuKe2Jb8PjnKW7o_5PxUDREhekJTp-Q/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BQjQwNzRFNzE2MzYyQUQwMDY4RTE3QTg/zNEQ0ODc1NDlBQjc5MzQ1RTBBRDFEM0Q1NEQyQjJCQTBBM0M3REE3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:red|69-for-gbp-peppers-pointed-sweet|1"
@@ -3536,7 +3492,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/mU3Jlh8EL5Dcsa2GeNq6yH0lEJe9c5_mEwQG0udNmMM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83N0QyRTY3MDFGODQ3RkE1MEYyOUM5NDU/wOENCRDQxNzlDRDcxNzNCQkIzRDMxRDc4MjU3RDQ2RjM4RjU3Njk2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|99-cake-fluted-for-gbp-round-tin|1"
@@ -3558,7 +3514,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/L8Wb0Ne_1MYavjP8VJ7ilqdg-6qDQNVueCJulnRCCRc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85QzY3MTlBQ0MyRkQxRUM3NDM5MkU2NDU/0MTVERjcxQ0RGOUE4M0E3NjAyRkYzMjRCQkZERTY3OTY3Q0NFMzUwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:fruit|100-99-assorted-for-gbp-jam|1"
@@ -3580,7 +3536,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/BZx0h1k27R26drcIt5xafSaa3LpIrkSWRJHrgKnSSEE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BMTdDRjM3MjVGQzZENzRCRTlDNjFBRDg/4REY5MEEyMjk3OUJFNzQyRjA2RkE5OTMwMkUzNUI3RjBEREY1RTlELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:crackers|for|1"
@@ -3602,7 +3558,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/LbUdJCigBHn4i-QWJ1wH90fD48KTWnkAKpAtUzwlijU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zNjFDN0I1N0JCMURGMjk2Nzc4NUY1OEE/0MjcxMkFCMDlBOUYyQUM5RjZEM0Y0NkU3QUQxODg4NkMxMUQzQUIyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:korean|99-belly-for-gbp-pork-slices|1"
@@ -3624,7 +3580,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/_T5TU-Deu_01DzTSnTUvzKfdoUvz6UY_yofy0R5LrAA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DOEYxMzM0Q0MzNTc0QjUwMDc2RUY4Q0V/GNDkzQjIzNDQ0NEVDNjZBMjA5ODBERUZCNjc2NjIxNzJFMTVCMkI0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-coffee-for-gbp-gold|1"
@@ -3646,7 +3602,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/BGp-BoiKhUj6bNAsPABY9KCU3aExo8m3bIFKv0OXKjg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wRDU1RDRCQTQxMzc4NTkzQjE3QTkyOUR/DNzUzMzc4QkQ5OTJGOEVEOTJDQ0M2NzAwNTJCQ0JGMDE1MTBGOThFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:gold|49-blend-coffee-for-ground|1"
@@ -3668,7 +3624,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/tym5uLgps1teQuP8O4UxtovSjNuoyzWEofwXyI92Ud0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ENzM4MDA1NjQ1MEVDQjRCNzYzRUQ3QjM/4OTI5MEQ5OUQ1RTEyNDI2RDhCQUIyRDM5RDYzMTc3QTM3MDQ4QUVCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|10-99-dark-espresso-extra-for-roast|1"
@@ -3690,7 +3646,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/mR2kU53RG1IrhYGLsFJSohvyQBH7vg9StGiqlJsEcsM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81RTYyNjk5QTc5QkUyMDgwMTI5NzA4Q0V/FMDY4RTY2NERFREJFNUE1OEEyMkRCRDU2MDE5QjlFNjhDQUUyNjhELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-caff-classico-crema-for|1"
@@ -3712,7 +3668,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/yOK0l15NpvzB9ws3-Wxd732vVsActk-JFPHT9xYoT38/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNDVGQkUxRjc3N0NCNzlFRjI2MzE1MkQ/zRDFFRjkxMzFBMUE0MUEwMjk3MzAxQzY4NjIwQjQ0NjgxRDBGRkMyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:marella|15-99-filter-for-gbp-jug-water|1"
@@ -3734,7 +3690,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/14xCthA8cCxQRsmEopaL4iZM5KDJmNyoQ95kP5jpt_U/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85OTFEMjE2QTQ4REJGRUNCODc1RDM3RTd/FQzg0OTcyQ0U2RTYyQUUwNEFBOTRGREM2MjA0QzZERjQwMjk4MTM3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:gabbys|99-bag-character-dollhouse-for-gabby-gbp-lunch|1"
@@ -3756,7 +3712,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/d2oyl2aK9t2bsQoKqvCqCWhCwxNAem2kUHCK5T3fTdA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wRjQxNkI0QkU4MUE1M0ZGRDFGMzE5NDh/BNjE5RUYyMEQ4MzlCNkYyMUQ5NTkwOTJFN0VEQ0NDMzAzMzRBOTIwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:stitch|99-bag-character-for-gbp-lunch|1"
@@ -3778,7 +3734,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/5nHIyYbKoJmy_AJ2_fMDr2rE-23KCswUzlq1VKsQ0xk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FMTcxREQ4ODMzODIxMDFBNjc2QzY1M0E/yQzhDOENGOTM5RjA0MkIzQzRENEMzQjFCMDhEQkE0RUFDODc0RTEyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:frozen|99-bag-character-for-gbp-lunch|1"
@@ -3800,7 +3756,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/xl4hkHTYAn0HKHpL1lrjG7RJn7qw9dU88aY2VlnAirk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FNzU2NEI3ODJDRTk3REY4REU2RUU0NkU/4QkM0QzY3QjJBNjU5Q0IyMjYyOTMyOEUyRkEwRkZFNDcyRTlCODg0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pet|99-bowl-for-gbp|1"
@@ -3822,7 +3778,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/l_0XsbQd9lWxkx5LBLCN3dicKEcr0h7IrtTSM9w4YHU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CQTRDNzMwREZCRTUwMkJBNzdCQzBBMjA/5RkIwMDI3NzU1RTlDRDg4MTBGOEU5MjU3Qzc0NEZCMkU2MjBENEZFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mango|45-drink-energy-for-gbp-yuzu|1"
@@ -3844,7 +3800,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/wndEfbddDGLxG_PLdQjfRzAFjoIN4wpQiITVnPim4F0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82QjQ4NzdCQTk0QUY0NDZEN0IwOTE4RjA/xRUI0OUE3NDUxRDkxMTZFQTI4Q0NGRjdDRDIwRkIwRjBCOEVBMDNCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:washing|49-for-liquid-up|1"
@@ -3866,7 +3822,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/JoS0IiC7gg3CkpdvvlFfjM_0bev6Huix2R5yUD4ZUaM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BQ0E0RTRCOTNBQTYwQzE2QUJDN0FDMzc/yREMxOTI5Q0ZDRkI2OEM4NzNDMzkxMzQwNTE0NkRBRDIxNzUxN0NFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cola|49-can-drink-for-gbp-ready-rum-to|1"
@@ -3888,7 +3844,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/CbtZVfQjwCwTnQEWDF8tkB8zijyeA1raPeAR4J6U2Ms/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83RTVDNTcyNzcyQjRGMTUxMEQ1OTU2MkZ/DQ0E0MjUyQ0RCNEZFNjNERTU3QTYzNkVDMENFOURENTUxRDQ2NjZELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cola|09-bottle-for-gbp-lollies-pack|na"
@@ -3910,7 +3866,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MdtX7SXgX3jRzNElZ57eX9RQ6pRdVkkDQ04jbMPDPkE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80RUUyMjE1MjVFOEE5MjEzODQ2QjJGOUJ/DNERFOTNBRjMyM0Y3Q0VBODg5QkUxQUE1MENBQTAzQjg1N0M0NjIzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cola|09-and-cherry-for-gbp-lollies-pack-sour|na"
@@ -3932,7 +3888,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/rvoiQJWMMq2AQkovlBGq6t20xODFyZWfDp_nDx7fGKA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yMjQxNUNEMEFDMjdCMDcyNTU0MDk1NkI/yRTgxQzUxRjQzMTEwREEyNTI4RDM3MDdCNzg4RDBFM0QyNkNCQkM3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pina|95-can-colada-drink-for-gbp-ready-to|1"
@@ -3954,7 +3910,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/TwElOTCYzT7f4tLvnLnr4REsiRS9IUdKfSW8Rb8dTdk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81QzQ5RDY0NzQxNEJFNzEyODRCMDM2QzY/wQ0ZCODlGMDNBMEE0QjVDQ0RCNTA3MDVDRDk1Qjg4Q0QxQUQ4QjNGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:vitamin|assorted-drink-for-water|1"
@@ -3976,7 +3932,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/BcVDsGcXY_Z6hFYT-eFzqQKPCtwCY69qcpraZyZGh0A/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GODI5OTIzRkJGMzA4RjU1RjExRjMwMDR/GRkREQTVEQTU1QkVDODE1OEUzMkY3MDA3OTQwNUNGNjEyRUMyMzVBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:prosecco|99-conegliano-for-gbp-spumante|1"
@@ -3998,7 +3954,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/4JN8M_LJCIGY2naKEw1TjTBhuLFrj44_xcdx_C1fsjA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zMkE0MDVEOEIyNTY2M0M3MzUzOTJGRDE/4NUI2RjA3MDk1MThFNjlCNEY3OTZFRjRDRTFCMzM1NDYyQzZEOTE0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:folding|99-container-for-gbp-water|1"
@@ -4020,7 +3976,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ZYXZ_GRmmgAmFUcZddA4zyWJE1xS6YpdWkrYwiUm9MY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80RjRCRjAzNzc5ODI4MUNEMTNFNzQwRTY/5Q0MyRDVGMjJFRjk1MDUzQUU0NUQ2NzVGNjdFNTZFNDIzMkVGNUJCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:camping|99-for-gbp-shower|1"
@@ -4042,7 +3998,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Y_be35VF47aumZ8npBrM4h-qaCnCeNKzxCNWB_mLuBg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83QUQxQjhEMUVBNkI4REFDNzZENTVBN0V/ERUNBRjFENjlEQzQzMkZCRkQxMDhCNjI1MzkwMTdBNUI0NEFDQjQ1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:aluna|99-filter-for-gbp-jug-water|1"
@@ -4064,7 +4020,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/7SVCNAhPW6rONZSTFiLbOntlbGtXnpt2bp8TmDpxu-0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84REIwNkU0NTcyOUFFMjhDNTREMjBBREZ/EN0MwODY3RDdEMTBFNjczMEVCOERCMUIzQ0QwNjcwQThCNzhGRDM4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mickey|99-bottle-box-character-for-gbp-mouse-pieces-sandwich-water-with|1"
@@ -4086,7 +4042,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/k0jJdkv8eM85PpN0VJK-0IC2rdE607Y6Qj8sCAMqPxo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83OEM3MkY5M0E0QTU4QzY1NzIzMzgyM0Y/wOUFGOUU1QUMwNTdFQUQ2N0RERDMzNkU2QjEyQ0NGNTA2QjJCM0YyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:turbo|19-99-and-bucket-for-gbp-mop-one-set|1"
@@ -4108,7 +4064,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/S1Ukc_-1sZaT0Y5sYGDz9iP8n6Cz_JRgXeL5uwWKFeA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yQTlEMDAwOUY4QjJDRUREODI3ODA2Rjg/wRjY3QkEwNUYxQzBBRTlCOURBNjAwOEM0NjgxM0Q2NzQ2MUJDOTExLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:led|12-99-bank-for-gbp-light-power-with-work|1"
@@ -4130,7 +4086,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/g_ZmqFNDNFyDmcdfElZ1_wdBgAOdv7LOa5ukaE0v3og/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84QjgzOTcyODY2QUM1MUQ4MDk5MkUzRTc/yM0EyMjI1QTk4QUJFNjUzRTY1RjU5NzRDMURBNEFBNEY1Njc4RTIxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.435Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:calming|17-99-bed-for-gbp-pet-protector-sofa|1"
@@ -4152,7 +4108,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/J8Uut3_D3-s4zXhxe1TxyHYkQLTmSHdBiZJtEM8Ftno/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CRTYzMjc2NTQ1RUE2REZFMzBGQzQwNzg/5NjEzRTlCNDRBM0QwRERDQkQ5OEI1NUFFRUYwRENGNzIxNTAwOEE0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:feeding|99-for-gbp-mat|1"
@@ -4174,7 +4130,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/R27lL6cSKOhYcco322UAKxMU46kH82SwsBxsA6HntUA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GNkRDRjc4RTY4QTI4RDlEQURBRTY5MDd/ERTk0ODUxQjlFMkI0RUU3RkI0RjQ1MzM5MDMyQzg1QjU0NDQzRjBDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:lady|99-for-gbp-shaver|1"
@@ -4196,7 +4152,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/XOmtwjjqoPABG1frgB5M8pBNMG-UcvF1rP39Sojiqp4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQkUyNkFDMEM0RURDODZGM0FBMzFCNjB/FRTZEMkFDRkY4RTc4NzY3MDYzMUFBMjM0NTY1RDFDNkIwMzQzMDRGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|16-99-for-gbp-kettle|1"
@@ -4218,7 +4174,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Bgi38zMyzgLC2n8pqjScfPhzJKrlllr_grDKgYQ3ucA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80OEFGRUI0NTgwNzVCODlCQjRCQUY4QUM/5MjE3OTY1Mzg5NTJEM0FGQTJFRjk4QjE3NEQ2RDUyN0VDOUQ0Q0NELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|16-99-for-gbp-kettle|1"
@@ -4240,7 +4196,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/T4J1MFtCc3CypV2S06dSwFIm_7zsQkago2zey0LE3zg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GRDAyOUQyOUM4QjI5Q0VEOUZFRUFERjh/CNThFOUQyOUNCM0UyQ0YwM0E3OUUxMjlDMjU4MUEwM0VDNkQzRkE0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:black|16-99-for-gbp-kettle|1"
@@ -4262,7 +4218,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/4MVUhgvWixnSkEICmYljwXVEgHumybPTYXkal_-PJBY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zMzRGRjc0QzgxRUNDMDY3NzVCMURBNzR/FMkY2RkNGMTIwNUQxN0Q3MzUyQjlBOEY1RUVDOENCQTZBMjRENzhDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:rust|99-black-for-gbp-metal-paint-protection|1000"
@@ -4284,7 +4240,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/fxKg99VDNH8cltGJ2InoDeRQ__zf7RYezyHVewrlSTw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80RkIwRTZBMTk0MDg2RTJGNkFFQ0MwQ0M/wNTlDNUNGNzFCODE1QkQ2RTIyQ0I4NjA4NUU3ODg5Q0FGMjNGOTBBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:rust|99-for-gbp-grey-metal-paint-protection-silver|1000"
@@ -4306,7 +4262,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/NWXf4gOGpnDaPLjPndro3QMT5w-Uj93delosDL3EYXs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QjJGOUUwNjY4MEE5MEMwNDY1NEEwQkM/zMjQyMjYwQjJDNjQ3NjczQjU5Qzk3MkFCMDkyNTYzQkNCNEZCQjM2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.799Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:rust|99-for-gbp-metal-paint-protection-white|1000"
@@ -4328,7 +4284,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/JJE0012ob4IQZ6ZqH0wxPHHGdKcl1w6XpvjCPvUxJHY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wNDYxNkU2NDdEMkQ3QTYxNTUyMzVCOEI/wNDc0RjZENTlGRkVDRDlBQTE1OERCNjJCMEUxM0VBMDdCN0JGQ0NBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:rust|99-dark-for-gbp-grey-metal-paint-protection|1000"
@@ -4350,7 +4306,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/V4OWE-AO84g36p4kPSLs-1tveEOSk1gmRaMvF2ht1Bc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81Qjg4NENDQjVGMkE2NEQwQkUxODc3QTE/wMDJGMzhGNzcxRkI4MzM2NTE5OUFBRkZBMEI2RDVEQTE2NTRGOEYzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:shower|99-curtain-for-gbp-leaf-pattern-with|1"
@@ -4372,7 +4328,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/HfIw4Ma9CgPPtSUkqruEm1wXF-VX_0Xz-r-cy6Z6KSA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNzY5MjM4MEQwQkFCNkMwQzM3QThBMzI/2NjYwNzRGOUM3RTRBOEI0MkI5QjQxMDk1QkVFMTVFQzIxRTZFM0U4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:olive|99-for-gbp-tree|1"
@@ -4394,7 +4350,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/M8vdQSbjCm7p3feVGaPi7zlrrGnM269FRxisf3jE4Ho/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82RTczMTkyNUJGQzhERDBDMEVFODFDREY/xRTUyRjYwOTg3QTJBOEQ1QTMxNjg0OTlBRUNGMzdENjBEQzIxOUFCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|49-assorted-for-gbp-olives|1"
@@ -4416,7 +4372,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Qpo0oFb-Q1TLob789uAdUzr1SVTDZACgQWXu5Rc14Ww/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85RkFBNzQyRjM0RDRCQTdGQzI4NzJFNUY/0NTM2QkZDODM0MDM4RTZCMkYyN0I4QzQ4RjU2NDMyM0RDMzI0RjdCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-for-gbp-giant-green-olives|1"
@@ -4438,7 +4394,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/yLX_6208DbhC6C0ewNy-z-3lRndXLdc6y0E_ZropX1E/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNEYyN0YzNTVCODYyQkQ3QzRCMjY2Q0M/1RTg2NDlCREY2MzY2M0JFRkI4MzVDQjA0ODQ5OEU5QTA4NjkwOUYwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:sun|30-49-for-gbp-oil-spf-spray|1"
@@ -4460,7 +4416,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Jw6wX_B4cODPm4w8g-K4V7qgo21WUBpiwmJubiqgE4o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85MkI2NDU0QjY4NDk2QzE2RUZFRDg4QjA/zMTUzMTUzRjI2QUQzOTI2MUE4NTU4REJFNERBOThBQkZDQ0NBRDcwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:sun|15-49-for-gbp-oil-spf-spray|1"
@@ -4482,7 +4438,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ubyOTv8kCmaFzQZnq_-j6ooRnib9UcqFTQFFAcLDA-Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82OUMxMzZCNjEzNUM5QTQ0NDI0MUFEM0J/FQTE1NTUzMzJBNzYzODgyQkUxRTI1Q0FCMEVDRThGNzY0ODM4M0VELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:sun|49-for-gbp-invisible-spray|1"
@@ -4504,7 +4460,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ZCaON_UVyh60GhUxey4m-yQ2OdpEs1GwLpSlSljHEEU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83QjU1RjBCRjA0RDI3OTgxMDc2QjMwMkU/wNkY3NkFGMDBDMzU3MjRDMzAzQ0E0NEUyRDdGNzQ2NzAyQkFGRDZGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:sunflower|29-assorted-for-seeds|1"
@@ -4526,7 +4482,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/xVuDFBOPLB6e5l2ZIu9HciTIXgOLWEfViQhU0outKwo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DMThDM0QxNzZFRDRERkU2QkU4MDU1MjY/0NkQyMkI3REIwRUVFMzdCQ0NBMjBDQjBBOTUwMTNEMUMzOUMzMzQwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:suncare|30-49-for-gbp-spf-spray|1"
@@ -4548,7 +4504,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/TcvRbmHiE9a-zF1BV6aoJrweuXp5FnfpVvqNvDmZTOE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wMjc2Q0Y2NzM0NDQ4NTVCMTA4RkE0NjJ/CQUM4RTJGNUFCQzcyMzRCNzg2ODY4NUU2QkI1MTQxQTRENDRGMzY4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-belgian-for-gbp-sugar-waffles-with|1"
@@ -4570,32 +4526,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/oxpZh2JjkcUxQJsOctORxEJTn4eILCuKZEYm5yoa090/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zN0Y4NDczQTI4MzBDNDIxMDNCQzk5MzI/1NzA3MTY0Q0I2REI4RjUzRDY5RkIxNENBMkM0MjY5OTAxMDJEMzgyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:serving|99-for-gbp-spoon|1"
-  },
-  {
-    "id": "lidl-uk-f9790e20154b",
-    "canonicalName": "xxl 99 and assortment biscuit for gbp wafer",
-    "productName": "Xxl Wafer And Biscuit Assortment For Gbp 2.99",
-    "brand": "xxl",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 2.99,
-    "effectivePrice": 2.99,
-    "unitPrice": 2990,
-    "effectiveUnitPrice": 2990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/IhqAEl3djvSKzv21O6QNUR-YllLwlnTTJRzIyRWAdHw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQ0VDNjdCMTI0RUNEOTYyNUEzNUM4MDd/GMzk0MTQ4Q0VFMzU4RDA1NDc3NTgxMkM2NTAxOTU3QzVDOTlENzVCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:xxl|99-and-assortment-biscuit-for-gbp-wafer|1"
   },
   {
     "id": "lidl-uk-d3e609987d9c",
@@ -4614,32 +4548,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/2Gau_a3CKuRCvK7671iPPAqH5_l8au-YBchw3vTtH8Y/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ENUNBRTY4MjVDODVFQ0EwNjIxNjc3MTQ/wRTE0NTJBM0NDNTcxOEI3RDlBRjcxRjA4N0IwNkI5RDcxQzBEOENELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mint|99-electric-for-gbp-mill-or-pepper-salt|1"
-  },
-  {
-    "id": "lidl-uk-410138ed3011",
-    "canonicalName": "pink 99 electric for gbp mill or pepper salt",
-    "productName": "Pink Electric Salt Or Pepper Mill For Gbp 6.99",
-    "brand": "pink",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 6.99,
-    "effectivePrice": 6.99,
-    "unitPrice": 6990,
-    "effectiveUnitPrice": 6990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/rnzAhs7njwOEn8eQAzRBsJ7BoEXUBsLPce7kadUkgHs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NjZBNzkzNUYxOTE5NjExRTYyRjRGQTg/0QTZBN0FBNjY5RkJERkMyNjJBNENEMTM4NTc1QTlGQjZFMDZCNDczLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:pink|99-electric-for-gbp-mill-or-pepper-salt|1"
   },
   {
     "id": "lidl-uk-69494b32d669",
@@ -4658,10 +4570,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/a_vqnCEIlEziV1Hv9Eey2oMhYvV4_Erwat1aWGOgMhc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GMzVGNDUyRTlEREU5QTE4NDdEQjc0OEY/yRDJFQzg4NDAzMDlCMUY4OTAwOEFFNzY3Rjc3N0MyNzI3OEZGRTQxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:black|99-electric-for-gbp-mill-or-pepper-salt|1"
+  },
+  {
+    "id": "lidl-uk-410138ed3011",
+    "canonicalName": "pink 99 electric for gbp mill or pepper salt",
+    "productName": "Pink Electric Salt Or Pepper Mill For Gbp 6.99",
+    "brand": "pink",
+    "store": "Lidl",
+    "packageSize": "1 stuk",
+    "weightInGrams": 1,
+    "originalPrice": 6.99,
+    "effectivePrice": 6.99,
+    "unitPrice": 6990,
+    "effectiveUnitPrice": 6990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/rnzAhs7njwOEn8eQAzRBsJ7BoEXUBsLPce7kadUkgHs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NjZBNzkzNUYxOTE5NjExRTYyRjRGQTg/0QTZBN0FBNjY5RkJERkMyNjJBNENEMTM4NTc1QTlGQjZFMDZCNDczLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:pink|99-electric-for-gbp-mill-or-pepper-salt|1"
   },
   {
     "id": "lidl-uk-3a65eed93e93",
@@ -4680,7 +4614,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/2hiHMAVY-9l3jkN61JunMzBlh8kldXSbcwgk8fTKZsY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83MzhBMTAyODg1QkNFQkFBMzJGN0U0RDM/1MjAzN0FGNzFDNUIzRkJBQzgwODlGMUU4RENFMEQ2NDE4NEQ3OTIyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:honey|99-dressing-for-gbp-mustard|1"
@@ -4702,7 +4636,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/mBfrnosehlzXmaQplDCPTQIoqjGoQHh4Y20tK9MpdsQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EOTc3NTI4ODlCQTYwNzg2QURBNjU4MUE/2QjRFQUQ4M0Y4OTZCMTdFMzBBREQ5QTQwQUNGQjAwQzIzODBEMUQ1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:classic|89-caramel-cream-for-gbp-ice-pack-salted|na"
@@ -4724,7 +4658,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/VkuTi2CeAlkNZFCNmOzMOmiZ_T-052UeqKWpt_6pOOc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNTdFRTUyNUQ5ODExOEZBMjNBQzY3QkJ/GODU2QkE2RDhCN0I2MTdEQTA3MTRFMzYzOTZBOUU4QzUwNTQ1RDdGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|39-and-for-pistachios-roasted-salted|1"
@@ -4746,32 +4680,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/dfFK_V9SZwdaChViJCJ3IiqT7jMnFc2pFmBmkkH4ZlU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xQjcyQ0JDRDg2MENBODNDNzVCMkZFOUY/yODBDNjNEQkJGQTQ0MUZFRDQyMzRGMzdGMjg5NEYyMEM0RTZGNDcwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-antipasti-assorted-for-gbp|1"
-  },
-  {
-    "id": "lidl-uk-1ef6179263b6",
-    "canonicalName": "light 95 for gbp mayonnaise",
-    "productName": "Light Mayonnaise For Gbp 0.95",
-    "brand": "light",
-    "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 0.95,
-    "effectivePrice": 0.95,
-    "unitPrice": 949.9999999999999,
-    "effectiveUnitPrice": 949.9999999999999,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/wijePIgy8PtHSqC33cdQes0isvLNUxIUHdpIPSWYdPw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DNUNCNDFERTVEMzhGNjMxNDkzRUNBQzM/wMDkxMTNBQ0FCRTQ4M0M4OTBCMDhGNzdCMjM1RjdEN0Y3NzQyNUJGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:light|95-for-gbp-mayonnaise|1"
   },
   {
     "id": "lidl-uk-476a41ebf746",
@@ -4790,7 +4702,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/gXW3-jOsAoKAonmLURlNyTn_0m6pZTvJRGyznn3ZzB8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NUZDOTE3OTc2QkQxODFDNEM4MjBGNjV/BOTZGMEM2RDcxQjA1QTI3QzFCQkY4MEZBRTE4QjYwNTlCODc2M0YxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:real|89-for-gbp-mayonnaise|1"
@@ -4812,7 +4724,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/YXzAuL9i3REfFKKi63G7IkOr5qGN2Jm3W4EgjWr1bb8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BQTZGNUFFREIyQTMyRjlBMjQzQkNEQTB/COEVFMzgyNDVGRjFFNDQ5RUVDNjVDRTJGNTgxMERBM0QzQzY5QTkwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:real|95-for-gbp-mayonnaise|1"
@@ -4834,10 +4746,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/8PNB_jzIzl4a2puYKGUYQK_zdGyT2vkFps_A79A_lhE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BMkNGN0VCNUFEN0Y2MTFCNzY0Q0Q5RTE/wRkU0MDMxNzlDQUY1QTA3MEE4RDIwNDVCMzkxREVERUNFNEUxMkY2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:real|69-for-gbp-mayonnaise|1"
+  },
+  {
+    "id": "lidl-uk-8109573725e3",
+    "canonicalName": "light 69 for gbp mayonnaise",
+    "productName": "Light Mayonnaise For Gbp 2.69",
+    "brand": "light",
+    "store": "Lidl",
+    "packageSize": "1 stuk",
+    "weightInGrams": 1,
+    "originalPrice": 2.69,
+    "effectivePrice": 2.69,
+    "unitPrice": 2690,
+    "effectiveUnitPrice": 2690,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/DViOkz7ynR6E4w0O_vt38Trq81ZPJa6fbraCt40ob4Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85OEQwODU2RDJCNTY4QzQ4NkUzODhDMTd/EMEI1MkJGNjhFM0VFRDU0OEU5RjBDNTE0QTE4NzczNzA2RTIxMjIzLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:light|69-for-gbp-mayonnaise|1"
   },
   {
     "id": "lidl-uk-780e1a36253e",
@@ -4856,7 +4790,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/w_kgfEP2SBtcyYmSA8v0y6NYtBsv_zmzjnWB3tahrFU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80MjFGNEVGNDc0REM3MTQ1RTQzODVDMzF/CMTQ2NTMzMTU4NTM4NzZFQ0I5RjU0MDIyMEVFMzhFMzBFQTVGNEQ3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:light|89-for-gbp-mayonnaise|1"
@@ -4878,7 +4812,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/_tfgHWnh-8KuCfZYWaKj19vvKH6d7OAbF9SS2X-llWw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DRkZFNUVGNTFCQTI4QzQ0NDhFMTE4RjY/5MzJCQTM4Q0NBNEZDQTlBODZCNjE3ODkxN0U5N0I1OTBEMjU5REIyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|49-coated-crispy-for-peanuts|1"
@@ -4900,7 +4834,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/UmjGK7Ku3-Lj6ESniIWUKmIEikH_TcRWLiz7Biq1NDY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRDdENkU3REQ0RDhGQUVFNjk1QzU2M0V/EODQwMTJCNzI1RTEwNDlBNzE1RkFEMjk4NzhDNEMzNEY1RDUzQUQ0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:bubbly|95-bar-for-gbp-peppermint|1"
@@ -4922,7 +4856,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ZijbKtmOHycA5N-T0hN4Dtif2sEjTIpC0OuuKKkxC4I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BRDdENkU3REQ0RDhGQUVFNjk1QzU2M0V/EODQwMTJCNzI1RTEwNDlBNzE1RkFEMjk4NzhDNEMzNEY1RDUzQUQ0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:bubbly|99-bar-for-peppermint|216"
@@ -4944,7 +4878,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/4N-u0OpQd78q87MiHBvcleHMZbF0Oe9SjGQSaOhbLtw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82RTM2RThGMkIzMzczQzk4NzAzNzI3QTU/0QzIxRDlDQTdBQkQ3QjRFNTU0NThDN0Q1MTI2MTRGM0FDRDE1RUU2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:scottish|12-49-and-chipolatas-for-gbp-honey-pork|1"
@@ -4966,7 +4900,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ySXr0H-Bvk7_MraWed4PDI5izNEUylf3IIPAJ6UmvMI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84QzM5MTczNjI3RjEwRDg4QUIyMDU2MDI/1MEE2QzJGNUNFMTEyNUYzQkI1N0QzMzk1MjA5NjlDRjFCNUQ5MzE0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:garlic|49-crisps-flavoured-for-gbp|1"
@@ -4988,7 +4922,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/6UNbOZoE3s7xSKnaC5kZzkEe7H583UJvp2Jk-Gcq3es/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NkJFMzYzQ0Q0NkFDMzkwQjM0RDFEMEF/BM0RGNUM4NzMwOTMyNTgxQjUxNDJDMkI4NDVCRTI2MUU1RTlFN0Q1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:toffee|95-crisp-for-gbp|1"
@@ -5010,7 +4944,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/PxHXMNzWEtZxGxFldFtP3Dbzv-jCazWUDCe5iRXLwF8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNENBMEM3NTBDMjEyNUZGNjE0NDZBMEF/FQURFRjY5QzdENjFCNkY2REFCNTZGQzM1REFFMjI0QzRCQzdFREQ2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:chocolate|89-for-gbp-hazelnuts-with|1"
@@ -5032,7 +4966,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/zthwPXvykFgS2ByAvZi73Qfied9f0M7qCJgNZ68-H18/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yQzg0NDY1REUzN0M2Qjk5RTI4MUE3MzE/wQzBBOTJGNTE0Mzk3Nzg5QzczNzlBMkZCRDY4MEY0RDQ3MjFCRkQxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:chocolate|99-assorted-filling-for-with|1"
@@ -5054,7 +4988,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/gMa2sX_DzFnhXT7qqSDn4zoZVXP7vIk6QqDUFdXauVI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DQjg3OEUyNjk5MjA4QUM5OTI3NEU0OEZ/EODMxRjlDMkFBRDI3QzA3RDJDRDJEQTlDQjMyMTM4M0I0Qzg4QkQ1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:chocolate|89-for-gbp|1"
@@ -5076,7 +5010,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/EH7MzeqhsSMfIdM50FpvkAPRUv7tD3GkohpIu9-JUDI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNjM4MDc5MkRCQUQ2MEVGMTM2N0Y0RDN/ENzg3MzE4RUMwM0FDNkI2RjhERUVFNkVEOTBCNzYwNDlGRTdBQzVFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:kinder|59-chocolate-for-gbp|1"
@@ -5098,7 +5032,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/rOM6RtnmY9A-q0XDp-D3Ea3Ps_X7Mtq5OgF4liivXA0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xQ0Y3NUNEMzFEMDMxMzdDNjM5RDIxMzZ/FMkQ3QUIxQzJCOEEwMjAxRjZFRUY1NDQ1QjU3MzlCNzkxM0ZENDcyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:xxl|99-chocolate-covered-for-in-marshmallow-tub|1"
@@ -5120,7 +5054,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/aBZCorpY18IXYfuE51T3G8g3z2TWIt3DFUH68JEwABk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81QUQwNzk0NkUyRDRFNDQ4MUYyMjhBRDA/xQTc5OTg5RjMyMEFBOEQyRDRFRjJBMTIzRUNCQjRDQjNFNTk2OEMwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:chocolate|99-for-gbp-pouch-xxl|1"
@@ -5142,7 +5076,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/9gJxwj6lzVNtKNoOHctAXG1aC8_OIaQ6_d8F45lbXRs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81M0Y0NDI3NzMyMjFGODE2NUNDRkY2Nzd/CODI1M0Q1OERDQkI5QjU2MUJBMUJENEQzMEY2RTQ3Mzg3QURFNEFFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:dark|99-candies-chocolate-for-gbp|1"
@@ -5164,7 +5098,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/h50qOt5Q9BX-0ooKj-n848BoutaLQUlHC8yKn5B6LAw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80RkI2Q0E0NTZCRDJEMjczNzM5MzE4MUE/0QjczMkEwOTAyOTM4NDY1RTdBMjNDNUQyNDUyQ0RDODk5Njc1NzE1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:peanut|99-for-gbp-pouch-xxl|1"
@@ -5186,7 +5120,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/UOBQvcfyRf99Ho-o6Xl2qlcXsDoubSH5CVSul3NLByk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82RjZFOEIyREM1OEJBMDA2NjIxNDlFRUQ/wREU2Qjc1NzA4NThGNDIzMTM4N0M3NDNFQTZGMTRDMjhBOTk2MjMxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:snickers|75-for-gbp-pack|na"
@@ -5208,7 +5142,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/DuCq8pdLWayVCI0X-FtK4oz5u1P6Z7aqx8yix6iwYQI/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9BNDVGNDVGQjEwOEJGNTA0MkZENjk3QkJ/FOUI0NUMyRDk4REUwMEYzQjhGRDQzODhBQzhENDY3MDBGNDU1QjVCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mars|75-for-gbp-pack|na"
@@ -5230,7 +5164,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Novg3PRxugdo2IbK6GRx5pC_gJyMCKxuzX5aEAj2pDQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FQkQ5RjNEMzBENkU0QkMyN0JDMDc1NTF/FNTEyMjhDMEQ2NTMyRjI3M0ZFODE1MUU1MUNFQ0VENUNDNUQ4NjZELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:caramel|95-buttons-chocolate-cones-for-gbp-pack-with|na"
@@ -5252,7 +5186,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/yibQrSm5-i7co05_Y7bOgr215zpUeqexXGZXVFz1PkY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82REUxQjdFRTRCNzUwNEM2RTRCQjU0Q0I/1MTNCOTFFQ0QyMjUxMzIyQjZCRjhDQ0NDQTFEQTAxRUNCQzgwMTc4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:xxl|59-chocolate-cr-for-gbp-pes-with|1"
@@ -5274,7 +5208,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/ZLX6XK0dp3BalftMBNjvO332sYQQbLkbPKRDwjRJJeo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EMUE0RjI5MkI1NDI0NDhGMzdBMUEyQUQ/wMzUxNEE0QTk5N0VDOUREOUNFNzBEMEEwRDMzNEI0Q0IxRjFGNDExLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:protein|69-bars-for-gbp|1"
@@ -5296,10 +5230,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/G0TH51obFoMGrLmm_xeF6bNrSpskVsjmuf1aH7AS2Pk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84Rjc0RjE2MzYyNUM0NzExRTA5MUE5QjI/zRDE4REIwQTg2MjcyNzFBRUYyMkZDODRBOEM1QjUxREY5MzRGQ0NBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mix|and-bakery-for-in-match-store|1"
+  },
+  {
+    "id": "lidl-uk-f9790e20154b",
+    "canonicalName": "xxl 99 and assortment biscuit for gbp wafer",
+    "productName": "Xxl Wafer And Biscuit Assortment For Gbp 2.99",
+    "brand": "xxl",
+    "store": "Lidl",
+    "packageSize": "1 stuk",
+    "weightInGrams": 1,
+    "originalPrice": 2.99,
+    "effectivePrice": 2.99,
+    "unitPrice": 2990,
+    "effectiveUnitPrice": 2990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://imgproxy-retcat.assets.schwarz/IhqAEl3djvSKzv21O6QNUR-YllLwlnTTJRzIyRWAdHw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQ0VDNjdCMTI0RUNEOTYyNUEzNUM4MDd/GMzk0MTQ4Q0VFMzU4RDA1NDc3NTgxMkM2NTAxOTU3QzVDOTlENzVCLmpwZw.jpg",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:xxl|99-and-assortment-biscuit-for-gbp-wafer|1"
   },
   {
     "id": "lidl-uk-f11d22705e9f",
@@ -5318,7 +5274,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/G_rlC_eR1KaG2Mxm0NoY9xXEkyXM_Axn74eq7IB_pew/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81NDMyMUI1QzVEQTJBRTQxMzhCOTk1Mzc/0MkI5RENBNzU5NjQ0MUM0RDIxMjZEMUJBQUUxMTEwN0RGQUY1QzM1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|79-for-gbp-waffles|1"
@@ -5340,7 +5296,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/397bIx9Ve-_ClVv_0hMV1_nACPNLvb6PeocOGNupf4w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xQjlEQ0MwNDM5ODI3RDAwMzIxNDgxREF/BNjcyM0ZGRjMyQTIzQkY3NjVDMEZBQUIxQkNFODQyRjc3NTVCMUZDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:xxl|99-biscuits-chocolate-filled-for-gbp-tub-wafer|1"
@@ -5362,7 +5318,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/R08zx6qYWJgI0dwMLwiNOrxx9VLRGae4cciZVxp3zRU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQjcyODE4MDA4M0RBN0M5ODYwQzgxQ0I/zMTMzMEIyQzU2NUZFQkFCMDE1RjMwOTgxQjJBMUE5NjQxQTU4NjE3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.436Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|29-caramel-for-stroopwaffles|1"
@@ -5384,7 +5340,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/nRXcxa4ojaZNgkVG_jqegEMIH7RajQl4bvmm9eLSLhg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9ENzUxOTRENkYyRjY2MDA2REZBNjc2NDY/zNkU5NTc4MDY0M0Q2RDUzQzBEODRGMzUwNEM3M0QzODg4QzQ1QjVBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:napoleonky|99-for-gbp-vanilla|1"
@@ -5406,7 +5362,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/rwjold8oC1lo6sLjUjmeHcd1LgrMoZ9FZbfb5c8Kq-c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84QTdGQTk2QkUwNzhDNEQ5RDEzNjcwQTU/zN0ZERDBDOEZCQUQyREFCRDJDQjMwOTJFRDg4NTVENjI0NDQ5NUFGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:vanilla|65-cream-for-gbp-ice-scoop-soft|1"
@@ -5428,7 +5384,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/df_Pxg8vyLOFlH2yEG6kdlp5nTJNiQMY3hDA_gfrJEs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81NDA5REU2RDhCNDAwRjQxNTczOTA5OUE/4OTlCRkY5MTlFOUI2RTk1NjYyOUQ1MzhDNDE0MEY2NTVCMzkzQjMyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:italian|49-and-caramel-carmalised-cream-for-gbp-ice-pecan-sauce-style-with|1"
@@ -5450,7 +5406,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/kbcSCsrK6SsHm0aF3a7h7cZkftMTgUrmaPc80iu6SHg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84RkQzQUJCMzIxNEI1NURDMzkwQkI1NER/FQTZFMjJCNTI0MDREOEZEM0I2MzY1NjFCODIyMDlDQTQxMjUyMUUyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:ice|19-cones-cream-for-gbp-pack-strawberry|na"
@@ -5472,7 +5428,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/EKLy4DNK6BCUZlkIqpoqqDKES2qPGbWgWJFP76fCW4E/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DRkM4NTcwMTg4NjM4OUI2NTI4ODNBODc/4OEMzQjYyOTUyRjFEMzc5Mjg3MERCRTc2QTI3MzI4MTcyM0UwRUVCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:magnum|classic-for-gbp-pack|na"
@@ -5494,7 +5450,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/5qh5EtdblkX1rhOIGqWo5KEB19owXdJIiYM6E3t2N64/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DRTdDNEZFN0MzQjlBNzc3ODI2NzcyQjl/CRDJGNzE3MDY4REI2QTFCMDkzMjY3N0ExRDFENTlBMzE0NjA2NTlFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:classic|89-cream-for-gbp-ice-mint-pack|na"
@@ -5516,76 +5472,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/7TEHDg7aqz4oIxsjzbY8y0Qo7t1m64LXt1AfKB_HZG0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FMjg2MDI3MUU4M0ZGM0NFNzU4RTRCNTg/3QzlDNEM1NkYxOTExRjY0RTU4RUM5RDVDQTBENUQyOURCMEREQzk2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:classic|89-cream-for-gbp-ice-pack-pistachio|na"
-  },
-  {
-    "id": "lidl-uk-acb7b85026bc",
-    "canonicalName": "ice 95 bars cream for gbp pack peanut",
-    "productName": "Ice Cream Peanut Bars 6 Pack For Gbp 2.95",
-    "brand": "ice",
-    "store": "Lidl",
-    "packageSize": "6 pack",
-    "weightInGrams": null,
-    "originalPrice": 2.95,
-    "effectivePrice": 2.95,
-    "unitPrice": 2.95,
-    "effectiveUnitPrice": 2.95,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/dixjo94UT2dixATmKgxU5sNfvSK7X-MxoWdodcC8pRg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CRDU0M0JEMjNBNTg5QTE3OEM2QzA4MzM/zQ0NBNzhFM0VENkYyRTExM0U2QkY0NzMxOThEQjIxN0QwMDYzRkVELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:ice|95-bars-cream-for-gbp-pack-peanut|na"
-  },
-  {
-    "id": "lidl-uk-503d49568313",
-    "canonicalName": "ice 95 bars caramel cream for gbp pack",
-    "productName": "Ice Cream Caramel Bars 6 Pack For Gbp 2.95",
-    "brand": "ice",
-    "store": "Lidl",
-    "packageSize": "6 pack",
-    "weightInGrams": null,
-    "originalPrice": 2.95,
-    "effectivePrice": 2.95,
-    "unitPrice": 2.95,
-    "effectiveUnitPrice": 2.95,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/fdp0QH2qH3coTCbT3urULRaHz8nngnd3Ciqsw6GjW-4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yMkU1MEJBMDU5ODAxODk0RUZDQzhERkU/1RkY1QzYwRUE4NDBGNzRGOUYzNEVCRjg4NTlBRkZFNURCNUMzRjQxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:ice|95-bars-caramel-cream-for-gbp-pack|na"
-  },
-  {
-    "id": "lidl-uk-1d14d9262d24",
-    "canonicalName": "double 49 and caramel cookie cream for gbp ice lollies pack",
-    "productName": "Double Ice Cream Lollies Caramel And Cookie 4 Pack For Gbp 3.49",
-    "brand": "double",
-    "store": "Lidl",
-    "packageSize": "4 pack",
-    "weightInGrams": null,
-    "originalPrice": 3.49,
-    "effectivePrice": 3.49,
-    "unitPrice": 3.49,
-    "effectiveUnitPrice": 3.49,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://imgproxy-retcat.assets.schwarz/Pc3DN_yLGiAxyLMWaMS2esvWZ_yUNSD_d5IzfMXMQ-c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9DQjFCRTZFMzg0RTU2QzgxNjlFOUREQ0J/BNjlDNDM4NTU1NUVDNTRCREYxRTJGNjI1NDlFOUVGRUNGMTRDMzcyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:double|49-and-caramel-cookie-cream-for-gbp-ice-lollies-pack|na"
   },
   {
     "id": "lidl-uk-8903942a9f4b",
@@ -5604,7 +5494,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/zBYHen1ycVOnGsqXi2QVp2DLOUeJh9ffVRj9R39Orus/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83RkM2NUFEOTdCQjg3MDdBQ0UxOUNGMDc/zMkYyNTlBRUZBNzVDMkY5RTVDNTc0ODUxQ0MxMDI2NjQwRDc2MzFELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:double|49-and-caramel-cream-flavour-for-gbp-ice-lollies-nut-pack-paradise-with|na"
@@ -5626,7 +5516,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/uMMQOLvytTFF9q29YD6SGCyfcMwTRzhT6BKX-AH24Dk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CMTgzNzM5OTM0QkREMDUzRjcyQTJGNzZ/ENjdGRjA3NDVBQTFGRDdEN0Q2Mzg2M0FCMTA3MEIzRkU1RjIzMTc3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:mini|05-12-creams-exotic-for-fruit-gbp-ice-pack|na"
@@ -5648,7 +5538,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/FQWVN6NbXKyT_iscufMgfwmsgGQ5FBCfPnxYN46wc2U/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85NDhFMTlDMDZENTJFRjNEQ0FDNzI2NUQ/1RkJDRTQxQTM3Mjk2QkRFQjI3REYyRDg0QzgyNUNBOUNEOUJEODc3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:mini|05-12-and-creams-exotic-for-forest-fruit-gbp-ice-mix-pack|na"
@@ -5670,7 +5560,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/jiVxZ4zINpV40zbClhgVmF7z3HaNSYhkgymyKKN2jxU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83RTA0QjI2QjRCQTkzMEU2MEI2NUM1Q0M/1NDY3RTlENkYzQjYwN0RFRjQwQUFFN0UxQkZBNDdBRTU5MzlBM0FGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.800Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mini|99-and-caramel-chocolate-double-for-gbp-pack-sticks|na"
@@ -5692,7 +5582,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/c_5Dy1GXgsgSOEFgqRn7kUX3IPcaMkUjtSFQNpubx4c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FNTY4QjFGMkM2NDlFNTlBRDI0QkREOTk/4M0Y4QkZCMTMzMTZEODU4QTQ4M0QwQjNFMzUyMUUyN0UzRUM3RjQzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:space|10-69-for-gbp-lollies-pack-rocket-runners|na"
@@ -5714,7 +5604,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/qRUXsOxMewaBbvZczKenvrQpCf8e64jKjULTiYI7-LE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FOTFGMkFBRTM4NzRGMTFBNjIyRDczNzA/zQjBFQkNDMDA1N0UxNUI1NzVCM0ZCMjE1ODY3RjkzOUVFQzJDOTk4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:donald|49-exotic-for-gbp-pack-solero|na"
@@ -5736,7 +5626,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/CfkP3V4bMiJxU7ctBjiL7tqKihtbJpYflzlFHmzflrg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QTdCNzQ0NUY0RTAxM0JGNUEzNDMzNzQ/wODI1NDM1QTQxQUQ1MzhGN0U5NUMxMjNFQ0Y2Q0E0MTA5RDJGMTVGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mixed|19-berries-for-gbp-lollies-pack|na"
@@ -5758,7 +5648,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/cF05c26oAkmAgg298yEIJlOY5mb_hSTbT7RvLTtVdVc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CQzc3NTY3MkRGOEI5MzI0NjAwOUJBNEM/5QTJERTBFOUJENDMyODI3NjQ1Njc1NDhEODhGNDJBODBFMUQwQTNGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:exotic|19-for-gbp-lollies-pack|na"
@@ -5780,7 +5670,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/MZE0lLDoHMdbaCX8ggWsfVJbhhC3coRyOpRuLTYD0bA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wQUUxRjI1NDI2M0I3NDYyRkEyOEQ5Njk/wNjc5OEM4MzI1Q0I1QzI2NDIyRUQyQUU2QkY3QzQxQkI0RjhFNDE3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:raspberry|49-for-gbp-sorbet-tub|1"
@@ -5802,7 +5692,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/rvRLzZ1cVTLWRPNVAkH1Wtu89Z0dEGr1_g1bym_NTcg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80QTAxRTUwOTA2MzBCNkUyRUZGN0NGMkU/5NDg5QTU3QTBGNzk3NjMxNDYzOTUwMDE4QUE4M0MzRjgwNUU2RTBFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mango|49-for-gbp-sorbet-tub|1"
@@ -5824,7 +5714,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/17cU69PwSwA3Krjx42giHKSMm8GvRPgm9FHwEpR1QhM/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85MzNERDZEQzhBQTVEQjFGNkNGMkQxN0U/2MURCNERCMDNDMzJDMDk5MUNGNjhCQkE5NDA0NjQyQjE0NTM0M0Y5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pink|17-99-chopper-for-gbp-mini|1"
@@ -5846,7 +5736,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/e3yz2cXo0WAKfRJDJVUmwCpd2aZG4dwWgqpK1aFm8SA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8wNkRENjI4NzRGRTc1Q0ExOTUwQUE3N0I/yMzlENjI3QTc1OUVGMzg3OTJGMDVCNjFBQTI2MDE5MTIzMEZFNjA2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:black|17-99-chopper-for-gbp-mini|1"
@@ -5868,7 +5758,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/zOqKNUngEsD9TMYXEM-iyc1MHn9P5LeUiu3MuFKH3-k/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85MTIxRkFGOUUyNTU1NEUyMzhBNzM1MTZ/FNEYwQ0Q4N0ZDQzNENzg5MUNCOEVGQzQzNEQ3NjVFNjdFMDczQTA1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|99-for-gbp-margherita-pizza-stonebaked|1"
@@ -5890,7 +5780,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/IRiz90kp8k2xZJ0bqstQp5OZlJGzhWvNO03YAaS_FLU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FOEFDOTc5MzczOENDRjM2MThCMzcxRUN/DNTE3REYzM0Y1MjhGRkQ3RTEwRDBBQjVFQ0Q2OTM1RjMxQkQyQTA4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:xxl|39-assorted-foods-for-frozen-gbp-snack|1"
@@ -5912,7 +5802,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/2ChGzuntL3StffY0R93EyHEN7AWqL7k7A0rrnEwhFAs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9FNEJERTZGMjA3QkRFNTdEODIyMEFEQjR/CNUU0NDk5MTA1QzRDMDkwOTNBOTg0REVCOUQzMUUwQjVFNUUxMzBBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:french|49-for-fries-gbp|1"
@@ -5934,7 +5824,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/iiLXa0caWhGl8fqjAeSvRO3KHArzf4Pwc6UJ_lWUZVw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS83OTJFQUNERjY0QTcxQTA1NDk0RUVEODl/BQkYzNDI0MkIyMzUyNTY4OEZCQzBEM0NCQTA2MEEzQTBCNzEzQkJCLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:premium|assorted-for-quiches|1"
@@ -5956,7 +5846,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/h45lcXwQ2ys4PtGQ4mnOW_UZuTBMIddqKCod3tsuloU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85MkVERTRFMzIxRjM1NUJDNDg0ODgzQzV/FMzNCMDhCRjJBMDVBMEI0RjYwQzM3MTQyODFGMTgzNUJDMTA3NTU1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:hand|14-99-for-gbp-winch|1"
@@ -5978,7 +5868,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/wNq92KkQUTt_PxKSnn4ivhydJolow8PCg4eFa4HotDc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84RjRFQkQwNzY0NzhEMjBCNUJENzk2RUU/1RTlDQTU0RkJEQzM3NTVFOTlDQjczODVCODY1OEMzRDgwQTlFQzYwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:toilet|14-2ply-99-for-gbp-paper|1"
@@ -6000,7 +5890,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/nClU2cqXedTdibFcPqG9bsfp4nQmMqDgmVZNlgPDncE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8xMUFCNjY2OEE1NzhENkNENjVCMkI1NUI/1RDIyMUQ5QjQ4NkY4NzI0OTg0M0VBMkZBQ0I5MkM2OTIxRTA1MkI2LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:toilet|99-for-gbp-seat|1"
@@ -6022,7 +5912,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/5INp6pPQ5nTRJRVUW8Es591zgxpNOiGmrglesZeFZtE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EMkVDQ0Q3RUQ4QTVENDcyRjQ1N0M3QTl/DRUIwN0JEQkI1RTI3MzQ2Q0JCMkUzQUM0Qzg5MTA3MDNBRTI2RTY0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:patterned|99-for-gbp-seat-toilet|1"
@@ -6044,7 +5934,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/iAhoVLYBkqXyYvbWH0iwJLm6AX3Fb49t1Jw4au-FSDE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yRkFERjhENzU2RDgxRkQzNTU4NUY2NkI/2OUNCMDEzNTZFNjQ1MTdENjRFQjkzNDYyRDBFMzE2QzJFNEJCRDNDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:family|99-for-gbp-seat-toilet|1"
@@ -6066,7 +5956,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/gsMH2INXjrC4bTRvE4fjZZdIGKBfsJbQfVDZZXHg79g/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80ODUxM0M3OERCRTJFMEY4MzY4RjhGNTN/DQzIxOTIwMTQzQzE1NDMwMjU3MUQwODc3NzcyOTg5Njc4MDNDQkNELmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:microwave|99-for-gbp-maker-popcorn|1"
@@ -6088,7 +5978,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/Y2mZczsfW0J-1BnesSCl4iDEF4zWL5mqcqiX83gHKqc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GQzRCNTA1NjJERDU5MDRBRkVGQTExNzI/zQTJDOUFEMjBFMzNDM0Y2Qjc2QzZBMjE5M0VCNzU4MEVBNDBCQjBBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cleaning|49-and-cloths-for-gbp-sponges|1"
@@ -6110,7 +6000,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/vZ_tbqVkfQLxSlszF5schHkPB-R6JwhvS4m3-uLlO5A/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84NTYxMUI1MzdFM0I5NTY2OENEMjlDRjA/wQzJFOENFQTUwRTBGNTY1RTRGNTZDRTk2N0M0QjkxOUIzNzcxQTNFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:ionic|11-99-dryer-for-gbp-hair|1"
@@ -6132,7 +6022,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/28Vv1Duej8BjkUAgDMocbbz27zxA17-_JV8DtjvjFY0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81MDMyMUQ5MkY4QzZDNDFGNTAyMDI0NjI/xMTZFNEIxRDZFN0RDQjVFMDFERkI5NjhFOTFCNDYyQ0I2OUEyQzE0LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:pods|14-39-85w-for|1"
@@ -6154,7 +6044,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/vj-8grHaoDhUGqqKJuoaYe8oX-IBbY4iSVJgzGk2rDU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CNEM1MjVFNzk2ODY4MkYxRkZBNjExQjh/CRTQ1RkVEMjkyMUEwRkI2QkIwRkJBMzM3MDA1RUU1ODNEMTE3NDNDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:fabric|129w-39-conditioner-for|1"
@@ -6176,7 +6066,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/i87DNuSveV0u-ASUleMUbsBlKNUDedH9tDdTOXfth7I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80MzE5MjgzNUU5NzBBMTFDRkJFMjg2REZ/CQzY5MDRCNzRCNjM1NjQ1NTNFRDAxMTg4NTdERDM1NzMwQkY5MDA5LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:sweet|89-easy-for-peelers|1"
@@ -6198,7 +6088,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/iDD5VPfOah8aan6bwP52bCsIThq9H8snRlrWRWPOQ24/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yMjkwRjE5NjdDMjcwNERGMDRGNjVFRDF/GQUI4Nzk1N0ExMjY5NkQ5MDk3QjE1NEVGNUQ5Qzk5QTNDMUY5MEI1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:flat|99-for-gbp-nectarines|1"
@@ -6220,7 +6110,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/jWl79WOOwK1lTIeDM4AFPVxg82c-kwNjOvitAsXes2o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS84RjNCM0JENTVDNTk4Njk1QkRDNjM0MkI/5NUMwNjkyRUQ0NEI4MEQyOTJFMDA4MDg3MzZFNjRDMjNDMTgxNjRFLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:paw|79-for-gbp-gel-in-kids-patrol-shampoo-shower|1"
@@ -6242,7 +6132,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/P6z3mPHF3iZSe_rUNcRLxO-gyonH93z2y3K8ZIN0Fv8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82NUFCNUZCM0YxRjUyNDFDQUFCODAwRkI/5RUI4RDkwNDQzNEM3REUzNjc3NEM1QzExOURDOTI3ODc3QUVDNTgxLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:heated|12-99-brush-for-gbp-styling|1"
@@ -6264,7 +6154,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/s2o3LDmL--m-yD-A7BiU-xiBpMkqR2R-9arCFSYSb90/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GNDEzNzQyREY2RDA1MENFRTMxODI1QkU/3NTJBMjM5QTExN0VGRjgxQjNGQjEzRTU2RjgxQUE4OTdCQ0YyRUMzLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.437Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:nail|29-for-gbp-scissors|1"
@@ -6286,7 +6176,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/-BUmdz9Ef9blBbQaBT53uw4cDzA5SuYid0gIUggYNrg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS81MDRFRkU0MEYyQUM5QkY4OERDOEU2NER/FRjMzQzQxOTE2MDhFNDQyRTYyQjNCQjI3QjM3RDBENkZEODE1QTNBLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:multifunctional|99-for-functional-gbp-grey-head-multi-shower|1"
@@ -6308,7 +6198,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/THBu05P41Xm2iKE0yMeBq5naZcy_U7khLsPOC_l5bxo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8zRDZENjgyQTEzQTAzMUI4NjlGQzcxMDM/4RkQwRTZEOTY4MjYwNTQ4MkZBRTRCQTlBNjQ4NkUxRDk1QjlGQTc1LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:multifunctional|99-for-functional-gbp-head-multi-shower-white|1"
@@ -6330,7 +6220,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/P_6ljhlr0DwY6ssCPRyk8qndl5EZzCrVypmsP8y1zcI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS85ODY5RjBENzU4RTkxODY4Qjk1MUE0RjE/yRkY4RjZEQzlGNjQ5QjkxMENERDJDOTE5OEVFMzY4RDM2QzAzQjBDLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:paw|79-for-gbp-patrol-toothpaste|1"
@@ -6352,7 +6242,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/WigYLIsW43J9bQgA5KBJAQOdt6s5WSuZ22DXC-9ZHQs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9CMzhBMTFDQkVFNjAxREYxRkVCMkY1NUI/4NjEwNjUwNDE2ODE1NjNERjlEMDA1RkEwNjJBNjMxRjdGOUJBMEYwLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:paw|99-for-gbp-patrol-toothbrushes|1"
@@ -6374,7 +6264,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/8IhjY4NOZ8TtE4ww8nQ2Nc0nQ8kuUnA6YfS3Nk8MC4k/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9EMTMyQjEyRUE4MzEyQjVEQzEyNjFGOEY/1QUM1OTNDRUE3M0Y5NkIyQzc4MTg1QjI4QzkwOEYyOTUxMDVGNDcyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:dustpan|99-and-brush-for-gbp-in|1"
@@ -6396,7 +6286,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/kyVcW_Okf6nqFCCSOsnS8t3cwDJQMFu4gog634SNMdc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS8yOEYyQ0M0MDM3NUI3Rjk0RDc2NEI4OEE/5NTU3NzMxMkMxQTI1QjQ2RUVCOEZGMjM4Njg0QkFDQjUwNTZCRUU4LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:xxl|49-assorted-for-gbp-gel-shower|1"
@@ -6418,7 +6308,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/jyGGqpqvntdGStnavIsndvwlv9IGzaA8_6Dw4qFGLP8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS82MEVFOEQzOThEODYxN0JBMEQyNzREMkI/zMTJBMUY2ODM1NjJCMzQ4MDIyNjAwRUFFNDk0RkVBNDhGODM5NkM3LmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:grey|34-99-bin-for-gbp-sensor|50000"
@@ -6440,7 +6330,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/9DEtDFyXyD5iNcv4FklHRSNZ0jT_ZXf0-yO7M6K0yos/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS9GOUNGNjlFMDFBMThCRjUxQkZDNjM3RjY/wOEFBQ0IxQ0U4QkYxNTcyODEyMkIyQTk0NTUxMzFGQTY4RTIzNkQyLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:white|34-99-bin-for-gbp-sensor|50000"
@@ -6462,7 +6352,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://imgproxy-retcat.assets.schwarz/JSkZG7quYnnVnSSfUDxR4U5xOsR8jROtK1RyEDdGJEI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvdWsvMS80NTA2RkIxQjM4RTc4RTQxRDFBMDY3QzF/GODQ5Q0I4MUE2MjdFQUYxMzdCNTM4MUM3MDMzMEMwMkQ0MzAwRThGLmpwZw.jpg",
-    "scrapedAt": "2026-08-10T04:07:12.801Z",
+    "scrapedAt": "2026-08-11T03:55:33.438Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:backpack|12-99-for-gbp|1"
