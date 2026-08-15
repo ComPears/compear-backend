@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-15T02:09:41.577Z",
+  "importedAt": "2026-08-15T03:27:49.109Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12518,
+  "count": 12513,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -55035,6 +55035,16 @@
       "lng": -1.775223
     },
     {
+      "id": "uk-lidl-uk-way-1476636656",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 50.865558,
+      "lng": -1.014642
+    },
+    {
       "id": "uk-lidl-uk-node-14084427554",
       "chain": "lidl-uk",
       "country": "uk",
@@ -56343,6 +56353,16 @@
       "city": "Bristol",
       "lat": 51.516227,
       "lng": -2.622215
+    },
+    {
+      "id": "uk-lidl-uk-way-1545445168",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Whitebridge Gardens, BS35 2NT Bristol",
+      "city": "Bristol",
+      "lat": 51.602457,
+      "lng": -2.516443
     },
     {
       "id": "uk-lidl-uk-node-420738697",
@@ -79345,14 +79365,14 @@
       "lng": -1.05932
     },
     {
-      "id": "uk-sainsburys-node-428889293",
+      "id": "uk-sainsburys-way-1077381777",
       "chain": "sainsburys",
       "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
+      "name": "Sainsbury Petrol Station",
+      "address": "Sainsbury Petrol Station",
       "city": "",
-      "lat": 51.944422,
-      "lng": 0.636404
+      "lat": 50.835401,
+      "lng": -0.36571
     },
     {
       "id": "uk-sainsburys-node-631800239",
@@ -79393,16 +79413,6 @@
       "city": "",
       "lat": 54.167677,
       "lng": -6.339857
-    },
-    {
-      "id": "uk-sainsburys-node-1132689647",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.358329,
-      "lng": -0.148176
     },
     {
       "id": "uk-sainsburys-node-1465600940",
@@ -79535,6 +79545,16 @@
       "lng": -1.74191
     },
     {
+      "id": "uk-sainsburys-way-25116657",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Tulse Hill 2, SW2 2TP",
+      "city": "",
+      "lat": 51.454793,
+      "lng": -0.113907
+    },
+    {
       "id": "uk-sainsburys-way-27580540",
       "chain": "sainsburys",
       "country": "uk",
@@ -79573,16 +79593,6 @@
       "city": "",
       "lat": 54.712804,
       "lng": -5.81053
-    },
-    {
-      "id": "uk-sainsburys-way-41082373",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Plymouth Road, PL3 6RL",
-      "city": "",
-      "lat": 50.388897,
-      "lng": -4.087324
     },
     {
       "id": "uk-sainsburys-way-42291302",
@@ -79663,16 +79673,6 @@
       "city": "",
       "lat": 52.808673,
       "lng": -2.121507
-    },
-    {
-      "id": "uk-sainsburys-way-71506559",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.323088,
-      "lng": -0.761996
     },
     {
       "id": "uk-sainsburys-way-80187152",
@@ -79985,16 +79985,6 @@
       "lng": -2.752453
     },
     {
-      "id": "uk-sainsburys-way-169856449",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.296355,
-      "lng": 0.192958
-    },
-    {
       "id": "uk-sainsburys-way-174897346",
       "chain": "sainsburys",
       "country": "uk",
@@ -80035,16 +80025,6 @@
       "lng": -0.138232
     },
     {
-      "id": "uk-sainsburys-way-184612090",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "The Maltings, HR9 7YB",
-      "city": "",
-      "lat": 51.915407,
-      "lng": -2.581317
-    },
-    {
       "id": "uk-sainsburys-way-189261910",
       "chain": "sainsburys",
       "country": "uk",
@@ -80083,16 +80063,6 @@
       "city": "",
       "lat": 53.44985,
       "lng": -2.354116
-    },
-    {
-      "id": "uk-sainsburys-way-210025358",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "NR27 9JW",
-      "city": "",
-      "lat": 52.9276,
-      "lng": 1.288395
     },
     {
       "id": "uk-sainsburys-way-221499548",
@@ -80195,16 +80165,6 @@
       "lng": -2.037044
     },
     {
-      "id": "uk-sainsburys-way-476927553",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Voyager Drive, WS11 8XP",
-      "city": "",
-      "lat": 52.673905,
-      "lng": -2.016451
-    },
-    {
       "id": "uk-sainsburys-way-486114959",
       "chain": "sainsburys",
       "country": "uk",
@@ -80213,16 +80173,6 @@
       "city": "",
       "lat": 53.500621,
       "lng": -2.526674
-    },
-    {
-      "id": "uk-sainsburys-way-492847908",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.480739,
-      "lng": -0.128141
     },
     {
       "id": "uk-sainsburys-way-493479392",
@@ -80243,16 +80193,6 @@
       "city": "",
       "lat": 51.669606,
       "lng": -4.042871
-    },
-    {
-      "id": "uk-sainsburys-way-598589232",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 53.423022,
-      "lng": -2.9797
     },
     {
       "id": "uk-sainsburys-way-760789643",
@@ -80595,16 +80535,6 @@
       "lng": -1.903736
     },
     {
-      "id": "uk-sainsburys-node-312671346",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.402942,
-      "lng": -0.193192
-    },
-    {
       "id": "uk-sainsburys-node-13615085002",
       "chain": "sainsburys",
       "country": "uk",
@@ -80735,16 +80665,6 @@
       "lng": -0.250755
     },
     {
-      "id": "uk-sainsburys-node-299614394",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.537364,
-      "lng": -0.102676
-    },
-    {
       "id": "uk-sainsburys-node-312915805",
       "chain": "sainsburys",
       "country": "uk",
@@ -80761,8 +80681,8 @@
       "name": "Sainsbury's Local",
       "address": "Princes Avenue 81-85, HU5 3QU",
       "city": "",
-      "lat": 53.754417,
-      "lng": -0.359971
+      "lat": 53.754404,
+      "lng": -0.360011
     },
     {
       "id": "uk-sainsburys-node-331850751",
@@ -80833,16 +80753,6 @@
       "city": "",
       "lat": 51.497386,
       "lng": -0.080532
-    },
-    {
-      "id": "uk-sainsburys-node-752316626",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 54.55268,
-      "lng": -1.262752
     },
     {
       "id": "uk-sainsburys-node-774533583",
@@ -80923,16 +80833,6 @@
       "city": "",
       "lat": 51.747868,
       "lng": -1.237477
-    },
-    {
-      "id": "uk-sainsburys-node-1598320806",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.484686,
-      "lng": -0.219751
     },
     {
       "id": "uk-sainsburys-node-1686593827",
@@ -81151,8 +81051,8 @@
       "name": "Sainsbury's Local",
       "address": "Sainsbury's Local",
       "city": "",
-      "lat": 51.606094,
-      "lng": 0.218864
+      "lat": 51.606061,
+      "lng": 0.218947
     },
     {
       "id": "uk-sainsburys-node-3887160357",
@@ -81385,16 +81285,6 @@
       "lng": -0.074186
     },
     {
-      "id": "uk-sainsburys-node-7419375764",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Martin Way",
-      "city": "",
-      "lat": 51.402717,
-      "lng": -0.210045
-    },
-    {
       "id": "uk-sainsburys-node-7481366419",
       "chain": "sainsburys",
       "country": "uk",
@@ -81519,7 +81409,7 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
+      "address": "Bethune Avenue 83-89, HU4 7EH",
       "city": "",
       "lat": 53.730049,
       "lng": -0.417097
@@ -81825,16 +81715,6 @@
       "lng": -4.27304
     },
     {
-      "id": "uk-sainsburys-node-13140064052",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.457331,
-      "lng": -0.972336
-    },
-    {
       "id": "uk-sainsburys-node-13361356688",
       "chain": "sainsburys",
       "country": "uk",
@@ -81863,16 +81743,6 @@
       "city": "",
       "lat": 53.452481,
       "lng": -2.394029
-    },
-    {
-      "id": "uk-sainsburys-node-13534159696",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 53.993068,
-      "lng": -1.540435
     },
     {
       "id": "uk-sainsburys-node-13641178164",
@@ -81913,16 +81783,6 @@
       "city": "",
       "lat": 51.879592,
       "lng": -0.376212
-    },
-    {
-      "id": "uk-sainsburys-way-26587165",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Central Road",
-      "city": "",
-      "lat": 51.395219,
-      "lng": -0.194121
     },
     {
       "id": "uk-sainsburys-way-70594989",
@@ -82185,16 +82045,6 @@
       "lng": -0.453001
     },
     {
-      "id": "uk-sainsburys-way-388149464",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 53.744729,
-      "lng": -0.429735
-    },
-    {
       "id": "uk-sainsburys-way-398513023",
       "chain": "sainsburys",
       "country": "uk",
@@ -82223,16 +82073,6 @@
       "city": "",
       "lat": 51.496865,
       "lng": -0.32555
-    },
-    {
-      "id": "uk-sainsburys-way-417983708",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.570352,
-      "lng": -0.114998
     },
     {
       "id": "uk-sainsburys-way-428865317",
@@ -82371,18 +82211,8 @@
       "name": "Sainsbury's Local",
       "address": "Sainsbury's Local",
       "city": "",
-      "lat": 51.948081,
-      "lng": -0.020311
-    },
-    {
-      "id": "uk-sainsburys-way-703344862",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.391713,
-      "lng": -0.118952
+      "lat": 51.948097,
+      "lng": -0.020344
     },
     {
       "id": "uk-sainsburys-way-717846043",
@@ -82465,16 +82295,6 @@
       "lng": -0.821927
     },
     {
-      "id": "uk-sainsburys-way-922483592",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Warwick Road",
-      "city": "",
-      "lat": 52.07909,
-      "lng": -1.368815
-    },
-    {
       "id": "uk-sainsburys-way-966321763",
       "chain": "sainsburys",
       "country": "uk",
@@ -82503,16 +82323,6 @@
       "city": "",
       "lat": 54.593536,
       "lng": -1.070259
-    },
-    {
-      "id": "uk-sainsburys-way-986804434",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.571073,
-      "lng": -0.77581
     },
     {
       "id": "uk-sainsburys-way-1108496356",
@@ -82603,16 +82413,6 @@
       "city": "",
       "lat": 51.372878,
       "lng": 0.555221
-    },
-    {
-      "id": "uk-sainsburys-node-1277048696",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "St Johns Road 60-64, TN4 9PE",
-      "city": "",
-      "lat": 51.141463,
-      "lng": 0.260451
     },
     {
       "id": "uk-sainsburys-node-1720859622",
@@ -83085,6 +82885,16 @@
       "lng": -1.3335
     },
     {
+      "id": "uk-sainsburys-way-922483592",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Warwick Road Walker Road, OX16 1HE Banbury",
+      "city": "Banbury",
+      "lat": 52.07909,
+      "lng": -1.368815
+    },
+    {
       "id": "uk-sainsburys-node-1673407321",
       "chain": "sainsburys",
       "country": "uk",
@@ -83441,8 +83251,8 @@
       "name": "Sainsbury's Local",
       "address": "Corporation Street 133, B4 6PH Birmingham",
       "city": "Birmingham",
-      "lat": 52.482449,
-      "lng": -1.894433
+      "lat": 52.482501,
+      "lng": -1.894413
     },
     {
       "id": "uk-sainsburys-node-1204413303",
@@ -83549,7 +83359,7 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's Local",
-      "address": "PH10 6ET Blairgowrie",
+      "address": "High Street 18-35, PH10 6ET Blairgowrie",
       "city": "Blairgowrie",
       "lat": 56.592496,
       "lng": -3.339333
@@ -84205,6 +84015,16 @@
       "lng": -2.003137
     },
     {
+      "id": "uk-sainsburys-way-71506559",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Blackwater Valley Road, GU15 3YN Camberley",
+      "city": "Camberley",
+      "lat": 51.323088,
+      "lng": -0.761996
+    },
+    {
       "id": "uk-sainsburys-node-634995716",
       "chain": "sainsburys",
       "country": "uk",
@@ -84293,6 +84113,16 @@
       "city": "Cambridge",
       "lat": 52.169325,
       "lng": 0.104274
+    },
+    {
+      "id": "uk-sainsburys-way-476927553",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Voyager Drive, WS11 8XP Cannock",
+      "city": "Cannock",
+      "lat": 52.673905,
+      "lng": -2.016451
     },
     {
       "id": "uk-sainsburys-way-28121197",
@@ -84995,6 +84825,16 @@
       "lng": -0.193452
     },
     {
+      "id": "uk-sainsburys-way-210025358",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "NR27 9JW Cromer",
+      "city": "Cromer",
+      "lat": 52.9276,
+      "lng": 1.288395
+    },
+    {
       "id": "uk-sainsburys-way-219009064",
       "chain": "sainsburys",
       "country": "uk",
@@ -85123,16 +84963,6 @@
       "city": "Darlington",
       "lat": 54.521086,
       "lng": -1.550356
-    },
-    {
-      "id": "uk-sainsburys-way-384147314",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Clifton Road 4, DL1 5DS Darlington",
-      "city": "Darlington",
-      "lat": 54.52105,
-      "lng": -1.550372
     },
     {
       "id": "uk-sainsburys-way-38043298",
@@ -85981,8 +85811,8 @@
       "name": "Sainsbury's",
       "address": "Alphington Road, EX2 8NH Exeter",
       "city": "Exeter",
-      "lat": 50.706744,
-      "lng": -3.536197
+      "lat": 50.706759,
+      "lng": -3.536184
     },
     {
       "id": "uk-sainsburys-way-84235131",
@@ -86422,7 +86252,7 @@
       "address": "Barnett Way, GL4 3RT Gloucester",
       "city": "Gloucester",
       "lat": 51.865146,
-      "lng": -2.200659
+      "lng": -2.200927
     },
     {
       "id": "uk-sainsburys-way-58758439",
@@ -86511,8 +86341,8 @@
       "name": "Sainsbury's",
       "address": "Corporation Road, DN31 1UF Grimsby",
       "city": "Grimsby",
-      "lat": 53.570065,
-      "lng": -0.084323
+      "lat": 53.570067,
+      "lng": -0.084317
     },
     {
       "id": "uk-sainsburys-node-11419802127",
@@ -86583,6 +86413,16 @@
       "city": "Halifax",
       "lat": 53.715278,
       "lng": -1.897424
+    },
+    {
+      "id": "uk-sainsburys-node-428889293",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "High Street 48a, CO9 2JB Halstead",
+      "city": "Halstead",
+      "lat": 51.944422,
+      "lng": 0.636404
     },
     {
       "id": "uk-sainsburys-way-260795051",
@@ -86675,6 +86515,16 @@
       "lng": -1.499519
     },
     {
+      "id": "uk-sainsburys-node-13534159696",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Cambridge Street 33, HG1 1RW Harrogate",
+      "city": "Harrogate",
+      "lat": 53.993068,
+      "lng": -1.540435
+    },
+    {
       "id": "uk-sainsburys-way-187803633",
       "chain": "sainsburys",
       "country": "uk",
@@ -86711,18 +86561,8 @@
       "name": "Sainsbury's",
       "address": "Nash Way 1, HA3 0JA Harrow",
       "city": "Harrow",
-      "lat": 51.58153,
-      "lng": -0.31527
-    },
-    {
-      "id": "uk-sainsburys-node-547322903",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Rayners Lane 387-395, HA5 5ER Harrow",
-      "city": "Harrow",
-      "lat": 51.576537,
-      "lng": -0.371322
+      "lat": 51.581515,
+      "lng": -0.315233
     },
     {
       "id": "uk-sainsburys-node-11118442103",
@@ -86761,8 +86601,8 @@
       "name": "Sainsbury's Local",
       "address": "Keymer Road, Hassocks",
       "city": "Hassocks",
-      "lat": 50.924266,
-      "lng": -0.143128
+      "lat": 50.924258,
+      "lng": -0.143107
     },
     {
       "id": "uk-sainsburys-way-418263494",
@@ -86801,7 +86641,7 @@
       "name": "Sainsbury's",
       "address": "Hayes, Middlesex",
       "city": "Hayes, Middlesex",
-      "lat": 51.515346,
+      "lat": 51.515352,
       "lng": -0.403469
     },
     {
@@ -87195,6 +87035,16 @@
       "lng": -0.343653
     },
     {
+      "id": "uk-sainsburys-way-388149464",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Hull Road 42, HU10 6UA Hull",
+      "city": "Hull",
+      "lat": 53.744729,
+      "lng": -0.429735
+    },
+    {
       "id": "uk-sainsburys-way-297430622",
       "chain": "sainsburys",
       "country": "uk",
@@ -87515,6 +87365,16 @@
       "lng": -0.283428
     },
     {
+      "id": "uk-sainsburys-node-13621540801",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Wood Street, KT1 1UJ Kingston upon Thames",
+      "city": "Kingston upon Thames",
+      "lat": 51.412609,
+      "lng": -0.301416
+    },
+    {
       "id": "uk-sainsburys-way-554242059",
       "chain": "sainsburys",
       "country": "uk",
@@ -87533,16 +87393,6 @@
       "city": "Kingston upon Thames",
       "lat": 51.431324,
       "lng": -0.307345
-    },
-    {
-      "id": "uk-sainsburys-node-13621540801",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury’s Local",
-      "address": "Wood Street, KT1 1UJ Kingston upon Thames",
-      "city": "Kingston upon Thames",
-      "lat": 51.412582,
-      "lng": -0.301297
     },
     {
       "id": "uk-sainsburys-way-60541459",
@@ -87909,7 +87759,7 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's Local",
-      "address": "Royal Park Road, LS6 1HX Leeds",
+      "address": "Royal Park Road 30, LS6 1HX Leeds",
       "city": "Leeds",
       "lat": 53.810863,
       "lng": -1.570333
@@ -87981,7 +87831,7 @@
       "name": "Sainsbury's",
       "address": "Third Avenue, SG6 2HX Letchworth Garden City",
       "city": "Letchworth Garden City",
-      "lat": 51.982,
+      "lat": 51.982006,
       "lng": -0.203786
     },
     {
@@ -88021,8 +87871,8 @@
       "name": "Sainsbury's Local",
       "address": "Carholme Road 18A, LN1 1RR Lincoln",
       "city": "Lincoln",
-      "lat": 53.231064,
-      "lng": -0.550728
+      "lat": 53.231052,
+      "lng": -0.550737
     },
     {
       "id": "uk-sainsburys-way-136502172",
@@ -88062,7 +87912,7 @@
       "address": "High Street 19-23, BN17 5EG Littlehampton",
       "city": "Littlehampton",
       "lat": 50.809909,
-      "lng": -0.543164
+      "lng": -0.543162
     },
     {
       "id": "uk-sainsburys-way-36975240",
@@ -88093,6 +87943,16 @@
       "city": "Liverpool",
       "lat": 53.37555,
       "lng": -2.865564
+    },
+    {
+      "id": "uk-sainsburys-way-598589232",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Jennifer Avenue 26, L5 5AA Liverpool",
+      "city": "Liverpool",
+      "lat": 53.423022,
+      "lng": -2.9797
     },
     {
       "id": "uk-sainsburys-node-4758066572",
@@ -88323,16 +88183,6 @@
       "city": "London",
       "lat": 51.526304,
       "lng": -0.217759
-    },
-    {
-      "id": "uk-sainsburys-way-25116657",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Tulse Hill 2, SW2 2TP London",
-      "city": "London",
-      "lat": 51.454793,
-      "lng": -0.113907
     },
     {
       "id": "uk-sainsburys-way-25335396",
@@ -88605,6 +88455,16 @@
       "lng": -0.209011
     },
     {
+      "id": "uk-sainsburys-way-492847908",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Wandsworth Road 62, London",
+      "city": "London",
+      "lat": 51.480739,
+      "lng": -0.128141
+    },
+    {
       "id": "uk-sainsburys-way-612289324",
       "chain": "sainsburys",
       "country": "uk",
@@ -88733,6 +88593,16 @@
       "city": "London",
       "lat": 51.512653,
       "lng": -0.087498
+    },
+    {
+      "id": "uk-sainsburys-node-299614394",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Upper Street 317, N1 2XQ London",
+      "city": "London",
+      "lat": 51.537364,
+      "lng": -0.102676
     },
     {
       "id": "uk-sainsburys-node-300500853",
@@ -88893,6 +88763,16 @@
       "city": "London",
       "lat": 51.492199,
       "lng": -0.207243
+    },
+    {
+      "id": "uk-sainsburys-node-1598320806",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Fulham Palace Road 179-183, W6 8QZ London",
+      "city": "London",
+      "lat": 51.484686,
+      "lng": -0.219751
     },
     {
       "id": "uk-sainsburys-node-1731472479",
@@ -89521,8 +89401,8 @@
       "name": "Sainsbury's Local",
       "address": "Fulham Road 582, SW6 5NT London",
       "city": "London",
-      "lat": 51.477887,
-      "lng": -0.201493
+      "lat": 51.477863,
+      "lng": -0.201511
     },
     {
       "id": "uk-sainsburys-node-8677671890",
@@ -90235,6 +90115,16 @@
       "lng": -0.054421
     },
     {
+      "id": "uk-sainsburys-way-417983708",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Stroud Green Road 175-179, N4 3PZ London",
+      "city": "London",
+      "lat": 51.570352,
+      "lng": -0.114998
+    },
+    {
       "id": "uk-sainsburys-way-425013519",
       "chain": "sainsburys",
       "country": "uk",
@@ -90539,20 +90429,10 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's Local",
-      "address": "Avery Avenue 14-16, London",
+      "address": "Avery Avenue 14-16, E16 4BF London",
       "city": "London",
       "lat": 51.526524,
       "lng": 0.003827
-    },
-    {
-      "id": "uk-sainsburys-node-11234794408",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "North End Road 340-342, London",
-      "city": "London",
-      "lat": 51.481901,
-      "lng": -0.199909
     },
     {
       "id": "uk-sainsburys-way-28511890",
@@ -90661,8 +90541,8 @@
       "name": "Sainsbury's Local",
       "address": "Wootton Way 43-45, SL6 4QZ Maidenhead",
       "city": "Maidenhead",
-      "lat": 51.516549,
-      "lng": -0.743322
+      "lat": 51.516454,
+      "lng": -0.743267
     },
     {
       "id": "uk-sainsburys-node-2326885644",
@@ -90855,6 +90735,16 @@
       "lng": -0.777944
     },
     {
+      "id": "uk-sainsburys-way-986804434",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "High Street 25-27, SL7 1AU Marlow",
+      "city": "Marlow",
+      "lat": 51.571073,
+      "lng": -0.77581
+    },
+    {
       "id": "uk-sainsburys-way-231568892",
       "chain": "sainsburys",
       "country": "uk",
@@ -90883,6 +90773,16 @@
       "city": "Middlesbrough",
       "lat": 54.576744,
       "lng": -1.242712
+    },
+    {
+      "id": "uk-sainsburys-node-752316626",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Acklam Road 123-129, TS5 5HR Middlesbrough",
+      "city": "Middlesbrough",
+      "lat": 54.55268,
+      "lng": -1.262752
     },
     {
       "id": "uk-sainsburys-node-1736128658",
@@ -91003,6 +90903,26 @@
       "city": "Morden",
       "lat": 51.403256,
       "lng": -0.193268
+    },
+    {
+      "id": "uk-sainsburys-node-7419375764",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Martin Way 198 - 202, SM4 4AJ Morden",
+      "city": "Morden",
+      "lat": 51.402717,
+      "lng": -0.210045
+    },
+    {
+      "id": "uk-sainsburys-way-26587165",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Central Road 144, SM4 5RL Morden",
+      "city": "Morden",
+      "lat": 51.395219,
+      "lng": -0.194121
     },
     {
       "id": "uk-sainsburys-way-23713662",
@@ -92065,6 +91985,16 @@
       "lng": -0.380772
     },
     {
+      "id": "uk-sainsburys-node-547322903",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Rayners Lane 387-395, HA5 5ER Pinner",
+      "city": "Pinner",
+      "lat": 51.576537,
+      "lng": -0.371322
+    },
+    {
       "id": "uk-sainsburys-node-11118426625",
       "chain": "sainsburys",
       "country": "uk",
@@ -92073,6 +92003,16 @@
       "city": "Pinner",
       "lat": 51.576658,
       "lng": -0.397992
+    },
+    {
+      "id": "uk-sainsburys-way-41082373",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Plymouth Road, PL3 6RL Plymouth",
+      "city": "Plymouth",
+      "lat": 50.388897,
+      "lng": -4.087324
     },
     {
       "id": "uk-sainsburys-node-2917958287",
@@ -92315,6 +92255,16 @@
       "lng": -1.061759
     },
     {
+      "id": "uk-sainsburys-node-13140064052",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Station Road 17-27, RG1 1LG Reading",
+      "city": "Reading",
+      "lat": 51.457331,
+      "lng": -0.972336
+    },
+    {
       "id": "uk-sainsburys-node-11118410598",
       "chain": "sainsburys",
       "country": "uk",
@@ -92453,6 +92403,16 @@
       "city": "Romford",
       "lat": 51.582079,
       "lng": 0.176149
+    },
+    {
+      "id": "uk-sainsburys-way-184612090",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "The Maltings, HR9 7YB Ross-On-Wye",
+      "city": "Ross-On-Wye",
+      "lat": 51.915407,
+      "lng": -2.581317
     },
     {
       "id": "uk-sainsburys-node-3654705384",
@@ -92695,14 +92655,14 @@
       "lng": -1.071179
     },
     {
-      "id": "uk-sainsburys-node-1810142316",
+      "id": "uk-sainsburys-way-169856449",
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's",
       "address": "Otford Road, TN14 5EG Sevenoaks",
       "city": "Sevenoaks",
-      "lat": 51.296333,
-      "lng": 0.193034
+      "lat": 51.296355,
+      "lng": 0.192958
     },
     {
       "id": "uk-sainsburys-way-103970038",
@@ -92903,16 +92863,6 @@
       "city": "Sheringham",
       "lat": 52.943916,
       "lng": 1.21126
-    },
-    {
-      "id": "uk-sainsburys-way-407171554",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Gloucester Crescent, LE18 4XJ Shire Court",
-      "city": "Shire Court",
-      "lat": 52.587033,
-      "lng": -1.134163
     },
     {
       "id": "uk-sainsburys-node-392955771",
@@ -93935,6 +93885,16 @@
       "lng": 0.720726
     },
     {
+      "id": "uk-sainsburys-way-703344862",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Thornton Road 114 - 116, CR7 6BB Thornton Heath",
+      "city": "Thornton Heath",
+      "lat": 51.391713,
+      "lng": -0.118952
+    },
+    {
       "id": "uk-sainsburys-way-1030002937",
       "chain": "sainsburys",
       "country": "uk",
@@ -94029,7 +93989,7 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's",
-      "address": "Ings Road 1, WF1 1RS Wakefield",
+      "address": "Ings Road 50, WF1 1RS Wakefield",
       "city": "Wakefield",
       "lat": 53.67773,
       "lng": -1.499407
@@ -94083,6 +94043,16 @@
       "city": "Wakefield",
       "lat": 53.65504,
       "lng": -1.427169
+    },
+    {
+      "id": "uk-sainsburys-node-1132689647",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Stafford Road 2, SM6 9AA Wallington",
+      "city": "Wallington",
+      "lat": 51.358329,
+      "lng": -0.148176
     },
     {
       "id": "uk-sainsburys-node-3481449311",
@@ -94601,8 +94571,8 @@
       "name": "Sainsbury's",
       "address": "Middle Brook Street 2, SO23 8AQ Winchester",
       "city": "Winchester",
-      "lat": 51.06222,
-      "lng": -1.311724
+      "lat": 51.062221,
+      "lng": -1.311728
     },
     {
       "id": "uk-sainsburys-way-385709265",
@@ -94803,16 +94773,6 @@
       "city": "Worcester Park",
       "lat": 51.376863,
       "lng": -0.238699
-    },
-    {
-      "id": "uk-sainsburys-way-907775901",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Central Road 1-15, KT4 8EG Worcester Park",
-      "city": "Worcester Park",
-      "lat": 51.376856,
-      "lng": -0.238702
     },
     {
       "id": "uk-sainsburys-way-152836997",
@@ -95053,16 +95013,6 @@
       "city": "York",
       "lat": 53.957869,
       "lng": -1.092593
-    },
-    {
-      "id": "uk-sainsburys-node-5146139272",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Station Road, YO24 1AY York",
-      "city": "York",
-      "lat": 53.957886,
-      "lng": -1.092687
     },
     {
       "id": "uk-tesco-node-263700422",
