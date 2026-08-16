@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-15T03:27:49.109Z",
+  "importedAt": "2026-08-16T01:56:33.654Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12513,
+  "count": 12512,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -589,10 +589,10 @@
       "chain": "albert-heijn",
       "country": "nl",
       "name": "Albert Heijn",
-      "address": "Theo Mann-Bouwmeesterlaan 9, 2597GV 's-Gravenhage",
+      "address": "Theo Mann-Bouwmeesterlaan 19, 2597GV 's-Gravenhage",
       "city": "'s-Gravenhage",
-      "lat": 52.104825,
-      "lng": 4.323783
+      "lat": 52.104888,
+      "lng": 4.323743
     },
     {
       "id": "nl-albert-heijn-node-5147994371",
@@ -26419,7 +26419,7 @@
       "chain": "lidl",
       "country": "nl",
       "name": "Lidl",
-      "address": "Oude Molenstraat 45, 5342GB Oss",
+      "address": "Oss",
       "city": "Oss",
       "lat": 51.758154,
       "lng": 5.534839
@@ -32305,6 +32305,16 @@
       "lng": -3.048677
     },
     {
+      "id": "uk-aldi-uk-node-2982603563",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Elder Gate",
+      "city": "",
+      "lat": 52.037709,
+      "lng": -0.77748
+    },
+    {
       "id": "uk-aldi-uk-node-4378529094",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32315,6 +32325,16 @@
       "lng": -0.401516
     },
     {
+      "id": "uk-aldi-uk-node-4716376559",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Elizabethan Way, OL16 4GJ",
+      "city": "",
+      "lat": 53.60953,
+      "lng": -2.114559
+    },
+    {
       "id": "uk-aldi-uk-node-4795161587",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32323,6 +32343,16 @@
       "city": "",
       "lat": 51.610275,
       "lng": -3.660746
+    },
+    {
+      "id": "uk-aldi-uk-node-4944511321",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Barnfield Drive, PO19 7AG",
+      "city": "",
+      "lat": 50.847357,
+      "lng": -0.760516
     },
     {
       "id": "uk-aldi-uk-node-5099365172",
@@ -32525,6 +32555,16 @@
       "lng": -2.445474
     },
     {
+      "id": "uk-aldi-uk-node-10593763242",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.035299,
+      "lng": -0.688637
+    },
+    {
       "id": "uk-aldi-uk-node-11333471204",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32645,6 +32685,16 @@
       "lng": -3.067996
     },
     {
+      "id": "uk-aldi-uk-way-34094486",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Branch Way 8",
+      "city": "",
+      "lat": 53.466641,
+      "lng": -2.667378
+    },
+    {
       "id": "uk-aldi-uk-way-34233621",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32723,6 +32773,16 @@
       "city": "",
       "lat": 52.479588,
       "lng": -1.47576
+    },
+    {
+      "id": "uk-aldi-uk-way-70517314",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Saltwells Road, DY2 9PE",
+      "city": "",
+      "lat": 52.483588,
+      "lng": -2.073717
     },
     {
       "id": "uk-aldi-uk-way-70844794",
@@ -32961,8 +33021,8 @@
       "name": "Aldi",
       "address": "Holyhead Road",
       "city": "",
-      "lat": 52.68866,
-      "lng": -2.443906
+      "lat": 52.688649,
+      "lng": -2.443948
     },
     {
       "id": "uk-aldi-uk-way-199801415",
@@ -33019,7 +33079,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Aberystwyth Road",
+      "address": "Aberystwyth Road, SA43 1NA",
       "city": "",
       "lat": 52.087554,
       "lng": -4.651726
@@ -33485,6 +33545,16 @@
       "lng": -2.984914
     },
     {
+      "id": "uk-aldi-uk-way-586961268",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Stow Road",
+      "city": "",
+      "lat": 51.984303,
+      "lng": -1.706768
+    },
+    {
       "id": "uk-aldi-uk-way-589333037",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33571,8 +33641,8 @@
       "name": "Aldi",
       "address": "Aldi",
       "city": "",
-      "lat": 53.397609,
-      "lng": -2.260188
+      "lat": 53.397595,
+      "lng": -2.260176
     },
     {
       "id": "uk-aldi-uk-way-694021929",
@@ -33739,7 +33809,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "TS17 9HA",
+      "address": "Aldi",
       "city": "",
       "lat": 54.535954,
       "lng": -1.289707
@@ -33775,6 +33845,16 @@
       "lng": -3.173054
     },
     {
+      "id": "uk-aldi-uk-way-870461187",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Warminster Road 60,62",
+      "city": "",
+      "lat": 51.257883,
+      "lng": -2.185342
+    },
+    {
       "id": "uk-aldi-uk-way-875749763",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33803,6 +33883,16 @@
       "city": "",
       "lat": 52.399586,
       "lng": -1.937895
+    },
+    {
+      "id": "uk-aldi-uk-way-916578808",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Coppice Lane, L35 1QT",
+      "city": "",
+      "lat": 53.398476,
+      "lng": -2.814119
     },
     {
       "id": "uk-aldi-uk-way-926137313",
@@ -33845,6 +33935,16 @@
       "lng": -1.073787
     },
     {
+      "id": "uk-aldi-uk-way-996021134",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Parkgate Road",
+      "city": "",
+      "lat": 53.205168,
+      "lng": -2.90166
+    },
+    {
       "id": "uk-aldi-uk-way-999448555",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33863,6 +33963,16 @@
       "city": "",
       "lat": 51.678916,
       "lng": -4.136647
+    },
+    {
+      "id": "uk-aldi-uk-way-1060052519",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Methuen Park, SN14 0GX",
+      "city": "",
+      "lat": 51.44722,
+      "lng": -2.144573
     },
     {
       "id": "uk-aldi-uk-way-1091205962",
@@ -33945,16 +34055,6 @@
       "lng": -1.669222
     },
     {
-      "id": "uk-aldi-uk-way-1295944798",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Overstone Leys, NN6 0AB",
-      "city": "",
-      "lat": 52.288899,
-      "lng": -0.835129
-    },
-    {
       "id": "uk-aldi-uk-way-1313113537",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33995,6 +34095,16 @@
       "lng": -2.179582
     },
     {
+      "id": "uk-aldi-uk-way-1415436735",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 55.842302,
+      "lng": -4.12123
+    },
+    {
       "id": "uk-aldi-uk-way-1421756192",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34003,6 +34113,16 @@
       "city": "",
       "lat": 52.489321,
       "lng": -2.020324
+    },
+    {
+      "id": "uk-aldi-uk-way-1422483340",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 54.352179,
+      "lng": -1.446959
     },
     {
       "id": "uk-aldi-uk-way-1423250001",
@@ -34295,16 +34415,6 @@
       "lng": -2.411801
     },
     {
-      "id": "uk-aldi-uk-way-916578808",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "ALDI",
-      "address": "Coppice Lane, L35 1QT",
-      "city": "",
-      "lat": 53.398476,
-      "lng": -2.814119
-    },
-    {
       "id": "uk-aldi-uk-way-1105785999",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34343,6 +34453,26 @@
       "city": "",
       "lat": 53.099677,
       "lng": -2.995694
+    },
+    {
+      "id": "uk-aldi-uk-way-1295944798",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "ALDI",
+      "address": "Overstone Leys, NN6 0AB",
+      "city": "",
+      "lat": 52.288899,
+      "lng": -0.835129
+    },
+    {
+      "id": "uk-aldi-uk-way-183304689",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "ALDI",
+      "address": "Voyager Drive, WS11 8XP",
+      "city": "",
+      "lat": 52.67404,
+      "lng": -2.020117
     },
     {
       "id": "uk-aldi-uk-node-13508666075",
@@ -34443,6 +34573,16 @@
       "city": "Airdrie",
       "lat": 55.868607,
       "lng": -3.983713
+    },
+    {
+      "id": "uk-aldi-uk-way-229364787",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "High Street 20, ML6 0DT Airdrie",
+      "city": "Airdrie",
+      "lat": 55.868625,
+      "lng": -3.983726
     },
     {
       "id": "uk-aldi-uk-way-664548861",
@@ -36125,16 +36265,6 @@
       "lng": -2.978264
     },
     {
-      "id": "uk-aldi-uk-way-996021134",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Parkgate Road, CH1 4BE Chester",
-      "city": "Chester",
-      "lat": 53.205168,
-      "lng": -2.90166
-    },
-    {
       "id": "uk-aldi-uk-way-1024538892",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36185,16 +36315,6 @@
       "lng": -1.415485
     },
     {
-      "id": "uk-aldi-uk-node-4944511321",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Barnfield Drive, PO19 7AG Chichester",
-      "city": "Chichester",
-      "lat": 50.847357,
-      "lng": -0.760516
-    },
-    {
       "id": "uk-aldi-uk-way-688388398",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36203,16 +36323,6 @@
       "city": "Chippenham",
       "lat": 51.464227,
       "lng": -2.113473
-    },
-    {
-      "id": "uk-aldi-uk-way-1060052519",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Methuen Park, SN14 0GX Chippenham",
-      "city": "Chippenham",
-      "lat": 51.44722,
-      "lng": -2.144573
     },
     {
       "id": "uk-aldi-uk-way-415074779",
@@ -36312,7 +36422,7 @@
       "address": "Sence Valley Road, LE67 1HU Coalville",
       "city": "Coalville",
       "lat": 52.699561,
-      "lng": -1.352044
+      "lng": -1.352061
     },
     {
       "id": "uk-aldi-uk-node-11665034449",
@@ -36341,8 +36451,8 @@
       "name": "Aldi",
       "address": "Magdalen Street, CO1 2FJ Colchester",
       "city": "Colchester",
-      "lat": 51.885253,
-      "lng": 0.909013
+      "lat": 51.885255,
+      "lng": 0.908995
     },
     {
       "id": "uk-aldi-uk-way-416923590",
@@ -36685,6 +36795,16 @@
       "lng": 0.218958
     },
     {
+      "id": "uk-aldi-uk-way-534942120",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Roman Way 4, DA1 4FY Dartford",
+      "city": "Dartford",
+      "lat": 51.450752,
+      "lng": 0.178195
+    },
+    {
       "id": "uk-aldi-uk-node-13508660589",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36915,16 +37035,6 @@
       "lng": -1.475144
     },
     {
-      "id": "uk-aldi-uk-way-70517314",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Saltwells Road, DY2 9PE Dudley",
-      "city": "Dudley",
-      "lat": 52.483588,
-      "lng": -2.073717
-    },
-    {
       "id": "uk-aldi-uk-way-367996809",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36971,8 +37081,8 @@
       "name": "Aldi",
       "address": "Myrekirk Road 55, DD2 4WB Dundee",
       "city": "Dundee",
-      "lat": 56.475164,
-      "lng": -3.046702
+      "lat": 56.475147,
+      "lng": -3.046703
     },
     {
       "id": "uk-aldi-uk-way-1245840029",
@@ -37178,7 +37288,7 @@
       "id": "uk-aldi-uk-way-223913082",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Lisle Lane 41, CB7 4AS Ely",
       "city": "Ely",
       "lat": 52.399063,
@@ -37543,16 +37653,6 @@
       "city": "Glasgow",
       "lat": 55.846175,
       "lng": -4.354422
-    },
-    {
-      "id": "uk-aldi-uk-way-1415436735",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Boghall Road 11, G71 7GU Glasgow",
-      "city": "Glasgow",
-      "lat": 55.842302,
-      "lng": -4.12123
     },
     {
       "id": "uk-aldi-uk-way-904808873",
@@ -38171,8 +38271,8 @@
       "name": "Aldi",
       "address": "Manor Road, DE7 8EG Ilkeston",
       "city": "Ilkeston",
-      "lat": 52.977479,
-      "lng": -1.310101
+      "lat": 52.977478,
+      "lng": -1.310111
     },
     {
       "id": "uk-aldi-uk-way-361778845",
@@ -38351,8 +38451,8 @@
       "name": "Aldi",
       "address": "Fairfield West 13, KT1 1DF Kingston upon Thames",
       "city": "Kingston upon Thames",
-      "lat": 51.410132,
-      "lng": -0.301294
+      "lat": 51.410248,
+      "lng": -0.301228
     },
     {
       "id": "uk-aldi-uk-way-387444412",
@@ -39059,7 +39159,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Old Kent Road 840, SE15 1NQ London",
+      "address": "Old Kent Road 840, London",
       "city": "London",
       "lat": 51.478831,
       "lng": -0.055857
@@ -39219,10 +39319,10 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Kentish Town Road 152, NW1 9QB London",
+      "address": "Kentish Town Road 152-156, NW1 9QB London",
       "city": "London",
-      "lat": 51.546583,
-      "lng": -0.141379
+      "lat": 51.546591,
+      "lng": -0.14138
     },
     {
       "id": "uk-aldi-uk-way-1106106138",
@@ -39243,6 +39343,16 @@
       "city": "London",
       "lat": 51.525774,
       "lng": -0.089379
+    },
+    {
+      "id": "uk-aldi-uk-node-2429828501",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Tooting High Street 33-35, SW17 0SP London",
+      "city": "London",
+      "lat": 51.428757,
+      "lng": -0.167001
     },
     {
       "id": "uk-aldi-uk-node-5916003255",
@@ -39578,7 +39688,7 @@
       "id": "uk-aldi-uk-way-809927625",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Oakleaf Close, NG18 4GH Mansfield",
       "city": "Mansfield",
       "lat": 53.126519,
@@ -39675,26 +39785,6 @@
       "lng": -1.159733
     },
     {
-      "id": "uk-aldi-uk-node-2982603563",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Elder Gate, MK9 1EN Milton Keynes",
-      "city": "Milton Keynes",
-      "lat": 52.037709,
-      "lng": -0.77748
-    },
-    {
-      "id": "uk-aldi-uk-node-10593763242",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "MK10 0BA Milton Keynes",
-      "city": "Milton Keynes",
-      "lat": 52.035299,
-      "lng": -0.688637
-    },
-    {
       "id": "uk-aldi-uk-way-88172098",
       "chain": "aldi-uk",
       "country": "uk",
@@ -39753,16 +39843,6 @@
       "city": "Morecambe",
       "lat": 54.070363,
       "lng": -2.875578
-    },
-    {
-      "id": "uk-aldi-uk-way-586961268",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Stow Road, GL56 0DS Moreton-In-Marsh",
-      "city": "Moreton-In-Marsh",
-      "lat": 51.984303,
-      "lng": -1.706768
     },
     {
       "id": "uk-aldi-uk-way-150276834",
@@ -39915,6 +39995,16 @@
       "lng": 0.398125
     },
     {
+      "id": "uk-aldi-uk-node-246524661",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Exning Road, CB8 0EA Newmarket",
+      "city": "Newmarket",
+      "lat": 52.249633,
+      "lng": 0.398156
+    },
+    {
       "id": "uk-aldi-uk-node-9415394577",
       "chain": "aldi-uk",
       "country": "uk",
@@ -40035,16 +40125,6 @@
       "lng": -1.456387
     },
     {
-      "id": "uk-aldi-uk-way-1422483340",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "North Moor Road, DL6 2GQ Northallerton",
-      "city": "Northallerton",
-      "lat": 54.352179,
-      "lng": -1.446959
-    },
-    {
       "id": "uk-aldi-uk-node-5180851004",
       "chain": "aldi-uk",
       "country": "uk",
@@ -40135,16 +40215,6 @@
       "lng": 1.188252
     },
     {
-      "id": "uk-aldi-uk-way-443728173",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Hall Road, NR4 6DH Norwich",
-      "city": "Norwich",
-      "lat": 52.609648,
-      "lng": 1.29113
-    },
-    {
       "id": "uk-aldi-uk-way-507663714",
       "chain": "aldi-uk",
       "country": "uk",
@@ -40161,8 +40231,18 @@
       "name": "Aldi",
       "address": "Sprowston Road 463, NR3 4EB Norwich",
       "city": "Norwich",
-      "lat": 52.649639,
-      "lng": 1.30852
+      "lat": 52.649582,
+      "lng": 1.308498
+    },
+    {
+      "id": "uk-aldi-uk-way-443728173",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "ALDI",
+      "address": "Hall Road, NR4 6DH Norwich",
+      "city": "Norwich",
+      "lat": 52.609648,
+      "lng": 1.29113
     },
     {
       "id": "uk-aldi-uk-way-51459128",
@@ -40261,8 +40341,8 @@
       "name": "Aldi",
       "address": "Nottingham Road 64-74, NG13 8AW Nottingham",
       "city": "Nottingham",
-      "lat": 52.95098,
-      "lng": -0.963857
+      "lat": 52.950998,
+      "lng": -0.963858
     },
     {
       "id": "uk-aldi-uk-way-741346616",
@@ -40581,8 +40661,8 @@
       "name": "Aldi",
       "address": "Flaxland, PE3 8DF Peterborough",
       "city": "Peterborough",
-      "lat": 52.590964,
-      "lng": -0.282256
+      "lat": 52.590963,
+      "lng": -0.282259
     },
     {
       "id": "uk-aldi-uk-way-1208147629",
@@ -40771,7 +40851,7 @@
       "name": "Aldi",
       "address": "Tithebarn Street, FY6 7BX Poulton-le-Fylde",
       "city": "Poulton-le-Fylde",
-      "lat": 53.848194,
+      "lat": 53.848183,
       "lng": -2.992344
     },
     {
@@ -40973,16 +41053,6 @@
       "city": "Ripon",
       "lat": 54.13861,
       "lng": -1.51946
-    },
-    {
-      "id": "uk-aldi-uk-node-4716376559",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Elizabethan Way, OL16 4GJ Rochdale",
-      "city": "Rochdale",
-      "lat": 53.60953,
-      "lng": -2.114559
     },
     {
       "id": "uk-aldi-uk-way-522112044",
@@ -41508,7 +41578,7 @@
       "id": "uk-aldi-uk-way-49799694",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "East Street, Sittingbourne",
       "city": "Sittingbourne",
       "lat": 51.338673,
@@ -41589,7 +41659,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Homer Road 83, B91 3QJ Solihull",
+      "address": "Homer Road, B91 3QJ Solihull",
       "city": "Solihull",
       "lat": 52.41264,
       "lng": -1.781286
@@ -41711,7 +41781,7 @@
       "name": "Aldi",
       "address": "Tom Stewart Lane, KY16 8YB St Andrews",
       "city": "St Andrews",
-      "lat": 56.330643,
+      "lat": 56.330644,
       "lng": -2.804301
     },
     {
@@ -41725,14 +41795,14 @@
       "lng": -4.775201
     },
     {
-      "id": "uk-aldi-uk-way-34094486",
+      "id": "uk-aldi-uk-way-852018961",
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Branch Way 8, WA11 0QW St Helens",
+      "address": "Linkway West, WA10 1QA St Helens",
       "city": "St Helens",
-      "lat": 53.466641,
-      "lng": -2.667378
+      "lat": 53.451889,
+      "lng": -2.743713
     },
     {
       "id": "uk-aldi-uk-way-1547274066",
@@ -41745,14 +41815,14 @@
       "lng": -2.726583
     },
     {
-      "id": "uk-aldi-uk-way-852018961",
+      "id": "uk-aldi-uk-node-7027297999",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "ALDI",
-      "address": "Highpoint A58, WA10 1QT St Helens",
+      "name": "Aldi",
+      "address": "Peasley Cross Lane, WA9 1JJ St Helens",
       "city": "St Helens",
-      "lat": 53.451889,
-      "lng": -2.743713
+      "lat": 53.44954,
+      "lng": -2.727706
     },
     {
       "id": "uk-aldi-uk-way-825485350",
@@ -41819,7 +41889,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Front Street, DH9 0HU Stanley",
+      "address": "Front Street, DH9 0NQ Stanley",
       "city": "Stanley",
       "lat": 54.868673,
       "lng": -1.699148
@@ -41928,7 +41998,7 @@
       "id": "uk-aldi-uk-way-967251855",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Gipping Way, IP14 1HN Stowmarket",
       "city": "Stowmarket",
       "lat": 52.186701,
@@ -41978,7 +42048,7 @@
       "id": "uk-aldi-uk-way-157099776",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Girling Street, CO10 1NB Sudbury",
       "city": "Sudbury",
       "lat": 52.042099,
@@ -42619,7 +42689,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Dalton Way 7 - 8, WD17 2SF Watford",
+      "address": "Dalton Way, Watford",
       "city": "Watford",
       "lat": 51.649513,
       "lng": -0.389353
@@ -42693,16 +42763,6 @@
       "city": "West Drayton",
       "lat": 51.514562,
       "lng": -0.474268
-    },
-    {
-      "id": "uk-aldi-uk-way-870461187",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Warminster Road 60,62, BA13 3PF Westbury",
-      "city": "Westbury",
-      "lat": 51.257883,
-      "lng": -2.185342
     },
     {
       "id": "uk-aldi-uk-way-882130160",
@@ -46823,6 +46883,16 @@
       "city": "Enniskillen",
       "lat": 54.340487,
       "lng": -7.632183
+    },
+    {
+      "id": "uk-asda-way-221245932",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "A46 Evesham Bypass, WR11 4TP Evesham",
+      "city": "Evesham",
+      "lat": 52.113338,
+      "lng": -1.93932
     },
     {
       "id": "uk-asda-way-127386263",
@@ -65595,16 +65665,6 @@
       "lng": -1.29068
     },
     {
-      "id": "uk-morrisons-node-12409503784",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Fairbrass Way 15-20, CT1 3ZL",
-      "city": "",
-      "lat": 51.264616,
-      "lng": 1.057777
-    },
-    {
       "id": "uk-morrisons-node-12458899188",
       "chain": "morrisons",
       "country": "uk",
@@ -69353,6 +69413,16 @@
       "city": "Canterbury",
       "lat": 51.271682,
       "lng": 1.063473
+    },
+    {
+      "id": "uk-morrisons-node-12409503784",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Fairbrass Way 15-20, CT1 3ZL Canterbury",
+      "city": "Canterbury",
+      "lat": 51.264616,
+      "lng": 1.057777
     },
     {
       "id": "uk-morrisons-way-568328176",
@@ -74793,6 +74863,16 @@
       "city": "Narberth",
       "lat": 51.800302,
       "lng": -4.738618
+    },
+    {
+      "id": "uk-morrisons-node-3233074765",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Station Road 6, LE19 2HR Narborough",
+      "city": "Narborough",
+      "lat": 52.571547,
+      "lng": -1.203679
     },
     {
       "id": "uk-morrisons-way-60727373",
@@ -80835,6 +80915,16 @@
       "lng": -1.237477
     },
     {
+      "id": "uk-sainsburys-node-1277048696",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "St Johns Road 60-64, TN4 9PE",
+      "city": "",
+      "lat": 51.141463,
+      "lng": 0.260451
+    },
+    {
       "id": "uk-sainsburys-node-1686593827",
       "chain": "sainsburys",
       "country": "uk",
@@ -81755,36 +81845,6 @@
       "lng": -0.288941
     },
     {
-      "id": "uk-sainsburys-node-13947668831",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.596167,
-      "lng": -0.348268
-    },
-    {
-      "id": "uk-sainsburys-node-14026367532",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.518805,
-      "lng": -0.105114
-    },
-    {
-      "id": "uk-sainsburys-node-14083456383",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.879592,
-      "lng": -0.376212
-    },
-    {
       "id": "uk-sainsburys-way-70594989",
       "chain": "sainsburys",
       "country": "uk",
@@ -82325,16 +82385,6 @@
       "lng": -1.070259
     },
     {
-      "id": "uk-sainsburys-way-1108496356",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.141432,
-      "lng": 0.260598
-    },
-    {
       "id": "uk-sainsburys-way-1137370371",
       "chain": "sainsburys",
       "country": "uk",
@@ -82455,6 +82505,36 @@
       "lng": -0.413812
     },
     {
+      "id": "uk-sainsburys-node-13947668831",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.596167,
+      "lng": -0.348268
+    },
+    {
+      "id": "uk-sainsburys-node-14026367532",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.518805,
+      "lng": -0.105114
+    },
+    {
+      "id": "uk-sainsburys-node-14083456383",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.879592,
+      "lng": -0.376212
+    },
+    {
       "id": "uk-sainsburys-way-87705149",
       "chain": "sainsburys",
       "country": "uk",
@@ -82473,6 +82553,16 @@
       "city": "",
       "lat": 51.454606,
       "lng": -2.525941
+    },
+    {
+      "id": "uk-sainsburys-way-1108496356",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.141432,
+      "lng": 0.260598
     },
     {
       "id": "uk-sainsburys-way-89976373",
@@ -82513,6 +82603,16 @@
       "city": "",
       "lat": 53.11419,
       "lng": -1.396273
+    },
+    {
+      "id": "uk-sainsburys-node-8477250165",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's On The Go",
+      "address": "Sainsbury's On The Go",
+      "city": "",
+      "lat": 53.064075,
+      "lng": -2.252923
     },
     {
       "id": "uk-sainsburys-node-13585962311",
@@ -84955,6 +85055,16 @@
       "lng": -1.561679
     },
     {
+      "id": "uk-sainsburys-way-384147314",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Clifton Road 4, DL1 5DS Darlington",
+      "city": "Darlington",
+      "lat": 54.52105,
+      "lng": -1.550372
+    },
+    {
       "id": "uk-sainsburys-node-14068908168",
       "chain": "sainsburys",
       "country": "uk",
@@ -86225,16 +86335,6 @@
       "lng": -4.284162
     },
     {
-      "id": "uk-sainsburys-way-1540299668",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Millersneuk Road, G66 5JD Glasgow",
-      "city": "Glasgow",
-      "lat": 55.920848,
-      "lng": -4.151098
-    },
-    {
       "id": "uk-sainsburys-node-437522472",
       "chain": "sainsburys",
       "country": "uk",
@@ -86243,6 +86343,16 @@
       "city": "Glasgow",
       "lat": 55.875497,
       "lng": -4.292648
+    },
+    {
+      "id": "uk-sainsburys-way-1540299668",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Millersneuk Road, G66 5JD Glasgow",
+      "city": "Glasgow",
+      "lat": 55.920848,
+      "lng": -4.151098
     },
     {
       "id": "uk-sainsburys-way-53322220",
@@ -87365,16 +87475,6 @@
       "lng": -0.283428
     },
     {
-      "id": "uk-sainsburys-node-13621540801",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Wood Street, KT1 1UJ Kingston upon Thames",
-      "city": "Kingston upon Thames",
-      "lat": 51.412609,
-      "lng": -0.301416
-    },
-    {
       "id": "uk-sainsburys-way-554242059",
       "chain": "sainsburys",
       "country": "uk",
@@ -87393,6 +87493,16 @@
       "city": "Kingston upon Thames",
       "lat": 51.431324,
       "lng": -0.307345
+    },
+    {
+      "id": "uk-sainsburys-node-13621540801",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Wood Street, KT1 1UJ Kingston upon Thames",
+      "city": "Kingston upon Thames",
+      "lat": 51.412609,
+      "lng": -0.301416
     },
     {
       "id": "uk-sainsburys-way-60541459",
@@ -88885,16 +88995,6 @@
       "lng": -0.021745
     },
     {
-      "id": "uk-sainsburys-node-2406721776",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "St Martin's Place 7-8, WC2N 4JH London",
-      "city": "London",
-      "lat": 51.509371,
-      "lng": -0.126541
-    },
-    {
       "id": "uk-sainsburys-node-2447053254",
       "chain": "sainsburys",
       "country": "uk",
@@ -89593,6 +89693,16 @@
       "city": "London",
       "lat": 51.491286,
       "lng": -0.097308
+    },
+    {
+      "id": "uk-sainsburys-node-11234794408",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "North End Road 340-342, London",
+      "city": "London",
+      "lat": 51.481901,
+      "lng": -0.199909
     },
     {
       "id": "uk-sainsburys-node-11239922500",
@@ -90433,6 +90543,16 @@
       "city": "London",
       "lat": 51.526524,
       "lng": 0.003827
+    },
+    {
+      "id": "uk-sainsburys-node-2406721776",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "St Martin's Place 7-8, WC2N 4JH London",
+      "city": "London",
+      "lat": 51.509371,
+      "lng": -0.126541
     },
     {
       "id": "uk-sainsburys-way-28511890",
@@ -92865,6 +92985,16 @@
       "lng": 1.21126
     },
     {
+      "id": "uk-sainsburys-way-407171554",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Gloucester Crescent, LE18 4XJ Shire Court",
+      "city": "Shire Court",
+      "lat": 52.587033,
+      "lng": -1.134163
+    },
+    {
       "id": "uk-sainsburys-node-392955771",
       "chain": "sainsburys",
       "country": "uk",
@@ -95005,6 +95135,16 @@
       "lng": -1.083553
     },
     {
+      "id": "uk-sainsburys-node-5146139272",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Station Road, YO24 1AY York",
+      "city": "York",
+      "lat": 53.957886,
+      "lng": -1.092687
+    },
+    {
       "id": "uk-sainsburys-way-1546587981",
       "chain": "sainsburys",
       "country": "uk",
@@ -96623,36 +96763,6 @@
       "city": "",
       "lat": 54.606779,
       "lng": -1.282292
-    },
-    {
-      "id": "uk-tesco-way-1472518329",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Tesco",
-      "city": "",
-      "lat": 51.598229,
-      "lng": -3.781506
-    },
-    {
-      "id": "uk-tesco-way-1493089935",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Heartlands Terrace 5",
-      "city": "",
-      "lat": 55.866068,
-      "lng": -3.703078
-    },
-    {
-      "id": "uk-tesco-node-11808065474",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Click & Collect",
-      "address": "Tesco Click & Collect",
-      "city": "",
-      "lat": 51.498931,
-      "lng": -3.204884
     },
     {
       "id": "uk-tesco-node-224687495",
@@ -101365,16 +101475,6 @@
       "lng": -1.784333
     },
     {
-      "id": "uk-tesco-node-14015259301",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Tesco Express",
-      "city": "",
-      "lat": 53.638435,
-      "lng": -2.637963
-    },
-    {
       "id": "uk-tesco-node-27025138",
       "chain": "tesco",
       "country": "uk",
@@ -101835,46 +101935,6 @@
       "lng": -0.030033
     },
     {
-      "id": "uk-tesco-way-795019377",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Extra",
-      "address": "Tesco Extra",
-      "city": "",
-      "lat": 53.488333,
-      "lng": -2.290425
-    },
-    {
-      "id": "uk-tesco-way-1021742244",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Extra",
-      "address": "Tesco Extra",
-      "city": "",
-      "lat": 53.36249,
-      "lng": -2.725569
-    },
-    {
-      "id": "uk-tesco-node-8551716783",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Extra Petrol Station Shop",
-      "address": "Tesco Extra Petrol Station Shop",
-      "city": "",
-      "lat": 51.488656,
-      "lng": -3.13025
-    },
-    {
-      "id": "uk-tesco-way-1493723405",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Filling Station",
-      "address": "Tryst Road 1, G67 1JW",
-      "city": "",
-      "lat": 55.944388,
-      "lng": -3.99014
-    },
-    {
       "id": "uk-tesco-way-444831997",
       "chain": "tesco",
       "country": "uk",
@@ -101913,16 +101973,6 @@
       "city": "",
       "lat": 52.485507,
       "lng": -1.890401
-    },
-    {
-      "id": "uk-tesco-node-11728787469",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Yasmin's Tesco",
-      "address": "Feeny Road 715, BT47 4TB",
-      "city": "",
-      "lat": 54.899496,
-      "lng": -6.976482
     },
     {
       "id": "uk-tesco-node-2442047721",
@@ -105161,8 +105211,8 @@
       "name": "Tesco Express",
       "address": "Station Road 150-152, CM0 8HQ Burnham-On-Crouch",
       "city": "Burnham-On-Crouch",
-      "lat": 51.627659,
-      "lng": 0.81514
+      "lat": 51.627664,
+      "lng": 0.815197
     },
     {
       "id": "uk-tesco-way-134741527",
@@ -107935,16 +107985,6 @@
       "lng": 0.303517
     },
     {
-      "id": "uk-tesco-way-1041753400",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Extra",
-      "address": "Lottbridge Drove 21, BN23 6QD Eastbourne",
-      "city": "Eastbourne",
-      "lat": 50.787311,
-      "lng": 0.303736
-    },
-    {
       "id": "uk-tesco-node-912015560",
       "chain": "tesco",
       "country": "uk",
@@ -110113,16 +110153,6 @@
       "city": "Haslemere",
       "lat": 51.086612,
       "lng": -0.730493
-    },
-    {
-      "id": "uk-tesco-way-281328880",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Great North Road, AL9 5JY Hatfield",
-      "city": "Hatfield",
-      "lat": 51.777318,
-      "lng": -0.222179
     },
     {
       "id": "uk-tesco-way-161528023",
@@ -116275,16 +116305,6 @@
       "lng": -2.535434
     },
     {
-      "id": "uk-tesco-way-966248633",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "High Street, Lydney",
-      "city": "Lydney",
-      "lat": 51.72526,
-      "lng": -2.534273
-    },
-    {
       "id": "uk-tesco-node-3745232256",
       "chain": "tesco",
       "country": "uk",
@@ -120605,16 +120625,6 @@
       "lng": -1.071225
     },
     {
-      "id": "uk-tesco-node-1556414750",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Doncaster Road, YO8 9EG Selby",
-      "city": "Selby",
-      "lat": 53.768782,
-      "lng": -1.089557
-    },
-    {
       "id": "uk-tesco-way-76285347",
       "chain": "tesco",
       "country": "uk",
@@ -121925,16 +121935,6 @@
       "lng": -2.728648
     },
     {
-      "id": "uk-tesco-way-1043618149",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Extra",
-      "address": "St Helens Linkway, WA9 3AL St Helens",
-      "city": "St Helens",
-      "lat": 53.445612,
-      "lng": -2.730769
-    },
-    {
       "id": "uk-tesco-way-205672969",
       "chain": "tesco",
       "country": "uk",
@@ -122213,16 +122213,6 @@
       "city": "Stockton-on-Tees",
       "lat": 54.593098,
       "lng": -1.353274
-    },
-    {
-      "id": "uk-tesco-way-1051018290",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Extra",
-      "address": "Durham Road, TS21 3LU Stockton-on-Tees",
-      "city": "Stockton-on-Tees",
-      "lat": 54.591534,
-      "lng": -1.351638
     },
     {
       "id": "uk-tesco-way-54827442",
@@ -123035,16 +123025,6 @@
       "lng": -1.347624
     },
     {
-      "id": "uk-tesco-way-866147747",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Petrol Station",
-      "address": "Midland Way, BS35 2BS Thornbury",
-      "city": "Thornbury",
-      "lat": 51.60488,
-      "lng": -2.526542
-    },
-    {
       "id": "uk-tesco-way-316861525",
       "chain": "tesco",
       "country": "uk",
@@ -123713,6 +123693,16 @@
       "city": "Ware",
       "lat": 51.811537,
       "lng": -0.031562
+    },
+    {
+      "id": "uk-tesco-way-626036828",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "The Green 52-58, CR6 9NA Warlingham",
+      "city": "Warlingham",
+      "lat": 51.309306,
+      "lng": -0.055343
     },
     {
       "id": "uk-tesco-way-1345408213",
