@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-16T03:40:36.039Z",
+  "importedAt": "2026-08-17T01:59:39.264Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12507,
+  "count": 12538,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -211,8 +211,8 @@
       "name": "Albert Heijn",
       "address": "Albert Heijn",
       "city": "",
-      "lat": 52.355674,
-      "lng": 4.838661
+      "lat": 52.355708,
+      "lng": 4.8386
     },
     {
       "id": "nl-albert-heijn-node-13243504701",
@@ -253,6 +253,16 @@
       "city": "",
       "lat": 53.016897,
       "lng": 6.561043
+    },
+    {
+      "id": "nl-albert-heijn-way-273528804",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn v.d.Linden",
+      "address": "Albert Heijn v.d.Linden",
+      "city": "",
+      "lat": 52.30725,
+      "lng": 4.846005
     },
     {
       "id": "nl-albert-heijn-node-7189155666",
@@ -589,10 +599,10 @@
       "chain": "albert-heijn",
       "country": "nl",
       "name": "Albert Heijn",
-      "address": "Theo Mann-Bouwmeesterlaan 19, 2597GV 's-Gravenhage",
+      "address": "Theo Mann-Bouwmeesterlaan 9, 2597GV 's-Gravenhage",
       "city": "'s-Gravenhage",
-      "lat": 52.104888,
-      "lng": 4.323743
+      "lat": 52.104825,
+      "lng": 4.323783
     },
     {
       "id": "nl-albert-heijn-node-5147994371",
@@ -715,6 +725,16 @@
       "lng": 5.301244
     },
     {
+      "id": "nl-albert-heijn-node-2741677813",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn",
+      "address": "Helftheuvelpassage 1, 5224AA 's-Hertogenbosch",
+      "city": "'s-Hertogenbosch",
+      "lat": 51.69676,
+      "lng": 5.266866
+    },
+    {
       "id": "nl-albert-heijn-node-2755777467",
       "chain": "albert-heijn",
       "country": "nl",
@@ -743,16 +763,6 @@
       "city": "'s-Hertogenbosch",
       "lat": 51.696201,
       "lng": 5.32948
-    },
-    {
-      "id": "nl-albert-heijn-node-2741677813",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn Jan Linders",
-      "address": "Helftheuvelpassage 1, 5224AA 's-Hertogenbosch",
-      "city": "'s-Hertogenbosch",
-      "lat": 51.69676,
-      "lng": 5.266866
     },
     {
       "id": "nl-albert-heijn-node-4815940060",
@@ -931,8 +941,8 @@
       "name": "Albert Heijn",
       "address": "Watercipresstraat 15, 1326CM Almere",
       "city": "Almere",
-      "lat": 52.376009,
-      "lng": 5.243511
+      "lat": 52.37601,
+      "lng": 5.243503
     },
     {
       "id": "nl-albert-heijn-node-34044808",
@@ -941,8 +951,8 @@
       "name": "Albert Heijn",
       "address": "Lavendelplantsoen 60, 1313GA Almere",
       "city": "Almere",
-      "lat": 52.382267,
-      "lng": 5.198589
+      "lat": 52.382269,
+      "lng": 5.198743
     },
     {
       "id": "nl-albert-heijn-node-34045788",
@@ -951,8 +961,8 @@
       "name": "Albert Heijn",
       "address": "Rimsky-Korssakovweg 9, 1323LP Almere",
       "city": "Almere",
-      "lat": 52.366804,
-      "lng": 5.190654
+      "lat": 52.366901,
+      "lng": 5.190668
     },
     {
       "id": "nl-albert-heijn-node-560115871",
@@ -971,8 +981,8 @@
       "name": "Albert Heijn",
       "address": "'s-Hertogenboschplein 15, 1324WB Almere",
       "city": "Almere",
-      "lat": 52.359919,
-      "lng": 5.205415
+      "lat": 52.359956,
+      "lng": 5.20538
     },
     {
       "id": "nl-albert-heijn-node-2842513345",
@@ -981,8 +991,8 @@
       "name": "Albert Heijn",
       "address": "Salsastraat 81, 1326PC Almere",
       "city": "Almere",
-      "lat": 52.365588,
-      "lng": 5.256195
+      "lat": 52.365788,
+      "lng": 5.256392
     },
     {
       "id": "nl-albert-heijn-node-2842839268",
@@ -991,8 +1001,8 @@
       "name": "Albert Heijn",
       "address": "Juan Grisstraat 44, 1328KA Almere",
       "city": "Almere",
-      "lat": 52.372053,
-      "lng": 5.266128
+      "lat": 52.371946,
+      "lng": 5.265821
     },
     {
       "id": "nl-albert-heijn-node-3076365340",
@@ -1011,8 +1021,8 @@
       "name": "Albert Heijn",
       "address": "Botplein 15, 1317SK Almere",
       "city": "Almere",
-      "lat": 52.389147,
-      "lng": 5.231506
+      "lat": 52.389095,
+      "lng": 5.231716
     },
     {
       "id": "nl-albert-heijn-node-4386679795",
@@ -1255,20 +1265,10 @@
       "lng": 4.825707
     },
     {
-      "id": "nl-albert-heijn-node-4869096274",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn Van der Linden",
-      "address": "Amsterdamseweg 73, 1182GP Amstelveen",
-      "city": "Amstelveen",
-      "lat": 52.30709,
-      "lng": 4.846357
-    },
-    {
       "id": "nl-albert-heijn-node-34044519",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "Hoofdstraat 45, 6436CB Amstenrade",
       "city": "Amstenrade",
       "lat": 50.941377,
@@ -1785,16 +1785,6 @@
       "lng": 4.810915
     },
     {
-      "id": "nl-albert-heijn-node-2814628449",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn",
-      "address": "Amstelveenseweg 186-H, 1075XR Amsterdam",
-      "city": "Amsterdam",
-      "lat": 52.352333,
-      "lng": 4.855852
-    },
-    {
       "id": "nl-albert-heijn-node-2814629351",
       "chain": "albert-heijn",
       "country": "nl",
@@ -1953,6 +1943,16 @@
       "city": "Amsterdam",
       "lat": 52.359677,
       "lng": 4.862091
+    },
+    {
+      "id": "nl-albert-heijn-node-4460848820",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn",
+      "address": "Amstelveenseweg 186, 1075XR Amsterdam",
+      "city": "Amsterdam",
+      "lat": 52.352319,
+      "lng": 4.855798
     },
     {
       "id": "nl-albert-heijn-node-4530594889",
@@ -2211,8 +2211,8 @@
       "name": "Albert Heijn",
       "address": "Fortunastraat 17, 6846XZ Arnhem",
       "city": "Arnhem",
-      "lat": 51.953789,
-      "lng": 5.847502
+      "lat": 51.953848,
+      "lng": 5.847513
     },
     {
       "id": "nl-albert-heijn-node-4847704103",
@@ -2915,6 +2915,16 @@
       "lng": 4.093259
     },
     {
+      "id": "nl-albert-heijn-node-5173529240",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn",
+      "address": "Kennedylaan 90, 6441JG Brunssum",
+      "city": "Brunssum",
+      "lat": 50.949363,
+      "lng": 5.959723
+    },
+    {
       "id": "nl-albert-heijn-node-5424936172",
       "chain": "albert-heijn",
       "country": "nl",
@@ -2933,16 +2943,6 @@
       "city": "Brunssum",
       "lat": 50.945425,
       "lng": 5.97174
-    },
-    {
-      "id": "nl-albert-heijn-node-5173529240",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn Jan Linders",
-      "address": "Kennedylaan 90, 6441JG Brunssum",
-      "city": "Brunssum",
-      "lat": 50.949363,
-      "lng": 5.959723
     },
     {
       "id": "nl-albert-heijn-node-5196842081",
@@ -3628,11 +3628,11 @@
       "id": "nl-albert-heijn-node-2296694255",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "Mexicoplein 1, 5152LC Drunen",
       "city": "Drunen",
-      "lat": 51.682396,
-      "lng": 5.12983
+      "lat": 51.682407,
+      "lng": 5.129824
     },
     {
       "id": "nl-albert-heijn-node-2296694624",
@@ -4788,7 +4788,7 @@
       "id": "nl-albert-heijn-node-2931255131",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Heerschap",
+      "name": "Albert Heijn",
       "address": "Linsenhof 5, 6081GM Haelen",
       "city": "Haelen",
       "lat": 51.234638,
@@ -6375,6 +6375,16 @@
       "lng": 4.24032
     },
     {
+      "id": "nl-albert-heijn-node-34045525",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn",
+      "address": "Burgemeester Cortenstraat 8, 6226GV Maastricht",
+      "city": "Maastricht",
+      "lat": 50.844153,
+      "lng": 5.728024
+    },
+    {
       "id": "nl-albert-heijn-node-429798205",
       "chain": "albert-heijn",
       "country": "nl",
@@ -6415,14 +6425,14 @@
       "lng": 5.688747
     },
     {
-      "id": "nl-albert-heijn-node-34045525",
+      "id": "nl-albert-heijn-node-9652236851",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
-      "address": "Burgemeester Cortenstraat 8, 6226GV Maastricht",
+      "name": "Albert Heijn",
+      "address": "Masadastraat 51, 6222DZ Maastricht",
       "city": "Maastricht",
-      "lat": 50.844153,
-      "lng": 5.728024
+      "lat": 50.865115,
+      "lng": 5.71105
     },
     {
       "id": "nl-albert-heijn-node-4709842744",
@@ -6433,16 +6443,6 @@
       "city": "Maastricht",
       "lat": 50.843172,
       "lng": 5.677742
-    },
-    {
-      "id": "nl-albert-heijn-node-9652236851",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn Jan Linders",
-      "address": "Masadastraat 51, 6222DZ Maastricht",
-      "city": "Maastricht",
-      "lat": 50.865115,
-      "lng": 5.71105
     },
     {
       "id": "nl-albert-heijn-node-11133944632",
@@ -6811,8 +6811,8 @@
       "name": "Albert Heijn",
       "address": "Schoterlandseweg 43, 8414LN Nieuwehorne",
       "city": "Nieuwehorne",
-      "lat": 52.94985,
-      "lng": 6.053449
+      "lat": 52.949996,
+      "lng": 6.053393
     },
     {
       "id": "nl-albert-heijn-node-5241817231",
@@ -7648,7 +7648,7 @@
       "id": "nl-albert-heijn-node-441058332",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "Molenhoekpassage 5, 5242CZ Rosmalen",
       "city": "Rosmalen",
       "lat": 51.710162,
@@ -7658,7 +7658,7 @@
       "id": "nl-albert-heijn-node-9721948009",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "Het Frontier 176, 5245EE Rosmalen",
       "city": "Rosmalen",
       "lat": 51.736554,
@@ -8015,16 +8015,6 @@
       "lng": 4.489615
     },
     {
-      "id": "nl-albert-heijn-node-14030900342",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn",
-      "address": "Westblaak 232, 3012KP Rotterdam",
-      "city": "Rotterdam",
-      "lat": 51.916161,
-      "lng": 4.474535
-    },
-    {
       "id": "nl-albert-heijn-node-2821674851",
       "chain": "albert-heijn",
       "country": "nl",
@@ -8185,6 +8175,16 @@
       "lng": 5.460134
     },
     {
+      "id": "nl-albert-heijn-node-2887241960",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn",
+      "address": "Brugstraat 1, 6131AE Sittard",
+      "city": "Sittard",
+      "lat": 50.999193,
+      "lng": 5.858873
+    },
+    {
       "id": "nl-albert-heijn-node-5198151481",
       "chain": "albert-heijn",
       "country": "nl",
@@ -8203,16 +8203,6 @@
       "city": "Sittard",
       "lat": 51.000429,
       "lng": 5.845278
-    },
-    {
-      "id": "nl-albert-heijn-node-2887241960",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn Jan Linders",
-      "address": "Brugstraat 1, 6131AE Sittard",
-      "city": "Sittard",
-      "lat": 50.999193,
-      "lng": 5.858873
     },
     {
       "id": "nl-albert-heijn-node-296371207",
@@ -8398,7 +8388,7 @@
       "id": "nl-albert-heijn-node-2832109490",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "Van der Duinstraat 115, 5161BN Sprang-Capelle",
       "city": "Sprang-Capelle",
       "lat": 51.668503,
@@ -8458,7 +8448,7 @@
       "id": "nl-albert-heijn-node-4985521389",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "Industrieweg 19, 6171CN Stein",
       "city": "Stein",
       "lat": 50.978125,
@@ -8508,11 +8498,21 @@
       "id": "nl-albert-heijn-node-34044513",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "Raadhuislaan 48, 5931NS Tegelen",
       "city": "Tegelen",
       "lat": 51.341316,
       "lng": 6.141212
+    },
+    {
+      "id": "nl-albert-heijn-node-968136114",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn Jan Linders",
+      "address": "Kerkstraat 42, 5931NN Tegelen",
+      "city": "Tegelen",
+      "lat": 51.341275,
+      "lng": 6.139843
     },
     {
       "id": "nl-albert-heijn-node-2752965835",
@@ -8615,6 +8615,16 @@
       "lng": 5.090691
     },
     {
+      "id": "nl-albert-heijn-node-2851138217",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn",
+      "address": "Korvelplein 191, 5025JX Tilburg",
+      "city": "Tilburg",
+      "lat": 51.548788,
+      "lng": 5.067449
+    },
+    {
       "id": "nl-albert-heijn-node-5196703724",
       "chain": "albert-heijn",
       "country": "nl",
@@ -8633,16 +8643,6 @@
       "city": "Tilburg",
       "lat": 51.57629,
       "lng": 5.039729
-    },
-    {
-      "id": "nl-albert-heijn-node-2851138217",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn Jan Linders",
-      "address": "Korvelplein 191, 5025JX Tilburg",
-      "city": "Tilburg",
-      "lat": 51.548788,
-      "lng": 5.067449
     },
     {
       "id": "nl-albert-heijn-node-2844602717",
@@ -8891,18 +8891,18 @@
       "name": "Albert Heijn",
       "address": "Damstraat 37, 3531BS Utrecht",
       "city": "Utrecht",
-      "lat": 52.092194,
-      "lng": 5.10358
+      "lat": 52.092233,
+      "lng": 5.103599
     },
     {
       "id": "nl-albert-heijn-node-2679530376",
       "chain": "albert-heijn",
       "country": "nl",
       "name": "Albert Heijn",
-      "address": "Biltstraat 90,92,94,96, 3572BH Utrecht",
+      "address": "Biltstraat 90, 3572BH Utrecht",
       "city": "Utrecht",
-      "lat": 52.095385,
-      "lng": 5.130548
+      "lat": 52.095415,
+      "lng": 5.130765
     },
     {
       "id": "nl-albert-heijn-node-2701981757",
@@ -9135,6 +9135,16 @@
       "lng": 5.969032
     },
     {
+      "id": "nl-albert-heijn-node-34045570",
+      "chain": "albert-heijn",
+      "country": "nl",
+      "name": "Albert Heijn",
+      "address": "Wieënpassage 40, 5921GD Venlo",
+      "city": "Venlo",
+      "lat": 51.368238,
+      "lng": 6.149932
+    },
+    {
       "id": "nl-albert-heijn-node-318945450",
       "chain": "albert-heijn",
       "country": "nl",
@@ -9155,16 +9165,6 @@
       "lng": 6.162354
     },
     {
-      "id": "nl-albert-heijn-node-34045570",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn Jan Linders",
-      "address": "Wieënpassage 40, 5921GD Venlo",
-      "city": "Venlo",
-      "lat": 51.368238,
-      "lng": 6.149932
-    },
-    {
       "id": "nl-albert-heijn-node-34045598",
       "chain": "albert-heijn",
       "country": "nl",
@@ -9178,11 +9178,11 @@
       "id": "nl-albert-heijn-node-1987552046",
       "chain": "albert-heijn",
       "country": "nl",
-      "name": "Albert Heijn Jan Linders",
+      "name": "Albert Heijn",
       "address": "De Gouden Leeuw 8, 5801BX Venray",
       "city": "Venray",
-      "lat": 51.522869,
-      "lng": 5.973055
+      "lat": 51.522886,
+      "lng": 5.973073
     },
     {
       "id": "nl-albert-heijn-node-2751010521",
@@ -9291,8 +9291,8 @@
       "name": "Albert Heijn",
       "address": "Zeestraat 21-1, 1131ZD Volendam",
       "city": "Volendam",
-      "lat": 52.493858,
-      "lng": 5.072177
+      "lat": 52.493792,
+      "lng": 5.072431
     },
     {
       "id": "nl-albert-heijn-node-2844625882",
@@ -10415,6 +10415,16 @@
       "lng": 5.374331
     },
     {
+      "id": "nl-aldi-node-34045198",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI",
+      "address": "ALDI",
+      "city": "",
+      "lat": 52.172359,
+      "lng": 5.001982
+    },
+    {
       "id": "nl-aldi-node-34045207",
       "chain": "aldi",
       "country": "nl",
@@ -10423,6 +10433,16 @@
       "city": "",
       "lat": 52.288672,
       "lng": 5.970089
+    },
+    {
+      "id": "nl-aldi-node-34045215",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI",
+      "address": "ALDI",
+      "city": "",
+      "lat": 52.225868,
+      "lng": 5.172403
     },
     {
       "id": "nl-aldi-node-34045244",
@@ -10473,6 +10493,26 @@
       "city": "",
       "lat": 52.435891,
       "lng": 6.236925
+    },
+    {
+      "id": "nl-aldi-node-497947321",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI",
+      "address": "ALDI",
+      "city": "",
+      "lat": 51.418669,
+      "lng": 5.439238
+    },
+    {
+      "id": "nl-aldi-node-663312557",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI",
+      "address": "ALDI",
+      "city": "",
+      "lat": 51.960454,
+      "lng": 4.532446
     },
     {
       "id": "nl-aldi-node-812598752",
@@ -10755,16 +10795,6 @@
       "lng": 4.402215
     },
     {
-      "id": "nl-aldi-node-2733914684",
-      "chain": "aldi",
-      "country": "nl",
-      "name": "ALDI",
-      "address": "Loosduinse Hoofdstraat 280, 2552AN 's-Gravenhage",
-      "city": "'s-Gravenhage",
-      "lat": 52.053338,
-      "lng": 4.235607
-    },
-    {
       "id": "nl-aldi-node-2906013901",
       "chain": "aldi",
       "country": "nl",
@@ -10813,6 +10843,16 @@
       "city": "'s-Gravenhage",
       "lat": 52.100545,
       "lng": 4.273628
+    },
+    {
+      "id": "nl-aldi-node-2733914684",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI 's-Gravenhage",
+      "address": "Loosduinse Hoofdstraat 280, 2552AN 's-Gravenhage",
+      "city": "'s-Gravenhage",
+      "lat": 52.053338,
+      "lng": 4.235607
     },
     {
       "id": "nl-aldi-node-4252065660",
@@ -10965,16 +11005,6 @@
       "lng": 5.220913
     },
     {
-      "id": "nl-aldi-node-2840347515",
-      "chain": "aldi",
-      "country": "nl",
-      "name": "ALDI",
-      "address": "Markerkant 10 6, 1316AC Almere",
-      "city": "Almere",
-      "lat": 52.385308,
-      "lng": 5.217426
-    },
-    {
       "id": "nl-aldi-node-9183522998",
       "chain": "aldi",
       "country": "nl",
@@ -11053,6 +11083,16 @@
       "city": "Amsterdam",
       "lat": 52.343844,
       "lng": 4.908663
+    },
+    {
+      "id": "nl-aldi-node-34045185",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI",
+      "address": "Nieuwe Weteringstraat 24, 1017ZX Amsterdam",
+      "city": "Amsterdam",
+      "lat": 52.360578,
+      "lng": 4.890204
     },
     {
       "id": "nl-aldi-node-34045186",
@@ -11545,16 +11585,6 @@
       "lng": 4.81645
     },
     {
-      "id": "nl-aldi-node-34045198",
-      "chain": "aldi",
-      "country": "nl",
-      "name": "ALDI",
-      "address": "Hazeslinger 10, 3621AT Breukelen",
-      "city": "Breukelen",
-      "lat": 52.172377,
-      "lng": 5.001821
-    },
-    {
       "id": "nl-aldi-node-2819519819",
       "chain": "aldi",
       "country": "nl",
@@ -11915,16 +11945,6 @@
       "lng": 5.643078
     },
     {
-      "id": "nl-aldi-node-497947321",
-      "chain": "aldi",
-      "country": "nl",
-      "name": "ALDI",
-      "address": "Kastelenplein 60, 5653LP Eindhoven",
-      "city": "Eindhoven",
-      "lat": 51.418669,
-      "lng": 5.439238
-    },
-    {
       "id": "nl-aldi-node-2735185900",
       "chain": "aldi",
       "country": "nl",
@@ -11995,14 +12015,14 @@
       "lng": 6.896861
     },
     {
-      "id": "nl-aldi-node-2632271382",
+      "id": "nl-aldi-node-2632272195",
       "chain": "aldi",
       "country": "nl",
       "name": "ALDI",
-      "address": "Statenweg 109, 7824CW Emmen",
+      "address": "Peyserhof 2, 7824CP Emmen",
       "city": "Emmen",
-      "lat": 52.780215,
-      "lng": 6.923241
+      "lat": 52.780055,
+      "lng": 6.921177
     },
     {
       "id": "nl-aldi-node-2782845023",
@@ -12655,16 +12675,6 @@
       "lng": 5.141816
     },
     {
-      "id": "nl-aldi-node-34045215",
-      "chain": "aldi",
-      "country": "nl",
-      "name": "ALDI",
-      "address": "Noordse Bosje 23, 1211BD Hilversum",
-      "city": "Hilversum",
-      "lat": 52.225868,
-      "lng": 5.172403
-    },
-    {
       "id": "nl-aldi-node-34045218",
       "chain": "aldi",
       "country": "nl",
@@ -12673,6 +12683,16 @@
       "city": "Hippolytushoef",
       "lat": 52.907135,
       "lng": 4.960464
+    },
+    {
+      "id": "nl-aldi-node-2835111978",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI",
+      "address": "Prof. van 't Hoffstraat 11, 6431VB Hoensbroek",
+      "city": "Hoensbroek",
+      "lat": 50.923268,
+      "lng": 5.938527
     },
     {
       "id": "nl-aldi-node-2835120060",
@@ -13073,6 +13093,16 @@
       "city": "Leidschendam",
       "lat": 52.096808,
       "lng": 4.403852
+    },
+    {
+      "id": "nl-aldi-node-56224567",
+      "chain": "aldi",
+      "country": "nl",
+      "name": "ALDI",
+      "address": "Tjalk 15 2, 8232LK Lelystad",
+      "city": "Lelystad",
+      "lat": 52.501758,
+      "lng": 5.471464
     },
     {
       "id": "nl-aldi-node-963511558",
@@ -14745,14 +14775,14 @@
       "lng": 4.883273
     },
     {
-      "id": "nl-aldi-node-2736210420",
+      "id": "nl-aldi-node-2736380590",
       "chain": "aldi",
       "country": "nl",
       "name": "ALDI",
-      "address": "Spoorlaan 1, 8471JP Wolvega",
+      "address": "van der Sandeplein 2, 8471RX Wolvega",
       "city": "Wolvega",
-      "lat": 52.877328,
-      "lng": 6.007462
+      "lat": 52.874487,
+      "lng": 5.997904
     },
     {
       "id": "nl-aldi-node-2966539659",
@@ -15035,16 +15065,6 @@
       "lng": 6.19031
     },
     {
-      "id": "nl-coop-node-2820575167",
-      "chain": "coop",
-      "country": "nl",
-      "name": "Coop",
-      "address": "Kerklaan 24, 1424BK De Kwakel",
-      "city": "De Kwakel",
-      "lat": 52.238519,
-      "lng": 4.793653
-    },
-    {
       "id": "nl-coop-node-2760342683",
       "chain": "coop",
       "country": "nl",
@@ -15135,16 +15155,6 @@
       "lng": 4.922848
     },
     {
-      "id": "nl-coop-node-2982331900",
-      "chain": "coop",
-      "country": "nl",
-      "name": "Coop",
-      "address": "Simon van Capelweg 153, 2431AE Noorden",
-      "city": "Noorden",
-      "lat": 52.164744,
-      "lng": 4.82967
-    },
-    {
       "id": "nl-coop-node-3006389157",
       "chain": "coop",
       "country": "nl",
@@ -15198,21 +15208,21 @@
       "id": "nl-coop-node-2167801370",
       "chain": "coop",
       "country": "nl",
-      "name": "Boon's dagmarkt Van Buel",
+      "name": "Gewoon Coop Compact",
       "address": "Lovinckplein 1, 5813CC Ysselsteyn",
       "city": "Ysselsteyn",
       "lat": 51.490512,
       "lng": 5.895441
     },
     {
-      "id": "nl-coop-node-2816987675",
+      "id": "nl-coop-node-2719530347",
       "chain": "coop",
       "country": "nl",
-      "name": "Gewoon Coop",
-      "address": "Gerrit Varwijkplein 34, 7038BX Zeddam",
-      "city": "Zeddam",
-      "lat": 51.903262,
-      "lng": 6.259157
+      "name": "Gewoon Coop Compact",
+      "address": "Albert van Meerveldstraat 90, 3785LS Zwartebroek",
+      "city": "Zwartebroek",
+      "lat": 52.177181,
+      "lng": 5.508225
     },
     {
       "id": "nl-dirk-node-34045950",
@@ -16309,10 +16319,10 @@
       "chain": "dirk",
       "country": "nl",
       "name": "Dirk",
-      "address": "Broersveld 24, 3111LJ Schiedam",
+      "address": "Broersveld 68, 3111LJ Schiedam",
       "city": "Schiedam",
-      "lat": 51.915742,
-      "lng": 4.401301
+      "lat": 51.915729,
+      "lng": 4.401255
     },
     {
       "id": "nl-dirk-node-1363042815",
@@ -16885,6 +16895,16 @@
       "lng": 4.330139
     },
     {
+      "id": "nl-jumbo-node-7036733525",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo City",
+      "address": "Grote Marktstraat 24, 2511BJ 's-Gravenhage",
+      "city": "'s-Gravenhage",
+      "lat": 52.076128,
+      "lng": 4.310709
+    },
+    {
       "id": "nl-jumbo-node-34046254",
       "chain": "jumbo",
       "country": "nl",
@@ -16983,6 +17003,16 @@
       "city": "'s-Hertogenbosch",
       "lat": 51.67979,
       "lng": 5.316601
+    },
+    {
+      "id": "nl-jumbo-node-4373784910",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo City",
+      "address": "Visstraat 54, 5211DN 's-Hertogenbosch",
+      "city": "'s-Hertogenbosch",
+      "lat": 51.690252,
+      "lng": 5.299439
     },
     {
       "id": "nl-jumbo-node-2767115311",
@@ -17363,6 +17393,16 @@
       "city": "Amsterdam",
       "lat": 52.346624,
       "lng": 4.920034
+    },
+    {
+      "id": "nl-jumbo-node-7905360244",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo City",
+      "address": "Markelerbergpad 1, 1105AW Amsterdam",
+      "city": "Amsterdam",
+      "lat": 52.29746,
+      "lng": 4.95716
     },
     {
       "id": "nl-jumbo-node-2848744281",
@@ -18885,6 +18925,16 @@
       "lng": 6.878616
     },
     {
+      "id": "nl-jumbo-node-34045841",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo",
+      "address": "Burgemeester Van Veenlaan 100, 7543AB Enschede",
+      "city": "Enschede",
+      "lat": 52.206212,
+      "lng": 6.87913
+    },
+    {
       "id": "nl-jumbo-node-1249685612",
       "chain": "jumbo",
       "country": "nl",
@@ -18953,16 +19003,6 @@
       "city": "Enschede",
       "lat": 52.211245,
       "lng": 6.863178
-    },
-    {
-      "id": "nl-jumbo-node-34045841",
-      "chain": "jumbo",
-      "country": "nl",
-      "name": "Jumbo Boswinkel",
-      "address": "Burgemeester Van Veenlaan 100, 7543AB Enschede",
-      "city": "Enschede",
-      "lat": 52.206212,
-      "lng": 6.87913
     },
     {
       "id": "nl-jumbo-node-2853563531",
@@ -20571,8 +20611,8 @@
       "name": "Jumbo",
       "address": "Breestraat 29, 8316AN Marknesse",
       "city": "Marknesse",
-      "lat": 52.708686,
-      "lng": 5.862242
+      "lat": 52.708699,
+      "lng": 5.86236
     },
     {
       "id": "nl-jumbo-node-34045593",
@@ -20593,6 +20633,16 @@
       "city": "Meerssen",
       "lat": 50.875489,
       "lng": 5.738531
+    },
+    {
+      "id": "nl-jumbo-node-2842209671",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo",
+      "address": "Beekstraat 2, 6231LG Meerssen",
+      "city": "Meerssen",
+      "lat": 50.884919,
+      "lng": 5.755746
     },
     {
       "id": "nl-jumbo-node-9097664301",
@@ -20803,6 +20853,16 @@
       "city": "Nieuwegein",
       "lat": 52.036221,
       "lng": 5.071772
+    },
+    {
+      "id": "nl-jumbo-node-441684735",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo",
+      "address": "Laag Raadstede 1, 3431LX Nieuwegein",
+      "city": "Nieuwegein",
+      "lat": 52.02836,
+      "lng": 5.085093
     },
     {
       "id": "nl-jumbo-node-3003055360",
@@ -21711,8 +21771,8 @@
       "name": "Jumbo",
       "address": "Heereweg 3, 1871EB Schoorl",
       "city": "Schoorl",
-      "lat": 52.700926,
-      "lng": 4.693135
+      "lat": 52.700913,
+      "lng": 4.693148
     },
     {
       "id": "nl-jumbo-node-34046169",
@@ -22331,8 +22391,8 @@
       "name": "Jumbo",
       "address": "Nagel 60, 8321RG Urk",
       "city": "Urk",
-      "lat": 52.663025,
-      "lng": 5.625214
+      "lat": 52.662767,
+      "lng": 5.625298
     },
     {
       "id": "nl-jumbo-node-2724424778",
@@ -22433,6 +22493,16 @@
       "city": "Utrecht",
       "lat": 52.091275,
       "lng": 5.114174
+    },
+    {
+      "id": "nl-jumbo-node-859109009",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo City",
+      "address": "Twijnstraat 48, 3511ZL Utrecht",
+      "city": "Utrecht",
+      "lat": 52.082338,
+      "lng": 5.123684
     },
     {
       "id": "nl-jumbo-node-5347240257",
@@ -23251,8 +23321,8 @@
       "name": "Jumbo",
       "address": "Molenplein 1, 2382BT Zoeterwoude",
       "city": "Zoeterwoude",
-      "lat": 52.144005,
-      "lng": 4.516106
+      "lat": 52.144282,
+      "lng": 4.516216
     },
     {
       "id": "nl-jumbo-node-2494104715",
@@ -24055,16 +24125,6 @@
       "lng": 4.546802
     },
     {
-      "id": "nl-lidl-node-2745155241",
-      "chain": "lidl",
-      "country": "nl",
-      "name": "Lidl",
-      "address": "Van Beuningenhaven 32, 2993EH Barendrecht",
-      "city": "Barendrecht",
-      "lat": 51.847614,
-      "lng": 4.499822
-    },
-    {
       "id": "nl-lidl-node-3189661629",
       "chain": "lidl",
       "country": "nl",
@@ -24355,14 +24415,14 @@
       "lng": 6.14166
     },
     {
-      "id": "nl-lidl-node-2711424490",
+      "id": "nl-lidl-node-2711240191",
       "chain": "lidl",
       "country": "nl",
       "name": "Lidl",
-      "address": "Ansjovisweg 5, 3751BL Bunschoten-Spakenburg",
+      "address": "Broerswetering 8, 3752AM Bunschoten-Spakenburg",
       "city": "Bunschoten-Spakenburg",
-      "lat": 52.250893,
-      "lng": 5.382269
+      "lat": 52.25328,
+      "lng": 5.376489
     },
     {
       "id": "nl-lidl-node-2613148492",
@@ -25511,8 +25571,8 @@
       "name": "Lidl",
       "address": "Schoolstraat 2, 6093EH Heythuysen",
       "city": "Heythuysen",
-      "lat": 51.250585,
-      "lng": 5.896305
+      "lat": 51.250305,
+      "lng": 5.896487
     },
     {
       "id": "nl-lidl-node-2654144597",
@@ -26419,7 +26479,7 @@
       "chain": "lidl",
       "country": "nl",
       "name": "Lidl",
-      "address": "Oss",
+      "address": "Oude Molenstraat 45, 5342GB Oss",
       "city": "Oss",
       "lat": 51.758154,
       "lng": 5.534839
@@ -26711,8 +26771,8 @@
       "name": "Lidl",
       "address": "Jacques Dutilhweg 193, 3065KA Rotterdam",
       "city": "Rotterdam",
-      "lat": 51.930349,
-      "lng": 4.558589
+      "lat": 51.930398,
+      "lng": 4.558603
     },
     {
       "id": "nl-lidl-node-2140074774",
@@ -26811,8 +26871,8 @@
       "name": "Lidl",
       "address": "Laan van Nieuw Blankenburg 234, 3181AL Rozenburg",
       "city": "Rozenburg",
-      "lat": 51.900587,
-      "lng": 4.255396
+      "lat": 51.900541,
+      "lng": 4.25519
     },
     {
       "id": "nl-lidl-node-4642648792",
@@ -27795,16 +27855,6 @@
       "lng": 6.113642
     },
     {
-      "id": "nl-plus-node-14041617683",
-      "chain": "plus",
-      "country": "nl",
-      "name": "ABC Supermarket",
-      "address": "ABC Supermarket",
-      "city": "",
-      "lat": 51.679287,
-      "lng": 5.398932
-    },
-    {
       "id": "nl-plus-node-12873238755",
       "chain": "plus",
       "country": "nl",
@@ -28291,8 +28341,8 @@
       "name": "PLUS",
       "address": "Wim Kanplein 2, 1311LH Almere",
       "city": "Almere",
-      "lat": 52.370774,
-      "lng": 5.179641
+      "lat": 52.370782,
+      "lng": 5.179675
     },
     {
       "id": "nl-plus-node-6430430737",
@@ -29738,7 +29788,7 @@
       "id": "nl-plus-node-2778309086",
       "chain": "plus",
       "country": "nl",
-      "name": "PLUS",
+      "name": "PLUS de Koning",
       "address": "Glipper Dreef 105, 2104WC Heemstede",
       "city": "Heemstede",
       "lat": 52.330606,
@@ -30203,6 +30253,16 @@
       "city": "Klazienaveen",
       "lat": 52.723222,
       "lng": 6.995138
+    },
+    {
+      "id": "nl-plus-node-2814039212",
+      "chain": "plus",
+      "country": "nl",
+      "name": "PLUS Tim & Joyce Janssen",
+      "address": "Pleinstraat 37, 6343AT Klimmen",
+      "city": "Klimmen",
+      "lat": 50.878119,
+      "lng": 5.878771
     },
     {
       "id": "nl-plus-node-2770356708",
@@ -30745,6 +30805,16 @@
       "lng": 5.878045
     },
     {
+      "id": "nl-plus-node-2097414087",
+      "chain": "plus",
+      "country": "nl",
+      "name": "PLUS",
+      "address": "Passage Molenpoort 2, 6511HV Nijmegen",
+      "city": "Nijmegen",
+      "lat": 51.8439,
+      "lng": 5.863684
+    },
+    {
       "id": "nl-plus-node-2313144035",
       "chain": "plus",
       "country": "nl",
@@ -30795,6 +30865,16 @@
       "lng": 5.856454
     },
     {
+      "id": "nl-plus-node-414960260",
+      "chain": "plus",
+      "country": "nl",
+      "name": "PLUS",
+      "address": "Smidsweg 7, 7441EJ Nijverdal",
+      "city": "Nijverdal",
+      "lat": 52.364781,
+      "lng": 6.455595
+    },
+    {
       "id": "nl-plus-node-2846646535",
       "chain": "plus",
       "country": "nl",
@@ -30805,14 +30885,14 @@
       "lng": 6.474049
     },
     {
-      "id": "nl-plus-node-414960260",
+      "id": "nl-plus-node-2982331900",
       "chain": "plus",
       "country": "nl",
-      "name": "PLUS Léon Haanstra",
-      "address": "Smidsweg 7, 7441EJ Nijverdal",
-      "city": "Nijverdal",
-      "lat": 52.364781,
-      "lng": 6.455595
+      "name": "PLUS",
+      "address": "Simon van Capelweg 153, 2431AE Noorden",
+      "city": "Noorden",
+      "lat": 52.164744,
+      "lng": 4.82967
     },
     {
       "id": "nl-plus-node-1587385730",
@@ -31275,16 +31355,6 @@
       "lng": 4.428481
     },
     {
-      "id": "nl-plus-node-2819291211",
-      "chain": "plus",
-      "country": "nl",
-      "name": "PLUS",
-      "address": "Ganzerikplein 329, 3053EA Rotterdam",
-      "city": "Rotterdam",
-      "lat": 51.959024,
-      "lng": 4.472169
-    },
-    {
       "id": "nl-plus-node-4792121400",
       "chain": "plus",
       "country": "nl",
@@ -31303,6 +31373,16 @@
       "city": "Rotterdam",
       "lat": 51.960092,
       "lng": 4.503767
+    },
+    {
+      "id": "nl-plus-node-2819291211",
+      "chain": "plus",
+      "country": "nl",
+      "name": "PLUS Tom Vlig",
+      "address": "Ganzerikplein 329, 3053EA Rotterdam",
+      "city": "Rotterdam",
+      "lat": 51.959008,
+      "lng": 4.472135
     },
     {
       "id": "nl-plus-node-267327072",
@@ -31571,8 +31651,8 @@
       "name": "PLUS",
       "address": "De Bleeck 1, 8715EJ Stavoren",
       "city": "Stavoren",
-      "lat": 52.884957,
-      "lng": 5.362281
+      "lat": 52.884916,
+      "lng": 5.361902
     },
     {
       "id": "nl-plus-node-2740409668",
@@ -31901,8 +31981,8 @@
       "name": "PLUS Verbeeten",
       "address": "Vrijthof 15, 5821BG Vierlingsbeek",
       "city": "Vierlingsbeek",
-      "lat": 51.596785,
-      "lng": 6.01032
+      "lat": 51.596633,
+      "lng": 6.010307
     },
     {
       "id": "nl-plus-node-663429082",
@@ -31941,8 +32021,8 @@
       "name": "PLUS",
       "address": "Doelenstraat 14, 8325CC Vollenhove",
       "city": "Vollenhove",
-      "lat": 52.681757,
-      "lng": 5.955706
+      "lat": 52.681383,
+      "lng": 5.955906
     },
     {
       "id": "nl-plus-node-1156367975",
@@ -32165,6 +32245,16 @@
       "lng": 6.71747
     },
     {
+      "id": "nl-plus-node-2816987675",
+      "chain": "plus",
+      "country": "nl",
+      "name": "PLUS",
+      "address": "Gerrit Varwijkplein 34, 7038BX Zeddam",
+      "city": "Zeddam",
+      "lat": 51.903262,
+      "lng": 6.259157
+    },
+    {
       "id": "nl-plus-node-2848512476",
       "chain": "plus",
       "country": "nl",
@@ -32305,6 +32395,16 @@
       "lng": -3.048677
     },
     {
+      "id": "uk-aldi-uk-node-2982603563",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Elder Gate",
+      "city": "",
+      "lat": 52.037709,
+      "lng": -0.77748
+    },
+    {
       "id": "uk-aldi-uk-node-4378529094",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32315,6 +32415,16 @@
       "lng": -0.401516
     },
     {
+      "id": "uk-aldi-uk-node-4716376559",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Elizabethan Way, OL16 4GJ",
+      "city": "",
+      "lat": 53.60953,
+      "lng": -2.114559
+    },
+    {
       "id": "uk-aldi-uk-node-4795161587",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32323,6 +32433,16 @@
       "city": "",
       "lat": 51.610275,
       "lng": -3.660746
+    },
+    {
+      "id": "uk-aldi-uk-node-4944511321",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Barnfield Drive, PO19 7AG",
+      "city": "",
+      "lat": 50.847357,
+      "lng": -0.760516
     },
     {
       "id": "uk-aldi-uk-node-5099365172",
@@ -32525,6 +32645,16 @@
       "lng": -2.445474
     },
     {
+      "id": "uk-aldi-uk-node-10593763242",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.035299,
+      "lng": -0.688637
+    },
+    {
       "id": "uk-aldi-uk-node-11333471204",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32645,6 +32775,16 @@
       "lng": -3.067996
     },
     {
+      "id": "uk-aldi-uk-way-34094486",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Branch Way 8",
+      "city": "",
+      "lat": 53.466641,
+      "lng": -2.667378
+    },
+    {
       "id": "uk-aldi-uk-way-34233621",
       "chain": "aldi-uk",
       "country": "uk",
@@ -32723,6 +32863,16 @@
       "city": "",
       "lat": 52.479588,
       "lng": -1.47576
+    },
+    {
+      "id": "uk-aldi-uk-way-70517314",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Saltwells Road, DY2 9PE",
+      "city": "",
+      "lat": 52.483588,
+      "lng": -2.073717
     },
     {
       "id": "uk-aldi-uk-way-70844794",
@@ -32961,8 +33111,8 @@
       "name": "Aldi",
       "address": "Holyhead Road",
       "city": "",
-      "lat": 52.68866,
-      "lng": -2.443906
+      "lat": 52.688649,
+      "lng": -2.443948
     },
     {
       "id": "uk-aldi-uk-way-199801415",
@@ -33019,7 +33169,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Aberystwyth Road",
+      "address": "Aberystwyth Road, SA43 1NA",
       "city": "",
       "lat": 52.087554,
       "lng": -4.651726
@@ -33485,6 +33635,16 @@
       "lng": -2.984914
     },
     {
+      "id": "uk-aldi-uk-way-586961268",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Stow Road",
+      "city": "",
+      "lat": 51.984303,
+      "lng": -1.706768
+    },
+    {
       "id": "uk-aldi-uk-way-589333037",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33571,8 +33731,8 @@
       "name": "Aldi",
       "address": "Aldi",
       "city": "",
-      "lat": 53.397609,
-      "lng": -2.260188
+      "lat": 53.397595,
+      "lng": -2.260176
     },
     {
       "id": "uk-aldi-uk-way-694021929",
@@ -33739,7 +33899,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "TS17 9HA",
+      "address": "Aldi",
       "city": "",
       "lat": 54.535954,
       "lng": -1.289707
@@ -33775,6 +33935,16 @@
       "lng": -3.173054
     },
     {
+      "id": "uk-aldi-uk-way-870461187",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Warminster Road 60,62",
+      "city": "",
+      "lat": 51.257883,
+      "lng": -2.185342
+    },
+    {
       "id": "uk-aldi-uk-way-875749763",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33803,6 +33973,16 @@
       "city": "",
       "lat": 52.399586,
       "lng": -1.937895
+    },
+    {
+      "id": "uk-aldi-uk-way-916578808",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Coppice Lane, L35 1QT",
+      "city": "",
+      "lat": 53.398476,
+      "lng": -2.814119
     },
     {
       "id": "uk-aldi-uk-way-926137313",
@@ -33845,6 +34025,16 @@
       "lng": -1.073787
     },
     {
+      "id": "uk-aldi-uk-way-996021134",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Parkgate Road",
+      "city": "",
+      "lat": 53.205168,
+      "lng": -2.90166
+    },
+    {
       "id": "uk-aldi-uk-way-999448555",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33863,6 +34053,16 @@
       "city": "",
       "lat": 51.678916,
       "lng": -4.136647
+    },
+    {
+      "id": "uk-aldi-uk-way-1060052519",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Methuen Park, SN14 0GX",
+      "city": "",
+      "lat": 51.44722,
+      "lng": -2.144573
     },
     {
       "id": "uk-aldi-uk-way-1091205962",
@@ -33945,16 +34145,6 @@
       "lng": -1.669222
     },
     {
-      "id": "uk-aldi-uk-way-1295944798",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Overstone Leys, NN6 0AB",
-      "city": "",
-      "lat": 52.288899,
-      "lng": -0.835129
-    },
-    {
       "id": "uk-aldi-uk-way-1313113537",
       "chain": "aldi-uk",
       "country": "uk",
@@ -33995,6 +34185,16 @@
       "lng": -2.179582
     },
     {
+      "id": "uk-aldi-uk-way-1415436735",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 55.842302,
+      "lng": -4.12123
+    },
+    {
       "id": "uk-aldi-uk-way-1421756192",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34003,6 +34203,16 @@
       "city": "",
       "lat": 52.489321,
       "lng": -2.020324
+    },
+    {
+      "id": "uk-aldi-uk-way-1422483340",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 54.352179,
+      "lng": -1.446959
     },
     {
       "id": "uk-aldi-uk-way-1423250001",
@@ -34133,6 +34343,16 @@
       "city": "",
       "lat": 52.673953,
       "lng": -2.019929
+    },
+    {
+      "id": "uk-aldi-uk-way-956297149",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.561739,
+      "lng": -1.826584
     },
     {
       "id": "uk-aldi-uk-node-10693131200",
@@ -34285,16 +34505,6 @@
       "lng": -2.411801
     },
     {
-      "id": "uk-aldi-uk-way-916578808",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "ALDI",
-      "address": "Coppice Lane, L35 1QT",
-      "city": "",
-      "lat": 53.398476,
-      "lng": -2.814119
-    },
-    {
       "id": "uk-aldi-uk-way-1105785999",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34333,6 +34543,26 @@
       "city": "",
       "lat": 53.099677,
       "lng": -2.995694
+    },
+    {
+      "id": "uk-aldi-uk-way-1295944798",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "ALDI",
+      "address": "Overstone Leys, NN6 0AB",
+      "city": "",
+      "lat": 52.288899,
+      "lng": -0.835129
+    },
+    {
+      "id": "uk-aldi-uk-way-183304689",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "ALDI",
+      "address": "Voyager Drive, WS11 8XP",
+      "city": "",
+      "lat": 52.67404,
+      "lng": -2.020117
     },
     {
       "id": "uk-aldi-uk-node-13508666075",
@@ -34433,6 +34663,16 @@
       "city": "Airdrie",
       "lat": 55.868607,
       "lng": -3.983713
+    },
+    {
+      "id": "uk-aldi-uk-way-229364787",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "High Street 20, ML6 0DT Airdrie",
+      "city": "Airdrie",
+      "lat": 55.868625,
+      "lng": -3.983726
     },
     {
       "id": "uk-aldi-uk-way-664548861",
@@ -36115,16 +36355,6 @@
       "lng": -2.978264
     },
     {
-      "id": "uk-aldi-uk-way-996021134",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Parkgate Road, CH1 4BE Chester",
-      "city": "Chester",
-      "lat": 53.205168,
-      "lng": -2.90166
-    },
-    {
       "id": "uk-aldi-uk-way-1024538892",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36175,16 +36405,6 @@
       "lng": -1.415485
     },
     {
-      "id": "uk-aldi-uk-node-4944511321",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Barnfield Drive, PO19 7AG Chichester",
-      "city": "Chichester",
-      "lat": 50.847357,
-      "lng": -0.760516
-    },
-    {
       "id": "uk-aldi-uk-way-688388398",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36193,16 +36413,6 @@
       "city": "Chippenham",
       "lat": 51.464227,
       "lng": -2.113473
-    },
-    {
-      "id": "uk-aldi-uk-way-1060052519",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Methuen Park, SN14 0GX Chippenham",
-      "city": "Chippenham",
-      "lat": 51.44722,
-      "lng": -2.144573
     },
     {
       "id": "uk-aldi-uk-way-415074779",
@@ -36302,7 +36512,7 @@
       "address": "Sence Valley Road, LE67 1HU Coalville",
       "city": "Coalville",
       "lat": 52.699561,
-      "lng": -1.352044
+      "lng": -1.352061
     },
     {
       "id": "uk-aldi-uk-node-11665034449",
@@ -36331,8 +36541,8 @@
       "name": "Aldi",
       "address": "Magdalen Street, CO1 2FJ Colchester",
       "city": "Colchester",
-      "lat": 51.885253,
-      "lng": 0.909013
+      "lat": 51.885255,
+      "lng": 0.908995
     },
     {
       "id": "uk-aldi-uk-way-416923590",
@@ -36675,6 +36885,16 @@
       "lng": 0.218958
     },
     {
+      "id": "uk-aldi-uk-way-534942120",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Roman Way 4, DA1 4FY Dartford",
+      "city": "Dartford",
+      "lat": 51.450752,
+      "lng": 0.178195
+    },
+    {
       "id": "uk-aldi-uk-node-13508660589",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36905,16 +37125,6 @@
       "lng": -1.475144
     },
     {
-      "id": "uk-aldi-uk-way-70517314",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Saltwells Road, DY2 9PE Dudley",
-      "city": "Dudley",
-      "lat": 52.483588,
-      "lng": -2.073717
-    },
-    {
       "id": "uk-aldi-uk-way-367996809",
       "chain": "aldi-uk",
       "country": "uk",
@@ -36961,8 +37171,8 @@
       "name": "Aldi",
       "address": "Myrekirk Road 55, DD2 4WB Dundee",
       "city": "Dundee",
-      "lat": 56.475164,
-      "lng": -3.046702
+      "lat": 56.475147,
+      "lng": -3.046703
     },
     {
       "id": "uk-aldi-uk-way-1245840029",
@@ -37168,7 +37378,7 @@
       "id": "uk-aldi-uk-way-223913082",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Lisle Lane 41, CB7 4AS Ely",
       "city": "Ely",
       "lat": 52.399063,
@@ -37533,16 +37743,6 @@
       "city": "Glasgow",
       "lat": 55.846175,
       "lng": -4.354422
-    },
-    {
-      "id": "uk-aldi-uk-way-1415436735",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Boghall Road 11, G71 7GU Glasgow",
-      "city": "Glasgow",
-      "lat": 55.842302,
-      "lng": -4.12123
     },
     {
       "id": "uk-aldi-uk-way-904808873",
@@ -38161,8 +38361,8 @@
       "name": "Aldi",
       "address": "Manor Road, DE7 8EG Ilkeston",
       "city": "Ilkeston",
-      "lat": 52.977479,
-      "lng": -1.310101
+      "lat": 52.977478,
+      "lng": -1.310111
     },
     {
       "id": "uk-aldi-uk-way-361778845",
@@ -38341,8 +38541,8 @@
       "name": "Aldi",
       "address": "Fairfield West 13, KT1 1DF Kingston upon Thames",
       "city": "Kingston upon Thames",
-      "lat": 51.410132,
-      "lng": -0.301294
+      "lat": 51.410248,
+      "lng": -0.301228
     },
     {
       "id": "uk-aldi-uk-way-387444412",
@@ -39049,7 +39249,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Old Kent Road 840, SE15 1NQ London",
+      "address": "Old Kent Road 840, London",
       "city": "London",
       "lat": 51.478831,
       "lng": -0.055857
@@ -39209,10 +39409,10 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Kentish Town Road 152, NW1 9QB London",
+      "address": "Kentish Town Road 152-156, NW1 9QB London",
       "city": "London",
-      "lat": 51.546583,
-      "lng": -0.141379
+      "lat": 51.546591,
+      "lng": -0.14138
     },
     {
       "id": "uk-aldi-uk-way-1106106138",
@@ -39233,6 +39433,16 @@
       "city": "London",
       "lat": 51.525774,
       "lng": -0.089379
+    },
+    {
+      "id": "uk-aldi-uk-node-2429828501",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Tooting High Street 33-35, SW17 0SP London",
+      "city": "London",
+      "lat": 51.428757,
+      "lng": -0.167001
     },
     {
       "id": "uk-aldi-uk-node-5916003255",
@@ -39568,7 +39778,7 @@
       "id": "uk-aldi-uk-way-809927625",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Oakleaf Close, NG18 4GH Mansfield",
       "city": "Mansfield",
       "lat": 53.126519,
@@ -39665,26 +39875,6 @@
       "lng": -1.159733
     },
     {
-      "id": "uk-aldi-uk-node-2982603563",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Elder Gate, MK9 1EN Milton Keynes",
-      "city": "Milton Keynes",
-      "lat": 52.037709,
-      "lng": -0.77748
-    },
-    {
-      "id": "uk-aldi-uk-node-10593763242",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "MK10 0BA Milton Keynes",
-      "city": "Milton Keynes",
-      "lat": 52.035299,
-      "lng": -0.688637
-    },
-    {
       "id": "uk-aldi-uk-way-88172098",
       "chain": "aldi-uk",
       "country": "uk",
@@ -39743,16 +39933,6 @@
       "city": "Morecambe",
       "lat": 54.070363,
       "lng": -2.875578
-    },
-    {
-      "id": "uk-aldi-uk-way-586961268",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Stow Road, GL56 0DS Moreton-In-Marsh",
-      "city": "Moreton-In-Marsh",
-      "lat": 51.984303,
-      "lng": -1.706768
     },
     {
       "id": "uk-aldi-uk-way-150276834",
@@ -39905,6 +40085,16 @@
       "lng": 0.398125
     },
     {
+      "id": "uk-aldi-uk-node-246524661",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Exning Road, CB8 0EA Newmarket",
+      "city": "Newmarket",
+      "lat": 52.249633,
+      "lng": 0.398156
+    },
+    {
       "id": "uk-aldi-uk-node-9415394577",
       "chain": "aldi-uk",
       "country": "uk",
@@ -40025,16 +40215,6 @@
       "lng": -1.456387
     },
     {
-      "id": "uk-aldi-uk-way-1422483340",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "North Moor Road, DL6 2GQ Northallerton",
-      "city": "Northallerton",
-      "lat": 54.352179,
-      "lng": -1.446959
-    },
-    {
       "id": "uk-aldi-uk-node-5180851004",
       "chain": "aldi-uk",
       "country": "uk",
@@ -40125,16 +40305,6 @@
       "lng": 1.188252
     },
     {
-      "id": "uk-aldi-uk-way-443728173",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Hall Road, NR4 6DH Norwich",
-      "city": "Norwich",
-      "lat": 52.609648,
-      "lng": 1.29113
-    },
-    {
       "id": "uk-aldi-uk-way-507663714",
       "chain": "aldi-uk",
       "country": "uk",
@@ -40151,8 +40321,18 @@
       "name": "Aldi",
       "address": "Sprowston Road 463, NR3 4EB Norwich",
       "city": "Norwich",
-      "lat": 52.649639,
-      "lng": 1.30852
+      "lat": 52.649582,
+      "lng": 1.308498
+    },
+    {
+      "id": "uk-aldi-uk-way-443728173",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "ALDI",
+      "address": "Hall Road, NR4 6DH Norwich",
+      "city": "Norwich",
+      "lat": 52.609648,
+      "lng": 1.29113
     },
     {
       "id": "uk-aldi-uk-way-51459128",
@@ -40251,8 +40431,8 @@
       "name": "Aldi",
       "address": "Nottingham Road 64-74, NG13 8AW Nottingham",
       "city": "Nottingham",
-      "lat": 52.95098,
-      "lng": -0.963857
+      "lat": 52.950998,
+      "lng": -0.963858
     },
     {
       "id": "uk-aldi-uk-way-741346616",
@@ -40571,8 +40751,8 @@
       "name": "Aldi",
       "address": "Flaxland, PE3 8DF Peterborough",
       "city": "Peterborough",
-      "lat": 52.590964,
-      "lng": -0.282256
+      "lat": 52.590963,
+      "lng": -0.282259
     },
     {
       "id": "uk-aldi-uk-way-1208147629",
@@ -40761,7 +40941,7 @@
       "name": "Aldi",
       "address": "Tithebarn Street, FY6 7BX Poulton-le-Fylde",
       "city": "Poulton-le-Fylde",
-      "lat": 53.848194,
+      "lat": 53.848183,
       "lng": -2.992344
     },
     {
@@ -40963,16 +41143,6 @@
       "city": "Ripon",
       "lat": 54.13861,
       "lng": -1.51946
-    },
-    {
-      "id": "uk-aldi-uk-node-4716376559",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Elizabethan Way, OL16 4GJ Rochdale",
-      "city": "Rochdale",
-      "lat": 53.60953,
-      "lng": -2.114559
     },
     {
       "id": "uk-aldi-uk-way-522112044",
@@ -41498,7 +41668,7 @@
       "id": "uk-aldi-uk-way-49799694",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "East Street, Sittingbourne",
       "city": "Sittingbourne",
       "lat": 51.338673,
@@ -41579,7 +41749,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Homer Road 83, B91 3QJ Solihull",
+      "address": "Homer Road, B91 3QJ Solihull",
       "city": "Solihull",
       "lat": 52.41264,
       "lng": -1.781286
@@ -41701,7 +41871,7 @@
       "name": "Aldi",
       "address": "Tom Stewart Lane, KY16 8YB St Andrews",
       "city": "St Andrews",
-      "lat": 56.330643,
+      "lat": 56.330644,
       "lng": -2.804301
     },
     {
@@ -41715,14 +41885,14 @@
       "lng": -4.775201
     },
     {
-      "id": "uk-aldi-uk-way-34094486",
+      "id": "uk-aldi-uk-way-852018961",
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Branch Way 8, WA11 0QW St Helens",
+      "address": "Linkway West, WA10 1QA St Helens",
       "city": "St Helens",
-      "lat": 53.466641,
-      "lng": -2.667378
+      "lat": 53.451889,
+      "lng": -2.743713
     },
     {
       "id": "uk-aldi-uk-way-1547274066",
@@ -41735,14 +41905,14 @@
       "lng": -2.726583
     },
     {
-      "id": "uk-aldi-uk-way-852018961",
+      "id": "uk-aldi-uk-node-7027297999",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "ALDI",
-      "address": "Highpoint A58, WA10 1QT St Helens",
+      "name": "Aldi",
+      "address": "Peasley Cross Lane, WA9 1JJ St Helens",
       "city": "St Helens",
-      "lat": 53.451889,
-      "lng": -2.743713
+      "lat": 53.44954,
+      "lng": -2.727706
     },
     {
       "id": "uk-aldi-uk-way-825485350",
@@ -41809,7 +41979,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Front Street, DH9 0HU Stanley",
+      "address": "Front Street, DH9 0NQ Stanley",
       "city": "Stanley",
       "lat": 54.868673,
       "lng": -1.699148
@@ -41918,7 +42088,7 @@
       "id": "uk-aldi-uk-way-967251855",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Gipping Way, IP14 1HN Stowmarket",
       "city": "Stowmarket",
       "lat": 52.186701,
@@ -41968,7 +42138,7 @@
       "id": "uk-aldi-uk-way-157099776",
       "chain": "aldi-uk",
       "country": "uk",
-      "name": "Aldi",
+      "name": "ALDI",
       "address": "Girling Street, CO10 1NB Sudbury",
       "city": "Sudbury",
       "lat": 52.042099,
@@ -42609,7 +42779,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Dalton Way 7 - 8, WD17 2SF Watford",
+      "address": "Dalton Way, Watford",
       "city": "Watford",
       "lat": 51.649513,
       "lng": -0.389353
@@ -42683,16 +42853,6 @@
       "city": "West Drayton",
       "lat": 51.514562,
       "lng": -0.474268
-    },
-    {
-      "id": "uk-aldi-uk-way-870461187",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Warminster Road 60,62, BA13 3PF Westbury",
-      "city": "Westbury",
-      "lat": 51.257883,
-      "lng": -2.185342
     },
     {
       "id": "uk-aldi-uk-way-882130160",
@@ -43405,16 +43565,6 @@
       "lng": -2.323617
     },
     {
-      "id": "uk-asda-node-9512338621",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 52.299293,
-      "lng": -0.731778
-    },
-    {
       "id": "uk-asda-node-13525625769",
       "chain": "asda",
       "country": "uk",
@@ -43523,6 +43673,46 @@
       "city": "",
       "lat": 53.377214,
       "lng": -1.396292
+    },
+    {
+      "id": "uk-asda-way-1377797161",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Exeter Street 77,79, PL4 0AH",
+      "city": "",
+      "lat": 50.371473,
+      "lng": -4.131703
+    },
+    {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
+      "id": "uk-asda-node-13676755054",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 53.454614,
+      "lng": -2.745082
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
     },
     {
       "id": "uk-asda-node-1676712817",
@@ -43695,16 +43885,6 @@
       "lng": -0.341203
     },
     {
-      "id": "uk-asda-node-14053802365",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 56.480334,
-      "lng": -2.951742
-    },
-    {
       "id": "uk-asda-way-89482034",
       "chain": "asda",
       "country": "uk",
@@ -43813,16 +43993,6 @@
       "city": "",
       "lat": 50.72941,
       "lng": -1.947075
-    },
-    {
-      "id": "uk-asda-way-428945753",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 52.596183,
-      "lng": -1.60869
     },
     {
       "id": "uk-asda-way-444907832",
@@ -43963,6 +44133,26 @@
       "city": "",
       "lat": 50.736764,
       "lng": -1.786774
+    },
+    {
+      "id": "uk-asda-node-13289340701",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 53.484599,
+      "lng": -2.251981
+    },
+    {
+      "id": "uk-asda-way-89270383",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.958467,
+      "lng": -1.202706
     },
     {
       "id": "uk-asda-node-13263845129",
@@ -45051,8 +45241,8 @@
       "name": "Asda",
       "address": "The Linkway 43-53, BL6 6JA Bolton",
       "city": "Bolton",
-      "lat": 53.584579,
-      "lng": -2.534413
+      "lat": 53.584565,
+      "lng": -2.53441
     },
     {
       "id": "uk-asda-way-421947695",
@@ -45221,8 +45411,8 @@
       "name": "Asda",
       "address": "Coychurch Road, CF31 3AG Bridgend",
       "city": "Bridgend",
-      "lat": 51.504156,
-      "lng": -3.573235
+      "lat": 51.504146,
+      "lng": -3.573262
     },
     {
       "id": "uk-asda-way-35822511",
@@ -46129,7 +46319,7 @@
       "chain": "asda",
       "country": "uk",
       "name": "Asda",
-      "address": "Daventry Road 168, CV3 5HN Coventry",
+      "address": "Daventry Road 168, CV3 5HE Coventry",
       "city": "Coventry",
       "lat": 52.393692,
       "lng": -1.503899
@@ -46765,16 +46955,6 @@
       "lng": -7.632183
     },
     {
-      "id": "uk-asda-way-221245932",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "A46 Evesham Bypass, WR11 4TP Evesham",
-      "city": "Evesham",
-      "lat": 52.113338,
-      "lng": -1.93932
-    },
-    {
       "id": "uk-asda-way-127386263",
       "chain": "asda",
       "country": "uk",
@@ -46841,8 +47021,8 @@
       "name": "Asda",
       "address": "Bosworth Drive 341, B37 5EX Fordbridge",
       "city": "Fordbridge",
-      "lat": 52.479048,
-      "lng": -1.741089
+      "lat": 52.479027,
+      "lng": -1.741082
     },
     {
       "id": "uk-asda-way-389906139",
@@ -46991,8 +47171,8 @@
       "name": "Asda",
       "address": "Helen Street 500, G51 3HR Glasgow",
       "city": "Glasgow",
-      "lat": 55.852784,
-      "lng": -4.322633
+      "lat": 55.852771,
+      "lng": -4.322619
     },
     {
       "id": "uk-asda-way-296352258",
@@ -47158,21 +47338,11 @@
       "id": "uk-asda-way-175903182",
       "chain": "asda",
       "country": "uk",
-      "name": "Asda",
+      "name": "ASDA",
       "address": "Acle New Road, NR30 1SF Great Yarmouth",
       "city": "Great Yarmouth",
       "lat": 52.613324,
       "lng": 1.718731
-    },
-    {
-      "id": "uk-asda-way-226929808",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Lowestoft Road, NR31 9AH Great Yarmouth",
-      "city": "Great Yarmouth",
-      "lat": 52.537976,
-      "lng": 1.721918
     },
     {
       "id": "uk-asda-way-28093786",
@@ -47585,6 +47755,16 @@
       "lng": -3.215762
     },
     {
+      "id": "uk-asda-way-226929808",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Lowestoft Road, NR31 9AH Hopton-on-Sea",
+      "city": "Hopton-on-Sea",
+      "lat": 52.537976,
+      "lng": 1.721918
+    },
+    {
       "id": "uk-asda-way-245844807",
       "chain": "asda",
       "country": "uk",
@@ -47821,8 +48001,8 @@
       "name": "Asda Express",
       "address": "Sproughton Road, IP1 5FG Ipswich",
       "city": "Ipswich",
-      "lat": 52.063677,
-      "lng": 1.109584
+      "lat": 52.06369,
+      "lng": 1.10954
     },
     {
       "id": "uk-asda-node-3828517796",
@@ -47833,6 +48013,16 @@
       "city": "Irvine",
       "lat": 55.612052,
       "lng": -4.673259
+    },
+    {
+      "id": "uk-asda-node-7419127852",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Twickenham Road, TW7 7DY Isleworth",
+      "city": "Isleworth",
+      "lat": 51.459127,
+      "lng": -0.331819
     },
     {
       "id": "uk-asda-way-524356736",
@@ -47972,7 +48162,7 @@
       "address": "Carberry Place, KY1 3NG Kirkcaldy",
       "city": "Kirkcaldy",
       "lat": 56.134868,
-      "lng": -3.144733
+      "lng": -3.144748
     },
     {
       "id": "uk-asda-node-1692851823",
@@ -48183,6 +48373,16 @@
       "city": "Leeds",
       "lat": 53.848731,
       "lng": -1.592303
+    },
+    {
+      "id": "uk-asda-way-224457151",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Roundhay Express Petrol",
+      "address": "Street Lane, LS8 1BD Leeds",
+      "city": "Leeds",
+      "lat": 53.844664,
+      "lng": -1.512229
     },
     {
       "id": "uk-asda-way-173499192",
@@ -48705,6 +48905,16 @@
       "lng": 0.033454
     },
     {
+      "id": "uk-asda-node-9400588770",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "Tower Bridge Road 153, SE1 3LW London",
+      "city": "London",
+      "lat": 51.499,
+      "lng": -0.079393
+    },
+    {
       "id": "uk-asda-way-1299594559",
       "chain": "asda",
       "country": "uk",
@@ -48733,6 +48943,16 @@
       "city": "Luton",
       "lat": 51.889088,
       "lng": -0.372706
+    },
+    {
+      "id": "uk-asda-way-421050923",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda On the Run",
+      "address": "Dunstable Road, Luton",
+      "city": "Luton",
+      "lat": 51.892373,
+      "lng": -0.451398
     },
     {
       "id": "uk-asda-way-172312983",
@@ -48965,6 +49185,16 @@
       "lng": -2.390303
     },
     {
+      "id": "uk-asda-node-8835596943",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Longley Lane 106, M22 4SY Manchester",
+      "city": "Manchester",
+      "lat": 53.402313,
+      "lng": -2.254684
+    },
+    {
       "id": "uk-asda-way-261424929",
       "chain": "asda",
       "country": "uk",
@@ -48999,7 +49229,7 @@
       "chain": "asda",
       "country": "uk",
       "name": "Asda Express",
-      "address": "Salcombe Road, TQ7 3BU Marlborough",
+      "address": "TQ7 3BU Marlborough",
       "city": "Marlborough",
       "lat": 50.244303,
       "lng": -3.81099
@@ -49309,7 +49539,7 @@
       "chain": "asda",
       "country": "uk",
       "name": "Asda",
-      "address": "Morris Square, ST5 0EN Newcastle-under-Lyme",
+      "address": "Morris Sqaure, ST5 0EN Newcastle-under-Lyme",
       "city": "Newcastle-under-Lyme",
       "lat": 53.03164,
       "lng": -2.216557
@@ -49398,7 +49628,7 @@
       "id": "uk-asda-way-187776782",
       "chain": "asda",
       "country": "uk",
-      "name": "Asda Express",
+      "name": "Asda",
       "address": "Newton Road, TQ13 9DX Newton Abbot",
       "city": "Newton Abbot",
       "lat": 50.580741,
@@ -49563,16 +49793,6 @@
       "city": "Norwich",
       "lat": 52.649906,
       "lng": 1.261213
-    },
-    {
-      "id": "uk-asda-way-694477908",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "NR16 2TX Norwich",
-      "city": "Norwich",
-      "lat": 52.473971,
-      "lng": 0.953618
     },
     {
       "id": "uk-asda-way-19891076",
@@ -49925,16 +50145,6 @@
       "lng": -4.096902
     },
     {
-      "id": "uk-asda-way-1377797161",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Exeter Street 77,79, PL4 0AH Plymouth",
-      "city": "Plymouth",
-      "lat": 50.371473,
-      "lng": -4.131703
-    },
-    {
       "id": "uk-asda-way-229672620",
       "chain": "asda",
       "country": "uk",
@@ -50283,6 +50493,16 @@
       "city": "Rochester",
       "lat": 51.369378,
       "lng": 0.509913
+    },
+    {
+      "id": "uk-asda-node-2200247686",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "City Way 342, ME1 2BJ Rochester",
+      "city": "Rochester",
+      "lat": 51.369401,
+      "lng": 0.509845
     },
     {
       "id": "uk-asda-way-132638741",
@@ -50768,7 +50988,7 @@
       "id": "uk-asda-way-1088046277",
       "chain": "asda",
       "country": "uk",
-      "name": "Asda Express",
+      "name": "Asda On The Move",
       "address": "Railway Road, WN8 8TL Skelmersdale",
       "city": "Skelmersdale",
       "lat": 53.550629,
@@ -50813,6 +51033,16 @@
       "city": "Smethwick",
       "lat": 52.488691,
       "lng": -1.960981
+    },
+    {
+      "id": "uk-asda-way-694477908",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "NR16 2TX Snetterton Park",
+      "city": "Snetterton Park",
+      "lat": 52.473971,
+      "lng": 0.953618
     },
     {
       "id": "uk-asda-way-257931195",
@@ -51013,16 +51243,6 @@
       "city": "St Helens",
       "lat": 53.472276,
       "lng": -2.663648
-    },
-    {
-      "id": "uk-asda-way-1043615832",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "St Helens Linkway 102, WA9 5DT St Helens",
-      "city": "St Helens",
-      "lat": 53.441532,
-      "lng": -2.731426
     },
     {
       "id": "uk-asda-way-185811695",
@@ -51341,8 +51561,8 @@
       "name": "Asda",
       "address": "Stonecot Hill 1, SM3 9HB Sutton",
       "city": "Sutton",
-      "lat": 51.385448,
-      "lng": -0.211181
+      "lat": 51.385443,
+      "lng": -0.211195
     },
     {
       "id": "uk-asda-way-141755746",
@@ -51359,10 +51579,20 @@
       "chain": "asda",
       "country": "uk",
       "name": "Asda Express Churchill Road",
-      "address": "Churchill Road 90, Sutton Coldfield",
+      "address": "Churchill Road 90, B75 7LB Sutton Coldfield",
       "city": "Sutton Coldfield",
       "lat": 52.563244,
       "lng": -1.791731
+    },
+    {
+      "id": "uk-asda-node-10614859519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express Churchill Road",
+      "address": "Churchill Road 90, B75 7LB Sutton Coldfield",
+      "city": "Sutton Coldfield",
+      "lat": 52.563217,
+      "lng": -1.79177
     },
     {
       "id": "uk-asda-way-91691220",
@@ -51513,6 +51743,16 @@
       "city": "Tamworth",
       "lat": 52.625559,
       "lng": -1.701334
+    },
+    {
+      "id": "uk-asda-node-4280664695",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Watling Street, B78 1SS Tamworth",
+      "city": "Tamworth",
+      "lat": 52.596197,
+      "lng": -1.608743
     },
     {
       "id": "uk-asda-way-120023707",
@@ -51991,8 +52231,8 @@
       "name": "Asda Express",
       "address": "North Orbital Road, WD25 7LW Watford",
       "city": "Watford",
-      "lat": 51.691988,
-      "lng": -0.397965
+      "lat": 51.691983,
+      "lng": -0.398026
     },
     {
       "id": "uk-asda-way-670965144",
@@ -66795,16 +67035,6 @@
       "lng": -0.266764
     },
     {
-      "id": "uk-morrisons-way-1268417725",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 51.837236,
-      "lng": -3.003533
-    },
-    {
       "id": "uk-morrisons-way-1273149651",
       "chain": "morrisons",
       "country": "uk",
@@ -67163,6 +67393,16 @@
       "city": "Abergavenny",
       "lat": 51.823769,
       "lng": -3.014479
+    },
+    {
+      "id": "uk-morrisons-way-1268417725",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Hereford Road, NP7 6LE Abergavenny",
+      "city": "Abergavenny",
+      "lat": 51.837236,
+      "lng": -3.003533
     },
     {
       "id": "uk-morrisons-way-236189304",
@@ -81695,26 +81935,6 @@
       "lng": -0.348268
     },
     {
-      "id": "uk-sainsburys-node-14026367532",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.518805,
-      "lng": -0.105114
-    },
-    {
-      "id": "uk-sainsburys-node-14083456383",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.879592,
-      "lng": -0.376212
-    },
-    {
       "id": "uk-sainsburys-way-70594989",
       "chain": "sainsburys",
       "country": "uk",
@@ -82385,6 +82605,26 @@
       "lng": -0.413812
     },
     {
+      "id": "uk-sainsburys-node-14026367532",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.518805,
+      "lng": -0.105114
+    },
+    {
+      "id": "uk-sainsburys-node-14083456383",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.879592,
+      "lng": -0.376212
+    },
+    {
       "id": "uk-sainsburys-way-87705149",
       "chain": "sainsburys",
       "country": "uk",
@@ -83009,7 +83249,7 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's",
-      "address": "Falls Road, BT11 9AE Belfast",
+      "address": "BT11 9AE Belfast",
       "city": "Belfast",
       "lat": 54.581968,
       "lng": -5.977368
@@ -84885,6 +85125,16 @@
       "lng": -1.561679
     },
     {
+      "id": "uk-sainsburys-way-384147314",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Clifton Road 4, DL1 5DS Darlington",
+      "city": "Darlington",
+      "lat": 54.52105,
+      "lng": -1.550372
+    },
+    {
       "id": "uk-sainsburys-node-14068908168",
       "chain": "sainsburys",
       "country": "uk",
@@ -86155,16 +86405,6 @@
       "lng": -4.284162
     },
     {
-      "id": "uk-sainsburys-way-1540299668",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Millersneuk Road, G66 5JD Glasgow",
-      "city": "Glasgow",
-      "lat": 55.920848,
-      "lng": -4.151098
-    },
-    {
       "id": "uk-sainsburys-node-437522472",
       "chain": "sainsburys",
       "country": "uk",
@@ -86173,6 +86413,16 @@
       "city": "Glasgow",
       "lat": 55.875497,
       "lng": -4.292648
+    },
+    {
+      "id": "uk-sainsburys-way-1540299668",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Millersneuk Road, G66 5JD Glasgow",
+      "city": "Glasgow",
+      "lat": 55.920848,
+      "lng": -4.151098
     },
     {
       "id": "uk-sainsburys-way-53322220",
@@ -89525,6 +89775,16 @@
       "lng": -0.097308
     },
     {
+      "id": "uk-sainsburys-node-11234794408",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "North End Road 340-342, London",
+      "city": "London",
+      "lat": 51.481901,
+      "lng": -0.199909
+    },
+    {
       "id": "uk-sainsburys-node-11239922500",
       "chain": "sainsburys",
       "country": "uk",
@@ -92795,6 +93055,16 @@
       "lng": 1.21126
     },
     {
+      "id": "uk-sainsburys-way-407171554",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Gloucester Crescent, LE18 4XJ Shire Court",
+      "city": "Shire Court",
+      "lat": 52.587033,
+      "lng": -1.134163
+    },
+    {
       "id": "uk-sainsburys-node-392955771",
       "chain": "sainsburys",
       "country": "uk",
@@ -94935,6 +95205,16 @@
       "lng": -1.083553
     },
     {
+      "id": "uk-sainsburys-node-5146139272",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Station Road, YO24 1AY York",
+      "city": "York",
+      "lat": 53.957886,
+      "lng": -1.092687
+    },
+    {
       "id": "uk-sainsburys-way-1546587981",
       "chain": "sainsburys",
       "country": "uk",
@@ -95955,6 +96235,16 @@
       "lng": -1.067528
     },
     {
+      "id": "uk-tesco-way-1414512647",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Tesco",
+      "city": "",
+      "lat": 52.003095,
+      "lng": -0.49612
+    },
+    {
       "id": "uk-tesco-way-1455211075",
       "chain": "tesco",
       "country": "uk",
@@ -96513,16 +96803,6 @@
       "city": "",
       "lat": 50.779806,
       "lng": -3.002932
-    },
-    {
-      "id": "uk-tesco-way-1414512647",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Tesco",
-      "city": "",
-      "lat": 52.003095,
-      "lng": -0.49612
     },
     {
       "id": "uk-tesco-way-1424473176",
@@ -106125,6 +106405,16 @@
       "lng": -0.295427
     },
     {
+      "id": "uk-tesco-node-583068378",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Frodsham Street 40-44, CH1 3JS Chester",
+      "city": "Chester",
+      "lat": 53.192747,
+      "lng": -2.887454
+    },
+    {
       "id": "uk-tesco-way-256304691",
       "chain": "tesco",
       "country": "uk",
@@ -107643,6 +107933,16 @@
       "city": "Dundee",
       "lat": 56.482809,
       "lng": -2.992452
+    },
+    {
+      "id": "uk-tesco-way-451766004",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra",
+      "address": "South Road, DD2 4SR Dundee",
+      "city": "Dundee",
+      "lat": 56.471024,
+      "lng": -3.041707
     },
     {
       "id": "uk-tesco-way-100913753",
@@ -111195,16 +111495,6 @@
       "lng": -2.376394
     },
     {
-      "id": "uk-tesco-way-754967384",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Moses Walk 7, IP6 0GT Ipswich",
-      "city": "Ipswich",
-      "lat": 52.111668,
-      "lng": 1.09456
-    },
-    {
       "id": "uk-tesco-way-971054778",
       "chain": "tesco",
       "country": "uk",
@@ -111213,6 +111503,16 @@
       "city": "Ipswich",
       "lat": 52.062663,
       "lng": 1.23713
+    },
+    {
+      "id": "uk-tesco-way-754967384",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Moses Walk 7, IP6 0GT Ipswich",
+      "city": "Ipswich",
+      "lat": 52.111668,
+      "lng": 1.09456
     },
     {
       "id": "uk-tesco-node-489411798",
@@ -117628,7 +117928,7 @@
       "id": "uk-tesco-way-81610481",
       "chain": "tesco",
       "country": "uk",
-      "name": "Tesco Extra",
+      "name": "Tesco",
       "address": "Greenwell Road, DL5 4DH Newton Aycliffe",
       "city": "Newton Aycliffe",
       "lat": 54.621397,
@@ -119845,16 +120145,6 @@
       "lng": -5.235452
     },
     {
-      "id": "uk-tesco-node-1673180358",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Ashburnham Road 185, TW10 7NR Richmond",
-      "city": "Richmond",
-      "lat": 51.436586,
-      "lng": -0.320598
-    },
-    {
       "id": "uk-tesco-node-2096431153",
       "chain": "tesco",
       "country": "uk",
@@ -119883,6 +120173,16 @@
       "city": "Richmond",
       "lat": 51.460688,
       "lng": -0.303946
+    },
+    {
+      "id": "uk-tesco-node-1673180358",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Ashburnham Road 185, TW10 7NR Richmond",
+      "city": "Richmond",
+      "lat": 51.436586,
+      "lng": -0.320598
     },
     {
       "id": "uk-tesco-way-166858789",
@@ -124203,6 +124503,16 @@
       "city": "Weston-super-Mare",
       "lat": 51.349941,
       "lng": -2.976456
+    },
+    {
+      "id": "uk-tesco-way-24949314",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Station Road, BS23 1XG Weston-Super-Mare",
+      "city": "Weston-Super-Mare",
+      "lat": 51.346348,
+      "lng": -2.975098
     },
     {
       "id": "uk-tesco-node-3741453075",
