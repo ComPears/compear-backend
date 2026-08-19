@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-19T03:28:50.007Z",
+  "importedAt": "2026-08-19T13:05:17.193Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12521,
+  "count": 12540,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -34135,6 +34135,16 @@
       "lng": -2.019929
     },
     {
+      "id": "uk-aldi-uk-way-956297149",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.561739,
+      "lng": -1.826584
+    },
+    {
       "id": "uk-aldi-uk-node-10693131200",
       "chain": "aldi-uk",
       "country": "uk",
@@ -43415,16 +43425,6 @@
       "lng": -2.323617
     },
     {
-      "id": "uk-asda-node-9512338621",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 52.299293,
-      "lng": -0.731778
-    },
-    {
       "id": "uk-asda-node-13525625769",
       "chain": "asda",
       "country": "uk",
@@ -43533,6 +43533,16 @@
       "city": "",
       "lat": 53.377214,
       "lng": -1.396292
+    },
+    {
+      "id": "uk-asda-node-9512338621",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 52.299293,
+      "lng": -0.731778
     },
     {
       "id": "uk-asda-node-11382453519",
@@ -43715,26 +43725,6 @@
       "lng": -0.105931
     },
     {
-      "id": "uk-asda-node-13948659768",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 51.593406,
-      "lng": -0.341203
-    },
-    {
-      "id": "uk-asda-node-14053802365",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 56.480334,
-      "lng": -2.951742
-    },
-    {
       "id": "uk-asda-way-89482034",
       "chain": "asda",
       "country": "uk",
@@ -43845,16 +43835,6 @@
       "lng": -1.947075
     },
     {
-      "id": "uk-asda-way-428945753",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 52.596183,
-      "lng": -1.60869
-    },
-    {
       "id": "uk-asda-way-444907832",
       "chain": "asda",
       "country": "uk",
@@ -43863,16 +43843,6 @@
       "city": "",
       "lat": 54.945357,
       "lng": -1.670815
-    },
-    {
-      "id": "uk-asda-way-472063486",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Church Lane, BA3 2JL",
-      "city": "",
-      "lat": 51.285718,
-      "lng": -2.486192
     },
     {
       "id": "uk-asda-way-533465665",
@@ -44005,6 +43975,26 @@
       "lng": -2.251981
     },
     {
+      "id": "uk-asda-node-13948659768",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.593406,
+      "lng": -0.341203
+    },
+    {
+      "id": "uk-asda-node-14053802365",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 56.480334,
+      "lng": -2.951742
+    },
+    {
       "id": "uk-asda-way-89270383",
       "chain": "asda",
       "country": "uk",
@@ -44013,6 +44003,26 @@
       "city": "",
       "lat": 51.958467,
       "lng": -1.202706
+    },
+    {
+      "id": "uk-asda-way-428945753",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 52.596183,
+      "lng": -1.60869
+    },
+    {
+      "id": "uk-asda-way-472063486",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Church Lane, BA3 2JL",
+      "city": "",
+      "lat": 51.285718,
+      "lng": -2.486192
     },
     {
       "id": "uk-asda-node-13263845129",
@@ -45835,16 +45845,6 @@
       "lng": -2.909826
     },
     {
-      "id": "uk-asda-way-1063343284",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Parkgate Road, CH1 4BE Chester",
-      "city": "Chester",
-      "lat": 53.204276,
-      "lng": -2.902341
-    },
-    {
       "id": "uk-asda-way-1264088260",
       "chain": "asda",
       "country": "uk",
@@ -45853,6 +45853,16 @@
       "city": "Chester",
       "lat": 53.183889,
       "lng": -2.887315
+    },
+    {
+      "id": "uk-asda-way-1063343284",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Parkgate Road, CH1 4BE Chester",
+      "city": "Chester",
+      "lat": 53.204276,
+      "lng": -2.902341
     },
     {
       "id": "uk-asda-way-1030977913",
@@ -48995,6 +49005,16 @@
       "lng": -2.158418
     },
     {
+      "id": "uk-asda-node-8835596943",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Longley Lane 106, M22 4SY Manchester",
+      "city": "Manchester",
+      "lat": 53.402313,
+      "lng": -2.254684
+    },
+    {
       "id": "uk-asda-node-11467333106",
       "chain": "asda",
       "country": "uk",
@@ -49025,16 +49045,6 @@
       "lng": -2.259255
     },
     {
-      "id": "uk-asda-way-703947982",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Longley Lane 106, M22 4SY Manchester",
-      "city": "Manchester",
-      "lat": 53.402327,
-      "lng": -2.254659
-    },
-    {
       "id": "uk-asda-way-1043621256",
       "chain": "asda",
       "country": "uk",
@@ -49053,6 +49063,16 @@
       "city": "Manchester",
       "lat": 53.510839,
       "lng": -2.390303
+    },
+    {
+      "id": "uk-asda-way-703947982",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Longley Lane 106, M22 4SY Manchester",
+      "city": "Manchester",
+      "lat": 53.402327,
+      "lng": -2.254659
     },
     {
       "id": "uk-asda-way-261424929",
@@ -50355,6 +50375,16 @@
       "lng": 0.494206
     },
     {
+      "id": "uk-asda-node-2200247686",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "City Way 342, ME1 2BJ Rochester",
+      "city": "Rochester",
+      "lat": 51.369401,
+      "lng": 0.509845
+    },
+    {
       "id": "uk-asda-way-126449033",
       "chain": "asda",
       "country": "uk",
@@ -50745,16 +50775,6 @@
       "lng": -1.47921
     },
     {
-      "id": "uk-asda-way-137338988",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Handsworth Road 320, S13 9BX Sheffield",
-      "city": "Sheffield",
-      "lat": 53.372123,
-      "lng": -1.389087
-    },
-    {
       "id": "uk-asda-way-178220573",
       "chain": "asda",
       "country": "uk",
@@ -50783,6 +50803,16 @@
       "city": "Sheffield",
       "lat": 53.349692,
       "lng": -1.222369
+    },
+    {
+      "id": "uk-asda-way-137338988",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Handsworth Road 320, S13 9BX Sheffield",
+      "city": "Sheffield",
+      "lat": 53.372123,
+      "lng": -1.389087
     },
     {
       "id": "uk-asda-way-42619337",
@@ -51445,6 +51475,16 @@
       "lng": -1.780388
     },
     {
+      "id": "uk-asda-node-10614859519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express Churchill Road",
+      "address": "Churchill Road 90, B75 7LB Sutton Coldfield",
+      "city": "Sutton Coldfield",
+      "lat": 52.563217,
+      "lng": -1.79177
+    },
+    {
       "id": "uk-asda-way-1106301251",
       "chain": "asda",
       "country": "uk",
@@ -51603,6 +51643,16 @@
       "city": "Tamworth",
       "lat": 52.625559,
       "lng": -1.701334
+    },
+    {
+      "id": "uk-asda-node-4280664695",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Watling Street, B78 1SS Tamworth",
+      "city": "Tamworth",
+      "lat": 52.596197,
+      "lng": -1.608743
     },
     {
       "id": "uk-asda-way-120023707",
@@ -54955,6 +55005,16 @@
       "lng": -1.216459
     },
     {
+      "id": "uk-lidl-uk-way-1476636656",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 50.865558,
+      "lng": -1.014642
+    },
+    {
       "id": "uk-lidl-uk-way-1484284729",
       "chain": "lidl-uk",
       "country": "uk",
@@ -55023,16 +55083,6 @@
       "city": "",
       "lat": 53.836964,
       "lng": -1.775223
-    },
-    {
-      "id": "uk-lidl-uk-way-1476636656",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 50.865558,
-      "lng": -1.014642
     },
     {
       "id": "uk-lidl-uk-node-14084427554",
@@ -80505,16 +80555,6 @@
       "lng": -5.262447
     },
     {
-      "id": "uk-sainsburys-way-1066882214",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 53.822819,
-      "lng": -3.047728
-    },
-    {
       "id": "uk-sainsburys-way-1136152537",
       "chain": "sainsburys",
       "country": "uk",
@@ -80623,6 +80663,16 @@
       "city": "",
       "lat": 53.205139,
       "lng": -0.578329
+    },
+    {
+      "id": "uk-sainsburys-way-1066882214",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Sainsbury's",
+      "city": "",
+      "lat": 53.822819,
+      "lng": -3.047728
     },
     {
       "id": "uk-sainsburys-node-10735396982",
@@ -80823,6 +80873,16 @@
       "city": "",
       "lat": 51.747868,
       "lng": -1.237477
+    },
+    {
+      "id": "uk-sainsburys-node-1277048696",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "St Johns Road 60-64, TN4 9PE",
+      "city": "",
+      "lat": 51.141463,
+      "lng": 0.260451
     },
     {
       "id": "uk-sainsburys-node-1686593827",
@@ -81745,36 +81805,6 @@
       "lng": -0.288941
     },
     {
-      "id": "uk-sainsburys-node-13947668831",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.596167,
-      "lng": -0.348268
-    },
-    {
-      "id": "uk-sainsburys-node-14026367532",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.518805,
-      "lng": -0.105114
-    },
-    {
-      "id": "uk-sainsburys-node-14083456383",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.879592,
-      "lng": -0.376212
-    },
-    {
       "id": "uk-sainsburys-way-70594989",
       "chain": "sainsburys",
       "country": "uk",
@@ -82315,16 +82345,6 @@
       "lng": -1.070259
     },
     {
-      "id": "uk-sainsburys-way-1108496356",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.141432,
-      "lng": 0.260598
-    },
-    {
       "id": "uk-sainsburys-way-1137370371",
       "chain": "sainsburys",
       "country": "uk",
@@ -82445,6 +82465,36 @@
       "lng": -0.413812
     },
     {
+      "id": "uk-sainsburys-node-13947668831",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.596167,
+      "lng": -0.348268
+    },
+    {
+      "id": "uk-sainsburys-node-14026367532",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.518805,
+      "lng": -0.105114
+    },
+    {
+      "id": "uk-sainsburys-node-14083456383",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.879592,
+      "lng": -0.376212
+    },
+    {
       "id": "uk-sainsburys-way-87705149",
       "chain": "sainsburys",
       "country": "uk",
@@ -82463,6 +82513,16 @@
       "city": "",
       "lat": 51.454606,
       "lng": -2.525941
+    },
+    {
+      "id": "uk-sainsburys-way-1108496356",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Sainsbury's Local",
+      "city": "",
+      "lat": 51.141432,
+      "lng": 0.260598
     },
     {
       "id": "uk-sainsburys-way-89976373",
@@ -84945,6 +85005,16 @@
       "lng": -1.561679
     },
     {
+      "id": "uk-sainsburys-way-384147314",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Clifton Road 4, DL1 5DS Darlington",
+      "city": "Darlington",
+      "lat": 54.52105,
+      "lng": -1.550372
+    },
+    {
       "id": "uk-sainsburys-node-14068908168",
       "chain": "sainsburys",
       "country": "uk",
@@ -86215,16 +86285,6 @@
       "lng": -4.284162
     },
     {
-      "id": "uk-sainsburys-way-1540299668",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Millersneuk Road, G66 5JD Glasgow",
-      "city": "Glasgow",
-      "lat": 55.920848,
-      "lng": -4.151098
-    },
-    {
       "id": "uk-sainsburys-node-437522472",
       "chain": "sainsburys",
       "country": "uk",
@@ -86233,6 +86293,16 @@
       "city": "Glasgow",
       "lat": 55.875497,
       "lng": -4.292648
+    },
+    {
+      "id": "uk-sainsburys-way-1540299668",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Millersneuk Road, G66 5JD Glasgow",
+      "city": "Glasgow",
+      "lat": 55.920848,
+      "lng": -4.151098
     },
     {
       "id": "uk-sainsburys-way-53322220",
@@ -87355,16 +87425,6 @@
       "lng": -0.283428
     },
     {
-      "id": "uk-sainsburys-node-13621540801",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Wood Street, KT1 1UJ Kingston upon Thames",
-      "city": "Kingston upon Thames",
-      "lat": 51.412609,
-      "lng": -0.301416
-    },
-    {
       "id": "uk-sainsburys-way-554242059",
       "chain": "sainsburys",
       "country": "uk",
@@ -87383,6 +87443,16 @@
       "city": "Kingston upon Thames",
       "lat": 51.431324,
       "lng": -0.307345
+    },
+    {
+      "id": "uk-sainsburys-node-13621540801",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Wood Street, KT1 1UJ Kingston upon Thames",
+      "city": "Kingston upon Thames",
+      "lat": 51.412609,
+      "lng": -0.301416
     },
     {
       "id": "uk-sainsburys-way-60541459",
@@ -88659,7 +88729,7 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's Local",
-      "address": "W2 1RH London",
+      "address": "W2 1HB London",
       "city": "London",
       "lat": 51.515714,
       "lng": -0.176603
@@ -88883,16 +88953,6 @@
       "city": "London",
       "lat": 51.481061,
       "lng": -0.021745
-    },
-    {
-      "id": "uk-sainsburys-node-2406721776",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "St Martin's Place 7-8, WC2N 4JH London",
-      "city": "London",
-      "lat": 51.509371,
-      "lng": -0.126541
     },
     {
       "id": "uk-sainsburys-node-2447053254",
@@ -89593,6 +89653,16 @@
       "city": "London",
       "lat": 51.491286,
       "lng": -0.097308
+    },
+    {
+      "id": "uk-sainsburys-node-11234794408",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "North End Road 340-342, London",
+      "city": "London",
+      "lat": 51.481901,
+      "lng": -0.199909
     },
     {
       "id": "uk-sainsburys-node-11239922500",
@@ -90433,6 +90503,16 @@
       "city": "London",
       "lat": 51.526524,
       "lng": 0.003827
+    },
+    {
+      "id": "uk-sainsburys-node-2406721776",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "St Martin's Place 7-8, WC2N 4JH London",
+      "city": "London",
+      "lat": 51.509371,
+      "lng": -0.126541
     },
     {
       "id": "uk-sainsburys-way-28511890",
@@ -92865,6 +92945,16 @@
       "lng": 1.21126
     },
     {
+      "id": "uk-sainsburys-way-407171554",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Gloucester Crescent, LE18 4XJ Shire Court",
+      "city": "Shire Court",
+      "lat": 52.587033,
+      "lng": -1.134163
+    },
+    {
       "id": "uk-sainsburys-node-392955771",
       "chain": "sainsburys",
       "country": "uk",
@@ -95005,6 +95095,16 @@
       "lng": -1.083553
     },
     {
+      "id": "uk-sainsburys-node-5146139272",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Station Road, YO24 1AY York",
+      "city": "York",
+      "lat": 53.957886,
+      "lng": -1.092687
+    },
+    {
       "id": "uk-sainsburys-way-1546587981",
       "chain": "sainsburys",
       "country": "uk",
@@ -96585,16 +96685,6 @@
       "lng": -3.002932
     },
     {
-      "id": "uk-tesco-way-1414512647",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Tesco",
-      "city": "",
-      "lat": 52.003095,
-      "lng": -0.49612
-    },
-    {
       "id": "uk-tesco-way-1424473176",
       "chain": "tesco",
       "country": "uk",
@@ -96623,6 +96713,16 @@
       "city": "",
       "lat": 54.606779,
       "lng": -1.282292
+    },
+    {
+      "id": "uk-tesco-way-1414512647",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Tesco",
+      "city": "",
+      "lat": 52.003095,
+      "lng": -0.49612
     },
     {
       "id": "uk-tesco-way-1472518329",
@@ -97295,6 +97395,16 @@
       "lng": -1.124368
     },
     {
+      "id": "uk-tesco-node-1300977148",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Bristnall Hall Road, B68 9TX",
+      "city": "",
+      "lat": 52.481725,
+      "lng": -1.998553
+    },
+    {
       "id": "uk-tesco-node-1330405519",
       "chain": "tesco",
       "country": "uk",
@@ -97433,6 +97543,16 @@
       "city": "",
       "lat": 51.588464,
       "lng": -0.05929
+    },
+    {
+      "id": "uk-tesco-node-1652761540",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Mount Pleasant 28, L3 5SA",
+      "city": "",
+      "lat": 53.40451,
+      "lng": -2.976539
     },
     {
       "id": "uk-tesco-node-1664453532",
@@ -99315,36 +99435,6 @@
       "lng": -3.312628
     },
     {
-      "id": "uk-tesco-node-13946447595",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Tesco Express",
-      "city": "",
-      "lat": 51.54101,
-      "lng": -0.287397
-    },
-    {
-      "id": "uk-tesco-node-13958371656",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Tesco Express",
-      "city": "",
-      "lat": 52.633275,
-      "lng": 0.688031
-    },
-    {
-      "id": "uk-tesco-node-13972268674",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Tesco Express",
-      "city": "",
-      "lat": 53.470692,
-      "lng": -2.273637
-    },
-    {
       "id": "uk-tesco-way-22328776",
       "chain": "tesco",
       "country": "uk",
@@ -99555,6 +99645,16 @@
       "lng": -1.901112
     },
     {
+      "id": "uk-tesco-way-109816278",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Tesco Express",
+      "city": "",
+      "lat": 50.918652,
+      "lng": -1.427971
+    },
+    {
       "id": "uk-tesco-way-111810586",
       "chain": "tesco",
       "country": "uk",
@@ -99723,16 +99823,6 @@
       "city": "",
       "lat": 51.142917,
       "lng": 0.259673
-    },
-    {
-      "id": "uk-tesco-way-165068032",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Bristnall Hall Road, B68 9TX",
-      "city": "",
-      "lat": 52.481706,
-      "lng": -1.998533
     },
     {
       "id": "uk-tesco-way-166696479",
@@ -100163,16 +100253,6 @@
       "city": "",
       "lat": 53.533889,
       "lng": -1.122751
-    },
-    {
-      "id": "uk-tesco-way-276126333",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Hanworth Road 672, TW4 5NP",
-      "city": "",
-      "lat": 51.449903,
-      "lng": -0.379278
     },
     {
       "id": "uk-tesco-way-291678118",
@@ -101355,6 +101435,36 @@
       "lng": 0.266717
     },
     {
+      "id": "uk-tesco-node-13946447595",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Tesco Express",
+      "city": "",
+      "lat": 51.54101,
+      "lng": -0.287397
+    },
+    {
+      "id": "uk-tesco-node-13958371656",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Tesco Express",
+      "city": "",
+      "lat": 52.633275,
+      "lng": 0.688031
+    },
+    {
+      "id": "uk-tesco-node-13972268674",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Tesco Express",
+      "city": "",
+      "lat": 53.470692,
+      "lng": -2.273637
+    },
+    {
       "id": "uk-tesco-node-14015259301",
       "chain": "tesco",
       "country": "uk",
@@ -101363,6 +101473,26 @@
       "city": "",
       "lat": 53.638435,
       "lng": -2.637963
+    },
+    {
+      "id": "uk-tesco-way-165068032",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Bristnall Hall Road, B68 9TX",
+      "city": "",
+      "lat": 52.481706,
+      "lng": -1.998533
+    },
+    {
+      "id": "uk-tesco-way-276126333",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Hanworth Road 672, TW4 5NP",
+      "city": "",
+      "lat": 51.449903,
+      "lng": -0.379278
     },
     {
       "id": "uk-tesco-way-1544084580",
@@ -101755,14 +101885,14 @@
       "lng": -4.178296
     },
     {
-      "id": "uk-tesco-node-13541386230",
+      "id": "uk-tesco-way-160289303",
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco Extra",
       "address": "Tesco Extra",
       "city": "",
-      "lat": 50.709732,
-      "lng": -1.145133
+      "lat": 50.709727,
+      "lng": -1.145123
     },
     {
       "id": "uk-tesco-way-209646202",
@@ -101853,6 +101983,16 @@
       "city": "",
       "lat": 52.060265,
       "lng": -0.030033
+    },
+    {
+      "id": "uk-tesco-node-13541386230",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra",
+      "address": "Tesco Extra",
+      "city": "",
+      "lat": 50.709732,
+      "lng": -1.145133
     },
     {
       "id": "uk-tesco-way-795019377",
@@ -105513,6 +105653,16 @@
       "city": "Cambridge",
       "lat": 52.229903,
       "lng": 0.136801
+    },
+    {
+      "id": "uk-tesco-node-2377969472",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Petty Cury 3,4,5, CB2 3NE Cambridge",
+      "city": "Cambridge",
+      "lat": 52.205018,
+      "lng": 0.119957
     },
     {
       "id": "uk-tesco-node-3634544637",
@@ -111665,6 +111815,16 @@
       "lng": 0.496482
     },
     {
+      "id": "uk-tesco-node-4392723600",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Wootton Road 301, PE30 3AR King's Lynn",
+      "city": "King's Lynn",
+      "lat": 52.769806,
+      "lng": 0.429663
+    },
+    {
       "id": "uk-tesco-way-592088641",
       "chain": "tesco",
       "country": "uk",
@@ -114645,16 +114805,6 @@
       "lng": -0.054379
     },
     {
-      "id": "uk-tesco-node-9352895797",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Leman Street, E1 8PU London",
-      "city": "London",
-      "lat": 51.51351,
-      "lng": -0.07014
-    },
-    {
       "id": "uk-tesco-node-9392234954",
       "chain": "tesco",
       "country": "uk",
@@ -114923,16 +115073,6 @@
       "city": "London",
       "lat": 51.573108,
       "lng": -0.088486
-    },
-    {
-      "id": "uk-tesco-node-14040117526",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Old Brompton Road 50-52, SW7 3DY London",
-      "city": "London",
-      "lat": 51.493182,
-      "lng": -0.17637
     },
     {
       "id": "uk-tesco-way-5465511",
@@ -115795,6 +115935,16 @@
       "lng": -0.192703
     },
     {
+      "id": "uk-tesco-way-846835513",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Old Brompton Road 50-52, SW7 3DY London",
+      "city": "London",
+      "lat": 51.493206,
+      "lng": -0.176384
+    },
+    {
       "id": "uk-tesco-way-853255267",
       "chain": "tesco",
       "country": "uk",
@@ -116013,6 +116163,26 @@
       "city": "London",
       "lat": 51.558691,
       "lng": 0.042681
+    },
+    {
+      "id": "uk-tesco-node-9352895797",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Leman Street, E1 8PU London",
+      "city": "London",
+      "lat": 51.51351,
+      "lng": -0.07014
+    },
+    {
+      "id": "uk-tesco-node-14040117526",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Old Brompton Road 50-52, SW7 3DY London",
+      "city": "London",
+      "lat": 51.493182,
+      "lng": -0.17637
     },
     {
       "id": "uk-tesco-way-1152871597",
@@ -118225,16 +118395,6 @@
       "lng": 1.176337
     },
     {
-      "id": "uk-tesco-way-144197018",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "The Street, NR14 7RQ Norwich",
-      "city": "Norwich",
-      "lat": 52.570468,
-      "lng": 1.344252
-    },
-    {
       "id": "uk-tesco-way-167577802",
       "chain": "tesco",
       "country": "uk",
@@ -118253,6 +118413,16 @@
       "city": "Norwich",
       "lat": 52.610126,
       "lng": 1.230254
+    },
+    {
+      "id": "uk-tesco-way-144197018",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "The Street, NR14 7RQ Norwich",
+      "city": "Norwich",
+      "lat": 52.570468,
+      "lng": 1.344252
     },
     {
       "id": "uk-tesco-way-32947661",
@@ -121405,6 +121575,16 @@
       "lng": -0.383135
     },
     {
+      "id": "uk-tesco-node-9399542179",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "North Hyde Lane 179, UB2 5SG Southall",
+      "city": "Southall",
+      "lat": 51.491825,
+      "lng": -0.380922
+    },
+    {
       "id": "uk-tesco-way-1216266980",
       "chain": "tesco",
       "country": "uk",
@@ -123213,6 +123393,16 @@
       "city": "Tiverton",
       "lat": 50.915638,
       "lng": -3.477667
+    },
+    {
+      "id": "uk-tesco-node-3643005835",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Commercial Road 14, TN12 6EL Tonbridge",
+      "city": "Tonbridge",
+      "lat": 51.181165,
+      "lng": 0.388676
     },
     {
       "id": "uk-tesco-way-421156569",
