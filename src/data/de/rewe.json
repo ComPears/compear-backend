@@ -16,7 +16,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/vollmilch-1l",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.236Z",
     "category": "Dairy & Eggs",
     "barcode": "4008400401126",
     "identityKey": "ean:4008400401126"
@@ -38,7 +38,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/h-milch-1.5-1l",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.236Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|milch|1000ml"
@@ -60,7 +60,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/butter-250g",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.236Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|butter|250ml"
@@ -82,7 +82,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/joghurt-natur-500g",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|joghurt-natur|500ml"
@@ -104,7 +104,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/eier-freiland-10",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|10er-eier-freiland|10x1count"
@@ -126,7 +126,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/gouda-jung-400g",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|gouda-jung|400ml"
@@ -148,7 +148,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/frischkase-natur-200g",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|frischk-natur-se|200ml"
@@ -170,7 +170,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/sahne-200g",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|30-sahne|200ml"
@@ -192,7 +192,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/weizenmehl-1kg",
-    "scrapedAt": "2026-08-19T12:37:49.732Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|405-type-weizenmehl|1000ml"
@@ -214,7 +214,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/zucker-1kg",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|zucker|1000ml"
@@ -236,7 +236,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/langkornreis-1kg",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|langkornreis|1000ml"
@@ -258,7 +258,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/spaghetti-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|spaghetti|500ml"
@@ -280,7 +280,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/penne-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|penne-rigate|500ml"
@@ -302,7 +302,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/sonnenblumenoel-1l",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|sonnenblumen|1000ml"
@@ -324,7 +324,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/olivenoel-500ml",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|extra-oliven-vergine|500ml"
@@ -346,7 +346,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/tomatensauce-400g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|tomatensauce|400ml"
@@ -368,7 +368,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/passierte-tomaten-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|passierte-tomaten|500ml"
@@ -390,7 +390,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/kaffee-gemahlen-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|gemahlen-kaffee|500ml"
@@ -412,7 +412,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/kaffee-pads-16",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|16er-filterkaffee-pads|16x1count"
@@ -434,7 +434,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/schwarzer-tee-25",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|25-beutel-schwarzer-tee|25x1count"
@@ -456,7 +456,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/toastbrot-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|toastbrot-weizen|500ml"
@@ -478,7 +478,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/vollkornbrot-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|vollkornbrot|500ml"
@@ -500,7 +500,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/broetchen-6",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|6er-br-tchen-weizen|6x1count"
@@ -522,7 +522,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/aepfel-elstar-1kg",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|elstar-pfel|1000ml"
@@ -544,7 +544,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/bananen-1kg",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bananen|1000ml"
@@ -566,7 +566,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/tomaten-rispe-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|rispe-tomaten|500ml"
@@ -588,7 +588,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/kartoffeln-2.5kg",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|festkochend-kartoffeln|2500ml"
@@ -610,7 +610,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/gurke",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|ck-gurke|1count"
@@ -632,7 +632,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/zwiebeln-1kg",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|zwiebeln|1000ml"
@@ -654,7 +654,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/karotten-1kg",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.237Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|karotten|1000ml"
@@ -676,7 +676,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/eisbergsalat",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|ck-eisberg-salat|1count"
@@ -698,7 +698,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/haehnchenbrust-400g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|hnchenbrustfilet|400ml"
@@ -720,7 +720,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/hackfleisch-500g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|gemischt-hackfleisch|500ml"
@@ -742,7 +742,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/schweineschnitzel-400g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|schweineschnitzel|400ml"
@@ -764,7 +764,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/lyoner-200g",
-    "scrapedAt": "2026-08-19T12:37:49.733Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|lyoner-wurst|200ml"
@@ -786,7 +786,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/salami-100g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|geschnitten-salami|100ml"
@@ -808,7 +808,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/mineralwasser-classic-1.5l",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|classic-mineralwasser|1500ml"
@@ -830,7 +830,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/mineralwasser-still-1.5l",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|mineralwasser-still|1500ml"
@@ -852,7 +852,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/cola-1.5l",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|cola|1500ml"
@@ -874,7 +874,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/orangensaft-1l",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|orangensaft|1000ml"
@@ -896,7 +896,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/bier-pils-6x0.33",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|6x-bier-pils|1980ml"
@@ -918,7 +918,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/apfelsaft-1l",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|apfelsaft|1000ml"
@@ -940,7 +940,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/tiefkuehlpizza-salami",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|hlpizza-salami-tiefk|320ml"
@@ -962,7 +962,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/tk-erbsen-450g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|erbsen-hlgem-se-tiefk|450ml"
@@ -984,7 +984,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/pommes-750g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|frites-pommes|750ml"
@@ -1006,7 +1006,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/chips-classic-150g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|classic-kartoffelchips|150ml"
@@ -1028,7 +1028,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/schokolade-vollmilch-100g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|schokolade-vollmilch|100ml"
@@ -1050,7 +1050,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/butterkekse-200g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|butter-kekse|200ml"
@@ -1072,7 +1072,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/toilettenpapier-10",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:unknown|10-rollen-toilettenpapier|na"
@@ -1094,7 +1094,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/spuelmittel-500ml",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:unknown|lmittel-sp-zitrone|500ml"
@@ -1116,7 +1116,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/waschmittel-20wl",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:unknown|20-universal-waschmittel-wl|na"
@@ -1138,7 +1138,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/shampoo-300ml",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|normal-shampoo|300ml"
@@ -1160,7 +1160,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/zahnpasta-75ml",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|mint-zahnpasta|75ml"
@@ -1182,7 +1182,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/duschgel-250ml",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|classic-duschgel|250ml"
@@ -1204,7 +1204,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/haferflocken-500g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.238Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|haferflocken|500ml"
@@ -1226,7 +1226,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/honig-500g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:honig|fl-ssig|500ml"
@@ -1248,7 +1248,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/marmelade-erdbeere-450g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|erdbeere-marmelade|450ml"
@@ -1270,7 +1270,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/thunfisch-150g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|in-thunfisch|150ml"
@@ -1292,7 +1292,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/mais-300g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|maisk-rner|300ml"
@@ -1314,7 +1314,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/kidneybohnen-400g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|kidneybohnen|400ml"
@@ -1336,7 +1336,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/mozzarella-125g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|mozzarella|125ml"
@@ -1358,7 +1358,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/quark-mager-250g",
-    "scrapedAt": "2026-08-19T12:37:49.734Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|mager-quark|250ml"
@@ -1380,7 +1380,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/raeucherlachs-100g",
-    "scrapedAt": "2026-08-19T12:37:49.735Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|ucherlachs|100ml"
@@ -1402,7 +1402,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.rewe.de/produkt/wiener-200g",
-    "scrapedAt": "2026-08-19T12:37:49.735Z",
+    "scrapedAt": "2026-08-20T01:46:23.239Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|rstchen-wiener|200ml"
