@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-20T03:19:31.964Z",
+  "importedAt": "2026-08-21T01:57:05.804Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12463,
+  "count": 12516,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -12859,7 +12859,7 @@
       "chain": "aldi",
       "country": "nl",
       "name": "ALDI",
-      "address": "Zambonistraat 4F, 8263CE Kampen",
+      "address": "Zambonistraat 4A, 8263CE Kampen",
       "city": "Kampen",
       "lat": 52.557513,
       "lng": 5.883064
@@ -23423,6 +23423,16 @@
       "city": "Zwolle",
       "lat": 52.533562,
       "lng": 6.055225
+    },
+    {
+      "id": "nl-lidl-node-14107576396",
+      "chain": "lidl",
+      "country": "nl",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 51.909674,
+      "lng": 4.345681
     },
     {
       "id": "nl-lidl-node-12109976384",
@@ -34125,6 +34135,16 @@
       "lng": -2.019929
     },
     {
+      "id": "uk-aldi-uk-way-956297149",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.561739,
+      "lng": -1.826584
+    },
+    {
       "id": "uk-aldi-uk-node-10693131200",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34961,8 +34981,8 @@
       "name": "Aldi",
       "address": "Dubb Lane, BD16 2AZ Bingley",
       "city": "Bingley",
-      "lat": 53.847924,
-      "lng": -1.834855
+      "lat": 53.847941,
+      "lng": -1.834844
     },
     {
       "id": "uk-aldi-uk-way-919664160",
@@ -43415,16 +43435,6 @@
       "lng": -0.731778
     },
     {
-      "id": "uk-asda-node-11382453519",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 55.868709,
-      "lng": -3.70322
-    },
-    {
       "id": "uk-asda-node-13525625769",
       "chain": "asda",
       "country": "uk",
@@ -43473,16 +43483,6 @@
       "city": "",
       "lat": 54.595171,
       "lng": -7.311617
-    },
-    {
-      "id": "uk-asda-way-344227605",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 51.528684,
-      "lng": -3.692142
     },
     {
       "id": "uk-asda-way-423231271",
@@ -43543,6 +43543,26 @@
       "city": "",
       "lat": 53.377214,
       "lng": -1.396292
+    },
+    {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
     },
     {
       "id": "uk-asda-node-1676712817",
@@ -43675,16 +43695,6 @@
       "lng": -1.15071
     },
     {
-      "id": "uk-asda-node-13289340701",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 53.484599,
-      "lng": -2.251981
-    },
-    {
       "id": "uk-asda-node-13512838957",
       "chain": "asda",
       "country": "uk",
@@ -43733,16 +43743,6 @@
       "city": "",
       "lat": 56.480334,
       "lng": -2.951742
-    },
-    {
-      "id": "uk-asda-way-89270383",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 51.958467,
-      "lng": -1.202706
     },
     {
       "id": "uk-asda-way-89482034",
@@ -44003,6 +44003,26 @@
       "city": "",
       "lat": 50.736764,
       "lng": -1.786774
+    },
+    {
+      "id": "uk-asda-node-13289340701",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 53.484599,
+      "lng": -2.251981
+    },
+    {
+      "id": "uk-asda-way-89270383",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.958467,
+      "lng": -1.202706
     },
     {
       "id": "uk-asda-node-13263845129",
@@ -49585,6 +49605,16 @@
       "lng": -0.794336
     },
     {
+      "id": "uk-asda-node-428412680",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Church Road 256, UB5 5AW Northolt",
+      "city": "Northolt",
+      "lat": 51.543182,
+      "lng": -0.379824
+    },
+    {
       "id": "uk-asda-way-729857652",
       "chain": "asda",
       "country": "uk",
@@ -54935,16 +54965,6 @@
       "lng": -1.216459
     },
     {
-      "id": "uk-lidl-uk-way-1476636656",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 50.865558,
-      "lng": -1.014642
-    },
-    {
       "id": "uk-lidl-uk-way-1484284729",
       "chain": "lidl-uk",
       "country": "uk",
@@ -55013,6 +55033,16 @@
       "city": "",
       "lat": 53.836964,
       "lng": -1.775223
+    },
+    {
+      "id": "uk-lidl-uk-way-1476636656",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 50.865558,
+      "lng": -1.014642
     },
     {
       "id": "uk-lidl-uk-node-14084427554",
@@ -59455,6 +59485,16 @@
       "lng": 0.053566
     },
     {
+      "id": "uk-lidl-uk-node-14107123084",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "North End Road 254-258, SW6 1NJ London",
+      "city": "London",
+      "lat": 51.484387,
+      "lng": -0.201872
+    },
+    {
       "id": "uk-lidl-uk-way-5548352",
       "chain": "lidl-uk",
       "country": "uk",
@@ -59503,16 +59543,6 @@
       "city": "London",
       "lat": 51.419681,
       "lng": -0.163786
-    },
-    {
-      "id": "uk-lidl-uk-way-150568026",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "North End Road 254 - 258, SW6 1NJ London",
-      "city": "London",
-      "lat": 51.484215,
-      "lng": -0.202168
     },
     {
       "id": "uk-lidl-uk-way-151904729",
@@ -63145,6 +63175,16 @@
       "lng": -0.787249
     },
     {
+      "id": "uk-morrisons-node-439197543",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrison Road Late Shop",
+      "address": "Morrison Road, SA12 6TH",
+      "city": "",
+      "lat": 51.598813,
+      "lng": -3.809986
+    },
+    {
       "id": "uk-morrisons-node-974360165",
       "chain": "morrisons",
       "country": "uk",
@@ -64203,6 +64243,56 @@
       "city": "",
       "lat": 51.688727,
       "lng": -3.226727
+    },
+    {
+      "id": "uk-morrisons-node-450934642",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Morrisons",
+      "city": "",
+      "lat": 53.348189,
+      "lng": -3.095149
+    },
+    {
+      "id": "uk-morrisons-way-217755929",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Morrisons",
+      "city": "",
+      "lat": 52.586529,
+      "lng": 1.700331
+    },
+    {
+      "id": "uk-morrisons-way-689683539",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Morrisons",
+      "city": "",
+      "lat": 53.604848,
+      "lng": -2.395696
+    },
+    {
+      "id": "uk-morrisons-way-1134652746",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Morrisons",
+      "city": "",
+      "lat": 57.153336,
+      "lng": -2.097989
+    },
+    {
+      "id": "uk-morrisons-way-1470151239",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Morrisons",
+      "city": "",
+      "lat": 51.942705,
+      "lng": -3.381507
     },
     {
       "id": "uk-morrisons-way-192606890",
@@ -66915,6 +67005,66 @@
       "lng": -1.840675
     },
     {
+      "id": "uk-morrisons-node-8524664656",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 51.499576,
+      "lng": -3.141994
+    },
+    {
+      "id": "uk-morrisons-node-8890739854",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 54.895211,
+      "lng": -1.398023
+    },
+    {
+      "id": "uk-morrisons-node-9311049991",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 54.660764,
+      "lng": -1.237634
+    },
+    {
+      "id": "uk-morrisons-node-11519749491",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 51.065662,
+      "lng": -0.32947
+    },
+    {
+      "id": "uk-morrisons-way-144473707",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Fortescue Road 14, BA3 3PJ",
+      "city": "",
+      "lat": 51.292059,
+      "lng": -2.446997
+    },
+    {
+      "id": "uk-morrisons-way-1496787059",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "CM8 2BY",
+      "city": "",
+      "lat": 51.808069,
+      "lng": 0.640827
+    },
+    {
       "id": "uk-morrisons-way-1459778697",
       "chain": "morrisons",
       "country": "uk",
@@ -66923,6 +67073,16 @@
       "city": "",
       "lat": 53.476436,
       "lng": -2.867734
+    },
+    {
+      "id": "uk-morrisons-way-1381249851",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily (Petrol Station) Stevenston",
+      "address": "Kilwinning Road, KA20 3DE",
+      "city": "",
+      "lat": 55.646001,
+      "lng": -4.736783
     },
     {
       "id": "uk-morrisons-way-1162474901",
@@ -66935,6 +67095,26 @@
       "lng": -1.717431
     },
     {
+      "id": "uk-morrisons-way-1355348201",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Petrol Station",
+      "address": "Morrisons Petrol Station",
+      "city": "",
+      "lat": 52.063936,
+      "lng": 1.119445
+    },
+    {
+      "id": "uk-morrisons-way-1508798032",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Petrol Station",
+      "address": "G34 9JJ",
+      "city": "",
+      "lat": 55.869245,
+      "lng": -4.131455
+    },
+    {
       "id": "uk-morrisons-way-1162538036",
       "chain": "morrisons",
       "country": "uk",
@@ -66943,6 +67123,16 @@
       "city": "",
       "lat": 52.861431,
       "lng": -3.052017
+    },
+    {
+      "id": "uk-morrisons-node-3818799021",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Robertson and Morrison",
+      "address": "Robertson and Morrison",
+      "city": "",
+      "lat": 60.231406,
+      "lng": -1.302135
     },
     {
       "id": "uk-morrisons-node-2399910272",
@@ -69455,6 +69645,16 @@
       "lng": -2.108423
     },
     {
+      "id": "uk-morrisons-way-155806165",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Caernarvon Road, GL51 3BW Cheltenham",
+      "city": "Cheltenham",
+      "lat": 51.880858,
+      "lng": -2.106655
+    },
+    {
       "id": "uk-morrisons-way-115527112",
       "chain": "morrisons",
       "country": "uk",
@@ -69895,6 +70095,16 @@
       "lng": -0.735929
     },
     {
+      "id": "uk-morrisons-node-7926179412",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons/Greggs Service Station",
+      "address": "Oakley Road, NN18 8AR Corby",
+      "city": "Corby",
+      "lat": 52.484535,
+      "lng": -0.697345
+    },
+    {
       "id": "uk-morrisons-way-579547565",
       "chain": "morrisons",
       "country": "uk",
@@ -70103,6 +70313,16 @@
       "city": "Cromer",
       "lat": 52.930546,
       "lng": 1.291982
+    },
+    {
+      "id": "uk-morrisons-node-10118257110",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Prince of Wales Road 1-3, NR27 9HR Cromer",
+      "city": "Cromer",
+      "lat": 52.932327,
+      "lng": 1.298301
     },
     {
       "id": "uk-morrisons-way-138533276",
@@ -70693,6 +70913,16 @@
       "city": "Ebbw Vale",
       "lat": 51.793113,
       "lng": -3.222325
+    },
+    {
+      "id": "uk-morrisons-node-4051569336",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrison Street Convenience Store",
+      "address": "Morrison Street 127, EH3 8AJ Edinburgh",
+      "city": "Edinburgh",
+      "lat": 55.945969,
+      "lng": -3.21122
     },
     {
       "id": "uk-morrisons-way-4878387",
@@ -72345,6 +72575,16 @@
       "lng": -1.848578
     },
     {
+      "id": "uk-morrisons-way-1315303055",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily and Post Office",
+      "address": "Ffordd Tudur, LL65 2DT Holyhead",
+      "city": "Holyhead",
+      "lat": 53.307878,
+      "lng": -4.622687
+    },
+    {
       "id": "uk-morrisons-node-5231754744",
       "chain": "morrisons",
       "country": "uk",
@@ -72583,6 +72823,16 @@
       "city": "Inverness",
       "lat": 57.480561,
       "lng": -4.220275
+    },
+    {
+      "id": "uk-morrisons-way-891004392",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Millburn Road, IV2 3PX Inverness",
+      "city": "Inverness",
+      "lat": 57.481791,
+      "lng": -4.216368
     },
     {
       "id": "uk-morrisons-way-208905403",
@@ -72833,6 +73083,16 @@
       "city": "Kilmarnock",
       "lat": 55.613024,
       "lng": -4.505446
+    },
+    {
+      "id": "uk-morrisons-way-891004218",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "West Langlands Street 117, KA1 2PY Kilmarnock",
+      "city": "Kilmarnock",
+      "lat": 55.612045,
+      "lng": -4.502807
     },
     {
       "id": "uk-morrisons-node-7372458395",
@@ -73183,6 +73443,16 @@
       "city": "Leeds",
       "lat": 53.804278,
       "lng": -1.638291
+    },
+    {
+      "id": "uk-morrisons-way-456460617",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Savins Mill Way, LS5 3RP Leeds",
+      "city": "Leeds",
+      "lat": 53.814909,
+      "lng": -1.603801
     },
     {
       "id": "uk-morrisons-node-250756727",
@@ -73725,6 +73995,16 @@
       "lng": -0.260413
     },
     {
+      "id": "uk-morrisons-way-759856054",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Honeypot Lane, NW9 6RN London",
+      "city": "London",
+      "lat": 51.593046,
+      "lng": -0.285737
+    },
+    {
       "id": "uk-morrisons-way-223048892",
       "chain": "morrisons",
       "country": "uk",
@@ -73843,6 +74123,16 @@
       "city": "London",
       "lat": 51.632897,
       "lng": 0.008635
+    },
+    {
+      "id": "uk-morrisons-node-4301363500",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Durnsford Road 23, SW19 8GY London",
+      "city": "London",
+      "lat": 51.42886,
+      "lng": -0.190402
     },
     {
       "id": "uk-morrisons-node-1562067038",
@@ -74415,6 +74705,16 @@
       "lng": -2.87405
     },
     {
+      "id": "uk-morrisons-way-836387610",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Hilmore Way, LA4 4DD Morecambe",
+      "city": "Morecambe",
+      "lat": 54.069827,
+      "lng": -2.872172
+    },
+    {
       "id": "uk-morrisons-way-1297479955",
       "chain": "morrisons",
       "country": "uk",
@@ -74503,6 +74803,16 @@
       "city": "Narberth",
       "lat": 51.800302,
       "lng": -4.738618
+    },
+    {
+      "id": "uk-morrisons-node-3233074765",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Station Road 6, LE19 2HR Narborough",
+      "city": "Narborough",
+      "lat": 52.571547,
+      "lng": -1.203679
     },
     {
       "id": "uk-morrisons-way-60727373",
@@ -74915,6 +75225,16 @@
       "lng": -0.889903
     },
     {
+      "id": "uk-morrisons-node-13574330877",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily Northampton",
+      "address": "Victoria Promenade 26, NN1 1HB Northampton",
+      "city": "Northampton",
+      "lat": 52.233395,
+      "lng": -0.892567
+    },
+    {
       "id": "uk-morrisons-way-27778362",
       "chain": "morrisons",
       "country": "uk",
@@ -74953,6 +75273,16 @@
       "city": "Northwood",
       "lat": 51.602722,
       "lng": -0.410212
+    },
+    {
+      "id": "uk-morrisons-way-308888498",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrison's",
+      "address": "Albion Way 1, NR1 1WR Norwich",
+      "city": "Norwich",
+      "lat": 52.623216,
+      "lng": 1.307897
     },
     {
       "id": "uk-morrisons-way-32786845",
@@ -75635,6 +75965,16 @@
       "lng": -4.178904
     },
     {
+      "id": "uk-morrisons-way-913915430",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Eggbuckland Road 147-149, PL3 6QA Plymouth",
+      "city": "Plymouth",
+      "lat": 50.392385,
+      "lng": -4.118349
+    },
+    {
       "id": "uk-morrisons-way-41190235",
       "chain": "morrisons",
       "country": "uk",
@@ -75883,6 +76223,16 @@
       "city": "Preston",
       "lat": 53.776444,
       "lng": -2.661336
+    },
+    {
+      "id": "uk-morrisons-node-6588754897",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Tunley Holme 77, PR5 8ES Preston",
+      "city": "Preston",
+      "lat": 53.712232,
+      "lng": -2.637129
     },
     {
       "id": "uk-morrisons-way-186370786",
@@ -76685,6 +77035,16 @@
       "lng": -0.333427
     },
     {
+      "id": "uk-morrisons-node-324160508",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Alex Morrisons",
+      "address": "Burgh Road, ZE1 0HJ Shetland",
+      "city": "Shetland",
+      "lat": 60.15682,
+      "lng": -1.151131
+    },
+    {
       "id": "uk-morrisons-way-155052635",
       "chain": "morrisons",
       "country": "uk",
@@ -77395,6 +77755,16 @@
       "lng": -1.275699
     },
     {
+      "id": "uk-morrisons-way-1202624208",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Newmarket Avenue, TS17 7BQ Stockton-on-Tees",
+      "city": "Stockton-on-Tees",
+      "lat": 54.557714,
+      "lng": -1.280308
+    },
+    {
       "id": "uk-morrisons-node-456058249",
       "chain": "morrisons",
       "country": "uk",
@@ -77593,6 +77963,16 @@
       "city": "Swanley",
       "lat": 51.411149,
       "lng": 0.182287
+    },
+    {
+      "id": "uk-morrisons-node-12095825603",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrison Food And Wine",
+      "address": "SN2 2HE Swindon",
+      "city": "Swindon",
+      "lat": 51.564506,
+      "lng": -1.803468
     },
     {
       "id": "uk-morrisons-way-92943549",
@@ -88141,8 +88521,8 @@
       "name": "Sainsbury's",
       "address": "Henshaw Parade 2, NW9 6GH London",
       "city": "London",
-      "lat": 51.582543,
-      "lng": -0.24466
+      "lat": 51.58249,
+      "lng": -0.244574
     },
     {
       "id": "uk-sainsburys-way-1002595180",
@@ -96245,6 +96625,26 @@
       "lng": -3.586531
     },
     {
+      "id": "uk-tesco-way-1472518329",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Tesco",
+      "city": "",
+      "lat": 51.598229,
+      "lng": -3.781506
+    },
+    {
+      "id": "uk-tesco-way-1493089935",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Heartlands Terrace 5",
+      "city": "",
+      "lat": 55.866068,
+      "lng": -3.703078
+    },
+    {
       "id": "uk-tesco-way-1517148180",
       "chain": "tesco",
       "country": "uk",
@@ -96253,6 +96653,16 @@
       "city": "",
       "lat": 54.606779,
       "lng": -1.282292
+    },
+    {
+      "id": "uk-tesco-node-11808065474",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Click & Collect",
+      "address": "Tesco Click & Collect",
+      "city": "",
+      "lat": 51.498931,
+      "lng": -3.204884
     },
     {
       "id": "uk-tesco-node-224687495",
@@ -98935,6 +99345,16 @@
       "lng": -2.273637
     },
     {
+      "id": "uk-tesco-node-14015259301",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Tesco Express",
+      "city": "",
+      "lat": 53.638435,
+      "lng": -2.637963
+    },
+    {
       "id": "uk-tesco-way-22328776",
       "chain": "tesco",
       "country": "uk",
@@ -101395,6 +101815,16 @@
       "lng": -0.351593
     },
     {
+      "id": "uk-tesco-way-795019377",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra",
+      "address": "Tesco Extra",
+      "city": "",
+      "lat": 53.488333,
+      "lng": -2.290425
+    },
+    {
       "id": "uk-tesco-way-824402349",
       "chain": "tesco",
       "country": "uk",
@@ -101415,6 +101845,16 @@
       "lng": -0.18501
     },
     {
+      "id": "uk-tesco-way-1021742244",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra",
+      "address": "Tesco Extra",
+      "city": "",
+      "lat": 53.36249,
+      "lng": -2.725569
+    },
+    {
       "id": "uk-tesco-way-1463183416",
       "chain": "tesco",
       "country": "uk",
@@ -101423,6 +101863,26 @@
       "city": "",
       "lat": 52.060265,
       "lng": -0.030033
+    },
+    {
+      "id": "uk-tesco-node-8551716783",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra Petrol Station Shop",
+      "address": "Tesco Extra Petrol Station Shop",
+      "city": "",
+      "lat": 51.488656,
+      "lng": -3.13025
+    },
+    {
+      "id": "uk-tesco-way-1493723405",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Filling Station",
+      "address": "Tryst Road 1, G67 1JW",
+      "city": "",
+      "lat": 55.944388,
+      "lng": -3.99014
     },
     {
       "id": "uk-tesco-way-444831997",
@@ -101463,6 +101923,16 @@
       "city": "",
       "lat": 52.485507,
       "lng": -1.890401
+    },
+    {
+      "id": "uk-tesco-node-11728787469",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Yasmin's Tesco",
+      "address": "Feeny Road 715, BT47 4TB",
+      "city": "",
+      "lat": 54.899496,
+      "lng": -6.976482
     },
     {
       "id": "uk-tesco-node-2442047721",
@@ -107485,6 +107955,16 @@
       "lng": 0.303517
     },
     {
+      "id": "uk-tesco-way-1041753400",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra",
+      "address": "Lottbridge Drove 21, BN23 6QD Eastbourne",
+      "city": "Eastbourne",
+      "lat": 50.787311,
+      "lng": 0.303736
+    },
+    {
       "id": "uk-tesco-node-912015560",
       "chain": "tesco",
       "country": "uk",
@@ -109653,6 +110133,16 @@
       "city": "Haslemere",
       "lat": 51.086612,
       "lng": -0.730493
+    },
+    {
+      "id": "uk-tesco-way-281328880",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Great North Road, AL9 5JY Hatfield",
+      "city": "Hatfield",
+      "lat": 51.777318,
+      "lng": -0.222179
     },
     {
       "id": "uk-tesco-way-161528023",
@@ -115805,6 +116295,16 @@
       "lng": -2.535434
     },
     {
+      "id": "uk-tesco-way-966248633",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "High Street, Lydney",
+      "city": "Lydney",
+      "lat": 51.72526,
+      "lng": -2.534273
+    },
+    {
       "id": "uk-tesco-node-3745232256",
       "chain": "tesco",
       "country": "uk",
@@ -120125,6 +120625,16 @@
       "lng": -1.071225
     },
     {
+      "id": "uk-tesco-node-1556414750",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Doncaster Road, YO8 9EG Selby",
+      "city": "Selby",
+      "lat": 53.768782,
+      "lng": -1.089557
+    },
+    {
       "id": "uk-tesco-way-76285347",
       "chain": "tesco",
       "country": "uk",
@@ -120193,16 +120703,6 @@
       "city": "Sheffield",
       "lat": 53.412848,
       "lng": -1.471498
-    },
-    {
-      "id": "uk-tesco-way-1040321779",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Savile Street 1, S4 7UD Sheffield",
-      "city": "Sheffield",
-      "lat": 53.390103,
-      "lng": -1.455824
     },
     {
       "id": "uk-tesco-node-1925275822",
@@ -121435,6 +121935,16 @@
       "lng": -2.728648
     },
     {
+      "id": "uk-tesco-way-1043618149",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra",
+      "address": "St Helens Linkway, WA9 3AL St Helens",
+      "city": "St Helens",
+      "lat": 53.445612,
+      "lng": -2.730769
+    },
+    {
       "id": "uk-tesco-way-205672969",
       "chain": "tesco",
       "country": "uk",
@@ -121713,6 +122223,16 @@
       "city": "Stockton-on-Tees",
       "lat": 54.593098,
       "lng": -1.353274
+    },
+    {
+      "id": "uk-tesco-way-1051018290",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Extra",
+      "address": "Durham Road, TS21 3LU Stockton-on-Tees",
+      "city": "Stockton-on-Tees",
+      "lat": 54.591534,
+      "lng": -1.351638
     },
     {
       "id": "uk-tesco-way-54827442",
@@ -122533,6 +123053,16 @@
       "city": "Thirsk",
       "lat": 54.230644,
       "lng": -1.347624
+    },
+    {
+      "id": "uk-tesco-way-866147747",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Petrol Station",
+      "address": "Midland Way, BS35 2BS Thornbury",
+      "city": "Thornbury",
+      "lat": 51.60488,
+      "lng": -2.526542
     },
     {
       "id": "uk-tesco-way-316861525",
