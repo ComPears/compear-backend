@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-21T01:57:05.804Z",
+  "importedAt": "2026-08-21T03:27:10.877Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12516,
+  "count": 12446,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -33845,6 +33845,16 @@
       "lng": -4.169563
     },
     {
+      "id": "uk-aldi-uk-way-956297149",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.561739,
+      "lng": -1.826584
+    },
+    {
       "id": "uk-aldi-uk-way-979860465",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34133,16 +34143,6 @@
       "city": "",
       "lat": 52.673953,
       "lng": -2.019929
-    },
-    {
-      "id": "uk-aldi-uk-way-956297149",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Aldi",
-      "city": "",
-      "lat": 52.561739,
-      "lng": -1.826584
     },
     {
       "id": "uk-aldi-uk-node-10693131200",
@@ -43435,6 +43435,16 @@
       "lng": -0.731778
     },
     {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
       "id": "uk-asda-node-13525625769",
       "chain": "asda",
       "country": "uk",
@@ -43483,6 +43493,16 @@
       "city": "",
       "lat": 54.595171,
       "lng": -7.311617
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
     },
     {
       "id": "uk-asda-way-423231271",
@@ -43543,26 +43563,6 @@
       "city": "",
       "lat": 53.377214,
       "lng": -1.396292
-    },
-    {
-      "id": "uk-asda-node-11382453519",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 55.868709,
-      "lng": -3.70322
-    },
-    {
-      "id": "uk-asda-way-344227605",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 51.528684,
-      "lng": -3.692142
     },
     {
       "id": "uk-asda-node-1676712817",
@@ -43695,6 +43695,16 @@
       "lng": -1.15071
     },
     {
+      "id": "uk-asda-node-13289340701",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 53.484599,
+      "lng": -2.251981
+    },
+    {
       "id": "uk-asda-node-13512838957",
       "chain": "asda",
       "country": "uk",
@@ -43743,6 +43753,16 @@
       "city": "",
       "lat": 56.480334,
       "lng": -2.951742
+    },
+    {
+      "id": "uk-asda-way-89270383",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.958467,
+      "lng": -1.202706
     },
     {
       "id": "uk-asda-way-89482034",
@@ -44003,26 +44023,6 @@
       "city": "",
       "lat": 50.736764,
       "lng": -1.786774
-    },
-    {
-      "id": "uk-asda-node-13289340701",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 53.484599,
-      "lng": -2.251981
-    },
-    {
-      "id": "uk-asda-way-89270383",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 51.958467,
-      "lng": -1.202706
     },
     {
       "id": "uk-asda-node-13263845129",
@@ -49603,16 +49603,6 @@
       "city": "Northampton",
       "lat": 52.254442,
       "lng": -0.794336
-    },
-    {
-      "id": "uk-asda-node-428412680",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Church Road 256, UB5 5AW Northolt",
-      "city": "Northolt",
-      "lat": 51.543182,
-      "lng": -0.379824
     },
     {
       "id": "uk-asda-way-729857652",
@@ -63175,16 +63165,6 @@
       "lng": -0.787249
     },
     {
-      "id": "uk-morrisons-node-439197543",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrison Road Late Shop",
-      "address": "Morrison Road, SA12 6TH",
-      "city": "",
-      "lat": 51.598813,
-      "lng": -3.809986
-    },
-    {
       "id": "uk-morrisons-node-974360165",
       "chain": "morrisons",
       "country": "uk",
@@ -64243,56 +64223,6 @@
       "city": "",
       "lat": 51.688727,
       "lng": -3.226727
-    },
-    {
-      "id": "uk-morrisons-node-450934642",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 53.348189,
-      "lng": -3.095149
-    },
-    {
-      "id": "uk-morrisons-way-217755929",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 52.586529,
-      "lng": 1.700331
-    },
-    {
-      "id": "uk-morrisons-way-689683539",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 53.604848,
-      "lng": -2.395696
-    },
-    {
-      "id": "uk-morrisons-way-1134652746",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 57.153336,
-      "lng": -2.097989
-    },
-    {
-      "id": "uk-morrisons-way-1470151239",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 51.942705,
-      "lng": -3.381507
     },
     {
       "id": "uk-morrisons-way-192606890",
@@ -67005,66 +66935,6 @@
       "lng": -1.840675
     },
     {
-      "id": "uk-morrisons-node-8524664656",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 51.499576,
-      "lng": -3.141994
-    },
-    {
-      "id": "uk-morrisons-node-8890739854",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 54.895211,
-      "lng": -1.398023
-    },
-    {
-      "id": "uk-morrisons-node-9311049991",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 54.660764,
-      "lng": -1.237634
-    },
-    {
-      "id": "uk-morrisons-node-11519749491",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 51.065662,
-      "lng": -0.32947
-    },
-    {
-      "id": "uk-morrisons-way-144473707",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Fortescue Road 14, BA3 3PJ",
-      "city": "",
-      "lat": 51.292059,
-      "lng": -2.446997
-    },
-    {
-      "id": "uk-morrisons-way-1496787059",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "CM8 2BY",
-      "city": "",
-      "lat": 51.808069,
-      "lng": 0.640827
-    },
-    {
       "id": "uk-morrisons-way-1459778697",
       "chain": "morrisons",
       "country": "uk",
@@ -67073,16 +66943,6 @@
       "city": "",
       "lat": 53.476436,
       "lng": -2.867734
-    },
-    {
-      "id": "uk-morrisons-way-1381249851",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily (Petrol Station) Stevenston",
-      "address": "Kilwinning Road, KA20 3DE",
-      "city": "",
-      "lat": 55.646001,
-      "lng": -4.736783
     },
     {
       "id": "uk-morrisons-way-1162474901",
@@ -67095,26 +66955,6 @@
       "lng": -1.717431
     },
     {
-      "id": "uk-morrisons-way-1355348201",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Petrol Station",
-      "address": "Morrisons Petrol Station",
-      "city": "",
-      "lat": 52.063936,
-      "lng": 1.119445
-    },
-    {
-      "id": "uk-morrisons-way-1508798032",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Petrol Station",
-      "address": "G34 9JJ",
-      "city": "",
-      "lat": 55.869245,
-      "lng": -4.131455
-    },
-    {
       "id": "uk-morrisons-way-1162538036",
       "chain": "morrisons",
       "country": "uk",
@@ -67123,16 +66963,6 @@
       "city": "",
       "lat": 52.861431,
       "lng": -3.052017
-    },
-    {
-      "id": "uk-morrisons-node-3818799021",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Robertson and Morrison",
-      "address": "Robertson and Morrison",
-      "city": "",
-      "lat": 60.231406,
-      "lng": -1.302135
     },
     {
       "id": "uk-morrisons-node-2399910272",
@@ -69645,16 +69475,6 @@
       "lng": -2.108423
     },
     {
-      "id": "uk-morrisons-way-155806165",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Caernarvon Road, GL51 3BW Cheltenham",
-      "city": "Cheltenham",
-      "lat": 51.880858,
-      "lng": -2.106655
-    },
-    {
       "id": "uk-morrisons-way-115527112",
       "chain": "morrisons",
       "country": "uk",
@@ -70095,16 +69915,6 @@
       "lng": -0.735929
     },
     {
-      "id": "uk-morrisons-node-7926179412",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons/Greggs Service Station",
-      "address": "Oakley Road, NN18 8AR Corby",
-      "city": "Corby",
-      "lat": 52.484535,
-      "lng": -0.697345
-    },
-    {
       "id": "uk-morrisons-way-579547565",
       "chain": "morrisons",
       "country": "uk",
@@ -70313,16 +70123,6 @@
       "city": "Cromer",
       "lat": 52.930546,
       "lng": 1.291982
-    },
-    {
-      "id": "uk-morrisons-node-10118257110",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Prince of Wales Road 1-3, NR27 9HR Cromer",
-      "city": "Cromer",
-      "lat": 52.932327,
-      "lng": 1.298301
     },
     {
       "id": "uk-morrisons-way-138533276",
@@ -70913,16 +70713,6 @@
       "city": "Ebbw Vale",
       "lat": 51.793113,
       "lng": -3.222325
-    },
-    {
-      "id": "uk-morrisons-node-4051569336",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrison Street Convenience Store",
-      "address": "Morrison Street 127, EH3 8AJ Edinburgh",
-      "city": "Edinburgh",
-      "lat": 55.945969,
-      "lng": -3.21122
     },
     {
       "id": "uk-morrisons-way-4878387",
@@ -72575,16 +72365,6 @@
       "lng": -1.848578
     },
     {
-      "id": "uk-morrisons-way-1315303055",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily and Post Office",
-      "address": "Ffordd Tudur, LL65 2DT Holyhead",
-      "city": "Holyhead",
-      "lat": 53.307878,
-      "lng": -4.622687
-    },
-    {
       "id": "uk-morrisons-node-5231754744",
       "chain": "morrisons",
       "country": "uk",
@@ -72823,16 +72603,6 @@
       "city": "Inverness",
       "lat": 57.480561,
       "lng": -4.220275
-    },
-    {
-      "id": "uk-morrisons-way-891004392",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Millburn Road, IV2 3PX Inverness",
-      "city": "Inverness",
-      "lat": 57.481791,
-      "lng": -4.216368
     },
     {
       "id": "uk-morrisons-way-208905403",
@@ -73083,16 +72853,6 @@
       "city": "Kilmarnock",
       "lat": 55.613024,
       "lng": -4.505446
-    },
-    {
-      "id": "uk-morrisons-way-891004218",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "West Langlands Street 117, KA1 2PY Kilmarnock",
-      "city": "Kilmarnock",
-      "lat": 55.612045,
-      "lng": -4.502807
     },
     {
       "id": "uk-morrisons-node-7372458395",
@@ -73443,16 +73203,6 @@
       "city": "Leeds",
       "lat": 53.804278,
       "lng": -1.638291
-    },
-    {
-      "id": "uk-morrisons-way-456460617",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Savins Mill Way, LS5 3RP Leeds",
-      "city": "Leeds",
-      "lat": 53.814909,
-      "lng": -1.603801
     },
     {
       "id": "uk-morrisons-node-250756727",
@@ -73995,16 +73745,6 @@
       "lng": -0.260413
     },
     {
-      "id": "uk-morrisons-way-759856054",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Honeypot Lane, NW9 6RN London",
-      "city": "London",
-      "lat": 51.593046,
-      "lng": -0.285737
-    },
-    {
       "id": "uk-morrisons-way-223048892",
       "chain": "morrisons",
       "country": "uk",
@@ -74123,16 +73863,6 @@
       "city": "London",
       "lat": 51.632897,
       "lng": 0.008635
-    },
-    {
-      "id": "uk-morrisons-node-4301363500",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Durnsford Road 23, SW19 8GY London",
-      "city": "London",
-      "lat": 51.42886,
-      "lng": -0.190402
     },
     {
       "id": "uk-morrisons-node-1562067038",
@@ -74705,16 +74435,6 @@
       "lng": -2.87405
     },
     {
-      "id": "uk-morrisons-way-836387610",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Hilmore Way, LA4 4DD Morecambe",
-      "city": "Morecambe",
-      "lat": 54.069827,
-      "lng": -2.872172
-    },
-    {
       "id": "uk-morrisons-way-1297479955",
       "chain": "morrisons",
       "country": "uk",
@@ -74803,16 +74523,6 @@
       "city": "Narberth",
       "lat": 51.800302,
       "lng": -4.738618
-    },
-    {
-      "id": "uk-morrisons-node-3233074765",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Station Road 6, LE19 2HR Narborough",
-      "city": "Narborough",
-      "lat": 52.571547,
-      "lng": -1.203679
     },
     {
       "id": "uk-morrisons-way-60727373",
@@ -75225,16 +74935,6 @@
       "lng": -0.889903
     },
     {
-      "id": "uk-morrisons-node-13574330877",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily Northampton",
-      "address": "Victoria Promenade 26, NN1 1HB Northampton",
-      "city": "Northampton",
-      "lat": 52.233395,
-      "lng": -0.892567
-    },
-    {
       "id": "uk-morrisons-way-27778362",
       "chain": "morrisons",
       "country": "uk",
@@ -75273,16 +74973,6 @@
       "city": "Northwood",
       "lat": 51.602722,
       "lng": -0.410212
-    },
-    {
-      "id": "uk-morrisons-way-308888498",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrison's",
-      "address": "Albion Way 1, NR1 1WR Norwich",
-      "city": "Norwich",
-      "lat": 52.623216,
-      "lng": 1.307897
     },
     {
       "id": "uk-morrisons-way-32786845",
@@ -75965,16 +75655,6 @@
       "lng": -4.178904
     },
     {
-      "id": "uk-morrisons-way-913915430",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Eggbuckland Road 147-149, PL3 6QA Plymouth",
-      "city": "Plymouth",
-      "lat": 50.392385,
-      "lng": -4.118349
-    },
-    {
       "id": "uk-morrisons-way-41190235",
       "chain": "morrisons",
       "country": "uk",
@@ -76223,16 +75903,6 @@
       "city": "Preston",
       "lat": 53.776444,
       "lng": -2.661336
-    },
-    {
-      "id": "uk-morrisons-node-6588754897",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Tunley Holme 77, PR5 8ES Preston",
-      "city": "Preston",
-      "lat": 53.712232,
-      "lng": -2.637129
     },
     {
       "id": "uk-morrisons-way-186370786",
@@ -77035,16 +76705,6 @@
       "lng": -0.333427
     },
     {
-      "id": "uk-morrisons-node-324160508",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Alex Morrisons",
-      "address": "Burgh Road, ZE1 0HJ Shetland",
-      "city": "Shetland",
-      "lat": 60.15682,
-      "lng": -1.151131
-    },
-    {
       "id": "uk-morrisons-way-155052635",
       "chain": "morrisons",
       "country": "uk",
@@ -77755,16 +77415,6 @@
       "lng": -1.275699
     },
     {
-      "id": "uk-morrisons-way-1202624208",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Newmarket Avenue, TS17 7BQ Stockton-on-Tees",
-      "city": "Stockton-on-Tees",
-      "lat": 54.557714,
-      "lng": -1.280308
-    },
-    {
       "id": "uk-morrisons-node-456058249",
       "chain": "morrisons",
       "country": "uk",
@@ -77963,16 +77613,6 @@
       "city": "Swanley",
       "lat": 51.411149,
       "lng": 0.182287
-    },
-    {
-      "id": "uk-morrisons-node-12095825603",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrison Food And Wine",
-      "address": "SN2 2HE Swindon",
-      "city": "Swindon",
-      "lat": 51.564506,
-      "lng": -1.803468
     },
     {
       "id": "uk-morrisons-way-92943549",
@@ -79375,16 +79015,6 @@
       "lng": -1.05932
     },
     {
-      "id": "uk-sainsburys-way-1077381777",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury Petrol Station",
-      "address": "Sainsbury Petrol Station",
-      "city": "",
-      "lat": 50.835401,
-      "lng": -0.36571
-    },
-    {
       "id": "uk-sainsburys-node-631800239",
       "chain": "sainsburys",
       "country": "uk",
@@ -80533,126 +80163,6 @@
       "city": "",
       "lat": 53.866968,
       "lng": -1.903736
-    },
-    {
-      "id": "uk-sainsburys-node-13615085002",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 56.187814,
-      "lng": -3.187794
-    },
-    {
-      "id": "uk-sainsburys-way-95142242",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 52.597438,
-      "lng": -1.183741
-    },
-    {
-      "id": "uk-sainsburys-way-164329046",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.531803,
-      "lng": -3.573236
-    },
-    {
-      "id": "uk-sainsburys-way-315225857",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 53.135588,
-      "lng": -1.197208
-    },
-    {
-      "id": "uk-sainsburys-way-449700809",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Glen Road, LE2 4PE",
-      "city": "",
-      "lat": 52.593758,
-      "lng": -1.070488
-    },
-    {
-      "id": "uk-sainsburys-way-721611545",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 53.79298,
-      "lng": -1.432556
-    },
-    {
-      "id": "uk-sainsburys-way-722623184",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 50.798912,
-      "lng": -0.664129
-    },
-    {
-      "id": "uk-sainsburys-way-888969718",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 52.035868,
-      "lng": 1.208273
-    },
-    {
-      "id": "uk-sainsburys-way-979738648",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 53.75445,
-      "lng": -1.57263
-    },
-    {
-      "id": "uk-sainsburys-way-1058387685",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 53.205139,
-      "lng": -0.578329
-    },
-    {
-      "id": "uk-sainsburys-node-10735396982",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's at Dobbies",
-      "address": "Sainsbury's at Dobbies",
-      "city": "",
-      "lat": 52.922053,
-      "lng": -3.043029
-    },
-    {
-      "id": "uk-sainsburys-way-771081848",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Fuel Station",
-      "address": "Sainsbury's Fuel Station",
-      "city": "",
-      "lat": 51.441542,
-      "lng": -1.060395
     },
     {
       "id": "uk-sainsburys-node-4777049743",
@@ -82415,66 +81925,6 @@
       "lng": 0.555221
     },
     {
-      "id": "uk-sainsburys-node-1720859622",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Newland Avenue 124, HU5 2NN",
-      "city": "",
-      "lat": 53.763806,
-      "lng": -0.358537
-    },
-    {
-      "id": "uk-sainsburys-node-2274764490",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.560114,
-      "lng": -0.123361
-    },
-    {
-      "id": "uk-sainsburys-node-3257208430",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.504616,
-      "lng": -0.458872
-    },
-    {
-      "id": "uk-sainsburys-node-3916454031",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 53.780784,
-      "lng": -0.413812
-    },
-    {
-      "id": "uk-sainsburys-way-87705149",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 54.530112,
-      "lng": -1.080208
-    },
-    {
-      "id": "uk-sainsburys-way-497252091",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sainsbury's Local",
-      "city": "",
-      "lat": 51.454606,
-      "lng": -2.525941
-    },
-    {
       "id": "uk-sainsburys-way-89976373",
       "chain": "sainsburys",
       "country": "uk",
@@ -82495,16 +81945,6 @@
       "lng": -0.171439
     },
     {
-      "id": "uk-sainsburys-way-1002524482",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's on the go",
-      "address": "Sainsbury's on the go",
-      "city": "",
-      "lat": 52.399795,
-      "lng": -2.270172
-    },
-    {
       "id": "uk-sainsburys-way-334240858",
       "chain": "sainsburys",
       "country": "uk",
@@ -82513,16 +81953,6 @@
       "city": "",
       "lat": 53.11419,
       "lng": -1.396273
-    },
-    {
-      "id": "uk-sainsburys-node-13585962311",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsburys",
-      "address": "Sainsburys",
-      "city": "",
-      "lat": 51.478473,
-      "lng": -0.180821
     },
     {
       "id": "uk-sainsburys-way-587145648",
@@ -83845,16 +83275,6 @@
       "lng": -2.4699
     },
     {
-      "id": "uk-sainsburys-way-291700163",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Broad Quay 7-11, BS1 4DA Bristol",
-      "city": "Bristol",
-      "lat": 51.452694,
-      "lng": -2.596608
-    },
-    {
       "id": "uk-sainsburys-way-221252101",
       "chain": "sainsburys",
       "country": "uk",
@@ -83903,16 +83323,6 @@
       "city": "Bromsgrove",
       "lat": 52.346561,
       "lng": -2.060435
-    },
-    {
-      "id": "uk-sainsburys-node-983474443",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Skillings Lane 51-53, HU15 1BA Brough",
-      "city": "Brough",
-      "lat": 53.72747,
-      "lng": -0.573508
     },
     {
       "id": "uk-sainsburys-node-7528683320",
@@ -85335,16 +84745,6 @@
       "lng": -1.597998
     },
     {
-      "id": "uk-sainsburys-node-1602835188",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Sunderland Road 9, DH1 2LH Durham",
-      "city": "Durham",
-      "lat": 54.779094,
-      "lng": -1.554739
-    },
-    {
       "id": "uk-sainsburys-way-217329584",
       "chain": "sainsburys",
       "country": "uk",
@@ -86235,16 +85635,6 @@
       "lng": -4.151098
     },
     {
-      "id": "uk-sainsburys-node-437522472",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Great George Street 165-169, G12 8AQ Glasgow",
-      "city": "Glasgow",
-      "lat": 55.875497,
-      "lng": -4.292648
-    },
-    {
       "id": "uk-sainsburys-way-53322220",
       "chain": "sainsburys",
       "country": "uk",
@@ -87045,16 +86435,6 @@
       "lng": -0.429735
     },
     {
-      "id": "uk-sainsburys-way-297430622",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Bricknell Avenue, HU5 4QG Hull",
-      "city": "Hull",
-      "lat": 53.76761,
-      "lng": -0.388172
-    },
-    {
       "id": "uk-sainsburys-way-158224350",
       "chain": "sainsburys",
       "country": "uk",
@@ -87323,16 +86703,6 @@
       "city": "King's Lynn",
       "lat": 52.754544,
       "lng": 0.398551
-    },
-    {
-      "id": "uk-sainsburys-way-302969822",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Beverley Road 540-546, HU6 7PA Kingston upon Hull",
-      "city": "Kingston upon Hull",
-      "lat": 53.768628,
-      "lng": -0.35341
     },
     {
       "id": "uk-sainsburys-node-632550029",
@@ -88543,26 +87913,6 @@
       "city": "London",
       "lat": 51.590021,
       "lng": -0.145145
-    },
-    {
-      "id": "uk-sainsburys-node-10621943979",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "SE10 0QJ London",
-      "city": "London",
-      "lat": 51.488102,
-      "lng": 0.01657
-    },
-    {
-      "id": "uk-sainsburys-node-12797390875",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Mitre Passage 4-6, SE10 0PE London",
-      "city": "London",
-      "lat": 51.500517,
-      "lng": 0.006474
     },
     {
       "id": "uk-sainsburys-node-26659113",
@@ -91375,16 +90725,6 @@
       "lng": -2.508301
     },
     {
-      "id": "uk-sainsburys-way-1110480460",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Chester Road 198, CW8 1LG Northwich",
-      "city": "Northwich",
-      "lat": 53.250497,
-      "lng": -2.538496
-    },
-    {
       "id": "uk-sainsburys-way-32561164",
       "chain": "sainsburys",
       "country": "uk",
@@ -91825,16 +91165,6 @@
       "lng": -1.218909
     },
     {
-      "id": "uk-sainsburys-way-158680426",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "OX4 4XR Oxford",
-      "city": "Oxford",
-      "lat": 51.721129,
-      "lng": -1.231256
-    },
-    {
       "id": "uk-sainsburys-node-3321532353",
       "chain": "sainsburys",
       "country": "uk",
@@ -91873,16 +91203,6 @@
       "city": "Oxford",
       "lat": 51.759407,
       "lng": -1.21238
-    },
-    {
-      "id": "uk-sainsburys-node-663641334",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Banbury Road 263-265, OX2 7HN Oxford",
-      "city": "Oxford",
-      "lat": 51.778528,
-      "lng": -1.265655
     },
     {
       "id": "uk-sainsburys-node-3541981017",
@@ -92713,16 +92033,6 @@
       "city": "Sheffield",
       "lat": 53.3417,
       "lng": -1.349886
-    },
-    {
-      "id": "uk-sainsburys-way-1062299344",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Vulcan Road, S9 1EW Sheffield",
-      "city": "Sheffield",
-      "lat": 53.411689,
-      "lng": -1.406864
     },
     {
       "id": "uk-sainsburys-node-5646184534",
@@ -94243,16 +93553,6 @@
       "city": "Washington",
       "lat": 54.901313,
       "lng": -1.533284
-    },
-    {
-      "id": "uk-sainsburys-way-394402765",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "NE38 7RU Washington",
-      "city": "Washington",
-      "lat": 54.902236,
-      "lng": -1.528923
     },
     {
       "id": "uk-sainsburys-node-4286036511",
