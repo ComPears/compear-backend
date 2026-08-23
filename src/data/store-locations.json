@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-22T03:17:40.057Z",
+  "importedAt": "2026-08-23T03:27:10.081Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12492,
+  "count": 12493,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -28795,13 +28795,13 @@
       "lng": 3.560796
     },
     {
-      "id": "nl-plus-node-3362253779",
+      "id": "nl-plus-node-2733399336",
       "chain": "plus",
       "country": "nl",
       "name": "PLUS",
-      "address": "Reede 36, 3232 CZ Brielle",
+      "address": "Reede 36, 3232CZ Brielle",
       "city": "Brielle",
-      "lat": 51.893084,
+      "lat": 51.893085,
       "lng": 4.162687
     },
     {
@@ -34125,6 +34125,16 @@
       "lng": -2.019929
     },
     {
+      "id": "uk-aldi-uk-way-956297149",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 52.561739,
+      "lng": -1.826584
+    },
+    {
       "id": "uk-aldi-uk-node-10693131200",
       "chain": "aldi-uk",
       "country": "uk",
@@ -38091,7 +38101,7 @@
       "name": "Aldi",
       "address": "New Hey Road, HD3 4DD Huddersfield",
       "city": "Huddersfield",
-      "lat": 53.6531,
+      "lat": 53.653109,
       "lng": -1.821801
     },
     {
@@ -40509,10 +40519,10 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Highland Gateway, PH1 3EE Perth",
+      "address": "PH1 3EE Perth",
       "city": "Perth",
-      "lat": 56.419307,
-      "lng": -3.468494
+      "lat": 56.41954,
+      "lng": -3.468602
     },
     {
       "id": "uk-aldi-uk-way-235049558",
@@ -40693,6 +40703,16 @@
       "city": "Pontyclun",
       "lat": 51.533449,
       "lng": -3.376761
+    },
+    {
+      "id": "uk-aldi-uk-way-1455120982",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "NP4 0XZ Pontypool",
+      "city": "Pontypool",
+      "lat": 51.693387,
+      "lng": -3.024107
     },
     {
       "id": "uk-aldi-uk-node-8121045262",
@@ -41533,16 +41553,6 @@
       "city": "Skelmersdale",
       "lat": 53.54689,
       "lng": -2.802442
-    },
-    {
-      "id": "uk-aldi-uk-node-11126925342",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "ALDI",
-      "address": "NP4 0XZ Skewfields",
-      "city": "Skewfields",
-      "lat": 51.69344,
-      "lng": -3.024116
     },
     {
       "id": "uk-aldi-uk-way-462794592",
@@ -43703,6 +43713,16 @@
       "city": "",
       "lat": 56.480334,
       "lng": -2.951742
+    },
+    {
+      "id": "uk-asda-way-83744944",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.692717,
+      "lng": -3.021291
     },
     {
       "id": "uk-asda-way-89482034",
@@ -54645,6 +54665,16 @@
       "lng": -2.979781
     },
     {
+      "id": "uk-lidl-uk-way-1174007825",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 51.869011,
+      "lng": 0.332232
+    },
+    {
       "id": "uk-lidl-uk-way-1208793801",
       "chain": "lidl-uk",
       "country": "uk",
@@ -54943,16 +54973,6 @@
       "city": "",
       "lat": 53.836964,
       "lng": -1.775223
-    },
-    {
-      "id": "uk-lidl-uk-way-1476636656",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 50.865558,
-      "lng": -1.014642
     },
     {
       "id": "uk-lidl-uk-node-14084427554",
@@ -56263,16 +56283,6 @@
       "city": "Bristol",
       "lat": 51.516227,
       "lng": -2.622215
-    },
-    {
-      "id": "uk-lidl-uk-way-1545445168",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Whitebridge Gardens, BS35 2NT Bristol",
-      "city": "Bristol",
-      "lat": 51.602457,
-      "lng": -2.516443
     },
     {
       "id": "uk-lidl-uk-node-420738697",
@@ -83001,8 +83011,8 @@
       "name": "Sainsbury's",
       "address": "Falls Road, Belfast",
       "city": "Belfast",
-      "lat": 54.58242,
-      "lng": -5.979042
+      "lat": 54.582428,
+      "lng": -5.979056
     },
     {
       "id": "uk-sainsburys-way-1123865381",
@@ -107852,7 +107862,7 @@
       "address": "NP23 6TS Ebbw Vale",
       "city": "Ebbw Vale",
       "lat": 51.785954,
-      "lng": -3.212648
+      "lng": -3.212651
     },
     {
       "id": "uk-tesco-way-329890498",
@@ -113199,7 +113209,7 @@
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco Express",
-      "address": "Lisson Grove 24, London",
+      "address": "Lisson Grove 24, NW1 6TU London",
       "city": "London",
       "lat": 51.522563,
       "lng": -0.165192
@@ -121699,7 +121709,7 @@
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco Express",
-      "address": "Rainford Road, WA11 7RG St Helens",
+      "address": "Rainford Road, WA10 6QY St Helens",
       "city": "St Helens",
       "lat": 53.46888,
       "lng": -2.766503
