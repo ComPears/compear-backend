@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-08-23T03:27:10.081Z",
+  "importedAt": "2026-08-24T03:34:12.033Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12493,
+  "count": 12502,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -7923,16 +7923,6 @@
       "city": "Rotterdam",
       "lat": 51.898889,
       "lng": 4.496858
-    },
-    {
-      "id": "nl-albert-heijn-node-2814033228",
-      "chain": "albert-heijn",
-      "country": "nl",
-      "name": "Albert Heijn",
-      "address": "Bergweg 228, 3035BP Rotterdam",
-      "city": "Rotterdam",
-      "lat": 51.934465,
-      "lng": 4.475114
     },
     {
       "id": "nl-albert-heijn-node-3116686578",
@@ -21368,7 +21358,7 @@
       "id": "nl-jumbo-node-34045399",
       "chain": "jumbo",
       "country": "nl",
-      "name": "Jumbo Pepels",
+      "name": "Jumbo",
       "address": "Wilhelminaweg 1, 4325BD Renesse",
       "city": "Renesse",
       "lat": 51.731863,
@@ -38999,10 +38989,10 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Fulham Road, SW6 1BW London",
+      "address": "Fulham Broadway Centre, SW6 1BW London",
       "city": "London",
-      "lat": 51.480215,
-      "lng": -0.194299
+      "lat": 51.480211,
+      "lng": -0.194345
     },
     {
       "id": "uk-aldi-uk-node-7947493944",
@@ -43535,6 +43525,26 @@
       "lng": -1.396292
     },
     {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
+    },
+    {
       "id": "uk-asda-node-1676712817",
       "chain": "asda",
       "country": "uk",
@@ -43995,6 +44005,26 @@
       "lng": -1.786774
     },
     {
+      "id": "uk-asda-node-13289340701",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 53.484599,
+      "lng": -2.251981
+    },
+    {
+      "id": "uk-asda-way-89270383",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.958467,
+      "lng": -1.202706
+    },
+    {
       "id": "uk-asda-node-13263845129",
       "chain": "asda",
       "country": "uk",
@@ -44013,6 +44043,16 @@
       "city": "",
       "lat": 53.471156,
       "lng": -2.24471
+    },
+    {
+      "id": "uk-asda-node-13978378942",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "ASDA Express",
+      "city": "",
+      "lat": 53.010189,
+      "lng": -2.183574
     },
     {
       "id": "uk-asda-node-1909078417",
@@ -48215,6 +48255,16 @@
       "lng": -1.59225
     },
     {
+      "id": "uk-asda-way-224457151",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Roundhay Express Petrol",
+      "address": "Street Lane, LS8 1BD Leeds",
+      "city": "Leeds",
+      "lat": 53.844664,
+      "lng": -1.512229
+    },
+    {
       "id": "uk-asda-way-173499192",
       "chain": "asda",
       "country": "uk",
@@ -48735,6 +48785,16 @@
       "lng": 0.033454
     },
     {
+      "id": "uk-asda-node-9400588770",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "Tower Bridge Road 153, SE1 3LW London",
+      "city": "London",
+      "lat": 51.499,
+      "lng": -0.079393
+    },
+    {
       "id": "uk-asda-way-1299594559",
       "chain": "asda",
       "country": "uk",
@@ -48763,6 +48823,16 @@
       "city": "Luton",
       "lat": 51.889088,
       "lng": -0.372706
+    },
+    {
+      "id": "uk-asda-way-421050923",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda On the Run",
+      "address": "Dunstable Road, Luton",
+      "city": "Luton",
+      "lat": 51.892373,
+      "lng": -0.451398
     },
     {
       "id": "uk-asda-way-172312983",
@@ -54975,6 +55045,16 @@
       "lng": -1.775223
     },
     {
+      "id": "uk-lidl-uk-way-1476636656",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 50.865558,
+      "lng": -1.014642
+    },
+    {
       "id": "uk-lidl-uk-node-14084427554",
       "chain": "lidl-uk",
       "country": "uk",
@@ -56283,6 +56363,16 @@
       "city": "Bristol",
       "lat": 51.516227,
       "lng": -2.622215
+    },
+    {
+      "id": "uk-lidl-uk-way-1545445168",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Whitebridge Gardens, BS35 2NT Bristol",
+      "city": "Bristol",
+      "lat": 51.602457,
+      "lng": -2.516443
     },
     {
       "id": "uk-lidl-uk-node-420738697",
@@ -62721,8 +62811,8 @@
       "name": "Lidl",
       "address": "Nynehead Road, TA21 9SE Wellington",
       "city": "Wellington",
-      "lat": 50.985766,
-      "lng": -3.219282
+      "lat": 50.985761,
+      "lng": -3.219361
     },
     {
       "id": "uk-lidl-uk-way-1348494728",
@@ -63323,16 +63413,6 @@
       "city": "",
       "lat": 52.571649,
       "lng": -1.996776
-    },
-    {
-      "id": "uk-morrisons-way-83017948",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 55.741454,
-      "lng": -4.195615
     },
     {
       "id": "uk-morrisons-way-92285754",
@@ -71575,6 +71655,16 @@
       "lng": -4.340928
     },
     {
+      "id": "uk-morrisons-way-83017948",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Lindsayfield Road 1, G75 9SA Glasgow",
+      "city": "Glasgow",
+      "lat": 55.741454,
+      "lng": -4.195615
+    },
+    {
       "id": "uk-morrisons-way-86119851",
       "chain": "morrisons",
       "country": "uk",
@@ -78591,8 +78681,8 @@
       "name": "Morrisons",
       "address": "AL7 1RY Welwyn Garden City",
       "city": "Welwyn Garden City",
-      "lat": 51.799198,
-      "lng": -0.179532
+      "lat": 51.799197,
+      "lng": -0.179575
     },
     {
       "id": "uk-morrisons-node-2850144017",
@@ -93741,8 +93831,8 @@
       "name": "Sainsbury's Local",
       "address": "High Street 196, TW11 8HU Teddington",
       "city": "Teddington",
-      "lat": 51.427502,
-      "lng": -0.325687
+      "lat": 51.4275,
+      "lng": -0.325686
     },
     {
       "id": "uk-sainsburys-way-164173134",
