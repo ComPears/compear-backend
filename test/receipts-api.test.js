@@ -1,10 +1,10 @@
 const assert = require('node:assert/strict');
 const { beforeEach, describe, it } = require('node:test');
 
-const aiService = require('../src/ai/aiService');
-const receiptImage = require('../src/utils/receiptImage');
-const receiptService = require('../src/services/receiptService');
-const { issueReceiptCredentials } = require('../src/utils/receiptAuth');
+const aiService = require('../dist/ai/aiService');
+const receiptImage = require('../dist/utils/receiptImage');
+const receiptService = require('../dist/services/receiptService');
+const { issueReceiptCredentials } = require('../dist/utils/receiptAuth');
 const { request, response } = require('./helpers/http');
 
 const originals = {
@@ -16,13 +16,13 @@ const originals = {
   deleteReceipt: receiptService.deleteReceipt,
 };
 
-const controllerPath = require.resolve('../src/controllers/receiptsController');
+const controllerPath = require.resolve('../dist/controllers/receiptsController');
 delete require.cache[controllerPath];
 const {
   getReceipts,
   parseReceipt,
   removeReceipt,
-} = require('../src/controllers/receiptsController');
+} = require('../dist/controllers/receiptsController');
 
 const credentials = issueReceiptCredentials();
 const userId = credentials.userId;

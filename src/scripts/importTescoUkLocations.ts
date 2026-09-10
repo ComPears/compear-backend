@@ -1,6 +1,6 @@
 /**
  * Fetch missing Tesco UK locations and merge into store-locations.json.
- * Usage: npx ts-node src/scripts/importTescoUkLocations.ts
+ * Usage: npx tsx src/scripts/importTescoUkLocations.ts
  */
 import * as path from 'path';
 import {

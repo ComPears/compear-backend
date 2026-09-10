@@ -1,21 +1,21 @@
 const assert = require('node:assert/strict');
 const { beforeEach, describe, it } = require('node:test');
 
-const dataService = require('../src/services/dataService');
-const barcodeService = require('../src/services/barcodeService');
-const { searchProducts } = require('../src/ai/semanticSearch');
-const { clearSearchCache } = require('../src/utils/searchCache');
+const dataService = require('../dist/services/dataService');
+const barcodeService = require('../dist/services/barcodeService');
+const { searchProducts } = require('../dist/ai/semanticSearch');
+const { clearSearchCache } = require('../dist/utils/searchCache');
 const { catalog, product } = require('./fixtures/products');
 const { assertHeader, request, response } = require('./helpers/http');
 
 const originalLoadAllProducts = dataService.loadAllProducts;
 const originalLoadStoreProducts = dataService.loadStoreProducts;
 const originalGetProductsByBarcode = barcodeService.getProductsByBarcode;
-const productsControllerPath = require.resolve('../src/controllers/productsController');
+const productsControllerPath = require.resolve('../dist/controllers/productsController');
 
 function loadController() {
   delete require.cache[productsControllerPath];
-  return require('../src/controllers/productsController');
+  return require('../dist/controllers/productsController');
 }
 
 beforeEach(() => {
