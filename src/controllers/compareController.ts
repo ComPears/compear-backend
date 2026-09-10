@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { countryFromQuery } from '../config/countries';
 import { getComparableProducts, getProductsByIdentityKey } from '../services/productMatcher';
+import { routeParam } from '../utils/requestParams';
 
 export function compareByCanonicalName(req: Request, res: Response): void {
   try {
@@ -11,7 +12,7 @@ export function compareByCanonicalName(req: Request, res: Response): void {
       return;
     }
 
-    const canonicalName = decodeURIComponent(req.params.canonicalName || '');
+    const canonicalName = decodeURIComponent(routeParam(req.params.canonicalName));
     if (!canonicalName) {
       res.status(400).json({ error: 'canonicalName required' });
       return;

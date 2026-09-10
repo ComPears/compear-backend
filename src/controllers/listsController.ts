@@ -7,6 +7,7 @@ import {
   verifyListEditToken,
   SharedListItem,
 } from '../services/listService';
+import { routeParam } from '../utils/requestParams';
 
 function parseItems(body: unknown): SharedListItem[] | null {
   if (!Array.isArray(body)) return null;
@@ -60,7 +61,7 @@ export function createList(req: Request, res: Response): void {
 }
 
 export function getList(req: Request, res: Response): void {
-  const id = (req.params.id || '').trim();
+  const id = routeParam(req.params.id).trim();
   if (!/^[A-Za-z0-9_-]{6,12}$/.test(id)) {
     res.status(400).json({ error: 'Invalid list id' });
     return;
@@ -74,7 +75,7 @@ export function getList(req: Request, res: Response): void {
 }
 
 export function patchList(req: Request, res: Response): void {
-  const id = (req.params.id || '').trim();
+  const id = routeParam(req.params.id).trim();
   if (!/^[A-Za-z0-9_-]{6,12}$/.test(id)) {
     res.status(400).json({ error: 'Invalid list id' });
     return;
@@ -88,8 +89,7 @@ export function patchList(req: Request, res: Response): void {
   if (!verifyListEditToken(existing, editToken)) {
     res.status(403).json({
       error: 'Valid edit token required',
-      hint:
-        'Provide x-list-edit-token header or body.editToken from list creation. Legacy lists without a token can be claimed on first PATCH.',
+      hint: 'Provide x-list-edit-token header or body.editToken from list creation.',
     });
     return;
   }

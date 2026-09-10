@@ -18,9 +18,25 @@ import { secureCompare } from '../src/utils/secureCompare';
 import { publicApiAuth } from '../src/middleware/publicApiAuth';
 import { apiKeyAuth } from '../src/middleware/apiKeyAuth';
 import { patchList } from '../src/controllers/listsController';
+import { routeParam } from '../src/utils/requestParams';
+import { getDataFileName } from '../src/config/stores';
 import { Request, Response } from 'express';
 import * as fs from 'fs';
 import * as path from 'path';
+
+test('routeParam accepts one path value and rejects array-shaped input', () => {
+  assert.equal(routeParam('milk'), 'milk');
+  assert.equal(routeParam(['milk', 'eggs']), '');
+  assert.equal(routeParam(undefined), '');
+});
+
+test('catalog filenames are selected from the store allowlist', () => {
+  assert.equal(getDataFileName('morrisons'), 'morrisons.json');
+  assert.throws(
+    () => getDataFileName('../outside' as never),
+    /Unsupported store/
+  );
+});
 
 test('receiptAuth issues credentials that verify and rejects forgeries', () => {
   const { userId, token } = issueReceiptCredentials();
@@ -120,7 +136,6 @@ test('shared list strips editToken on public GET and requires it for patch', () 
 
   const publicList = toPublicSharedList(list);
   assert.equal('editToken' in publicList, false);
-  assert.equal(publicList.claimable, undefined);
 
   const loaded = getSharedList(list.id);
   assert.ok(loaded);
@@ -272,7 +287,7 @@ test('secureCompare and api key auth reject mismatches safely', () => {
   else process.env.ADMIN_API_KEY = prevAdmin;
 });
 
-test('legacy shared lists can be claimed on first PATCH', () => {
+test('legacy shared lists without edit credentials remain read-only', () => {
   const list = createSharedList('Legacy', [
     {
       productId: 'p1',
@@ -290,8 +305,8 @@ test('legacy shared lists can be claimed on first PATCH', () => {
   const loaded = getSharedList(list.id);
   assert.ok(loaded);
   assert.equal(loaded!.editToken, '');
-  assert.equal(verifyListEditToken(loaded!, null), true);
-  assert.equal(toPublicSharedList(loaded!).claimable, true);
+  assert.equal(verifyListEditToken(loaded!, null), false);
+  assert.equal('editToken' in toPublicSharedList(loaded!), false);
 
   let status = 0;
   let body: { editToken?: string; name?: string } = {};
@@ -319,16 +334,18 @@ test('legacy shared lists can be claimed on first PATCH', () => {
     } as unknown as Request,
     res
   );
-  assert.equal(status, 0);
-  assert.equal(body.name, 'Claimed');
-  assert.ok(body.editToken && body.editToken.length > 10);
+  assert.equal(status, 403);
 
   const after = getSharedList(list.id);
   assert.ok(after);
-  assert.equal(verifyListEditToken(after!, 'wrong-token-xxxxxxxxxxxx'), false);
-  assert.equal(verifyListEditToken(after!, body.editToken!), true);
+  assert.equal(after!.editToken, '');
 
   if (fs.existsSync(file)) fs.unlinkSync(file);
+});
+
+test('shared-list storage rejects path-shaped identifiers', () => {
+  assert.equal(getSharedList('../secret'), null);
+  assert.equal(getSharedList('bad/id'), null);
 });
 
 test('publicApiAuth returns 503 in production when PUBLIC_API_KEY unset', () => {

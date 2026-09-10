@@ -10,12 +10,13 @@ import {
 } from '../config/countries';
 import { logger } from '../utils/logger';
 import { seedAllStoresFromWrangling, seedStoreFromWrangling, getWranglingPath } from '../services/seedService';
+import { routeParam } from '../utils/requestParams';
 
 let lastScrapeStatus: { store: string; count: number; error?: string; at: string } | null = null;
 let scrapeInProgress = false;
 
 export async function triggerScrape(req: Request, res: Response): Promise<void> {
-  const store = (req.params.store || '').toLowerCase().replace(/\s+/g, '-');
+  const store = routeParam(req.params.store).toLowerCase().replace(/\s+/g, '-');
   const country = countryFromQuery(req);
 
   if (scrapeInProgress) {
