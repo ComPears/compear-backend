@@ -22,10 +22,7 @@ export interface SharedList {
 }
 
 /** Shared list fields safe to return to anonymous readers. */
-export type PublicSharedList = Omit<SharedList, 'editToken'> & {
-  /** True when the list has no editToken yet and can be claimed on first PATCH. */
-  claimable?: boolean;
-};
+export type PublicSharedList = Omit<SharedList, 'editToken'>;
 
 const LISTS_DIR = path.join(__dirname, '../data/lists');
 const LIST_TTL_DAYS = 30;
@@ -50,9 +47,6 @@ function listPath(id: string): string {
 
 export function toPublicSharedList(list: SharedList): PublicSharedList {
   const { editToken, ...publicList } = list;
-  if (!editToken) {
-    return { ...publicList, claimable: true };
-  }
   return publicList;
 }
 
@@ -85,7 +79,7 @@ export function getSharedList(id: string): SharedList | null {
       fs.unlinkSync(file);
       return null;
     }
-    // Legacy lists created before edit tokens: empty until claimed on first successful PATCH.
+    // Legacy lists remain readable, but cannot be modified without credentials.
     if (typeof list.editToken !== 'string') {
       list.editToken = '';
     }
@@ -98,8 +92,7 @@ export function getSharedList(id: string): SharedList | null {
 export function verifyListEditToken(list: SharedList, provided: string | undefined | null): boolean {
   const expected = list.editToken || '';
   const candidate = (provided || '').trim();
-  // Legacy lists (no token yet): allow a one-time claim on PATCH without a prior token.
-  if (!expected) return true;
+  if (!expected) return false;
   if (!candidate) return false;
   const a = Buffer.from(expected, 'utf8');
   const b = Buffer.from(candidate, 'utf8');
@@ -108,18 +101,15 @@ export function verifyListEditToken(list: SharedList, provided: string | undefin
 }
 
 /**
- * Persist list updates. If the list had no editToken (legacy), mint one so the
- * PATCH response can return it to the first editor.
+ * Persist list updates. Legacy lists without credentials are read-only.
  */
 export function updateSharedList(id: string, name: string, items: SharedListItem[]): SharedList | null {
   const existing = getSharedList(id);
-  if (!existing) return null;
-  const editToken = existing.editToken || generateEditToken();
+  if (!existing || !existing.editToken) return null;
   const updated: SharedList = {
     ...existing,
     name: name.trim() || existing.name,
     items: items.filter((i) => i.quantity > 0),
-    editToken,
     updatedAt: new Date().toISOString(),
   };
   fs.writeFileSync(listPath(id), JSON.stringify(updated, null, 2), 'utf8');

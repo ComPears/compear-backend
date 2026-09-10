@@ -9,6 +9,7 @@ import { normalizeBarcode } from '../utils/barcode';
 import { productHasDietaryLabels, parseLabelsParam } from '../utils/dietaryLabels';
 import { Product, ProductCategory } from '../types';
 import { logger } from '../utils/logger';
+import { routeParam } from '../utils/requestParams';
 
 interface ProductPage {
   items: Product[];
@@ -141,7 +142,7 @@ export function listProducts(req: Request, res: Response): void {
 export function getProduct(req: Request, res: Response): void {
   try {
     const country = countryFromQuery(req);
-    const id = req.params.id;
+    const id = routeParam(req.params.id);
     const product = getProductById(id, country);
     if (!product) {
       res.status(404).json({ error: 'Product not found' });
@@ -156,7 +157,7 @@ export function getProduct(req: Request, res: Response): void {
 export function getProductBySlug(req: Request, res: Response): void {
   try {
     const country = countryFromQuery(req);
-    const products = getProductsBySlug(req.params.slug, country);
+    const products = getProductsBySlug(routeParam(req.params.slug), country);
     if (products.length === 0) {
       res.status(404).json({ error: 'Product not found' });
       return;

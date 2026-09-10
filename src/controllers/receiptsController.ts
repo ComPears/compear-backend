@@ -27,6 +27,7 @@ import {
   ReceiptImageError,
 } from '../utils/receiptImage';
 import { countryFromQuery } from '../config/countries';
+import { routeParam } from '../utils/requestParams';
 
 function publicReceipt(receipt: SavedReceipt): Omit<SavedReceipt, 'aiCacheKeys'> {
   const { aiCacheKeys: _internalCacheKeys, ...result } = receipt;
@@ -176,7 +177,7 @@ export function removeReceipt(req: Request, res: Response): void {
   try {
     const userId = requireVerifiedReceiptUser(req, res);
     if (!userId) return;
-    const removed = deleteReceipt(userId, req.params.id);
+    const removed = deleteReceipt(userId, routeParam(req.params.id));
     if (!removed) {
       res.status(404).json({ error: 'Receipt not found' });
       return;
@@ -202,7 +203,7 @@ export async function correctLine(req: Request, res: Response): Promise<void> {
   try {
     const userId = requireVerifiedReceiptUser(req, res);
     if (!userId) return;
-    const lineIndex = Number(req.params.lineIndex);
+    const lineIndex = Number(routeParam(req.params.lineIndex));
     if (!Number.isInteger(lineIndex) || lineIndex < 0) {
       res.status(400).json({ error: 'Valid receipt line index required' });
       return;
@@ -227,7 +228,7 @@ export async function correctLine(req: Request, res: Response): Promise<void> {
     };
     const receipt = await correctReceiptLine(
       userId,
-      req.params.id,
+      routeParam(req.params.id),
       lineIndex,
       correction as ReceiptLineCorrection,
       aiContext
