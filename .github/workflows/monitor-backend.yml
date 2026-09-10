@@ -15,7 +15,7 @@ concurrency:
 jobs:
   health:
     runs-on: ubuntu-24.04
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Check liveness and readiness
         env:
@@ -29,11 +29,13 @@ jobs:
           fi
 
           base_url="${BACKEND_BASE_URL%/}"
-          if ! curl -fsS --retry 2 --retry-delay 5 --max-time 20 "$base_url/health/live" -o live.json; then
+          # Render can take longer than 20 seconds to wake a sleeping service. Retry
+          # connection errors and transient 5xx responses without hiding a sustained outage.
+          if ! curl -fsS --retry 4 --retry-all-errors --retry-delay 10 --retry-max-time 180 --connect-timeout 10 --max-time 30 "$base_url/health/live" -o live.json; then
             echo "::error::Backend liveness failed at $base_url/health/live. Check the Render service and application logs."
             exit 1
           fi
-          if ! curl -fsS --retry 2 --retry-delay 5 --max-time 20 "$base_url/health/ready" -o ready.json; then
+          if ! curl -fsS --retry 3 --retry-all-errors --retry-delay 5 --retry-max-time 90 --connect-timeout 10 --max-time 25 "$base_url/health/ready" -o ready.json; then
             echo "::error::Backend readiness failed at $base_url/health/ready. Check catalog load/freshness and RSS details in the response or Render logs."
             curl -sS --max-time 20 "$base_url/health/ready" || true
             exit 1
@@ -42,7 +44,10 @@ jobs:
             echo "::warning::ADMIN_API_KEY/SCRAPE_API_KEY secret not set — skipping authenticated /health/metrics."
             echo '{"skipped":true,"reason":"missing metrics API key"}' > metrics.json
           else
-            curl -fsS --max-time 20 -H "x-api-key: $METRICS_API_KEY" "$base_url/health/metrics" -o metrics.json
+            if ! curl -fsS --retry 2 --retry-all-errors --retry-delay 3 --retry-max-time 60 --connect-timeout 10 --max-time 20 -H "x-api-key: $METRICS_API_KEY" "$base_url/health/metrics" -o metrics.json; then
+              echo "::warning::The optional metrics endpoint was unavailable after the backend passed liveness and readiness checks."
+              echo '{"unavailable":true,"reason":"metrics request failed"}' > metrics.json
+            fi
           fi
 
           {

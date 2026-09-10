@@ -1,17 +1,10 @@
 const assert = require('node:assert/strict');
 const { describe, it } = require('node:test');
 const path = require('node:path');
-const tsNode = require('ts-node');
-
-tsNode.register({
-  transpileOnly: true,
-  compilerOptions: { module: 'commonjs', esModuleInterop: true },
-});
-
 const {
   extractBarcodeFromJumboUrl,
   normalizeBarcode,
-} = require('../src/utils/barcode.ts');
+} = require('../dist/utils/barcode.js');
 
 describe('barcode utils', () => {
   it('normalizes valid EAN-13', () => {

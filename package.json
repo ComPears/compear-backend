@@ -5,13 +5,13 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && tsc && cp -r src/data dist/data && mkdir -p dist/data/receipts dist/data/lists",
-    "test": "node --test -r ts-node/register tests/*.test.ts && TS_NODE_TRANSPILE_ONLY=1 node --test -r ts-node/register test/*.test.js",
+    "test": "npm run build && node --import tsx --test tests/*.test.ts && node --test test/*.test.js",
     "start": "node dist/index.js",
-    "dev": "ts-node-dev --respawn src/index.ts",
-    "scrape:ah": "ts-node src/scrapers/run-albert-heijn.ts",
-    "seed": "ts-node src/scripts/seedFromWrangling.ts",
-    "import-stores": "ts-node src/scripts/importStoreLocationsFromOsm.ts",
-    "eval:receipt-matching": "ts-node src/scripts/evalReceiptMatching.ts"
+    "dev": "tsx watch src/index.ts",
+    "scrape:ah": "tsx src/scrapers/run-albert-heijn.ts",
+    "seed": "tsx src/scripts/seedFromWrangling.ts",
+    "import-stores": "tsx src/scripts/importStoreLocationsFromOsm.ts",
+    "eval:receipt-matching": "tsx src/scripts/evalReceiptMatching.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -19,20 +19,19 @@
     "express-rate-limit": "^8.7.0",
     "heic-convert": "^2.1.0",
     "helmet": "^8.3.0",
-    "multer": "^1.4.5-lts.1",
-    "openai": "^4.20.0",
+    "multer": "^2.3.0",
+    "openai": "^7.10.0",
     "playwright": "^1.63.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.6",
-    "@types/multer": "^1.4.12",
-    "@types/node": "^20.10.0",
-    "ts-node": "^10.9.2",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.3.0"
+    "@types/multer": "^2.0.0",
+    "@types/node": "^26.5.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   }
 }

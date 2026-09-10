@@ -6,7 +6,7 @@ type HeicConvert = (options: {
   quality?: number;
 }) => Promise<ArrayBuffer>;
 
-// CommonJS package; typed require avoids ts-node ambient .d.ts discovery issues.
+// CommonJS package; typed require keeps the runtime import shape explicit.
 const convert = require('heic-convert') as HeicConvert;
 
 const VISION_MIMES = new Set(['image/jpeg', 'image/png', 'image/webp']);
