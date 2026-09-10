@@ -19,6 +19,7 @@ import { publicApiAuth } from '../src/middleware/publicApiAuth';
 import { apiKeyAuth } from '../src/middleware/apiKeyAuth';
 import { patchList } from '../src/controllers/listsController';
 import { routeParam } from '../src/utils/requestParams';
+import { getDataFileName } from '../src/config/stores';
 import { Request, Response } from 'express';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -27,6 +28,14 @@ test('routeParam accepts one path value and rejects array-shaped input', () => {
   assert.equal(routeParam('milk'), 'milk');
   assert.equal(routeParam(['milk', 'eggs']), '');
   assert.equal(routeParam(undefined), '');
+});
+
+test('catalog filenames are selected from the store allowlist', () => {
+  assert.equal(getDataFileName('morrisons'), 'morrisons.json');
+  assert.throws(
+    () => getDataFileName('../outside' as never),
+    /Unsupported store/
+  );
 });
 
 test('receiptAuth issues credentials that verify and rejects forgeries', () => {
@@ -332,6 +341,11 @@ test('legacy shared lists without edit credentials remain read-only', () => {
   assert.equal(after!.editToken, '');
 
   if (fs.existsSync(file)) fs.unlinkSync(file);
+});
+
+test('shared-list storage rejects path-shaped identifiers', () => {
+  assert.equal(getSharedList('../secret'), null);
+  assert.equal(getSharedList('bad/id'), null);
 });
 
 test('publicApiAuth returns 503 in production when PUBLIC_API_KEY unset', () => {

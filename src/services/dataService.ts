@@ -11,6 +11,19 @@ import { precomputeProductDietaryLabels } from '../utils/dietaryLabels';
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
+function countryDataDir(country: CountryCode): string {
+  switch (country) {
+    case 'nl':
+      return path.join(DATA_DIR, 'nl');
+    case 'de':
+      return path.join(DATA_DIR, 'de');
+    case 'uk':
+      return path.join(DATA_DIR, 'uk');
+    default:
+      throw new Error('Unsupported country');
+  }
+}
+
 interface ProductCatalog {
   all: Product[];
   byStore: Map<StoreSlug, Product[]>;
@@ -170,7 +183,7 @@ function normalizeProduct(raw: Product): Product {
 }
 
 function ensureDataDir(country: CountryCode = DEFAULT_COUNTRY): void {
-  const dir = path.join(DATA_DIR, country);
+  const dir = countryDataDir(country);
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
     logger.info('Created data directory:', dir);
@@ -178,7 +191,7 @@ function ensureDataDir(country: CountryCode = DEFAULT_COUNTRY): void {
 }
 
 function getFilePath(country: CountryCode, storeSlug: StoreSlug): string {
-  const countryPath = path.join(DATA_DIR, country, getDataFileName(storeSlug));
+  const countryPath = path.join(countryDataDir(country), getDataFileName(storeSlug));
   const legacyPath = path.join(DATA_DIR, getDataFileName(storeSlug));
   if (fs.existsSync(countryPath)) return countryPath;
   return legacyPath;
@@ -280,7 +293,7 @@ export function saveStoreProducts(
   country: CountryCode = DEFAULT_COUNTRY
 ): void {
   ensureDataDir(country);
-  const filePath = path.join(DATA_DIR, country, getDataFileName(storeSlug));
+  const filePath = path.join(countryDataDir(country), getDataFileName(storeSlug));
   fs.writeFileSync(filePath, JSON.stringify(products, null, 2), 'utf-8');
   invalidateProductCatalog(country);
   logger.info('Saved', products.length, 'products to', filePath);

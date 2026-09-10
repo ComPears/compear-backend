@@ -171,7 +171,27 @@ export function getStoreDisplayName(slug: StoreSlug): string | null {
 }
 
 export function getDataFileName(slug: StoreSlug): string {
-  return `${slug}.json`;
+  switch (slug) {
+    case 'albert-heijn': return 'albert-heijn.json';
+    case 'jumbo': return 'jumbo.json';
+    case 'aldi': return 'aldi.json';
+    case 'dirk': return 'dirk.json';
+    case 'lidl': return 'lidl.json';
+    case 'coop': return 'coop.json';
+    case 'plus': return 'plus.json';
+    case 'tesco': return 'tesco.json';
+    case 'sainsburys': return 'sainsburys.json';
+    case 'asda': return 'asda.json';
+    case 'morrisons': return 'morrisons.json';
+    case 'aldi-uk': return 'aldi-uk.json';
+    case 'lidl-uk': return 'lidl-uk.json';
+    case 'edeka': return 'edeka.json';
+    case 'rewe': return 'rewe.json';
+    case 'lidl-de': return 'lidl-de.json';
+    case 'aldi-sud': return 'aldi-sud.json';
+    case 'penny': return 'penny.json';
+    default: throw new Error('Unsupported store');
+  }
 }
 
 /** Store slugs available for a country. */

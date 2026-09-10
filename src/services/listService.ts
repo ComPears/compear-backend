@@ -26,6 +26,8 @@ export type PublicSharedList = Omit<SharedList, 'editToken'>;
 
 const LISTS_DIR = path.join(__dirname, '../data/lists');
 const LIST_TTL_DAYS = 30;
+const SHARE_ID_PATTERN = /^[A-Za-z0-9_-]{6,12}$/;
+const LIST_FILE_PATTERN = /^[A-Za-z0-9_-]{6,12}\.json$/;
 
 function ensureListsDir(): void {
   if (!fs.existsSync(LISTS_DIR)) {
@@ -41,8 +43,22 @@ function generateEditToken(): string {
   return randomBytes(24).toString('base64url');
 }
 
-function listPath(id: string): string {
+function newListPath(id: string): string {
+  if (!SHARE_ID_PATTERN.test(id)) {
+    throw new Error('Invalid generated share id');
+  }
   return path.join(LISTS_DIR, `${id}.json`);
+}
+
+/** Resolve only a filename returned by the list directory itself. */
+function existingListPath(id: string): string | null {
+  if (!SHARE_ID_PATTERN.test(id)) return null;
+  ensureListsDir();
+  const expected = `${id}.json`;
+  const storedName = fs
+    .readdirSync(LISTS_DIR)
+    .find((candidate) => LIST_FILE_PATTERN.test(candidate) && candidate === expected);
+  return storedName ? path.join(LISTS_DIR, storedName) : null;
 }
 
 export function toPublicSharedList(list: SharedList): PublicSharedList {
@@ -66,13 +82,13 @@ export function createSharedList(name: string, items: SharedListItem[]): SharedL
     expiresAt: expires.toISOString(),
   };
 
-  fs.writeFileSync(listPath(list.id), JSON.stringify(list, null, 2), 'utf8');
+  fs.writeFileSync(newListPath(list.id), JSON.stringify(list, null, 2), 'utf8');
   return list;
 }
 
 export function getSharedList(id: string): SharedList | null {
-  const file = listPath(id);
-  if (!fs.existsSync(file)) return null;
+  const file = existingListPath(id);
+  if (!file) return null;
   try {
     const list = JSON.parse(fs.readFileSync(file, 'utf8')) as SharedList;
     if (new Date(list.expiresAt) < new Date()) {
@@ -106,12 +122,14 @@ export function verifyListEditToken(list: SharedList, provided: string | undefin
 export function updateSharedList(id: string, name: string, items: SharedListItem[]): SharedList | null {
   const existing = getSharedList(id);
   if (!existing || !existing.editToken) return null;
+  const file = existingListPath(id);
+  if (!file) return null;
   const updated: SharedList = {
     ...existing,
     name: name.trim() || existing.name,
     items: items.filter((i) => i.quantity > 0),
     updatedAt: new Date().toISOString(),
   };
-  fs.writeFileSync(listPath(id), JSON.stringify(updated, null, 2), 'utf8');
+  fs.writeFileSync(file, JSON.stringify(updated, null, 2), 'utf8');
   return updated;
 }
