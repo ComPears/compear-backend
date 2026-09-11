@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-09-10T07:43:48.452Z",
+  "importedAt": "2026-09-11T07:35:46.478Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12519,
+  "count": 12527,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -43475,6 +43475,26 @@
       "lng": -1.396292
     },
     {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
+    },
+    {
       "id": "uk-asda-node-1676712817",
       "chain": "asda",
       "country": "uk",
@@ -43483,16 +43503,6 @@
       "city": "",
       "lat": 53.395189,
       "lng": -2.069362
-    },
-    {
-      "id": "uk-asda-node-1702988362",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 52.981359,
-      "lng": -2.198714
     },
     {
       "id": "uk-asda-node-5226683527",
@@ -43935,6 +43945,26 @@
       "lng": -1.786774
     },
     {
+      "id": "uk-asda-node-13289340701",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 53.484599,
+      "lng": -2.251981
+    },
+    {
+      "id": "uk-asda-way-89270383",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.958467,
+      "lng": -1.202706
+    },
+    {
       "id": "uk-asda-node-13263845129",
       "chain": "asda",
       "country": "uk",
@@ -43953,6 +43983,16 @@
       "city": "",
       "lat": 53.471156,
       "lng": -2.24471
+    },
+    {
+      "id": "uk-asda-node-13978378942",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "ASDA Express",
+      "city": "",
+      "lat": 53.010189,
+      "lng": -2.183574
     },
     {
       "id": "uk-asda-node-1909078417",
@@ -46021,8 +46061,8 @@
       "name": "Asda",
       "address": "Sweep Road, BT80 8TL Cookstown",
       "city": "Cookstown",
-      "lat": 54.632597,
-      "lng": -6.743952
+      "lat": 54.632608,
+      "lng": -6.744062
     },
     {
       "id": "uk-asda-way-825131357",
@@ -46031,8 +46071,8 @@
       "name": "Asda",
       "address": "Sweep Road, BT80 8TL Cookstown",
       "city": "Cookstown",
-      "lat": 54.633721,
-      "lng": -6.74473
+      "lat": 54.633725,
+      "lng": -6.7447
     },
     {
       "id": "uk-asda-way-183088510",
@@ -48155,6 +48195,16 @@
       "lng": -1.59225
     },
     {
+      "id": "uk-asda-way-224457151",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Roundhay Express Petrol",
+      "address": "Street Lane, LS8 1BD Leeds",
+      "city": "Leeds",
+      "lat": 53.844664,
+      "lng": -1.512229
+    },
+    {
       "id": "uk-asda-way-173499192",
       "chain": "asda",
       "country": "uk",
@@ -48695,6 +48745,16 @@
       "lng": 0.033454
     },
     {
+      "id": "uk-asda-node-9400588770",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "Tower Bridge Road 153, SE1 3LW London",
+      "city": "London",
+      "lat": 51.499,
+      "lng": -0.079393
+    },
+    {
       "id": "uk-asda-way-1299594559",
       "chain": "asda",
       "country": "uk",
@@ -48723,6 +48783,16 @@
       "city": "Luton",
       "lat": 51.889088,
       "lng": -0.372706
+    },
+    {
+      "id": "uk-asda-way-421050923",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda On the Run",
+      "address": "Dunstable Road, Luton",
+      "city": "Luton",
+      "lat": 51.892373,
+      "lng": -0.451398
     },
     {
       "id": "uk-asda-way-172312983",
@@ -51183,6 +51253,16 @@
       "city": "Stoke-on-Trent",
       "lat": 53.053766,
       "lng": -2.200314
+    },
+    {
+      "id": "uk-asda-way-1557854124",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Stone Road, ST4 4QB Stoke-on-Trent",
+      "city": "Stoke-on-Trent",
+      "lat": 52.981388,
+      "lng": -2.198721
     },
     {
       "id": "uk-asda-node-7439889741",
@@ -80195,16 +80275,6 @@
       "lng": 0.087292
     },
     {
-      "id": "uk-sainsburys-way-1157739960",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.889077,
-      "lng": -0.51243
-    },
-    {
       "id": "uk-sainsburys-way-1206375175",
       "chain": "sainsburys",
       "country": "uk",
@@ -81621,8 +81691,8 @@
       "name": "Sainsbury's Local",
       "address": "Sainsbury's Local",
       "city": "",
-      "lat": 53.798443,
-      "lng": -1.532893
+      "lat": 53.798463,
+      "lng": -1.532847
     },
     {
       "id": "uk-sainsburys-node-13022608088",
@@ -85203,6 +85273,16 @@
       "city": "Dungannon",
       "lat": 54.511335,
       "lng": -6.763759
+    },
+    {
+      "id": "uk-sainsburys-way-1157739960",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Luton Road 2-8, LU5 4RF Dunstable",
+      "city": "Dunstable",
+      "lat": 51.889077,
+      "lng": -0.51243
     },
     {
       "id": "uk-sainsburys-way-35269900",
@@ -99271,8 +99351,8 @@
       "name": "Tesco Express",
       "address": "Tesco Express",
       "city": "",
-      "lat": 52.633275,
-      "lng": 0.688031
+      "lat": 52.633317,
+      "lng": 0.688138
     },
     {
       "id": "uk-tesco-node-13972268674",
@@ -104359,7 +104439,7 @@
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco Extra",
-      "address": "Great Horton Road 700, BD7 4EY Bradford",
+      "address": "Great Horton Road 700, BD7 4EJ Bradford",
       "city": "Bradford",
       "lat": 53.780903,
       "lng": -1.788721
