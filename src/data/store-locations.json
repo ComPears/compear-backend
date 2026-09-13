@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-09-13T03:23:43.993Z",
+  "importedAt": "2026-09-13T07:44:39.491Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12538,
+  "count": 12528,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -32595,6 +32595,16 @@
       "lng": -2.120844
     },
     {
+      "id": "uk-aldi-uk-node-14049457704",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 53.47359,
+      "lng": -2.281591
+    },
+    {
       "id": "uk-aldi-uk-way-19180064",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34073,26 +34083,6 @@
       "city": "",
       "lat": 52.673953,
       "lng": -2.019929
-    },
-    {
-      "id": "uk-aldi-uk-node-14049457704",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Aldi",
-      "city": "",
-      "lat": 53.47359,
-      "lng": -2.281591
-    },
-    {
-      "id": "uk-aldi-uk-way-956297149",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Aldi",
-      "city": "",
-      "lat": 52.561739,
-      "lng": -1.826584
     },
     {
       "id": "uk-aldi-uk-node-10693131200",
@@ -36655,36 +36645,6 @@
       "lng": 0.218958
     },
     {
-      "id": "uk-aldi-uk-way-534942120",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Roman Way 4, DA1 4FY Dartford",
-      "city": "Dartford",
-      "lat": 51.450752,
-      "lng": 0.178195
-    },
-    {
-      "id": "uk-aldi-uk-node-13508660589",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "South Way, NN11 4GL Daventry",
-      "city": "Daventry",
-      "lat": 52.259826,
-      "lng": -1.157505
-    },
-    {
-      "id": "uk-aldi-uk-way-151507712",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Sheaf Street 36-42, NN11 4AB Daventry",
-      "city": "Daventry",
-      "lat": 52.256316,
-      "lng": -1.163669
-    },
-    {
       "id": "uk-aldi-uk-way-207794473",
       "chain": "aldi-uk",
       "country": "uk",
@@ -37005,16 +36965,6 @@
       "lng": -0.518627
     },
     {
-      "id": "uk-aldi-uk-way-1454134405",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Pit Lane, DH1 5ST Durham",
-      "city": "Durham",
-      "lat": 54.80298,
-      "lng": -1.579324
-    },
-    {
       "id": "uk-aldi-uk-node-14090593514",
       "chain": "aldi-uk",
       "country": "uk",
@@ -37023,6 +36973,16 @@
       "city": "Durham",
       "lat": 54.756064,
       "lng": -1.610401
+    },
+    {
+      "id": "uk-aldi-uk-way-1454134405",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Pit Lane, DH1 5ST Durham",
+      "city": "Durham",
+      "lat": 54.80298,
+      "lng": -1.579324
     },
     {
       "id": "uk-aldi-uk-way-444729775",
@@ -37635,16 +37595,6 @@
       "lng": -0.653725
     },
     {
-      "id": "uk-aldi-uk-node-12461774430",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "London Road 100-102, DA11 9LY Gravesend",
-      "city": "Gravesend",
-      "lat": 51.441915,
-      "lng": 0.354773
-    },
-    {
       "id": "uk-aldi-uk-way-1552524388",
       "chain": "aldi-uk",
       "country": "uk",
@@ -37733,16 +37683,6 @@
       "city": "Haddington Retail Park",
       "lat": 55.954884,
       "lng": -2.810958
-    },
-    {
-      "id": "uk-aldi-uk-node-2648133765",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Leathers Lane 1, L26 0AD Halewood",
-      "city": "Halewood",
-      "lat": 53.360821,
-      "lng": -2.829939
     },
     {
       "id": "uk-aldi-uk-way-118927130",
@@ -39925,6 +39865,16 @@
       "lng": 0.398125
     },
     {
+      "id": "uk-aldi-uk-node-9415394577",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Unit 4, NP20 2NW Newport",
+      "city": "Newport",
+      "lat": 51.568332,
+      "lng": -2.999954
+    },
+    {
       "id": "uk-aldi-uk-node-9875486635",
       "chain": "aldi-uk",
       "country": "uk",
@@ -39953,16 +39903,6 @@
       "city": "Newport",
       "lat": 51.600782,
       "lng": -3.092533
-    },
-    {
-      "id": "uk-aldi-uk-node-9415394577",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Unit 4, NP20 2NW Newport",
-      "city": "Newport",
-      "lat": 51.568332,
-      "lng": -2.999954
     },
     {
       "id": "uk-aldi-uk-node-11709305311",
@@ -40523,16 +40463,6 @@
       "city": "Penrith",
       "lat": 54.659634,
       "lng": -2.759981
-    },
-    {
-      "id": "uk-aldi-uk-node-3486372524",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Highland Gateway, PH1 3EE Perth",
-      "city": "Perth",
-      "lat": 56.419307,
-      "lng": -3.468494
     },
     {
       "id": "uk-aldi-uk-way-235049558",
@@ -41565,16 +41495,6 @@
       "lng": -2.802442
     },
     {
-      "id": "uk-aldi-uk-node-11126925342",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "ALDI",
-      "address": "NP4 0XZ Skewfields",
-      "city": "Skewfields",
-      "lat": 51.69344,
-      "lng": -3.024116
-    },
-    {
       "id": "uk-aldi-uk-way-462794592",
       "chain": "aldi-uk",
       "country": "uk",
@@ -41743,16 +41663,6 @@
       "city": "St Austell",
       "lat": 50.342406,
       "lng": -4.775201
-    },
-    {
-      "id": "uk-aldi-uk-node-7027297999",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Peasley Cross Lane, WA9 1JJ St Helens",
-      "city": "St Helens",
-      "lat": 53.44954,
-      "lng": -2.727706
     },
     {
       "id": "uk-aldi-uk-way-34094486",
@@ -42865,14 +42775,14 @@
       "lng": -2.722744
     },
     {
-      "id": "uk-aldi-uk-node-11657929716",
+      "id": "uk-aldi-uk-way-135124025",
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
       "address": "Preston Road 2, WN6 0HS Wigan",
       "city": "Wigan",
-      "lat": 53.586566,
-      "lng": -2.664642
+      "lat": 53.586555,
+      "lng": -2.664868
     },
     {
       "id": "uk-aldi-uk-way-564922030",
@@ -42903,16 +42813,6 @@
       "city": "Wigan",
       "lat": 53.497534,
       "lng": -2.643952
-    },
-    {
-      "id": "uk-aldi-uk-way-135124025",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Preston Road 2, WN6 0HS Wigan",
-      "city": "Wigan",
-      "lat": 53.586555,
-      "lng": -2.664868
     },
     {
       "id": "uk-aldi-uk-way-232436254",
