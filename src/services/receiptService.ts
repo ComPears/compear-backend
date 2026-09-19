@@ -40,8 +40,15 @@ function ensureReceiptsDir(): void {
 }
 
 function userReceiptsPath(userId: string): string {
-  const safeId = userId.replace(/[^a-zA-Z0-9_-]/g, '');
-  return path.join(RECEIPTS_DIR, `${safeId}.json`);
+  // Reject invalid IDs instead of stripping characters and aliasing another user.
+  if (!/^[a-zA-Z0-9_-]{8,64}$/.test(userId) || userId.trim() !== userId) {
+    throw new Error('Invalid receipt user ID');
+  }
+  const filePath = path.resolve(RECEIPTS_DIR, `${userId}.json`);
+  if (path.dirname(filePath) !== path.resolve(RECEIPTS_DIR)) {
+    throw new Error('Invalid receipt storage path');
+  }
+  return filePath;
 }
 
 function hydrateLegacyReceipt(receipt: SavedReceipt): SavedReceipt {
@@ -56,8 +63,8 @@ function hydrateLegacyReceipt(receipt: SavedReceipt): SavedReceipt {
 }
 
 function loadUserReceipts(userId: string): SavedReceipt[] {
-  ensureReceiptsDir();
   const filePath = userReceiptsPath(userId);
+  ensureReceiptsDir();
   if (!fs.existsSync(filePath)) return [];
   try {
     const raw = fs.readFileSync(filePath, 'utf-8');
@@ -88,8 +95,9 @@ function loadUserReceipts(userId: string): SavedReceipt[] {
 }
 
 function saveUserReceipts(userId: string, receipts: SavedReceipt[]): void {
+  const filePath = userReceiptsPath(userId);
   ensureReceiptsDir();
-  fs.writeFileSync(userReceiptsPath(userId), JSON.stringify(receipts, null, 2), 'utf-8');
+  fs.writeFileSync(filePath, JSON.stringify(receipts, null, 2), 'utf-8');
 }
 
 function linePaidTotals(line: { quantity: number; unitPrice: number | null; lineTotal: number }) {
