@@ -6,6 +6,21 @@ const DEV_DEFAULT_SECRET = 'dev-receipt-auth-secret-change-me';
 
 let warnedMissingSecret = false;
 
+// Bound untrusted input before trimming, parsing, signing, or allocating buffers.
+const MAX_CREDENTIAL_LENGTH = 256;
+
+function boundedUserId(value: unknown): string | null {
+  return typeof value === 'string' && value.length <= MAX_CREDENTIAL_LENGTH
+    ? parseUserId(value)
+    : null;
+}
+
+function parseToken(value: unknown): string | null {
+  if (typeof value !== 'string' || value.length > MAX_CREDENTIAL_LENGTH) return null;
+  const token = value.trim();
+  return /^[a-f0-9]{64}$/.test(token) ? token : null;
+}
+
 function getReceiptAuthSecret(): string {
   const fromEnv = (process.env.RECEIPT_AUTH_SECRET || '').trim();
   if (fromEnv) return fromEnv;
@@ -37,7 +52,8 @@ export function issueReceiptCredentials(): { userId: string; token: string } {
 }
 
 export function verifyReceiptToken(userId: string, token: string): boolean {
-  if (!parseUserId(userId) || typeof token !== 'string' || !token) {
+  const provided = parseToken(token);
+  if (!boundedUserId(userId) || !provided) {
     return false;
   }
   let secret: string;
@@ -48,7 +64,6 @@ export function verifyReceiptToken(userId: string, token: string): boolean {
     return false;
   }
   const expected = signUserId(userId, secret);
-  const provided = token.trim();
   const expectedBuf = Buffer.from(expected, 'utf8');
   const providedBuf = Buffer.from(provided, 'utf8');
   if (expectedBuf.length !== providedBuf.length) {
@@ -70,21 +85,25 @@ export function getReceiptAuthFromRequest(req: {
   header(name: string): string | undefined;
   body?: { userId?: unknown; token?: unknown };
 }): ReceiptAuthCredentials | null {
-  const headerUserId = parseUserId(req.header('x-compear-user-id'));
-  const headerToken = (req.header('x-compear-user-token') || '').trim();
+  const headerUserId = boundedUserId(req.header('x-compear-user-id'));
+  const headerToken = parseToken(req.header('x-compear-user-token'));
 
   if (headerUserId && headerToken) {
     return { userId: headerUserId, token: headerToken };
   }
 
   const authorization = req.header('authorization') || '';
-  const bearerMatch = authorization.match(/^Bearer\s+(.+)$/i);
-  if (bearerMatch) {
-    const raw = bearerMatch[1].trim();
+  // Fixed prefix parsing avoids overlapping regex quantifiers on hostile input.
+  if (
+    authorization.length <= MAX_CREDENTIAL_LENGTH &&
+    authorization.slice(0, 6).toLowerCase() === 'bearer' &&
+    (authorization[6] === ' ' || authorization[6] === '\t')
+  ) {
+    const raw = authorization.slice(7).trim();
     const colon = raw.indexOf(':');
     if (colon > 0) {
-      const userId = parseUserId(raw.slice(0, colon));
-      const token = raw.slice(colon + 1).trim();
+      const userId = boundedUserId(raw.slice(0, colon));
+      const token = parseToken(raw.slice(colon + 1));
       if (userId && token) {
         return { userId, token };
       }
@@ -92,8 +111,8 @@ export function getReceiptAuthFromRequest(req: {
   }
 
   if (typeof req.body?.userId === 'string' && typeof req.body?.token === 'string') {
-    const userId = parseUserId(req.body.userId);
-    const token = req.body.token.trim();
+    const userId = boundedUserId(req.body.userId);
+    const token = parseToken(req.body.token);
     if (userId && token) {
       return { userId, token };
     }

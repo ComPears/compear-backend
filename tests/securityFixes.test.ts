@@ -20,6 +20,7 @@ import { apiKeyAuth } from '../src/middleware/apiKeyAuth';
 import { patchList } from '../src/controllers/listsController';
 import { routeParam } from '../src/utils/requestParams';
 import { getDataFileName } from '../src/config/stores';
+import { listReceipts } from '../src/services/receiptService';
 import { Request, Response } from 'express';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -42,7 +43,7 @@ test('receiptAuth issues credentials that verify and rejects forgeries', () => {
   const { userId, token } = issueReceiptCredentials();
   assert.equal(verifyReceiptToken(userId, token), true);
   assert.equal(verifyReceiptToken(userId, '0'.repeat(token.length)), false);
-  assert.equal(verifyReceiptToken(userId, token.slice(0, -1) + 'a'), false);
+  assert.equal(verifyReceiptToken(userId, token.slice(0, -1) + (token.endsWith('a') ? 'b' : 'a')), false);
   assert.equal(verifyReceiptToken('other-user-id-xx', token), false);
 });
 
@@ -64,6 +65,52 @@ test('getReceiptAuthFromRequest reads headers and bearer', () => {
     },
   });
   assert.deepEqual(fromBearer, { userId, token });
+});
+
+test('receipt auth bounds every credential source and rejects malformed tokens', () => {
+  const { userId, token } = issueReceiptCredentials();
+  const header = (authorization: string) => (name: string) =>
+    name === 'authorization' ? authorization : undefined;
+  for (const value of [
+    'Bearer' + ' '.repeat(100_000) + '\n',
+    `BearerX ${userId}:${token}`,
+    `Bearer ${userId}:${token}:extra`,
+    `Bearer ${userId}:invalid`,
+    `Bearer ${'a'.repeat(100_000)}:${token}`,
+  ]) {
+    assert.equal(getReceiptAuthFromRequest({ header: header(value) }), null);
+  }
+  assert.deepEqual(
+    getReceiptAuthFromRequest({ header: header(`bEaReR\t ${userId}:${token} `) }),
+    { userId, token }
+  );
+  assert.deepEqual(getReceiptAuthFromRequest({ header: () => undefined, body: { userId, token } }), { userId, token });
+  for (const badToken of ['', 'a'.repeat(100_000), token + ':extra', 'g'.repeat(64)]) {
+    assert.equal(verifyReceiptToken(userId, badToken), false);
+    assert.equal(getReceiptAuthFromRequest({ header: () => undefined, body: { userId, token: badToken } }), null);
+    assert.equal(getReceiptAuthFromRequest({ header: (name) => name === 'x-compear-user-id' ? userId : badToken }), null);
+  }
+  assert.equal(verifyReceiptToken('a'.repeat(100_000), token), false);
+  assert.equal(getReceiptAuthFromRequest({ header: () => undefined, body: { userId: 'a'.repeat(100_000), token } }), null);
+});
+
+test('receipt storage rejects path-shaped IDs instead of silently aliasing them', () => {
+  for (const userId of ['', 'short', '../valid-user-id', '/valid-user-id', 'valid/user-id',
+    'valid\\user-id', 'valid-user-id.json', ' valid-user-id ', 'valid-user-id\0',
+    'valid-user-id\n', 'valid-user-id\r', 'valid-user-id\u2028', 'a'.repeat(65)]) {
+    assert.throws(() => listReceipts(userId), /Invalid receipt user ID/);
+  }
+  // Existing valid IDs keep the same filenames; no receipt migration is needed.
+  const userId = `security-test-${Date.now()}`;
+  const dir = path.join(__dirname, '../src/data/receipts');
+  const file = path.join(dir, `${userId}.json`);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(file, JSON.stringify([{ id: 'existing-receipt', country: 'uk', uploadedAt: new Date().toISOString() }]));
+  try {
+    assert.equal(listReceipts(userId, 'uk')[0].id, 'existing-receipt');
+  } finally {
+    fs.unlinkSync(file);
+  }
 });
 
 test('detectImageMime identifies JPEG PNG WEBP HEIC and rejects junk', () => {
