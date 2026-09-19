@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-09-18T07:47:50.273Z",
+  "importedAt": "2026-09-19T03:36:34.088Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12536,
+  "count": 12530,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -43075,126 +43075,6 @@
       "lng": -1.095556
     },
     {
-      "id": "uk-asda-node-38951588",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Marsland Road, M33 3NA",
-      "city": "",
-      "lat": 53.417755,
-      "lng": -2.323617
-    },
-    {
-      "id": "uk-asda-node-13525625769",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 52.561313,
-      "lng": -1.892948
-    },
-    {
-      "id": "uk-asda-way-132851370",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Kings Road 8",
-      "city": "",
-      "lat": 52.548841,
-      "lng": -1.860983
-    },
-    {
-      "id": "uk-asda-way-142400997",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 51.522137,
-      "lng": -0.063978
-    },
-    {
-      "id": "uk-asda-way-169053176",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 52.598858,
-      "lng": -1.178107
-    },
-    {
-      "id": "uk-asda-way-228882481",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Dromore Road 31, BT78 1QZ",
-      "city": "",
-      "lat": 54.595171,
-      "lng": -7.311617
-    },
-    {
-      "id": "uk-asda-way-423231271",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Chertsey Lane, TW18 3LS",
-      "city": "",
-      "lat": 51.419504,
-      "lng": -0.514186
-    },
-    {
-      "id": "uk-asda-way-427697032",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 53.996959,
-      "lng": -1.534627
-    },
-    {
-      "id": "uk-asda-way-520393686",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 51.238856,
-      "lng": -1.664333
-    },
-    {
-      "id": "uk-asda-way-549208975",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Thompson Road, SR5 1SF",
-      "city": "",
-      "lat": 54.923716,
-      "lng": -1.394588
-    },
-    {
-      "id": "uk-asda-way-978819635",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "High Street 217-225, ME8 8AY",
-      "city": "",
-      "lat": 51.36195,
-      "lng": 0.616067
-    },
-    {
-      "id": "uk-asda-way-1045123614",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 53.377214,
-      "lng": -1.396292
-    },
-    {
       "id": "uk-asda-node-2693005289",
       "chain": "asda",
       "country": "uk",
@@ -43223,16 +43103,6 @@
       "city": "",
       "lat": 53.615518,
       "lng": -2.128452
-    },
-    {
-      "id": "uk-asda-node-11382453519",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 55.868709,
-      "lng": -3.70322
     },
     {
       "id": "uk-asda-way-4931279",
@@ -43425,16 +43295,6 @@
       "lng": -2.082831
     },
     {
-      "id": "uk-asda-way-344227605",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 51.528684,
-      "lng": -3.692142
-    },
-    {
       "id": "uk-asda-way-353470669",
       "chain": "asda",
       "country": "uk",
@@ -43493,6 +43353,146 @@
       "city": "",
       "lat": 51.079879,
       "lng": 1.178302
+    },
+    {
+      "id": "uk-asda-node-38951588",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Marsland Road, M33 3NA",
+      "city": "",
+      "lat": 53.417755,
+      "lng": -2.323617
+    },
+    {
+      "id": "uk-asda-node-13525625769",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 52.561313,
+      "lng": -1.892948
+    },
+    {
+      "id": "uk-asda-way-132851370",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Kings Road 8",
+      "city": "",
+      "lat": 52.548841,
+      "lng": -1.860983
+    },
+    {
+      "id": "uk-asda-way-142400997",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.522137,
+      "lng": -0.063978
+    },
+    {
+      "id": "uk-asda-way-169053176",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 52.598858,
+      "lng": -1.178107
+    },
+    {
+      "id": "uk-asda-way-228882481",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Dromore Road 31, BT78 1QZ",
+      "city": "",
+      "lat": 54.595171,
+      "lng": -7.311617
+    },
+    {
+      "id": "uk-asda-way-423231271",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Chertsey Lane, TW18 3LS",
+      "city": "",
+      "lat": 51.419504,
+      "lng": -0.514186
+    },
+    {
+      "id": "uk-asda-way-427697032",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 53.996959,
+      "lng": -1.534627
+    },
+    {
+      "id": "uk-asda-way-520393686",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.238856,
+      "lng": -1.664333
+    },
+    {
+      "id": "uk-asda-way-549208975",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Thompson Road, SR5 1SF",
+      "city": "",
+      "lat": 54.923716,
+      "lng": -1.394588
+    },
+    {
+      "id": "uk-asda-way-978819635",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "High Street 217-225, ME8 8AY",
+      "city": "",
+      "lat": 51.36195,
+      "lng": 0.616067
+    },
+    {
+      "id": "uk-asda-way-1045123614",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 53.377214,
+      "lng": -1.396292
+    },
+    {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
     },
     {
       "id": "uk-asda-node-1676712817",
@@ -44425,16 +44425,6 @@
       "lng": -1.327532
     },
     {
-      "id": "uk-asda-way-825132811",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Castle Street 2, BT20 4SD Bangor",
-      "city": "Bangor",
-      "lat": 54.65996,
-      "lng": -5.666798
-    },
-    {
       "id": "uk-asda-way-228558190",
       "chain": "asda",
       "country": "uk",
@@ -44453,6 +44443,16 @@
       "city": "Bangor",
       "lat": 54.659994,
       "lng": -5.667857
+    },
+    {
+      "id": "uk-asda-way-825132811",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Castle Street 2, BT20 4SD Bangor",
+      "city": "Bangor",
+      "lat": 54.65996,
+      "lng": -5.666798
     },
     {
       "id": "uk-asda-node-5874116741",
@@ -44525,16 +44525,6 @@
       "lng": -1.565131
     },
     {
-      "id": "uk-asda-way-799046579",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Taw Wharf, EX31 2BN Barnstaple",
-      "city": "Barnstaple",
-      "lat": 51.076265,
-      "lng": -4.065703
-    },
-    {
       "id": "uk-asda-way-799046577",
       "chain": "asda",
       "country": "uk",
@@ -44543,6 +44533,16 @@
       "city": "Barnstaple",
       "lat": 51.077615,
       "lng": -4.066433
+    },
+    {
+      "id": "uk-asda-way-799046579",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Taw Wharf, EX31 2BN Barnstaple",
+      "city": "Barnstaple",
+      "lat": 51.076265,
+      "lng": -4.065703
     },
     {
       "id": "uk-asda-way-297279373",
@@ -44575,16 +44575,6 @@
       "lng": -3.277915
     },
     {
-      "id": "uk-asda-way-749647511",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Southernhay, SS14 1AE Basildon",
-      "city": "Basildon",
-      "lat": 51.570421,
-      "lng": 0.464717
-    },
-    {
       "id": "uk-asda-way-139290032",
       "chain": "asda",
       "country": "uk",
@@ -44603,6 +44593,16 @@
       "city": "Basildon",
       "lat": 51.569644,
       "lng": 0.463515
+    },
+    {
+      "id": "uk-asda-way-749647511",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Southernhay, SS14 1AE Basildon",
+      "city": "Basildon",
+      "lat": 51.570421,
+      "lng": 0.464717
     },
     {
       "id": "uk-asda-way-25561486",
@@ -45285,16 +45285,6 @@
       "lng": -0.103631
     },
     {
-      "id": "uk-asda-way-224572873",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Whiteladies Road 213, BS8 2XS Bristol",
-      "city": "Bristol",
-      "lat": 51.470172,
-      "lng": -2.614562
-    },
-    {
       "id": "uk-asda-way-32846078",
       "chain": "asda",
       "country": "uk",
@@ -45343,6 +45333,16 @@
       "city": "Bristol",
       "lat": 51.53066,
       "lng": -2.597248
+    },
+    {
+      "id": "uk-asda-way-224572873",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Whiteladies Road 213, BS8 2XS Bristol",
+      "city": "Bristol",
+      "lat": 51.470172,
+      "lng": -2.614562
     },
     {
       "id": "uk-asda-way-266446925",
@@ -45575,16 +45575,6 @@
       "lng": 1.096515
     },
     {
-      "id": "uk-asda-way-873285735",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Longwood Drive, CF14 7EW Cardiff",
-      "city": "Cardiff",
-      "lat": 51.525038,
-      "lng": -3.244499
-    },
-    {
       "id": "uk-asda-node-13759042118",
       "chain": "asda",
       "country": "uk",
@@ -45623,6 +45613,16 @@
       "city": "Cardiff",
       "lat": 51.471507,
       "lng": -3.208243
+    },
+    {
+      "id": "uk-asda-way-873285735",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Longwood Drive, CF14 7EW Cardiff",
+      "city": "Cardiff",
+      "lat": 51.525038,
+      "lng": -3.244499
     },
     {
       "id": "uk-asda-way-167136105",
@@ -46015,16 +46015,6 @@
       "lng": 0.862544
     },
     {
-      "id": "uk-asda-way-825131436",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Ring Road 1, BT52 1QN Coleraine",
-      "city": "Coleraine",
-      "lat": 55.126804,
-      "lng": -6.652601
-    },
-    {
       "id": "uk-asda-way-353299060",
       "chain": "asda",
       "country": "uk",
@@ -46033,6 +46023,16 @@
       "city": "Coleraine",
       "lat": 55.127392,
       "lng": -6.654227
+    },
+    {
+      "id": "uk-asda-way-825131436",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Ring Road 1, BT52 1QN Coleraine",
+      "city": "Coleraine",
+      "lat": 55.126804,
+      "lng": -6.652601
     },
     {
       "id": "uk-asda-way-107818047",
@@ -46055,16 +46055,6 @@
       "lng": -3.703636
     },
     {
-      "id": "uk-asda-way-825131357",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Sweep Road, BT80 8TL Cookstown",
-      "city": "Cookstown",
-      "lat": 54.633725,
-      "lng": -6.7447
-    },
-    {
       "id": "uk-asda-way-252447542",
       "chain": "asda",
       "country": "uk",
@@ -46073,6 +46063,16 @@
       "city": "Cookstown",
       "lat": 54.632608,
       "lng": -6.744062
+    },
+    {
+      "id": "uk-asda-way-825131357",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Sweep Road, BT80 8TL Cookstown",
+      "city": "Cookstown",
+      "lat": 54.633725,
+      "lng": -6.7447
     },
     {
       "id": "uk-asda-way-183088510",
@@ -48065,16 +48065,6 @@
       "lng": -4.365594
     },
     {
-      "id": "uk-asda-way-434856381",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Rugby Road 130, CV32 6DN Leamington Spa",
-      "city": "Leamington Spa",
-      "lat": 52.29328,
-      "lng": -1.547618
-    },
-    {
       "id": "uk-asda-way-46581604",
       "chain": "asda",
       "country": "uk",
@@ -48083,6 +48073,16 @@
       "city": "Leamington Spa",
       "lat": 52.276053,
       "lng": -1.51569
+    },
+    {
+      "id": "uk-asda-way-434856381",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Rugby Road 130, CV32 6DN Leamington Spa",
+      "city": "Leamington Spa",
+      "lat": 52.29328,
+      "lng": -1.547618
     },
     {
       "id": "uk-asda-node-301022545",
@@ -48295,16 +48295,6 @@
       "lng": -0.515673
     },
     {
-      "id": "uk-asda-node-13400093051",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Parliament Street 55, L8 5AQ Liverpool",
-      "city": "Liverpool",
-      "lat": 53.394505,
-      "lng": -2.977971
-    },
-    {
       "id": "uk-asda-node-34852656",
       "chain": "asda",
       "country": "uk",
@@ -48415,6 +48405,16 @@
       "lng": -2.996019
     },
     {
+      "id": "uk-asda-node-13400093051",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Parliament Street 55, L8 5AQ Liverpool",
+      "city": "Liverpool",
+      "lat": 53.394505,
+      "lng": -2.977971
+    },
+    {
       "id": "uk-asda-node-13534268426",
       "chain": "asda",
       "country": "uk",
@@ -48463,26 +48463,6 @@
       "city": "Llangefni",
       "lat": 53.257269,
       "lng": -4.309566
-    },
-    {
-      "id": "uk-asda-way-1286701228",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "White Hart Lane 337, N17 7LY London",
-      "city": "London",
-      "lat": 51.606543,
-      "lng": -0.091153
-    },
-    {
-      "id": "uk-asda-way-1471637601",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Anerley Road 107-111, SE20 8AP London",
-      "city": "London",
-      "lat": 51.413344,
-      "lng": -0.0681
     },
     {
       "id": "uk-asda-node-1716036953",
@@ -48633,6 +48613,26 @@
       "city": "London",
       "lat": 51.488707,
       "lng": 0.022283
+    },
+    {
+      "id": "uk-asda-way-1286701228",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "White Hart Lane 337, N17 7LY London",
+      "city": "London",
+      "lat": 51.606543,
+      "lng": -0.091153
+    },
+    {
+      "id": "uk-asda-way-1471637601",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Anerley Road 107-111, SE20 8AP London",
+      "city": "London",
+      "lat": 51.413344,
+      "lng": -0.0681
     },
     {
       "id": "uk-asda-node-2204421496",
@@ -49965,16 +49965,6 @@
       "lng": -1.333986
     },
     {
-      "id": "uk-asda-way-1377797161",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Exeter Street 77,79, PL4 0AH Plymouth",
-      "city": "Plymouth",
-      "lat": 50.371473,
-      "lng": -4.131703
-    },
-    {
       "id": "uk-asda-way-417228498",
       "chain": "asda",
       "country": "uk",
@@ -49983,6 +49973,16 @@
       "city": "Plymouth",
       "lat": 50.409544,
       "lng": -4.096902
+    },
+    {
+      "id": "uk-asda-way-1377797161",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Exeter Street 77,79, PL4 0AH Plymouth",
+      "city": "Plymouth",
+      "lat": 50.371473,
+      "lng": -4.131703
     },
     {
       "id": "uk-asda-way-229672620",
@@ -50185,16 +50185,6 @@
       "lng": 0.598038
     },
     {
-      "id": "uk-asda-node-6087658288",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "School Road, RG31 5AL Reading",
-      "city": "Reading",
-      "lat": 51.460561,
-      "lng": -1.037308
-    },
-    {
       "id": "uk-asda-way-39750715",
       "chain": "asda",
       "country": "uk",
@@ -50203,6 +50193,16 @@
       "city": "Reading",
       "lat": 51.424849,
       "lng": -0.932664
+    },
+    {
+      "id": "uk-asda-node-6087658288",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "School Road, RG31 5AL Reading",
+      "city": "Reading",
+      "lat": 51.460561,
+      "lng": -1.037308
     },
     {
       "id": "uk-asda-way-548726582",
@@ -51045,16 +51045,6 @@
       "lng": -4.774551
     },
     {
-      "id": "uk-asda-node-1143443429",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "East Lancashire Road 683, WA11 9TL St Helens",
-      "city": "St Helens",
-      "lat": 53.472276,
-      "lng": -2.663648
-    },
-    {
       "id": "uk-asda-way-217367775",
       "chain": "asda",
       "country": "uk",
@@ -51063,6 +51053,16 @@
       "city": "St Helens",
       "lat": 53.454595,
       "lng": -2.744898
+    },
+    {
+      "id": "uk-asda-node-1143443429",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "East Lancashire Road 683, WA11 9TL St Helens",
+      "city": "St Helens",
+      "lat": 53.472276,
+      "lng": -2.663648
     },
     {
       "id": "uk-asda-way-185811695",
@@ -51175,16 +51175,6 @@
       "lng": -2.109154
     },
     {
-      "id": "uk-asda-way-978966001",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "TS17 9HA Stockton-on-Tees",
-      "city": "Stockton-on-Tees",
-      "lat": 54.540168,
-      "lng": -1.289763
-    },
-    {
       "id": "uk-asda-way-99353488",
       "chain": "asda",
       "country": "uk",
@@ -51213,6 +51203,16 @@
       "city": "Stockton-on-Tees",
       "lat": 54.537958,
       "lng": -1.290374
+    },
+    {
+      "id": "uk-asda-way-978966001",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "TS17 9HA Stockton-on-Tees",
+      "city": "Stockton-on-Tees",
+      "lat": 54.540168,
+      "lng": -1.289763
     },
     {
       "id": "uk-asda-node-11461060334",
@@ -51415,16 +51415,6 @@
       "lng": -1.791731
     },
     {
-      "id": "uk-asda-way-1287860919",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Priestsic Road, NG17 2AH Sutton-in-Ashfield",
-      "city": "Sutton-in-Ashfield",
-      "lat": 53.128043,
-      "lng": -1.259703
-    },
-    {
       "id": "uk-asda-way-91691220",
       "chain": "asda",
       "country": "uk",
@@ -51433,6 +51423,16 @@
       "city": "Sutton-in-Ashfield",
       "lat": 53.126983,
       "lng": -1.261291
+    },
+    {
+      "id": "uk-asda-way-1287860919",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Priestsic Road, NG17 2AH Sutton-in-Ashfield",
+      "city": "Sutton-in-Ashfield",
+      "lat": 53.128043,
+      "lng": -1.259703
     },
     {
       "id": "uk-asda-way-538084838",
@@ -59849,7 +59849,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Brighton Road 1, BN43 6RJ Malthouse Trading Estate",
+      "address": "1, BN43 6RJ Malthouse Trading Estate",
       "city": "Malthouse Trading Estate",
       "lat": 50.832378,
       "lng": -0.256743
@@ -63375,16 +63375,6 @@
       "lng": 1.160969
     },
     {
-      "id": "uk-morrisons-way-93142160",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 57.053633,
-      "lng": -2.480678
-    },
-    {
       "id": "uk-morrisons-way-93940321",
       "chain": "morrisons",
       "country": "uk",
@@ -63935,16 +63925,6 @@
       "lng": 1.149203
     },
     {
-      "id": "uk-morrisons-way-1073301500",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 53.23097,
-      "lng": -1.291879
-    },
-    {
       "id": "uk-morrisons-way-1093130320",
       "chain": "morrisons",
       "country": "uk",
@@ -63983,6 +63963,16 @@
       "city": "",
       "lat": 55.90506,
       "lng": -4.222963
+    },
+    {
+      "id": "uk-morrisons-way-1517229419",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Morrisons",
+      "city": "",
+      "lat": 57.053583,
+      "lng": -2.480697
     },
     {
       "id": "uk-morrisons-node-1893227176",
@@ -64215,26 +64205,6 @@
       "lng": -3.381507
     },
     {
-      "id": "uk-morrisons-way-1517229419",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Morrisons",
-      "city": "",
-      "lat": 57.053583,
-      "lng": -2.480697
-    },
-    {
-      "id": "uk-morrisons-node-2137467867",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 53.369634,
-      "lng": -3.028396
-    },
-    {
       "id": "uk-morrisons-way-192606890",
       "chain": "morrisons",
       "country": "uk",
@@ -64243,16 +64213,6 @@
       "city": "",
       "lat": 55.472717,
       "lng": -4.29012
-    },
-    {
-      "id": "uk-morrisons-way-267026242",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 52.571318,
-      "lng": -2.091123
     },
     {
       "id": "uk-morrisons-node-224599973",
@@ -64613,6 +64573,16 @@
       "city": "",
       "lat": 51.567565,
       "lng": -1.738669
+    },
+    {
+      "id": "uk-morrisons-node-2137467867",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 53.369634,
+      "lng": -3.028396
     },
     {
       "id": "uk-morrisons-node-2396719665",
@@ -65933,6 +65903,16 @@
       "city": "",
       "lat": 53.931848,
       "lng": -1.383361
+    },
+    {
+      "id": "uk-morrisons-way-267026242",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 52.571318,
+      "lng": -2.091123
     },
     {
       "id": "uk-morrisons-way-268414066",
@@ -77965,16 +77945,6 @@
       "lng": -0.304826
     },
     {
-      "id": "uk-morrisons-way-24532872",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "High Street 31, SM1 1DD Sutton",
-      "city": "Sutton",
-      "lat": 51.36073,
-      "lng": -0.193253
-    },
-    {
       "id": "uk-morrisons-way-143748663",
       "chain": "morrisons",
       "country": "uk",
@@ -78923,6 +78893,16 @@
       "city": "Widnes",
       "lat": 53.381188,
       "lng": -2.726059
+    },
+    {
+      "id": "uk-morrisons-way-1560302226",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Chorley's Lane 12, WA8 3HS Widnes",
+      "city": "Widnes",
+      "lat": 53.378513,
+      "lng": -2.708947
     },
     {
       "id": "uk-morrisons-node-608567865",
@@ -96135,16 +96115,6 @@
       "lng": -1.067528
     },
     {
-      "id": "uk-tesco-way-1414512647",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Tesco",
-      "city": "",
-      "lat": 52.003095,
-      "lng": -0.49612
-    },
-    {
       "id": "uk-tesco-way-1455211075",
       "chain": "tesco",
       "country": "uk",
@@ -96703,6 +96673,16 @@
       "city": "",
       "lat": 50.779806,
       "lng": -3.002932
+    },
+    {
+      "id": "uk-tesco-way-1414512647",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Tesco",
+      "city": "",
+      "lat": 52.003095,
+      "lng": -0.49612
     },
     {
       "id": "uk-tesco-way-1424473176",
@@ -106275,16 +106255,6 @@
       "lng": -0.295427
     },
     {
-      "id": "uk-tesco-node-583068378",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Frodsham Street 40-44, CH1 3JS Chester",
-      "city": "Chester",
-      "lat": 53.192747,
-      "lng": -2.887454
-    },
-    {
       "id": "uk-tesco-way-256304691",
       "chain": "tesco",
       "country": "uk",
@@ -107813,16 +107783,6 @@
       "city": "Dundee",
       "lat": 56.482809,
       "lng": -2.992452
-    },
-    {
-      "id": "uk-tesco-way-451766004",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Extra",
-      "address": "South Road, DD2 4SR Dundee",
-      "city": "Dundee",
-      "lat": 56.471024,
-      "lng": -3.041707
     },
     {
       "id": "uk-tesco-way-100913753",
@@ -111375,16 +111335,6 @@
       "lng": -2.376394
     },
     {
-      "id": "uk-tesco-way-971054778",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Ropes Drive, IP5 2FU Ipswich",
-      "city": "Ipswich",
-      "lat": 52.062663,
-      "lng": 1.23713
-    },
-    {
       "id": "uk-tesco-way-754967384",
       "chain": "tesco",
       "country": "uk",
@@ -111393,6 +111343,16 @@
       "city": "Ipswich",
       "lat": 52.111668,
       "lng": 1.09456
+    },
+    {
+      "id": "uk-tesco-way-971054778",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco",
+      "address": "Ropes Drive, IP5 2FU Ipswich",
+      "city": "Ipswich",
+      "lat": 52.062663,
+      "lng": 1.23713
     },
     {
       "id": "uk-tesco-node-489411798",
@@ -113255,16 +113215,6 @@
       "lng": -0.223963
     },
     {
-      "id": "uk-tesco-node-291666435",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Woodside Green 47, SE25 5HQ London",
-      "city": "London",
-      "lat": 51.387075,
-      "lng": -0.070605
-    },
-    {
       "id": "uk-tesco-node-1324709957",
       "chain": "tesco",
       "country": "uk",
@@ -113483,6 +113433,16 @@
       "city": "London",
       "lat": 51.474692,
       "lng": -0.166693
+    },
+    {
+      "id": "uk-tesco-node-291666435",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Woodside Green 47, SE25 5HQ London",
+      "city": "London",
+      "lat": 51.387075,
+      "lng": -0.070605
     },
     {
       "id": "uk-tesco-node-292388037",
@@ -117535,16 +117495,6 @@
       "lng": -5.890898
     },
     {
-      "id": "uk-tesco-node-13734231845",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Pilgrim Street, NE1 8BF Newcastle upon Tyne",
-      "city": "Newcastle upon Tyne",
-      "lat": 54.973695,
-      "lng": -1.611089
-    },
-    {
       "id": "uk-tesco-way-482803841",
       "chain": "tesco",
       "country": "uk",
@@ -117613,6 +117563,16 @@
       "city": "Newcastle upon Tyne",
       "lat": 54.975633,
       "lng": -1.611458
+    },
+    {
+      "id": "uk-tesco-node-13734231845",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Pilgrim Street, NE1 8BF Newcastle upon Tyne",
+      "city": "Newcastle upon Tyne",
+      "lat": 54.973695,
+      "lng": -1.611089
     },
     {
       "id": "uk-tesco-way-174930723",
@@ -119655,16 +119615,6 @@
       "lng": -3.402511
     },
     {
-      "id": "uk-tesco-node-8784434508",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Liverpool Road, PR1 9XE Preston",
-      "city": "Preston",
-      "lat": 53.748774,
-      "lng": -2.728376
-    },
-    {
       "id": "uk-tesco-way-544345261",
       "chain": "tesco",
       "country": "uk",
@@ -120075,6 +120025,16 @@
       "lng": -5.235452
     },
     {
+      "id": "uk-tesco-node-1673180358",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Ashburnham Road 185, TW10 7NR Richmond",
+      "city": "Richmond",
+      "lat": 51.436586,
+      "lng": -0.320598
+    },
+    {
       "id": "uk-tesco-node-2096431153",
       "chain": "tesco",
       "country": "uk",
@@ -120103,16 +120063,6 @@
       "city": "Richmond",
       "lat": 51.460688,
       "lng": -0.303946
-    },
-    {
-      "id": "uk-tesco-node-1673180358",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Ashburnham Road 185, TW10 7NR Richmond",
-      "city": "Richmond",
-      "lat": 51.436586,
-      "lng": -0.320598
     },
     {
       "id": "uk-tesco-way-166858789",
@@ -124493,16 +124443,6 @@
       "city": "Weston-super-Mare",
       "lat": 51.349941,
       "lng": -2.976456
-    },
-    {
-      "id": "uk-tesco-way-24949314",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco",
-      "address": "Station Road, BS23 1XG Weston-Super-Mare",
-      "city": "Weston-Super-Mare",
-      "lat": 51.346348,
-      "lng": -2.975098
     },
     {
       "id": "uk-tesco-node-3741453075",
