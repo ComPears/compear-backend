@@ -49,4 +49,7 @@ test('metrics aggregate request, search, status, startup, and memory visibility'
   assert.equal(metrics.searches.averageMs, 10);
   assert.equal(metrics.startup.phasesMs.catalogs, 12.3);
   assert.equal(typeof metrics.memory.rssMb, 'number');
+  assert.ok(metrics.memory.heapLimitMb > metrics.memory.heapUsedMb);
+  assert.ok(metrics.memory.heapHeadroomMb > 0);
+  assert.equal(metrics.runtime.node, process.version);
 });

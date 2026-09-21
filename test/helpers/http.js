@@ -30,6 +30,10 @@ function response() {
       this.statusCode = code;
       return this;
     },
+    type(value) {
+      this.setHeader('Content-Type', value);
+      return this;
+    },
     json(value) {
       this.body = value;
       this.sent = true;

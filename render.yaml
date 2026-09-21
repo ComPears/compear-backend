@@ -15,6 +15,9 @@ services:
     startCommand: npm start
     healthCheckPath: /health/ready
     envVars:
+      # Keep the native Render runtime aligned with Docker and CI.
+      - key: NODE_VERSION
+        value: "22"
       - key: NODE_ENV
         value: production
       - key: ALLOWED_ORIGINS

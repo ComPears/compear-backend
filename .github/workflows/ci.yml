@@ -44,3 +44,6 @@ jobs:
 
       - name: Build backend
         run: npm run build
+
+      - name: Enforce Render memory budget with real catalogs and concurrent requests
+        run: npm run test:memory

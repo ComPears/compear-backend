@@ -34,6 +34,8 @@ const LABEL_PATTERNS: Record<DietaryLabel, RegExp[]> = {
 };
 
 const labelsByProduct = new WeakMap<Product, ReadonlySet<DietaryLabel>>();
+// At most 256 combinations; most products have no labels at all.
+const sharedLabelSets = new Map<number, ReadonlySet<DietaryLabel>>();
 
 export function extractDietaryLabels(productName: string, canonicalName?: string): DietaryLabel[] {
   const text = `${productName} ${canonicalName ?? ''}`.toLowerCase();
@@ -62,7 +64,13 @@ export function productMatchesLabels(
 export function getProductDietaryLabels(product: Product): ReadonlySet<DietaryLabel> {
   let labels = labelsByProduct.get(product);
   if (!labels) {
-    labels = new Set(extractDietaryLabels(product.productName, product.canonicalName));
+    const found = extractDietaryLabels(product.productName, product.canonicalName);
+    const mask = found.reduce((bits, label) => bits | (1 << DIETARY_LABELS.indexOf(label)), 0);
+    labels = sharedLabelSets.get(mask);
+    if (!labels) {
+      labels = new Set(found);
+      sharedLabelSets.set(mask, labels);
+    }
     labelsByProduct.set(product, labels);
   }
   return labels;

@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { randomUUID } from 'crypto';
+import { getHeapStatistics } from 'v8';
 import { logger } from '../utils/logger';
 
 interface TimingSummary {
@@ -29,6 +30,8 @@ function memorySnapshot() {
     rssMb: toMb(usage.rss),
     heapUsedMb: toMb(usage.heapUsed),
     heapTotalMb: toMb(usage.heapTotal),
+    heapLimitMb: toMb(getHeapStatistics().heap_size_limit),
+    heapHeadroomMb: toMb(getHeapStatistics().heap_size_limit - usage.heapUsed),
     externalMb: toMb(usage.external),
   };
 }
@@ -99,6 +102,7 @@ export class RuntimeMonitor {
   getMetrics() {
     return {
       startedAt: this.startedAt.toISOString(),
+      runtime: { node: process.version, v8: process.versions.v8, platform: process.platform, arch: process.arch },
       uptimeSeconds: round((performance.now() - this.startedHr) / 1000),
       startup: {
         totalMs: this.startupDurationMs,

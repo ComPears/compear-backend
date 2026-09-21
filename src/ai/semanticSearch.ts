@@ -8,9 +8,9 @@ interface SearchDocument {
   haystack: string;
   productName: string;
   canonicalName: string;
-  productTokens: Set<string>;
-  canonicalTokens: Set<string>;
-  brandTokens: Set<string>;
+  productTokens: readonly string[];
+  canonicalTokens: readonly string[];
+  brandTokens: readonly string[];
 }
 
 interface SearchIndex {
@@ -64,6 +64,15 @@ function buildSearchIndex(products: Product[]): SearchIndex {
   const startedAt = performance.now();
   const documents: SearchDocument[] = [];
   const postings = new Map<string, number[]>();
+  // Product names repeat heavily. Share token strings and use compact arrays
+  // rather than retaining three hash sets per product (240k sets at 80k rows).
+  const tokenPool = new Map<string, string>();
+  const tokensFor = (text: string): string[] => Array.from(new Set(tokenize(text)), (token) => {
+    const existing = tokenPool.get(token);
+    if (existing !== undefined) return existing;
+    tokenPool.set(token, token);
+    return token;
+  });
 
   products.forEach((product, index) => {
     const haystack = [
@@ -80,9 +89,9 @@ function buildSearchIndex(products: Product[]): SearchIndex {
       haystack,
       productName: product.productName.toLowerCase(),
       canonicalName: product.canonicalName?.toLowerCase() ?? '',
-      productTokens: new Set(tokenize(product.productName)),
-      canonicalTokens: new Set(tokenize(product.canonicalName ?? '')),
-      brandTokens: new Set(tokenize(product.brand ?? '')),
+      productTokens: tokensFor(product.productName),
+      canonicalTokens: tokensFor(product.canonicalName ?? ''),
+      brandTokens: tokensFor(product.brand ?? ''),
     });
 
     for (const token of new Set(tokenize(haystack))) {
@@ -138,9 +147,9 @@ function scoreDocument(document: SearchDocument, queryTokens: string[], fullQuer
   if (canonicalName.startsWith(fullQuery)) score += 25;
 
   for (const token of queryTokens) {
-    if (productTokens.has(token)) score += 75;
-    else if (canonicalTokens.has(token)) score += 65;
-    else if (brandTokens.has(token)) score += 20;
+    if (productTokens.includes(token)) score += 75;
+    else if (canonicalTokens.includes(token)) score += 65;
+    else if (brandTokens.includes(token)) score += 20;
     else if (haystack.includes(token)) score += token.length >= 4 ? 4 : 2;
   }
 
@@ -148,9 +157,9 @@ function scoreDocument(document: SearchDocument, queryTokens: string[], fullQuer
   // "milk" should surface dairy before milk chocolate or milk-bottle sweets.
   score += categoryIntentScore(document.product, queryTokens);
 
-  const matchedProductTokens = queryTokens.filter((token) => productTokens.has(token)).length;
+  const matchedProductTokens = queryTokens.filter((token) => productTokens.includes(token)).length;
   if (matchedProductTokens === queryTokens.length) {
-    score += Math.max(8, 40 - Math.max(0, productTokens.size - queryTokens.length) * 4);
+    score += Math.max(8, 40 - Math.max(0, productTokens.length - queryTokens.length) * 4);
   }
 
   return score;
@@ -184,9 +193,9 @@ function legacyScoreProduct(product: Product, queryTokens: string[], fullQuery: 
       haystack,
       productName: product.productName.toLowerCase(),
       canonicalName: product.canonicalName?.toLowerCase() ?? '',
-      productTokens: new Set(tokenize(product.productName)),
-      canonicalTokens: new Set(tokenize(product.canonicalName ?? '')),
-      brandTokens: new Set(tokenize(product.brand ?? '')),
+      productTokens: [...new Set(tokenize(product.productName))],
+      canonicalTokens: [...new Set(tokenize(product.canonicalName ?? ''))],
+      brandTokens: [...new Set(tokenize(product.brand ?? ''))],
     },
     queryTokens,
     fullQuery
