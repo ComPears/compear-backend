@@ -1,6 +1,6 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-09-20T08:05:11.495Z",
+  "importedAt": "2026-09-21T03:51:22.124Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
   "count": 12530,
   "locations": [
@@ -36979,7 +36979,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "ALDI",
-      "address": "Dragon Lane, DH1 2WP Durham",
+      "address": "DH1 2WP Durham",
       "city": "Durham",
       "lat": 54.776968,
       "lng": -1.541311
@@ -43365,6 +43365,16 @@
       "lng": -2.323617
     },
     {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
       "id": "uk-asda-node-13525625769",
       "chain": "asda",
       "country": "uk",
@@ -43413,6 +43423,16 @@
       "city": "",
       "lat": 54.595171,
       "lng": -7.311617
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
     },
     {
       "id": "uk-asda-way-423231271",
@@ -43473,26 +43493,6 @@
       "city": "",
       "lat": 53.377214,
       "lng": -1.396292
-    },
-    {
-      "id": "uk-asda-node-11382453519",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 55.868709,
-      "lng": -3.70322
-    },
-    {
-      "id": "uk-asda-way-344227605",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 51.528684,
-      "lng": -3.692142
     },
     {
       "id": "uk-asda-node-1676712817",
@@ -43625,6 +43625,16 @@
       "lng": -1.15071
     },
     {
+      "id": "uk-asda-node-13289340701",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 53.484599,
+      "lng": -2.251981
+    },
+    {
       "id": "uk-asda-node-13512838957",
       "chain": "asda",
       "country": "uk",
@@ -43673,6 +43683,16 @@
       "city": "",
       "lat": 51.692717,
       "lng": -3.021291
+    },
+    {
+      "id": "uk-asda-way-89270383",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.958467,
+      "lng": -1.202706
     },
     {
       "id": "uk-asda-way-89482034",
@@ -43945,26 +43965,6 @@
       "lng": -1.786774
     },
     {
-      "id": "uk-asda-node-13289340701",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 53.484599,
-      "lng": -2.251981
-    },
-    {
-      "id": "uk-asda-way-89270383",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 51.958467,
-      "lng": -1.202706
-    },
-    {
       "id": "uk-asda-node-13263845129",
       "chain": "asda",
       "country": "uk",
@@ -43993,6 +43993,16 @@
       "city": "",
       "lat": 53.010189,
       "lng": -2.183574
+    },
+    {
+      "id": "uk-asda-way-142202322",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "ASDA Express",
+      "city": "",
+      "lat": 51.314571,
+      "lng": 0.033811
     },
     {
       "id": "uk-asda-node-1909078417",
@@ -49555,16 +49565,6 @@
       "lng": -0.794336
     },
     {
-      "id": "uk-asda-node-428412680",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Church Road 256, UB5 5AW Northolt",
-      "city": "Northolt",
-      "lat": 51.543182,
-      "lng": -0.379824
-    },
-    {
       "id": "uk-asda-way-729857652",
       "chain": "asda",
       "country": "uk",
@@ -50972,7 +50972,7 @@
       "address": "Redbridge Road, SO15 0LT Southampton",
       "city": "Southampton",
       "lat": 50.918895,
-      "lng": -1.461679
+      "lng": -1.461657
     },
     {
       "id": "uk-asda-way-518845565",
@@ -61519,7 +61519,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Chesterfield Road, S8 0YH Sheffield",
+      "address": "Chesterfield Road, S8 0TW Sheffield",
       "city": "Sheffield",
       "lat": 53.357958,
       "lng": -1.476814
@@ -79975,16 +79975,6 @@
       "lng": -2.426665
     },
     {
-      "id": "uk-sainsburys-way-148484333",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 54.626773,
-      "lng": -5.856505
-    },
-    {
       "id": "uk-sainsburys-way-148562077",
       "chain": "sainsburys",
       "country": "uk",
@@ -81503,16 +81493,6 @@
       "city": "",
       "lat": 54.856053,
       "lng": -3.006213
-    },
-    {
-      "id": "uk-sainsburys-node-10217112928",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Durham Road",
-      "city": "",
-      "lat": 54.661737,
-      "lng": -1.557771
     },
     {
       "id": "uk-sainsburys-node-10233438422",
@@ -83085,6 +83065,16 @@
       "lng": -5.977368
     },
     {
+      "id": "uk-sainsburys-way-148484333",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's",
+      "address": "Airport Road West 302, BT3 9EJ Belfast",
+      "city": "Belfast",
+      "lat": 54.626773,
+      "lng": -5.856505
+    },
+    {
       "id": "uk-sainsburys-way-516491695",
       "chain": "sainsburys",
       "country": "uk",
@@ -84543,6 +84533,16 @@
       "city": "Chichester",
       "lat": 50.843367,
       "lng": -0.75639
+    },
+    {
+      "id": "uk-sainsburys-node-10217112928",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Durham Road, Chilton",
+      "city": "Chilton",
+      "lat": 54.661737,
+      "lng": -1.557771
     },
     {
       "id": "uk-sainsburys-way-158290621",
@@ -87279,7 +87279,7 @@
       "chain": "sainsburys",
       "country": "uk",
       "name": "Sainsbury's",
-      "address": "Eagle Avenue, NN14 2WD Kettering",
+      "address": "Cockerel Rise, NN14 2WE Kettering",
       "city": "Kettering",
       "lat": 52.448438,
       "lng": -0.824162
@@ -113501,8 +113501,8 @@
       "name": "Tesco Express",
       "address": "Fulham Road 700, SW6 5SA London",
       "city": "London",
-      "lat": 51.474467,
-      "lng": -0.207045
+      "lat": 51.474469,
+      "lng": -0.206949
     },
     {
       "id": "uk-tesco-node-364510178",
@@ -115131,8 +115131,8 @@
       "name": "Tesco Express",
       "address": "London Road 86, SE23 3PE London",
       "city": "London",
-      "lat": 51.440814,
-      "lng": -0.059428
+      "lat": 51.440825,
+      "lng": -0.059426
     },
     {
       "id": "uk-tesco-way-148146068",
@@ -120711,8 +120711,8 @@
       "name": "Tesco Express",
       "address": "Sutton Park Road 1, BN25 1QX Seaford",
       "city": "Seaford",
-      "lat": 50.773348,
-      "lng": 0.102402
+      "lat": 50.773339,
+      "lng": 0.102401
     },
     {
       "id": "uk-tesco-way-152022622",
