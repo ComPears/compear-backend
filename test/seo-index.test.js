@@ -42,3 +42,16 @@ test('legacy SEO serialization is reused, country-isolated and catalog-invalidat
   assert.notStrictEqual(call('nl').body, first.body);
   assert.equal(serializations, 3);
 });
+
+test('cached SEO JSON escapes HTML delimiters without changing product values', () => {
+  const source = [];
+  const payload = [{ slug: 'safe', offers: [{ productName: '</script><img src=x onerror=alert(1)> & milk' }] }];
+  data.loadAllProducts = () => source;
+  data.getSeoProductGroups = () => payload;
+  const res = response();
+  getSeoIndex(request(), res);
+  assert.equal(res.headers['content-type'], 'application/json; charset=utf-8');
+  assert.equal(res.headers['x-content-type-options'], 'nosniff');
+  assert.doesNotMatch(res.body.toString(), /[<>&]/);
+  assert.deepEqual(JSON.parse(res.body.toString()), payload);
+});

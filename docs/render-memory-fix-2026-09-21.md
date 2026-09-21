@@ -19,7 +19,7 @@ Exit **139** conventionally means SIGSEGV (128 + signal 11), a native segmentati
 
 ## Verification
 
-- 50 backend regression tests pass, including SEO pagination/cache/country separation and receipt/security boundaries.
+- 51 backend regression tests pass, including SEO pagination/cache/country separation, safe JSON serialization and receipt/security boundaries.
 - Equivalent local catalog/index profiling: retained heap fell from approximately 208 MiB to 149 MiB after garbage collection, without dropping products or countries.
 - Full-server Linux/amd64 Docker run: Node 22.23.2, 512 MiB container RAM, no swap, 256 MiB old-space and 1 MiB semi-space, offline networking, one CPU.
 - All three countries: paginated SEO output exactly equals legacy output; conditional ETags return 304; 20 rounds of six concurrent search/SEO requests succeed.

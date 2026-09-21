@@ -175,6 +175,8 @@ const seoResponseByCatalog = new WeakMap<Product[], { body: Buffer; etag: string
 
 export function getSeoIndex(req: Request, res: Response): void {
   const country = countryFromQuery(req);
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400');
   res.setHeader('X-Total-Count', String(getSeoProductGroupCount(country)));
   if (req.query.limit !== undefined || req.query.offset !== undefined) {
@@ -189,10 +191,16 @@ export function getSeoIndex(req: Request, res: Response): void {
   const products = loadAllProducts(country);
   let cached = seoResponseByCatalog.get(products);
   if (!cached) {
-    const body = Buffer.from(JSON.stringify(getSeoProductGroups(country)));
+    // Preserve JSON values while making the serialized payload safe even if a
+    // downstream consumer accidentally embeds it in an HTML document.
+    const json = JSON.stringify(getSeoProductGroups(country))
+      .replace(/</g, '\\u003c')
+      .replace(/>/g, '\\u003e')
+      .replace(/&/g, '\\u0026');
+    const body = Buffer.from(json);
     cached = { body, etag: `"${createHash('sha256').update(body).digest('hex')}"` };
     seoResponseByCatalog.set(products, cached);
   }
   res.setHeader('ETag', cached.etag);
-  res.type('application/json').send(cached.body);
+  res.send(cached.body);
 }
