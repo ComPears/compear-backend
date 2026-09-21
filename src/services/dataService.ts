@@ -29,6 +29,7 @@ interface ProductCatalog {
   byStore: Map<StoreSlug, Product[]>;
   byId: Map<string, Product>;
   bySlug: Map<string, Product[]>;
+  seoGroups: Array<[string, Product[]]>;
 }
 
 const catalogByCountry = new Map<CountryCode, ProductCatalog>();
@@ -179,7 +180,14 @@ function normalizeProduct(raw: Product): Product {
     raw.identityKey ||
     (barcode ? `ean:${barcode}` : `tok:unknown|${raw.canonicalName}|na`);
   const packageData = normalizePackageData(raw);
-  return { ...raw, ...packageData, category, barcode: barcode ?? null, identityKey };
+  // These objects were just parsed from disk and are owned by the catalog.
+  // Normalize in place: spreading 80k rows creates a second set of wide objects.
+  raw.packageSize = packageData.packageSize;
+  raw.weightInGrams = packageData.weightInGrams;
+  raw.category = category;
+  raw.barcode = barcode ?? null;
+  raw.identityKey = identityKey;
+  return raw;
 }
 
 function ensureDataDir(country: CountryCode = DEFAULT_COUNTRY): void {
@@ -246,7 +254,10 @@ function buildCatalog(country: CountryCode): ProductCatalog {
     durationMs: Math.round((performance.now() - startedAt) * 10) / 10,
   });
 
-  return { all, byStore, byId, bySlug };
+  const seoGroups = Array.from(bySlug.entries()).filter(([, products]) =>
+    products.some((product) => product.store !== products[0].store)
+  );
+  return { all, byStore, byId, bySlug, seoGroups };
 }
 
 function getCatalog(country: CountryCode): ProductCatalog {
@@ -332,12 +343,15 @@ export function getProductsBySlug(
   );
 }
 
-export function getSeoProductGroups(country: CountryCode = DEFAULT_COUNTRY): Array<{
+export function getSeoProductGroupCount(country: CountryCode = DEFAULT_COUNTRY): number {
+  return getCatalog(country).seoGroups.length;
+}
+
+export function getSeoProductGroups(country: CountryCode = DEFAULT_COUNTRY, offset = 0, limit = Infinity): Array<{
   slug: string;
   offers: Array<Pick<Product, 'canonicalName' | 'productName' | 'brand' | 'store' | 'packageSize' | 'effectivePrice' | 'scrapedAt' | 'category'>>;
 }> {
-  return Array.from(getCatalog(country).bySlug.entries())
-    .filter(([, products]) => new Set(products.map((product) => product.store)).size > 1)
+  return getCatalog(country).seoGroups.slice(offset, offset + limit)
     .map(([slug, products]) => ({
       slug,
       offers: products.map((product) => ({

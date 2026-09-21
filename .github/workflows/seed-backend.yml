@@ -48,6 +48,14 @@ jobs:
           COUNTRY: nl,uk,de
         run: npm run seed
 
+      # Data-only commits skip app CI. Check the new snapshot before publishing
+      # so daily catalog growth cannot silently exceed the production heap.
+      - name: Build seeded catalogs
+        run: npm run build
+
+      - name: Check seeded catalog memory budget
+        run: npm run test:memory
+
       # Best-effort: Overpass is flaky (504s). Product seed must still commit/deploy.
       - name: Import store locations from OpenStreetMap
         id: osm_import
@@ -87,6 +95,7 @@ jobs:
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Trigger Render backend redeploy
+        if: github.ref == 'refs/heads/main'
         env:
           RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
         run: |
@@ -99,6 +108,7 @@ jobs:
           echo "Render deploy hook triggered"
 
       - name: Verify expected backend revision readiness
+        if: github.ref == 'refs/heads/main'
         continue-on-error: true
         env:
           BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL || vars.BACKEND_URL }}

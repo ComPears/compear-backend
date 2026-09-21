@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
-import { loadAllProducts, loadStoreProducts, getProductById, getProductsBySlug, getSeoProductGroups } from '../services/dataService';
+import { loadAllProducts, loadStoreProducts, getProductById, getProductsBySlug, getSeoProductGroups, getSeoProductGroupCount } from '../services/dataService';
+import { createHash } from 'crypto';
 import { StoreSlug, getStoreDisplayName } from '../config/stores';
 import { countryFromQuery } from '../config/countries';
 import { buildSearchCacheKey, getCached, setCached } from '../utils/searchCache';
@@ -168,8 +169,38 @@ export function getProductBySlug(req: Request, res: Response): void {
   }
 }
 
+// Retain one serialized legacy response per live catalog, not a new object graph
+// and JSON string for every crawler/build request. Invalidation changes the key.
+const seoResponseByCatalog = new WeakMap<Product[], { body: Buffer; etag: string }>();
+
 export function getSeoIndex(req: Request, res: Response): void {
   const country = countryFromQuery(req);
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400');
-  res.json(getSeoProductGroups(country));
+  res.setHeader('X-Total-Count', String(getSeoProductGroupCount(country)));
+  if (req.query.limit !== undefined || req.query.offset !== undefined) {
+    const limit = boundedInt(req.query.limit, 250, 1, 500);
+    const offset = boundedInt(req.query.offset, 0, 0, 1_000_000);
+    res.setHeader('X-Result-Limit', String(limit));
+    res.setHeader('X-Result-Offset', String(offset));
+    res.json(getSeoProductGroups(country, offset, limit));
+    return;
+  }
+  // Preserve the unpaginated array contract for older frontend deployments.
+  const products = loadAllProducts(country);
+  let cached = seoResponseByCatalog.get(products);
+  if (!cached) {
+    // Preserve JSON values while making the serialized payload safe even if a
+    // downstream consumer accidentally embeds it in an HTML document.
+    const json = JSON.stringify(getSeoProductGroups(country))
+      .replace(/</g, '\\u003c')
+      .replace(/>/g, '\\u003e')
+      .replace(/&/g, '\\u0026');
+    const body = Buffer.from(json);
+    cached = { body, etag: `"${createHash('sha256').update(body).digest('hex')}"` };
+    seoResponseByCatalog.set(products, cached);
+  }
+  res.setHeader('ETag', cached.etag);
+  res.send(cached.body);
 }

@@ -97,9 +97,10 @@ const freshestProductAt = products.reduce<string | null>((freshest, product) => 
 runtimeMonitor.markCatalogLoaded(products.length, freshestProductAt);
 runtimeMonitor.markStartupComplete();
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
+  const address = server.address();
   logger.info('backend_started', {
-    port: PORT,
+    port: typeof address === 'object' && address ? address.port : PORT,
     ...runtimeMonitor.getMetrics(),
   });
 });
