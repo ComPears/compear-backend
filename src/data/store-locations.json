@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-09-24T08:13:46.961Z",
+  "importedAt": "2026-09-25T08:21:40.543Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12543,
+  "count": 12535,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -35339,7 +35339,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Leeds Old Road, Bradford",
+      "address": "Leeds Old Road, BD3 8JW Bradford",
       "city": "Bradford",
       "lat": 53.799564,
       "lng": -1.71231
@@ -43143,16 +43143,6 @@
       "city": "",
       "lat": 53.055993,
       "lng": -2.208726
-    },
-    {
-      "id": "uk-asda-way-39959125",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Queensway, ST16 3TA",
-      "city": "",
-      "lat": 52.805082,
-      "lng": -2.109312
     },
     {
       "id": "uk-asda-way-50160018",
@@ -51095,6 +51085,16 @@
       "lng": 0.554227
     },
     {
+      "id": "uk-asda-way-39959125",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Queensway, ST16 3TA Stafford",
+      "city": "Stafford",
+      "lat": 52.805082,
+      "lng": -2.109312
+    },
+    {
       "id": "uk-asda-way-227648721",
       "chain": "asda",
       "country": "uk",
@@ -52605,16 +52605,6 @@
       "lng": -1.195024
     },
     {
-      "id": "uk-lidl-uk-node-482835037",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 51.486897,
-      "lng": -0.094763
-    },
-    {
       "id": "uk-lidl-uk-node-529590568",
       "chain": "lidl-uk",
       "country": "uk",
@@ -52813,16 +52803,6 @@
       "city": "",
       "lat": 51.234407,
       "lng": -1.141699
-    },
-    {
-      "id": "uk-lidl-uk-node-8227166916",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Drove Road 3, BN9 0AD",
-      "city": "",
-      "lat": 50.795511,
-      "lng": 0.056867
     },
     {
       "id": "uk-lidl-uk-node-8623608433",
@@ -53165,16 +53145,6 @@
       "lng": -2.427876
     },
     {
-      "id": "uk-lidl-uk-way-72925426",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Foregate Street, ST16 2QY",
-      "city": "",
-      "lat": 52.810814,
-      "lng": -2.122592
-    },
-    {
       "id": "uk-lidl-uk-way-75927422",
       "chain": "lidl-uk",
       "country": "uk",
@@ -53201,8 +53171,8 @@
       "name": "Lidl",
       "address": "Ringwood Road, BH22 0AE",
       "city": "",
-      "lat": 50.81223,
-      "lng": -1.872088
+      "lat": 50.812249,
+      "lng": -1.8721
     },
     {
       "id": "uk-lidl-uk-way-91199045",
@@ -53273,16 +53243,6 @@
       "city": "",
       "lat": 56.409331,
       "lng": -5.46989
-    },
-    {
-      "id": "uk-lidl-uk-way-130877736",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Cobden Road 2, G21 1YL",
-      "city": "",
-      "lat": 55.874575,
-      "lng": -4.231474
     },
     {
       "id": "uk-lidl-uk-way-133730626",
@@ -53641,8 +53601,8 @@
       "name": "Lidl",
       "address": "Molesworth Street, BT80 8PA",
       "city": "",
-      "lat": 54.64664,
-      "lng": -6.74057
+      "lat": 54.646656,
+      "lng": -6.740529
     },
     {
       "id": "uk-lidl-uk-way-255416005",
@@ -53762,7 +53722,7 @@
       "address": "Finchfield Hill, WV3 9EN",
       "city": "",
       "lat": 52.58092,
-      "lng": -2.172511
+      "lng": -2.172501
     },
     {
       "id": "uk-lidl-uk-way-298861475",
@@ -53955,16 +53915,6 @@
       "lng": -4.680558
     },
     {
-      "id": "uk-lidl-uk-way-391593035",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 55.963979,
-      "lng": -3.195331
-    },
-    {
       "id": "uk-lidl-uk-way-402650830",
       "chain": "lidl-uk",
       "country": "uk",
@@ -54105,16 +54055,6 @@
       "lng": -0.454442
     },
     {
-      "id": "uk-lidl-uk-way-517092582",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Briton Ferry Road, SA11 1AS",
-      "city": "",
-      "lat": 51.652845,
-      "lng": -3.81362
-    },
-    {
       "id": "uk-lidl-uk-way-531782164",
       "chain": "lidl-uk",
       "country": "uk",
@@ -54141,8 +54081,8 @@
       "name": "Lidl",
       "address": "Progress Road 70, SS9 5PR",
       "city": "",
-      "lat": 51.570301,
-      "lng": 0.645977
+      "lat": 51.570287,
+      "lng": 0.64596
     },
     {
       "id": "uk-lidl-uk-way-588736396",
@@ -54153,16 +54093,6 @@
       "city": "",
       "lat": 53.45655,
       "lng": -2.116193
-    },
-    {
-      "id": "uk-lidl-uk-way-594366220",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Holt Road, NR27 9JW",
-      "city": "",
-      "lat": 52.926085,
-      "lng": 1.286696
     },
     {
       "id": "uk-lidl-uk-way-612410057",
@@ -54241,7 +54171,7 @@
       "name": "Lidl",
       "address": "Lidl",
       "city": "",
-      "lat": 53.400288,
+      "lat": 53.400306,
       "lng": -2.295763
     },
     {
@@ -54619,7 +54549,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Lidl",
+      "address": "BT41 4LL",
       "city": "",
       "lat": 54.728028,
       "lng": -6.228154
@@ -54705,16 +54635,6 @@
       "lng": -3.177737
     },
     {
-      "id": "uk-lidl-uk-way-1106893173",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 51.359667,
-      "lng": -0.150598
-    },
-    {
       "id": "uk-lidl-uk-way-1113387297",
       "chain": "lidl-uk",
       "country": "uk",
@@ -54729,7 +54649,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Castlereagh Road/Montgomery Road",
+      "address": "Castlereagh Road/Montgomery Road, BT6 9HL",
       "city": "",
       "lat": 54.579729,
       "lng": -5.878967
@@ -54925,16 +54845,6 @@
       "lng": -0.942343
     },
     {
-      "id": "uk-lidl-uk-way-1422718908",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 52.086249,
-      "lng": 1.116732
-    },
-    {
       "id": "uk-lidl-uk-way-1432783494",
       "chain": "lidl-uk",
       "country": "uk",
@@ -55085,56 +54995,6 @@
       "lng": -1.775223
     },
     {
-      "id": "uk-lidl-uk-node-6444068700",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Trentham Road, ST3 4DY",
-      "city": "",
-      "lat": 52.984236,
-      "lng": -2.135258
-    },
-    {
-      "id": "uk-lidl-uk-node-9665652666",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 53.836905,
-      "lng": -1.775279
-    },
-    {
-      "id": "uk-lidl-uk-node-13725842552",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 53.387814,
-      "lng": -2.610339
-    },
-    {
-      "id": "uk-lidl-uk-way-264204459",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Bradley Way, BT82 9PU",
-      "city": "",
-      "lat": 54.825637,
-      "lng": -7.470268
-    },
-    {
-      "id": "uk-lidl-uk-way-1368493156",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 50.791308,
-      "lng": -3.645593
-    },
-    {
       "id": "uk-lidl-uk-way-1476636656",
       "chain": "lidl-uk",
       "country": "uk",
@@ -55185,16 +55045,6 @@
       "lng": -2.090883
     },
     {
-      "id": "uk-lidl-uk-way-183320735",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Hutcheon Street 48-50, AB25 3TB Aberdeen",
-      "city": "Aberdeen",
-      "lat": 57.154386,
-      "lng": -2.104681
-    },
-    {
       "id": "uk-lidl-uk-way-39744373",
       "chain": "lidl-uk",
       "country": "uk",
@@ -55239,7 +55089,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Dalmore Road, IV17 0UX Alness",
+      "address": "Dalmore Road, IV17 0UY Alness",
       "city": "Alness",
       "lat": 57.692301,
       "lng": -4.2417
@@ -55429,7 +55279,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Stag Island, Ripple Road 62-82, IG11 7PG Barking",
+      "address": "Ripple Road 62-82, IG11 7PG Barking",
       "city": "Barking",
       "lat": 51.535938,
       "lng": 0.081445
@@ -55459,7 +55309,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Bradbury Balk Lane, S73 8DS Barnsley",
+      "address": "Bradberry Balk Lane, S73 8DS Barnsley",
       "city": "Barnsley",
       "lat": 53.52969,
       "lng": -1.407795
@@ -55545,16 +55395,6 @@
       "lng": 0.482277
     },
     {
-      "id": "uk-lidl-uk-way-298296042",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Manor Road, SS15 6PA Basildon",
-      "city": "Basildon",
-      "lat": 51.575469,
-      "lng": 0.420877
-    },
-    {
       "id": "uk-lidl-uk-way-27806619",
       "chain": "lidl-uk",
       "country": "uk",
@@ -55579,7 +55419,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Lower Bristol Road, BA2 1ES Bath",
+      "address": "BA2 1ES Bath",
       "city": "Bath",
       "lat": 51.381223,
       "lng": -2.387667
@@ -55661,7 +55501,7 @@
       "name": "Lidl",
       "address": "Shore Road 196, BT15 3QA Belfast",
       "city": "Belfast",
-      "lat": 54.62701,
+      "lat": 54.627066,
       "lng": -5.924484
     },
     {
@@ -55691,8 +55531,8 @@
       "name": "Lidl",
       "address": "Crumlin Road, BT14 7EE Belfast",
       "city": "Belfast",
-      "lat": 54.612606,
-      "lng": -5.955614
+      "lat": 54.612612,
+      "lng": -5.955611
     },
     {
       "id": "uk-lidl-uk-way-1363097704",
@@ -55819,7 +55659,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Mackadown Lane 317, Birmingham",
+      "address": "Mackadown Lane 317, B33 0NG Birmingham",
       "city": "Birmingham",
       "lat": 52.48022,
       "lng": -1.772316
@@ -56475,6 +56315,16 @@
       "lng": -2.622215
     },
     {
+      "id": "uk-lidl-uk-way-1545445168",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Whitebridge Gardens, BS35 2NT Bristol",
+      "city": "Bristol",
+      "lat": 51.602457,
+      "lng": -2.516443
+    },
+    {
       "id": "uk-lidl-uk-node-420738697",
       "chain": "lidl-uk",
       "country": "uk",
@@ -56969,7 +56819,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "St Andrews Avenue, CO4 3HU Colchester",
+      "address": "St Andrew's Avenue, CO4 3HU Colchester",
       "city": "Colchester",
       "lat": 51.891881,
       "lng": 0.918842
@@ -57093,6 +56943,16 @@
       "city": "Crewkerne",
       "lat": 50.884361,
       "lng": -2.794725
+    },
+    {
+      "id": "uk-lidl-uk-way-594366220",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Holt Road, NR27 9JW Cromer",
+      "city": "Cromer",
+      "lat": 52.926085,
+      "lng": 1.286696
     },
     {
       "id": "uk-lidl-uk-way-717050003",
@@ -57529,7 +57389,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "DH7 8EU Durham",
+      "address": "High Street South, DH7 8EU Durham",
       "city": "Durham",
       "lat": 54.757881,
       "lng": -1.608974
@@ -57683,6 +57543,16 @@
       "city": "Edinburgh",
       "lat": 55.886554,
       "lng": -3.16302
+    },
+    {
+      "id": "uk-lidl-uk-way-391593035",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Logie Green Road 11, EH7 4EY Edinburgh",
+      "city": "Edinburgh",
+      "lat": 55.963979,
+      "lng": -3.195331
     },
     {
       "id": "uk-lidl-uk-way-473852756",
@@ -57892,7 +57762,7 @@
       "address": "West Road 18, IV36 2GW Forres",
       "city": "Forres",
       "lat": 57.608043,
-      "lng": -3.631703
+      "lng": -3.631702
     },
     {
       "id": "uk-lidl-uk-way-197076841",
@@ -57999,7 +57869,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "G32 8UB Glasgow",
+      "address": "Tollcross Road 850, G32 8UB Glasgow",
       "city": "Glasgow",
       "lat": 55.843551,
       "lng": -4.179838
@@ -58033,6 +57903,16 @@
       "city": "Glasgow",
       "lat": 55.874724,
       "lng": -4.269014
+    },
+    {
+      "id": "uk-lidl-uk-way-130877736",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Cobden Road 2, G21 1YX Glasgow",
+      "city": "Glasgow",
+      "lat": 55.874575,
+      "lng": -4.231474
     },
     {
       "id": "uk-lidl-uk-way-133174306",
@@ -58193,6 +58073,16 @@
       "city": "Gravesend",
       "lat": 51.444133,
       "lng": 0.359613
+    },
+    {
+      "id": "uk-lidl-uk-way-86164785",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Norwich Road, NR30 5JL Great Yarmouth",
+      "city": "Great Yarmouth",
+      "lat": 52.648532,
+      "lng": 1.724277
     },
     {
       "id": "uk-lidl-uk-way-179346570",
@@ -58755,6 +58645,16 @@
       "lng": 1.200822
     },
     {
+      "id": "uk-lidl-uk-way-1422718908",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Anglia Parkway South 16, IP1 5QP Ipswich",
+      "city": "Ipswich",
+      "lat": 52.086233,
+      "lng": 1.116702
+    },
+    {
       "id": "uk-lidl-uk-way-314618964",
       "chain": "lidl-uk",
       "country": "uk",
@@ -58849,7 +58749,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Esplanade, KY1 1SL Kirkcaldy",
+      "address": "Esplanade 450, KY1 1SL Kirkcaldy",
       "city": "Kirkcaldy",
       "lat": 56.098368,
       "lng": -3.163104
@@ -58899,7 +58799,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Liverpool Road, L36 3YB Knowsley",
+      "address": "East Prescot Road, L36 3YD Knowsley",
       "city": "Knowsley",
       "lat": 53.422284,
       "lng": -2.86255
@@ -59259,7 +59159,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Southend Lane 237-249, SE6 3DS London",
+      "address": "Southend Lane 237-249, SE6 3RS London",
       "city": "London",
       "lat": 51.42632,
       "lng": -0.026299
@@ -59273,6 +59173,16 @@
       "city": "London",
       "lat": 51.532981,
       "lng": -0.080241
+    },
+    {
+      "id": "uk-lidl-uk-node-482835037",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Walworth Road 307-319, SE17 2TG London",
+      "city": "London",
+      "lat": 51.486897,
+      "lng": -0.094763
     },
     {
       "id": "uk-lidl-uk-node-535936545",
@@ -59825,16 +59735,6 @@
       "lng": 0.024727
     },
     {
-      "id": "uk-lidl-uk-way-150568026",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "North End Road 254 - 258, SW6 1NJ London",
-      "city": "London",
-      "lat": 51.484215,
-      "lng": -0.202168
-    },
-    {
       "id": "uk-lidl-uk-way-81361527",
       "chain": "lidl-uk",
       "country": "uk",
@@ -59959,7 +59859,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Brighton Road 1, BN43 6RJ Malthouse Trading Estate",
+      "address": "1, BN43 6RJ Malthouse Trading Estate",
       "city": "Malthouse Trading Estate",
       "lat": 50.832378,
       "lng": -0.256743
@@ -60315,6 +60215,16 @@
       "lng": -3.98176
     },
     {
+      "id": "uk-lidl-uk-way-517092582",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Briton Ferry Road, SA11 1AS Neath",
+      "city": "Neath",
+      "lat": 51.652851,
+      "lng": -3.813599
+    },
+    {
       "id": "uk-lidl-uk-way-159513410",
       "chain": "lidl-uk",
       "country": "uk",
@@ -60455,6 +60365,16 @@
       "lng": -2.231862
     },
     {
+      "id": "uk-lidl-uk-node-8227166916",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Drove Road 3, BN9 0AD Newhaven",
+      "city": "Newhaven",
+      "lat": 50.795511,
+      "lng": 0.056867
+    },
+    {
       "id": "uk-lidl-uk-node-6437171604",
       "chain": "lidl-uk",
       "country": "uk",
@@ -60545,6 +60465,16 @@
       "lng": -1.46487
     },
     {
+      "id": "uk-lidl-uk-way-99593060",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Yarmouth Road 7,9, NR28 9AS North Walsham",
+      "city": "North Walsham",
+      "lat": 52.819921,
+      "lng": 1.38909
+    },
+    {
       "id": "uk-lidl-uk-way-761939128",
       "chain": "lidl-uk",
       "country": "uk",
@@ -60623,26 +60553,6 @@
       "city": "Norwich",
       "lat": 52.661908,
       "lng": 1.335406
-    },
-    {
-      "id": "uk-lidl-uk-way-86164785",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Norwich Road, NR30 5JL Norwich",
-      "city": "Norwich",
-      "lat": 52.648532,
-      "lng": 1.724277
-    },
-    {
-      "id": "uk-lidl-uk-way-99593060",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Yarmouth Road 7,9, NR28 9AS Norwich",
-      "city": "Norwich",
-      "lat": 52.819921,
-      "lng": 1.38909
     },
     {
       "id": "uk-lidl-uk-way-607287065",
@@ -60931,8 +60841,8 @@
       "name": "Lidl",
       "address": "Kingsway, WF5 8DA Ossett",
       "city": "Ossett",
-      "lat": 53.680456,
-      "lng": -1.581891
+      "lat": 53.680459,
+      "lng": -1.581739
     },
     {
       "id": "uk-lidl-uk-way-830683130",
@@ -61371,8 +61281,8 @@
       "name": "Lidl",
       "address": "Gooshays Drive, RM3 8QY Romford",
       "city": "Romford",
-      "lat": 51.605772,
-      "lng": 0.224312
+      "lat": 51.605792,
+      "lng": 0.224322
     },
     {
       "id": "uk-lidl-uk-way-361752184",
@@ -61619,7 +61529,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Chesterfield Road, S8 0YH Sheffield",
+      "address": "Chesterfield Road, S8 0TW Sheffield",
       "city": "Sheffield",
       "lat": 53.357958,
       "lng": -1.476814
@@ -62045,6 +61955,16 @@
       "lng": -0.290487
     },
     {
+      "id": "uk-lidl-uk-way-72925426",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Foregate Street, ST16 2QY Stafford",
+      "city": "Stafford",
+      "lat": 52.810814,
+      "lng": -2.122592
+    },
+    {
       "id": "uk-lidl-uk-way-808684882",
       "chain": "lidl-uk",
       "country": "uk",
@@ -62072,7 +61992,7 @@
       "address": "The Broadway 80-82, HA7 4DU Stanmore",
       "city": "Stanmore",
       "lat": 51.618291,
-      "lng": -0.308564
+      "lng": -0.308498
     },
     {
       "id": "uk-lidl-uk-way-745979054",
@@ -62323,16 +62243,6 @@
       "city": "Swindon",
       "lat": 51.552276,
       "lng": -1.893862
-    },
-    {
-      "id": "uk-lidl-uk-node-1733578012",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Stratton Road, SN3 3SG Swindon",
-      "city": "Swindon",
-      "lat": 51.570545,
-      "lng": -1.753885
     },
     {
       "id": "uk-lidl-uk-way-1271164537",
@@ -62665,6 +62575,16 @@
       "lng": -1.135965
     },
     {
+      "id": "uk-lidl-uk-way-1106893173",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Beddington Gardens 16-18, SM6 0HU Wallington",
+      "city": "Wallington",
+      "lat": 51.359667,
+      "lng": -0.150598
+    },
+    {
       "id": "uk-lidl-uk-way-41137628",
       "chain": "lidl-uk",
       "country": "uk",
@@ -62789,7 +62709,7 @@
       "chain": "lidl-uk",
       "country": "uk",
       "name": "Lidl",
-      "address": "Pinners Brow, WA2 7XA Warrington",
+      "address": "Pinners Brow Unit A, WA2 7XA Warrington",
       "city": "Warrington",
       "lat": 53.39418,
       "lng": -2.5925
@@ -62803,16 +62723,6 @@
       "city": "Warrington",
       "lat": 53.406859,
       "lng": -2.647195
-    },
-    {
-      "id": "uk-lidl-uk-way-37867725",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Fennel Street, WA1 2PA Warrington",
-      "city": "Warrington",
-      "lat": 53.391048,
-      "lng": -2.585841
     },
     {
       "id": "uk-lidl-uk-way-125959428",
@@ -62881,8 +62791,8 @@
       "name": "Lidl",
       "address": "Nynehead Road, TA21 9SE Wellington",
       "city": "Wellington",
-      "lat": 50.985766,
-      "lng": -3.219282
+      "lat": 50.985761,
+      "lng": -3.219361
     },
     {
       "id": "uk-lidl-uk-way-1348494728",
@@ -94985,6 +94895,16 @@
       "lng": -2.226662
     },
     {
+      "id": "uk-sainsburys-way-907775901",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Central Road 1-15, KT4 8EG Worcester Park",
+      "city": "Worcester Park",
+      "lat": 51.376856,
+      "lng": -0.238702
+    },
+    {
       "id": "uk-sainsburys-node-14054873197",
       "chain": "sainsburys",
       "country": "uk",
@@ -111935,16 +111855,6 @@
       "lng": -1.466118
     },
     {
-      "id": "uk-tesco-node-9399664994",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "London Road, SG3 6FP Knebworth",
-      "city": "Knebworth",
-      "lat": 51.855748,
-      "lng": -0.182566
-    },
-    {
       "id": "uk-tesco-way-1026260488",
       "chain": "tesco",
       "country": "uk",
@@ -125153,6 +125063,16 @@
       "city": "Woodford Green",
       "lat": 51.599906,
       "lng": 0.019864
+    },
+    {
+      "id": "uk-tesco-node-9399664994",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "London Road, SG3 6FP Woolmer Green",
+      "city": "Woolmer Green",
+      "lat": 51.855748,
+      "lng": -0.182566
     },
     {
       "id": "uk-tesco-way-55027633",
