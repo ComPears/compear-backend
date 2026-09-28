@@ -6,15 +6,14 @@ import {
   createReceiptSession,
   getAnalytics,
   getReceipts,
-  parseReceipt,
   removeAllReceipts,
   removeReceipt,
 } from '../controllers/receiptsController';
-import { getUserIdFromRequest } from '../utils/userId';
+import { authenticateReceiptUpload, createReceiptUploadGuard, processReceiptUpload } from '../middleware/receiptUploadGuard';
 
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: 8 * 1024 * 1024, files: 1 },
+  limits: { fileSize: 8 * 1024 * 1024, files: 1, fields: 4, fieldSize: 4096, parts: 5 },
 });
 
 function envInt(name: string, fallback: number): number {
@@ -29,8 +28,8 @@ const receiptParseLimiter = rateLimit({
   max: envInt('AI_MAX_VISION_PER_USER_HOUR', 5),
   standardHeaders: true,
   legacyHeaders: false,
-  keyGenerator: (req) => {
-    const userId = getUserIdFromRequest(req);
+  keyGenerator: (req, res) => {
+    const userId = res.locals.receiptUserId;
     if (userId) return `receipt:user:${userId}`;
     return `receipt:ip:${ipKeyGenerator(req.ip ?? '')}`;
   },
@@ -52,8 +51,15 @@ const receiptSessionLimiter = rateLimit({
 
 export const receiptsRouter = Router();
 
+// Receipt responses and session credentials must not be retained by caches.
+receiptsRouter.use((_req, res, next) => {
+  res.setHeader('Cache-Control', 'private, no-store');
+  next();
+});
+
 receiptsRouter.post('/session', receiptSessionLimiter, createReceiptSession);
-receiptsRouter.post('/parse', receiptParseLimiter, upload.single('receipt'), parseReceipt);
+receiptsRouter.post('/parse', authenticateReceiptUpload, receiptParseLimiter,
+  createReceiptUploadGuard(), upload.single('receipt'), processReceiptUpload);
 receiptsRouter.get('/', getReceipts);
 receiptsRouter.get('/analytics', getAnalytics);
 receiptsRouter.patch('/:id/lines/:lineIndex', correctLine);
