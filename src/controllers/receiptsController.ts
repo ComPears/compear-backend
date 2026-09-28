@@ -38,7 +38,7 @@ function publicReceipt(receipt: SavedReceipt): Omit<SavedReceipt, 'aiCacheKeys'>
  * Require a verified receipt token. Rejects body.userId spoofing when it
  * disagrees with the authenticated identity.
  */
-function requireVerifiedReceiptUser(req: Request, res: Response): string | null {
+export function requireVerifiedReceiptUser(req: Request, res: Response): string | null {
   const auth = getReceiptAuthFromRequest(req);
   const userId = auth?.userId ?? getUserIdFromRequest(req);
   const token = auth?.token ?? (req.header('x-compear-user-token') || '').trim();
