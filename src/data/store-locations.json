@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-09-27T08:47:31.551Z",
+  "importedAt": "2026-09-29T09:07:11.486Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12529,
+  "count": 12531,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -32595,6 +32595,16 @@
       "lng": -2.281591
     },
     {
+      "id": "uk-aldi-uk-node-14211415934",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 50.694311,
+      "lng": -1.286216
+    },
+    {
       "id": "uk-aldi-uk-way-19180064",
       "chain": "aldi-uk",
       "country": "uk",
@@ -38939,7 +38949,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Fulham Broadway Centre, SW6 1BW London",
+      "address": "Fulham Road, SW6 1BW London",
       "city": "London",
       "lat": 51.480211,
       "lng": -0.194345
@@ -43105,16 +43115,6 @@
       "lng": -2.128452
     },
     {
-      "id": "uk-asda-way-4931279",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "ST5 0AY",
-      "city": "",
-      "lat": 53.027837,
-      "lng": -2.209796
-    },
-    {
       "id": "uk-asda-way-25829224",
       "chain": "asda",
       "country": "uk",
@@ -43123,16 +43123,6 @@
       "city": "",
       "lat": 51.681366,
       "lng": -4.159158
-    },
-    {
-      "id": "uk-asda-way-29978868",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Woodland Street, ST6 6AT",
-      "city": "",
-      "lat": 53.055993,
-      "lng": -2.208726
     },
     {
       "id": "uk-asda-way-50160018",
@@ -48999,7 +48989,7 @@
       "chain": "asda",
       "country": "uk",
       "name": "Asda Express",
-      "address": "Walkden Road, Manchester",
+      "address": "Walkden Road, M28 2RZ Manchester",
       "city": "Manchester",
       "lat": 53.510839,
       "lng": -2.390303
@@ -49343,6 +49333,26 @@
       "city": "Newcastle Upon Tyne",
       "lat": 55.036192,
       "lng": -1.626037
+    },
+    {
+      "id": "uk-asda-way-4931279",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "ST5 0AY Newcastle-under-Lyme",
+      "city": "Newcastle-under-Lyme",
+      "lat": 53.027837,
+      "lng": -2.209796
+    },
+    {
+      "id": "uk-asda-way-222403800",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Morris Square, ST5 0EN Newcastle-under-Lyme",
+      "city": "Newcastle-under-Lyme",
+      "lat": 53.031646,
+      "lng": -2.216522
     },
     {
       "id": "uk-asda-way-1516288973",
@@ -51045,6 +51055,16 @@
       "lng": -2.663648
     },
     {
+      "id": "uk-asda-way-1043615832",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "St Helens Linkway 102, WA9 5DT St Helens",
+      "city": "St Helens",
+      "lat": 53.441532,
+      "lng": -2.731426
+    },
+    {
       "id": "uk-asda-way-185811695",
       "chain": "asda",
       "country": "uk",
@@ -51213,6 +51233,16 @@
       "city": "Stoke-on-trent",
       "lat": 53.022683,
       "lng": -2.151259
+    },
+    {
+      "id": "uk-asda-way-29978868",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Woodland Street, ST6 6AT Stoke-on-Trent",
+      "city": "Stoke-on-Trent",
+      "lat": 53.055993,
+      "lng": -2.208726
     },
     {
       "id": "uk-asda-way-48961653",
@@ -52393,16 +52423,6 @@
       "city": "Woking",
       "lat": 51.331587,
       "lng": -0.531068
-    },
-    {
-      "id": "uk-asda-way-222403800",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Morris Square, ST5 0EN Wolstanton",
-      "city": "Wolstanton",
-      "lat": 53.031646,
-      "lng": -2.216522
     },
     {
       "id": "uk-asda-node-11461042437",
@@ -53965,16 +53985,6 @@
       "lng": -2.216578
     },
     {
-      "id": "uk-lidl-uk-way-439944755",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "High Street, ST6 5EG",
-      "city": "",
-      "lat": 53.063704,
-      "lng": -2.211788
-    },
-    {
       "id": "uk-lidl-uk-way-455068144",
       "chain": "lidl-uk",
       "country": "uk",
@@ -54895,16 +54905,6 @@
       "lng": -1.216459
     },
     {
-      "id": "uk-lidl-uk-way-1476636656",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Lidl",
-      "city": "",
-      "lat": 50.865558,
-      "lng": -1.014642
-    },
-    {
       "id": "uk-lidl-uk-way-1484284729",
       "chain": "lidl-uk",
       "country": "uk",
@@ -54973,6 +54973,16 @@
       "city": "",
       "lat": 53.836964,
       "lng": -1.775223
+    },
+    {
+      "id": "uk-lidl-uk-way-1476636656",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 50.865558,
+      "lng": -1.014642
     },
     {
       "id": "uk-lidl-uk-node-14084427554",
@@ -61495,16 +61505,6 @@
       "lng": -1.466699
     },
     {
-      "id": "uk-lidl-uk-node-13528471297",
-      "chain": "lidl-uk",
-      "country": "uk",
-      "name": "Lidl",
-      "address": "Rotherham Road, S13 9LL Sheffield",
-      "city": "Sheffield",
-      "lat": 53.371709,
-      "lng": -1.372105
-    },
-    {
       "id": "uk-lidl-uk-way-67762465",
       "chain": "lidl-uk",
       "country": "uk",
@@ -61573,6 +61573,16 @@
       "city": "Sheffield",
       "lat": 53.470029,
       "lng": -1.47695
+    },
+    {
+      "id": "uk-lidl-uk-way-1474662113",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Rotherham Road, S13 9LL Sheffield",
+      "city": "Sheffield",
+      "lat": 53.371673,
+      "lng": -1.3721
     },
     {
       "id": "uk-lidl-uk-way-1273856043",
@@ -62023,6 +62033,16 @@
       "city": "Stockton-on-Tees",
       "lat": 54.560369,
       "lng": -1.312118
+    },
+    {
+      "id": "uk-lidl-uk-way-439944755",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "High Street, ST6 5EG Stoke-on-Trent",
+      "city": "Stoke-on-Trent",
+      "lat": 53.063704,
+      "lng": -2.211788
     },
     {
       "id": "uk-lidl-uk-way-538372563",
@@ -64703,16 +64723,6 @@
       "city": "",
       "lat": 51.349662,
       "lng": 0.732178
-    },
-    {
-      "id": "uk-morrisons-node-3717480350",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Oxford Road 75-79, ST5 0QB",
-      "city": "",
-      "lat": 53.020719,
-      "lng": -2.211762
     },
     {
       "id": "uk-morrisons-node-3717485856",
@@ -74915,6 +74925,16 @@
       "lng": -2.239485
     },
     {
+      "id": "uk-morrisons-node-3717480350",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Oxford Road 75-79, ST5 0QB Newcastle-under-Lyme",
+      "city": "Newcastle-under-Lyme",
+      "lat": 53.020719,
+      "lng": -2.211762
+    },
+    {
       "id": "uk-morrisons-way-121287260",
       "chain": "morrisons",
       "country": "uk",
@@ -79651,8 +79671,8 @@
       "name": "Sainsbury's",
       "address": "Sainsbury's",
       "city": "",
-      "lat": 51.780271,
-      "lng": -0.435626
+      "lat": 51.780297,
+      "lng": -0.435596
     },
     {
       "id": "uk-sainsburys-way-52299161",
@@ -80843,16 +80863,6 @@
       "city": "",
       "lat": 55.865215,
       "lng": -4.252945
-    },
-    {
-      "id": "uk-sainsburys-node-2080554653",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Bridport Road, DT1 2FB",
-      "city": "",
-      "lat": 50.713881,
-      "lng": -2.447904
     },
     {
       "id": "uk-sainsburys-node-2326348564",
@@ -85143,6 +85153,16 @@
       "city": "Doncaster",
       "lat": 53.482227,
       "lng": -1.231342
+    },
+    {
+      "id": "uk-sainsburys-node-2080554653",
+      "chain": "sainsburys",
+      "country": "uk",
+      "name": "Sainsbury's Local",
+      "address": "Bridport Road, DT1 2FB Dorchester",
+      "city": "Dorchester",
+      "lat": 50.713881,
+      "lng": -2.447904
     },
     {
       "id": "uk-sainsburys-node-478623406",
@@ -91451,7 +91471,7 @@
       "name": "Sainsbury's Local",
       "address": "St Stephens Street 9-13, NR1 3QN Norwich",
       "city": "Norwich",
-      "lat": 52.625477,
+      "lat": 52.625476,
       "lng": 1.293152
     },
     {
@@ -96091,8 +96111,8 @@
       "name": "Tesco",
       "address": "Tesco",
       "city": "",
-      "lat": 54.005852,
-      "lng": -1.551986
+      "lat": 54.005741,
+      "lng": -1.551951
     },
     {
       "id": "uk-tesco-way-1493545692",
@@ -99555,16 +99575,6 @@
       "lng": -1.275421
     },
     {
-      "id": "uk-tesco-way-116456697",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Keele Road, ST5 2HN",
-      "city": "",
-      "lat": 53.00762,
-      "lng": -2.234629
-    },
-    {
       "id": "uk-tesco-way-117272524",
       "chain": "tesco",
       "country": "uk",
@@ -99683,16 +99693,6 @@
       "city": "",
       "lat": 51.322354,
       "lng": -2.201668
-    },
-    {
-      "id": "uk-tesco-way-158045507",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Biddulph Road, ST6 6SH",
-      "city": "",
-      "lat": 53.071767,
-      "lng": -2.193941
     },
     {
       "id": "uk-tesco-way-160898288",
@@ -101073,16 +101073,6 @@
       "city": "",
       "lat": 52.709064,
       "lng": -2.752888
-    },
-    {
-      "id": "uk-tesco-way-1047675676",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Hillside Road 8-16, L36 8BJ",
-      "city": "",
-      "lat": 53.423844,
-      "lng": -2.83688
     },
     {
       "id": "uk-tesco-way-1058182004",
@@ -112865,6 +112855,16 @@
       "lng": -2.991705
     },
     {
+      "id": "uk-tesco-way-1047675676",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Hillside Road 8-16, L36 8BJ Liverpool",
+      "city": "Liverpool",
+      "lat": 53.423844,
+      "lng": -2.83688
+    },
+    {
       "id": "uk-tesco-way-1173090820",
       "chain": "tesco",
       "country": "uk",
@@ -117161,8 +117161,8 @@
       "name": "Tesco Express",
       "address": "Fyfield Barrow 28, MK7 7AN Milton Keynes",
       "city": "Milton Keynes",
-      "lat": 52.022706,
-      "lng": -0.688944
+      "lat": 52.022715,
+      "lng": -0.688925
     },
     {
       "id": "uk-tesco-way-367629825",
@@ -117613,6 +117613,16 @@
       "city": "Newcastle upon Tyne",
       "lat": 55.013484,
       "lng": -1.661061
+    },
+    {
+      "id": "uk-tesco-way-116456697",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Keele Road, ST5 2HN Newcastle-under-Lyme",
+      "city": "Newcastle-under-Lyme",
+      "lat": 53.00762,
+      "lng": -2.234629
     },
     {
       "id": "uk-tesco-way-164725822",
@@ -122363,6 +122373,16 @@
       "city": "Stoke-on-Trent",
       "lat": 52.994421,
       "lng": -2.209523
+    },
+    {
+      "id": "uk-tesco-way-158045507",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Biddulph Road, ST6 6SH Stoke-on-Trent",
+      "city": "Stoke-on-Trent",
+      "lat": 53.071767,
+      "lng": -2.193941
     },
     {
       "id": "uk-tesco-way-563401678",
