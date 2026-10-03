@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-10-02T09:08:50.116Z",
+  "importedAt": "2026-10-03T02:04:34.551Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12535,
+  "count": 12539,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -37969,7 +37969,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "Beck Road, HD1 5DG Huddersfield",
+      "address": "HD1 5DG Huddersfield",
       "city": "Huddersfield",
       "lat": 53.653728,
       "lng": -1.783584
@@ -42531,8 +42531,8 @@
       "name": "Aldi",
       "address": "Europa Boulevard 860, WA5 7TY Warrington",
       "city": "Warrington",
-      "lat": 53.41614,
-      "lng": -2.624741
+      "lat": 53.416165,
+      "lng": -2.624709
     },
     {
       "id": "uk-aldi-uk-way-758220928",
@@ -43435,6 +43435,26 @@
       "lng": -1.396292
     },
     {
+      "id": "uk-asda-node-11382453519",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 55.868709,
+      "lng": -3.70322
+    },
+    {
+      "id": "uk-asda-way-344227605",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Asda",
+      "city": "",
+      "lat": 51.528684,
+      "lng": -3.692142
+    },
+    {
       "id": "uk-asda-node-1676712817",
       "chain": "asda",
       "country": "uk",
@@ -43885,6 +43905,26 @@
       "lng": -1.786774
     },
     {
+      "id": "uk-asda-node-13289340701",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 53.484599,
+      "lng": -2.251981
+    },
+    {
+      "id": "uk-asda-way-89270383",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Express",
+      "address": "Asda Express",
+      "city": "",
+      "lat": 51.958467,
+      "lng": -1.202706
+    },
+    {
       "id": "uk-asda-node-13263845129",
       "chain": "asda",
       "country": "uk",
@@ -43913,6 +43953,16 @@
       "city": "",
       "lat": 51.314571,
       "lng": 0.033811
+    },
+    {
+      "id": "uk-asda-node-13978378942",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "ASDA Express",
+      "city": "",
+      "lat": 53.010189,
+      "lng": -2.183574
     },
     {
       "id": "uk-asda-node-1909078417",
@@ -47971,8 +48021,8 @@
       "name": "Asda",
       "address": "Redlands Road 1, BT40 1AX Larne",
       "city": "Larne",
-      "lat": 54.846576,
-      "lng": -5.808069
+      "lat": 54.846577,
+      "lng": -5.80805
     },
     {
       "id": "uk-asda-way-362842399",
@@ -48113,6 +48163,16 @@
       "city": "Leeds",
       "lat": 53.848722,
       "lng": -1.59225
+    },
+    {
+      "id": "uk-asda-way-224457151",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda Roundhay Express Petrol",
+      "address": "Street Lane, LS8 1BD Leeds",
+      "city": "Leeds",
+      "lat": 53.844664,
+      "lng": -1.512229
     },
     {
       "id": "uk-asda-way-173499192",
@@ -48655,6 +48715,16 @@
       "lng": 0.033454
     },
     {
+      "id": "uk-asda-node-9400588770",
+      "chain": "asda",
+      "country": "uk",
+      "name": "ASDA Express",
+      "address": "Tower Bridge Road 153, SE1 3LW London",
+      "city": "London",
+      "lat": 51.499,
+      "lng": -0.079393
+    },
+    {
       "id": "uk-asda-way-1299594559",
       "chain": "asda",
       "country": "uk",
@@ -48683,6 +48753,16 @@
       "city": "Luton",
       "lat": 51.889088,
       "lng": -0.372706
+    },
+    {
+      "id": "uk-asda-way-421050923",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda On the Run",
+      "address": "Dunstable Road, Luton",
+      "city": "Luton",
+      "lat": 51.892373,
+      "lng": -0.451398
     },
     {
       "id": "uk-asda-way-172312983",
@@ -69135,16 +69215,6 @@
       "lng": -3.214704
     },
     {
-      "id": "uk-morrisons-node-3203401038",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "London Road 24, GU17 9AA Camberley",
-      "city": "Camberley",
-      "lat": 51.331114,
-      "lng": -0.778739
-    },
-    {
       "id": "uk-morrisons-way-4937676",
       "chain": "morrisons",
       "country": "uk",
@@ -79443,16 +79513,6 @@
       "city": "",
       "lat": 50.835401,
       "lng": -0.36571
-    },
-    {
-      "id": "uk-sainsburys-node-312671346",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Sainsbury's",
-      "city": "",
-      "lat": 51.402942,
-      "lng": -0.193192
     },
     {
       "id": "uk-sainsburys-node-631800239",
@@ -92725,16 +92785,6 @@
       "lng": -1.071179
     },
     {
-      "id": "uk-sainsburys-node-1810142316",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's",
-      "address": "Otford Road, TN14 5EG Sevenoaks",
-      "city": "Sevenoaks",
-      "lat": 51.296333,
-      "lng": 0.193034
-    },
-    {
       "id": "uk-sainsburys-way-169856449",
       "chain": "sainsburys",
       "country": "uk",
@@ -94883,16 +94933,6 @@
       "city": "Worcester",
       "lat": 52.20423,
       "lng": -2.226662
-    },
-    {
-      "id": "uk-sainsburys-way-907775901",
-      "chain": "sainsburys",
-      "country": "uk",
-      "name": "Sainsbury's Local",
-      "address": "Central Road 1-15, KT4 8EG Worcester Park",
-      "city": "Worcester Park",
-      "lat": 51.376856,
-      "lng": -0.238702
     },
     {
       "id": "uk-sainsburys-node-14054873197",
@@ -117811,8 +117851,8 @@
       "name": "Tesco",
       "address": "Church Road, BT36 7GU Newtownabbey",
       "city": "Newtownabbey",
-      "lat": 54.658519,
-      "lng": -5.925052
+      "lat": 54.658518,
+      "lng": -5.925066
     },
     {
       "id": "uk-tesco-way-552478787",
