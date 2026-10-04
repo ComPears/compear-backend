@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-10-04T04:51:10.256Z",
+  "importedAt": "2026-10-04T08:56:48.584Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12542,
+  "count": 12541,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -34043,16 +34043,6 @@
       "city": "",
       "lat": 52.673953,
       "lng": -2.019929
-    },
-    {
-      "id": "uk-aldi-uk-way-956297149",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Aldi",
-      "city": "",
-      "lat": 52.561739,
-      "lng": -1.826584
     },
     {
       "id": "uk-aldi-uk-node-10693131200",
