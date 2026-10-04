@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-10-03T08:43:32.926Z",
+  "importedAt": "2026-10-04T04:51:10.256Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12540,
+  "count": 12542,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -16695,16 +16695,6 @@
       "lng": 5.053812
     },
     {
-      "id": "nl-jumbo-node-6283120435",
-      "chain": "jumbo",
-      "country": "nl",
-      "name": "Jumbo",
-      "address": "Jumbo",
-      "city": "",
-      "lat": 52.075096,
-      "lng": 4.280076
-    },
-    {
       "id": "nl-jumbo-node-12512371351",
       "chain": "jumbo",
       "country": "nl",
@@ -16813,6 +16803,16 @@
       "city": "'s-Gravenhage",
       "lat": 52.070284,
       "lng": 4.321391
+    },
+    {
+      "id": "nl-jumbo-node-2731263460",
+      "chain": "jumbo",
+      "country": "nl",
+      "name": "Jumbo",
+      "address": "Weimarstraat 180, 2562HP 's-Gravenhage",
+      "city": "'s-Gravenhage",
+      "lat": 52.075141,
+      "lng": 4.280084
     },
     {
       "id": "nl-jumbo-node-2732576886",
@@ -21531,8 +21531,8 @@
       "name": "Jumbo",
       "address": "Keizerswaard 63, 3078AL Rotterdam",
       "city": "Rotterdam",
-      "lat": 51.886405,
-      "lng": 4.546346
+      "lat": 51.886439,
+      "lng": 4.546707
     },
     {
       "id": "nl-jumbo-node-1949306625",
@@ -24021,8 +24021,8 @@
       "name": "Lidl",
       "address": "Pesetastraat 50, 2991XT Barendrecht",
       "city": "Barendrecht",
-      "lat": 51.872573,
-      "lng": 4.546802
+      "lat": 51.872442,
+      "lng": 4.546524
     },
     {
       "id": "nl-lidl-node-2745155241",
@@ -26713,6 +26713,16 @@
       "city": "Rotterdam",
       "lat": 51.904369,
       "lng": 4.503484
+    },
+    {
+      "id": "nl-lidl-node-2791493846",
+      "chain": "lidl",
+      "country": "nl",
+      "name": "Lidl",
+      "address": "Keizerswaard 75, 3078AL Rotterdam",
+      "city": "Rotterdam",
+      "lat": 51.886301,
+      "lng": 4.546361
     },
     {
       "id": "nl-lidl-node-2798487887",
@@ -37979,7 +37989,7 @@
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
-      "address": "HD1 5DG Huddersfield",
+      "address": "Beck Road, HD1 5DG Huddersfield",
       "city": "Huddersfield",
       "lat": 53.653728,
       "lng": -1.783584
@@ -38391,8 +38401,8 @@
       "name": "Aldi",
       "address": "Chartists Way, LS27 9ET Leeds",
       "city": "Leeds",
-      "lat": 53.740639,
-      "lng": -1.601
+      "lat": 53.740545,
+      "lng": -1.60117
     },
     {
       "id": "uk-aldi-uk-way-204902822",
@@ -66925,6 +66935,16 @@
       "lng": -4.265943
     },
     {
+      "id": "uk-morrisons-node-14245682701",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 51.790423,
+      "lng": -2.599167
+    },
+    {
       "id": "uk-morrisons-way-144473707",
       "chain": "morrisons",
       "country": "uk",
@@ -91311,8 +91331,8 @@
       "name": "Sainsbury's",
       "address": "Liverpool Road, ST5 2AF Newcastle-under-Lyme",
       "city": "Newcastle-under-Lyme",
-      "lat": 53.015155,
-      "lng": -2.231942
+      "lat": 53.015167,
+      "lng": -2.231889
     },
     {
       "id": "uk-sainsburys-way-96657567",
