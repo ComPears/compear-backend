@@ -61,6 +61,10 @@ function main(): void {
     totalSourceRows += reports.reduce((sum, r) => sum + r.totalRows, 0);
 
     for (const report of reports) {
+      if (report.unavailable) {
+        console.log(country + '/' + report.store + ': unavailable; retained source is excluded from serving');
+        continue;
+      }
       const storeCfg = config.countries[country]?.stores?.[report.store] as
         | { minimum_products?: number; optional?: boolean }
         | undefined;

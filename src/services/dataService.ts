@@ -8,6 +8,7 @@ import { invalidateBarcodeIndex } from './barcodeService';
 import { normalizeBarcode } from '../utils/barcode';
 import { clearSearchCache } from '../utils/searchCache';
 import { precomputeProductDietaryLabels } from '../utils/dietaryLabels';
+import { isCatalogAvailable, loadCountryAvailability } from './catalogAvailability';
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
@@ -25,6 +26,7 @@ function countryDataDir(country: CountryCode): string {
 }
 
 interface ProductCatalog {
+  expiresAt: number;
   all: Product[];
   byStore: Map<StoreSlug, Product[]>;
   byId: Map<string, Product>;
@@ -231,9 +233,15 @@ function buildCatalog(country: CountryCode): ProductCatalog {
   const byId = new Map<string, Product>();
   const bySlug = new Map<string, Product[]>();
   const all: Product[] = [];
+  const availability = loadCountryAvailability(country, getStoreSlugsForCountry(country));
+  const active = availability?.filter((entry) => isCatalogAvailable(entry));
+  const expiresAt = active?.length
+    ? Math.min(...active.map((entry) => Date.parse(entry.available_until!)))
+    : Infinity;
 
   for (const slug of getStoreSlugsForCountry(country)) {
-    const products = readStoreProductsFromDisk(slug, country);
+    const permitted = !availability || active!.some((entry) => entry.store === slug);
+    const products = permitted ? readStoreProductsFromDisk(slug, country) : [];
     byStore.set(slug, products);
     for (const product of products) {
       all.push(product);
@@ -257,10 +265,18 @@ function buildCatalog(country: CountryCode): ProductCatalog {
   const seoGroups = Array.from(bySlug.entries()).filter(([, products]) =>
     products.some((product) => product.store !== products[0].store)
   );
-  return { all, byStore, byId, bySlug, seoGroups };
+  return { all, byStore, byId, bySlug, seoGroups, expiresAt };
+}
+
+export function refreshCatalogAvailability(country: CountryCode): void {
+  const catalog = catalogByCountry.get(country);
+  if (catalog && Date.now() >= catalog.expiresAt) {
+    invalidateProductCatalog(country);
+  }
 }
 
 function getCatalog(country: CountryCode): ProductCatalog {
+  refreshCatalogAvailability(country);
   let catalog = catalogByCountry.get(country);
   if (!catalog) {
     catalog = buildCatalog(country);

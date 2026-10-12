@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { loadAllProducts, loadStoreProducts, getProductById, getProductsBySlug, getSeoProductGroups, getSeoProductGroupCount } from '../services/dataService';
+import { loadAllProducts, loadStoreProducts, getProductById, getProductsBySlug, getSeoProductGroups, getSeoProductGroupCount, refreshCatalogAvailability } from '../services/dataService';
 import { createHash } from 'crypto';
 import { StoreSlug, getStoreDisplayName } from '../config/stores';
 import { countryFromQuery } from '../config/countries';
@@ -72,6 +72,8 @@ export function listProducts(req: Request, res: Response): void {
       limit,
       offset
     );
+    // Expiry invalidates search/barcode caches before a cached result is served.
+    refreshCatalogAvailability(country);
     const cached = getCached<ProductPage>(cacheKey);
     if (cached) {
       const durationMs = performance.now() - startedAt;
@@ -177,7 +179,7 @@ export function getSeoIndex(req: Request, res: Response): void {
   const country = countryFromQuery(req);
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
   res.setHeader('X-Content-Type-Options', 'nosniff');
-  res.setHeader('Cache-Control', 'public, max-age=3600, stale-while-revalidate=86400');
+  res.setHeader('Cache-Control', 'public, max-age=0, must-revalidate');
   res.setHeader('X-Total-Count', String(getSeoProductGroupCount(country)));
   if (req.query.limit !== undefined || req.query.offset !== undefined) {
     const limit = boundedInt(req.query.limit, 250, 1, 500);

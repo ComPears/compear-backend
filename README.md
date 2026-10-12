@@ -34,6 +34,22 @@ Node.js + Express + TypeScript API for the ComPears grocery price comparison pla
 
 All seven data-wrangling stores are supported: **Albert Heijn**, **Jumbo**, **ALDI**, **Dirk**, **Lidl**, **Coop**, **PLUS**. Seed from `compears-data-wrangling` with `npm run seed`.
 
+### Catalog availability
+
+When wrangling provides `catalog-availability.json`, seeding verifies its complete
+per-country store list, exact-file checksums, counts and original observation
+dates before importing available catalogs. Unavailable or expired stores get
+empty serving files; their recovery snapshots stay in the wrangling repository.
+The metadata is saved alongside each country's product JSON and shipped by the
+existing seed workflow. Seeding never replaces a source observation with today's
+date. Pre-contract repositories remain supported during the coordinated rollout.
+
+`GET /stores?country=nl|uk|de` exposes `availability`, `availableUntil`, and
+`unavailableReason`. Search, detail, comparison, barcode and SEO indexes exclude
+unavailable stores, including when the metadata expires during a running process.
+A malformed local availability file fails closed. Deploy this consumer and the
+frontend notice before merging the wrangling partial-publication change.
+
 ## API Endpoints
 
 - `GET /health` / `GET /health/live` – Liveness

@@ -15,8 +15,12 @@ import {
   listStoreSlugsForCountry,
 } from '../config/countries';
 import { logger } from '../utils/logger';
+import { isCatalogAvailable, parseAvailabilityManifest, saveCountryAvailability, verifyAvailableCatalog } from './catalogAvailability';
 
 interface LegacyProduct {
+  observedAt?: string;
+  scrapedAt?: string;
+  productUrl?: string;
   n: string;
   o?: string;
   p: string;
@@ -53,6 +57,7 @@ function parseCategory(value?: string): ProductCategory {
 }
 
 export interface SeedReport {
+  unavailable?: boolean;
   store: StoreSlug;
   sourceFile: string;
   totalRows: number;
@@ -72,6 +77,17 @@ export function seedAllStoresFromWrangling(
   const config = loadWranglingConfig(wranglingPath);
   const reports: SeedReport[] = [];
   const slugs = listStoreSlugsForCountry(config, country);
+  const manifestPath = path.join(wranglingPath, 'catalog-availability.json');
+  const availability = fs.existsSync(manifestPath)
+    ? parseAvailabilityManifest(JSON.parse(fs.readFileSync(manifestPath, 'utf8')), country, slugs)
+    : null;
+  // Preflight every available file before writing any store in this country.
+  for (const entry of availability ?? []) {
+    if (!isCatalogAvailable(entry)) continue;
+    const file = path.join(wranglingPath, catalogRelPath(config, country, entry.store));
+    const cfg = config.countries[country].stores[entry.store];
+    verifyAvailableCatalog(entry, fs.readFileSync(file), cfg.maximum_catalog_age_hours ?? 48);
+  }
 
   for (const slug of slugs) {
     if (!STORE_SLUGS.includes(slug as StoreSlug)) continue;
@@ -79,8 +95,18 @@ export function seedAllStoresFromWrangling(
     const displayName = config.countries[country].stores[slug].display_name;
     const relPath = catalogRelPath(config, country, slug);
     const filePath = path.join(wranglingPath, relPath);
+    const state = availability?.find((entry) => entry.store === slug);
+    if (state && !isCatalogAvailable(state)) {
+      // Clear serving data; wrangling retains the last-good recovery snapshot.
+      saveStoreProducts(storeSlug, [], country);
+      reports.push({ store: storeSlug, sourceFile: filePath, unavailable: true, totalRows: 0,
+        seeded: 0, withBarcodeInSource: 0, seededWithBarcode: 0, skippedInvalidPrice: 0,
+        skippedRejected: 0, missingUrl: 0, withPromo: 0 });
+      continue;
+    }
     reports.push(seedStoreFromWrangling(storeSlug, displayName, filePath, country));
   }
+  if (availability) saveCountryAvailability(country, availability);
 
   const total = reports.reduce((sum, r) => sum + r.seeded, 0);
   const totalBarcodes = reports.reduce((sum, r) => sum + r.seededWithBarcode, 0);
@@ -171,7 +197,7 @@ function stableProductId(storeSlug: StoreSlug, productName: string, size: string
 }
 
 function resolveProductUrl(legacy: LegacyProduct): string | null {
-  const candidate = legacy.l || legacy.i;
+  const candidate = legacy.productUrl || legacy.l || legacy.i;
   if (!candidate?.startsWith('http')) return null;
   return candidate;
 }
@@ -193,7 +219,7 @@ function resolveBarcode(legacy: LegacyProduct, storeSlug?: StoreSlug): string | 
   return null;
 }
 
-function legacyToScraped(
+export function legacyToScraped(
   legacy: LegacyProduct,
   store: string,
   storeSlug?: StoreSlug
@@ -217,7 +243,9 @@ function legacyToScraped(
   if (!sanitized) return null;
 
   const promo = parsePromoText(legacy.o);
-  const scrapedAt = new Date().toISOString();
+  const observed = legacy.observedAt || legacy.scrapedAt;
+  if (!observed || !Number.isFinite(Date.parse(observed))) return null;
+  const scrapedAt = new Date(observed).toISOString();
   const weightInGrams = sanitized.weightInGrams;
 
   return {
