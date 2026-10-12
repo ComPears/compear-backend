@@ -62,8 +62,15 @@ export function verifyAvailableCatalog(row: CatalogAvailability, bytes: Buffer, 
   }
 }
 
-function availabilityPath(country: CountryCode): string {
-  return path.join(__dirname, '..', 'data', country, 'catalog-availability.json');
+export function availabilityPath(country: CountryCode): string {
+  // Resolve only literal allowlisted directories at the filesystem boundary.
+  // A TypeScript union alone cannot validate an HTTP-derived runtime value.
+  switch (country) {
+    case 'nl': return path.join(__dirname, '..', 'data', 'nl', 'catalog-availability.json');
+    case 'uk': return path.join(__dirname, '..', 'data', 'uk', 'catalog-availability.json');
+    case 'de': return path.join(__dirname, '..', 'data', 'de', 'catalog-availability.json');
+    default: throw new Error('Unsupported catalog country');
+  }
 }
 
 export function saveCountryAvailability(country: CountryCode, stores: CatalogAvailability[]): void {

@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { it } from 'node:test';
 import { createHash } from 'crypto';
-import { CatalogAvailability, isCatalogAvailable, parseAvailabilityManifest, verifyAvailableCatalog } from '../src/services/catalogAvailability';
+import { CatalogAvailability, availabilityPath, isCatalogAvailable, parseAvailabilityManifest, verifyAvailableCatalog } from '../src/services/catalogAvailability';
 import { legacyToScraped } from '../src/services/seedService';
 
 const now = Date.parse('2026-10-12T12:00:00Z');
@@ -11,6 +11,13 @@ const entry: CatalogAvailability = {
   last_successful_at: '2026-10-12T06:00:00Z', available_until: '2026-10-14T06:00:00Z',
   catalog_sha256: createHash('sha256').update(bytes).digest('hex'),
 };
+
+it('uses only literal country directories at the filesystem boundary', () => {
+  for (const country of ['nl', 'uk', 'de'] as const) {
+    assert.ok(availabilityPath(country).endsWith(`/${country}/catalog-availability.json`));
+  }
+  assert.throws(() => availabilityPath('../../outside' as 'nl'), /Unsupported/);
+});
 
 it('requires complete, unique retailer states and valid hashes', () => {
   assert.deepEqual(parseAvailabilityManifest({ schema_version: 1, stores: [entry] }, 'uk', ['tesco']), [entry]);
