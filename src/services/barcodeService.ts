@@ -1,6 +1,6 @@
 import { Product } from '../types';
 import { CountryCode, COUNTRY_CODES, DEFAULT_COUNTRY } from '../config/countries';
-import { loadAllProducts } from './dataService';
+import { loadAllProducts, refreshCatalogAvailability } from './dataService';
 import { normalizeBarcode } from '../utils/barcode';
 
 const barcodeIndexByCountry = new Map<CountryCode, Map<string, Product[]>>();
@@ -35,6 +35,7 @@ export function getProductsByBarcode(
 ): Product[] {
   const barcode = normalizeBarcode(rawBarcode);
   if (!barcode) return [];
+  refreshCatalogAvailability(country); // Apply expiry before consulting the index.
 
   if (!barcodeIndexByCountry.has(country)) {
     barcodeIndexByCountry.set(country, buildBarcodeIndex(country));

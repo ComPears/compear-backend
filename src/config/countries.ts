@@ -14,6 +14,7 @@ export interface WranglingStoreEntry {
   catalog: string;
   minimum_products?: number;
   optional?: boolean;
+  maximum_catalog_age_hours?: number;
 }
 
 export interface WranglingCountryConfig {
