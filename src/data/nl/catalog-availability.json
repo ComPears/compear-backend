@@ -18,40 +18,40 @@
       "store": "jumbo",
       "available": true,
       "reason_codes": [],
-      "products": 13565,
-      "last_successful_at": "2026-10-13T04:37:35.416491+00:00",
-      "available_until": "2026-10-15T04:37:35.416491+00:00",
-      "catalog_sha256": "715bc0e840d4936009050cd0d5839eac8ba164d19425e35da6cd7fd7e07333d8"
+      "products": 13571,
+      "last_successful_at": "2026-10-14T02:48:56.740390+00:00",
+      "available_until": "2026-10-16T02:48:56.740390+00:00",
+      "catalog_sha256": "6ff04ec6338278e0d53bc7a859d080c674bf45cda7433318ae159f9085e7f1a6"
     },
     {
       "country": "nl",
       "store": "aldi",
       "available": true,
       "reason_codes": [],
-      "products": 1760,
-      "last_successful_at": "2026-10-13T04:25:32.540505+00:00",
-      "available_until": "2026-10-15T04:25:32.540505+00:00",
-      "catalog_sha256": "459c3c161bfc198145f028f5144dfcfef4e65c61453e8d822164f7e0384fe360"
+      "products": 1777,
+      "last_successful_at": "2026-10-14T02:35:38.485142+00:00",
+      "available_until": "2026-10-16T02:35:38.485142+00:00",
+      "catalog_sha256": "285624bb6b09d739349d0c522d11c2ab9c90f1018bfb4b333eaef47d3793ad0a"
     },
     {
       "country": "nl",
       "store": "dirk",
       "available": true,
       "reason_codes": [],
-      "products": 7057,
-      "last_successful_at": "2026-10-13T04:25:34.947261+00:00",
-      "available_until": "2026-10-15T04:25:34.947261+00:00",
-      "catalog_sha256": "911e2f405f8128aebb893cb733c3ef256736b382bfde3767894438c9c9beac2c"
+      "products": 6937,
+      "last_successful_at": "2026-10-14T02:35:27.550630+00:00",
+      "available_until": "2026-10-16T02:35:27.550630+00:00",
+      "catalog_sha256": "963a247c1af04b15c8df222267e1447e01485433707c9fb0442d41dbc75f4cb4"
     },
     {
       "country": "nl",
       "store": "lidl",
       "available": true,
       "reason_codes": [],
-      "products": 366,
-      "last_successful_at": "2026-10-13T04:25:29.212633+00:00",
-      "available_until": "2026-10-15T04:25:29.212633+00:00",
-      "catalog_sha256": "e96e381d2384359325843e86c61b67a47376ad0a3c446980c70d0400faa62b7b"
+      "products": 369,
+      "last_successful_at": "2026-10-14T02:35:25.889678+00:00",
+      "available_until": "2026-10-16T02:35:25.889678+00:00",
+      "catalog_sha256": "da07effa5b45a30bafb92703a5ab6ca8373b31c670787f52327df01cd992bc98"
     },
     {
       "country": "nl",
