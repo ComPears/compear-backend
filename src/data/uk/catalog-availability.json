@@ -7,19 +7,19 @@
       "available": true,
       "reason_codes": [],
       "products": 2078,
-      "last_successful_at": "2026-10-16T02:21:40.406013+00:00",
-      "available_until": "2026-10-23T02:21:40.406013+00:00",
-      "catalog_sha256": "6158a3f5661aa6fe121b81a79a9a757a911508d2acf3aa4996660f1358d2f981"
+      "last_successful_at": "2026-10-17T02:14:45.509870+00:00",
+      "available_until": "2026-10-24T02:14:45.509870+00:00",
+      "catalog_sha256": "184afefaa534fa864dae88337dff8947bddc3b7d1bf3732ac69792b7da51412a"
     },
     {
       "country": "uk",
       "store": "sainsburys",
       "available": true,
       "reason_codes": [],
-      "products": 2269,
-      "last_successful_at": "2026-10-16T02:25:53.837955+00:00",
-      "available_until": "2026-10-23T02:25:53.837955+00:00",
-      "catalog_sha256": "9403199ee439eebf6600a8b1a38b7082493fab6ffcebc3b68b89e854f59d39a2"
+      "products": 2285,
+      "last_successful_at": "2026-10-17T02:17:33.930983+00:00",
+      "available_until": "2026-10-24T02:17:33.930983+00:00",
+      "catalog_sha256": "db0ae6ac3a7a3e2d99c2b9516bdeaa35a9f932d98e185ce531531500899af51f"
     },
     {
       "country": "uk",
@@ -38,10 +38,10 @@
       "store": "morrisons",
       "available": true,
       "reason_codes": [],
-      "products": 1534,
-      "last_successful_at": "2026-10-16T02:28:01.783551+00:00",
-      "available_until": "2026-10-18T02:28:01.783551+00:00",
-      "catalog_sha256": "bfb46f3721ead45f987f9a336508694f81b11410827b049c4dbe64cfa98c9a6b"
+      "products": 1532,
+      "last_successful_at": "2026-10-17T02:19:15.123678+00:00",
+      "available_until": "2026-10-19T02:19:15.123678+00:00",
+      "catalog_sha256": "a1cdb995ae6991a8935bd8ddd203090601867fcb2273997d64285f0664ff6f30"
     },
     {
       "country": "uk",
@@ -60,10 +60,10 @@
       "store": "lidl-uk",
       "available": true,
       "reason_codes": [],
-      "products": 262,
-      "last_successful_at": "2026-10-16T02:31:31.885235+00:00",
-      "available_until": "2026-10-18T02:31:31.885235+00:00",
-      "catalog_sha256": "455f4749aff480f8c8dcf03a7bd09343096eacba27a516a4f68fd526f7b8a075"
+      "products": 258,
+      "last_successful_at": "2026-10-17T02:24:44.776107+00:00",
+      "available_until": "2026-10-19T02:24:44.776107+00:00",
+      "catalog_sha256": "463ec42c6c078e0dfb00c363d407f05bd081d53f18d787e478d9640b17cddc22"
     }
   ]
 }
