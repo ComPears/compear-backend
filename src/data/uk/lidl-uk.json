@@ -16,7 +16,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/carnation-condensed-milk-assorted/p10056035",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:carnation|assorted-condensed-milk|397g"
@@ -38,7 +38,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-milk-chocolate-chips/p10055452",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:belbake|chips-chocolate-milk|100g"
@@ -60,7 +60,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-balls-in-net/p10054858",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|balls-chocolate-in-milk-net|70g"
@@ -82,7 +82,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-milk-chocolate-balls/p10055407",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:halloween|balls-chocolate-milk|70g"
@@ -104,7 +104,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/terry-s-chocolate-milk-ball/p10054865",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:terry's|ball-chocolate-milk|145g"
@@ -126,7 +126,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-choco-lolly/p10054852",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|choco-chocolate-lolly-milk|150g"
@@ -148,7 +148,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-white-milk-chocolate-choco-lolly/p10054853",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|choco-chocolate-lolly-milk-white|150g"
@@ -170,7 +170,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-bears/p10054855",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|bears-chocolate-milk|125g"
@@ -192,7 +192,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-salted-mini-pretzels-assorted/p10055834",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|assorted-mini-pretzels-salted|140g"
@@ -214,7 +214,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/puff-pastry-biscuits-assorted/p10055942",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-biscuits-pastry-puff|175g"
@@ -236,7 +236,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-mini-cakes-assorted/p10056454",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:mcennedy|assorted-cakes-mini|270g"
@@ -258,7 +258,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-twinkies-with-filling/p10056455",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|filling-twinkies-with|360g"
@@ -280,7 +280,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/laila-light-tinned-coconut-milk/p10056037",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:laila|coconut-light-milk-tinned|400ml"
@@ -302,7 +302,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-flaked-almonds/p10055456",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|almonds-flaked|150g"
@@ -324,7 +324,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/swizzels-scrumptious-sweets/p10055389",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:swizzels|scrumptious-sweets|173g"
@@ -346,7 +346,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-white-chocolate-chips/p10055454",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:belbake|chips-chocolate-white|100g"
@@ -368,7 +368,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/white-artisan-baguette/p10056209",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|artisan-baguette-white|240g"
@@ -390,7 +390,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-plain-flour/p10055445",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:belbake|flour-plain|1500g"
@@ -412,32 +412,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-chenin-blanc-wine/p10049236",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:deluxe|blanc-chenin-wine|na"
   },
   {
-    "id": "lidl-uk-4a216f69f7f5",
-    "canonicalName": "deluxe africa blanc sauvignon south wine",
-    "productName": "South Africa Sauvignon Blanc Wine",
-    "brand": "deluxe",
+    "id": "lidl-uk-1124232c49af",
+    "canonicalName": "belbake fondant icing ready roll to white",
+    "productName": "Ready To Roll White Fondant Icing",
+    "brand": "belbake",
     "store": "Lidl",
-    "packageSize": "1 stuk",
-    "weightInGrams": 1,
-    "originalPrice": 5.99,
-    "effectivePrice": 5.99,
-    "unitPrice": 5990,
-    "effectiveUnitPrice": 5990,
+    "packageSize": "1 l",
+    "weightInGrams": 1000,
+    "originalPrice": 1.99,
+    "effectivePrice": 1.99,
+    "unitPrice": 1.99,
+    "effectiveUnitPrice": 1.99,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
-    "productUrl": "https://www.lidl.co.uk/p/deluxe-south-africa-sauvignon-blanc-wine/p10049235",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
-    "category": "Beverages",
+    "productUrl": "https://www.lidl.co.uk/p/belbake-ready-to-roll-white-fondant-icing/p10054842",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
+    "category": "Other",
     "barcode": null,
-    "identityKey": "tok:deluxe|africa-blanc-sauvignon-south-wine|na"
+    "identityKey": "tok:belbake|fondant-icing-ready-roll-to-white|1000g"
   },
   {
     "id": "lidl-uk-b91b92c9797d",
@@ -456,7 +456,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-fairtrade-dark-brown-soft-sugar/p10055444",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:belbake|brown-dark-fairtrade-soft-sugar|1000g"
@@ -478,7 +478,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-fairtrade-light-brown-soft-sugar/p10055443",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:belbake|brown-fairtrade-light-soft-sugar|1000g"
@@ -500,7 +500,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-classic-cheese-fondue/p10055872",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:alpen fest style|cheese-classic-fondue|400g"
@@ -522,7 +522,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/north-germany-cheese-slices-assorted/p10055894",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-cheese-germany-north-slices|na"
@@ -544,7 +544,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-wiesenlander-cheese-assorted/p10055914",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:alpen fest style|assorted-cheese-wiesenlander|175g"
@@ -566,7 +566,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cheese-slices/p10055938",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|cheese-slices|400g"
@@ -588,7 +588,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-6-months-matured-cheese/p10055966",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:alpen fest style|cheese-matured-months|200g"
@@ -610,7 +610,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/milbona-cholestrol-lowering-drink-assorted/p10056220",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:milbona|assorted-cholestrol-drink-lowering|8x100g"
@@ -632,7 +632,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-10-brie-and-cranberry-bites/p10056423",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:chef select party|10-and-bites-brie-cranberry|200g"
@@ -654,7 +654,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-traditional-german-noodles/p10055882",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|german-noodles-traditional|500g"
@@ -676,7 +676,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/german-style-pasta-assorted/p10055908",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-german-pasta-style|500g"
@@ -698,7 +698,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-potato-rosti/p10055910",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:alpen fest style|potato-rosti|500g"
@@ -720,7 +720,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-potato-rosti-with-smoked-pork/p10055912",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:alpen fest style|pork-potato-rosti-smoked-with|500g"
@@ -742,7 +742,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/harvest-basket-onion-rings/p10056472",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:harvest basket|onion-rings|750g"
@@ -764,7 +764,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/red-hen-rice-coated-chicken-quarterpounders/p10056473",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:red hen|chicken-coated-quarterpounders-rice|227g"
@@ -786,7 +786,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-bavarian-style-meatloaf/p10055948",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|bavarian-meatloaf|400g"
@@ -808,7 +808,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/regal-butter-cookies-assorted/p10056021",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:regal|assorted-butter-cookies|12x1count"
@@ -830,7 +830,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/laila-pure-butter-ghee/p10056039",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:laila|butter-ghee-pure|1000g"
@@ -852,7 +852,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-all-butter-shortbread-tin/p10055342",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:favorina|all-butter-shortbread-tin|500g"
@@ -874,7 +874,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-all-butter-cinnamon-knots/p10055345",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:deluxe|all-butter-cinnamon-knots|150g"
@@ -896,7 +896,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-6-all-butter-mince-pies/p10055306",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:deluxe|all-butter-mince-pies|330g"
@@ -918,7 +918,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-all-butter-caramel-knots/p10055346",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:deluxe|all-butter-caramel-knots|150g"
@@ -940,7 +940,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/reese-s-peanut-butter-cups-snack-size/p10055431",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:reese's|butter-cups-peanut-size-snack|255g"
@@ -962,7 +962,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-bicarbonate-of-soda-powder/p10055449",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:belbake|bicarbonate-of-powder-soda|200g"
@@ -984,7 +984,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-spreads-assorted/p10056477",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:deluxe|assorted-spreads|190g"
@@ -1006,7 +1006,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-premium-houmous-assorted/p10056470",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:deluxe|assorted-houmous-premium|170g"
@@ -1028,7 +1028,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-pretzel-bites/p10056446",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|bites-pretzel|125g"
@@ -1050,7 +1050,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-6-months-matured-medium-christmas-pudding/p10055343",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:favorina|christmas-matured-medium-months-pudding|400g"
@@ -1072,7 +1072,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-6-months-matured-large-christmas-pudding/p10055344",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:favorina|christmas-large-matured-months-pudding|800g"
@@ -1094,7 +1094,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-6-months-matured-small-christmas-pudding/p10055340",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:favorina|christmas-matured-months-pudding-small|100g"
@@ -1116,7 +1116,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/carrots/p10056238",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|carrots|1000g"
@@ -1138,7 +1138,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-turkish-raisins/p10055459",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|raisins-turkish|500g"
@@ -1160,7 +1160,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mccain-jacket-potatoes/p10055824",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:mccain|jacket-potatoes|800g"
@@ -1182,7 +1182,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/organic-cucumber/p11151261",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|cucumber-organic|na"
@@ -1204,7 +1204,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-roasted-and-caramelised-nuts-assorted/p10055876",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|and-assorted-caramelised-nuts-roasted|150g"
@@ -1226,7 +1226,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/weetabix-flavours-24-pack/p10056481",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|24-flavours-pack-weetabix|24x1count"
@@ -1248,7 +1248,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/royal-gala-apples/p10056232",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|apples-gala-royal|6x1count"
@@ -1270,7 +1270,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/pomegranate/p10056233",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|pomegranate|na"
@@ -1292,7 +1292,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-dried-mixed-fruit/p10054825",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:belbake|dried-fruit-mixed|500g"
@@ -1314,7 +1314,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/slow-cooked-sage-onion-hog-roast-with-apple-sauce/p10056243",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|apple-cooked-hog-onion-roast-sage-sauce-slow-with|400g"
@@ -1336,7 +1336,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-maize-and-potato-snack/p10056445",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mcennedy|and-maize-potato-snack|175g"
@@ -1358,7 +1358,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-6-potato-skins-with-cheese-onion/p10056415",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:chef select party|cheese-onion-potato-skins-with|390g"
@@ -1380,7 +1380,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-6-potato-skins-with-cheese-bacon/p10056416",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:chef select party|bacon-cheese-potato-skins-with|390g"
@@ -1402,7 +1402,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-6-potato-skins-with-jalapeno/p10056417",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:chef select party|jalapeno-potato-skins-with|390g"
@@ -1424,7 +1424,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/ktc-tinned-plum-tomatoes/p10056031",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:ktc|plum-tinned-tomatoes|800g"
@@ -1446,7 +1446,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/courgettes/p10056234",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|courgettes|na"
@@ -1468,7 +1468,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-currants/p10054826",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|currants|500g"
@@ -1490,7 +1490,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/kuljanka-vegetable-salad-with-white-cabbage/p10052648",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:kuljanka|cabbage-salad-vegetable-white-with|na"
@@ -1512,7 +1512,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/ripe-ready-xl-avocado/p10056236",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|avocado-ready-ripe-xl|na"
@@ -1534,7 +1534,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-sweets-and-lollipop-mix/p10055411",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:halloween|and-lollipop-mix-sweets|1000g"
@@ -1556,7 +1556,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/vemondo-falafels-assorted/p10056223",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:vemondo|assorted-falafels|171g"
@@ -1578,7 +1578,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/xxl-british-chicken-breast-fillet/p10056491",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|breast-british-chicken-fillet-xxl|2500g"
@@ -1600,7 +1600,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-8-chicken-bao-buns/p10056420",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:chef select party|bao-buns-chicken|224g"
@@ -1622,7 +1622,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-6-mince-pies/p10055305",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:favorina|mince-pies|344g"
@@ -1644,7 +1644,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-mincemeat/p10054828",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|mincemeat|822g"
@@ -1666,7 +1666,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-spiced-brandy-mincemeat/p10054827",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:deluxe|brandy-mincemeat-spiced|411g"
@@ -1688,7 +1688,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/terry-s-mint-chocolate-ball/p10054864",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:terry's|ball-chocolate-mint|145g"
@@ -1710,7 +1710,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/hellbent-boerewors/p10056244",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:hellbent|boerewors|360g"
@@ -1732,7 +1732,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-bacon-rashers/p10056432",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:mcennedy|bacon-rashers|240g"
@@ -1754,7 +1754,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-10-bacon-mac-cheese-bites/p10056422",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:chef select party|10-bacon-bites-cheese-mac|200g"
@@ -1776,7 +1776,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/xxl-14-streaky-bacon-rashers/p10056493",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|14-bacon-rashers-streaky-xxl|600g"
@@ -1798,7 +1798,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/dulano-bockwurst/p10056226",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:dulano|bockwurst|500g"
@@ -1820,7 +1820,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-smoked-ham/p10055902",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:alpen fest style|ham-smoked|na"
@@ -1842,7 +1842,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-grillparty-sausages/p10055898",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:alpen fest style|grillparty-sausages|450g"
@@ -1864,7 +1864,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-hot-dog-sausages/p10056430",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:mcennedy|dog-hot-sausages|550g"
@@ -1886,7 +1886,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/german-pork-sausage/p10055956",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|german-pork-sausage|650g"
@@ -1908,7 +1908,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-vienna-sausage-with-cheese/p10055874",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:alpen fest style|cheese-sausage-vienna-with|400g"
@@ -1930,7 +1930,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/german-smoked-sausage-assorted/p10055860",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-german-sausage-smoked|160g"
@@ -1952,7 +1952,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mini-smoked-sausage-assorted/p10055922",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-mini-sausage-smoked|2x160g"
@@ -1974,7 +1974,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-smoked-air-dried-salami/p10055900",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:alpen fest style|air-dried-salami-smoked|350g"
@@ -1996,7 +1996,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-curry-bockwurst/p10055946",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|bockwurst-curry|220g"
@@ -2018,7 +2018,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/bavarian-style-meat-loaf-sliced/p10055950",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|bavarian-loaf-meat-sliced-style|150g"
@@ -2040,7 +2040,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/lighthouse-bay-6-salmon-fillets/p10056241",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:lighthouse bay|fillets-salmon|6x110g"
@@ -2062,7 +2062,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-slow-cooked-ham-hock-on-the-bone/p10055886",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:alpen fest style|bone-cooked-ham-hock-on-slow-the|600g"
@@ -2084,7 +2084,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-austrian-sliced-ham-selection/p10055934",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:alpen fest style|austrian-ham-selection-sliced|180g"
@@ -2106,7 +2106,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-premium-macaroni/p10030963",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:deluxe|macaroni-premium|na"
@@ -2128,7 +2128,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-sudtiroler-air-dried-beechwood-smoked-speck-assorted/p10055904",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:alpen fest style|air-assorted-beechwood-dried-dtiroler-smoked-speck|100g"
@@ -2150,7 +2150,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/german-style-pasta/p10055832",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|german-pasta-style|500g"
@@ -2172,7 +2172,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/tilda-packet-rice-assorted/p10056460",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:tilda|assorted-packet-rice|250g"
@@ -2194,7 +2194,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-mac-and-cheese/p10056431",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:mcennedy|and-cheese-mac|1000g"
@@ -2216,7 +2216,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mai-thai-jasmine-rice/p10056457",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:mai thai|jasmine-rice|5000g"
@@ -2238,7 +2238,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-tortellini-assorted/p10056219",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:chef select|assorted-tortellini|300g"
@@ -2260,7 +2260,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-cookie-dough-assorted/p10056442",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mcennedy|assorted-cookie-dough|200g"
@@ -2282,7 +2282,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/laila-xtra-long-basmati-rice/p10056458",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:laila|basmati-long-rice-xtra|5000g"
@@ -2304,7 +2304,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-tiramisu-style-panettone/p10055354",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:deluxe|panettone-style-tiramisu|800g"
@@ -2326,7 +2326,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-baking-powder/p10055450",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|baking-powder|170g"
@@ -2348,7 +2348,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-milk-chocolate/p10055322",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|biscuits-chocolate-glazed-milk-spiced-with|200g"
@@ -2370,7 +2370,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-spiced-glazed-biscuits-with-dark-chocolate/p10055323",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|biscuits-chocolate-dark-glazed-spiced-with|200g"
@@ -2392,7 +2392,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/crownfield-whip-bars-assorted/p10056469",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:crownfield|assorted-bars-whip|5x20g"
@@ -2414,7 +2414,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-popcorn-mix/p10056436",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|mix-popcorn|180g"
@@ -2436,7 +2436,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-pretzels-with-sea-salt/p10055868",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:alpen fest style|pretzels-salt-sea-with|200g"
@@ -2458,7 +2458,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-chocolate-panettone/p10055351",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:deluxe|chocolate-panettone|800g"
@@ -2480,7 +2480,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/ground-and-roasted-coffee/p10055825",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|and-coffee-ground-roasted|500g"
@@ -2502,7 +2502,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-cocoa-powder/p10055451",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|cocoa-powder|250g"
@@ -2524,10 +2524,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-soft-nougat-with-espresso-coffee-almonds-caramel/p10055358",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:deluxe|almonds-caramel-coffee-espresso-nougat-soft-with|75g"
+  },
+  {
+    "id": "lidl-uk-5dd78309d473",
+    "canonicalName": "bakery in store toffee yum",
+    "productName": "In-store Bakery Toffee Yum Yum",
+    "brand": "instore",
+    "store": "Lidl",
+    "packageSize": "85 ml",
+    "weightInGrams": 85,
+    "originalPrice": 2.37,
+    "effectivePrice": 2.37,
+    "unitPrice": 27.88235294117647,
+    "effectiveUnitPrice": 27.88235294117647,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.co.uk/p/in-store-bakery-toffee-yum-yum/p10056456",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:unknown|bakery-in-store-toffee-yum|85g"
   },
   {
     "id": "lidl-uk-897ca747cb64",
@@ -2546,7 +2568,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-sweet-bags-assorted/p10055427",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:halloween|assorted-bags-sweet|75g"
@@ -2568,7 +2590,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/swizzels-monster-treats-bag/p10055383",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:swizzels|bag-monster-treats|440g"
@@ -2590,7 +2612,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/bebeto-trick-or-treat-spooky-mix-bag/p10055375",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:bebeto|bag-mix-or-spooky-treat-trick|375g"
@@ -2612,7 +2634,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-brandy-soaked-mixed-fruit/p10054841",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:deluxe|brandy-fruit-mixed-soaked|800g"
@@ -2634,7 +2656,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/persil-washing-liquid/p10055805",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:persil|liquid-washing|2565ml"
@@ -2656,7 +2678,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-xxl-fruit-gummy-cola-bottles/p10056443",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:mcennedy|bottles-cola-fruit-gummy-xxl|1000g"
@@ -2678,7 +2700,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/diet-coke-30x330ml/p10056231",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|30x-coke-diet|30x330ml"
@@ -2700,7 +2722,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/kinder-schoco-bons/p10054851",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:kinder|bons-schoco|200g"
@@ -2722,7 +2744,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-vanilla-extract/p10055448",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|extract-vanilla|38ml"
@@ -2744,7 +2766,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-caster-sugar/p10055440",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:belbake|caster-sugar|1000g"
@@ -2766,7 +2788,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-icing-sugar/p10055441",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:belbake|icing-sugar|500g"
@@ -2788,7 +2810,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-demerara-sugar/p10055442",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:belbake|demerara-sugar|1000g"
@@ -2810,7 +2832,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-mixed-peel/p10054830",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|mixed-peel|200g"
@@ -2832,7 +2854,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-salted-pretzels-and-sticks/p10055866",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|and-pretzels-salted-sticks|300g"
@@ -2854,7 +2876,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/salty-pretzel-chocolate/p10055831",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|chocolate-pretzel-salty|100g"
@@ -2876,7 +2898,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-mini-peanut-bars/p10056448",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|bars-mini-peanut|150g"
@@ -2898,7 +2920,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/taste-of-mexican-squeezy-toppers-assorted/p10056474",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:taste of...|assorted-mexican-squeezy-toppers|280g"
@@ -2920,7 +2942,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-spicy-halloumi-style-fries/p10056428",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:chef select party|fries-halloumi-spicy-style|238g"
@@ -2942,7 +2964,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mustard-assorted/p10052698",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-mustard|250g"
@@ -2964,7 +2986,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-sauces/p10056434",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|sauces|400ml"
@@ -2986,7 +3008,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-roasted-peanuts-in-shells/p10056450",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|in-peanuts-roasted-shells|500g"
@@ -3008,7 +3030,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/jammy-rose-wine/p10049233",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|jammy-rose-wine|na"
@@ -3030,7 +3052,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/m-m-mini-crispy-santas/p10054863",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:m&m|crispy-mini-santas|59g"
@@ -3052,7 +3074,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-glace-cherries/p10054829",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|cherries-glac|200g"
@@ -3074,7 +3096,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-dark-chocolate-chips/p10055453",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:belbake|chips-chocolate-dark|100g"
@@ -3096,7 +3118,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/kinder-chocolate/p10052239",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|chocolate-kinder|na"
@@ -3118,7 +3140,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-chocolate-pralines-with-crunchy-hazelnut-filling/p10054846",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|chocolate-crunchy-filling-hazelnut-pralines-with|200g"
@@ -3140,7 +3162,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-chocolate-pralines-with-crunchy-milk-filling/p10054847",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|chocolate-crunchy-filling-milk-pralines-with|200g"
@@ -3162,7 +3184,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-pistachios-with-milk-chocolate/p10056224",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:deluxe|chocolate-milk-pistachios-with|150g"
@@ -3184,7 +3206,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-chocolate-mini-panettone/p10055350",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:deluxe|chocolate-mini-panettone|100g"
@@ -3206,7 +3228,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/kinder-bueno/p10052237",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|bueno-kinder|430g"
@@ -3228,7 +3250,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cadbury-pud-5-pack-box/p10054848",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cadbury|box-pack-pud|5x1count"
@@ -3250,7 +3272,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/nestle-quality-street-matchmakers-mint/p10054849",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:nestlé|matchmakers-mint-quality-street|110g"
@@ -3272,7 +3294,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/nestle-after-eight/p10054850",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:nestlé|after-eight|300g"
@@ -3294,7 +3316,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/nestle-quality-street-mixed-creme-pouch/p10054859",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:nestlé|cr-me-mixed-pouch-quality-street|281g"
@@ -3316,7 +3338,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-soft-nougat-with-almonds-strawberries/p10055360",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:deluxe|almonds-nougat-soft-strawberries-with|75g"
@@ -3338,7 +3360,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/funsize-bars-assorted/p10055371",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-bars-funsize|na"
@@ -3360,7 +3382,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/more-to-share-assorted/p10055373",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-more-share-to|na"
@@ -3382,7 +3404,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cadbury-treat-size-sharing-selection/p10055391",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:cadbury|selection-sharing-size-treat|223g"
@@ -3404,7 +3426,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-choco-lollies/p10055397",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:halloween|choco-lollies|150g"
@@ -3426,7 +3448,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-choco-balls-assorted/p10055405",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:halloween|assorted-balls-choco|200g"
@@ -3448,7 +3470,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/twix-funsize/p10055429",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:twix|funsize|275g"
@@ -3470,7 +3492,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-mozartkugeln-marzipan-pralines/p10055826",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|marzipan-mozartkugeln-pralines|200g"
@@ -3492,7 +3514,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/smooth-melting-confectionery/p10055839",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|confectionery-melting-smooth|300g"
@@ -3514,7 +3536,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-biscuits-with-coconut/p10055319",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|biscuits-coconut-with|600g"
@@ -3536,7 +3558,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-biscuits-with-almond/p10055320",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|almond-biscuits-with|600g"
@@ -3558,7 +3580,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-cookies-with-filling-assorted/p10056438",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mcennedy|assorted-cookies-filling-with|175g"
@@ -3580,7 +3602,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-assorted-biscuits-and-cakes/p10055835",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:alpen fest style|and-assorted-biscuits-cakes|na"
@@ -3602,7 +3624,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-marzipan-stollen-bites-classic/p10055304",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:favorina|bites-classic-marzipan-stollen|350g"
@@ -3624,7 +3646,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/manner-neapolitaner-wafers-4x75g/p10055838",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:manner|4x-neapolitaner-wafers|4x75g"
@@ -3646,7 +3668,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-choco-softies/p10055878",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|choco-softies|300g"
@@ -3668,7 +3690,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/celebrations-celebrations-tub/p10054845",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:celebrations|tub|500g"
@@ -3690,7 +3712,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-iced-christmas-cake/p10055341",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:favorina|cake-christmas-iced|907g"
@@ -3712,7 +3734,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/dr-oetker-pizza-risto/p10055809",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:dr. oetker|pizza-risto|na"
@@ -3734,7 +3756,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-classic-halloumi-style-fries/p10056429",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:chef select party|classic-fries-halloumi-style|238g"
@@ -3756,7 +3778,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mccain-straight-chunky-chips/p10055823",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mccain|chips-chunky-straight|1600g"
@@ -3778,7 +3800,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-8-fish-chip-baskets/p10056425",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:chef select party|baskets-chip-fish|200g"
@@ -3800,7 +3822,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/trattoria-alfredo-deep-pan-pinsa-assorted/p10056475",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:trattoria alfredo|assorted-deep-pan-pinsa|na"
@@ -3822,7 +3844,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/vemondo-veggie-bites-assorted/p10056476",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:vemondo|assorted-bites-veggie|na"
@@ -3844,7 +3866,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-xxl-raw-jumbo-king-prawns/p10056245",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:deluxe|king-prawns-raw-xxl|320g"
@@ -3866,7 +3888,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-8-crispy-prawn-gyoza/p10056426",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:chef select party|crispy-gyoza-prawn|206g"
@@ -3888,7 +3910,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-soft-nougat-with-blueberries-almonds/p10055359",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:deluxe|almonds-blueberries-nougat-soft-with|75g"
@@ -3910,7 +3932,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/newgate-whole-chestnuts/p10054840",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:newgate|chestnuts-whole|180g"
@@ -3932,7 +3954,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/al-munawwarah-deglet-nour-dates/p10056027",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:al munawwarah|dates-deglet-nour|450g"
@@ -3954,7 +3976,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/wine-of-the-week-small-batch-sauvignon-blanc-wine/p10055808",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:wine of the week|batch-blanc-sauvignon-small|750ml"
@@ -3976,7 +3998,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/wine-of-the-week-pinot-noir-vin-de-france-wine-75cl/p10056212",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:wine of the week|france-noir-pinot-vin|750ml"
@@ -3998,7 +4020,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cotes-de-provence-premium-wine/p10049229",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|cotes-premium-provence-wine|na"
@@ -4020,7 +4042,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/vin-de-france-rose-wine/p10049230",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|france-rose-vin-wine|na"
@@ -4042,7 +4064,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/vinho-verde-wine/p10049231",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|verde-vinho-wine|na"
@@ -4064,7 +4086,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-new-zealand-pinot-grigio-gisborne-wine/p10049234",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:deluxe|gisborne-grigio-new-pinot-wine-zealand|na"
@@ -4086,7 +4108,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/gewurztraminer-elsass-wine-2025/p10051835",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2025-elsass-gew-rztraminer-wine|750ml"
@@ -4108,7 +4130,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/hacienda-uvanis-garnacha-wine-2024/p10051836",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2024-garnacha-hacienda-uvanis-wine|750ml"
@@ -4130,7 +4152,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/lyra-chile-viognier-oa-wine/p10051837",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|chile-lyra-oa-viognier-wine|750ml"
@@ -4152,7 +4174,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/seguret-cotes-du-rhone-wine-2025/p10051838",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2025-du-guret-ne-rh-tes-wine|750ml"
@@ -4174,7 +4196,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/puglia-primitivo-wine-2025/p10051839",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2025-primitivo-puglia-wine|750ml"
@@ -4196,7 +4218,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cuvee-de-brieu-sauvignon-wine-2025/p10051840",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2025-brieu-cuv-sauvignon-wine|750ml"
@@ -4218,7 +4240,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cuor-di-pietra-negroamaro-wine-2021/p10051841",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2021-cuor-di-negroamaro-pietra-wine|750ml"
@@ -4240,7 +4262,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/almocreve-alentejano-wine-2022/p10051842",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2022-alentejano-almocreve-wine|750ml"
@@ -4262,7 +4284,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cahors-malbec-wine-2025/p10051843",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2025-cahors-malbec-wine|750ml"
@@ -4284,7 +4306,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/asti-rosato-wine-2025/p10051889",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2025-asti-rosato-wine|750ml"
@@ -4306,7 +4328,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-chilean-malbec-reserva-privada-2023/p10028186",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|2023-chilean-deluxe-malbec-privada-reserva|750ml"
@@ -4328,7 +4350,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-south-africa-fairtrade-shiraz-swartland-2023/p10028187",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|2023-africa-deluxe-fairtrade-shiraz-south-swartland|na"
@@ -4350,7 +4372,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/bissinger-champagner-aop-premier-cru/p10052748",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|aop-bissinger-champagner-cru-premier|750ml"
@@ -4372,7 +4394,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/hortus-pink-grapefruit-gin-41/p10045593",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:hortus|41-gin-grapefruit-pink|700ml"
@@ -4394,7 +4416,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/hortus-rhubarb-ginger-gin-37-5/p10045595",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:hortus|37-gin-ginger-rhubarb|700ml"
@@ -4416,7 +4438,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/spaten-premium-hells-5-2/p10055828",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|hells-premium-spaten|na"
@@ -4438,7 +4460,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/perlenbacher-festbier-keg-5-5-5l/p10055829",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:perlenbacher|festbier-keg|5000ml"
@@ -4460,7 +4482,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/octoberfest-beers-5-4-5-6-5-7-5-9-6-1-6-2-6-3/p10055830",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|beers-octoberfest|10x500ml"
@@ -4482,7 +4504,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/perlenbacher-bavarian-wheat-beer-5-500ml/p10055888",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:perlenbacher|bavarian-beer-wheat|500ml"
@@ -4504,7 +4526,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/perlenbacher-festbier-5-5-500ml/p10055892",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:perlenbacher|festbier|500ml"
@@ -4526,7 +4548,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/spaten-premium-hells-5-2-500ml/p10055992",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|hells-premium-spaten|500ml"
@@ -4548,7 +4570,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/corona-4-5-18x330ml/p10056215",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|18x-corona|18x330ml"
@@ -4570,7 +4592,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-australia-viognier-riverina/p10028190",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|australia-deluxe-riverina-viognier|750ml"
@@ -4592,7 +4614,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/deluxe-south-africa-sauvignon-blanc/p10028192",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|africa-blanc-deluxe-sauvignon-south|750ml"
@@ -4614,7 +4636,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/cremant-de-loire-brut/p10040810",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|brut-cremant-loire|750ml"
@@ -4636,7 +4658,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/allini-organic-prosecco-rose/p10042344",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|allini-organic-prosecco-ros|na"
@@ -4658,7 +4680,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/allini-prosecco-spumante/p10044438",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|allini-prosecco-spumante|na"
@@ -4680,7 +4702,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/macon-lugny-wine-2025/p10051834",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|2025-con-lugny-wine|750ml"
@@ -4702,7 +4724,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/maltesers-milk-reindeers/p10054862",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:maltesers|milk-reindeers|59g"
@@ -4724,7 +4746,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/slow-cooked-bourbon-bbq-pork-rib-rack/p10056488",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|bbq-bourbon-cooked-pork-rack-rib-slow|600g"
@@ -4746,7 +4768,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/xxl-british-pork-leg-joint/p10056489",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|british-joint-leg-pork-xxl|na"
@@ -4768,7 +4790,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/xxl-smoky-bbq-pork-rib-rack/p10056240",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|bbq-pork-rack-rib-smoky-xxl|1000g"
@@ -4790,7 +4812,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/xxl-12-pork-loin-medallions/p10056490",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|12-loin-medallions-pork-xxl|1350g"
@@ -4812,7 +4834,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-oven-raclette-swiss-cheese/p10055870",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:alpen fest style|cheese-oven-raclette-swiss|280g"
@@ -4834,7 +4856,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-dessert-glasses-assorted/p10056441",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|assorted-dessert-glasses|2x60g"
@@ -4856,7 +4878,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/milbona-high-protein-puddings-assorted/p10056468",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:milbona|assorted-high-protein-puddings|200g"
@@ -4878,7 +4900,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-tortilla-rolls/p10056444",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|rolls-tortilla|125g"
@@ -4900,7 +4922,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-chewy-sweets/p10055409",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:halloween|chewy-sweets|1200g"
@@ -4922,7 +4944,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-strawberry-candy-canes/p10054860",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|candy-canes-strawberry|144g"
@@ -4944,7 +4966,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-peppermint-candy-canes/p10054861",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|candy-canes-peppermint|144g"
@@ -4966,7 +4988,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-marshmallow-christmas-trees/p10054869",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:favorina|christmas-marshmallow-trees|250g"
@@ -4988,7 +5010,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/wham-scary-chews/p10055365",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|chews-scary-wham|260g"
@@ -5010,7 +5032,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/hulten-halloween-candy-skull/p10055401",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:hultén|candy-halloween-skull|333g"
@@ -5032,7 +5054,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/ragolds-sour-spooky-skulls/p10055403",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:ragolds|skulls-sour-spooky|72g"
@@ -5054,7 +5076,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-spooky-jelly-mix/p10055413",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:halloween|jelly-mix-spooky|1000g"
@@ -5076,7 +5098,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-fruit-gummy-party-mix/p10055415",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:halloween|fruit-gummy-mix-party|600g"
@@ -5098,7 +5120,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/sour-candy-assorted/p10055417",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|assorted-candy-sour|60g"
@@ -5120,7 +5142,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/halloween-mallows/p10055419",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:halloween|mallows|275g"
@@ -5142,7 +5164,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-sweet-burger-fruit-gums/p10056437",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mcennedy|burger-fruit-gums-sweet|300g"
@@ -5164,7 +5186,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-sweet-tubs-assorted/p10056440",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:mcennedy|assorted-sweet-tubs|na"
@@ -5186,7 +5208,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/candy-burger/p10056447",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|burger-candy|130g"
@@ -5208,7 +5230,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/red-santa-filled-with-sweets/p10054867",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|filled-red-santa-sweets-with|298g"
@@ -5230,7 +5252,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/santa-filled-with-sweets/p10054868",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|filled-santa-sweets-with|298g"
@@ -5252,10 +5274,32 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/regal-mini-madeira-cakes/p10056023",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:regal|cakes-madeira-mini|350g"
+  },
+  {
+    "id": "lidl-uk-4a216f69f7f5",
+    "canonicalName": "deluxe africa blanc sauvignon south wine",
+    "productName": "South Africa Sauvignon Blanc Wine",
+    "brand": "deluxe",
+    "store": "Lidl",
+    "packageSize": "1 stuk",
+    "weightInGrams": 1,
+    "originalPrice": 5.99,
+    "effectivePrice": 5.99,
+    "unitPrice": 5990,
+    "effectiveUnitPrice": 5990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.co.uk/p/deluxe-south-africa-sauvignon-blanc-wine/p10049235",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
+    "category": "Beverages",
+    "barcode": null,
+    "identityKey": "tok:deluxe|africa-blanc-sauvignon-south-wine|na"
   },
   {
     "id": "lidl-uk-563c8fd3d6d2",
@@ -5274,7 +5318,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/golden-kiwi/p10056235",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|golden-kiwi|3x1count"
@@ -5296,7 +5340,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/ripen-at-home-loose-mango/p10056239",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|at-home-loose-mango-ripen|na"
@@ -5318,7 +5362,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/british-celery/p10056237",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|british-celery|na"
@@ -5340,7 +5384,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mckinlay-s-scottish-soup-assorted-600g/p10056462",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:mckinlay's|assorted-scottish-soup|600g"
@@ -5362,7 +5406,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/thai-dragon-sweet-chilli-sauce-sriracha-hot-chilli-sauce-or-mayo-sauce/p10056461",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:thai dragon|chilli-hot-mayo-or-sauce-sriracha-sweet|455ml"
@@ -5384,7 +5428,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-stollen-with-marzipan/p10055318",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:favorina|marzipan-stollen-with|750g"
@@ -5406,7 +5450,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/taste-of-mango-chutney/p10056222",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:taste of...|chutney-mango|370g"
@@ -5428,7 +5472,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-american-style-mustard/p10056433",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:mcennedy|american-mustard-style|500g"
@@ -5450,7 +5494,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/4-british-beef-sirloin-steaks/p10056492",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|beef-british-sirloin-steaks|800g"
@@ -5472,7 +5516,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/xxl-4-british-beef-sirloin-steaks/p10056242",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|beef-british-sirloin-steaks-xxl|800g"
@@ -5494,7 +5538,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/alpen-fest-style-original-nurnberger-bratwurst/p10055924",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:alpen fest style|bratwurst-original-rnberger|300g"
@@ -5516,7 +5560,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/mcennedy-pretzel-sticks-with-peanut-filling/p10056439",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:mcennedy|filling-peanut-pretzel-sticks-with|150g"
@@ -5538,7 +5582,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-24-indian-snack-selection/p10056421",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:chef select party|24-indian-selection-snack|384g"
@@ -5560,7 +5604,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/chef-select-party-24-chinese-snack-selection/p10056424",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:chef select party|24-chinese-selection-snack|392g"
@@ -5582,7 +5626,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-elf/p10054856",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|chocolate-elf-milk|125g"
@@ -5604,7 +5648,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-milk-chocolate-santa/p10054857",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|chocolate-milk-santa|125g"
@@ -5626,7 +5670,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/favorina-chocolate-filled-pralines-1kg/p10054866",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:favorina|chocolate-filled-pralines|1000g"
@@ -5648,7 +5692,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-desiccated-coconut/p10055457",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|coconut-desiccated|170g"
@@ -5670,7 +5714,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.co.uk/p/belbake-ground-almonds/p10055458",
-    "scrapedAt": "2026-10-17T02:24:44.776Z",
+    "scrapedAt": "2026-10-18T02:24:24.184Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:belbake|almonds-ground|150g"
