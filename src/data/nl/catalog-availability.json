@@ -6,20 +6,20 @@
       "store": "albert-heijn",
       "available": true,
       "reason_codes": [],
-      "products": 31695,
-      "last_successful_at": "2026-10-19T02:17:33.735651+00:00",
-      "available_until": "2026-10-21T02:17:33.735651+00:00",
-      "catalog_sha256": "1c7300ae3e216e4f66c04c39f67a21e7443e0f3059d921a97187e5c7f527fbd8"
+      "products": 31646,
+      "last_successful_at": "2026-10-20T02:31:26.996727+00:00",
+      "available_until": "2026-10-22T02:31:26.996727+00:00",
+      "catalog_sha256": "a42fbd838c9f1e3fc116b755bc9e28bd7508eaa0d7c7cf5ed4f3661303620dd5"
     },
     {
       "country": "nl",
       "store": "jumbo",
       "available": true,
       "reason_codes": [],
-      "products": 13698,
-      "last_successful_at": "2026-10-19T02:32:07.788409+00:00",
-      "available_until": "2026-10-21T02:32:07.788409+00:00",
-      "catalog_sha256": "9927c0477a1581d412b0f839a6288c5899568ddc6e515c74879ed1f6bea0551c"
+      "products": 13580,
+      "last_successful_at": "2026-10-20T02:46:03.252814+00:00",
+      "available_until": "2026-10-22T02:46:03.252814+00:00",
+      "catalog_sha256": "23aa3f7b95e7b56f1a13935d192924220f820e6cc89f4d9974735373029faf7b"
     },
     {
       "country": "nl",
@@ -27,29 +27,29 @@
       "available": true,
       "reason_codes": [],
       "products": 1794,
-      "last_successful_at": "2026-10-19T02:17:52.161740+00:00",
-      "available_until": "2026-10-21T02:17:52.161740+00:00",
-      "catalog_sha256": "7e26dfd4cdbd9baca2a10603169715435588f66da646a0769d32ce28a4c38802"
+      "last_successful_at": "2026-10-20T02:31:55.115876+00:00",
+      "available_until": "2026-10-22T02:31:55.115876+00:00",
+      "catalog_sha256": "270ededcd89dc1067bced78a9a94bd1eed5bcb2221ba190114b66de720f51159"
     },
     {
       "country": "nl",
       "store": "dirk",
       "available": true,
       "reason_codes": [],
-      "products": 7034,
-      "last_successful_at": "2026-10-19T02:17:56.273160+00:00",
-      "available_until": "2026-10-21T02:17:56.273160+00:00",
-      "catalog_sha256": "22ffb19b9a66647ac4fd7795964af92c77a5478ddbb9607388ed371ccff0f4d7"
+      "products": 7019,
+      "last_successful_at": "2026-10-20T02:31:39.761232+00:00",
+      "available_until": "2026-10-22T02:31:39.761232+00:00",
+      "catalog_sha256": "30c3df1d46e7eb7c9f59e302c40b120f33f5ca4af5fe11847e2074a779c1d88f"
     },
     {
       "country": "nl",
       "store": "lidl",
       "available": true,
       "reason_codes": [],
-      "products": 337,
-      "last_successful_at": "2026-10-19T02:17:53.164881+00:00",
-      "available_until": "2026-10-21T02:17:53.164881+00:00",
-      "catalog_sha256": "7f98c4f705c35c836b64d949309cf53325aa7efabb222ae05617ce63761ff588"
+      "products": 338,
+      "last_successful_at": "2026-10-20T02:31:38.793640+00:00",
+      "available_until": "2026-10-22T02:31:38.793640+00:00",
+      "catalog_sha256": "f9bb64f06c11be56c1dbe6957574b62152e60f8f06fbc94d577d40b4b9511054"
     },
     {
       "country": "nl",
@@ -68,10 +68,10 @@
       "store": "plus",
       "available": true,
       "reason_codes": [],
-      "products": 15559,
-      "last_successful_at": "2026-10-19T02:17:53.617233+00:00",
-      "available_until": "2026-10-21T02:17:53.617233+00:00",
-      "catalog_sha256": "7c2a2f30bef28e7782d5e3b03e2a0a508a4462a0eba7460ad94c3a8fa8bd7414"
+      "products": 15578,
+      "last_successful_at": "2026-10-20T02:31:47.201345+00:00",
+      "available_until": "2026-10-22T02:31:47.201345+00:00",
+      "catalog_sha256": "e343e718781cacb1015283784131c5f208aa135a0b9f7cbc609b6ead9088ba37"
     }
   ]
 }
