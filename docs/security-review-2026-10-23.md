@@ -18,6 +18,9 @@
 Clean npm install, full tests/build, npm audit and the concurrent memory-budget
 test pass on Node 22.23.4. Peak heap: 198.5 MB; peak RSS: 333 MB. Runtime configuration
 regression tests and an npm audit CI gate are included.
+The Docker image also builds successfully without layer caching; its effective
+Node version is checked. `.dockerignore` excludes local receipt/list/AI caches,
+environment files and backups from the image context.
 
 ## Rollout still required
 

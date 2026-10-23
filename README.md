@@ -4,6 +4,9 @@ Node.js + Express + TypeScript API for the ComPears grocery price comparison pla
 
 ## Setup
 
+Use Node.js **22.23.4 or a newer 22.x security release**. Run `nvm install && nvm use`
+in this directory before installing dependencies. Older runtimes are rejected.
+
 1. Install dependencies:
    ```bash
    npm install
