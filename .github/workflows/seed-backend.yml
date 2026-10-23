@@ -36,7 +36,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
-          node-version: 22
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install backend dependencies
@@ -125,10 +125,12 @@ jobs:
               deployed_commit=$(echo "$payload" | jq -r '.deployment.commit // empty')
               if [ "$deployed_commit" = "$EXPECTED_COMMIT" ]; then
                 echo "$payload" | tee readiness.json
-                echo "### Backend readiness" >> "$GITHUB_STEP_SUMMARY"
-                echo '```json' >> "$GITHUB_STEP_SUMMARY"
-                echo "$payload" >> "$GITHUB_STEP_SUMMARY"
-                echo '```' >> "$GITHUB_STEP_SUMMARY"
+                {
+                  echo "### Backend readiness"
+                  echo '```json'
+                  echo "$payload"
+                  echo '```'
+                } >> "$GITHUB_STEP_SUMMARY"
                 exit 0
               fi
               echo "Readiness attempt $attempt/60 reached ${deployed_commit:-unknown}; waiting for $EXPECTED_COMMIT"

@@ -17,7 +17,7 @@ services:
     envVars:
       # Keep the native Render runtime aligned with Docker and CI.
       - key: NODE_VERSION
-        value: "22"
+        value: "22.23.4"
       - key: NODE_ENV
         value: production
       - key: ALLOWED_ORIGINS
