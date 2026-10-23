@@ -1,0 +1,10 @@
+.git
+node_modules
+dist
+.env
+.env.*
+*.log
+src/data/receipts
+src/data/lists
+src/data/ai-cache*
+**/*.local-backup
