@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-10-24T03:51:58.683Z",
+  "importedAt": "2026-10-24T07:44:54.232Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12545,
+  "count": 12548,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -54965,6 +54965,26 @@
       "lng": -6.38869
     },
     {
+      "id": "uk-lidl-uk-node-14274090302",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 53.990412,
+      "lng": -1.110208
+    },
+    {
+      "id": "uk-lidl-uk-way-1476636656",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Lidl",
+      "city": "",
+      "lat": 50.865558,
+      "lng": -1.014642
+    },
+    {
       "id": "uk-lidl-uk-node-14084427554",
       "chain": "lidl-uk",
       "country": "uk",
@@ -56293,6 +56313,16 @@
       "city": "Bristol",
       "lat": 51.516227,
       "lng": -2.622215
+    },
+    {
+      "id": "uk-lidl-uk-way-1545445168",
+      "chain": "lidl-uk",
+      "country": "uk",
+      "name": "Lidl",
+      "address": "Whitebridge Gardens, BS35 2NT Bristol",
+      "city": "Bristol",
+      "lat": 51.602457,
+      "lng": -2.516443
     },
     {
       "id": "uk-lidl-uk-node-420738697",
@@ -125359,7 +125389,7 @@
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco Extra",
-      "address": "Queensway Place Unit 4-5\nYeovil, BA20 1DL\n Link Opens in New Tab, BA20 1DL Yeovil",
+      "address": "Queensway Place Unit 4-5 Yeovil, BA20 1DL Link Opens in New Tab, BA20 1DL Yeovil",
       "city": "Yeovil",
       "lat": 50.942111,
       "lng": -2.637379
