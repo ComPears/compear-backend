@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-10-24T07:44:54.232Z",
+  "importedAt": "2026-10-25T03:46:45.720Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12548,
+  "count": 12550,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -15315,14 +15315,14 @@
       "lng": 6.677783
     },
     {
-      "id": "nl-dirk-node-617263614",
+      "id": "nl-dirk-node-2839713282",
       "chain": "dirk",
       "country": "nl",
       "name": "Dirk",
-      "address": "Korte Promenade 2-6, 1315HN Almere",
+      "address": "Schipperplein 4, 1315SB Almere",
       "city": "Almere",
-      "lat": 52.370824,
-      "lng": 5.21677
+      "lat": 52.367553,
+      "lng": 5.215636
     },
     {
       "id": "nl-dirk-node-2844769521",
@@ -36675,6 +36675,16 @@
       "lng": -1.435299
     },
     {
+      "id": "uk-aldi-uk-way-665208450",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Station Road 47, DE74 2NJ Derby",
+      "city": "Derby",
+      "lat": 52.847465,
+      "lng": -1.337915
+    },
+    {
       "id": "uk-aldi-uk-way-844216099",
       "chain": "aldi-uk",
       "country": "uk",
@@ -37951,8 +37961,8 @@
       "name": "Aldi",
       "address": "Hospital Road, TW3 3HY Hounslow",
       "city": "Hounslow",
-      "lat": 51.467578,
-      "lng": -0.372224
+      "lat": 51.467623,
+      "lng": -0.372233
     },
     {
       "id": "uk-aldi-uk-node-13678320117",
@@ -66681,8 +66691,8 @@
       "name": "Morrisons Daily",
       "address": "Morrisons Daily",
       "city": "",
-      "lat": 51.030297,
-      "lng": -0.443825
+      "lat": 51.030276,
+      "lng": -0.443804
     },
     {
       "id": "uk-morrisons-way-1147750136",
@@ -104755,16 +104765,6 @@
       "lng": -2.50365
     },
     {
-      "id": "uk-tesco-node-13119524598",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Shirehampton Road 1-2, BS9 2DP Bristol",
-      "city": "Bristol",
-      "lat": 51.486289,
-      "lng": -2.641832
-    },
-    {
       "id": "uk-tesco-way-186117471",
       "chain": "tesco",
       "country": "uk",
@@ -104813,6 +104813,16 @@
       "city": "Bristol",
       "lat": 51.449917,
       "lng": -2.602888
+    },
+    {
+      "id": "uk-tesco-node-13119524598",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Shirehampton Road 1-2, BS9 2DP Bristol",
+      "city": "Bristol",
+      "lat": 51.486289,
+      "lng": -2.641832
     },
     {
       "id": "uk-tesco-node-13125158252",
@@ -112179,7 +112189,7 @@
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco Express",
-      "address": "Portland Crescent 57, LS2 8NU Leeds",
+      "address": "Woodhouse Lane 57, LS2 8NU Leeds",
       "city": "Leeds",
       "lat": 53.802947,
       "lng": -1.546656
@@ -119555,14 +119565,14 @@
       "lng": -2.435986
     },
     {
-      "id": "uk-tesco-way-180953949",
+      "id": "uk-tesco-way-1571284691",
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco",
       "address": "Crasswell Street, PO1 1RS Portsmouth",
       "city": "Portsmouth",
-      "lat": 50.800793,
-      "lng": -1.087424
+      "lat": 50.800716,
+      "lng": -1.087414
     },
     {
       "id": "uk-tesco-node-1296677405",
@@ -120163,6 +120173,16 @@
       "city": "Richmond",
       "lat": 51.46571,
       "lng": -0.29849
+    },
+    {
+      "id": "uk-tesco-node-14315024666",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "The Quadrant 27A-27B, TW9 1DN Richmond",
+      "city": "Richmond",
+      "lat": 51.463038,
+      "lng": -0.302045
     },
     {
       "id": "uk-tesco-way-223059902",
