@@ -1,6 +1,6 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-10-25T03:46:45.720Z",
+  "importedAt": "2026-10-25T07:58:26.063Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
   "count": 12550,
   "locations": [
@@ -45165,16 +45165,6 @@
       "lng": -1.710486
     },
     {
-      "id": "uk-asda-way-79299336",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Narborough Road South, LE3 2LL Braunstone Town",
-      "city": "Braunstone Town",
-      "lat": 52.599834,
-      "lng": -1.177971
-    },
-    {
       "id": "uk-asda-way-32198251",
       "chain": "asda",
       "country": "uk",
@@ -48173,6 +48163,16 @@
       "city": "Leicester",
       "lat": 52.60351,
       "lng": -1.085856
+    },
+    {
+      "id": "uk-asda-way-79299336",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Narborough Road South, LE3 2LL Leicester",
+      "city": "Leicester",
+      "lat": 52.599834,
+      "lng": -1.177971
     },
     {
       "id": "uk-asda-way-451805442",
@@ -71765,16 +71765,6 @@
       "lng": -2.719632
     },
     {
-      "id": "uk-morrisons-way-155736981",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons",
-      "address": "Station Road, LE3 8BQ Glenfield",
-      "city": "Glenfield",
-      "lat": 52.652172,
-      "lng": -1.204217
-    },
-    {
       "id": "uk-morrisons-way-59700159",
       "chain": "morrisons",
       "country": "uk",
@@ -73563,6 +73553,16 @@
       "city": "Leicester",
       "lat": 52.62017,
       "lng": -1.133639
+    },
+    {
+      "id": "uk-morrisons-way-155736981",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Station Road, LE3 8BQ Leicester",
+      "city": "Leicester",
+      "lat": 52.652172,
+      "lng": -1.204217
     },
     {
       "id": "uk-morrisons-way-544837223",
