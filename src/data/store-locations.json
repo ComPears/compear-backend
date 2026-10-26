@@ -1,8 +1,8 @@
 {
   "source": "openstreetmap",
-  "importedAt": "2026-10-25T07:58:26.063Z",
+  "importedAt": "2026-10-26T04:02:10.184Z",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "count": 12550,
+  "count": 12545,
   "locations": [
     {
       "id": "nl-albert-heijn-node-4851758886",
@@ -32935,16 +32935,6 @@
       "lng": -2.059043
     },
     {
-      "id": "uk-aldi-uk-way-217882226",
-      "chain": "aldi-uk",
-      "country": "uk",
-      "name": "Aldi",
-      "address": "Aberystwyth Road",
-      "city": "",
-      "lat": 52.087554,
-      "lng": -4.651726
-    },
-    {
       "id": "uk-aldi-uk-way-218387319",
       "chain": "aldi-uk",
       "country": "uk",
@@ -34003,6 +33993,16 @@
       "city": "",
       "lat": 52.673953,
       "lng": -2.019929
+    },
+    {
+      "id": "uk-aldi-uk-node-14318424601",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aldi",
+      "city": "",
+      "lat": 51.437506,
+      "lng": -0.375613
     },
     {
       "id": "uk-aldi-uk-way-956297149",
@@ -35843,6 +35843,16 @@
       "city": "Cardiff",
       "lat": 51.492101,
       "lng": -3.145834
+    },
+    {
+      "id": "uk-aldi-uk-way-217882226",
+      "chain": "aldi-uk",
+      "country": "uk",
+      "name": "Aldi",
+      "address": "Aberystwyth Road, Cardigan",
+      "city": "Cardigan",
+      "lat": 52.087554,
+      "lng": -4.651726
     },
     {
       "id": "uk-aldi-uk-way-167136102",
@@ -37745,14 +37755,14 @@
       "lng": -0.240792
     },
     {
-      "id": "uk-aldi-uk-node-7307243925",
+      "id": "uk-aldi-uk-way-1571584767",
       "chain": "aldi-uk",
       "country": "uk",
       "name": "Aldi",
       "address": "Park Way, PO9 1HH Havant",
       "city": "Havant",
-      "lat": 50.854237,
-      "lng": -0.985892
+      "lat": 50.854349,
+      "lng": -0.985854
     },
     {
       "id": "uk-aldi-uk-way-209280854",
@@ -43425,26 +43435,6 @@
       "lng": -1.396292
     },
     {
-      "id": "uk-asda-node-11382453519",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 55.868709,
-      "lng": -3.70322
-    },
-    {
-      "id": "uk-asda-way-344227605",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Asda",
-      "city": "",
-      "lat": 51.528684,
-      "lng": -3.692142
-    },
-    {
       "id": "uk-asda-node-1676712817",
       "chain": "asda",
       "country": "uk",
@@ -43885,26 +43875,6 @@
       "lng": -1.786774
     },
     {
-      "id": "uk-asda-node-13289340701",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 53.484599,
-      "lng": -2.251981
-    },
-    {
-      "id": "uk-asda-way-89270383",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Asda Express",
-      "city": "",
-      "lat": 51.958467,
-      "lng": -1.202706
-    },
-    {
       "id": "uk-asda-node-13263845129",
       "chain": "asda",
       "country": "uk",
@@ -43933,16 +43903,6 @@
       "city": "",
       "lat": 51.314571,
       "lng": 0.033811
-    },
-    {
-      "id": "uk-asda-node-13978378942",
-      "chain": "asda",
-      "country": "uk",
-      "name": "ASDA Express",
-      "address": "ASDA Express",
-      "city": "",
-      "lat": 53.010189,
-      "lng": -2.183574
     },
     {
       "id": "uk-asda-node-1909078417",
@@ -48135,16 +48095,6 @@
       "lng": -1.59225
     },
     {
-      "id": "uk-asda-way-224457151",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Roundhay Express Petrol",
-      "address": "Street Lane, LS8 1BD Leeds",
-      "city": "Leeds",
-      "lat": 53.844664,
-      "lng": -1.512229
-    },
-    {
       "id": "uk-asda-way-173499192",
       "chain": "asda",
       "country": "uk",
@@ -48153,6 +48103,16 @@
       "city": "Leek",
       "lat": 53.106797,
       "lng": -2.012645
+    },
+    {
+      "id": "uk-asda-way-34317508",
+      "chain": "asda",
+      "country": "uk",
+      "name": "Asda",
+      "address": "Barkby Thorpe Lane, LE4 8GQ Leicester",
+      "city": "Leicester",
+      "lat": 52.685343,
+      "lng": -1.089825
     },
     {
       "id": "uk-asda-way-68830968",
@@ -48705,16 +48665,6 @@
       "lng": 0.033454
     },
     {
-      "id": "uk-asda-node-9400588770",
-      "chain": "asda",
-      "country": "uk",
-      "name": "ASDA Express",
-      "address": "Tower Bridge Road 153, SE1 3LW London",
-      "city": "London",
-      "lat": 51.499,
-      "lng": -0.079393
-    },
-    {
       "id": "uk-asda-way-1299594559",
       "chain": "asda",
       "country": "uk",
@@ -48743,16 +48693,6 @@
       "city": "Luton",
       "lat": 51.889088,
       "lng": -0.372706
-    },
-    {
-      "id": "uk-asda-way-421050923",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda On the Run",
-      "address": "Dunstable Road, Luton",
-      "city": "Luton",
-      "lat": 51.892373,
-      "lng": -0.451398
     },
     {
       "id": "uk-asda-way-172312983",
@@ -49543,16 +49483,6 @@
       "city": "Northampton",
       "lat": 52.254437,
       "lng": -0.794369
-    },
-    {
-      "id": "uk-asda-way-925086395",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda Express",
-      "address": "Nene Valley Way, NN3 5LU Northampton",
-      "city": "Northampton",
-      "lat": 52.255475,
-      "lng": -0.791842
     },
     {
       "id": "uk-asda-node-428412680",
@@ -51683,16 +51613,6 @@
       "city": "Thornton-Cleveleys",
       "lat": 53.87195,
       "lng": -3.043284
-    },
-    {
-      "id": "uk-asda-way-34317508",
-      "chain": "asda",
-      "country": "uk",
-      "name": "Asda",
-      "address": "Barkby Thorpe Lane, LE4 8GQ Thurmaston",
-      "city": "Thurmaston",
-      "lat": 52.685343,
-      "lng": -1.089825
     },
     {
       "id": "uk-asda-way-4712260",
@@ -63965,6 +63885,16 @@
       "lng": 0.579714
     },
     {
+      "id": "uk-morrisons-way-1073301500",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Morrisons",
+      "city": "",
+      "lat": 53.23097,
+      "lng": -1.291879
+    },
+    {
       "id": "uk-morrisons-way-1093130320",
       "chain": "morrisons",
       "country": "uk",
@@ -64245,14 +64175,14 @@
       "lng": -3.381507
     },
     {
-      "id": "uk-morrisons-node-14245682701",
+      "id": "uk-morrisons-node-2137467867",
       "chain": "morrisons",
       "country": "uk",
       "name": "Morrisons Daily",
       "address": "Morrisons Daily",
       "city": "",
-      "lat": 51.790423,
-      "lng": -2.599167
+      "lat": 53.369634,
+      "lng": -3.028396
     },
     {
       "id": "uk-morrisons-way-192606890",
@@ -64263,6 +64193,16 @@
       "city": "",
       "lat": 55.472717,
       "lng": -4.29012
+    },
+    {
+      "id": "uk-morrisons-way-267026242",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 52.571318,
+      "lng": -2.091123
     },
     {
       "id": "uk-morrisons-node-224599973",
@@ -64593,16 +64533,6 @@
       "city": "",
       "lat": 51.567565,
       "lng": -1.738669
-    },
-    {
-      "id": "uk-morrisons-node-2137467867",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 53.369634,
-      "lng": -3.028396
     },
     {
       "id": "uk-morrisons-node-2396719665",
@@ -65945,16 +65875,6 @@
       "lng": -1.383361
     },
     {
-      "id": "uk-morrisons-way-267026242",
-      "chain": "morrisons",
-      "country": "uk",
-      "name": "Morrisons Daily",
-      "address": "Morrisons Daily",
-      "city": "",
-      "lat": 52.571318,
-      "lng": -2.091123
-    },
-    {
       "id": "uk-morrisons-way-268414066",
       "chain": "morrisons",
       "country": "uk",
@@ -66953,6 +66873,16 @@
       "city": "",
       "lat": 51.065662,
       "lng": -0.32947
+    },
+    {
+      "id": "uk-morrisons-node-14245682701",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons Daily",
+      "address": "Morrisons Daily",
+      "city": "",
+      "lat": 51.790423,
+      "lng": -2.599167
     },
     {
       "id": "uk-morrisons-way-144473707",
@@ -74365,14 +74295,14 @@
       "lng": -2.229371
     },
     {
-      "id": "uk-morrisons-way-60756825",
+      "id": "uk-morrisons-way-142434739",
       "chain": "morrisons",
       "country": "uk",
       "name": "Morrisons",
       "address": "Wilbraham Road 418B, M21 0SD Manchester",
       "city": "Manchester",
-      "lat": 53.443047,
-      "lng": -2.274317
+      "lat": 53.443173,
+      "lng": -2.274387
     },
     {
       "id": "uk-morrisons-way-255416006",
@@ -74383,6 +74313,16 @@
       "city": "Manchester",
       "lat": 53.473874,
       "lng": -2.165684
+    },
+    {
+      "id": "uk-morrisons-way-60756825",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "Wilbraham Road 418B, M21 0SD Manchester",
+      "city": "Manchester",
+      "lat": 53.443047,
+      "lng": -2.274317
     },
     {
       "id": "uk-morrisons-node-1898350433",
@@ -78063,6 +78003,16 @@
       "city": "Surbiton",
       "lat": 51.393041,
       "lng": -0.304826
+    },
+    {
+      "id": "uk-morrisons-way-24532872",
+      "chain": "morrisons",
+      "country": "uk",
+      "name": "Morrisons",
+      "address": "High Street 31, SM1 1DD Sutton",
+      "city": "Sutton",
+      "lat": 51.36073,
+      "lng": -0.193253
     },
     {
       "id": "uk-morrisons-way-143748663",
@@ -96541,8 +96491,8 @@
       "name": "Tesco",
       "address": "Tesco",
       "city": "",
-      "lat": 52.089255,
-      "lng": -4.647763
+      "lat": 52.089272,
+      "lng": -4.64776
     },
     {
       "id": "uk-tesco-way-567032911",
@@ -105939,8 +105889,8 @@
       "chain": "tesco",
       "country": "uk",
       "name": "Tesco",
-      "address": "Aberystwyth Road, SA43 1NA Cardigan / Aberteifi",
-      "city": "Cardigan / Aberteifi",
+      "address": "Aberystwyth Road, SA43 1NA Cardigan",
+      "city": "Cardigan",
       "lat": 52.088742,
       "lng": -4.64663
     },
@@ -109605,16 +109555,6 @@
       "lng": -2.731183
     },
     {
-      "id": "uk-tesco-node-250765182",
-      "chain": "tesco",
-      "country": "uk",
-      "name": "Tesco Express",
-      "address": "Dominion Road, LE3 8FB Glenfield",
-      "city": "Glenfield",
-      "lat": 52.64575,
-      "lng": -1.193532
-    },
-    {
       "id": "uk-tesco-node-9396843912",
       "chain": "tesco",
       "country": "uk",
@@ -112383,6 +112323,16 @@
       "city": "Leicester",
       "lat": 52.696653,
       "lng": -1.074773
+    },
+    {
+      "id": "uk-tesco-node-250765182",
+      "chain": "tesco",
+      "country": "uk",
+      "name": "Tesco Express",
+      "address": "Dominion Road, LE3 8FB Leicester",
+      "city": "Leicester",
+      "lat": 52.64575,
+      "lng": -1.193532
     },
     {
       "id": "uk-tesco-node-1113019912",
