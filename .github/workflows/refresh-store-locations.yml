@@ -1,0 +1,57 @@
+name: Refresh optional store locations
+
+on:
+  schedule:
+    - cron: '30 4 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Separate from product seeding: a slow Overpass server cannot hold its lock.
+concurrency:
+  group: backend-location-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh-locations:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - name: Checkout backend
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install backend dependencies
+        run: npm ci
+
+      - name: Refresh candidate locations
+        id: osm_import
+        timeout-minutes: 30
+        continue-on-error: true
+        run: npm run import-stores
+
+      - name: Commit successful location refresh
+        if: github.ref == 'refs/heads/main' && steps.osm_import.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/store-locations.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh optional store locations [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Report retained locations
+        if: always() && steps.osm_import.outcome != 'success'
+        run: |
+          echo "::warning::Location refresh did not complete; previously committed locations are unchanged. Product deployment is independent."
+          echo "Location refresh failed or timed out. Existing locations were retained; no product deployment was blocked." >> "$GITHUB_STEP_SUMMARY"

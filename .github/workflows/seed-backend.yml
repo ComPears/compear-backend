@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: backend-product-seed
+  cancel-in-progress: false
+
 jobs:
   seed-backend:
     runs-on: ubuntu-24.04
@@ -56,12 +60,8 @@ jobs:
       - name: Check seeded catalog memory budget
         run: npm run test:memory
 
-      # Best-effort: Overpass is flaky (504s). Product seed must still commit/deploy.
-      - name: Import store locations from OpenStreetMap
-        id: osm_import
-        continue-on-error: true
-        run: npm run import-stores
-
+      # Location refresh has its own workflow and timeout. Always retain the
+      # last committed locations here; Overpass must never block product deploys.
       - name: Upload seeded data artifact
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
@@ -80,17 +80,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/nl src/data/uk src/data/de
-          if [ -f src/data/store-locations.json ]; then
-            git add src/data/store-locations.json
-          fi
           if git diff --cached --quiet; then
             echo "No product data changes to commit"
           else
-            git commit -m "chore: weekly seed from data-wrangling $(date -u +%Y-%m-%d) [skip ci]"
+            git commit -m "chore: seed from data-wrangling $(date -u +%Y-%m-%d) [skip ci]"
+            git pull --rebase origin main
             git push
-          fi
-          if [ "${{ steps.osm_import.outcome }}" != "success" ]; then
-            echo "::warning::OSM store import failed; kept previous store-locations.json and continued product seed deploy."
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 

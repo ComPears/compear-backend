@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import {
   fetchOsmElements,
+  importStoreLocationsFromOsm,
   overpassBackoffMs,
 } from '../src/services/storeLocationImport';
 
@@ -11,6 +12,19 @@ describe('overpassBackoffMs', () => {
     assert.equal(overpassBackoffMs(2), 4000);
     assert.equal(overpassBackoffMs(3), 8000);
     assert.equal(overpassBackoffMs(10), 30000);
+  });
+});
+
+describe('last-good location preservation', () => {
+  it('rejects failed UK sub-queries rather than returning a partial dataset', async (t) => {
+    const request = t.mock.method(globalThis, 'fetch', async () => new Response('bad query', { status: 400 }));
+    await assert.rejects(importStoreLocationsFromOsm(['uk']), /sub-query failed; retaining existing locations/);
+    assert.equal(request.mock.callCount(), 1);
+  });
+
+  it('rejects an empty successful response rather than erasing locations', async (t) => {
+    t.mock.method(globalThis, 'fetch', async () => new Response(JSON.stringify({ elements: [] }), { status: 200 }));
+    await assert.rejects(importStoreLocationsFromOsm(['nl']), /no matching locations for nl; retaining existing locations/);
   });
 });
 
