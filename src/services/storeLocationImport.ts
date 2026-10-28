@@ -466,8 +466,9 @@ export async function importStoreLocationsFromOsm(
             brandCount += chunk.length;
             elements.push(...chunk);
           } catch (error) {
-            console.warn(
-              `  ${brand.label} sub-query failed: ${error instanceof Error ? error.message : error}`
+            // A partial UK dataset must not replace the last-good locations.
+            throw new Error(
+              `${brand.label} sub-query failed; retaining existing locations: ${error instanceof Error ? error.message : error}`
             );
           }
           await sleep(800);
@@ -489,8 +490,14 @@ export async function importStoreLocationsFromOsm(
       added += 1;
     }
     console.info(`${region.toUpperCase()}: kept ${added} matched locations from ${elements.length} OSM elements`);
+    if (added === 0) {
+      throw new Error(`OSM returned no matching locations for ${region}; retaining existing locations`);
+    }
   }
 
+  if (byId.size === 0) {
+    throw new Error('OSM returned no matching locations; retaining existing locations');
+  }
   return buildDataset(Array.from(byId.values()));
 }
 
