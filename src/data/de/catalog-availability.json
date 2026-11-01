@@ -7,9 +7,9 @@
       "available": true,
       "reason_codes": [],
       "products": 1279,
-      "last_successful_at": "2026-10-31T03:38:58.397111+00:00",
-      "available_until": "2026-11-02T03:38:58.397111+00:00",
-      "catalog_sha256": "cf614f7ae88d862b0102ddaea5aee7d4b49592aa94cd59b30778e5500958c3a7"
+      "last_successful_at": "2026-11-01T03:33:42.677763+00:00",
+      "available_until": "2026-11-03T03:33:42.677763+00:00",
+      "catalog_sha256": "00f7f8ebc5b2032e71dc42e447dd9c566cea8f851be82b3557b5e0225cb5fd59"
     },
     {
       "country": "de",
@@ -29,10 +29,10 @@
       "store": "lidl-de",
       "available": true,
       "reason_codes": [],
-      "products": 402,
-      "last_successful_at": "2026-10-31T03:44:41.507843+00:00",
-      "available_until": "2026-11-02T03:44:41.507843+00:00",
-      "catalog_sha256": "020189e176cb03ff485a9d5a32386c411f860f25a934080dab243be0db4a3a34"
+      "products": 397,
+      "last_successful_at": "2026-11-01T03:39:14.213895+00:00",
+      "available_until": "2026-11-03T03:39:14.213895+00:00",
+      "catalog_sha256": "f3f183de08f6101f5f7425c021d87c134fdedf240aebd2de8efb036a60ae99ae"
     },
     {
       "country": "de",
@@ -40,9 +40,9 @@
       "available": true,
       "reason_codes": [],
       "products": 1229,
-      "last_successful_at": "2026-10-31T03:48:39.910839+00:00",
-      "available_until": "2026-11-02T03:48:39.910839+00:00",
-      "catalog_sha256": "ac516e07b5c397ac47f2a8522c3bcdfebca8c6d5cb85830243083f786164c92a"
+      "last_successful_at": "2026-11-01T03:44:47.432869+00:00",
+      "available_until": "2026-11-03T03:44:47.432869+00:00",
+      "catalog_sha256": "872e9b2fcf45fd92711c0475cc21602c4108c7833ed8427bb97e145b7b5268ad"
     },
     {
       "country": "de",
