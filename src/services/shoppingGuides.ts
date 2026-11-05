@@ -12,6 +12,9 @@ const TOPICS = [
   { slug: 'olive-oil', section: 'pantry', labels: ['Olive oil', 'Olijfolie', 'Olivenöl'], queries: ['olive oil', 'olijfolie', 'Olivenöl'], basis: 'l' },
   { slug: 'laundry', section: 'household', labels: ['Laundry detergent', 'Wasmiddel', 'Waschmittel'], queries: ['laundry detergent', 'wasmiddel', 'Waschmittel'], basis: 'l' },
   { slug: 'shampoo', section: 'household', labels: ['Shampoo', 'Shampoo', 'Shampoo'], queries: ['shampoo', 'shampoo', 'Shampoo'], basis: 'l' },
+  { slug: 'nappies', section: 'family', labels: ['Nappies', 'Luiers', 'Windeln'], queries: ['nappies', 'luiers', 'Windeln'], basis: 'item' },
+  { slug: 'baby-wipes', section: 'family', labels: ['Baby wipes', 'Babydoekjes', 'Feuchttücher'], queries: ['baby wipes', 'babydoekjes', 'Feuchttücher'], basis: 'item' },
+  { slug: 'toothpaste', section: 'family', labels: ['Toothpaste', 'Tandpasta', 'Zahnpasta'], queries: ['toothpaste', 'tandpasta', 'Zahnpasta'], basis: 'l' },
 ] as const;
 
 function localIndex(country: CountryCode): number { return country === 'uk' ? 0 : country === 'nl' ? 1 : 2; }
