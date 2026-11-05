@@ -15,7 +15,7 @@ import {
   listStoreSlugsForCountry,
 } from '../config/countries';
 import { logger } from '../utils/logger';
-import { normalizeLabelEvidence } from './labelEvidence';
+import { labelEvidenceFileName, normalizeLabelEvidence } from './labelEvidence';
 import { isCatalogAvailable, parseAvailabilityManifest, saveCountryAvailability, verifyAvailableCatalog } from './catalogAvailability';
 
 interface LegacyProduct {
@@ -80,7 +80,7 @@ export function seedAllStoresFromWrangling(
 ): SeedReport[] {
   const config = loadWranglingConfig(wranglingPath);
   const reports: SeedReport[] = [];
-  const labelFile = path.join(wranglingPath, 'label-evidence', `${country}.json`);
+  const labelFile = path.join(wranglingPath, 'label-evidence', labelEvidenceFileName(country));
   const labelByUrl = new Map<string, unknown>();
   if (fs.existsSync(labelFile) && fs.statSync(labelFile).size <= 8_000_000) {
     try {
