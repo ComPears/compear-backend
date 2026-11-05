@@ -1,9 +1,13 @@
 import { Pool } from 'pg';
-import { randomUUID } from 'crypto';
+import { createHash, randomUUID } from 'crypto';
 import { CountryCode } from '../config/countries';
 import { Product } from '../types';
+import { insightsPolicy } from './insightsPolicy';
 
 const SCHEMA = `
+CREATE TABLE IF NOT EXISTS compear_insights_checkpoints (
+ country text PRIMARY KEY CHECK(country IN ('nl','uk','de')), fingerprint text NOT NULL
+);
 CREATE TABLE IF NOT EXISTS compear_price_observations (
  country text NOT NULL CHECK(country IN ('nl','uk','de')), product_id text NOT NULL,
  observed_at timestamptz NOT NULL, price numeric(12,4) NOT NULL CHECK(price > 0),
@@ -35,16 +39,27 @@ export interface PriceAlert { id: string; user_id: string; country: CountryCode;
 
 export class InsightsStore {
   private initialized?: Promise<void>;
-  constructor(readonly pool: Pool) {}
+  constructor(readonly pool: Pool, readonly retentionDays = insightsPolicy().retentionDays) {
+    if (!Number.isInteger(retentionDays) || retentionDays < 1 || retentionDays > 180) throw new Error('Invalid price history retention');
+  }
   async initialize(): Promise<void> {
     if (!this.initialized) this.initialized = this.pool.query(SCHEMA).then(() => undefined).catch(error => { this.initialized = undefined; throw error; });
     return this.initialized;
   }
   async record(country: CountryCode, products: Product[]): Promise<number> {
     await this.initialize();
+    const now = Date.now(), ageLimit = Math.min(192 * 3600000, this.retentionDays * 86400000);
+    const eligible = (p: Product) => Number.isFinite(p.originalPrice) && p.originalPrice > 0 && Number.isFinite(Date.parse(p.scrapedAt)) && Date.parse(p.scrapedAt) <= now + 300000 && Date.parse(p.scrapedAt) >= now - ageLimit && p.priceType !== 'loyalty';
+    const digest = createHash('sha256').update(country).update(String(this.retentionDays));
+    for (const product of products) if (eligible(product)) digest.update(JSON.stringify([product.id, product.scrapedAt, product.originalPrice, product.store, product.packageSize]));
+    const fingerprint = digest.digest('hex');
+    const checkpoint = await this.pool.query('SELECT fingerprint FROM compear_insights_checkpoints WHERE country=$1', [country]);
+    // Hourly checks still evaluate new watches, but do not resend an unchanged
+    // 80k-listing catalog to a small/free database on every invocation.
+    if (checkpoint.rows[0]?.fingerprint === fingerprint) return 0;
     let count = 0;
     for (let offset = 0; offset < products.length; offset += 250) {
-      const rows = products.slice(offset, offset + 250).filter(p => Number.isFinite(p.originalPrice) && p.originalPrice > 0 && Number.isFinite(Date.parse(p.scrapedAt)) && Date.parse(p.scrapedAt) <= Date.now() + 300000 && Date.parse(p.scrapedAt) >= Date.now() - 192 * 3600000 && p.priceType !== 'loyalty').map(p => ({ product_id: p.id, observed_at: p.scrapedAt, price: p.originalPrice, store: p.store, package_size: p.packageSize }));
+      const rows = products.slice(offset, offset + 250).filter(eligible).map(p => ({ product_id: p.id, observed_at: p.scrapedAt, price: p.originalPrice, store: p.store, package_size: p.packageSize }));
       if (!rows.length) continue;
       const result = await this.pool.query(`INSERT INTO compear_price_observations(country,product_id,observed_at,price,store,package_size,currency)
         SELECT $1,r.product_id,r.observed_at,r.price,r.store,r.package_size,$2 FROM jsonb_to_recordset($3::jsonb)
@@ -52,15 +67,23 @@ export class InsightsStore {
         ON CONFLICT DO NOTHING`, [country, country === 'uk' ? 'GBP' : 'EUR', JSON.stringify(rows)]);
       count += result.rowCount ?? 0;
     }
+    // Advance only after every chunk succeeds. Partial imports can safely retry.
+    await this.pool.query('INSERT INTO compear_insights_checkpoints(country,fingerprint) VALUES($1,$2) ON CONFLICT(country) DO UPDATE SET fingerprint=excluded.fingerprint', [country, fingerprint]);
     return count;
   }
   async history(country: CountryCode, id: string) {
     await this.initialize();
-    const result = await this.pool.query(`SELECT to_char(observed_at AT TIME ZONE 'UTC','YYYY-MM-DD') AS date,
+    const result = await this.pool.query(`SELECT * FROM (SELECT to_char(observed_at AT TIME ZONE 'UTC','YYYY-MM-DD') AS date,
       min(price)::float8 AS low, max(price)::float8 AS high, max(observed_at) AS "observedAt"
-      FROM compear_price_observations WHERE country=$1 AND product_id=$2 AND observed_at >= now()-interval '180 days'
-      GROUP BY 1 ORDER BY 1 LIMIT 180`, [country, id]);
+      FROM compear_price_observations WHERE country=$1 AND product_id=$2 AND observed_at >= now()-($3::int*interval '1 day')
+      GROUP BY 1 ORDER BY 1 DESC LIMIT 180) recent ORDER BY date`, [country, id, this.retentionDays]);
     return result.rows;
+  }
+  async prune(): Promise<void> {
+    await this.initialize();
+    await this.pool.query("DELETE FROM compear_price_observations WHERE observed_at<now()-($1::int*interval '1 day')", [this.retentionDays]);
+    await this.pool.query("DELETE FROM compear_price_notifications WHERE created_at<now()-($1::int*interval '1 day')", [this.retentionDays]);
+    await this.pool.query("DELETE FROM compear_price_alerts WHERE (enabled=false AND created_at<now()-interval '30 days') OR (confirmed_at IS NULL AND created_at<now()-interval '2 days')");
   }
   async listAlerts(userId: string, country: CountryCode) {
     await this.initialize();
@@ -129,7 +152,7 @@ export class InsightsStore {
 }
 
 let configured: InsightsStore | undefined;
-export function insightsEnabled(): boolean { return process.env.ENABLE_PRICE_INSIGHTS === 'true' && Boolean(process.env.DATABASE_URL); }
+export function insightsEnabled(): boolean { return process.env.ENABLE_PRICE_INSIGHTS === 'true' && Boolean(process.env.DATABASE_URL) && insightsPolicy().active; }
 export function getInsightsStore(): InsightsStore | undefined {
   if (!insightsEnabled()) return;
   if (!configured) {

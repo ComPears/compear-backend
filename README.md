@@ -200,7 +200,7 @@ until database ownership, plan cost, backups and credentials have been confirmed
    ([Render connection documentation](https://render.com/docs/postgresql-creating-connecting)).
    Do not work around a TLS failure by disabling certificate verification. Confirm
    the connection in staging before enabling the production feature. Give the application role permission to create its
-   three `compear_price_*` tables and indexes (or apply the schema in
+   `compear_price_*` tables, checkpoint table and indexes (or apply the schema in
    `src/services/insightsStore.ts` with a migration role, then grant CRUD access).
 2. Keep `RECEIPT_AUTH_SECRET` stable and private. Set `ENABLE_PRICE_INSIGHTS=true`
    in Render, deploy, then inspect `GET /insights/features` and an actual history
@@ -218,7 +218,11 @@ until database ownership, plan cost, backups and credentials have been confirmed
    tokens stay in URL fragments; opening a link alone changes nothing.
 
 History covers the exact retailer listing and country, starts with real collected
-observations and retains 180 days. Conditional loyalty prices are excluded.
+observations and retains up to 180 days by default. Set
+`PRICE_HISTORY_RETENTION_DAYS` to an integer from 1 to 180 for smaller databases.
+Conditional loyalty prices are excluded. Country-scoped checkpoints skip bulk
+database writes when catalog observations are unchanged; new watches are still
+evaluated. A checkpoint advances only after all import chunks succeed.
 Watches fire on threshold crossings, re-arm above the target and use an idempotent
 email outbox. Unavailable listings cannot generate or deliver fresh signals. Private
 access uses signed browser credentials; clearing them can remove inbox access.
@@ -229,3 +233,23 @@ notice, sender-domain verification, cost approval and a support/contact process.
 Local/CI integration verification uses `INSIGHTS_TEST_DATABASE_URL` and a disposable
 PostgreSQL database; it never sends real email. Run `npm test` and
 `npm run test:memory` before release. `/insights/*` is deliberately `no-store`.
+
+### Free trial and moving to your own server
+
+A free Render Postgres database expires after 30 days and has 1 GB of storage.
+It is a temporary test, not permanent history storage. For this trial, use
+`PRICE_HISTORY_RETENTION_DAYS=14`, leave `ENABLE_PRICE_ALERT_EMAIL=false`, and set
+`PRICE_INSIGHTS_EXPIRES_AT` to a UTC ISO timestamp before the database expires.
+Invalid limits or an expired deadline disable insights without affecting grocery
+search. The scheduled refresh checks the feature status and skips cleanly after
+expiry instead of generating recurring failed jobs. No upgrade is automatic.
+
+The schema uses standard PostgreSQL and has no Render-specific database API.
+Before expiry, export the entire database with `pg_dump` and restore it to
+PostgreSQL 17+ on your server. Transfer the dump and connection credentials
+privately, enable backups, configure verified database TLS, and keep the existing
+`RECEIPT_AUTH_SECRET` stable so browser credentials remain valid. Change only the
+private `DATABASE_URL`, remove/update the trial deadline and choose retention to
+fit the new server. Keep checkpoints with their observations when restoring;
+clear the checkpoint metadata if intentionally restoring only part of the data.
+Verify history and one consented watch before enabling the scheduled worker.

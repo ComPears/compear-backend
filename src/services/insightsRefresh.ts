@@ -56,9 +56,7 @@ export async function refreshInsights(store: InsightsStore) {
         }
       }
     }
-    await store.pool.query("DELETE FROM compear_price_observations WHERE observed_at<now()-interval '180 days'");
-    await store.pool.query("DELETE FROM compear_price_notifications WHERE created_at<now()-interval '180 days'");
-    await store.pool.query("DELETE FROM compear_price_alerts WHERE (enabled=false AND created_at<now()-interval '30 days') OR (confirmed_at IS NULL AND created_at<now()-interval '2 days')");
+    await store.prune();
     return { recorded, notified, emails };
   } finally {
     try { if (locked) await lock.query("SELECT pg_advisory_unlock(hashtext('compear-insights-refresh'))"); }

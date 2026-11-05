@@ -26,6 +26,15 @@ jobs:
             echo '::error::Backend URL and ops credential are required for the enabled insights job'
             exit 1
           fi
+          features=$(curl --fail --silent --show-error --retry 2 --retry-delay 5 --max-time 90 "${BACKEND_BASE_URL%/}/insights/features")
+          if ! printf '%s' "$features" | jq -e '(.history | type) == "boolean"' >/dev/null; then
+            echo '::error::Invalid insights feature response'
+            exit 1
+          fi
+          if [ "$(printf '%s' "$features" | jq -r '.history')" != 'true' ]; then
+            echo 'Insights disabled or trial expired; skipping the optional refresh.'
+            exit 0
+          fi
           curl --fail --silent --show-error --max-time 300 \
             --request POST --header 'Content-Type: application/json' --data '{}' \
             --header "x-api-key: $SCRAPE_API_KEY" \

@@ -41,9 +41,21 @@ test('durable history and alerts preserve identity, ownership and threshold tran
     assert.equal(new Set(watchers.map(w => w?.id)).size, 1);
     const concurrent = { ...first, id: concurrentId };
     assert.equal((await Promise.all(watchers.map(w => store.notify(w!.id, concurrent)))).filter(Boolean).length, 1);
+    const checkpoint = (await pool.query("SELECT fingerprint FROM compear_insights_checkpoints WHERE country='uk'")).rows[0].fingerprint;
+    const batch = Array.from({ length: 251 }, (_, i) => ({ ...first, id: `${id}-batch-${i}`, originalPrice: i === 250 ? 1e9 : 2 }));
+    await assert.rejects(() => store.record('uk', batch)); // fail after one committed chunk
+    assert.equal((await pool.query("SELECT fingerprint FROM compear_insights_checkpoints WHERE country='uk'")).rows[0].fingerprint, checkpoint);
+    batch[250].originalPrice = 2;
+    assert.equal(await store.record('uk', batch), 1); // retries do not duplicate the first 250
+    await pool.query(`INSERT INTO compear_price_observations(country,product_id,observed_at,price,store,package_size,currency)
+      VALUES('uk',$1,now()-interval '2 days',1,'Fixture','1 l','GBP'),('uk',$1,now()-interval '16 days',1,'Fixture','1 l','GBP')`, [id]);
+    const trial = new InsightsStore(pool, 14);
+    assert.equal((await trial.history('uk', id)).length, 2);
+    await trial.prune();
+    assert.equal(Number((await pool.query("SELECT count(*) AS count FROM compear_price_observations WHERE product_id=$1 AND observed_at<now()-interval '14 days'", [id])).rows[0].count), 0);
   } finally {
     await pool.query('DELETE FROM compear_price_alerts WHERE user_id=$1', [user]);
-    await pool.query('DELETE FROM compear_price_observations WHERE product_id=$1', [id]);
+    await pool.query('DELETE FROM compear_price_observations WHERE product_id=$1 OR product_id LIKE $2', [id, `${id}-batch-%`]);
     await pool.end();
   }
 });
