@@ -253,3 +253,18 @@ private `DATABASE_URL`, remove/update the trial deadline and choose retention to
 fit the new server. Keep checkpoints with their observations when restoring;
 clear the checkpoint metadata if intentionally restoring only part of the data.
 Verify history and one consented watch before enabling the scheduled worker.
+
+### Observed offers and family-care discovery
+
+`GET /deals?country=uk|nl|de&sort=saving|percent|price&category=...&store=...`
+supports bounded pagination, exact category/store filters and deterministic
+sorting. It excludes membership-only offers, expired/invalid offer dates, invalid prices and observations
+outside the catalog freshness window. Responses include pack size, observation
+date, membership price type and known minimum quantities. Effective promotional
+prices are conditional indications, not guaranteed single-pack checkout prices.
+
+Shopping guides include nappies, baby wipes and toothpaste in every country.
+Count-based comparisons require a known item quantity. No guide asserts medical,
+dental, infant or allergy suitability. Frontend external-store discovery is kept
+separate from this catalog: Amazon and new marketplaces are not connected price
+sources until their licensed feeds and source-quality checks are implemented.

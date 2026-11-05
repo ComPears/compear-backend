@@ -146,7 +146,7 @@ function normalizePromoText(o: string): string {
     .trim();
 }
 
-function parsePromoText(o?: string): {
+export function parsePromoText(o?: string): {
   promoType: PromoType;
   promoValue: number | null;
   promoQuantity: number | null;
@@ -157,6 +157,16 @@ function parsePromoText(o?: string): {
   }
 
   const text = normalizePromoText(o);
+  // A basket meal deal cannot be converted to this listing's per-pack price.
+  if (/\bmeal deal\b/.test(text)) return empty;
+  // Count offers are not monetary totals. Require explicit free-item wording;
+  // a bare integer without a currency is otherwise ambiguous.
+  const countDeal = text.match(/\b(\d+)\s+for\s+(\d+)\b(?![.,\dp])/);
+  if (countDeal && /\bcheapest (?:product|item) free\b/.test(text)) {
+    const total = Number(countDeal[1]), pay = Number(countDeal[2]);
+    if (pay > 0 && total > pay && total <= 100) return { promoType: 'BUNDLE_FREE', promoValue: pay, promoQuantity: total };
+    return empty;
+  }
 
   const bundleFree = text.match(/(\d+)\s*\+\s*(\d+)\s*gratis/);
   if (bundleFree) {
@@ -189,12 +199,15 @@ function parsePromoText(o?: string): {
     };
   }
 
-  const multi = text.match(/(\d+)\s*(?:voor|for)\s*€?\s*(\d+(?:[.,]\d+)?)/);
+  const multi = text.match(/\b(\d+)\s*(?:voor|for)\s*(?:([£€])\s*(\d+(?:[.,]\d+)?)|(\d+)\s*p\b)/);
   if (multi) {
+    const quantity = Number(multi[1]);
+    const total = multi[4] ? Number(multi[4]) / 100 : Number(multi[3].replace(',', '.'));
+    if (!Number.isFinite(total) || total <= 0 || quantity < 2 || quantity > 100) return empty;
     return {
       promoType: 'MULTI_BUY',
-      promoValue: parseFloat(multi[2].replace(',', '.')),
-      promoQuantity: parseInt(multi[1], 10),
+      promoValue: total,
+      promoQuantity: quantity,
     };
   }
 

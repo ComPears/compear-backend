@@ -39,6 +39,20 @@ export interface SlimDeal {
   promoValidUntil: string | null;
   category: string;
   savings: number;
+  packageSize: string;
+  promoQuantity: number | null;
+  priceType: Product['priceType'];
+  scrapedAt: string;
+}
+
+/** A promotion is an observation with conditions, not a guaranteed checkout price. */
+export function eligibleDeal(p: Product, now = Date.now()): boolean {
+  const observed = Date.parse(p.scrapedAt);
+  const expiry = p.promoValidUntil ? Date.parse(p.promoValidUntil) : null;
+  return p.priceType !== 'loyalty' && p.promoType != null && Number.isFinite(p.originalPrice) && Number.isFinite(p.effectivePrice)
+    && p.originalPrice > p.effectivePrice && p.effectivePrice > 0
+    && Number.isFinite(observed) && observed <= now + 300000 && observed >= now - 192 * 3600000
+    && (expiry === null || (Number.isFinite(expiry) && expiry > now));
 }
 
 function getIsoWeekLabel(date = new Date()): string {
@@ -62,6 +76,10 @@ function toSlimDeal(p: Product): SlimDeal {
     promoValidUntil: p.promoValidUntil,
     category: p.category,
     savings: Math.round(productSavings(p) * 100) / 100,
+    packageSize: p.packageSize,
+    promoQuantity: p.promoQuantity ?? null,
+    priceType: p.priceType,
+    scrapedAt: p.scrapedAt,
   };
 }
 
@@ -78,7 +96,14 @@ export function listDeals(req: Request, res: Response): void {
     const country = countryFromQuery(req);
     const { limit, offset } = parsePagination(req);
     const all = loadAllProducts(country);
-    const deals = all.filter((p) => p.promoType != null && p.effectivePrice < p.originalPrice);
+    if (['store', 'category', 'sort'].some(key => req.query[key] !== undefined && typeof req.query[key] !== 'string')) {
+      res.status(400).json({ error: 'Invalid deal filters' }); return;
+    }
+    const sort = req.query.sort ?? 'saving';
+    if (!['saving', 'percent', 'price'].includes(String(sort))) { res.status(400).json({ error: 'Invalid deal sort' }); return; }
+    const deals = all.filter((p) => eligibleDeal(p) && (!req.query.store || p.store === req.query.store) && (!req.query.category || p.category === req.query.category));
+    deals.sort((a, b) => (sort === 'price' ? a.effectivePrice - b.effectivePrice : sort === 'percent'
+      ? productSavings(b) / b.originalPrice - productSavings(a) / a.originalPrice : productSavings(b) - productSavings(a)) || a.id.localeCompare(b.id));
     const total = deals.length;
     const items = deals.slice(offset, offset + limit).map(toSlimDeal);
     res.json({ items, total, limit, offset });
@@ -91,7 +116,7 @@ export function getDealsDigest(req: Request, res: Response): void {
   try {
     const country = countryFromQuery(req);
     const all = loadAllProducts(country);
-    const deals = all.filter((p) => p.promoType != null && p.effectivePrice < p.originalPrice);
+    const deals = all.filter((p) => eligibleDeal(p));
 
     const byStore: Record<string, number> = {};
     let totalPotentialSavings = 0;
