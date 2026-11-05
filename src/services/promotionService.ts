@@ -79,6 +79,8 @@ export function toProduct(
   );
 
   return {
+    ...(scraped.sourceMethod ? { sourceMethod: scraped.sourceMethod } : {}),
+    ...(scraped.priceType ? { priceType: scraped.priceType } : {}),
     id,
     canonicalName,
     productName: scraped.productName,

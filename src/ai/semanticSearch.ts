@@ -141,6 +141,10 @@ function scoreDocument(document: SearchDocument, queryTokens: string[], fullQuer
   if (productName === fullQuery || canonicalName === fullQuery) return 500;
 
   let score = 0;
+  // A generic milk search should not put ice lollies, chocolate or shower
+  // cream ahead of milk merely because their shorter names start with it.
+  const milkAccessory = queryTokens.length === 1 && /^(milk|melk|milch)$/.test(fullQuery) &&
+      /chocolat|chocolad|schokolad|ice cream|ice loll|ijs|eis\b|shower|douche|dusche|soap|seife|biscuit|cookie|sweets|yog[uh]?urt|joghurt/.test(productName);
   if (productName.includes(fullQuery)) score += 120;
   if (canonicalName.includes(fullQuery)) score += 100;
   if (productName.startsWith(fullQuery)) score += 35;
@@ -162,7 +166,7 @@ function scoreDocument(document: SearchDocument, queryTokens: string[], fullQuer
     score += Math.max(8, 40 - Math.max(0, productTokens.length - queryTokens.length) * 4);
   }
 
-  return score;
+  return milkAccessory ? score * 0.25 : score;
 }
 
 function candidateDocumentIds(index: SearchIndex, queryTokens: string[]): Set<number> {
