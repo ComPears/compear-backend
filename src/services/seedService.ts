@@ -18,6 +18,8 @@ import { logger } from '../utils/logger';
 import { isCatalogAvailable, parseAvailabilityManifest, saveCountryAvailability, verifyAvailableCatalog } from './catalogAvailability';
 
 interface LegacyProduct {
+  sourceMethod?: string;
+  priceType?: string;
   observedAt?: string;
   scrapedAt?: string;
   productUrl?: string;
@@ -249,6 +251,8 @@ export function legacyToScraped(
   const weightInGrams = sanitized.weightInGrams;
 
   return {
+    sourceMethod: typeof legacy.sourceMethod === 'string' && /^[a-z0-9_]{1,64}$/.test(legacy.sourceMethod) ? legacy.sourceMethod : undefined,
+    priceType: legacy.priceType === 'regular' || legacy.priceType === 'promotion' || legacy.priceType === 'loyalty' ? legacy.priceType : undefined,
     productName: sanitized.productName,
     brand: sanitized.brand,
     packageSize: sanitized.packageSize,

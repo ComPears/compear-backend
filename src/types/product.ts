@@ -24,6 +24,8 @@ export type ProductCategory =
   | 'Other';
 
 export interface Product {
+  sourceMethod?: string;
+  priceType?: 'regular' | 'promotion' | 'loyalty';
   id: string;
   canonicalName: string;
   productName: string;
@@ -56,6 +58,8 @@ export interface ProductWithStore extends Product {
  * Raw product as scraped (before effective price calculation).
  */
 export interface ScrapedProduct {
+  sourceMethod?: string;
+  priceType?: 'regular' | 'promotion' | 'loyalty';
   productName: string;
   brand?: string | null;
   packageSize: string;

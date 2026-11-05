@@ -55,8 +55,8 @@ describe('indexed product search', () => {
 
     assert.deepEqual(searchProducts('melk', 10, source).map((item) => item.id), [
       'actual-milk',
-      'brand-prefix',
       'milkshake',
+      'brand-prefix',
     ]);
   });
 
@@ -82,6 +82,11 @@ describe('indexed product search', () => {
       ['ah-1', 'ah-2', 'ah-3']
     );
   });
+  it('keeps explicit ice lolly intent while demoting accessories for generic milk', () => {
+    const source = ['Milk Lollies Ice Creams', 'Milk & Honey Shower Cream', 'Fresh Skimmed Milk'].map((name) => product({ id: name, productName: name, canonicalName: name.toLowerCase(), category: 'Dairy & Eggs' }));
+    assert.equal(searchProducts('milk', 3, source)[0].productName, 'Fresh Skimmed Milk');
+    assert.equal(searchProducts('milk lollies', 3, source)[0].productName, 'Milk Lollies Ice Creams');
+  });
 });
 
 describe('products controller pagination and cache', () => {
@@ -98,8 +103,11 @@ describe('products controller pagination and cache', () => {
       res.body.map((item) => item.id),
       ['ah-3', 'ah-4', 'ah-5']
     );
-    assert.equal('productUrl' in res.body[0], false);
-    assert.equal('scrapedAt' in res.body[0], false);
+    assert.equal(res.body[0].productUrl, source[2].productUrl);
+    assert.equal(res.body[0].scrapedAt, source[2].scrapedAt);
+    assert.equal(res.body[0].currency, 'EUR');
+    assert.equal(res.body[0].dietaryEvidence, 'name-only');
+    assert.equal(res.body[0].priceScope, 'retailer');
     assertHeader(res, 'X-Total-Count', 8);
     assertHeader(res, 'X-Result-Limit', 3);
     assertHeader(res, 'X-Result-Offset', 2);

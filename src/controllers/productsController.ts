@@ -11,6 +11,7 @@ import { productHasDietaryLabels, parseLabelsParam } from '../utils/dietaryLabel
 import { Product, ProductCategory } from '../types';
 import { logger } from '../utils/logger';
 import { routeParam } from '../utils/requestParams';
+import { presentOffer } from '../utils/offerEvidence';
 
 interface ProductPage {
   items: Product[];
@@ -35,11 +36,6 @@ function boundedInt(value: unknown, fallback: number, min: number, max: number):
   const parsed = Number(value);
   if (!Number.isInteger(parsed)) return fallback;
   return Math.min(max, Math.max(min, parsed));
-}
-
-function toProductListItem(product: Product): Omit<Product, 'productUrl' | 'scrapedAt'> {
-  const { productUrl: _productUrl, scrapedAt: _scrapedAt, ...summary } = product;
-  return summary;
 }
 
 export function listProducts(req: Request, res: Response): void {
@@ -82,7 +78,7 @@ export function listProducts(req: Request, res: Response): void {
       res.setHeader('X-Result-Offset', String(offset));
       res.setHeader('X-Search-Cache', 'hit');
       res.setHeader('Server-Timing', `products;dur=${durationMs.toFixed(1)}`);
-      res.json(cached.items.map(toProductListItem));
+      res.json(cached.items.map((product) => presentOffer(product, country)));
       return;
     }
 
@@ -135,7 +131,7 @@ export function listProducts(req: Request, res: Response): void {
       total,
       durationMs: Math.round(durationMs * 10) / 10,
     });
-    res.json(page.map(toProductListItem));
+    res.json(page.map((product) => presentOffer(product, country)));
   } catch (e) {
     logger.error('Product query failed', e);
     res.status(500).json({ error: 'Internal server error' });
@@ -151,7 +147,7 @@ export function getProduct(req: Request, res: Response): void {
       res.status(404).json({ error: 'Product not found' });
       return;
     }
-    res.json(product);
+    res.json(presentOffer(product, country));
   } catch (e) {
     res.status(500).json({ error: 'Internal server error' });
   }
@@ -165,7 +161,7 @@ export function getProductBySlug(req: Request, res: Response): void {
       res.status(404).json({ error: 'Product not found' });
       return;
     }
-    res.json({ product: products[0], offers: products });
+    res.json({ product: presentOffer(products[0], country), offers: products.map((product) => presentOffer(product, country)) });
   } catch (e) {
     res.status(500).json({ error: 'Internal server error' });
   }
