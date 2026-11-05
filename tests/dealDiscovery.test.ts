@@ -5,6 +5,7 @@ import { guideDefinitions } from '../src/services/shoppingGuides';
 import { Product } from '../src/types';
 import { parsePromoText } from '../src/services/seedService';
 import { computeEffectivePrice } from '../src/services/promotionService';
+import { ambiguousPackPrice } from '../src/services/dataService';
 
 const now = Date.now();
 const promotion = { packageSize: '1 l', promoType: 'PERCENTAGE', originalPrice: 3, effectivePrice: 2, scrapedAt: new Date(now).toISOString(), promoValidUntil: null } as Product;
@@ -32,4 +33,12 @@ test('count promotions, currency totals and meal deals cannot be confused', () =
   for (const text of ['3 for 2', '2 voor 5', 'Meal deal any 3 for £5', '0 for £3', '200 for £2']) assert.equal(parsePromoText(text).promoType, null);
   assert.equal(eligibleDeal({ ...promotion, priceType: 'loyalty' }, now), false);
   for (const packageSize of ['stuk', 'unknown', 'per wash', '']) assert.equal(eligibleDeal({ ...promotion, packageSize }, now), false);
+});
+
+test('explicit multi-item packs with ambiguous price basis are quarantined from serving', () => {
+  const pack = { ...promotion, productName: 'Pampers Premium Protection Maat 4, 78 Luiers', packageSize: 'stuk' } as Product;
+  assert.equal(ambiguousPackPrice(pack), true);
+  assert.equal(ambiguousPackPrice({ ...pack, packageSize: '1 stuk' }), true);
+  assert.equal(ambiguousPackPrice({ ...pack, packageSize: '78 items' }), false);
+  assert.equal(ambiguousPackPrice({ ...pack, productName: 'Rice', packageSize: '500 g' }), false);
 });
