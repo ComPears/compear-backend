@@ -7,13 +7,14 @@ import { emailAlertsEnabled, sendConfirmation, validAlertEmail, verifyAlertToken
 import { requireVerifiedReceiptUser } from '../controllers/receiptsController';
 import { apiKeyAuth } from '../middleware/apiKeyAuth';
 import { refreshInsights } from '../services/insightsRefresh';
+import { insightsPolicy } from '../services/insightsPolicy';
 
 const uuid = (value: unknown): value is string => typeof value === 'string' && /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i.test(value);
 const publicAlert = (alert: PriceAlert) => ({ id: alert.id, productId: alert.product_id, productName: getProductById(alert.product_id, alert.country)?.productName ?? null, country: alert.country, targetPrice: Number(alert.target_price), channel: alert.channel, confirmed: Boolean(alert.confirmed_at), enabled: alert.enabled });
 
 export const insightsRouter = Router();
 insightsRouter.use((_req, res, next) => { res.setHeader('Cache-Control', 'no-store'); next(); });
-insightsRouter.get('/features', (_req, res) => res.json({ history: insightsEnabled(), alerts: insightsEnabled(), email: insightsEnabled() && emailAlertsEnabled(), retentionDays: 180 }));
+insightsRouter.get('/features', (_req, res) => { const policy = insightsPolicy(); res.json({ history: insightsEnabled(), alerts: insightsEnabled(), email: insightsEnabled() && emailAlertsEnabled(), retentionDays: policy.retentionDays, expiresAt: policy.expiresAt }); });
 insightsRouter.use((_req, res, next) => {
   if (!insightsEnabled()) { res.status(503).json({ error: 'Durable price insights are not configured', code: 'insights-not-configured' }); return; }
   next();
