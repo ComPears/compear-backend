@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { PromoType, Product, ProductCategory, ScrapedProduct } from '../types';
 import { toProduct } from './promotionService';
-import { sanitizeProductFields, shouldRejectProductName } from '../utils/productSanitize';
+import { legacySizeLabelForId, sanitizeProductFields, shouldRejectProductName } from '../utils/productSanitize';
 import { extractBarcodeFromJumboUrl, normalizeBarcode } from '../utils/barcode';
 import { saveStoreProducts } from './dataService';
 import { STORE_SLUGS, StoreSlug } from '../config/stores';
@@ -364,7 +364,9 @@ export function seedStoreFromWrangling(
     if (!scraped.productUrl) report.missingUrl += 1;
     if (scraped.promoType) report.withPromo += 1;
 
-    const id = stableProductId(storeSlug, scraped.productName, scraped.packageSize);
+    // Existing watches/history reference this ID. Correct public dimensions
+    // without re-keying previously published retailer listings.
+    const id = stableProductId(storeSlug, scraped.productName, legacySizeLabelForId(item.s || 'stuk', item.wg));
     const product = toProduct(
       scraped,
       id,

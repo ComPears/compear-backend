@@ -10,6 +10,7 @@ import { clearSearchCache } from '../utils/searchCache';
 import { precomputeProductDietaryLabels } from '../utils/dietaryLabels';
 import { isCatalogAvailable, loadCountryAvailability } from './catalogAvailability';
 import { normalizeLabelEvidence } from './labelEvidence';
+import { unitComparison } from '../utils/offerEvidence';
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
@@ -107,8 +108,20 @@ function compactNumber(value: number): string {
 }
 
 export function normalizePackageData(
-  raw: Pick<Product, 'productName' | 'canonicalName' | 'packageSize' | 'weightInGrams'>
+  raw: Pick<Product, 'productName' | 'canonicalName' | 'packageSize' | 'weightInGrams'> & { identityKey?: string }
 ): Pick<Product, 'packageSize' | 'weightInGrams'> {
+  // Repair already-published legacy labels only from an explicit, dimensional
+  // source identity. A bare weightInGrams number cannot establish a dimension.
+  const sourceSize = raw.identityKey?.startsWith('tok:') ? raw.identityKey.split('|').pop() : undefined;
+  const source = sourceSize?.match(/^(?:(\d+)x)?(\d+(?:\.\d+)?)(count|g|ml)$/);
+  if (source) {
+    const packs = Number(source[1] ?? 1), each = Number(source[2]), total = packs * each;
+    if (Number.isFinite(total) && total > 0) {
+      if (source[3] === 'count' && Number.isInteger(total)) return { packageSize: `${total} items`, weightInGrams: null };
+      if (source[3] === 'g') return { packageSize: `${packs > 1 ? `${packs} × ` : ''}${each} g`, weightInGrams: Math.round(total) };
+      if (source[3] === 'ml') return { packageSize: `${packs > 1 ? `${packs} × ` : ''}${each >= 1000 ? `${each / 1000} l` : `${each} ml`}`, weightInGrams: Math.round(total) };
+    }
+  }
   const name = `${raw.productName} ${raw.canonicalName}`;
   const multiPack = name.match(/\b(\d+)\s*(?:x|×)\s*(\d+(?:[.,]\d+)?)\s*(kg|g|ml|cl|litres?|liters?|l|pints?)\b/i);
   if (multiPack) {
@@ -187,6 +200,11 @@ function normalizeProduct(raw: Product): Product {
   // Normalize in place: spreading 80k rows creates a second set of wide objects.
   raw.packageSize = packageData.packageSize;
   raw.weightInGrams = packageData.weightInGrams;
+  const comparable = unitComparison(raw);
+  if (comparable) {
+    raw.unitPrice = raw.originalPrice / comparable.quantity;
+    raw.effectiveUnitPrice = comparable.price;
+  }
   raw.category = category;
   raw.barcode = barcode ?? null;
   raw.identityKey = identityKey;

@@ -112,7 +112,9 @@ export function parseSizeToMl(size: string | null | undefined): number | null {
   return null;
 }
 
-export function normalizeSizeLabel(size: string | null | undefined, sizeMl: number | null): string {
+/** Compatibility only: keep published listing IDs stable while repairing labels. */
+export function legacySizeLabelForId(size: string | null | undefined, weight?: number | null): string {
+  const sizeMl = weight ?? parseSizeToMl(size);
   if (sizeMl != null) {
     if (sizeMl >= 1000 && sizeMl % 1000 === 0) return `${sizeMl / 1000} l`;
     if (sizeMl >= 1000) return `${(sizeMl / 1000).toFixed(2).replace(/\.00$/, '')} l`;
@@ -120,6 +122,19 @@ export function normalizeSizeLabel(size: string | null | undefined, sizeMl: numb
     return `${sizeMl} ml`;
   }
   return collapseWs(size || 'stuk');
+}
+
+export function normalizeSizeLabel(size: string | null | undefined, _sizeMl: number | null): string {
+  const label = collapseWs(size || 'stuk').toLowerCase().replace(/,/g, '.');
+  const match = label.match(/^(?:(\d+)\s*[x×]\s*)?(\d+(?:\.\d+)?)\s*(kg|g|gr|grams?|ml|cl|l|litres?|liters?|stuks?|st\.?|pieces?|pcs|count|items?|capsules?|tablets?|sachets?|wipes?|rolls?|stücke?|stueck)$/);
+  if (!match) return label;
+  const packs = Number(match[1] ?? 1), amount = Number(match[2]), unit = match[3];
+  if (!Number.isFinite(packs * amount) || amount <= 0 || packs <= 0) return 'unknown';
+  if (!/^(kg|g|gr|grams?|ml|cl|l|litres?|liters?)$/.test(unit)) {
+    return Number.isInteger(packs * amount) ? `${packs * amount} items` : 'unknown';
+  }
+  const normalized = /^(gr|grams?)$/.test(unit) ? 'g' : /^lit/.test(unit) ? 'l' : unit;
+  return `${packs > 1 ? `${packs} × ` : ''}${amount} ${normalized}`;
 }
 
 export function extractBrand(name: string): string | null {
@@ -203,7 +218,7 @@ export function sanitizeProductFields(
     identityKey,
     brand,
     packageSize: normalizeSizeLabel(packageSize, sizeMl),
-    weightInGrams: sizeMl,
+    weightInGrams: / items$/.test(normalizeSizeLabel(packageSize, sizeMl)) ? null : sizeMl,
   };
 }
 
