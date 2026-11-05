@@ -3,6 +3,7 @@ import { loadAllProducts } from '../services/dataService';
 import { countryFromQuery } from '../config/countries';
 import { productSavings } from '../utils/shoppingOptimizer';
 import { Product } from '../types/product';
+import { unitComparison } from '../utils/offerEvidence';
 
 export interface DealsDigest {
   weekLabel: string;
@@ -49,7 +50,7 @@ export interface SlimDeal {
 export function eligibleDeal(p: Product, now = Date.now()): boolean {
   const observed = Date.parse(p.scrapedAt);
   const expiry = p.promoValidUntil ? Date.parse(p.promoValidUntil) : null;
-  return p.priceType !== 'loyalty' && p.promoType != null && Number.isFinite(p.originalPrice) && Number.isFinite(p.effectivePrice)
+  return typeof p.packageSize === 'string' && unitComparison(p) !== null && p.priceType !== 'loyalty' && p.promoType != null && Number.isFinite(p.originalPrice) && Number.isFinite(p.effectivePrice)
     && p.originalPrice > p.effectivePrice && p.effectivePrice > 0
     && Number.isFinite(observed) && observed <= now + 300000 && observed >= now - 192 * 3600000
     && (expiry === null || (Number.isFinite(expiry) && expiry > now));

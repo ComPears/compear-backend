@@ -258,7 +258,8 @@ Verify history and one consented watch before enabling the scheduled worker.
 
 `GET /deals?country=uk|nl|de&sort=saving|percent|price&category=...&store=...`
 supports bounded pagination, exact category/store filters and deterministic
-sorting. It excludes membership-only offers, expired/invalid offer dates, invalid prices and observations
+sorting. It excludes offers with an unknown package quantity, membership-only
+offers, expired/invalid offer dates, invalid prices and observations
 outside the catalog freshness window. Responses include pack size, observation
 date, membership price type and known minimum quantities. Effective promotional
 prices are conditional indications, not guaranteed single-pack checkout prices.
@@ -268,3 +269,8 @@ Count-based comparisons require a known item quantity. No guide asserts medical,
 dental, infant or allergy suitability. Frontend external-store discovery is kept
 separate from this catalog: Amazon and new marketplaces are not connected price
 sources until their licensed feeds and source-quality checks are implemented.
+
+Explicit multi-item names (for example 78 nappies) with an unknown or conflicting
+pack count are quarantined from serving, rather than treating a retailer per-item
+price as the price of the entire pack. The raw wrangling record is retained for
+source repair; this safeguard is not a claim that every source price is verified.

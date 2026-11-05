@@ -227,6 +227,15 @@ function getFilePath(country: CountryCode, storeSlug: StoreSlug): string {
   return legacyPath;
 }
 
+/** Explicit multi-item names need a usable package basis, not a default single
+ * listing unit that may have been copied from a retailer's per-item price. */
+export function ambiguousPackPrice(product: Product): boolean {
+  const count = product.productName.match(/\b(\d+)\s*(?:luiers|nappies|diapers|windeln|capsules?|tablets?|sachets?|wipes?|rolls?)\b/i);
+  if (!count || Number(count[1]) < 2) return false;
+  const unit = typeof product.packageSize === 'string' ? unitComparison(product) : null;
+  return !unit || (unit.basis === 'item' && unit.quantity < Number(count[1]));
+}
+
 function readStoreProductsFromDisk(
   storeSlug: StoreSlug,
   country: CountryCode = DEFAULT_COUNTRY
@@ -240,7 +249,7 @@ function readStoreProductsFromDisk(
     const raw = fs.readFileSync(filePath, 'utf-8');
     const data = JSON.parse(raw);
     if (!Array.isArray(data)) return [];
-    return data.map((item) => normalizeProduct(item as Product));
+    return data.map((item) => normalizeProduct(item as Product)).filter(item => !ambiguousPackPrice(item));
   } catch (e) {
     logger.error('Failed to load store products', storeSlug, e);
     return [];
