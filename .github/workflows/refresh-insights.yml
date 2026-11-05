@@ -1,0 +1,32 @@
+name: Refresh optional price history and alerts
+on:
+  schedule:
+    - cron: '45 * * * *'
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Seed backend product data']
+    types: [completed]
+permissions:
+  contents: read
+concurrency:
+  group: price-insights-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: vars.ENABLE_PRICE_INSIGHTS == 'true' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Ask the authenticated production worker to record observations and evaluate opt-in alerts
+        env:
+          BACKEND_BASE_URL: ${{ vars.BACKEND_BASE_URL || vars.BACKEND_URL || secrets.BACKEND_BASE_URL }}
+          SCRAPE_API_KEY: ${{ secrets.SCRAPE_API_KEY }}
+        run: |
+          if [ -z "$BACKEND_BASE_URL" ] || [ -z "$SCRAPE_API_KEY" ]; then
+            echo '::error::Backend URL and ops credential are required for the enabled insights job'
+            exit 1
+          fi
+          curl --fail --silent --show-error --max-time 300 \
+            --request POST --header 'Content-Type: application/json' --data '{}' \
+            --header "x-api-key: $SCRAPE_API_KEY" \
+            "${BACKEND_BASE_URL%/}/insights/refresh"

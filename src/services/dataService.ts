@@ -9,6 +9,7 @@ import { normalizeBarcode } from '../utils/barcode';
 import { clearSearchCache } from '../utils/searchCache';
 import { precomputeProductDietaryLabels } from '../utils/dietaryLabels';
 import { isCatalogAvailable, loadCountryAvailability } from './catalogAvailability';
+import { normalizeLabelEvidence } from './labelEvidence';
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 
@@ -189,6 +190,7 @@ function normalizeProduct(raw: Product): Product {
   raw.category = category;
   raw.barcode = barcode ?? null;
   raw.identityKey = identityKey;
+  if (raw.labelEvidence) raw.labelEvidence = normalizeLabelEvidence(raw.labelEvidence, raw.productUrl);
   return raw;
 }
 

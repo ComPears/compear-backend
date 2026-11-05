@@ -5,7 +5,7 @@ const { createInterface } = require('node:readline');
 const { randomBytes } = require('node:crypto');
 
 async function main() {
-  const child = spawn(process.execPath, ['--max-old-space-size=256', '--max-semi-space-size=1', 'dist/index.js'], {
+  const child = spawn(process.execPath, ['--max-old-space-size=256', '--max-semi-space-size=1', '--require', './test/fixtures/label-memory-preload.js', 'dist/index.js'], {
     cwd: process.cwd(),
     env: {
       ...process.env, NODE_ENV: 'production', PORT: '0', NODE_OPTIONS: '',
@@ -61,19 +61,28 @@ async function main() {
       });
       assert.equal(conditional.status, 304);
       await conditional.arrayBuffer();
+      await consume(`/shopping/guides?country=${country}`);
     }
     for (let round = 0; round < 20; round++) {
       await Promise.all(['nl', 'uk', 'de'].flatMap((country) => [
         consume(`/products/seo-index?country=${country}`),
         consume(`/products?country=${country}&search=${round % 2 ? 'milk' : 'bread'}&limit=100`),
       ]));
+      await Promise.all(['nl', 'uk', 'de'].map(async (country) => {
+        const term = country === 'nl' ? 'melk' : country === 'de' ? 'Milch' : 'milk';
+        const response = await fetch(`${base}/shopping/search?country=${country}`, {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ request: `${term} under 2 per litre` }),
+        });
+        assert.equal(response.status, 200); await response.json();
+      }));
       const { body } = await consume('/health/ready');
       maxHeapMb = Math.max(maxHeapMb, body.memory.heapUsedMb);
       maxRssMb = Math.max(maxRssMb, body.memory.rssMb);
     }
     assert.ok(maxHeapMb < 230, `Insufficient heap headroom: peak ${maxHeapMb} MB`);
     assert.ok(maxRssMb < 480, `RSS budget exceeded: ${maxRssMb} MB`);
-    console.log(JSON.stringify({ startup: started, rounds: 20, concurrency: 6, maxHeapMb, maxRssMb }));
+    console.log(JSON.stringify({ startup: started, syntheticLabelFixtures: 5000, rounds: 20, concurrency: 6, maxHeapMb, maxRssMb }));
   } finally {
     clearTimeout(deadline);
     child.kill('SIGTERM');

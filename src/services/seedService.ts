@@ -15,9 +15,11 @@ import {
   listStoreSlugsForCountry,
 } from '../config/countries';
 import { logger } from '../utils/logger';
+import { normalizeLabelEvidence } from './labelEvidence';
 import { isCatalogAvailable, parseAvailabilityManifest, saveCountryAvailability, verifyAvailableCatalog } from './catalogAvailability';
 
 interface LegacyProduct {
+  labelEvidence?: unknown;
   sourceMethod?: string;
   priceType?: string;
   observedAt?: string;
@@ -78,6 +80,16 @@ export function seedAllStoresFromWrangling(
 ): SeedReport[] {
   const config = loadWranglingConfig(wranglingPath);
   const reports: SeedReport[] = [];
+  const labelFile = path.join(wranglingPath, 'label-evidence', `${country}.json`);
+  const labelByUrl = new Map<string, unknown>();
+  if (fs.existsSync(labelFile) && fs.statSync(labelFile).size <= 8_000_000) {
+    try {
+      const labels = JSON.parse(fs.readFileSync(labelFile, 'utf8'));
+      if (Array.isArray(labels)) for (const evidence of labels.slice(0, 10000)) {
+        if (evidence && typeof evidence.sourceUrl === 'string') labelByUrl.set(evidence.sourceUrl, evidence);
+      }
+    } catch { logger.warn('Optional label evidence could not be loaded'); }
+  }
   const slugs = listStoreSlugsForCountry(config, country);
   const manifestPath = path.join(wranglingPath, 'catalog-availability.json');
   const availability = fs.existsSync(manifestPath)
@@ -106,7 +118,7 @@ export function seedAllStoresFromWrangling(
         skippedRejected: 0, missingUrl: 0, withPromo: 0 });
       continue;
     }
-    reports.push(seedStoreFromWrangling(storeSlug, displayName, filePath, country));
+    reports.push(seedStoreFromWrangling(storeSlug, displayName, filePath, country, undefined, labelByUrl));
   }
   if (availability) saveCountryAvailability(country, availability);
 
@@ -251,6 +263,7 @@ export function legacyToScraped(
   const weightInGrams = sanitized.weightInGrams;
 
   return {
+    labelEvidence: normalizeLabelEvidence(legacy.labelEvidence, resolveProductUrl(legacy)),
     sourceMethod: typeof legacy.sourceMethod === 'string' && /^[a-z0-9_]{1,64}$/.test(legacy.sourceMethod) ? legacy.sourceMethod : undefined,
     priceType: legacy.priceType === 'regular' || legacy.priceType === 'promotion' || legacy.priceType === 'loyalty' ? legacy.priceType : undefined,
     productName: sanitized.productName,
@@ -283,7 +296,8 @@ export function seedStoreFromWrangling(
   storeName: string,
   filePath: string,
   country: CountryCode = DEFAULT_COUNTRY,
-  maxProducts = Number(process.env.SEED_MAX_PRODUCTS ?? 0) || undefined
+  maxProducts = Number(process.env.SEED_MAX_PRODUCTS ?? 0) || undefined,
+  labelByUrl: Map<string, unknown> = new Map()
 ): SeedReport {
   const report: SeedReport = {
     store: storeSlug,
@@ -320,7 +334,11 @@ export function seedStoreFromWrangling(
 
   for (let i = 0; i < Math.min(arr.length, limit); i++) {
     const item = arr[i];
-    const scraped = legacyToScraped(item, storeName, storeSlug);
+    const productUrl = resolveProductUrl(item);
+    const embeddedLabel = normalizeLabelEvidence(item.labelEvidence, productUrl);
+    const refreshedLabel = normalizeLabelEvidence(labelByUrl.get(productUrl ?? ''), productUrl);
+    const sourceLabel = refreshedLabel && (!embeddedLabel || Date.parse(refreshedLabel.observedAt) > Date.parse(embeddedLabel.observedAt)) ? refreshedLabel : embeddedLabel;
+    const scraped = legacyToScraped(sourceLabel ? { ...item, labelEvidence: sourceLabel } : item, storeName, storeSlug);
     if (!scraped) {
       if (item.n && shouldRejectProductName(item.n)) {
         report.skippedRejected += 1;
