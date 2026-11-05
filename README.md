@@ -258,7 +258,8 @@ Verify history and one consented watch before enabling the scheduled worker.
 
 `GET /deals?country=uk|nl|de&sort=saving|percent|price&category=...&store=...`
 supports bounded pagination, exact category/store filters and deterministic
-sorting. It excludes membership-only offers, expired/invalid offer dates, invalid prices and observations
+sorting. It excludes offers with an unknown package quantity, membership-only
+offers, expired/invalid offer dates, invalid prices and observations
 outside the catalog freshness window. Responses include pack size, observation
 date, membership price type and known minimum quantities. Effective promotional
 prices are conditional indications, not guaranteed single-pack checkout prices.
