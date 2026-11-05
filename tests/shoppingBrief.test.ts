@@ -1,12 +1,17 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { interpretBrief, validateConstraints, assessProduct, assessmentStatus, Constraint } from '../src/services/shoppingBrief';
-import { normalizeLabelEvidence } from '../src/services/labelEvidence';
+import { labelEvidenceFileName, normalizeLabelEvidence } from '../src/services/labelEvidence';
 import { Product } from '../src/types';
 
 const url = 'https://shop.example/product/milk';
 const evidence = { version: 1, sourceUrl: url, method: 'json_ld', observedAt: new Date().toISOString(), claims: ['vegan'], ingredients: 'Oats, water, sucralose', nutrients: { basis: '100ml', servingSize: '100 ml', sugarG: 0, proteinG: 3 } };
 const product = (extra = {}) => ({ productName: 'Oat milk', productUrl: url, packageSize: '1 l', originalPrice: 1.5, effectivePrice: 1.5, scrapedAt: new Date().toISOString(), promoType: null, labelEvidence: normalizeLabelEvidence(evidence, url), ...extra } as Product);
+
+test('label evidence paths are selected from literals and reject path-shaped country input', () => {
+  assert.deepEqual(['nl', 'uk', 'de'].map(country => labelEvidenceFileName(country as any)), ['nl.json', 'uk.json', 'de.json']);
+  for (const value of ['../secret', '/etc/passwd', 'nl/../../secret', 'nl.json', '', null, ['nl']]) assert.throws(() => labelEvidenceFileName(value as any));
+});
 
 test('interprets equivalent English, Dutch and German shopping requests', () => {
   for (const [request, country] of [['oat milk without added sugar under £2 per litre', 'uk'], ['havermelk zonder toegevoegde suiker onder €2 per liter', 'nl'], ['Hafermilch ohne Zuckerzusatz unter €2 pro Liter', 'de']] as const) {

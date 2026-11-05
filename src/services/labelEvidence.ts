@@ -1,3 +1,15 @@
+import { CountryCode } from '../config/countries';
+
+// Return literals rather than carrying request-derived strings to filesystem APIs.
+export function labelEvidenceFileName(country: CountryCode): string {
+  switch (country) {
+    case 'nl': return 'nl.json';
+    case 'uk': return 'uk.json';
+    case 'de': return 'de.json';
+    default: throw new Error('Unsupported label-evidence country');
+  }
+}
+
 export interface LabelEvidence {
   version: 1;
   sourceUrl: string;
