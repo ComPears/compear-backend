@@ -79,6 +79,7 @@ export function toProduct(
   );
 
   return {
+    ...(scraped.labelEvidence ? { labelEvidence: scraped.labelEvidence } : {}),
     ...(scraped.sourceMethod ? { sourceMethod: scraped.sourceMethod } : {}),
     ...(scraped.priceType ? { priceType: scraped.priceType } : {}),
     id,

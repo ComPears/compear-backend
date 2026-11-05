@@ -24,6 +24,7 @@ export type ProductCategory =
   | 'Other';
 
 export interface Product {
+  labelEvidence?: import('../services/labelEvidence').LabelEvidence;
   sourceMethod?: string;
   priceType?: 'regular' | 'promotion' | 'loyalty';
   id: string;
@@ -58,6 +59,7 @@ export interface ProductWithStore extends Product {
  * Raw product as scraped (before effective price calculation).
  */
 export interface ScrapedProduct {
+  labelEvidence?: import('../services/labelEvidence').LabelEvidence;
   sourceMethod?: string;
   priceType?: 'regular' | 'promotion' | 'loyalty';
   productName: string;

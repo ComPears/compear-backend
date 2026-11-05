@@ -184,3 +184,48 @@ It prints JSON metrics (`statusAccuracy`, `autoMatchPrecision` / `autoMatchRecal
 `falseAutoMatchRate`, `coverage`) and exits non-zero if `falseAutoMatchRate > 0.05` or
 `statusAccuracy < 0.75`. The same gates are asserted in `tests/receiptMatchingEval.test.ts`
 during `npm test`.
+# Optional price history and background watches
+
+Shopping briefs and guides work without a database or an AI provider. Label checks
+only pass with recent, listing-bound retailer evidence. Missing facts remain unknown.
+
+Durable history and private watches are disabled by default. Render hosting alone
+does not create persistent PostgreSQL or an email service. Do not enable the feature
+until database ownership, plan cost, backups and credentials have been confirmed.
+
+1. Create or select a persistent PostgreSQL database. Set `DATABASE_URL` privately
+   in Render. This client verifies database TLS certificates in production. For
+   Render Postgres, use its full external URL with `sslmode=verify-full`: Render's
+   internal endpoint uses self-signed certificates and does not support that mode
+   ([Render connection documentation](https://render.com/docs/postgresql-creating-connecting)).
+   Do not work around a TLS failure by disabling certificate verification. Confirm
+   the connection in staging before enabling the production feature. Give the application role permission to create its
+   three `compear_price_*` tables and indexes (or apply the schema in
+   `src/services/insightsStore.ts` with a migration role, then grant CRUD access).
+2. Keep `RECEIPT_AUTH_SECRET` stable and private. Set `ENABLE_PRICE_INSIGHTS=true`
+   in Render, deploy, then inspect `GET /insights/features` and an actual history
+   response. Tables are initialized on first use, not during backend startup.
+3. In GitHub, set repository variable `ENABLE_PRICE_INSIGHTS=true` only after the
+   deployed API works. The hourly **Refresh optional price history and alerts** job
+   uses the existing `BACKEND_BASE_URL` and `SCRAPE_API_KEY`; manually run it once.
+   `POST /insights/refresh` also works with the ops API key. Recording is idempotent,
+   and concurrent workers are serialized with a database advisory lock.
+4. In-app watches work without email. To add email, configure a verified sender in
+   Resend, set `RESEND_API_KEY`, `ALERT_FROM_EMAIL` and a stable
+   `ALERT_SIGNING_SECRET` (32+ random characters), then set
+   `ENABLE_PRICE_ALERT_EMAIL=true`. No provider account or paid resource is created
+   by this repository. Email requires explicit consent and double opt-in. Action
+   tokens stay in URL fragments; opening a link alone changes nothing.
+
+History covers the exact retailer listing and country, starts with real collected
+observations and retains 180 days. Conditional loyalty prices are excluded.
+Watches fire on threshold crossings, re-arm above the target and use an idempotent
+email outbox. Unavailable listings cannot generate or deliver fresh signals. Private
+access uses signed browser credentials; clearing them can remove inbox access.
+Stopping an alert clears its email immediately. Old stopped/unconfirmed watches
+are removed by the worker. Do not enable email without an appropriate privacy
+notice, sender-domain verification, cost approval and a support/contact process.
+
+Local/CI integration verification uses `INSIGHTS_TEST_DATABASE_URL` and a disposable
+PostgreSQL database; it never sends real email. Run `npm test` and
+`npm run test:memory` before release. `/insights/*` is deliberately `no-store`.
