@@ -6,20 +6,20 @@
       "store": "tesco",
       "available": true,
       "reason_codes": [],
-      "products": 2043,
-      "last_successful_at": "2026-11-05T13:48:10.615224+00:00",
-      "available_until": "2026-11-12T13:48:10.615224+00:00",
-      "catalog_sha256": "6c3ad3540a48968fd422a4cbf9cfde1000a353e1bb1448441de23b6071802c9e"
+      "products": 2045,
+      "last_successful_at": "2026-11-06T04:22:05.521303+00:00",
+      "available_until": "2026-11-13T04:22:05.521303+00:00",
+      "catalog_sha256": "488f5234b84abcf55c17969eccc3e64529b71b675e400ad1f7a419ab216d40ae"
     },
     {
       "country": "uk",
       "store": "sainsburys",
       "available": true,
       "reason_codes": [],
-      "products": 2282,
-      "last_successful_at": "2026-11-05T13:49:17.857306+00:00",
-      "available_until": "2026-11-12T13:49:17.857306+00:00",
-      "catalog_sha256": "7f734b4ed10a1865a6c8a2de1df54685281df439b8ac501c4eb79b9e66232951"
+      "products": 2274,
+      "last_successful_at": "2026-11-06T04:24:37.678845+00:00",
+      "available_until": "2026-11-13T04:24:37.678845+00:00",
+      "catalog_sha256": "9ec42e2a86b11ca39354f4c6364d501dd289d78c2947c335a39ce8b75af23d1f"
     },
     {
       "country": "uk",
@@ -38,20 +38,20 @@
       "store": "morrisons",
       "available": true,
       "reason_codes": [],
-      "products": 1457,
-      "last_successful_at": "2026-11-05T13:41:27.772323+00:00",
-      "available_until": "2026-11-07T13:41:27.772323+00:00",
-      "catalog_sha256": "e582e26bc6f52c6981ab2fe512559090fae1821519ff3633b2c1c0b9d6609a83"
+      "products": 1487,
+      "last_successful_at": "2026-11-06T04:26:02.165139+00:00",
+      "available_until": "2026-11-08T04:26:02.165139+00:00",
+      "catalog_sha256": "b6ec69a853ee133a7d20d0ae86669f54d42f6de9e3fbcadee006ef229f75d4a2"
     },
     {
       "country": "uk",
       "store": "aldi-uk",
       "available": true,
       "reason_codes": [],
-      "products": 1444,
-      "last_successful_at": "2026-11-05T13:59:54.920049+00:00",
-      "available_until": "2026-11-07T13:59:54.920049+00:00",
-      "catalog_sha256": "4883e31f8cab3b2699a4f0b5c5ead326cf1d07e3c9a0ae9d78734f160ff299f9"
+      "products": 1445,
+      "last_successful_at": "2026-11-06T04:31:32.070353+00:00",
+      "available_until": "2026-11-08T04:31:32.070353+00:00",
+      "catalog_sha256": "7937d9b7e4991bb93c0509cb4295622ce0183aabc77656a7841ae23e94da5b64"
     },
     {
       "country": "uk",
