@@ -8,16 +8,16 @@
     "store": "Lidl",
     "packageSize": "stuk",
     "weightInGrams": 1,
-    "originalPrice": 56.99,
-    "effectivePrice": 56.99,
-    "unitPrice": 56990,
-    "effectiveUnitPrice": 56990,
+    "originalPrice": 53.99,
+    "effectivePrice": 53.99,
+    "unitPrice": 53990,
+    "effectiveUnitPrice": 53990,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4a7bd35b5f4a42ddb6933482f439536a.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|edi-elektrische-ijskrabber-rcher|na"
@@ -40,7 +40,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdb0a50f07f164f18b58647f28386fa2c.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|inklapbare-krat|60000ml"
@@ -63,7 +63,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0f29a98a5754491f86550fffd303772a.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|bedhekje-safety-verstelbaar|1count"
@@ -86,7 +86,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp46bd377161af40e9b1b3d40177e91ebc.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|emmer-inzetstuk-w5|18000ml"
@@ -109,10 +109,33 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0c0128e45f394a0986d09042bbd0a3dc.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|baby-dag-dreamer-fijne-globe-reisbed-safety|1count"
+  },
+  {
+    "priceType": "regular",
+    "id": "lidl-147f7eb7011c",
+    "canonicalName": "deurhekje openingsmechanisme quickclose safety verbeterd",
+    "productName": "Safety 1st Deurhekje »quickclose«, Met Verbeterd Openingsmechanisme",
+    "brand": "safety",
+    "store": "Lidl",
+    "packageSize": "1 items",
+    "weightInGrams": null,
+    "originalPrice": 29.99,
+    "effectivePrice": 29.99,
+    "unitPrice": 29.99,
+    "effectiveUnitPrice": 29.99,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.nl/assets/gcpa8d205211d494ea09bf035cff25a9ba8.jpeg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
+    "category": "Personal Care",
+    "barcode": null,
+    "identityKey": "tok:unknown|deurhekje-openingsmechanisme-quickclose-safety-verbeterd|1count"
   },
   {
     "priceType": "regular",
@@ -132,7 +155,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb85d3a48422e4fcda61fbda8294a9d22.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|kinder-koffer-lupilu|22000ml"
@@ -155,7 +178,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp392f05ec19014273b4e85db902e04d3b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|20-kinder-koffer|5000ml"
@@ -169,16 +192,16 @@
     "store": "Lidl",
     "packageSize": "10 l",
     "weightInGrams": 10000,
-    "originalPrice": 4.99,
-    "effectivePrice": 4.99,
-    "unitPrice": 0.499,
-    "effectiveUnitPrice": 0.499,
+    "originalPrice": 8.99,
+    "effectivePrice": 8.99,
+    "unitPrice": 0.899,
+    "effectiveUnitPrice": 0.899,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp06d33b8432434748b8860e6846ac5b4f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|kinder-lupilu-rugzak-unicorn|10000ml"
@@ -201,7 +224,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb2cbdd28bdc54b85a04c88d16b538ee0.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|handbagage-hardcase-koffer|22000ml"
@@ -224,7 +247,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp7f5f1037abbe4e5180637d6fdf8259f7.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|295-drinkfles-infantino-my-tumbler|295ml"
@@ -247,7 +270,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc03501a51b5a4ae8be2f989326d37289.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|baby-lupilu-slaapoverall|2x1count"
@@ -270,7 +293,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp49f307b0b4aa47879ac41d6bcdc5a5b6.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|baby-kanz-kruisknopen-romper|2x1count"
@@ -293,7 +316,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp07cfe0d707824e1fa116d5d8a09a1408.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|hoog-katoengehalte-lupilu-meisjesjoggingbroek|2x1count"
@@ -316,7 +339,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6f23f121f9ca4b4bbd301cec9d587afd.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|baby-lupilu-maillots|2x1count"
@@ -339,17 +362,17 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp304cf9230e1b4e1ba7940f7fece22faf.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|haken-vileda-zelfklevende|3x1count"
   },
   {
     "priceType": "regular",
-    "id": "lidl-5c5d5b28929b",
-    "canonicalName": "gesneden roggebrood tastino volkoren",
-    "productName": "Tastino Volkoren Roggebrood Gesneden",
-    "brand": "tastino",
+    "id": "lidl-21d22b651269",
+    "canonicalName": "gesneden roggebrood volkoren",
+    "productName": "Volkoren Roggebrood Gesneden",
+    "brand": "volkoren",
     "store": "Lidl",
     "packageSize": "stuk",
     "weightInGrams": 1,
@@ -362,10 +385,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6e9cfd818b9a41709bd110ce822d5e10.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
-    "identityKey": "tok:unknown|gesneden-roggebrood-tastino-volkoren|na"
+    "identityKey": "tok:unknown|gesneden-roggebrood-volkoren|na"
   },
   {
     "priceType": "regular",
@@ -385,7 +408,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp429608a456414bf8a2712a6e4136683d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|saucijzenbroodjes-tastino|na"
@@ -408,7 +431,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp935141b517d94f9e94c6d7f3e4404fa9.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|baguette-desem-meergranen-steenoven|na"
@@ -431,7 +454,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4888ebf2aa13491ea2a842d73abde950.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|broodje-walnoten|na"
@@ -454,7 +477,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp33d3a15e5c54428abb91ee07984845d8.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|berlinerbol|na"
@@ -477,7 +500,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa382ee8b4a0d49b69fcd0dcdaf7cff73.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|roombotercroissant|na"
@@ -500,7 +523,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp95a90368959a4f6b971e8c96159f72a0.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|chocolade-donut|na"
@@ -523,7 +546,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp7a7c5a12d4e245d7b4aeff80174339c4.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|pecannotenbroodje|na"
@@ -546,7 +569,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp66d67489644d43178cfaa31d4b1d3298.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|pretzel|na"
@@ -569,7 +592,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp86a72c8f29944805ba6c4cb3e06c03bd.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|kampioentje|na"
@@ -592,7 +615,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp78c07ba726b24e2787b05f25bd2f99da.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|mini-pitabroodjes|na"
@@ -615,7 +638,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp481f2fe7aff04879b3d332cb784eba60.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|koffiebroodjes|na"
@@ -638,7 +661,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp18369019f1a24ee69e6a771ebb585643.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|kaasbroodje|na"
@@ -661,7 +684,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp02767bd6694e40ca96143cecdd8662dc.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|chocoladebroodje|na"
@@ -684,7 +707,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf9411e3278d3482488d2ba6e1f0dfb18.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|donut-gesuikerd|na"
@@ -707,7 +730,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbefad06a8dc5454ea45048782568e691.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|schnittbroodje|na"
@@ -730,7 +753,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0d1a7c8ea9aa4c479523f4e8712f32ac.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|pompoenpitbroodje|na"
@@ -753,7 +776,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp5ee637a9608e447896c324e4f03bb536.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|kaascroissant|na"
@@ -776,7 +799,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc3b519b0bd744925b0081ac93b2f7a82.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|stokbrood|na"
@@ -799,7 +822,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp459e559c7ec24c61a0b6d9f65c8861e7.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|brood-turks|na"
@@ -822,7 +845,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1adec55c698642c69f726b37cd1f4ce0.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|focaccia-vega|na"
@@ -845,7 +868,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe3bbec1afae7413f8b24f4b804b49de2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|kaneelbroodje|na"
@@ -868,7 +891,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf3f0bb4fe95a4e76b4499637e91f4e55.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|pitabroodjes-tastino|na"
@@ -891,7 +914,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp742cb5f665444c33bb080d7c2d89fdef.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|appeltaartje-mini|na"
@@ -914,7 +937,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpee6e5fc265cd47888657965e719c0d7e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|chocolate-cookie-double|na"
@@ -937,7 +960,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0cbf981deb2b4339b6f3a7c9a269de60.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|gevulde-koek|na"
@@ -960,7 +983,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp58eb88f08ec24c7c8aa009ef12f1e71d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|volkorenbollen|na"
@@ -983,7 +1006,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd40d303ff16c49709f70c859bce36cda.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|pistolet-witte|na"
@@ -1006,7 +1029,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd6b4d4a19711404fb5fb4ca1f3956245.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|brood-tijgervolkoren|na"
@@ -1029,7 +1052,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4f6d6c9cf14445c3b1d2131df2182092.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|frikandelbroodje|na"
@@ -1052,7 +1075,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp19189810fc964a918f5bcf30e85cfa01.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|bollen-italiaanse-tastino|na"
@@ -1075,7 +1098,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3f2d9f88b616452d9fa80597caade4a2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|baguette-desem-steenoven-wit|na"
@@ -1098,7 +1121,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp73cfeb935e09427e99b1a98a7c520f83.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|cruffin|na"
@@ -1121,7 +1144,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdaad3fc7586c47f18539a1552ae83a96.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|kaastwister|na"
@@ -1144,7 +1167,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf6b346ade30c4c8b9aabca2097c71148.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|croissant-meergranen|na"
@@ -1167,7 +1190,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpfd8f62955bd748ab862819604ae107b3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|kampioentjes-meerzaden-tastino|na"
@@ -1190,7 +1213,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0724a7b4be044938aecd35e53a7579f6.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|tijgerbroodje|na"
@@ -1213,7 +1236,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6cb28fde1926481d88966511acade81e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|ciabatta-tastino|na"
@@ -1236,7 +1259,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6c633673243841f6906e9b64ca37dd5a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|volkorenpuntjes|na"
@@ -1259,7 +1282,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2396f3d4f397425495feb6bc89730cf8.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|witbrood|na"
@@ -1282,7 +1305,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3a657ec3cd08459db4f2d5f460d945f2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|heel-tijgerbruin|na"
@@ -1305,7 +1328,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe435a42b0c3d4a50a7aaa9125a2dadbc.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|heel-tijgerwit|na"
@@ -1328,7 +1351,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpae7e0a10157743cdbbd9170e2d1bbdb2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|walnotenbrood|na"
@@ -1351,7 +1374,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpaad16606d62740789a9d742edd9f409d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|desem-rustiek-wit|na"
@@ -1374,7 +1397,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp549fb7ff39d84c4aa8f878c0ab40f861.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|bio-desembrood-meergranen-rustiek|na"
@@ -1397,7 +1420,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf05b8d2774c5429398d508c6e912c309.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|bio-desembrood-rustiek-woutkorn|na"
@@ -1420,7 +1443,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1f9debe0b4b04217a08478940d5a2d28.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|desem-meergranen-rustiek|na"
@@ -1443,7 +1466,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9780c3fe208b48ec845e9d132658d000.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|desem-rustiek-volkoren|na"
@@ -1466,7 +1489,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp12dbf05ac24447c18890b34f0fff7925.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|tastino-worstenbroodjes|na"
@@ -1489,7 +1512,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp218917c4197d4e17a8ecf8f0116d721e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|mueslibol-volkoren|na"
@@ -1512,7 +1535,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp429622a10e7e44f5b0fb364aa1f9030d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|cake-roomboter|na"
@@ -1535,7 +1558,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbbb0e69ed9b14d18beddbb61ddd8e083.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|4rain-amphora-antraciet-regenton|220000ml"
@@ -1558,7 +1581,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/2c0ac1001490b179d3aacdb6409174f2.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|compostbak-dubbele-prosperplast|800000ml"
@@ -1581,7 +1604,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1752325abe024459b3610262edf9dea7.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|60-bak-cm-grijs-langwerpige-lengte-scheurich|na"
@@ -1604,7 +1627,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp03e0ed3769dd4d4ca52590b19ff90a04.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|80-antraciet-prosperplast-regenwatertank-smooth|80000ml"
@@ -1627,7 +1650,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/8ff3a461dd191c0c1057df6610129f04.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|prosperplast-regenton|210000ml"
@@ -1650,7 +1673,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa6a7a8427cc0439c9f34348ae3ff5c47.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|dobar-grijs-kweekbak-maat|na"
@@ -1673,7 +1696,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf3515b3aeadb476fb1f4a0490c937b7d.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|dobar-vogelvoermix|6x1count"
@@ -1696,7 +1719,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8f04c030b135432eae67a4c1cfdac437.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|700-dobar-metaal-op-stok-vogelbad|700ml"
@@ -1719,7 +1742,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpae98db1683dc450e988af4833c18a8e6.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-houtbeits|5000ml"
@@ -1742,7 +1765,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa4c4d5c106e94b7d86c6b8ab0d7c193e.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-beits|5000ml"
@@ -1765,7 +1788,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/ea7d6aaac8526c821481314934c9f0b9.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-houtgel-weerbeschermende|5000ml"
@@ -1788,7 +1811,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp53bda2edb4624cb09bfeb0174405be10.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-express-lak|5000ml"
@@ -1811,7 +1834,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1d9ba5fea128405f99d51bb2d44439ab.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-straatsteenverf|5000ml"
@@ -1833,8 +1856,8 @@
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcp75a89241008b4e31a7b6459c69824957.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "productUrl": "https://www.lidl.nl/assets/gcp89909501b4b54d9bbc728c0cb7f9537e.jpg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:plus|10-baufix-gevelverf-professionele|10000ml"
@@ -1857,7 +1880,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp935fbe7195494b4e99614e7a17b50600.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-houtverzorgingsolie|5000ml"
@@ -1880,7 +1903,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf912f095ffc14d399dc6e3eb3c23b32a.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|as-ation-cr-muurverf|5000ml"
@@ -1903,7 +1926,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp334c5c13df5040da980696777bbc8876.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-houtbeits-multispray|5000ml"
@@ -1926,7 +1949,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp204ae03d63654f2d81133dc48d92b25f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|baufix-vloeibare-vloerverf|5000ml"
@@ -1949,7 +1972,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa7e770b8b5ea4bb7b3f1bd28b3fef623.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|as-ation-cr-muurverf-wit|10000ml"
@@ -1972,33 +1995,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdda6790a40794c3bad56e599f20a90d5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|40-gmbh-lijmpatronen-mm-power-steinel-ultra-vertrieb|40x1count"
-  },
-  {
-    "priceType": "regular",
-    "id": "lidl-38aae9216cee",
-    "canonicalName": "130 180 cm grijs sanitas warmtedeken",
-    "productName": "Sanitas Warmtedeken, 130 X 180 Cm (grijs)",
-    "brand": "sanitas",
-    "store": "Lidl",
-    "packageSize": "130 x 180 cm (grijs) 33.99",
-    "weightInGrams": null,
-    "originalPrice": 33.99,
-    "effectivePrice": 33.99,
-    "unitPrice": 33.99,
-    "effectiveUnitPrice": 33.99,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcpc81491266b5844eaba2cbfc0c750593a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Frozen Foods",
-    "barcode": null,
-    "identityKey": "tok:unknown|130-180-cm-grijs-sanitas-warmtedeken|na"
   },
   {
     "priceType": "regular",
@@ -2018,7 +2018,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe7cb47e72b6c4f9db5124c93e1435fff.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|haricots-verts|na"
@@ -2041,7 +2041,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9da82b50d45f47efa698114a747db94f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|sperziebonen|na"
@@ -2064,7 +2064,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp599b70b9627e4f1eac5b5efe308f116b.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|mozzarella-pesto-pinsa|na"
@@ -2087,7 +2087,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp83c6bea4e8424e27b906fe72224a401e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|deluxe-gourmetmini-knoflookgarnalen|na"
@@ -2110,7 +2110,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa2c68a41119d47cf89f655c030d594d9.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|deluxe-visgourmetschotel|na"
@@ -2133,56 +2133,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd54338d799534ff7ab2dae94293676bb.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|deluxe-vleesgourmetschotel|na"
-  },
-  {
-    "priceType": "regular",
-    "id": "lidl-92be41073368",
-    "canonicalName": "friet verse voorgebakken",
-    "productName": "Voorgebakken Verse Friet",
-    "brand": "voorgebakken",
-    "store": "Lidl",
-    "packageSize": "stuk",
-    "weightInGrams": 1,
-    "originalPrice": 2.39,
-    "effectivePrice": 2.39,
-    "unitPrice": 2390,
-    "effectiveUnitPrice": 2390,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcp2f507078a57346fcbdaec1b68d6c7dcb.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Frozen Foods",
-    "barcode": null,
-    "identityKey": "tok:unknown|friet-verse-voorgebakken|na"
-  },
-  {
-    "priceType": "regular",
-    "id": "lidl-11efbbde7c46",
-    "canonicalName": "bol italiaanse",
-    "productName": "Italiaanse Bol",
-    "brand": "italiaanse",
-    "store": "Lidl",
-    "packageSize": "stuk",
-    "weightInGrams": 1,
-    "originalPrice": 0.48,
-    "effectivePrice": 0.48,
-    "unitPrice": 480,
-    "effectiveUnitPrice": 480,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcpb55c21fd658f4be18a382e8b1e7ef5f1.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Frozen Foods",
-    "barcode": null,
-    "identityKey": "tok:unknown|bol-italiaanse|na"
   },
   {
     "priceType": "promotion",
@@ -2202,7 +2156,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|dennenappels-vogelvoermix|8x1count"
@@ -2225,7 +2179,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|100-incl-vetbollen-zadenmix|100x1count"
@@ -2248,7 +2202,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|100-104-dobar-gourmet-vetbollen|100x1count"
@@ -2271,7 +2225,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8e816c35612349f28f9bacc93d61d54d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|lemon-schweppes|na"
@@ -2294,7 +2248,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe4e1c17f1bda4c72a08623729b342384.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|1007-20-gluematic-gmbh-incl-lijmpatronen-lijmpistool-steinel-vertrieb|20000ml"
@@ -2317,7 +2271,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp27381b3206ab4ca0b37cfca8ade4792b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|24-eg212-incl-lijmpatronen-lijmpistool-rapid|24000ml"
@@ -2340,7 +2294,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa73a5fb176c04c5b82719750fd489053.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|boxers-heren-reebok|2x1count"
@@ -2363,7 +2317,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpede02e749e6b434a8079f42afc9fcdde.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|active-boxers-heren-reebok-wear|2x1count"
@@ -2386,7 +2340,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdedba446131848039e364c102bf1249c.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|dames-of-onderbroek-reebok-seamless-string|3x1count"
@@ -2409,7 +2363,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3f0d3db889d942e38d8ce787729663b4.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|hartslagmeting-saturatiemeter-sensiplast|na"
@@ -2432,7 +2386,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2c4c0e7bd2204951acff73b34cb29ad5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|grillmeister-hamburgerset-of-pork-pulled-set-starterspakket|na"
@@ -2455,7 +2409,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpfc3cb3ccd8664c559a21cea16a76c942.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|oesterzwammen|na"
@@ -2478,7 +2432,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3971a4994e9346269861ed723528abb2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|puntpaprikamix-zoete|na"
@@ -2501,7 +2455,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1128c1278b59401b9893f1af6cc40da6.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bananen-bio|na"
@@ -2524,7 +2478,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp69f6a763bc544b28819784c2fe7d3b5e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|nectarines|na"
@@ -2547,7 +2501,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdb2e4cfbd5224d828bb605f04123f7a0.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|appels-elstar|na"
@@ -2570,7 +2524,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp02582be172ed41609fa2718636dc4d9f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bio-kastanjechampignons|na"
@@ -2593,7 +2547,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9e3a74c0a19e4534a01940555374c151.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|groen-kiwi|na"
@@ -2616,7 +2570,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc556c94f66aa43a88f8b3263a0f922af.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|prei|na"
@@ -2639,7 +2593,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6189588cced74949a1e275f39ca793e6.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|appeltjes-kleine|na"
@@ -2662,7 +2616,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9b290f8406b74ac38b700f487159c0f9.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|aardappelen-kruimig|na"
@@ -2685,7 +2639,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8ec3108bba7343ba9e532eabed2bfad0.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|pruimen|na"
@@ -2708,7 +2662,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3a794284165a416ca3517c98400403df.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|appel-goudreinet|na"
@@ -2731,7 +2685,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp529817fbc50447a891e7c5692d92d25f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|aardappelen-bio-organic|na"
@@ -2754,7 +2708,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp42205c6eb81f4e0696fa9acbc98a94e3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bio-wortels|na"
@@ -2777,7 +2731,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdcda340c946949aea8e308b0dd0a8a55.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|knoflook|na"
@@ -2800,7 +2754,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa46c1e5174344374aaa1aa2b85445f31.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|champignons|na"
@@ -2823,7 +2777,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp90ef9dec1e404655ae438f16504eb110.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|paksoi|na"
@@ -2846,17 +2800,17 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp7d290dda5f1945e885ab97a13ae65b3a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|kluit-kropsla|na"
   },
   {
     "priceType": "regular",
-    "id": "lidl-d0c014fbcfc5",
-    "canonicalName": "conference lidla peer ryneczek",
-    "productName": "Ryneczek Lidla Conference Peer",
-    "brand": "ryneczek",
+    "id": "lidl-ff24aefd8224",
+    "canonicalName": "conference peer",
+    "productName": "Conference Peer",
+    "brand": "conference",
     "store": "Lidl",
     "packageSize": "stuk",
     "weightInGrams": 1,
@@ -2869,10 +2823,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2b041d399faf44d4bf8c4e28981626d2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
-    "identityKey": "tok:unknown|conference-lidla-peer-ryneczek|na"
+    "identityKey": "tok:unknown|conference-peer|na"
   },
   {
     "priceType": "regular",
@@ -2892,7 +2846,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbd243a480d68464d9d94a92d80dfd283.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|limoenen|na"
@@ -2915,7 +2869,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb12e405e770744fba97ead980c506270.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bloemkool|na"
@@ -2938,7 +2892,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp41a233fc8d854be2a35269ebfdaf39c3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bananen|na"
@@ -2961,7 +2915,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp36cf27d4343e4f95b70ee741ea88b468.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|avocado|na"
@@ -2984,7 +2938,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp7e530c9475d54a2ba7f47417479ce63e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|passievruchten|na"
@@ -3007,7 +2961,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa32507e186794cb4b890bdee80432b6d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|ijsbergsla|na"
@@ -3030,7 +2984,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp36cf914cb05941b7831c85847e35522f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|lente-ui|na"
@@ -3053,7 +3007,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp291af7f896e6473f9548d2be40a0fd64.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|paprikamix|na"
@@ -3076,7 +3030,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpba12f9a0f214431989c0350105af6005.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|waspeen|na"
@@ -3099,7 +3053,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp84cd24422eba47059e1d28c52778e98a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|kastanjechampignons|na"
@@ -3122,7 +3076,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd48cfa0d4ba740f4a93b6e461792c7f3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|rood-uien|na"
@@ -3145,7 +3099,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp315f45e410164b57886821e72d4e0b59.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bio-in-peterselie-pot|na"
@@ -3168,7 +3122,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp321148523ee44182ad27c5e9bc3a1727.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|basilicum-bio-in-pot|na"
@@ -3191,7 +3145,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9ccc9aedcd114af7afdf1e943efa98cf.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bieslook-bio-in-pot|na"
@@ -3214,7 +3168,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp245936a152414644a951aafdd51e771f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bio-pastinaak|na"
@@ -3237,7 +3191,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp5ea96cc637a1422bbec7b3cedfdf2f4b.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bio-in-pot-tijm|na"
@@ -3260,7 +3214,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp66231eb8071a4e69b4753fe0000a5c9a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|champignons-witte|na"
@@ -3283,7 +3237,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc18b1deabbcc4052992b1107cbe5d4eb.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|aubergine|na"
@@ -3306,7 +3260,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp54d79ab540f548c7be59a35b596f2dd1.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bio-citroen|na"
@@ -3329,7 +3283,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp019464b144bb4409b6bed0f8656d6ea8.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|nashi-peren|na"
@@ -3352,7 +3306,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpee8955a2c9084cbfaa6762f0ea839dbd.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|kool-witte|na"
@@ -3375,7 +3329,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa748ac92021b4e02a308ae9381a47721.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|chinese-kool|na"
@@ -3398,7 +3352,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp01aab634649f41688eda61b5d88caaa2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|knolselderij|na"
@@ -3421,7 +3375,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp70c839e8297c4619b93e34363c5002b3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|chef-krieltjes-mini-naturel-select|na"
@@ -3444,7 +3398,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp18924c9721964ff987aeff913e2cc38a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|minneola|na"
@@ -3467,7 +3421,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp7baa7560466446138d4c55568f264b26.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|appel-jonagold|na"
@@ -3490,7 +3444,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4c4fce01957349bd95363f0975be3ad4.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bieten-bio-organic-rode|na"
@@ -3513,7 +3467,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbdc7f4ee4d394bae94a6992f1f407b0f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|avocado-in-net|na"
@@ -3536,7 +3490,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp44bd1c1c9cef4bd6866e3fc9d1b444ec.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|gewassen-spinazie|na"
@@ -3559,7 +3513,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4405fd82e55a43c9963946e35ed4faf0.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|gember|na"
@@ -3582,7 +3536,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp955385fdd92143e19b58361950ab8784.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|paprika-rood|na"
@@ -3605,7 +3559,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf685ccf13d2e4725938f18d526d84ec2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|rode-snacktomaten|na"
@@ -3628,7 +3582,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp005bdca8a9f64bc4a0a918dcfa61ac32.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|appels-rode|na"
@@ -3651,7 +3605,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1f8246a5e9d34a8eabf90506a7b76502.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bessen-blauwe|na"
@@ -3674,7 +3628,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6fa3792ed464450fb18c89fd57513ac2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bloedsinaasappels|na"
@@ -3697,7 +3651,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp58e1d9beea2a417cbe733b8569d9aa58.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|handsinaasappels|na"
@@ -3720,7 +3674,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp20e8802d1fd046b18982d24fa6cc568b.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|grote-watermeloen|na"
@@ -3743,7 +3697,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp877b0f368a6c43d480d8ef9a5c9372f3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|eat-mango-ready-to|na"
@@ -3766,7 +3720,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4b0754f5182a4cd19141cbb5c39bd0c9.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|aardbeien-hollandse|na"
@@ -3789,7 +3743,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp38f5e591741c4a22a2ca5a9cb80a4c27.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|cocktailtrostomaten|na"
@@ -3812,7 +3766,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3ca3088f956d47a9842b739581c2b83c.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|snacktomatenmix|na"
@@ -3835,7 +3789,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2c4001b2426142b8a3b20bb063ad542e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|gold-kiwi|na"
@@ -3858,7 +3812,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc26cc8b97a50428fa07ca2f81ab9593e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|sugarsnaps|na"
@@ -3881,7 +3835,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpafb648f5080349c4bb5d97a5f71f82b4.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|aardappelen-bio|na"
@@ -3904,7 +3858,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4ef43cc08f88437aaffdc877f167a85d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|druiven-sable|na"
@@ -3927,10 +3881,33 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpedfcfb8eaa1e4605a341aa0ec16f70db.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|wandelrugzak|40000ml"
+  },
+  {
+    "priceType": "regular",
+    "id": "lidl-be4296d825f7",
+    "canonicalName": "104 98 boxer kinder lupilu",
+    "productName": "Lupilu® Kinder Boxer, 8 (98/104)",
+    "brand": "lupilu",
+    "store": "Lidl",
+    "packageSize": "8 items",
+    "weightInGrams": null,
+    "originalPrice": 16.99,
+    "effectivePrice": 16.99,
+    "unitPrice": 16.99,
+    "effectiveUnitPrice": 16.99,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.nl/assets/gcp2fd903c3970c46ffa10ab8454dc11e7f.jpg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:unknown|104-98-boxer-kinder-lupilu|8x1count"
   },
   {
     "priceType": "regular",
@@ -3950,7 +3927,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp973344e2a0ba4fbb9090e1d3c84fdf0b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|fijnribkwaliteit-hemdjes-heren-in-livergy-wit-xxl|3x1count"
@@ -3973,7 +3950,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcped7ef3f44b0240689750e42110d53993.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|grijs-heren-mexx-pyjama-xl-zwart|na"
@@ -3996,33 +3973,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp68f1dbdd9c454d04b85d65bca21cdca9.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|rugzak|25000ml"
-  },
-  {
-    "priceType": "regular",
-    "id": "lidl-be4296d825f7",
-    "canonicalName": "104 98 boxer kinder lupilu",
-    "productName": "Lupilu® Kinder Boxer, 8 (98/104)",
-    "brand": "lupilu",
-    "store": "Lidl",
-    "packageSize": "8 items",
-    "weightInGrams": null,
-    "originalPrice": 16.99,
-    "effectivePrice": 16.99,
-    "unitPrice": 16.99,
-    "effectiveUnitPrice": 16.99,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcp2fd903c3970c46ffa10ab8454dc11e7f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Other",
-    "barcode": null,
-    "identityKey": "tok:unknown|104-98-boxer-kinder-lupilu|8x1count"
   },
   {
     "priceType": "regular",
@@ -4042,7 +3996,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe032cc40a1f84f358037047be2d1f078.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|boxers-grijs-heren-livergy-wit-xxl-zwart|na"
@@ -4065,7 +4019,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpcc19d5fd32804bc8bd89638bb23cfd42.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|boxers-cr7-kinder|2x1count"
@@ -4088,7 +4042,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb6bed61242014ba29bf63a0324361dac.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|104-98-boxers-donkerblauw-grijs-kinder-lupilu-wit|na"
@@ -4111,7 +4065,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc9b7ec2b2cdb44019173ae9456c26cf0.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|boxer-diesel-heren|3x1count"
@@ -4134,7 +4088,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf4b744a47ed74b29be092cbdf246a28b.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|boxers-kinder-minecraft|2x1count"
@@ -4157,7 +4111,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|600-antischrok-bak|600ml"
@@ -4171,16 +4125,16 @@
     "store": "Lidl",
     "packageSize": "stuk",
     "weightInGrams": 1,
-    "originalPrice": 34.99,
-    "effectivePrice": 34.99,
-    "unitPrice": 34990,
-    "effectiveUnitPrice": 34990,
+    "originalPrice": 14.99,
+    "effectivePrice": 14.99,
+    "unitPrice": 14990,
+    "effectiveUnitPrice": 14990,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8c20910a16bf4fba9c8c8e3701b1a19b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|door-europa-houten-lupilu-reis-treinset|na"
@@ -4203,7 +4157,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9be8cc87873c423d9ace7199aaf6d592.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|eetset-houten-koekjesdoos-lupilu|na"
@@ -4226,7 +4180,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp07d3941a337b409db1a759c58cbf7def.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|eetset-fruit-houten-lupilu|na"
@@ -4249,7 +4203,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp07787abd2516457fb6573a12c9cbf6a9.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|accessoires-houten-ijswagen-lupilu-of-snoepwinkel|na"
@@ -4272,7 +4226,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1ffdbbfd2dd642f9ab4e3d3552e00ec4.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|accessoires-bakkerij-houten-lupilu-of-speelgoed-tafelgrill|na"
@@ -4295,7 +4249,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp733353c872ca4a6d97027c4f6a5284bc.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|klein-kookeiland-miele-pepper-salt-speelgoed-theo|na"
@@ -4318,7 +4272,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdb22c8e20f8a493ab06c2c504b65af50.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|dier-lupilu-skippy|na"
@@ -4341,7 +4295,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6c5c8f9c381b4eb8a7e7d7c418cc9e24.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|gabby-ijssalon-keuken-of-poppenhuis-smoby-speelgoed|na"
@@ -4364,7 +4318,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|naturel-skyr|na"
@@ -4387,7 +4341,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|48-belegen-geraspte-goudse-jong-kaas|300g"
@@ -4410,7 +4364,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc5d208f3720f44f98964a62b54058893.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|groen-mat-rocktrail-slaapmat-zelfopblazende|na"
@@ -4433,7 +4387,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp74430ccba16b458d8895bd42aef3a13b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|kinder-luchtbed-peppa-pig-slaapzak|na"
@@ -4456,7 +4410,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2e7bced1a1354161bf32f5608486d0b8.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|mummieslaapzak-tambu|na"
@@ -4479,7 +4433,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe1f01e73619e4d0081a395b59fb53b72.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|lano-slaapmat-tambu|na"
@@ -4502,7 +4456,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpffa1e7c3115e435097377758db26443e.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|mummieslaapzak-nidra-tambu|na"
@@ -4525,7 +4479,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe58b8f35ec044b96a8c158404ad2cde2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|aardappelschijfjes|na"
@@ -4548,7 +4502,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp5ac42400412e49ecbfdcb53c7008c363.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|bureau-crelando-lades-organizer|5000ml"
@@ -4571,7 +4525,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6ca92cd1fedc46a8a9b1ae77dab6495f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|biertafelset-greemotion-remo-san|na"
@@ -4594,10 +4548,33 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6f479cfb2ade4cb98469ac09b90aa098.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|bistro-bodum-broodtrommel|na"
+  },
+  {
+    "priceType": "regular",
+    "id": "lidl-bf5b96b409e2",
+    "canonicalName": "crockpot csc063x digitale slowcooker",
+    "productName": "Crockpot Digitale Slowcooker »csc063x«, 7,",
+    "brand": "crockpot",
+    "store": "Lidl",
+    "packageSize": "5 l",
+    "weightInGrams": 5000,
+    "originalPrice": 75.99,
+    "effectivePrice": 75.99,
+    "unitPrice": 15.197999999999999,
+    "effectiveUnitPrice": 15.197999999999999,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.nl/assets/gcp0a3bcdd9a01145f891de4a9ae0e3b571.jpg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
+    "category": "Other",
+    "barcode": null,
+    "identityKey": "tok:unknown|crockpot-csc063x-digitale-slowcooker|5000ml"
   },
   {
     "priceType": "regular",
@@ -4617,7 +4594,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp145a71f5b2274898a8ced70fb1adf4ec.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|airfryer-easy-ey245b-fry-max-tefal|5000ml"
@@ -4640,7 +4617,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc5174d7627d94e778da23c417a24eed1.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|gourmetmaxx-rvs-waterkoker|8000ml"
@@ -4663,7 +4640,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2ee080e3701b4904b73193e4962da13f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|broodrooster-hobbs-russell|na"
@@ -4686,7 +4663,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp138de1f832894926b0cff2d3dad34bd1.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|csa230-koffiepadmachine-philips-select-senseo|na"
@@ -4709,7 +4686,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb89dbae65e5b4862aeb98886f6036f2f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|20415-broodrooster-hobbs-lift-lock-russell|na"
@@ -4732,7 +4709,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa9c170a1bdde42d9a9dede7fe352309d.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bialetti-espresso-klein-moka-set-theo|na"
@@ -4755,7 +4732,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb6b279a5482c4b4aa2d36d21152fb246.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|bistro-bodum-waterkoker|1000ml"
@@ -4778,7 +4755,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp42c90b9584034a1c9cab7a603513c682.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bodum-of-theepers-theepot|na"
@@ -4801,7 +4778,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp25dbf270e4254aa2835cecc176839177.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|00-airfryer-na229-philips|2000ml"
@@ -4824,7 +4801,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2b9e44eaa44848cebe768d9b9a8a74eb.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bistro-bodum-elektrische-koffiemolen|na"
@@ -4847,7 +4824,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdd641052cab3497d879b469c2dae504e.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bodum-koffijbereider-theebereider|na"
@@ -4870,7 +4847,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp75d8e8b2efa94631ace3bd21a412db13.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bodum-caffettiera-french-koffiezetter-press|1000ml"
@@ -4893,7 +4870,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp89e15e447cc042b7b874c11ba7d8490f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|2589-at-broodrooster-rvs-severin|na"
@@ -4916,7 +4893,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9780f297f038443cae7b558e2d4c3e6f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|10-hd9318-kunststof-philips-waterkoker|7000ml"
@@ -4939,7 +4916,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0197659497774bc0aaf590be61b15d19.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|blender-braun-ca-jb3150bk|5000ml"
@@ -4962,7 +4939,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa6619bb90eed4b398e4e9b910a74c4c1.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|delonghi-filterkoffiezetapparaat-icm16731|na"
@@ -4985,33 +4962,33 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe539f6c4c4d040228beb30aecf4a41ff.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|airfryer-masterpro|4000ml"
   },
   {
     "priceType": "regular",
-    "id": "lidl-0e98092a7513",
-    "canonicalName": "900 braun breakfast broodrooster sleuventoaster",
-    "productName": "Braun Broodrooster Breakfast 1 2 Sleuventoaster, 900 W",
+    "id": "lidl-33ab2850dbb0",
+    "canonicalName": "900 braun breakfast broodrooster sleuventoaster wit",
+    "productName": "Braun Broodrooster Breakfast 1 2 Sleuventoaster, 900 W (wit)",
     "brand": "braun",
     "store": "Lidl",
     "packageSize": "stuk",
     "weightInGrams": 1,
-    "originalPrice": 36.99,
-    "effectivePrice": 36.99,
-    "unitPrice": 36990,
-    "effectiveUnitPrice": 36990,
+    "originalPrice": 60.99,
+    "effectivePrice": 60.99,
+    "unitPrice": 60990,
+    "effectiveUnitPrice": 60990,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcp9813d84b6dd94472823e6ab0ab7c294d.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "productUrl": "https://www.lidl.nl/assets/gcpc9f14f715af149438d93c94b97c7a51b.jpg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
-    "identityKey": "tok:unknown|900-braun-breakfast-broodrooster-sleuventoaster|na"
+    "identityKey": "tok:unknown|900-braun-breakfast-broodrooster-sleuventoaster-wit|na"
   },
   {
     "priceType": "regular",
@@ -5031,7 +5008,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1a1e8b03770c4f4fb45a88e10bb38324.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|400-graef-melkopschuimer|na"
@@ -5054,7 +5031,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp449b111d0e944cc597428203b4065b04.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|63-ca6500-melkopschuimer-philips-senseo|na"
@@ -5068,16 +5045,16 @@
     "store": "Lidl",
     "packageSize": "stuk",
     "weightInGrams": 1,
-    "originalPrice": 43.99,
-    "effectivePrice": 43.99,
-    "unitPrice": 43990,
-    "effectiveUnitPrice": 43990,
+    "originalPrice": 40.99,
+    "effectivePrice": 40.99,
+    "unitPrice": 40990,
+    "effectiveUnitPrice": 40990,
     "promoType": null,
     "promoValue": null,
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2044eda4e76f43f5ab1049c9308eb975.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|bistro-bodum-pannenkoekenmixer|na"
@@ -5100,7 +5077,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa486fb0c493f4d3291dec14cd1c2b31f.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|1000-braun-filter-kf1100bk-koffiezetapparaat|na"
@@ -5123,7 +5100,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa13db5ddaba64f24a2eacaf1620b53b3.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bistro-bodum-glazen-koffiepot-nouveau-of-theepot|4g"
@@ -5146,10 +5123,33 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1c2730c8dc4c4f829f8b9e2c925818ed.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|airfryer-compact-easy-ey1458-fry-moulinex|3000ml"
+  },
+  {
+    "priceType": "regular",
+    "id": "lidl-220392693b9a",
+    "canonicalName": "bodum koffiezetapparaat programmeerbare",
+    "productName": "Bodum Programmeerbare Koffiezetapparaat",
+    "brand": "bodum",
+    "store": "Lidl",
+    "packageSize": "stuk",
+    "weightInGrams": 1,
+    "originalPrice": 99.99,
+    "effectivePrice": 99.99,
+    "unitPrice": 99990,
+    "effectiveUnitPrice": 99990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.nl/assets/gcpc3f3bc6508a847e1976805d66c49091e.jpg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
+    "category": "Beverages",
+    "barcode": null,
+    "identityKey": "tok:unknown|bodum-koffiezetapparaat-programmeerbare|na"
   },
   {
     "priceType": "regular",
@@ -5169,7 +5169,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp5772f230ed84466bb1db79a62f6026b0.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|frozen-kinder-of-pantoffels-spiderman|na"
@@ -5192,7 +5192,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpae89ae54b95d49949dbe6235d44820d5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|lupilu-meisjes-onderhemden|2x1count"
@@ -5215,7 +5215,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0f4de5b59c544e28a741d28e90aa906a.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|kinder-lupilu-thermoleggings|2x1count"
@@ -5238,7 +5238,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf51df8400d8842e8a622c7de3e5d2a37.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|kinder-lupilu-maillot-thermo|2x1count"
@@ -5261,7 +5261,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb2ff07d0f73d41f58d7a009755ef012f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|86-92-grijs-kinder-lupilu-maillot-thermo|na"
@@ -5284,33 +5284,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa1e8789521934c40ba463c16f472e479.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|kinderleggings-lupilu|2x1count"
-  },
-  {
-    "priceType": "regular",
-    "id": "lidl-12684edd8136",
-    "canonicalName": "bivakmuts kinder lupilu wijnrood",
-    "productName": "Lupilu® Kinder Bivakmuts (wijnrood)",
-    "brand": "lupilu",
-    "store": "Lidl",
-    "packageSize": "stuk",
-    "weightInGrams": 1,
-    "originalPrice": 8.99,
-    "effectivePrice": 8.99,
-    "unitPrice": 8990,
-    "effectiveUnitPrice": 8990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcp8a0521df4852425284e4ec48b5b40291.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Beverages",
-    "barcode": null,
-    "identityKey": "tok:unknown|bivakmuts-kinder-lupilu-wijnrood|na"
   },
   {
     "priceType": "regular",
@@ -5330,7 +5307,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa4902f65ded4454d82de44c5ca18f47f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|kinder-longsleeves-lupilu|2x1count"
@@ -5353,7 +5330,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6f7013c903e7424ba39f14170a0e5f69.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|koffer-opvouwbare-topmove|40000ml"
@@ -5376,7 +5353,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpba4e37c311644293b92b56bb6633d0f8.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|koffer-topmove|35000ml"
@@ -5399,7 +5376,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd71648a70e9542d1843b9c28d2b864c6.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|handbagage-hardcase-koffer-topmove|30000ml"
@@ -5422,7 +5399,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|koffiecups|44x1count"
@@ -5445,7 +5422,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/e84fa2058356429dd8c533a6b13edd28.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|28-cm-hobbs-koekenpan-russell|na"
@@ -5468,7 +5445,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/1828f214ec5d77a77b1b0e80e3d8d7af.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|24-cm-hobbs-koekenpan-russell|na"
@@ -5491,7 +5468,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8cb64bb643a14607b741c4fc311b11ec.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|broodbakvorm-zenker|na"
@@ -5514,7 +5491,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf1d1dbea69a448d58a49cdc44a7a07f6.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|vacu-vin-wijnset|na"
@@ -5537,7 +5514,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdd6c023f980049df97b3b3f5b81aa916.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|20-antiaanbaklaag-by-cm-e3140244-essentials-inductie-jamie-kitchen-koekenpan-oliver-pan-rvs-tefal|na"
@@ -5560,7 +5537,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcped2be62781f941edaf10074cfd3e9a7b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|dicer-genius-kaassnijder-kruidenmolen-maestro-nicer-of|na"
@@ -5583,7 +5560,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcped2d02645378450a9957b2dcb3939873.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|25-cm-pannenkoekenpan-tefal|na"
@@ -5606,7 +5583,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbdcbb037ecca4de693a3e40b04207732.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|500-hakmolen-tefal|500ml"
@@ -5629,7 +5606,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp16fe0fe336f54c759e933182a3467b38.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|24-cm-elemental-koekenpan-tefal|na"
@@ -5652,7 +5629,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp44456144329b467d8bfbcf71921f2236.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|24-cm-koekenpan-tefal|na"
@@ -5675,7 +5652,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp644ed4c565414c08b5a9e4509d2c2ccc.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|dicer-genius-groentesnijder-mando-nicer|na"
@@ -5698,7 +5675,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0353987916694988a0f87b8b7b291d6c.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|helm-nfl-snackschaal|na"
@@ -5721,7 +5698,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp91bd0e5441a546ecbd160f950cf41890.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|creative-essential-isi-lila-slagroomdispenser-whip|25000ml"
@@ -5744,7 +5721,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd55aa73cad4e410a91b63b9e4eb94ce5.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|masterpro-wijnset|na"
@@ -5767,7 +5744,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2d3ce52feb48425a8c34b43cb66889a9.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|28-cm-elemental-koekenpan-tefal|na"
@@ -5790,7 +5767,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa99eeded6dd64ea19466466a87db042b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|28-by-cm-easy-jamie-oliver-quick-roestvrijstalen-tefal-wokpan|na"
@@ -5813,7 +5790,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa808c08f07794632b8f38be31d99ce61.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|28-cm-koekenpan-tefal|na"
@@ -5836,7 +5813,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe21bcf0f0646413791764c19f58795c1.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|gietijzeren-gsw-mini-serveerpannen|2g"
@@ -5859,7 +5836,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1b27a00568ab4b6b9b1fac370a2be018.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|25-by-cm-e31471-essentials-jamie-kitchen-oliver-roestvrijstalen-serveerpan-tefal|na"
@@ -5882,7 +5859,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8960fe778b97429ba160cf53e32fa463.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|28-cm-e3030635-easy-koekenpan-quick-roestvrijstalen-tefal|na"
@@ -5905,7 +5882,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp52034cc6ed15476e8edca9656fb98fec.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|24-by-cm-e3030434-easy-jamie-koekenpan-oliver-quick-roestvrijstalen-tefal|na"
@@ -5928,7 +5905,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp513b012d31074cf591617116e963f04b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|24-bakelite-cm-duetto-koekenpan-tefal|na"
@@ -5951,7 +5928,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe8cffab5224444bf8542f25a3a35e0e0.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|dicer-genius-groentesnijder-nicer-speed|na"
@@ -5974,7 +5951,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpef33b507b9344d7f9f8d9f57604e2bc1.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|creative-essential-isi-slagroomspuit-whip|na"
@@ -5997,7 +5974,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbd1850e1aca7483b99955379bcbc06eb.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|50-70-cm-theedoeken-w5|3x1count"
@@ -6020,7 +5997,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpfcc08cc2f9af4fae8e27891449df6fe5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|20-basic-cm-koekenpan-line-sle|na"
@@ -6043,7 +6020,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp55771b46069942a5a2a691369dee7108.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|24-basic-cm-koekenpan-line-sle|na"
@@ -6066,7 +6043,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa60aa1f53b4a40fc88ba984898613169.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|20-24-basic-cm-koekenpannenset-line-sle|na"
@@ -6089,7 +6066,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd4a86a5c38674c888d7861f3cb8ff52e.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|canon-office-printcartridges-united|5x1count"
@@ -6112,7 +6089,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6653f8f290a1473d970f0202a2ccd22a.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|29xl-epson-multiverpakking-office-printercartridges-united|5x1count"
@@ -6135,7 +6112,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp07b9122c8d5546458c1b83f023bc2855.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|222-40-burg-chter-hangslotenset-incl-quadro-sb-sleutels|4x1count"
@@ -6158,7 +6135,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0f58de60aab6479d95c01845c7f071b5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|40-770-burg-chter-hangslotenset-incl-sb-sleutels-trio|3x1count"
@@ -6181,7 +6158,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb53f926588254aecaa5f71c0c35698f8.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|crelando-rolmes-snijmat-snijset|na"
@@ -6204,7 +6181,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp22e5ffe8bae64cebb2d938bcf88dd1ec.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|crelando-naaimachinetas|40000ml"
@@ -6227,7 +6204,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Bakery",
     "barcode": null,
     "identityKey": "tok:unknown|pat-vegan|150g"
@@ -6250,7 +6227,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp982b126ab03147d285adc5f8f7b39906.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|gootsteen-organizer-rvs-sponsbakje-vileda|na"
@@ -6273,7 +6250,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpef83b6bd153d43f3bb2d98a062a8d24c.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|hangende-organizer-w5|na"
@@ -6296,7 +6273,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp11e8bb0163c849cda1fbac53c3f83c30.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|boodschappenmand-w5|na"
@@ -6319,7 +6296,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpcb1c021bfcb14c8bbdeea18912e7e59e.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|boodschappenmand-koelfunctie-zwart|na"
@@ -6342,7 +6319,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp42be56967680496da823446ac51af646.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|keukenorganizer-rvs-vileda|na"
@@ -6365,7 +6342,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3818b15214504ab1bb87e6490942c700.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|bestekhouder-gootsteenorganizer-joseph-of|na"
@@ -6388,7 +6365,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc20ce200d9164ad3b8fa956ce98dd70d.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|gootsteen-houder-vileda-zuignap|na"
@@ -6411,7 +6388,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3cb6b7ec37274a6c8ad2cb8ebddbd98e.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|boodschappentrolleytas-opvouwbare-w5|na"
@@ -6434,7 +6411,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp319a9c50ae564b86826d1af55c1229aa.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|casa-design-forme-go-guzzini-saladebox-to|na"
@@ -6457,7 +6434,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe5bd0aee369e44749f312930e529bb03.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|casa-design-forme-guzzini-lunchbox|na"
@@ -6480,7 +6457,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbfdb8cd39a4f410489ccbdf1fb9bbf9e.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|broodtrommel-drinkfles-mepal-of|na"
@@ -6503,7 +6480,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf6e0a09413234df28c16e5d5b2762e37.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|40-boodschappentrolley-topmove|40000ml"
@@ -6526,7 +6503,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9a8f370b89184ee7a51f7b81903c6cda.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|boodschappenwagen|na"
@@ -6549,7 +6526,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp682445695ba34765a17906484939a0e3.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|boodschappentrolley|40000ml"
@@ -6572,7 +6549,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0cb465272711427cb8730a73f1470bd6.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|30-39-afdruipmat-cm-vileda|na"
@@ -6595,7 +6572,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpee958798262a485ea45ae6449f64943f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|keukenrolhouder-vileda-zuignap|na"
@@ -6618,7 +6595,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe7aae4ddf7b34db7a6e5e84de10f463e.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|afwasmiddeldispenser-sponsbakje-vileda|na"
@@ -6641,7 +6618,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9088c61320a14b5e8a5ee8658afe1372.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|afdruiprek-oprolbaar-rvs-vileda|na"
@@ -6664,7 +6641,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|intens-of-reine|1000ml"
@@ -6687,7 +6664,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2a0dbdad9c6b43cf933f655e563d8b9c.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|2000-aquabeads-glansparels-navulset|2000x1count"
@@ -6710,7 +6687,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa49fce68ddb54d389c001becfac3f900.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|canvasdoeken-crelando-of|3x1count"
@@ -6733,7 +6710,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp31edc6e57a9142b58ab4fd92a32bfde9.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|ijsset-kleiset-lupilu|na"
@@ -6756,7 +6733,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf51241ec3d2045f5a572dc3714af5770.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|aquabeads-hangers-knutselset-snoepjes-wateractiverend|na"
@@ -6779,7 +6756,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp17d83c1e8e4d4702aff105bb63b98bb5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|100-stickerstempel|100x1count"
@@ -6802,7 +6779,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp6a9f4aeeac444ade996b1f3aaa45cc58.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|and-dry-grundig-ms-roterend-scheerapparaat-wet|7130000ml"
@@ -6825,7 +6802,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8cf397dcc00c4ca38620aec72ba0c4d5.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Personal Care",
     "barcode": null,
     "identityKey": "tok:unknown|dentalux-elektrische-opzetborstels-tandenborstel|6x1count"
@@ -6848,7 +6825,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpac7a484ab13b4dc0b8ce8d1ed68669c6.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Household",
     "barcode": null,
     "identityKey": "tok:unknown|and-bissell-spot-stain-vlekkenreiniger|1000ml"
@@ -6871,7 +6848,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/a7601adddc01dc8f95d1524e732485da.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|hoeslaken-jersey-primera|na"
@@ -6894,7 +6871,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpec9dd58f67e54858a877114e6be73691.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|duo-klemmfix-lichtblick-rolgordijn|na"
@@ -6917,7 +6894,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe17a62eb0f64491983d259f5e9e33bff.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|60-70-cm-hoofdkussen-texels-wol|na"
@@ -6940,7 +6917,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp130a8308958d45b5817e956f17593aed.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|200-alo-cm-dekbed-emma-vera|na"
@@ -6963,7 +6940,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc1c44b13958f4ed1bd5a3f99ff4d29ce.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbedovertrek-voetbal|na"
@@ -6986,7 +6963,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd16cdf3d70d048f285f0a6fdb71e69c0.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbedovertrek-kinder-lupilu-polyester-satijn|na"
@@ -7009,7 +6986,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/0dd6d43a35c22cd3a7d3e4e53ddf04be.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|klemmfix-lichtblick-rolgordijn|na"
@@ -7032,10 +7009,33 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpef94989171e141189651994c3e9a0158.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|50-60-balette-cm-donzen-hoofdkussen-premium|na"
+  },
+  {
+    "priceType": "regular",
+    "id": "lidl-ab545fb04a96",
+    "canonicalName": "biberna fijne jersey kussenhoes",
+    "productName": "Biberna Fijne Jersey Kussenhoes",
+    "brand": "biberna",
+    "store": "Lidl",
+    "packageSize": "stuk",
+    "weightInGrams": 1,
+    "originalPrice": 9.99,
+    "effectivePrice": 9.99,
+    "unitPrice": 9990,
+    "effectiveUnitPrice": 9990,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.nl/assets/1809b0136c39b020bf196e7566c0bee3.jpeg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
+    "category": "Fruits & Vegetables",
+    "barcode": null,
+    "identityKey": "tok:unknown|biberna-fijne-jersey-kussenhoes|na"
   },
   {
     "priceType": "regular",
@@ -7055,7 +7055,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd586b91b25644604b18146afe2b0cf39.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-alo-cm-dekbed-emma-vera|na"
@@ -7078,7 +7078,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp72cb42a2cd1b4fd2b338870fe3e2bc58.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|220-240-cm-dekbedovertrek-mako-oliver-satijnen|na"
@@ -7101,7 +7101,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb6d895cf33b64b9283c13a7d8a7e5bb4.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbedovertrek-kinder-mon-pok|na"
@@ -7124,7 +7124,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc267101183b348a29dbc5a7e1090f171.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|200-cm-dekbedovertrek-mako-oliver-satijnen|na"
@@ -7147,7 +7147,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe71d7e653d284c888f4eb3481d70cf44.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|charme-padiro-vloerkleed|na"
@@ -7170,7 +7170,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd89eb3c202ef466bb55dd0009652b93f.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|kayoom-vloerkleed|na"
@@ -7193,7 +7193,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpce92b49d9def4b928296834a56899e7a.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|200-cm-dekbedovertrek-emma|na"
@@ -7216,7 +7216,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb6a102012e814bc6a24669263fbd215b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbedovertrek-flanellen-tailor-tom|na"
@@ -7239,7 +7239,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp500d627680724037b0965e9eff52e1c5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|d80-donzen-dur-fj-hoofdkussen|na"
@@ -7262,7 +7262,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbadeb006019048c18d8a7c8b35062b62.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbedovertrek-emma|na"
@@ -7285,7 +7285,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp85ca0344487f4f858821e98c78b8eed9.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|all-dekbed-donzen-dur-fj-year|na"
@@ -7308,7 +7308,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9f225af7467a44e1a412eb6536047fe5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|200-cm-dekbedovertrek-flanellen-tailor-tom|na"
@@ -7331,7 +7331,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp395ea1a54f1f4fbaa813c9f318254497.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|220-240-cm-dekbedovertrek-flanellen-tailor-tom|na"
@@ -7354,7 +7354,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp264bdefe78f146c1974966ecdb3cee40.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|200-alo-cm-emma-vera-zomerdekbed|na"
@@ -7377,7 +7377,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3452e05e956f4c70a29ab3fa82a5f1ec.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|220-240-by-cm-dekbedovertrek-joop-looks-mako-satijn-wolfgang|na"
@@ -7400,7 +7400,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe44a6cb4173e47ad9e2d956499c0f1b8.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|donzen-hoofdkussen-premium-ussling|na"
@@ -7423,7 +7423,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/06d476bc0dba6875b931beb521c6a8c4.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbed-donzen-dur-fj|na"
@@ -7446,7 +7446,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/2c4006acae16bfbb7afadecbff3ff71f.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|balette-dekbed-donzen-premium-selection|na"
@@ -7469,7 +7469,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpad721c21dcd345688de3a58d9f64b161.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|gordijn-klemmfix-lichtblick-pliss|na"
@@ -7492,7 +7492,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/05d07f98c6bafdaab98aaee9f4f7997d.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|biberna-hoeslaken-jersey|na"
@@ -7515,7 +7515,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/47f882ce056d4c225f9d002dd25365e1.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|gordijn-lichtblick-pliss|na"
@@ -7538,7 +7538,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd50e1b8bab1349aeb3a9148dbdda956c.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-alo-cm-emma-vera-zomerdekbed|na"
@@ -7561,7 +7561,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/a4a7e0b5cff2535c4a28a651cc45f31a.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|dakraam-lichtblick-zonnescherm|na"
@@ -7584,7 +7584,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3be66ce7f2b44eabbf2ec98fbe3e4c34.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|balette-dekbed-donzen|na"
@@ -7607,10 +7607,33 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe45f9a8772894311b919bb60cb046e6f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|60-70-balette-cm-donzen-hoofdkussen|na"
+  },
+  {
+    "priceType": "regular",
+    "id": "lidl-cc4f298d4b7e",
+    "canonicalName": "220 240 cm dekbedovertrek emma grijs",
+    "productName": "Emma Dekbedovertrek 240 X 220 Cm (grijs)",
+    "brand": "emma",
+    "store": "Lidl",
+    "packageSize": "240 x 220 cm (grijs) 29.99",
+    "weightInGrams": null,
+    "originalPrice": 29.99,
+    "effectivePrice": 29.99,
+    "unitPrice": 29.99,
+    "effectiveUnitPrice": 29.99,
+    "promoType": null,
+    "promoValue": null,
+    "promoQuantity": null,
+    "promoValidUntil": null,
+    "productUrl": "https://www.lidl.nl/assets/gcpb1394b44e6c64bdcbad3c83750127cb5.jpg",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
+    "category": "Fruits & Vegetables",
+    "barcode": null,
+    "identityKey": "tok:unknown|220-240-cm-dekbedovertrek-emma-grijs|na"
   },
   {
     "priceType": "regular",
@@ -7630,7 +7653,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/63cddc4e617ad9c611e3b965fa4bab51.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-cotton-hoofdkussen-soft|na"
@@ -7653,7 +7676,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpcbe752e79dd94467949a9dc216f00588.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|50-60-by-cm-joop-kussensloop-looks-satijnen-wolfgang|na"
@@ -7676,7 +7699,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbb44b65789c54ac59b3688a7de7e51c4.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|dacho-kledingkast-vcm|na"
@@ -7699,33 +7722,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpdbe01f476aa946ffa5d5314784ec4c3a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|donzen-hoofdkussen-sannwald|na"
-  },
-  {
-    "priceType": "regular",
-    "id": "lidl-cec0c0fd7aac",
-    "canonicalName": "220 240 cm dekbedovertrek emma grijs",
-    "productName": "Emma Dekbedovertrek 240 X 220 Cm (grijs)",
-    "brand": "emma",
-    "store": "Lidl",
-    "packageSize": "240 x 220 cm (grijs) 49.99",
-    "weightInGrams": null,
-    "originalPrice": 49.99,
-    "effectivePrice": 49.99,
-    "unitPrice": 49.99,
-    "effectiveUnitPrice": 49.99,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/gcpb1394b44e6c64bdcbad3c83750127cb5.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Fruits & Vegetables",
-    "barcode": null,
-    "identityKey": "tok:unknown|220-240-cm-dekbedovertrek-emma-grijs|na"
   },
   {
     "priceType": "regular",
@@ -7745,7 +7745,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp83f66d84acfd4127a5e4ba765ec231b9.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|135-200-all-beco-cm-dekbed-klimatop-medium-tencel-year|na"
@@ -7768,7 +7768,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp5e65f2ec8f414b748d659e2ca6cb8a74.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|nachtkastje-vcm|na"
@@ -7791,33 +7791,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/d413dd4db9ed2acb62e768cbfe0ea28b.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|biologisch-katoen-kussen|na"
-  },
-  {
-    "priceType": "regular",
-    "id": "lidl-ab545fb04a96",
-    "canonicalName": "biberna fijne jersey kussenhoes",
-    "productName": "Biberna Fijne Jersey Kussenhoes",
-    "brand": "biberna",
-    "store": "Lidl",
-    "packageSize": "stuk",
-    "weightInGrams": 1,
-    "originalPrice": 9.99,
-    "effectivePrice": 9.99,
-    "unitPrice": 9990,
-    "effectiveUnitPrice": 9990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": "https://www.lidl.nl/assets/1809b0136c39b020bf196e7566c0bee3.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Fruits & Vegetables",
-    "barcode": null,
-    "identityKey": "tok:unknown|biberna-fijne-jersey-kussenhoes|na"
   },
   {
     "priceType": "regular",
@@ -7837,7 +7814,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc1539a2580af4d1fa6c22ede9f3bb971.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|10-cm-collection-luminous-minecraft-noble-ore-redstone-the|na"
@@ -7860,7 +7837,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/1b657a4c8b5076984a1fc2f63cf5ddb7.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|duo-lichtblick-rolgordijn|na"
@@ -7883,7 +7860,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/e025dc3615aac22904a62349a355b871.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|40-80-balette-cm-donzen-hoofdkussen|na"
@@ -7906,7 +7883,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe7bd54bb22f6440692c66ecf44a4400e.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbedovertrek-katoen-michalsky-satijn|na"
@@ -7929,7 +7906,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/d73d0b14e64512cc3f6824400697618d.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-hoofdkussen|na"
@@ -7952,7 +7929,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp42fd26fc526b46d181f1ab83883c249f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-hoofdkussen-medibett|na"
@@ -7975,7 +7952,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp19ab07ee9a1f48a0893ff4b3a265b0d4.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|cotton-hoofdkussen-john-royal|na"
@@ -7998,7 +7975,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/cfb4af766d1884b74597f1b8eeb40b61.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|donzen-ussling-zomerdekbed|na"
@@ -8021,7 +7998,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/6886b055776ba01c7766b54fd82493bf.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|155-220-beco-cm-royal-soft-winterdekbed|na"
@@ -8044,7 +8021,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/3c211654356b2ff6c79b59166c8b412a.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|155-220-beco-cm-cotton-medibett-soft-warm-winterdekbed|na"
@@ -8067,7 +8044,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp95aa58530c194310809e539a00bfbc4b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dekbedovertrek-mako-oliver-satijn|na"
@@ -8090,7 +8067,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/cc31fa872b3432b5409b96e73096ebb9.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-hoofdkussen-royal-soft|na"
@@ -8113,7 +8090,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/8615785928fb0587df0f03f7b296cf54.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-cotton-soft-zomerdekbed|na"
@@ -8136,7 +8113,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp89597b085f774d828bbcccf308779ae6.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-hoofdkussen-klimatop-tencel|na"
@@ -8159,7 +8136,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/a98c37a25e0b73164596284b5d12ab02.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|biologisch-dekbed-katoen|na"
@@ -8182,7 +8159,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/75d0264e3dabfa2f4a3e4d923a16b678.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|dons-hoofdkussen-sannwald-veren|na"
@@ -8205,7 +8182,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/a34d1d6c40d3a4182b28540e24347c37.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|dekbed-medisan|na"
@@ -8228,7 +8205,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb7f7bd4ba0b04007871a5cba22959fe7.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|all-cotton-dekbed-john-royal-year|na"
@@ -8251,7 +8228,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp5675e315e3254a08b01d0e79b2301306.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|200-cm-dekbed-donzen-dur-fj-licht-zomer|na"
@@ -8274,7 +8251,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpaf079988193e4c6da9de68f5b67d50d8.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|point-scuba-sitting-zitzak|na"
@@ -8297,7 +8274,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp789df3f1b8be4ade8fc0ce11330712ba.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|imala-padiro-vloerkleed|na"
@@ -8320,7 +8297,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpeda596e31bfd4b44a34ebe870ea12ce8.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|donzen-hoofdkussen-royal-ussling|na"
@@ -8343,7 +8320,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/53029b84c7975e351ba0fce128d6dabd.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|cairo-hoofdkussen-kamelenhaar-sannwald|na"
@@ -8366,7 +8343,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/87849d5b57ca8432aeed1f695a5b8e7e.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|hoofdkussen-medisan|na"
@@ -8389,7 +8366,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8cc9a00640c049df8cf1eaf18238241c.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|kinderbed-lattenbodem-roba|na"
@@ -8412,7 +8389,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb66c4a5590b74df3bdb8acce2620ce6e.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|breckle-lattenbodem-superior|na"
@@ -8435,7 +8412,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc2e4a53dfef04d3eb6e4511ef275362b.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|inter-ivyna-link-nachtkastje|na"
@@ -8458,7 +8435,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/b4e2f227883d0a49db91a78071c4d07d.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|dons-hoofdkussen-premium-sannwald-veren|na"
@@ -8481,7 +8458,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb575f2819f3b45fa81862040c590598a.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-cm-dunlopillo-life-premium-winterdekbed|na"
@@ -8504,7 +8481,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/05ac377a9022b00b5077a91079ec3d6a.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|medisan-winterdekbed|na"
@@ -8527,7 +8504,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/6600f5c18b2b8ccfa30beceb234666e0.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-proneem-zomerdekbed|na"
@@ -8550,7 +8527,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp7b096eb9abd94f2c90e1f2c310630d9b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|beco-klimatop-tencel-zomerdekbed|na"
@@ -8573,7 +8550,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/80a65020a3978b34f74b873b610570bb.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|medisan-zomerdekbed|na"
@@ -8596,7 +8573,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/c8a96ae38d473354e14f361973237f77.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|cairo-sannwald-zomerdekbed|na"
@@ -8619,7 +8596,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpedbe1fd011054452a76b05ca3639e4ce.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|emel-houten-inter-kist-link-massief-naturel|na"
@@ -8642,7 +8619,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0f861750ba104e19827a7fc94c5e8c11.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|hailey-padiro-vloerkleed|na"
@@ -8665,7 +8642,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp29651fca9ba149c4ab0c1c914bbe6fca.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|200-by-cm-dekbedovertrek-joop-looks-mako-satijn-wolfgang|na"
@@ -8688,7 +8665,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpb74c8820a79d44a0ad98acaac14f6fd8.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|140-200-by-cm-dekbedovertrek-joop-looks-mako-satijn-wolfgang|na"
@@ -8711,7 +8688,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3ed9a605b15948e0a61008fbe2d46b32.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:pepsi|cheddar-lay-sensations|na"
@@ -8734,7 +8711,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf558bd79f49048adab739361980a91cb.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|crackers-moon|na"
@@ -8757,7 +8734,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp97a11f499d5749b5924936086d52cb6a.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|golden-sparklers-xxl|na"
@@ -8780,7 +8757,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcped9eaf9b7b8549a7b963f5175cb47873.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|alesto-amandelen-selection|na"
@@ -8803,7 +8780,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf9a52aa396564056a62211de565b3140.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|auto-hot-klein-theo-verzamelkoffer-wheels|na"
@@ -8826,7 +8803,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe690d244089b4447a9f74aab9c9a1a22.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|1000-collection-harry-map-marauder-noble-potter-puzzel-stukjes-the|1000x1count"
@@ -8849,7 +8826,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbefe753b4a3c49c3ba5e5880686d0157.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|dierenfiguren-lupilu|5x1count"
@@ -8872,7 +8849,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp64979db584844cda86aa5bc50be3f4f7.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|of-poeh-simba-slaapknuffel-stitch-the-winnie|na"
@@ -8895,7 +8872,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbbef57bc734b4960bca29e59eb89b3e1.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|attack-city-croco-gorilla-hot-of-pizza-slam-speelset-wheels|na"
@@ -8918,7 +8895,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp0a6c4397027746f09eca61ade56b56eb.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Frozen Foods",
     "barcode": null,
     "identityKey": "tok:unknown|bestuurbare-crane-dickie-hijskraan-mighty|na"
@@ -8941,7 +8918,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf250753ab156406ea65bf95dcc850a73.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|1000-lupilu-puzzel-stukjes|1000x1count"
@@ -8964,7 +8941,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpa13034a4e6fa479e8665f08264b245ab.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|3000-clementoni-puzzel-stukjes|3000x1count"
@@ -8987,7 +8964,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf72c9900f9dc4d379b86ff3119ca3103.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|barbie-eenhoorn-pop-saphire|na"
@@ -9010,7 +8987,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp56b7d0e99d2c4275ad28b496b881ee29.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|herbruikbare-lupilu-waterballonnen|6x1count"
@@ -9033,7 +9010,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp18d52748f3144c74b42041d57e9183cf.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Snacks",
     "barcode": null,
     "identityKey": "tok:unknown|33-barbie-bows-cm-cutie-pop-reveal-sweet|na"
@@ -9056,7 +9033,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpee71d50c06fb4b1297c6d30b72a20225.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|bestuurbare-botsauto-lupilu|2x1count"
@@ -9079,33 +9056,10 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf25cfa2d8db74cb6a7b8c20235523aef.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|1000-puzzel-ravensburger-stukjes|1000x1count"
-  },
-  {
-    "priceType": "promotion",
-    "id": "lidl-d0a7161ef613",
-    "canonicalName": "139 395 3in1 adviesprijs beoordelingen bissell crosswave door fabrikant geadviseerde multifunctionele sterren totale vloerreiniger",
-    "productName": "3in1 Multifunctionele Vloerreiniger Crosswave Voor 139 Eur 4.2 (395) 5 Sterren (395 Totale Beoordelingen) Bissell Adviesprijs: * 139.- Door Fabrikant Geadviseerde Prijs",
-    "brand": "multifunctionele",
-    "store": "Lidl",
-    "packageSize": "stuk",
-    "weightInGrams": 1,
-    "originalPrice": 349.99,
-    "effectivePrice": 349.99,
-    "unitPrice": 349990,
-    "effectiveUnitPrice": 349990,
-    "promoType": null,
-    "promoValue": null,
-    "promoQuantity": null,
-    "promoValidUntil": null,
-    "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
-    "category": "Frozen Foods",
-    "barcode": null,
-    "identityKey": "tok:unknown|139-395-3in1-adviesprijs-beoordelingen-bissell-crosswave-door-fabrikant-geadviseerde-multifunctionele-sterren-totale-vloerreiniger|na"
   },
   {
     "priceType": "regular",
@@ -9125,7 +9079,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3104ff2f386c49fcb3b4d648310ef3ff.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|25-kledinghangers-w5|25x1count"
@@ -9148,7 +9102,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9009927d8435412ea9e026d3d522ecfa.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|20-houten-kledinghangers-naturel-w5|20x1count"
@@ -9171,7 +9125,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4111d5c938094c958c64def46917efa0.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|500-emsa-essential-mug-thermosbeker-travel|500ml"
@@ -9194,7 +9148,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpe18bd9ba969041a991d5b16a1bb7bcd7.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|360-emsa-mug-tefal-thermosbeker-travel|360ml"
@@ -9217,7 +9171,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpaaa11997aa35401b981a077ee2345520.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bierpongset-ernesto|na"
@@ -9240,7 +9194,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3694459aa2d54ade8018c863560a6437.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|barbie-kinder-ontbijtset|na"
@@ -9263,7 +9217,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpcd7fecfdb1114f41a1ea792b3c49800f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|drinkglazen-leonardo-tavolino|6x1count"
@@ -9286,7 +9240,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf429551ccfd14d6c852c118d64ba9dc2.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|700-drinkfles-dubbelwandig-rvs-tefal|700ml"
@@ -9309,7 +9263,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp12b516c85929418c98b20f637011e4b3.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|genius-slacentrifuge|na"
@@ -9332,7 +9286,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpf1c0b87130984120a345e3470713551f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|basic-boch-cottage-new-ontbijtbord-villeroy|2x1count"
@@ -9355,7 +9309,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1d3aa8a23aeb412dba8b3cd02df8fb38.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|karaf-leonardo-tavolino|2000ml"
@@ -9378,7 +9332,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp873c0d431e3f4de186074734644e6c57.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|creatable-koffiekopjes-wit|na"
@@ -9401,7 +9355,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp86624c79d2a145bebb4782670856de9f.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|600-ekogrid-multicomposter|600000ml"
@@ -9424,7 +9378,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp42b2baed46df4b389f507015aac256fc.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|260-compostmodule-ekogrid|260000ml"
@@ -9447,7 +9401,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc0c3933baccd4fa084d4e1f492d34de7.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|doppio-gieter-groove-xala|2000ml"
@@ -9470,7 +9424,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp201c615675974029a87470df65fd028b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|gieter-kappu-xala|2000ml"
@@ -9493,7 +9447,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9b4dda3d2ed74e49ac925f7328e3ae9a.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|afvoerpijpen-eos-helena-tuinkas-vitavia-zeus|2x1count"
@@ -9516,7 +9470,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpfa70c553a9c948279d9749d9161c755c.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|200-dobar-metaal-op-stok-vogelbad|200ml"
@@ -9539,7 +9493,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpee5b3047d5944e57be3d6d1f61e51b30.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|chai-gieter-xala-zwart|10000ml"
@@ -9562,7 +9516,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp3b0bd42142fd43a8bebe7f30e0e67a01.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|dobar-grote-landingsringen-metaal-voedersilo-vogels|3000ml"
@@ -9585,7 +9539,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpee85368985c947d788b6f020ffe7ce0d.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|gieter-matcha-xala|4000ml"
@@ -9608,7 +9562,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/8fc4bc86366982583cf68ba350c97dff.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|basis-gardena-set-tuinslangkoppelingen|na"
@@ -9631,7 +9585,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp594c05d6587b4f5d8259cc43e200b6f2.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|cleverroll-easy-gardena-tuinslangwagen|na"
@@ -9654,7 +9608,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp2698730d8815438b9ea84d3613084931.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|classic-gardena-haspel-tuinslang|na"
@@ -9677,7 +9631,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|gerookte-zalm|220g"
@@ -9700,7 +9654,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|in-tonijn-zonnebloemolie|185g"
@@ -9723,7 +9677,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": null,
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Other",
     "barcode": null,
     "identityKey": "tok:unknown|peulen|250g"
@@ -9746,7 +9700,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp345721d2c5d8476ab601bd1e7bf81e8b.jpg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|fischer-ijzerwarenassortiment|na"
@@ -9769,7 +9723,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp8b86b9bb1cf44c2da7cddfc951d6249e.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|kordaat|na"
@@ -9792,7 +9746,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp5bd1123570304d25a6969d4a5575ad82.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|kordaat-radler|na"
@@ -9815,7 +9769,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpbc7c517a66a040a8aeb4c17b5af5e9f3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|grapefruit-kordaat-radler|na"
@@ -9838,7 +9792,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp78579bc60df143dd8fc9a766175620a3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|kordaat-witbier|na"
@@ -9861,7 +9815,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpd020ea1c24af4b4ea0becb6fd3ae1183.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|kordaat-pils-premium|na"
@@ -9884,7 +9838,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc60d9dc2f6594a2cae45cb0765942830.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|kordaat-krat|na"
@@ -9907,7 +9861,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp90a37071cf564f6da55ffcb77d2911d5.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|kordaat-xxl|na"
@@ -9930,7 +9884,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp1e69503ee47d486abfae4e82f63b7c77.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|blond-leffe|na"
@@ -9953,7 +9907,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp00815c9515984fb0893dca24adfaf2b3.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|hertog-jan|na"
@@ -9976,7 +9930,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp9acd55f5d9764b31acbb1a2f3123a781.jpeg",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Pantry",
     "barcode": null,
     "identityKey": "tok:unknown|bag-bean-kicker-of-point-sitting-voetbal|na"
@@ -9999,7 +9953,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp807c6313e27145e7afed0dcc38e96b4b.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Beverages",
     "barcode": null,
     "identityKey": "tok:unknown|bellarom-koffiecups|na"
@@ -10022,7 +9976,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp4291ea1b051449b286f4c870eeff7f42.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|in-nixe-tonijn-zonnebloemolie|na"
@@ -10045,7 +9999,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp429f507c530e42158d53434845b26e12.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Meat & Seafood",
     "barcode": null,
     "identityKey": "tok:unknown|gerookte-nautica-zalm|na"
@@ -10068,7 +10022,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpc7d43e87011344dd9c9ca8b6a50b5588.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|slagersachterham-zwagerman|na"
@@ -10091,7 +10045,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp44343802731546d08daa0db76f44550f.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Dairy & Eggs",
     "barcode": null,
     "identityKey": "tok:unknown|48-belegen-geraspte-goudse-jong-kaas-milbona|na"
@@ -10114,7 +10068,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcpfc0f86d8c9314fd5824725ba1787a040.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|fruit-taksi-tropisch|na"
@@ -10137,7 +10091,7 @@
     "promoQuantity": null,
     "promoValidUntil": null,
     "productUrl": "https://www.lidl.nl/assets/gcp47e60d548d8c445cb74ad2bd7004ad90.png",
-    "scrapedAt": "2026-11-06T04:04:04.620Z",
+    "scrapedAt": "2026-11-07T03:39:45.796Z",
     "category": "Fruits & Vegetables",
     "barcode": null,
     "identityKey": "tok:unknown|appel-noten-pencee|na"
