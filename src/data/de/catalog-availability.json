@@ -6,10 +6,10 @@
       "store": "edeka",
       "available": true,
       "reason_codes": [],
-      "products": 1685,
-      "last_successful_at": "2026-11-14T05:37:24.417926+00:00",
-      "available_until": "2026-11-16T05:37:24.417926+00:00",
-      "catalog_sha256": "55116686ddd6b41bb8cb036b545a62c3ccd447f2546e70a24cd835b8e5beecf8"
+      "products": 1684,
+      "last_successful_at": "2026-11-15T05:29:03.031191+00:00",
+      "available_until": "2026-11-17T05:29:03.031191+00:00",
+      "catalog_sha256": "0a8df86c7a0b56d41ca41581081abd2626d294d5865406b8119f5474e7c1be42"
     },
     {
       "country": "de",
@@ -29,10 +29,10 @@
       "store": "lidl-de",
       "available": true,
       "reason_codes": [],
-      "products": 367,
-      "last_successful_at": "2026-11-14T05:39:58.982157+00:00",
-      "available_until": "2026-11-16T05:39:58.982157+00:00",
-      "catalog_sha256": "b468aee74d1a9bc3d40a5007a2db030e8eb9be4cb72858b17d788a2a01831836"
+      "products": 375,
+      "last_successful_at": "2026-11-15T05:30:29.404285+00:00",
+      "available_until": "2026-11-17T05:30:29.404285+00:00",
+      "catalog_sha256": "1b2cc443130354f15dd1328e05dd2803bf78b5421e80c231645e185587dacbe5"
     },
     {
       "country": "de",
@@ -40,9 +40,9 @@
       "available": true,
       "reason_codes": [],
       "products": 1211,
-      "last_successful_at": "2026-11-14T05:41:56.268726+00:00",
-      "available_until": "2026-11-16T05:41:56.268726+00:00",
-      "catalog_sha256": "89158cafc2f5c4fbf9c3930d02dbfa45b381c66f41ef3eb1192badc66c6311ab"
+      "last_successful_at": "2026-11-15T05:33:20.594668+00:00",
+      "available_until": "2026-11-17T05:33:20.594668+00:00",
+      "catalog_sha256": "2c19b83b2ca72039b8ba926423aca423be3a3f5365a08ff0e377e1e75ec080cb"
     },
     {
       "country": "de",
