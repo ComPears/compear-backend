@@ -21,7 +21,7 @@
     "heic-convert": "^2.1.0",
     "helmet": "^8.3.0",
     "multer": "^2.5.0",
-    "openai": "^7.53.0",
+    "openai": "^7.56.0",
     "pg": "^8.23.1",
     "playwright": "^1.65.0"
   },
