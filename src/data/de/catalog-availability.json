@@ -6,10 +6,10 @@
       "store": "edeka",
       "available": true,
       "reason_codes": [],
-      "products": 1670,
-      "last_successful_at": "2026-11-19T06:42:06.200108+00:00",
-      "available_until": "2026-11-21T06:42:06.200108+00:00",
-      "catalog_sha256": "0eab7b7e9c10ef60da1e47c3a6f9969c1c405184b7d87278966729086117af94"
+      "products": 1680,
+      "last_successful_at": "2026-11-20T06:24:43.684365+00:00",
+      "available_until": "2026-11-22T06:24:43.684365+00:00",
+      "catalog_sha256": "e430501a3ee85dcfd18a929e6fd4d6abe1b58d034e4ebf66fd30bcfe000d484a"
     },
     {
       "country": "de",
@@ -29,20 +29,20 @@
       "store": "lidl-de",
       "available": true,
       "reason_codes": [],
-      "products": 398,
-      "last_successful_at": "2026-11-19T06:48:54.559492+00:00",
-      "available_until": "2026-11-21T06:48:54.559492+00:00",
-      "catalog_sha256": "8599312b142da9e21a2ac8c975a12c87d77277565c4a4c9c9abdeb0b8a62fc71"
+      "products": 401,
+      "last_successful_at": "2026-11-20T06:29:18.066854+00:00",
+      "available_until": "2026-11-22T06:29:18.066854+00:00",
+      "catalog_sha256": "d5f77521d59ec1627d0f67e7d0e226d18cbe3cec8a97797de011ac9be4710eb4"
     },
     {
       "country": "de",
       "store": "aldi-sud",
       "available": true,
       "reason_codes": [],
-      "products": 1219,
-      "last_successful_at": "2026-11-19T06:50:40.263678+00:00",
-      "available_until": "2026-11-21T06:50:40.263678+00:00",
-      "catalog_sha256": "34f5603f6bfdcbff2d6540858d2e8550a47fa0123003bae0291a99686fa16e76"
+      "products": 1214,
+      "last_successful_at": "2026-11-20T06:34:05.256744+00:00",
+      "available_until": "2026-11-22T06:34:05.256744+00:00",
+      "catalog_sha256": "acf54e7df22617d67833c0e4a94687e657e594397fd5d0914312a9e7bb0c0d53"
     },
     {
       "country": "de",
