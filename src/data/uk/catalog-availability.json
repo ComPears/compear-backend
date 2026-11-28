@@ -16,10 +16,10 @@
       "store": "sainsburys",
       "available": true,
       "reason_codes": [],
-      "products": 2311,
-      "last_successful_at": "2026-11-27T07:12:37.477416+00:00",
-      "available_until": "2026-12-04T07:12:37.477416+00:00",
-      "catalog_sha256": "c00b2fc34d2b2fca2ba137e9341d2e6424f36d111dad812f20b20f5061fcaa95"
+      "products": 2292,
+      "last_successful_at": "2026-11-28T06:49:58.511447+00:00",
+      "available_until": "2026-12-05T06:49:58.511447+00:00",
+      "catalog_sha256": "2aadaf64c71ad53470e92ff2a3547665d2238e9c15776d729cb0c520081b1ad1"
     },
     {
       "country": "uk",
@@ -38,10 +38,10 @@
       "store": "morrisons",
       "available": true,
       "reason_codes": [],
-      "products": 1420,
-      "last_successful_at": "2026-11-27T07:15:04.674266+00:00",
-      "available_until": "2026-11-29T07:15:04.674266+00:00",
-      "catalog_sha256": "90d52ba947886ee703e76ff894a8d96c73fc187afb1d936c934582dc57a764dd"
+      "products": 1419,
+      "last_successful_at": "2026-11-28T06:52:38.916554+00:00",
+      "available_until": "2026-11-30T06:52:38.916554+00:00",
+      "catalog_sha256": "e39fb6378f390b11091c3bbfaa9bba44899994af98bfd61e5762db96b87b1e88"
     },
     {
       "country": "uk",
@@ -49,9 +49,9 @@
       "available": true,
       "reason_codes": [],
       "products": 1469,
-      "last_successful_at": "2026-11-27T07:20:26.615264+00:00",
-      "available_until": "2026-11-29T07:20:26.615264+00:00",
-      "catalog_sha256": "e5702f4f71cffc3d596b16d13b22d683949cfee03234105b9dfe0fc20b44df26"
+      "last_successful_at": "2026-11-28T06:53:31.640632+00:00",
+      "available_until": "2026-11-30T06:53:31.640632+00:00",
+      "catalog_sha256": "08f091e11eef47db2886af7dc1730485c68fb8567a711332f295feeeb73bb461"
     },
     {
       "country": "uk",
@@ -59,9 +59,9 @@
       "available": true,
       "reason_codes": [],
       "products": 214,
-      "last_successful_at": "2026-11-27T07:21:24.950452+00:00",
-      "available_until": "2026-11-29T07:21:24.950452+00:00",
-      "catalog_sha256": "af2e712c420b2517618a21ad3705e69228a134bd6dcd25f49498d63a70a7e2f9"
+      "last_successful_at": "2026-11-28T06:54:02.196312+00:00",
+      "available_until": "2026-11-30T06:54:02.196312+00:00",
+      "catalog_sha256": "ecefb4ef3df3313a895a686040d214f895df8e2e261464764f0f9a15c2240d5e"
     }
   ]
 }
